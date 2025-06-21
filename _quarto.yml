@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  title: "Train the Trainer: Student Track"
+  page-navigation: true
+  navbar:
+    right:
+      - about.qmd
+    left:
+      - href: index.qmd
+        text: Home
+      - href: index.qmd # exchange with help.qmd
+        text: Help
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    contents:
+      - section: "Test Module"
+        contents:
+          - href: materials/test-module/test-S1_topic.qmd
+      - section: "Module 1"
+        contents:
+          - href: materials/module-1/M1-S1/M1-S1_topic.qmd
+         # - href: materials/module-1/M1-S2/index.qmd
+      - section: "Module 2"
+        contents:
+          #- href: materials/module-2/M2-S1/M2-S1_another-topic.qmd
+      - section: "Module 3"
+        contents:
+          #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
+      - section: "Module 4"
+        contents:
+          #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
+      - section: "Module 5"
+        contents:
+          #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
+      - section: "Module 6"
+        contents:
+          #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: website-custom.css
+    toc: true
