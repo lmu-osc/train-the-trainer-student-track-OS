@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Train the Trainer: Student Track"
+  title: "Train the Trainer: Student Track: OS Content"
   page-navigation: true
   navbar:
     right:
@@ -10,7 +10,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: index.qmd # exchange with help.qmd
+      - href: help.qmd
         text: Help
   sidebar:
     style: "docked"
@@ -19,23 +19,26 @@ website:
       - section: "Test Module"
         contents:
           - href: materials/test-module/test-S1_topic.qmd
-      - section: "Module 1"
+      - section: "Module 1: Open Science Principles"
         contents:
-          - href: materials/module-1/M1-S1/M1-S1_topic.qmd
-         # - href: materials/module-1/M1-S2/index.qmd
-      - section: "Module 2"
+          # - href: materials/module-1/M1-S0-Module-Intro/M1-S0_Module-Intro.qmd
+           - href: materials/module-1/M1-S1-Intro-OS/M1-S1-Intro-OS.qmd
+          # - href: materials/module-1/M1-S2-Reproducibility-Replicability/M1-S2-Reproducibility-Replicability.qmd
+          # - href: materials/module-1/M1-S3-Credibility-Revolution/M1-S3-Credibility-Revolution.qmd
+      - section: "Module 2: Open Science Methodological Foundations"
         contents:
-          #- href: materials/module-2/M2-S1/M2-S1_another-topic.qmd
-      - section: "Module 3"
+          - href: materials/module-2/M2-S0-Module-Intro/M2-S0-Module-Intro.qmd
+          # - href: materials/module-2/M2-S1-QRPs/M2-S1-QRPs.qmd
+          # - href: materials/module-2/M2-S2-Effect-Sizes/M2-S2-Effect-Sizes.qmd
+          # - href: materials/module-2/M2-S3-Statistical-Power/M2-S3-Statistical-Power.qmd
+          # - href: materials/module-2/M2-S4-Exploratory-Confirmatory-Analysis/M2-S4-Exploratory-Confirmatory-Analysis.qmd
+      - section: "Module 3: Open Science Tools"
         contents:
           #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
-      - section: "Module 4"
+      - section: "Module 4: Open Code and Open Data"
         contents:
           #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
-      - section: "Module 5"
-        contents:
-          #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
-      - section: "Module 6"
+      - section: "Module 5: Open Results"
         contents:
           #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
 
