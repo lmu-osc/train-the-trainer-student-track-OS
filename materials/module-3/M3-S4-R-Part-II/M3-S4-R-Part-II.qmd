@@ -1,13 +1,13 @@
 ---
-title: "What is Open Science?"
+title: "Introduction to R: Part II"
 ---
 
-> Something
+> Something nice here
 
-[Full Screen](M1-S1-Intro-OS-slides.qmd)
+[Full Screen](M3-S4-R-Part-II-slides.qmd)
 
 ```{=html}
-<iframe class="slide-deck" src="M1-S1-Intro-OS-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="M3-S4-R-Part-II-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
 # Overview
@@ -26,6 +26,6 @@ Download the csv file for the mtcars data:
 
 You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
 
-{{< downloadthis M1-S1-Intro-OS-slides.pptx dname="M1-S1-Intro-OS-slides" label="Download slides as PPTX">}}
+{{< downloadthis M3-S4-R-Part-II-slides.pptx dname="slides" label="Download slides as PPTX">}}
 
  <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->

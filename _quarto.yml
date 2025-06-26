@@ -27,14 +27,19 @@ website:
           # - href: materials/module-1/M1-S3-Credibility-Revolution/M1-S3-Credibility-Revolution.qmd
       - section: "Module 2: Open Science Methodological Foundations"
         contents:
-          - href: materials/module-2/M2-S0-Module-Intro/M2-S0-Module-Intro.qmd
+          # - href: materials/module-2/M2-S0-Module-Intro/M2-S0-Module-Intro.qmd
           # - href: materials/module-2/M2-S1-QRPs/M2-S1-QRPs.qmd
           # - href: materials/module-2/M2-S2-Effect-Sizes/M2-S2-Effect-Sizes.qmd
           # - href: materials/module-2/M2-S3-Statistical-Power/M2-S3-Statistical-Power.qmd
           # - href: materials/module-2/M2-S4-Exploratory-Confirmatory-Analysis/M2-S4-Exploratory-Confirmatory-Analysis.qmd
       - section: "Module 3: Open Science Tools"
         contents:
-          #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
+         # - href: materials/module-3/M3-S0-Module-Intro/M3-S0-Module-Intro.qmd
+          - href: materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I.qmd
+          - href: materials/module-3/M3-S4-R-Part-II/M3-S4-R-Part-II.qmd
+          #- href: materials/module-3/M3-S5-Git-RStudio/M3-S5-Git-RStudio.qmd
+         # - href: materials/module-3/M3-S6-GitHub/M3-S6-GitHub.qmd
+          - href: materials/module-3/M3-S7-Quarto/M3-S7-Quarto.qmd
       - section: "Module 4: Open Code and Open Data"
         contents:
           #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
