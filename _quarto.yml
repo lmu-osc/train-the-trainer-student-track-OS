@@ -16,9 +16,9 @@ website:
     style: "docked"
     collapse-level: 1
     contents:
-      - section: "Test Module"
+      - section: "Template Module"
         contents:
-          - href: materials/test-module/test-S1_topic.qmd
+          - href: materials/template-module/template.qmd
       - section: "Module 1: Open Science Principles"
         contents:
           # - href: materials/module-1/M1-S0-Module-Intro/M1-S0_Module-Intro.qmd
