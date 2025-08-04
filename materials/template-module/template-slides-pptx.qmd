@@ -1,37 +1,39 @@
 ---
-title: "Template Slides: Title of Submodule"
+title: "Template Slides: Title of Submodule - pptx version"
 author: "Author"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
-  revealjs:
-    css: ../../../slides-custom.css # looks for css file in root
-    footer: LMU Open Science Center
-    slide-number: true
-    logo: ../../../OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
-  pdf:
-    geometry: 
-      - top=30mm
-      - left=30mm
-  # pptx:
-  #   reference-doc: assets/osc_template_new.pptx # looks for css file in root
+  pptx:
+    reference-doc: assets/template_new_48.pptx # looks for css file in root
 
 execute:
   echo: true
   eval: true
   engine: knitr
 ---
+<!-- # Slide 1 -->
 
-## Questions from previous submodule
+<!-- - Hello -->
+<!-- - This is a test. -->
 
-- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
-- Additional slides may need to be added depending on the nature of the homework assignments. 
-- Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. 
-- Not applicable if this set of slides corresponds to the first submodule of a new module. 
+<!-- --- -->
+
+<!-- # Slide 2 -->
+
+<!-- - Slide 2 content -->
+
+
+# Questions from previous submodule
+
+- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.
+- Additional slides may need to be added depending on the nature of the homework assignments.
+- Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.
+- Not applicable if this set of slides corresponds to the first submodule of a new module.
 
 ---
 
-## Before we start: Survey time!
+# Before we start: Survey time!
 
 - **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the sumodule's topic.
 - Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
@@ -79,7 +81,7 @@ e. 5
 
 ---
 
-## Discussion of survey results
+# Discussion of survey results
 
 - **Aim"**: Briefly examine the answers given to each question interactively with the group.
 - Use visuals from the survey to highlight specific answers.
@@ -90,25 +92,25 @@ Make it clear to the group that there will be a similar post-submodule survey to
 
 ---
 
-## Where are we at?
+# Where are we at?
 
 - **Aim**: Place the topic of the current submodule within a broader context.
 - Remind students what you are working towards and what the bigger picture is.
 
 ---
 
-## Learning goals
+# Learning goals
 
 - **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
 
 - Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-- Examples: 
+- Examples:
   - Students will **describe** the process of photosynthesis or
   - Students will **construct** a diagram illustrating the process of photosynthesis
 
 ---
 
-## Key terms and definitions
+# Key terms and definitions
 
 - **Aim**: Introduce key terms and definitions that students will come across throughout the session.
 <br>
@@ -118,12 +120,12 @@ Make it clear to the group that there will be a similar post-submodule survey to
 - **Key Term 3**: Definition
 
 ::: {.notes}
-Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
+Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson.
 :::
 
 ---
 
-## Introduction of submodule topic
+# Introduction of submodule topic
 
 - **Aim**: Core theoretical introduction of submodule topic.
 - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
@@ -134,26 +136,26 @@ For a 90-minute lesson, the instructor should try to "lecture" for only 20 minut
 :::
 ---
 
-## Submodule content slide
+# Submodule content slide
 
 - **Aim**: Present relevant content
-- Highlight particularly important aspects with Quarto call-out boxes, for example: 
+- Highlight particularly important aspects with Quarto call-out boxes, for example:
 
 ::: {.callout-important}
-## Important with Title
+# Important with Title
 
 This is an example of a callout box to highlight particularly important information.
 :::
 
 ::: {.callout-tip}
-## Tip with Title
+# Tip with Title
 
-This is an example of a callout box to give important tips. 
+This is an example of a callout box to give important tips.
 :::
 
 ---
 
-## Pre-break survey
+# Pre-break survey
 
 - **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
 - Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
@@ -187,25 +189,25 @@ d. Gills to breathe underwater
 
 ---
 
-## Post-break survey discussion
+# Post-break survey discussion
 
 - **Aim**: To clarify concepts and aspects that are not yet understood
 - Highlight specific answers given during the survey
 
 ---
 
-## Practical exercises on topic
+# Practical exercises on topic
 
 - **Aim**: Design practical exercises for students to apply the new skills in practise.
 - Depending on the topic, the exercises should be in accordance with the learning objective(s).
 
 ::: {.notes}
-For students who advance faster: Prepare extra exercises. 
+For students who advance faster: Prepare extra exercises.
 :::
 
 ---
 
-## Relevance and implications
+# Relevance and implications
 
 - **Aim**: To work out the relevance of the topic to your students.
 - In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
@@ -213,19 +215,19 @@ For students who advance faster: Prepare extra exercises.
 
 ---
 
-## Take-home message
+# Take-home message
 
 **Aim**: End lesson on clear take-home message that are interactively compiled by students.
 
 ::: {.callout-tip}
-## Tip with Title
+# Tip with Title
 
 Add one practical tips or take-home message.
 :::
 
 ---
 
-## Assignment
+# Assignment
 
 - **Aim**: Explain the homework assignment and the rationale behind the homework.
 - Examine whether/how it will be assessed
@@ -234,7 +236,7 @@ Add one practical tips or take-home message.
 
 ---
 
-## To conclude: Survey time!
+# To conclude: Survey time!
 
 - **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
 - Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
@@ -282,14 +284,14 @@ e. 5
 
 ---
 
-## Discussion of survey results
+# Discussion of survey results
 
 - **Aim**: Briefly examine the answers given to each question interactively with the group.
 - Compare and highlight specific differences in answers between pre- and post-survey answers
 
 ---
 
-## References
+# References
 
 - Provide literature you refer to throughout this lesson.
 
@@ -300,30 +302,30 @@ See you next class :)
 
 ---
 
-## Pedagogical add-on tools for instructors
+# Pedagogical add-on tools for instructors
 
 - This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
   - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
   - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
-  - Extra exercises for faster students.	
+  - Extra exercises for faster students.
 
 ---
 
-## Additional literature for instructors
+# Additional literature for instructors
 
 - References for content
-- References for pedagogical add-on tools	
-- Other resources (videos etc.)	
+- References for pedagogical add-on tools
+- Other resources (videos etc.)
 
 ---
 
 # Formatting elements for instructors
 
-- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. 
+- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes.
 
 ---
 
-## Text with example links
+# Text with example links
 
 - [Quarto Documentation](https://quarto.org/docs/)
 - [Reveal.js Documentation](https://revealjs.com/)
@@ -332,18 +334,18 @@ See you next class :)
 
 ---
 
-## Basic text formatting
+# Basic text formatting
 
 - **Bold:** `**bold**` → **bold**
 - *Italic:* `*italic*` → *italic*
 - ~~Strikethrough:~~ `~~text~~` → ~~text~~
 - `Inline code:` `` `code` `` → `code`
-- > Blockquote: `> Quote` →  
+- > Blockquote: `> Quote` →
   > "This is a quote"
-  
+
 ---
 
-## Figure with caption
+# Figure with caption
 
 - Centered image and caption below in italics
 
@@ -354,7 +356,7 @@ See you next class :)
 
 ---
 
-## Figure with bullet points
+# Figure with bullet points
 
 ```{=html}
 
@@ -364,7 +366,7 @@ See you next class :)
   <div style="flex: 1; text-align: center;">
     <img src="images/penguin.png" style="width: 100%;" />
   </div>
-  
+
 ```
 
   <!-- Right side: bullet points -->
@@ -380,7 +382,7 @@ See you next class :)
 
 ---
 
-## Side-by-side figures
+# Side-by-side figures
 
 ```{=html}
 <div style="display: flex; justify-content: center; gap: 2em; align-items: flex-start;">
@@ -414,7 +416,7 @@ See you next class :)
     <img src="images/seal.png" style="width: 60%;" />
 
   </div>
-  
+
 ```
 
   <!-- Right side: bullet points -->
@@ -430,22 +432,22 @@ See you next class :)
 
 ---
 
-## Two-column text slide
+# Two-column text slide
 
 <div style="display: flex; gap: 2em;">
 
   <div style="flex: 1;">
   **Column 1**
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-  Vivamus lacinia odio vitae vestibulum vestibulum.  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Vivamus lacinia odio vitae vestibulum vestibulum.
   Cras venenatis euismod malesuada.
   </div>
 
   <div style="flex: 1;">
   **Column 2**
 
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
   </div>
 
@@ -453,21 +455,21 @@ See you next class :)
 
 ---
 
-## Three-column text slide
+# Three-column text slide
 
 <div style="display: flex; gap: 1em;">
 
   <div style="flex: 1;">
   **Column 1**
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Vivamus lacinia odio vitae vestibulum vestibulum.
   </div>
 
   <div style="flex: 1;">
   **Column 2**
 
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
   </div>
 
@@ -481,7 +483,7 @@ See you next class :)
 
 ---
 
-## Simple table
+# Simple table
 
 <div style="height: 2cm;"></div>
 
@@ -495,7 +497,7 @@ See you next class :)
 
 ---
 
-## Complex table
+# Complex table
 
 <div style="height: 2cm;"></div>
 
@@ -539,13 +541,13 @@ See you next class :)
 ```
 ---
 
-## Task list
+# Task list
 - [x] Done
 - [ ] To do
 
 ---
 
-## Embedding videos
+# Embedding videos
 
 <div style="text-align: center;">
   <iframe width="560" height="315"
@@ -559,7 +561,7 @@ See you next class :)
 
 ---
 
-## Code blocks
+# Code blocks
 
 ```{r}
 # A basic R code chunk
@@ -574,16 +576,16 @@ hist(rnorm(100), main = "Histogram of Random Normals")
 
 ---
 
-## Attribution and license details
+# Attribution and license details
 
-- This slide should contain information about the license and attribution details of this current set of slides. 
+- This slide should contain information about the license and attribution details of this current set of slides.
 
 - The default for the created materials is [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/)
   - = Creative Commons license that allows others to **share, adapt, and build upon** the original work
   - **only** if they attribute the creator and also share their new work under the **same terms**
   - allows for both **commercial and non-commercial** use of the licensed material
 
-- Components of attributions: 
+- Components of attributions:
   - `Title`
   - `Author`
   - `Source`
@@ -591,8 +593,9 @@ hist(rnorm(100), main = "Histogram of Random Normals")
 
 ---
 
-## Example attribution (for previous slide)
+# Example attribution (for previous slide)
 
 "[Tutorial template for student track](https://github.com/SvonGrebmer/Template-Slides-Students)" by Sarah von Grebmer is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ---
+
