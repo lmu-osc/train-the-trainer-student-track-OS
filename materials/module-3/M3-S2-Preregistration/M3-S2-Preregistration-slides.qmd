@@ -1,5 +1,5 @@
 ---
-title: "Preregistration"
+title: "Template Slides: Title of Submodule"
 author: "Author"
 date: "today"
 date-format: "DD/MM/YYYY"
@@ -67,6 +67,13 @@ Before completing this submodule, please carefully read about the necessary prer
 |------------|------------|------------|
 | Topic Name | Basic intro to X | Module + Submodule |
 | Software Name | Configuring the environment | [Download Link](https://quarto.org) |
+
+
+::: {.notes}
+These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
+
+There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+:::
 
 ---
 
@@ -156,6 +163,15 @@ Make it clear to the group that there will be a similar post-submodule survey to
 
 ---
 
+### Covered in in this session
+
+- **Aim**: This slides serves as an overview of the topics that are discussed, presented as bullet point:
+- Topic 1
+- Topic 2
+- Topic 3
+
+---
+
 ## Key terms and definitions
 
 - **Aim**: Introduce key terms and definitions that students will come across throughout the session.
@@ -201,6 +217,18 @@ This is an example of a callout box to give important tips.
 
 ---
 
+## Practical exercise 1
+
+- **Aim**: Design more practical exercises for students to apply the new skills in practise.
+- Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+
+- [x] Step 1
+- [ ] Step 2
+- [ ] Step 3
+
+---
+
 ## Pre-break survey
 
 - **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
@@ -242,10 +270,15 @@ d. Gills to breathe underwater
 
 ---
 
-## Practical exercises on topic
+## Practical Exercise 2
 
-- **Aim**: Design practical exercises for students to apply the new skills in practise.
+- **Aim**: Design more practical exercises for students to apply the new skills in practise.
 - Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+
+- [x] Step 1
+- [ ] Step 2
+- [ ] Step 3
 
 ::: {.notes}
 For students who advance faster: Prepare extra exercises. 
