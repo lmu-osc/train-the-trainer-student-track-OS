@@ -18,28 +18,18 @@ website:
     contents:
       - section: "Template Module"
         contents:
-          - href: materials/template-module/template.qmd
+          - href: materials/OS-template-module/OS-template.qmd
       - section: "Module 1: Open Science Principles"
         contents:
-          # - href: materials/module-1/M1-S0-Module-Intro/M1-S0_Module-Intro.qmd
-           - href: materials/module-1/M1-S1-Intro-OS/M1-S1-Intro-OS.qmd
-          # - href: materials/module-1/M1-S2-Reproducibility-Replicability/M1-S2-Reproducibility-Replicability.qmd
-          # - href: materials/module-1/M1-S3-Credibility-Revolution/M1-S3-Credibility-Revolution.qmd
+          # - href: materials/OS-M1/OS-M1-S0-Module-Intro/OS-M1-S0_Module-Intro.qmd
+           - href: materials/OS-M1/OS-M1-S1-Intro-OS/OS-M1-S1-Intro-OS.qmd
       - section: "Module 2: Open Science Methodological Foundations"
         contents:
-          # - href: materials/module-2/M2-S0-Module-Intro/M2-S0-Module-Intro.qmd
-          # - href: materials/module-2/M2-S1-QRPs/M2-S1-QRPs.qmd
-          # - href: materials/module-2/M2-S2-Effect-Sizes/M2-S2-Effect-Sizes.qmd
-          # - href: materials/module-2/M2-S3-Statistical-Power/M2-S3-Statistical-Power.qmd
-          # - href: materials/module-2/M2-S4-Exploratory-Confirmatory-Analysis/M2-S4-Exploratory-Confirmatory-Analysis.qmd
-      - section: "Module 3: Open Science Tools"
+          # - href: materials/OS-M2/OS-M2-S0-Module-Intro/OS-M2-S0_Module-Intro.qmd
+     - section: "Module 3: Open Science Tools"
         contents:
-         # - href: materials/module-3/M3-S0-Module-Intro/M3-S0-Module-Intro.qmd
-          - href: materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I.qmd
-          - href: materials/module-3/M3-S4-R-Part-II/M3-S4-R-Part-II.qmd
-          #- href: materials/module-3/M3-S5-Git-RStudio/M3-S5-Git-RStudio.qmd
-         # - href: materials/module-3/M3-S6-GitHub/M3-S6-GitHub.qmd
-          - href: materials/module-3/M3-S7-Quarto/M3-S7-Quarto.qmd
+          - href: materials/OS-M3/OS-M3-S3-R-Part-I/OS-M3-S3-R-Part-I.qmd
+          - href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd
       - section: "Module 4: Open Code and Open Data"
         contents:
           #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd

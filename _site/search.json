@@ -650,7 +650,7 @@
   {
     "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#questions-from-previous-submodule",
     "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#questions-from-previous-submodule",
-    "title": "Title of Submodule",
+    "title": "Introduction to R: Part I",
     "section": "Questions from previous submodule",
     "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module."
   },
@@ -664,9 +664,9 @@
   {
     "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#discussion-of-survey-results",
     "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#discussion-of-survey-results",
-    "title": "Title of Submodule",
+    "title": "Introduction to R: Part I",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\n\nAim”: Briefly examine the answers given to each question interactively with the group.\nUse visuals from the survey to highlight specific answers.\n\n\nMake it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
+    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers"
   },
   {
     "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#where-are-we-at",
@@ -727,30 +727,30 @@
   {
     "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#relevance-and-implications",
     "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#relevance-and-implications",
-    "title": "Title of Submodule",
+    "title": "Introduction to R: Part I",
     "section": "Relevance and implications",
     "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles."
   },
   {
     "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#take-home-message",
     "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#take-home-message",
-    "title": "Title of Submodule",
+    "title": "Introduction to R: Part I",
     "section": "Take-home message",
     "text": "Take-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message."
   },
   {
     "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#assignment",
     "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#assignment",
-    "title": "Title of Submodule",
+    "title": "Introduction to R: Part I",
     "section": "Assignment",
     "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author"
   },
   {
     "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#to-conclude-survey-time",
     "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#to-conclude-survey-time",
-    "title": "Title of Submodule",
+    "title": "Introduction to R: Part I",
     "section": "To conclude: Survey time!",
-    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):"
+    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5"
   },
   {
     "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#discussion-of-survey-results-1",
@@ -762,7 +762,7 @@
   {
     "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#references",
     "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#references",
-    "title": "Title of Submodule",
+    "title": "Introduction to R: Part I",
     "section": "References",
     "text": "References\n\nProvide literature you refer to throughout this lesson."
   },
@@ -1871,5 +1871,159 @@
     "title": "Template Slides: Title of Submodule",
     "section": "Practical Exercise 2",
     "text": "Practical Exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nFor students who advance faster: Prepare extra exercises."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#credit-statement-and-licence",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#credit-statement-and-licence",
+    "title": "Introduction to R: Part I",
+    "section": "Credit statement and licence",
+    "text": "Credit statement and licence\nPossible roles using the CRediT contribition system:\n\nConceptualization: Ideas; formulation or evolution of overarching research goals and aims\nMethodology: Development or design of methodology; creation of models\nSoftware : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components\nValidation: Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs\nFormal analysis: Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data\nInvestigation: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection\nResources: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools\nData Curation: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse\nWriting - Original Draft: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)\nWriting - Review & Editing: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages\nVisualization: Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation\nSupervision: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team\nProject administration: Management and coordination responsibility for the research activity planning and execution\nFunding acquisition: Acquisition of the financial support for the project leading to this publication"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#welcomewhat-to-expect",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#welcomewhat-to-expect",
+    "title": "Introduction to R: Part I",
+    "section": "Welcome/What to Expect",
+    "text": "Welcome/What to Expect\n\nOverview of what will happen (make this slide in the end)\nmention they should already have R and RStudio installed\noutline the structure and general idea (hands-on, follow-along etc…)"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#what-is-r",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#what-is-r",
+    "title": "Introduction to R: Part I",
+    "section": "What is R?",
+    "text": "What is R?\n\nKnowledge of statistical software like R is crucial when conducting quantitative research\nR is free and open source\n\nlarge online community\nmany free to use resources\n\n\n\nLet’s start with the basics: What exactly is R?\nR is a programming language specifically designed for data analysis and statistics. That means it’s not just a tool — it’s a full language, built with researchers and data in mind.\nIt’s also free and open source, which means anyone can download and use it, and developers from all over the world contribute to improving it. This has resulted in a large online community — so if you ever run into a problem, chances are someone else has had the same issue and posted a solution online.\nAnd because of that community, there are also countless free learning resources: tutorials, blog posts, videos, books, and packages that extend R’s functionality.\nSo in short: R is powerful, flexible, and supported by a strong community — which is why it’s become such a widely used tool in quantitative research."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#the-rstudio-environment",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#the-rstudio-environment",
+    "title": "Introduction to R: Part I",
+    "section": "The RStudio Environment",
+    "text": "The RStudio Environment\n\n\n\n\nRStudio is the main program we’ll be using to interact with R throughout this course. It’s a free and open-source editor specifically designed for R, and it makes things much easier — both for writing code and for organizing your work.\nOn this slide, you can see the four main panes of the RStudio interface:\nThe top left pane is where your scripts or other files appear. This is where you’ll usually write and edit your code.\nThe top right is the Environment pane, which shows the objects you’ve created — like datasets or functions — so you can always check what’s currently in your workspace.\nThe bottom left is the Console, where R actually runs your commands. If you type directly into R instead of using a script, this is where it happens.\nAnd finally, the bottom right is for Help, Plots, and Packages. So if you ask for help on a function, create a plot, or install a new package, it’ll show up here.\nSo, RStudio combines everything in one interface to help you keep track of your code, your results, and your progress as you go."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-1",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-1",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 1",
+    "text": "Exercise 1\nOpen RStudio and check if you can see everything that’s on the slide (might be only three panes)\n\nInstructor notes: add potential troubleshooting tips for instructors to efficiently solve the problems at this stage."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#mathematical-operations",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#mathematical-operations",
+    "title": "Introduction to R: Part I",
+    "section": "Mathematical Operations",
+    "text": "Mathematical Operations\n\n\n\nSymbol\nOperation\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n^\nExponentiation\n\n\nsqrt()\nSquare Root\n\n\nlog()\n(Natural) Logarithm\n\n\n\n\nIn the bottom left pane of RStudio - the console - we can run commands. For example, we can use R to execute calculations. To do this, we use operators that correspond to mathematical symbols, such as the + and - sign.\nHere, you can see a table with the most important mathematical operators in R."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-2---mathematical-operations",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-2---mathematical-operations",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 2 - Mathematical Operations",
+    "text": "Exercise 2 - Mathematical Operations\nUse the table on the previous slide to run the following math operations directly in the console (bottom left).\n\n\\(12+17\\)\n\\(\\frac{218}{3}\\)\n\\(357^2\\)\n\nHint: You can run code from the console by pressing Enter.\n\nWe’ve already arrived at our second exercise. Use the console in RStudio to execute the mathematical operations you see on this slide.\noptional: live demonstration of what it looks like to run code from the console"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-2---solution",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-2---solution",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 2 - Solution",
+    "text": "Exercise 2 - Solution\n12+17\n218/3\n357^2\n\nGreat, now you have a first impression of what it’s like to use R!"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#logical-comparisons",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#logical-comparisons",
+    "title": "Introduction to R: Part I",
+    "section": "Logical Comparisons",
+    "text": "Logical Comparisons\n\nCheck if two numbers are equal or unequal\nCheck if a number is larger or smaller than another number\n\nExample:\n\n49 == 50\n\n[1] FALSE\n\n49 &lt; 50 \n\n[1] TRUE\n\n\n\nR returns a logical value:\n\nTRUE or\nFALSE\n\n\n\nHowever, R can of course do more than just calculate. One of its basic features, that is needed for many of its more complex functions are logical comparisons.\nWe can compare two numbers to determine if they are equal or unequal and check if a number is larger or smaller than another number. Comparisons like that are answered by R with either TRUE(yes) or FALSE (no). These comparisons are called logical comparisons. We can also combine logical comparisons using the logical AND, OR, and NOT to formulate longer statements."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#logical-comparisons---operators",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#logical-comparisons---operators",
+    "title": "Introduction to R: Part I",
+    "section": "Logical Comparisons - Operators",
+    "text": "Logical Comparisons - Operators\n\n\n\nSymbol\nOperation\n\n\n\n\n==\nEquals\n\n\n!=\nNot Equal\n\n\n&gt; and &lt;\nGreater and Lesser Than\n\n\n&gt;= and &lt;=\nGreater Than or Equal / Less Than or Equal\n\n\n&\nlogical AND\n\n\n|\nlogical OR\n\n\n!\nlogical NOT\n\n\n\n\nHere you can see an overview of logical operators. You can combine several single statements to longer statements using the logical AND, OR, and NOT."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-3-logical-comparisons",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-3-logical-comparisons",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 3: Logical Comparisons",
+    "text": "Exercise 3: Logical Comparisons\nTRUE or FALSE?\nExpress the following statements in words and evaluate whether they are correct or not. Check your answers by running the statements in the console.\n(36 + 5)&gt; 40\n(4 == 5) | (25 &gt; 17)\n(5 == (2 + 3)) & (7 &gt;= 8)\nTODO: decide whether there should be another exercise that involves writing code to express a written statement"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-3-solutions",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-3-solutions",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 3: Solutions",
+    "text": "Exercise 3: Solutions\n\n(36 + 5)&gt; 40\n\n[1] TRUE\n\n(4 == 5) | (25 &gt; 17)\n\n[1] TRUE\n\n(5 == (2 + 3)) & (7 &gt;= 8)\n\n[1] FALSE"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#important-data-types",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#important-data-types",
+    "title": "Introduction to R: Part I",
+    "section": "Important Data Types",
+    "text": "Important Data Types\n\n\n\n\nIn R, different data types exist. We have already got to know the logical values TRUEand FALSE. Data that are numbers can be further differentiated into numeric values, also known as double, and integers. Numeric variables have decimals, integers do not. Values that are words are normally either characters or factors. Characters have to be written in quotation marks. Factors have prespecified levels, such as brown, blonde, and black for a variable “hair color”.\nDepending on which type a variable has, different operations can be performed with it."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#data-types---operations",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#data-types---operations",
+    "title": "Introduction to R: Part I",
+    "section": "Data Types - Operations",
+    "text": "Data Types - Operations\nTwo numeric variables can be summed up:\n\n4 + 5 \n\n[1] 9\n\n\nA numeric and a character variable cannot be summed up:\n\n4 + \"five\"\n\nError in 4 + \"five\": non-numeric argument to binary operator"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#r-scripts",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#r-scripts",
+    "title": "Introduction to R: Part I",
+    "section": "R Scripts",
+    "text": "R Scripts\n\nEasy way to save and share code you wrote\nYou can run code from an R script by pressing Ctrl + Enter (Windows) or\nTo comment your code use #, for example:\n\n# sum up two numbers: \n4+5\n\n[1] 9\n\n\n\n\nUntil now, we’ve only worked in the console. However, once we close R, everything typed into the console will be lost. To make our work traceable and reproducible, it makes sense to save the code we used. One way of saving and sharing code are R scripts. To run code from an R script, put the cursor anywhere in the respective line of code or mark everything you want to execute. Then press Ctrl+Enter (Windows) or ⌘ + Enter (Mac).\nIf you want to take notes or write anything that is not code into an R script, type # and then type your text."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#creating-a-new-r-script",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#creating-a-new-r-script",
+    "title": "Introduction to R: Part I",
+    "section": "Creating a New R Script",
+    "text": "Creating a New R Script\n\n\n\n\nThis is how you create a new R script. Navigate to the File tab –&gt; New File –&gt; R Script or use the shortcut Ctrl + Shift + N. Then you can save it by navigating to File –&gt; Save or use the shortcut Ctrl + S."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-4",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#exercise-4",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 4",
+    "text": "Exercise 4\nCreate a new R Script with only a comment in the first line and save it in a fresh folder."
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#objects-and-assignments",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#objects-and-assignments",
+    "title": "Introduction to R: Part I",
+    "section": "Objects and Assignments",
+    "text": "Objects and Assignments\n\n\n\nEverything in R is an object\nOftentimes, we want to work with an object repeatedly\nAssign a name to an object using the assignment arrow &lt;-\n\nFor Example:\n\nmy_number &lt;- 4\n\n\nThis saves the value 4 under the name my_numberin the environment of R Studio\n\n\n\n\nEverything in R is referred to as an object. For example, the result of a logical comparison, is an object of type logical. Oftentimes, we want to work with an object repeatedly. To do this, we can create objects and give them names. This is done via assignments.\n\nTODO:\nmaybe include instructions on a live demonstration? so that participants can see the object “my_number” appear in the environment pane.\n\n\nAssignments and Objects\n\nmy_number &lt;- 5\n\n\n\nVectors, Lists, and Data Frame\n\n\nIndexing\n\n\nRelevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\n\nTake-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message.\n\n\n\n\n\nAssignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\n\nTo conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5\n\n\n\nDiscussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\n\nReferences\n\nProvide literature you refer to throughout this lesson.\n\n\n\nThanks! \nSee you next class :)"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#assignments-and-objects",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#assignments-and-objects",
+    "title": "Introduction to R: Part I",
+    "section": "Assignments and Objects",
+    "text": "Assignments and Objects\n\nmy_number &lt;- 5"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#vectors-lists-and-data-frame",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#vectors-lists-and-data-frame",
+    "title": "Introduction to R: Part I",
+    "section": "Vectors, Lists, and Data Frame",
+    "text": "Vectors, Lists, and Data Frame"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#indexing",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#indexing",
+    "title": "Introduction to R: Part I",
+    "section": "Indexing",
+    "text": "Indexing"
+  },
+  {
+    "objectID": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#todo",
+    "href": "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.html#todo",
+    "title": "Introduction to R: Part I",
+    "section": "TODO:",
+    "text": "TODO:\nmaybe include instructions on a live demonstration? so that participants can see the object “my_number” appear in the environment pane."
   }
 ]
