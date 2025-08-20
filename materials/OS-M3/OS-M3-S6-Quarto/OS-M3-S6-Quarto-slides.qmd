@@ -1,27 +1,34 @@
 ---
 title: "Introduction to Literate Programming with Quarto"
+subtitle: "Template Slides: Title of Submodule"
 author: "Elizabeth Waterfield"
-date: "today"
+date: today
 date-format: "DD/MM/YYYY"
-format: 
+
+format:
   revealjs:
-    css: ../../../slides-custom.css # looks for css file in root
+    css: ../../../slides-custom.css   # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
-  pdf:
-    geometry: 
-      - top=30mm
-      - left=30mm
-  pptx: 
-    css: ../../../slides-custom.css # looks for css file in root
+
+ttt-quarto-slides:
+  logo: OSC_Logo.jpg                  # Inserts logo in the bottom right corner (default)
+
+logo: ../../../OSC_FORRT_Logo.png     # Inserts logo in the bottom right corner (default)
+
+pdf:
+  geometry:
+    - top=30mm
+    - left=30mm
+
+pptx:
+  css: ../../../slides-custom.css     # looks for css file in root
 
 execute:
   echo: true
   eval: true
   engine: knitr
 ---
-
 
 
 ## Credit statement and licence
@@ -252,27 +259,25 @@ For students who advance faster: Prepare extra exercises.
 
 ## Setting up a Quarto Document using RStudio
 
-::::: columns
+:::::: columns
 ::: column
 ![](images/setup1.png)
 :::
-
 ::: column
 -   Select **File**\
 -   → Select **New File**\
 -   → Select **Quarto Document**
 :::
-:::::
+::::::
 
 ---
 
 ## Setting up a Quarto Document using RStudio
 
-::::: columns
+:::::: columns
 ::: column
 ![](images/setup2.png)
 :::
-
 ::: column
 -   The default format is html
 -   The output format can also be changed by editing the YAML header
@@ -535,7 +540,6 @@ Adjust how the code is portrayed by editing the YAML header
 
 ![](images/exercise1.png)
 :::
-
 ::: {style="flex: 1;"}
 
 -   `code-fold: false` - the code is visible and not collapsible (as seen here)
@@ -565,7 +569,6 @@ Adjust how the code is portrayed by editing the YAML header
 
 ![](images/exercise1.png)
 :::
-
 ::: {style="flex: 1;"}
 
 -   `code-tools: true` - adds the functions "show code" at the top of the page and "copy" next to the chunks
@@ -583,6 +586,7 @@ It's easy to confuse `echo` and `code-fold` because they both deal with code vis
 - `echo: true` and `code-fold: false` both affect how code is shown, but in different ways. `echo` decides if the code prints at all, while `code-fold` lets readers toggle it open or closed, deciding whether the code can be hidden or expanded.
 
 :::
+
 ---
 
 ## Code Chunks
@@ -758,12 +762,12 @@ link without title: \< https:// link \>
 
 You can change the layout of a section using **columns**.
 
--  Start the column layout by writing ":::::: columns"
--  Begin the first column with "::: column"
--  Add content and end it with ":::"
--  Begin second coloumn with "::: column"
--  Add content and end it with ":::"
--  End section with a final "::::::"
+-  Start the column layout by writing "`:::::: columns`"
+-  Begin the first column with "`::: column`"
+-  Add content and end it with "`:::`"
+-  Begin second coloumn with "`::: column`"
+-  Add content and end it with "`:::`"
+-  End section with a final "`::::::`"
 
 ::: callout-note
 ## list of page layout options
@@ -802,7 +806,6 @@ Let's use columns to add bullet points next to an image.
 ![](images/chickpic2.png)
 
 :::
-
 ::: column
 
 -   Monitor growth trends over time
@@ -873,15 +876,15 @@ Let's practice adding a citation
 
 **Task 9**
 
-- [ ] add `bibliography: references.bib` to your YAML header
-- [ ] [follow this link to an article on diets and broiler chicks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819) 
-- [ ] add the citation to your Zotero Library
+- [ ] Add `bibliography: references.bib` to your YAML header
+- [ ] [Follow this link to an article on diets and broiler chicks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819) 
+- [ ] Add the citation to your Zotero Library
 
 ```markdown
 Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more 
 ```
 
-- [ ] copy the text above and place the cursor at the end of the sentence
+- [ ] Copy the text above and place the cursor at the end of the sentence
 
 ::: notes
 
@@ -896,10 +899,10 @@ Diet affects chick body weight. In this study, low-energy feed made fast-growing
 
 **Task 9**
 
-- [ ] in **Visual Mode**, click "Insert" and find the article in the Zotero Library
-- [ ] click "Insert" to add the citation
+- [ ] In **Visual Mode**, click "Insert" and find the article in the Zotero Library
+- [ ] Click "Insert" to add the citation
 
-![When you find the article in the Zotero Library folder here, select it and then click Insert](images/zotero3.png)
+![When you find the article in the Zotero Library folder here, select it and then click Insert](images/zotero3)
 
 ::: notes
 
@@ -916,13 +919,15 @@ Let's add another citation to practice adding **in-text** citations
 
 **Task 10**
 
+- [ ] [Follow this link to another article on diets and broiler chicks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153859#:~:text=In%20conclusion%2C%20HDND%20improved%20the,diet%20adversely%20affected%20bone%20mineralization.) 
+- [ ] Add the citation to your Zotero Library
+
 ```markdown
  found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.
 ```
 
-- [ ] copy the text above and place the cursor at the beginning of the sentence 
-- [ ] [follow this link to another article on diets and broiler chicks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153859#:~:text=In%20conclusion%2C%20HDND%20improved%20the,diet%20adversely%20affected%20bone%20mineralization.) 
-- [ ] add the citation to your Zotero Library
+- [ ] Copy the text above and place the cursor at the beginning of the sentence 
+
 
 ---
 
@@ -930,12 +935,12 @@ Let's add another citation to practice adding **in-text** citations
 
 **Task 10**
 
-- [ ] click "Insert" and find the article in the Zotero Library
-- [ ] check the box next to "In-text"
+- [ ] Click "Insert" and find the article in the Zotero Library
+- [ ] Check the box next to "In-text"
 
-![](images/zotero4.png)
+![](images/zotero4)
 
-- [ ] click "Insert" to add the citation
+- [ ] Click "Insert" to add the citation
 
 ---
 
@@ -953,7 +958,7 @@ Now you should have
 :::
 ::: column
 
-![](images/zotero5.png)
+![](images/zotero5)
 
 :::
 ::::::
@@ -1036,12 +1041,12 @@ Work with **Git Bash** directly from the **Terminal** in RStudio.
 :::::: columns
 ::: column
 
-![](images/gitpages1.png)
+![](images/gitpages1)
 
 :::
 ::: column
 
-![](images/gitpages2.png)
+![](images/gitpages2)
 
 :::
 ::::::
@@ -1051,7 +1056,8 @@ Work with **Git Bash** directly from the **Terminal** in RStudio.
 ::: notes
 
 *Instructor Note*
-- The last step (to open a new Terminal) is important because the current Terminal does not just automatically change to Git Bash.
+- When you click the drop-down arrow by Terminal, the options may look different than what's in the image in this slide but the "Terminal Options..." will be at the end (you may have to scroll a bit).
+- The last step (open a new Terminal) is important because the current Terminal does not automatically change to Git Bash.
 
 :::
 
@@ -1061,20 +1067,21 @@ Work with **Git Bash** directly from the **Terminal** in RStudio.
 
 **Task 11**
 
-- [ ] in Quarto Document, edit YAML and add:
+- [ ] In your Quarto Document, edit YAML and add:
 
 ```mardown
 project:
   type: website
   output-dir: docs
 ```
-- [ ] set Terminal to open with Git Bash and open new Terminal
-- [ ] change directory to the path of the main folder with the Quarto files using `cd`
+- [ ] Set Terminal to open with Git Bash and open new Terminal
+- [ ] Change directory to the path of the main folder with the Quarto files using `cd`
 
 ::: notes
 
 *Instructor Note*
 - Reminder that copying & pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. 
+- Sometimes in Git Bash/Terminal, just copying & pasting will run the command, but sometimes you need to hit Enter. 
 - Setting the directory can be tricky. 
   - Backslashes (`\`) need to be changes to forward slashes (`/`). 
   - If you're pasting the exact path of the folder, wrap it in quotation marks (`"..."`)
@@ -1092,12 +1099,12 @@ echo "project:
   type: website
   output-dir: docs" > _quarto.yml
 ```
-- [ ] make a simple `_quarto.yml` file by copying & pasting the above in the Terminal
+- [ ] Make a simple `_quarto.yml` file by copying & pasting the above in the Terminal
 
 ```markdown
 touch .nojekyll
 ```
-- [ ] copy & paste the above into the Terminal to add a `.nojekyll` file
+- [ ] Copy & paste the above into the Terminal to add a `.nojekyll` file
 
 :::callout-note
 ## .nojekyll
@@ -1115,13 +1122,13 @@ Adding a `.nojekyll` file to the root of your repo tells GitHub Pages not to do 
 ```markdown
 quarto render
 ```
-- [ ] copy & paste the above into Terminal to generate HTML in the `docs/` folder
+- [ ] Copy & paste the above into Terminal to generate HTML in the `docs/` folder
 
 ```markdown
 git init
 git branch -M main  
 ```
-- [ ] copy & paste the above into Terminal to initialize Git and rename "master" to "main"
+- [ ] Copy & paste the above into Terminal to initialize Git and rename "master" to "main"
 
 :::notes 
 
@@ -1138,8 +1145,8 @@ git branch -M main
 
 **Task 11**
 
-- [ ] in [GitHub](github.com), create a new repo
-- [ ] in Terminal, add remote by using "`git remote add origin`" + the repo's HTTPS URL (e.g., "`git remote add origin https://github.com/yourname/chickweight-exercise.git`")
+- [ ] In [GitHub](github.com), create a new repo
+- [ ] In Terminal, add remote by using "`git remote add origin`" + the repo's HTTPS URL (e.g., "`git remote add origin https://github.com/yourname/chickweight-exercise.git`")
 
 ```markdown
 quarto render
@@ -1147,7 +1154,7 @@ git add docs
 git commit -m "Publish site to docs/"
 git push -u origin main
 ```
-- [ ] copy & paste the above into Terminal to render your site and push it to GitHub
+- [ ] Copy & paste the above into Terminal to render your site and push it to GitHub
 
 ::: notes
 
@@ -1175,12 +1182,12 @@ git push -u origin main
 
 ![](images/gitpages4.png)
 
-- [ ] change "/root" to "/docs" and click Save
+- [ ] Change "/root" to "/docs" and click Save
 
 :::
 ::::::
 
-After 1-2 minutes, you will see that your site is **live**. 
+After 1-2 minutes, you will see that your site is **live**! 
 
 ::: notes
 
