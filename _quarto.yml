@@ -18,24 +18,23 @@ website:
     contents:
       - section: "Template Module"
         contents:
-          - href: materials/OS-template-module/OS-template.qmd
+          #- href: materials/OS-template-module/OS-template.qmd
       - section: "Module 1: Open Science Principles"
         contents:
-          # - href: materials/OS-M1/OS-M1-S0-Module-Intro/OS-M1-S0_Module-Intro.qmd
-           - href: materials/OS-M1/OS-M1-S1-Intro-OS/OS-M1-S1-Intro-OS.qmd
+           - href: materials/OS-M1/OS-M1-S0-Module-Intro/OS-M1-S0-Module-Intro.qmd
+          #- href: materials/OS-M1/OS-M1-S1-Intro-OS/OS-M1-S1-Intro-OS.qmd
       - section: "Module 2: Open Science Methodological Foundations"
         contents:
           # - href: materials/OS-M2/OS-M2-S0-Module-Intro/OS-M2-S0_Module-Intro.qmd
-     - section: "Module 3: Open Science Tools"
+      - section: "Module 3: Open Science Tools"
         contents:
-          - href: materials/OS-M3/OS-M3-S3-R-Part-I/OS-M3-S3-R-Part-I.qmd
-          - href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd
+           - href: materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.qmd
+           - href: materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II.qmd
+           - href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd
       - section: "Module 4: Open Code and Open Data"
         contents:
-          #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
       - section: "Module 5: Open Results"
         contents:
-          #- href: materials/module-3/M3-S1/M3-S1_another-topic.qmd
 
 format:
   html:

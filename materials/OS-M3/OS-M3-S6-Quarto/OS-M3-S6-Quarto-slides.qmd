@@ -1,10 +1,6 @@
 ---
-ttt-quarto-slides
 title: "Introduction to Literate Programming with Quarto"
-
-title: "Template Slides: Title of Submodule"
-main
-author: "Author"
+author: "Elizabeth Waterfield"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
@@ -12,10 +8,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-tt-quarto-slides
-    logo: OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
-logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
-main
+    logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
   pdf:
     geometry: 
       - top=30mm
@@ -29,12 +22,16 @@ execute:
   engine: knitr
 ---
 
+
+
+
 ## Credit statement and licence
-ttt-quarto-slides
+
 
 Possible roles using the CRediT contribition system: 
 
 - **Conceptualization**: Ideas; formulation or evolution of overarching research goals and aims
+
 - **Methodology**: Development or design of methodology; creation of models
 
 - **Software** : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components
@@ -79,51 +76,7 @@ Before completing this submodule, please carefully read about the necessary prer
 ---
 
 ## Questions from previous submodule
-main
 
-Possible roles using the CRediT contribition system: 
-
-- **Conceptualization**: Ideas; formulation or evolution of overarching research goals and aims
-- **Methodology**: Development or design of methodology; creation of models
-
-- **Software** : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components
-
-- **Validation**: Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs
-
-- **Formal analysis**: Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data
-
-- **Investigation**: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection
-
-- **Resources**: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools
-
-- **Data Curation**: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse
-
-- **Writing - Original Draft**: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)
-
-- **Writing - Review & Editing**: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages
-
-- **Visualization**: Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation
-
-- **Supervision**: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team
-
-- **Project administration**: Management and coordination responsibility for the research activity planning and execution
-
-- **Funding acquisition**: Acquisition of the financial support for the project leading to this publication
-
----
-
-### Prerequisites
-
-::: {.callout-important}
-## Prerequisites
-
-Before completing this submodule, please carefully read about the necessary prerequisites.
-:::
-
-| Prerequisite   |  Description  | Link/Where to find it   |
-|------------|------------|------------|
-| Topic Name | Basic intro to X | Module + Submodule |
-| Software Name | Configuring the environment | [Download Link](https://quarto.org) |
 
 ---
 
@@ -172,7 +125,7 @@ Make it clear to the group that there will be a similar post-submodule survey to
 
 ---
 
-### Quarto
+## Quarto
 
 Quarto makes it easy to analyze, share and reproduce.
 It’s a powerful tool for producing transparent, reproducible, and accessible work that can be freely shared, viewed, and reused by others.
@@ -296,12 +249,12 @@ For students who advance faster: Prepare extra exercises.
 -   The default format is html
 -   The output format can also be changed by editing the YAML header
 
-#### Task 1
+**Task 1**
 
 -   [ ] Follow the steps to create a new Quarto Document
 
 :::
-::::::
+:::::
 
 ------------------------------------------------------------------------
 
@@ -312,7 +265,7 @@ There are two ways to render in Quarto
 -   **Manual rendering**: having to click on the "Render" each time you want to see the output
 -   **Render on Save**: Quarto will automatically re-render the document each time you click "Save"
 
-### Where are these rendering options in RStudio?
+**Where are these rendering options in RStudio?**
 
 ![You can find both Manual Render and Render on Save at the top of your workspace](images/rendering.png)
 
@@ -330,7 +283,7 @@ To practice authoring in Quarto, let's start with setting the YAML header and ad
 
 ## Authoring
 
-#### Task 2
+**Task 2**
 
 -   [ ] copy & paste this into the YAML header of your document
 
@@ -356,7 +309,7 @@ Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" targ
 
 ## Markdown Text
 
-### Basic Text Formatting
+**Basic Text Formatting**
 
 -   **Bold:** `**bold**` → **bold**
 
@@ -387,7 +340,7 @@ Key steps include:
 - Summarizing results
 ```
 
-#### Task 3
+**Task 3**
 
 -   [ ] Copy this text and paste it to your document
 -   [ ] Bold the word *"ChickWeight"*
@@ -433,7 +386,7 @@ The ChickWeight dataset in R is based on real experimental data.
 
 <br>
 
-#### Task 4
+**Task 4**
 
 -   [ ] Copy & paste into your Quarto document to add this callout note box.
 
@@ -441,7 +394,7 @@ The ChickWeight dataset in R is based on real experimental data.
 
 ## Code Chunks
 
-### Inserting Code
+**Inserting Code**
 
 Two ways to insert code chunks:
 
@@ -470,7 +423,7 @@ ggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +
 
 <br>
 
-#### Task 5
+**Task 5**
 
 -   [ ] Insert the code in **two separate code chunks**
 -   [ ] Render the output and see what you get
@@ -522,7 +475,7 @@ Adjust how the code is portrayed by editing the YAML header
 
 Let's edit the YAML header to make the code chunks collapsible and add code tools.
 
-#### Task 6
+**Task 6**
 
 -   [ ] change `code-fold: false` to `code-fold: true`
 -   [ ] add `code-tools: true`
@@ -660,7 +613,7 @@ link without title: \< https:// link \>
 ```
 <br>
 
-#### Task 7
+**Task 7**
 
 -   [ ] <a href="images/chickpic1.png" download>Click this link to download the image</a>
 -   [ ] Save the image to the main folder of the Quarto document files
@@ -691,7 +644,7 @@ Here is a <a href="https://quarto.org/docs/authoring/article-layout.html">link f
 
 Let's use columns to add bullet points next to an image.
 
-#### Task 8
+**Task 8**
 
 -   [ ] <a href="images/chickpic2.png" download>Click this link to download the image</a>
 -   [ ] Save the image to the main folder of the Quarto document files
@@ -700,7 +653,7 @@ Let's use columns to add bullet points next to an image.
 
 ### Creating Columns 
 
-#### Task 8
+**Task 8**
 
 ``` markdown
 :::::: columns
@@ -727,6 +680,8 @@ Let's use columns to add bullet points next to an image.
 
 -   **Zotero** is a free reference management tool to collect, organize, cite, and share research sources.
 -   You can use **Zotero** in RStudio to easily insert citations into your Quarto document
+
+---
 
 ## Adding Citations with Zotero
 
@@ -766,7 +721,7 @@ To insert a citation:
 
 [Follow this link to an article on diets and broiler chicks](https://www.sciencedirect.com/science/article/pii/S0032579119437073) 
 
-#### Task 9
+**Task 9**
 
 - [ ] add the citation to your Zotero Library
 
@@ -821,7 +776,7 @@ Let's take a closer look at the first method: **Render to `docs`**
 
 ## Publishing to GitHub
 
-### Render to `docs`
+**Render to `docs`**
 
 - Edit the YAML header and add `output-dir: docs` at the end
 - In the root of your GitHub repo, create an empty file named `.nojekyll` by running the following in the terminal for Mac/Linux:
@@ -838,7 +793,7 @@ copy NUL .nojekyll
 
 ## Publishing to GitHub
 
-### Render to `docs`
+**Render to `docs`**
 
 - Enter the following in the Terminal to render and push your site to GitHub 
 
@@ -852,7 +807,9 @@ git push
 
 ## Publishing to GitHub
 
-#### Task 10
+**Task 10**
+
+---
 
 ## Recap 
 

@@ -1,111 +1,43 @@
 {
+  "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.qmd": {
+    "OS-M3-S6-Quarto-slides.html": "5a76b31e",
+    "OS-M3-S6-Quarto-slides.tex": "87e00abf",
+    "OS-M3-S6-Quarto-slides.pptx": "6ca458e4"
+  },
+  "materials/OS-template-module/OS-template-slides.qmd": {
+    "OS-template-slides.html": "270e61c2",
+    "OS-template-slides.tex": "ce635f72",
+    "OS-template-slides.pptx": "e3d942f9"
+  },
+  "materials/OS-template-module/OS-template.qmd": {
+    "OS-template.html": "fb81b184"
+  },
   "about.qmd": {
-    "about.html": "dd078d27"
-  },
-  "index.qmd": {
-    "index.html": "035a2853"
-  },
-  "materials/module-1/M1-S1-Intro-OS/M1-S1-Intro-OS-slides.qmd": {
-    "M1-S1-Intro-OS-slides.html": "efc88d9e"
-  },
-  "materials/module-1/M1-S1-Intro-OS/M1-S1-Intro-OS.qmd": {
-    "M1-S1-Intro-OS.html": "7c74fa7c"
-  },
-  "materials/test-module/slides.qmd": {
-    "slides.html": "ffbaf181",
-    "slides.tex": "fe623636",
-    "slides.pptx": "4ac076ff"
-  },
-  "materials/test-module/test-S1_topic.qmd": {
-    "test-S1_topic.html": "2d8540e7"
-  },
-  "materials/module-2/M2-S0-Module-Intro/M2-S0-Module-Intro-slides.qmd": {
-    "M2-S0-Module-Intro-slides.html": "80d5d212"
-  },
-  "materials/module-2/M2-S0-Module-Intro/M2-S0-Module-Intro.qmd": {
-    "M2-S0-Module-Intro.html": "517783fd"
-  },
-  "materials/module-3/M3-S0-Module-Intro/M2-S0-Module-Intro-slides.qmd": {
-    "M2-S0-Module-Intro-slides.html": "e484fea8",
-    "M2-S0-Module-Intro-slides.tex": "59dfe447",
-    "M2-S0-Module-Intro-slides.pptx": "068fcdcc"
-  },
-  "materials/module-3/M3-S0-Module-Intro/M2-S0-Module-Intro.qmd": {
-    "M2-S0-Module-Intro.html": "7247cd72"
-  },
-  "materials/module-3/M3-S1-Zotero/M2-S0-Module-Intro-slides.qmd": {
-    "M2-S0-Module-Intro-slides.html": "c67a5caf"
-  },
-  "materials/module-3/M3-S1-Zotero/M2-S0-Module-Intro.qmd": {
-    "M2-S0-Module-Intro.html": "f51c9822"
-  },
-  "materials/module-3/M3-S2-Preregistration/M2-S0-Module-Intro-slides.qmd": {
-    "M2-S0-Module-Intro-slides.html": "08575576"
-  },
-  "materials/module-3/M3-S2-Preregistration/M2-S0-Module-Intro.qmd": {
-    "M2-S0-Module-Intro.html": "77a524dc"
-  },
-  "materials/module-3/M3-S3-R-Part-I/M2-S0-Module-Intro-slides.qmd": {
-    "M2-S0-Module-Intro-slides.html": "be6c4f93"
-  },
-  "materials/module-3/M3-S3-R-Part-I/M2-S0-Module-Intro.qmd": {
-    "M2-S0-Module-Intro.html": "6c15efd6"
-  },
-  "materials/module-3/M3-S4-R-Part-II/M2-S0-Module-Intro-slides.qmd": {
-    "M2-S0-Module-Intro-slides.html": "b5281afb"
-  },
-  "materials/module-3/M3-S4-R-Part-II/M2-S0-Module-Intro.qmd": {
-    "M2-S0-Module-Intro.html": "a9d72eab"
+    "about.html": "c6ea1f60"
   },
   "help.qmd": {
-    "help.html": "c6556380"
+    "help.html": "0103189b"
   },
-  "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I-slides.qmd": {
-    "M3-S3-R-Part-I-slides.html": "cd4e8f82",
-    "M3-S3-R-Part-I-slides.tex": "311d01d1",
-    "M3-S3-R-Part-I-slides.pptx": "da046254"
+  "index.qmd": {
+    "index.html": "d01ddd1c"
   },
-  "materials/module-3/M3-S3-R-Part-I/M3-S3-R-Part-I.qmd": {
-    "M3-S3-R-Part-I.html": "d58ab7de"
+  "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.qmd": {
+    "OS-M3-S2-R-Part-I-slides.html": "d0adf63a",
+    "OS-M3-S2-R-Part-I-slides.tex": "fed13a4a",
+    "OS-M3-S2-R-Part-I-slides.pptx": "062ccea1"
   },
-  "materials/module-3/M3-S4-R-Part-II/M3-S4-R-Part-II-slides.qmd": {
-    "M3-S4-R-Part-II-slides.html": "9a4c72a7",
-    "M3-S4-R-Part-II-slides.tex": "2a5f21c1",
-    "M3-S4-R-Part-II-slides.pptx": "62c32333"
+  "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.qmd": {
+    "OS-M3-S2-R-Part-I.html": "c6124121"
   },
-  "materials/module-3/M3-S4-R-Part-II/M3-S4-R-Part-II.qmd": {
-    "M3-S4-R-Part-II.html": "f04e8f0b"
+  "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd": {
+    "OS-M3-S6-Quarto.html": "8b92559a"
   },
-  "materials/module-3/M3-S7-Quarto/M3-S7-Quarto-slides.qmd": {
-    "M3-S7-Quarto-slides.html": "b901dd97",
-    "M3-S7-Quarto-slides.tex": "7f1a9853",
-    "M3-S7-Quarto-slides.pptx": "68a87925"
+  "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.qmd": {
+    "OS-M3-S3-R-Part-II-slides.html": "cc6462ad",
+    "OS-M3-S3-R-Part-II-slides.tex": "144a682b",
+    "OS-M3-S3-R-Part-II-slides.pptx": "b5672ef4"
   },
-  "materials/module-3/M3-S7-Quarto/M3-S7-Quarto.qmd": {
-    "M3-S7-Quarto.html": "1d7c8690"
-  },
-  "materials/template-module/template-slides.qmd": {
-    "template-slides.html": "cb41f5dd",
-    "template-slides.tex": "45d04178",
-    "template-slides.pptx": "36fe6c0f"
-  },
-  "materials/template-module/template.qmd": {
-    "template.html": "92603f43"
-  },
-  "materials/module-3/M3-S2-Preregistration/M3-S2-Preregistration-slides.qmd": {
-    "M3-S2-Preregistration-slides.html": "dfef366d",
-    "M3-S2-Preregistration-slides.tex": "bba8f101",
-    "M3-S2-Preregistration-slides.pptx": "970e37f9"
-  },
-  "materials/module-3/M3-S2-Preregistration/M3-S2-Preregistration.qmd": {
-    "M3-S2-Preregistration.html": "5f09a27c"
-  },
-  "materials/module-3/M3-S6-GitHub/M3-S6-GitHub-slides.qmd": {
-    "M3-S6-GitHub-slides.html": "27b7413a",
-    "M3-S6-GitHub-slides.tex": "bfeda31a",
-    "M3-S6-GitHub-slides.pptx": "fdc71568"
-  },
-  "materials/module-3/M3-S6-GitHub/M3-S6-GitHub.qmd": {
-    "M3-S6-GitHub.html": "ff4425e4"
+  "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II.qmd": {
+    "OS-M3-S3-R-Part-II.html": "3d5e23c1"
   }
 }
