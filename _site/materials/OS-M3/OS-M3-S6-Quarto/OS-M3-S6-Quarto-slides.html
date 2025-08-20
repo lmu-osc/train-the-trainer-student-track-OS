@@ -195,6 +195,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Introduction to Literate Programming with Quarto</h1>
+  <p class="subtitle">Template Slides: Title of Submodule</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -1002,12 +1003,12 @@ Elizabeth Waterfield
 <h2>Creating Columns</h2>
 <p>You can change the layout of a section using <strong>columns</strong>.</p>
 <ul>
-<li>Start the column layout by writing “:::::: columns”</li>
-<li>Begin the first column with “::: column”</li>
-<li>Add content and end it with “:::”</li>
-<li>Begin second coloumn with “::: column”</li>
-<li>Add content and end it with “:::”</li>
-<li>End section with a final “::::::”</li>
+<li>Start the column layout by writing “<code>:::::: columns</code>”</li>
+<li>Begin the first column with “<code>::: column</code>”</li>
+<li>Add content and end it with “<code>:::</code>”</li>
+<li>Begin second coloumn with “<code>::: column</code>”</li>
+<li>Add content and end it with “<code>:::</code>”</li>
+<li>End section with a final “<code>::::::</code>”</li>
 </ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -1054,14 +1055,13 @@ Elizabeth Waterfield
 <span id="cb7-4"><a></a><span class="al">![](images/chickpic2.png)</span></span>
 <span id="cb7-5"><a></a></span>
 <span id="cb7-6"><a></a>:::</span>
-<span id="cb7-7"><a></a></span>
-<span id="cb7-8"><a></a>::: column</span>
-<span id="cb7-9"><a></a></span>
-<span id="cb7-10"><a></a><span class="ss">-   </span>Monitor growth trends over time</span>
-<span id="cb7-11"><a></a><span class="ss">-   </span>Compare diets and weight gain</span>
-<span id="cb7-12"><a></a></span>
-<span id="cb7-13"><a></a>:::</span>
-<span id="cb7-14"><a></a>::::::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-7"><a></a>::: column</span>
+<span id="cb7-8"><a></a></span>
+<span id="cb7-9"><a></a><span class="ss">-   </span>Monitor growth trends over time</span>
+<span id="cb7-10"><a></a><span class="ss">-   </span>Compare diets and weight gain</span>
+<span id="cb7-11"><a></a></span>
+<span id="cb7-12"><a></a>:::</span>
+<span id="cb7-13"><a></a>::::::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy &amp; paste the markdown text to add an image with bullet points using columns (edit path if needed)</label></li>
 </ul>
@@ -1113,13 +1113,13 @@ Elizabeth Waterfield
 <p>Let’s practice adding a citation</p>
 <p><strong>Task 9</strong></p>
 <ul class="task-list">
-<li><label><input type="checkbox">add <code>bibliography: references.bib</code> to your YAML header</label></li>
-<li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819">follow this link to an article on diets and broiler chicks</a></label></li>
-<li><label><input type="checkbox">add the citation to your Zotero Library</label></li>
+<li><label><input type="checkbox">Add <code>bibliography: references.bib</code> to your YAML header</label></li>
+<li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819">Follow this link to an article on diets and broiler chicks</a></label></li>
+<li><label><input type="checkbox">Add the citation to your Zotero Library</label></li>
 </ul>
 <div class="sourceCode" id="cb8"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a></a>Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
-<li><label><input type="checkbox">copy the text above and place the cursor at the end of the sentence</label></li>
+<li><label><input type="checkbox">Copy the text above and place the cursor at the end of the sentence</label></li>
 </ul>
 <aside class="notes">
 <p><em>Instructor Note</em> - There are several ways to add a citation to your Zotero library but an easy way is using the ‘magic wand’ (adding the item by its identifier). Here, you can just copy the DOI of the study, hit Enter, and it will be added to Zotero. The DOIs of the articles in these tasks will be clearly visible so this method is recommended.</p>
@@ -1139,8 +1139,8 @@ Elizabeth Waterfield
 <h2>Adding Citations with Zotero</h2>
 <p><strong>Task 9</strong></p>
 <ul class="task-list">
-<li><label><input type="checkbox">in <strong>Visual Mode</strong>, click “Insert” and find the article in the Zotero Library</label></li>
-<li><label><input type="checkbox">click “Insert” to add the citation</label></li>
+<li><label><input type="checkbox">In <strong>Visual Mode</strong>, click “Insert” and find the article in the Zotero Library</label></li>
+<li><label><input type="checkbox">Click “Insert” to add the citation</label></li>
 </ul>
 
 <img data-src="images/zotero3.png" class="r-stretch quarto-figure-center"><p class="caption">When you find the article in the Zotero Library folder here, select it and then click Insert</p><aside class="notes">
@@ -1161,23 +1161,25 @@ Elizabeth Waterfield
 <h2>Adding Citations with Zotero</h2>
 <p>Let’s add another citation to practice adding <strong>in-text</strong> citations</p>
 <p><strong>Task 10</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153859#:~:text=In%20conclusion%2C%20HDND%20improved%20the,diet%20adversely%20affected%20bone%20mineralization.">Follow this link to another article on diets and broiler chicks</a></label></li>
+<li><label><input type="checkbox">Add the citation to your Zotero Library</label></li>
+</ul>
 <div class="sourceCode" id="cb9"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a></a> found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
-<li><label><input type="checkbox">copy the text above and place the cursor at the beginning of the sentence</label></li>
-<li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153859#:~:text=In%20conclusion%2C%20HDND%20improved%20the,diet%20adversely%20affected%20bone%20mineralization.">follow this link to another article on diets and broiler chicks</a></label></li>
-<li><label><input type="checkbox">add the citation to your Zotero Library</label></li>
+<li><label><input type="checkbox">Copy the text above and place the cursor at the beginning of the sentence</label></li>
 </ul>
 </section>
 <section id="adding-citations-with-zotero-6" class="slide level2">
 <h2>Adding Citations with Zotero</h2>
 <p><strong>Task 10</strong></p>
 <ul class="task-list">
-<li><label><input type="checkbox">click “Insert” and find the article in the Zotero Library</label></li>
-<li><label><input type="checkbox">check the box next to “In-text”</label></li>
+<li><label><input type="checkbox">Click “Insert” and find the article in the Zotero Library</label></li>
+<li><label><input type="checkbox">Check the box next to “In-text”</label></li>
 </ul>
 
 <img data-src="images/zotero4.png" class="r-stretch"><ul class="task-list">
-<li><label><input type="checkbox">click “Insert” to add the citation</label></li>
+<li><label><input type="checkbox">Click “Insert” to add the citation</label></li>
 </ul>
 </section>
 <section id="adding-citations-with-zotero-7" class="slide level2">
@@ -1284,7 +1286,7 @@ Elizabeth Waterfield
 <li>then, click Terminal → New Terminal to begin working with Git Bash</li>
 </ul>
 <aside class="notes">
-<p><em>Instructor Note</em> - The last step (to open a new Terminal) is important because the current Terminal does not just automatically change to Git Bash.</p>
+<p><em>Instructor Note</em> - When you click the drop-down arrow by Terminal, the options may look different than what’s in the image in this slide but the “Terminal Options…” will be at the end (you may have to scroll a bit). - The last step (open a new Terminal) is important because the current Terminal does not automatically change to Git Bash.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1301,17 +1303,17 @@ Elizabeth Waterfield
 <h2>Publishing to GitHub</h2>
 <p><strong>Task 11</strong></p>
 <ul class="task-list">
-<li><label><input type="checkbox">in Quarto Document, edit YAML and add:</label></li>
+<li><label><input type="checkbox">In your Quarto Document, edit YAML and add:</label></li>
 </ul>
 <div class="sourceCode" id="cb10"><pre class="sourceCode numberSource mardown number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a></a>project:</span>
 <span id="cb10-2"><a></a>  type: website</span>
 <span id="cb10-3"><a></a>  output-dir: docs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
-<li><label><input type="checkbox">set Terminal to open with Git Bash and open new Terminal</label></li>
-<li><label><input type="checkbox">change directory to the path of the main folder with the Quarto files using <code>cd</code></label></li>
+<li><label><input type="checkbox">Set Terminal to open with Git Bash and open new Terminal</label></li>
+<li><label><input type="checkbox">Change directory to the path of the main folder with the Quarto files using <code>cd</code></label></li>
 </ul>
 <aside class="notes">
-<p><em>Instructor Note</em> - Reminder that copying &amp; pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. - Setting the directory can be tricky. - Backslashes (<code>\</code>) need to be changes to forward slashes (<code>/</code>). - If you’re pasting the exact path of the folder, wrap it in quotation marks (<code>"..."</code>)</p>
+<p><em>Instructor Note</em> - Reminder that copying &amp; pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. - Sometimes in Git Bash/Terminal, just copying &amp; pasting will run the command, but sometimes you need to hit Enter. - Setting the directory can be tricky. - Backslashes (<code>\</code>) need to be changes to forward slashes (<code>/</code>). - If you’re pasting the exact path of the folder, wrap it in quotation marks (<code>"..."</code>)</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1331,11 +1333,11 @@ Elizabeth Waterfield
 <span id="cb11-2"><a></a>  type: website</span>
 <span id="cb11-3"><a></a>  output-dir: docs" &gt; _quarto.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
-<li><label><input type="checkbox">make a simple <code>_quarto.yml</code> file by copying &amp; pasting the above in the Terminal</label></li>
+<li><label><input type="checkbox">Make a simple <code>_quarto.yml</code> file by copying &amp; pasting the above in the Terminal</label></li>
 </ul>
 <div class="sourceCode" id="cb12"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a></a>touch .nojekyll</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
-<li><label><input type="checkbox">copy &amp; paste the above into the Terminal to add a <code>.nojekyll</code> file</label></li>
+<li><label><input type="checkbox">Copy &amp; paste the above into the Terminal to add a <code>.nojekyll</code> file</label></li>
 </ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -1356,12 +1358,12 @@ Elizabeth Waterfield
 <p><strong>Task 11</strong></p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a></a>quarto render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
-<li><label><input type="checkbox">copy &amp; paste the above into Terminal to generate HTML in the <code>docs/</code> folder</label></li>
+<li><label><input type="checkbox">Copy &amp; paste the above into Terminal to generate HTML in the <code>docs/</code> folder</label></li>
 </ul>
 <div class="sourceCode" id="cb14"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb14-1"><a></a>git init</span>
 <span id="cb14-2"><a></a>git branch -M main  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
-<li><label><input type="checkbox">copy &amp; paste the above into Terminal to initialize Git and rename “master” to “main”</label></li>
+<li><label><input type="checkbox">Copy &amp; paste the above into Terminal to initialize Git and rename “master” to “main”</label></li>
 </ul>
 <aside class="notes">
 <p><em>Instructor Note</em> - You will see a warning about <code>references.bib not found in resource path</code> which usually happens because Quarto looks for the file in the project’s root or resource path, but Git Bash is case-sensitive and strict with paths. - So, you will see in your completed Git Pages web page that the citations look strange but we will leave it like that for now. - Extra steps are needed to correct this that will be covered in the Advanced Intro to Quarto Activity PDF.</p>
@@ -1381,15 +1383,15 @@ Elizabeth Waterfield
 <h2>Publishing to GitHub</h2>
 <p><strong>Task 11</strong></p>
 <ul class="task-list">
-<li><label><input type="checkbox">in <a href="github.com">GitHub</a>, create a new repo</label></li>
-<li><label><input type="checkbox">in Terminal, add remote by using “<code>git remote add origin</code>” + the repo’s HTTPS URL (e.g., “<code>git remote add origin https://github.com/yourname/chickweight-exercise.git</code>”)</label></li>
+<li><label><input type="checkbox">In <a href="github.com">GitHub</a>, create a new repo</label></li>
+<li><label><input type="checkbox">In Terminal, add remote by using “<code>git remote add origin</code>” + the repo’s HTTPS URL (e.g., “<code>git remote add origin https://github.com/yourname/chickweight-exercise.git</code>”)</label></li>
 </ul>
 <div class="sourceCode" id="cb15"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb15-1"><a></a>quarto render</span>
 <span id="cb15-2"><a></a>git add docs</span>
 <span id="cb15-3"><a></a>git commit -m "Publish site to docs/"</span>
 <span id="cb15-4"><a></a>git push -u origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
-<li><label><input type="checkbox">copy &amp; paste the above into Terminal to render your site and push it to GitHub</label></li>
+<li><label><input type="checkbox">Copy &amp; paste the above into Terminal to render your site and push it to GitHub</label></li>
 </ul>
 <aside class="notes">
 <p><em>Instructor Note</em> - For this to work, the repo created must be set to Public</p>
@@ -1420,10 +1422,10 @@ Elizabeth Waterfield
 </div><div class="column">
 <p><img data-src="images/gitpages4.png"></p>
 <ul class="task-list">
-<li><label><input type="checkbox">change “/root” to “/docs” and click Save</label></li>
+<li><label><input type="checkbox">Change “/root” to “/docs” and click Save</label></li>
 </ul>
 </div></div>
-<p>After 1-2 minutes, you will see that your site is <strong>live</strong>.</p>
+<p>After 1-2 minutes, you will see that your site is <strong>live</strong>!</p>
 <aside class="notes">
 <p><em>Instructor Note</em> - Reminder that the citations will not be complete because configuring to include the bibliography was not done. That’s an additional step.</p>
 <style type="text/css">

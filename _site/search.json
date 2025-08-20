@@ -11,7 +11,7 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html",
     "title": "3.6. Introduction to Quarto",
     "section": "",
-    "text": "Something nice here\n\nFull Screen\n\n\nOverview\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nDownload files\nDownload the csv file for the mtcars data:\n Download \n \n\n\nExport slides\nYou can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export.\n Download slides as PPTX",
+    "text": "Something nice here\n\nFull Screen\n\n\nOverview\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nDownload files\nDownload the csv file for the mtcars data:\n Download \n \n\n\nExport slides\nYou can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export.",
     "crumbs": [
       "Home",
       "Module 3: Open Science Tools",
@@ -1763,7 +1763,7 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#creating-columns-2",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Creating Columns",
-    "text": "Creating Columns\nTask 8\n:::::: columns\n::: column\n\n![](images/chickpic2.png)\n\n:::\n\n::: column\n\n-   Monitor growth trends over time\n-   Compare diets and weight gain\n\n:::\n::::::\n\nCopy & paste the markdown text to add an image with bullet points using columns (edit path if needed)"
+    "text": "Creating Columns\nTask 8\n:::::: columns\n::: column\n\n![](images/chickpic2.png)\n\n:::\n::: column\n\n-   Monitor growth trends over time\n-   Compare diets and weight gain\n\n:::\n::::::\n\nCopy & paste the markdown text to add an image with bullet points using columns (edit path if needed)"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero",
@@ -1791,28 +1791,28 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-3",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Adding Citations with Zotero",
-    "text": "Adding Citations with Zotero\nLet’s practice adding a citation\nTask 9\n\nadd bibliography: references.bib to your YAML header\nfollow this link to an article on diets and broiler chicks\nadd the citation to your Zotero Library\n\nDiet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more \n\ncopy the text above and place the cursor at the end of the sentence\n\n\nInstructor Note - There are several ways to add a citation to your Zotero library but an easy way is using the ‘magic wand’ (adding the item by its identifier). Here, you can just copy the DOI of the study, hit Enter, and it will be added to Zotero. The DOIs of the articles in these tasks will be clearly visible so this method is recommended."
+    "text": "Adding Citations with Zotero\nLet’s practice adding a citation\nTask 9\n\nAdd bibliography: references.bib to your YAML header\nFollow this link to an article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\nDiet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more \n\nCopy the text above and place the cursor at the end of the sentence\n\n\nInstructor Note - There are several ways to add a citation to your Zotero library but an easy way is using the ‘magic wand’ (adding the item by its identifier). Here, you can just copy the DOI of the study, hit Enter, and it will be added to Zotero. The DOIs of the articles in these tasks will be clearly visible so this method is recommended."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-4",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-4",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Adding Citations with Zotero",
-    "text": "Adding Citations with Zotero\nTask 9\n\nin Visual Mode, click “Insert” and find the article in the Zotero Library\nclick “Insert” to add the citation\n\n\nWhen you find the article in the Zotero Library folder here, select it and then click Insert\nInstructor Note - It is possible to add citations in Source mode, but it is easier and more efficient to do it in Visual mdoe. This is also a good opportunity for students to see all the work they’ve done so far in the Quarto document now in Visual mode."
+    "text": "Adding Citations with Zotero\nTask 9\n\nIn Visual Mode, click “Insert” and find the article in the Zotero Library\nClick “Insert” to add the citation\n\n\nWhen you find the article in the Zotero Library folder here, select it and then click Insert\nInstructor Note - It is possible to add citations in Source mode, but it is easier and more efficient to do it in Visual mdoe. This is also a good opportunity for students to see all the work they’ve done so far in the Quarto document now in Visual mode."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-5",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-5",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Adding Citations with Zotero",
-    "text": "Adding Citations with Zotero\nLet’s add another citation to practice adding in-text citations\nTask 10\n found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.\n\ncopy the text above and place the cursor at the beginning of the sentence\nfollow this link to another article on diets and broiler chicks\nadd the citation to your Zotero Library"
+    "text": "Adding Citations with Zotero\nLet’s add another citation to practice adding in-text citations\nTask 10\n\nFollow this link to another article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\n found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.\n\nCopy the text above and place the cursor at the beginning of the sentence"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-6",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-6",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Adding Citations with Zotero",
-    "text": "Adding Citations with Zotero\nTask 10\n\nclick “Insert” and find the article in the Zotero Library\ncheck the box next to “In-text”\n\n\n\nclick “Insert” to add the citation"
+    "text": "Adding Citations with Zotero\nTask 10\n\nClick “Insert” and find the article in the Zotero Library\nCheck the box next to “In-text”\n\n\n\nClick “Insert” to add the citation"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-7",
@@ -1854,42 +1854,42 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-3",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Publishing to GitHub",
-    "text": "Publishing to GitHub\nWork with Git Bash directly from the Terminal in RStudio.\n\nclick Terminal → Terminal Options and set it to open with Git Bash\n\n\n\n\n\n\n\n\nthen, click Terminal → New Terminal to begin working with Git Bash\n\n\nInstructor Note - The last step (to open a new Terminal) is important because the current Terminal does not just automatically change to Git Bash."
+    "text": "Publishing to GitHub\nWork with Git Bash directly from the Terminal in RStudio.\n\nclick Terminal → Terminal Options and set it to open with Git Bash\n\n\n\n\n\n\n\n\nthen, click Terminal → New Terminal to begin working with Git Bash\n\n\nInstructor Note - When you click the drop-down arrow by Terminal, the options may look different than what’s in the image in this slide but the “Terminal Options…” will be at the end (you may have to scroll a bit). - The last step (open a new Terminal) is important because the current Terminal does not automatically change to Git Bash."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-4",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-4",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Publishing to GitHub",
-    "text": "Publishing to GitHub\nTask 11\n\nin Quarto Document, edit YAML and add:\n\nproject:\n  type: website\n  output-dir: docs\n\nset Terminal to open with Git Bash and open new Terminal\nchange directory to the path of the main folder with the Quarto files using cd\n\n\nInstructor Note - Reminder that copying & pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. - Setting the directory can be tricky. - Backslashes (\\) need to be changes to forward slashes (/). - If you’re pasting the exact path of the folder, wrap it in quotation marks (\"...\")"
+    "text": "Publishing to GitHub\nTask 11\n\nIn your Quarto Document, edit YAML and add:\n\nproject:\n  type: website\n  output-dir: docs\n\nSet Terminal to open with Git Bash and open new Terminal\nChange directory to the path of the main folder with the Quarto files using cd\n\n\nInstructor Note - Reminder that copying & pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. - Sometimes in Git Bash/Terminal, just copying & pasting will run the command, but sometimes you need to hit Enter. - Setting the directory can be tricky. - Backslashes (\\) need to be changes to forward slashes (/). - If you’re pasting the exact path of the folder, wrap it in quotation marks (\"...\")"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-5",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-5",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Publishing to GitHub",
-    "text": "Publishing to GitHub\nTask 11\necho \"project:\n  type: website\n  output-dir: docs\" &gt; _quarto.yml\n\nmake a simple _quarto.yml file by copying & pasting the above in the Terminal\n\ntouch .nojekyll\n\ncopy & paste the above into the Terminal to add a .nojekyll file\n\n\n\n\n\n\n\n.nojekyll\n\n\nAdding a .nojekyll file to the root of your repo tells GitHub Pages not to do additional processing of your published site using Jekyll"
+    "text": "Publishing to GitHub\nTask 11\necho \"project:\n  type: website\n  output-dir: docs\" &gt; _quarto.yml\n\nMake a simple _quarto.yml file by copying & pasting the above in the Terminal\n\ntouch .nojekyll\n\nCopy & paste the above into the Terminal to add a .nojekyll file\n\n\n\n\n\n\n\n.nojekyll\n\n\nAdding a .nojekyll file to the root of your repo tells GitHub Pages not to do additional processing of your published site using Jekyll"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-6",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-6",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Publishing to GitHub",
-    "text": "Publishing to GitHub\nTask 11\nquarto render\n\ncopy & paste the above into Terminal to generate HTML in the docs/ folder\n\ngit init\ngit branch -M main  \n\ncopy & paste the above into Terminal to initialize Git and rename “master” to “main”\n\n\nInstructor Note - You will see a warning about references.bib not found in resource path which usually happens because Quarto looks for the file in the project’s root or resource path, but Git Bash is case-sensitive and strict with paths. - So, you will see in your completed Git Pages web page that the citations look strange but we will leave it like that for now. - Extra steps are needed to correct this that will be covered in the Advanced Intro to Quarto Activity PDF."
+    "text": "Publishing to GitHub\nTask 11\nquarto render\n\nCopy & paste the above into Terminal to generate HTML in the docs/ folder\n\ngit init\ngit branch -M main  \n\nCopy & paste the above into Terminal to initialize Git and rename “master” to “main”\n\n\nInstructor Note - You will see a warning about references.bib not found in resource path which usually happens because Quarto looks for the file in the project’s root or resource path, but Git Bash is case-sensitive and strict with paths. - So, you will see in your completed Git Pages web page that the citations look strange but we will leave it like that for now. - Extra steps are needed to correct this that will be covered in the Advanced Intro to Quarto Activity PDF."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-7",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-7",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Publishing to GitHub",
-    "text": "Publishing to GitHub\nTask 11\n\nin GitHub, create a new repo\nin Terminal, add remote by using “git remote add origin” + the repo’s HTTPS URL (e.g., “git remote add origin https://github.com/yourname/chickweight-exercise.git”)\n\nquarto render\ngit add docs\ngit commit -m \"Publish site to docs/\"\ngit push -u origin main\n\ncopy & paste the above into Terminal to render your site and push it to GitHub\n\n\nInstructor Note - For this to work, the repo created must be set to Public"
+    "text": "Publishing to GitHub\nTask 11\n\nIn GitHub, create a new repo\nIn Terminal, add remote by using “git remote add origin” + the repo’s HTTPS URL (e.g., “git remote add origin https://github.com/yourname/chickweight-exercise.git”)\n\nquarto render\ngit add docs\ngit commit -m \"Publish site to docs/\"\ngit push -u origin main\n\nCopy & paste the above into Terminal to render your site and push it to GitHub\n\n\nInstructor Note - For this to work, the repo created must be set to Public"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-8",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-8",
     "title": "Introduction to Literate Programming with Quarto",
     "section": "Publishing to GitHub",
-    "text": "Publishing to GitHub\n\nIn your repo on GitHub, go to Settings\nClick “Pages” to configure GitHub Pages\n\n\n\n\n\nchange “none” to “main”\n\n\n\n\nchange “/root” to “/docs” and click Save\n\n\nAfter 1-2 minutes, you will see that your site is live.\n\nInstructor Note - Reminder that the citations will not be complete because configuring to include the bibliography was not done. That’s an additional step."
+    "text": "Publishing to GitHub\n\nIn your repo on GitHub, go to Settings\nClick “Pages” to configure GitHub Pages\n\n\n\n\n\nchange “none” to “main”\n\n\n\n\nChange “/root” to “/docs” and click Save\n\n\nAfter 1-2 minutes, you will see that your site is live!\n\nInstructor Note - Reminder that the citations will not be complete because configuring to include the bibliography was not done. That’s an additional step."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#recap",
