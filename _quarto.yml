@@ -28,9 +28,11 @@ website:
           # - href: materials/OS-M2/OS-M2-S0-Module-Intro/OS-M2-S0_Module-Intro.qmd
       - section: "Module 3: Open Science Tools"
         contents:
-           - href: materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.qmd
-           - href: materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II.qmd
-           - href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd
+           - href: materials/OS-M3/OS-M3-S1-Zotero/OS-M3/OS-M3-S1-Zotero.qmd # with template
+           - href: materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.qmd # work in progress
+           - href: materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II.qmd # work in progress
+           - href: materials/OS-M3/OS-M3-S4-Git-RStudio/OS-M3-S4-Git-RStudio.qmd # work in progress
+           - href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd # work in progress
       - section: "Module 4: Open Code and Open Data"
         contents:
       - section: "Module 5: Open Results"
