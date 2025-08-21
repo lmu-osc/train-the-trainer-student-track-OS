@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Collaborative Coding with GitHub"
-author: "Elizabeth Waterfield"
+title: "Template Slides: Title of submodule"
+author: "Author"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
@@ -26,40 +26,28 @@ execute:
 
 Possible roles using the CRediT contribition system: 
 
-- **Conceptualization**: Ideas; formulation or evolution of overarching research goals and aims
-- **Methodology**: Development or design of methodology; creation of models
+**Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
-- **Software** : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components
+<br>
+<br>
 
-- **Validation**: Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs
+<div style="font-size: 0.6em;">
+This work by YYY XXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+</div>
 
-- **Formal analysis**: Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data
+::: {.notes}
+*Speaker Notes*
+These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
 
-- **Investigation**: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection
-
-- **Resources**: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools
-
-- **Data Curation**: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse
-
-- **Writing - Original Draft**: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)
-
-- **Writing - Review & Editing**: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages
-
-- **Visualization**: Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation
-
-- **Supervision**: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team
-
-- **Project administration**: Management and coordination responsibility for the research activity planning and execution
-
-- **Funding acquisition**: Acquisition of the financial support for the project leading to this publication
+*Instructor Notes*
+There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+:::
 
 ---
 
-### Prerequisites
-
-::: {.callout-important}
 ## Prerequisites
 
+::: {.callout-important}
 Before completing this submodule, please carefully read about the necessary prerequisites.
 :::
 
@@ -68,11 +56,9 @@ Before completing this submodule, please carefully read about the necessary prer
 | Topic Name | Basic intro to X | Module + Submodule |
 | Software Name | Configuring the environment | [Download Link](https://quarto.org) |
 
-
-::: {.notes}
-These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
-
-There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+::: notes
+*Speaker Notes*
+Script for the presentation here. 
 :::
 
 ---
@@ -84,12 +70,22 @@ There are also **instructor notes**. For some slides, there will be pedagogical 
 - Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. 
 - Not applicable if this set of slides corresponds to the first submodule of a new module. 
 
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
+
 ---
 
 ## Before we start: Survey time!
 
 - **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the sumodule's topic.
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
+- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides).
+
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
 
 ---
 
@@ -140,6 +136,7 @@ e. 5
 - Use visuals from the survey to highlight specific answers.
 
 ::: {.notes}
+*Speaker Notes*
 Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
 :::
 
@@ -149,6 +146,11 @@ Make it clear to the group that there will be a similar post-submodule survey to
 
 - **Aim**: Place the topic of the current submodule within a broader context.
 - Remind students what you are working towards and what the bigger picture is.
+
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
 
 ---
 
@@ -160,6 +162,11 @@ Make it clear to the group that there will be a similar post-submodule survey to
 - Examples: 
   - Students will **describe** the process of photosynthesis or
   - Students will **construct** a diagram illustrating the process of photosynthesis
+  
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
 
 ---
 
@@ -169,6 +176,11 @@ Make it clear to the group that there will be a similar post-submodule survey to
 - Topic 1
 - Topic 2
 - Topic 3
+
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
 
 ---
 
@@ -182,6 +194,7 @@ Make it clear to the group that there will be a similar post-submodule survey to
 - **Key Term 3**: Definition
 
 ::: {.notes}
+*Speaker notes*
 Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
 :::
 
@@ -194,8 +207,10 @@ Base yourself on conceptual change theory and examine exisiting concepts in rela
 - Use multiple slides for this part.
 
 ::: {.notes}
+*Speaker notes*
 For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
 :::
+
 ---
 
 ## Submodule content slide
@@ -215,6 +230,11 @@ This is an example of a callout box to highlight particularly important informat
 This is an example of a callout box to give important tips. 
 :::
 
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
+
 ---
 
 ## Practical exercise 1
@@ -227,12 +247,23 @@ This is an example of a callout box to give important tips.
 - [ ] Step 2
 - [ ] Step 3
 
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
+
 ---
 
 ## Pre-break survey
 
 - **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
 - Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
+
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
+
 ---
 
 **Which species is the largest type of penguin**?
@@ -268,9 +299,14 @@ d. Gills to breathe underwater
 - **Aim**: To clarify concepts and aspects that are not yet understood
 - Highlight specific answers given during the survey
 
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
+
 ---
 
-## Practical Exercise 2
+## Practical exercise 2
 
 - **Aim**: Design more practical exercises for students to apply the new skills in practise.
 - Depending on the topic, the exercises should be in accordance with the learning objective(s).
@@ -281,6 +317,7 @@ d. Gills to breathe underwater
 - [ ] Step 3
 
 ::: {.notes}
+*Speaker notes*
 For students who advance faster: Prepare extra exercises. 
 :::
 
@@ -291,6 +328,11 @@ For students who advance faster: Prepare extra exercises.
 - **Aim**: To work out the relevance of the topic to your students.
 - In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
 - Examine downfalls and practical obstacles.
+
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
 
 ---
 
@@ -304,6 +346,11 @@ For students who advance faster: Prepare extra exercises.
 Add one practical tips or take-home message.
 :::
 
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
+
 ---
 
 ## Assignment
@@ -313,12 +360,22 @@ Add one practical tips or take-home message.
 - Mention scoring rubrics, if applicable
 - Design a peer-review system for assignments to place students in role of reviewer and author
 
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
+
 ---
 
 ## To conclude: Survey time!
 
 - **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
 - Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
+
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
 
 ---
 
@@ -368,11 +425,21 @@ e. 5
 - **Aim**: Briefly examine the answers given to each question interactively with the group.
 - Compare and highlight specific differences in answers between pre- and post-survey answers
 
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
+
 ---
 
 ## References
 
 - Provide literature you refer to throughout this lesson.
+
+::: {.notes}
+*Speaker Notes*
+Script for the presentation here. 
+:::
 
 ---
 
