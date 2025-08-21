@@ -93,7 +93,7 @@ Click on the following link or scan the QR code to test your prior Quarto knowle
 *Speaker Notes*
 - Aim: the pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
 - Use free survey software such as particify or formR) to establish this. You can use the example survey, edit it or create your own.
-:::
+::::
 
 ---
 
@@ -350,7 +350,7 @@ Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" targ
 - Remember that the YAML Header goes at the top of the document in both Source and Visual Modes. 
 - In the YAML header, the format field tells Quarto what kind of output to create. Here we’ve set it to html, which means the document will render as a web page. You could choose other formats like PDF or Word, but for this lesson we’ll stick with HTML so everyone has the same experience.
 
-*Instructor Note*
+*Instructor Notes*
 - There is a small clipboard icon at the top-right of the text box. Let students know they can simply click the icon to copy all the text in that specific text box. This icon will appear for every text box moving forward so you can remind them of it the next few times a task requires them to copy the content of a text box.
 :::
 
@@ -646,7 +646,9 @@ d.  All of the above
 **How to create a code chunk in a Quarto Document?**
 
 ::: {.notes}
-*Instructor Note*
+*Speaker Notes*
+Add here.
+*Instructor Notes*
 -  Aim: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
 - Use free survey software such as or other survey software (Menti, particify, formR) to establish the following questions.
 :::
@@ -919,7 +921,7 @@ Diet affects chick body weight. In this study, low-energy feed made fast-growing
 ::: {.notes}
 *Speaker Notes*
 - Add speaker notes here.
-*Instructor Note*
+*Instructor Notes*
 - There are several ways to add a citation to your Zotero library but an easy way is using the 'magic wand' (adding the item by its identifier). Here, you can just copy the DOI of the study, hit Enter, and it will be added to Zotero. The DOIs of the articles in these tasks will be clearly visible so this method is recommended. 
 :::
 
@@ -937,7 +939,7 @@ Diet affects chick body weight. In this study, low-energy feed made fast-growing
 ::: {.notes}
 *Speaker Notes*
 - Add speaker notes here.
-*Instructor Note*
+*Instructor Notes*
 - It is possible to add citations in Source mode, but it is easier and more efficient to do it in Visual mdoe. This is also a good opportunity for students to see all the work they've done so far in the Quarto document now in Visual mode. 
 :::
 
@@ -1112,7 +1114,7 @@ Work with **Git Bash** directly from the **Terminal** in RStudio.
 ::: {.notes}
 *Speaker Notes*
 - Add speaker notes here.
-*Instructor Note*
+*Instructor Notes*
 - When you click the drop-down arrow by Terminal, the options may look different than what's in the image in this slide but the "Terminal Options..." will be at the end (you may have to scroll a bit).
 - The last step (open a new Terminal) is important because the current Terminal does not automatically change to Git Bash.
 :::
@@ -1137,7 +1139,7 @@ project:
 ::: {.notes}
 *Speaker Notes*
 - Add speaker notes here.
-*Instructor Note*
+*Instructor Notes*
 - Reminder that copying & pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. 
 - Sometimes in Git Bash/Terminal, just copying & pasting will run the command, but sometimes you need to hit Enter. 
 - Setting the directory can be tricky. 
@@ -1196,7 +1198,7 @@ git branch -M main
 ::: {.notes}
 *Speaker Notes*
 - Add speaker notes here.
-*Instructor Note*
+*Instructor Notes*
 - You will see a warning about `references.bib not found in resource path` which usually happens because Quarto looks for the file in the project’s root or resource path, but Git Bash is case-sensitive and strict with paths.
 - So, you will see in your completed Git Pages web page that the citations look strange but we will leave it like that for now.
 - Extra steps are needed to correct this that will be covered in the Advanced Intro to Quarto Activity PDF. 
@@ -1255,7 +1257,7 @@ After 1-2 minutes, you will see that your site is **live**!
 ::: {.notes}
 *Speaker Notes*
 - Add speaker notes here.
-*Instructor Note*
+*Instructor Notes*
 - Reminder that the citations will not be complete because configuring to include the bibliography was not done. That's an additional step.
 :::
 
@@ -1284,7 +1286,7 @@ Let's discuss how useful **Quarto** can be for **open research**. Consider the f
 ::: {.notes}
 *Speaker Notes*
 - Add speaker notes here.
-*Instructor Note*
+*Instructor Notes*
 - Aim: To work out the relevance of the topic to your students.
 - In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
 - Examine downfalls and practical obstacles.
@@ -1301,7 +1303,7 @@ Ask yourself: **"If you had to explain to a colleague in one sentence why learni
 ::: {.notes}
 *Speaker Notes*
 - Add speaker notes here.
-*Instructor Note*
+*Instructor Notes*
 - Aim: End lesson on clear take-home message that are interactively compiled by students.
 - Encourage students to share one sentence take-home messages. You can collect them verbally or in a shared doc/board.
 - Reinforce that Quarto is not just a tool, but a mindset shift toward openness and collaboration.
@@ -1436,9 +1438,9 @@ d) They automatically write the code for you
 ## Discussion of survey results
 
 ::: {.notes}
-*Speaker notes*
+*Speaker Notes*
 Add here. 
-*Instructor Note*
+*Instructor Notes*
 - Aim: Briefly examine the answers given to each question interactively with the group.
 -   Compare and highlight specific differences in answers between pre- and post-survey answers
 :::
