@@ -22,40 +22,23 @@ execute:
   engine: knitr
 ---
 
-## Credit statement and licence {.smaller}
+## Credit statement and licence
 
-Possible roles using the CRediT contribition system: 
+## Credit statement and licence
 
-- **Conceptualization**: Ideas; formulation or evolution of overarching research goals and aims
-- **Methodology**: Development or design of methodology; creation of models
+**Luz Sanchez Steinhagen**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
-- **Software** : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components
+<br>
+<br>
 
-- **Validation**: Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs
+<div style="font-size: 0.6em;">
+This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+</div>
 
-- **Formal analysis**: Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data
-
-- **Investigation**: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection
-
-- **Resources**: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools
-
-- **Data Curation**: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse
-
-- **Writing - Original Draft**: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)
-
-- **Writing - Review & Editing**: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages
-
-- **Visualization**: Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation
-
-- **Supervision**: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team
-
-- **Project administration**: Management and coordination responsibility for the research activity planning and execution
-
-- **Funding acquisition**: Acquisition of the financial support for the project leading to this publication
 
 ---
 
-### Prerequisites TO DO
+### Prerequisites
 
 ::: {.callout-important}
 ## Prerequisites
@@ -63,36 +46,97 @@ Possible roles using the CRediT contribition system:
 Before completing this submodule, please carefully read about the necessary prerequisites.
 :::
 
-| Prerequisite   |  Description  | Link/Where to find it   |
+<div style="font-size: 0.6em;"> 
+| Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
-| Topic Name | Basic intro to X | Module + Submodule |
-| Software Name | Configuring the environment | [Download Link](https://quarto.org) |
+| RStudio installed | Version 2025.05.1+513 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
+| R installed | Version 4.4.3 or higher | [Download Link](https://www.r-project.org/) |
+</div>
 
 
 ::: {.notes}
-These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
+**Speaker Notes**: These are the **speaker notes**. This is a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to you as the presenter. 
 
-There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
 :::
 
 ---
 
-## Questions from previous submodule
+## Questions from previous submodule?
 
+
+::: {.notes}
 - **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
 - Additional slides may need to be added depending on the nature of the homework assignments. 
 - Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. 
-- Not applicable if this set of slides corresponds to the first submodule of a new module. 
+- Not applicable if this set of slides corresponds to the first submodule of a new module.
+:::
 
 ---
 
-## Welcome/What to Expect
+
+## Before we start: Survey time!
+
+**Where are we at?**
+<br>
+<br>
+Click on the following link or scan the QR code to test your prior R knowledge:
+[ADD LINK R Survey](https://www.menti.com/al367833ss3g)
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: Add link from particify https://ars.particify.de/login for this by creating your own room for this tutorial, also make a QR code for this</span>
+</div>
+
+::: {.notes}
+**Speaker Notes**: 
+- Aim: the pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
+- Use free survey software such as particify or formR to establish this. You can use the example survey, edit it or create your own.
+:::
+
+---
+
+## Discussion of survey results
+
+**What can we take from this?**
+
+::: {.notes}
+**Speaker Notes**:
+- Aim: briefly examine the answers given to each question interactively with the group.
+- Use visuals from the survey to highlight specific answers.
+- Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
+:::
+
+---
+
+## Where are we at?
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: Add this when slides are final</span>
+</div>
+
+::: {.notes}
+**Speaker Notes**:
+- Aim: Place the topic of the current submodule within a broader context.
+- Remind students what you are working towards and what the bigger picture is.
+:::
+
+---
+
+## Covered in this session
 
 -   Overview of what will happen (**make this slide in the end**)
 
 -   mention they should already have R and RStudio installed
 
 -   outline the structure and general idea (hands-on, follow-along etc...)
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: See the corresponding slide for the Quarto tutorial and what that looks like - you could add a slide called housekeeping or similar to cover the installation aspect and if students had any issues?</span>
+</div>
+
+::: {.notes}
+**Speaker Notes**: Add speaker notes here. 
+:::
 
 ---
 
@@ -102,9 +146,13 @@ There are also **instructor notes**. For some slides, there will be pedagogical 
 -   R is free and open source
     -   large online community
     -   many free to use resources
+    
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: Would you want to add a hyperlink here?</span>
+</div>
 
-::: notes
-Let’s start with the basics: What exactly is R?
+::: {.notes}
+**Speaker Notes**: Let’s start with the basics: What exactly is R?
 
 R is a programming language specifically designed for data analysis and statistics.
 That means it’s not just a tool — it’s a full language, built with researchers and data in mind.
@@ -119,14 +167,14 @@ So in short: R is powerful, flexible, and supported by a strong community — wh
 
 ---
 
-## The RStudio Environment {footer="false"}
+## The RStudio environment {footer="false"}
 
 ::: {style="text-align: center;"}
 <img src="images/R_screen1.png" style="width:100%;"/>
 :::
 
-::: notes
-RStudio is the main program we’ll be using to interact with R throughout this course.
+::: {.notes}
+**Speaker Notes**: RStudio is the main program we’ll be using to interact with R throughout this course.
 It’s a free and open-source editor specifically designed for R, and it makes things much easier — both for writing code and for organizing your work.
 
 On this slide, you can see the four main panes of the RStudio interface:
@@ -147,17 +195,19 @@ So, RStudio combines everything in one interface to help you keep track of your 
 
 ---
 
-## Exercise 1
+## Practical exercise 1
 
-Open RStudio and check if you can see everything that's on the slide (might be only three panes)
+-   [ ] Open RStudio and check if you can see everything that's on the slide (might be only three panes).
 
-::: notes
-Instructor notes: add potential troubleshooting tips for instructors to efficiently solve the problems at this stage.
+::: {.notes}
+*:Speaker Notes**:Add here. 
+
+**Instructor Notes**: Add potential troubleshooting tips for instructors to efficiently solve the problems at this stage.
 :::
 
 ---
 
-## Mathematical Operations
+## Mathematical operations
 
 | Symbol   | Operation           |
 |----------|---------------------|
@@ -169,8 +219,8 @@ Instructor notes: add potential troubleshooting tips for instructors to efficien
 | `sqrt()` | Square Root         |
 | `log()`  | (Natural) Logarithm |
 
-::: notes
-In the bottom left pane of RStudio - the console - we can run commands.
+::: {.notes}
+**Speaker Notes**: In the bottom left pane of RStudio - the console - we can run commands.
 For example, we can use R to execute calculations.
 To do this, we use operators that correspond to mathematical symbols, such as the + and - sign.
 
@@ -179,9 +229,11 @@ Here, you can see a table with the most important mathematical operators in R.
 
 ---
 
-## Exercise 2 - Mathematical Operations
+## Practical exercise 2
 
-Use the table on the previous slide to run the following math operations directly in the console (bottom left).
+**Mathematical Operations**
+
+- Use the table on the previous slide to run the following math operations directly in the console (bottom left).
 
 -   $12+17$
 
@@ -191,30 +243,37 @@ Use the table on the previous slide to run the following math operations directl
 
 *Hint*: You can run code from the console by pressing Enter.
 
-::: notes
-We've already arrived at our second exercise.
+::: {.notes}
+**Speaker Notes**: We've already arrived at our second exercise.
 Use the console in RStudio to execute the mathematical operations you see on this slide.
 
-*optional*: live demonstration of what it looks like to run code from the console
+*Optional*: live demonstration of what it looks like to run code from the console
 :::
 
 ---
 
-## Exercise 2 - Solution
+## Practical exercise 2 - Solution
 
-``` r
+<br>
+<br>
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: THinking about moving the solutions to the end of the slide deck? What do you think?</span>
+</div>
+
+```{r}
 12+17
 218/3
 357^2
 ```
 
-::: notes
-Great, now you have a first impression of what it's like to use R!
+::: {.notes}
+**Speaker Notes**: Great, now you have a first impression of what it's like to use R!
 :::
 
 ---
 
-## Logical Comparisons
+## Logical comparisons
 
 -   Check if two numbers are equal or unequal
 
@@ -234,8 +293,8 @@ Example:
 
     -   `FALSE`
 
-::: notes
-However, R can of course do more than just calculate.
+::: {.notes}
+**Speaker Notes**: However, R can of course do more than just calculate.
 One of its basic features, that is needed for many of its more complex functions are logical comparisons.
 
 We can compare two numbers to determine if they are equal or unequal and check if a number is larger or smaller than another number.
@@ -246,7 +305,7 @@ We can also combine logical comparisons using the logical AND, OR, and NOT to fo
 
 ---
 
-## Logical Comparisons - Operators
+## Logical comparisons - operators
 
 | Symbol        | Operation                                  |
 |---------------|--------------------------------------------|
@@ -258,14 +317,14 @@ We can also combine logical comparisons using the logical AND, OR, and NOT to fo
 | `|`           | logical OR                                 |
 | `!`           | logical NOT                                |
 
-::: notes
-Here you can see an overview of logical operators.
+::: {.notes}
+**Speaker Notes**: Here you can see an overview of logical operators.
 You can combine several single statements to longer statements using the logical AND, OR, and NOT.
 :::
 
 ---
 
-## Exercise 3: Logical Comparisons
+## Practica exercise 3: Logical Comparisons
 
 `TRUE` or `FALSE`?
 
@@ -286,9 +345,13 @@ Check your answers by running the statements in the console.
 
 TODO: decide whether there should be another exercise that involves writing code to express a written statement
 
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
+
 ---
 
-## Exercise 3: Solutions
+## Practical exercise 3: Solutions
 
 ```{r}
 (36 + 5)> 40
@@ -296,16 +359,20 @@ TODO: decide whether there should be another exercise that involves writing code
 (5 == (2 + 3)) & (7 >= 8)
 ```
 
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
+
 ---
 
-## Important Data Types
+## Important data types
 
 ::: {style="text-align: center;"}
 <img src="images/data_types_3.png" style="width:100%;"/>
 :::
 
-::: notes
-In R, different data types exist.
+::: {.notes}
+**Speaker Notes**: In R, different data types exist.
 We have already got to know the logical values `TRUE`and `FALSE`. Data that are numbers can be further differentiated into numeric values, also known as `double`, and integers.
 Numeric variables have decimals, integers do not.
 Values that are words are normally either characters or factors.
@@ -317,7 +384,7 @@ Depending on which type a variable has, different operations can be performed wi
 
 ---
 
-## Data Types - Operations
+## Data types - Operations
 
 Two numeric variables can be summed up:
 
@@ -333,6 +400,10 @@ A numeric and a character variable cannot be summed up:
 4 + "five"
 ```
 
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
+
 ---
 
 ## R Scripts
@@ -343,13 +414,13 @@ A numeric and a character variable cannot be summed up:
 
 -   To comment your code use `#`, for example:
 
-    ```{r}
-    # sum up two numbers: 
-    4+5
-    ```
+```{r}
+# sum up two numbers: 
+4+5
+```
 
-::: notes
-Until now, we've only worked in the console.
+::: {.notes}
+**Speaker Notes**: Until now, we've only worked in the console.
 However, once we close R, everything typed into the console will be lost.
 To make our work traceable and reproducible, it makes sense to save the code we used.
 One way of saving and sharing code are R scripts.
@@ -361,27 +432,32 @@ If you want to take notes or write anything that is not code into an R script, t
 
 ---
 
-## Creating a New R Script
+## Creating a new R script
 
 ::: {style="text-align: center;"}
 <img src="images/R_screen2.png" style="width:90%;"/>
 :::
 
-::: notes
-This is how you create a new R script.
+::: {.notes}
+**Speaker Notes**: This is how you create a new R script.
 Navigate to the File tab –\> New File –\> R Script or use the shortcut Ctrl + Shift + N.
 Then you can save it by navigating to File –\> Save or use the shortcut Ctrl + S.
 :::
 
 ---
 
-## Exercise 4
+## Practical exercise 4
 
 Create a new R Script with only a comment in the first line and save it in a fresh folder.
 
+::: {.notes}
+**Speaker Notes**: ADD HERE
+
+:::
+
 ---
 
-## Objects and Assignments
+## Objects and assignment
 
 :::::: columns
 ::: {.column width="60%"}
@@ -403,14 +479,14 @@ my_number <- 4
 ::: {.column width="40%"}
 <img src="images/R_screen3.png" alt="Environment Pane Screenshot" style="width:100%;"/>
 :::
+::::::
 
-::: notes
-Everything in R is referred to as an object.
+::: {.notes}
+**Speaker Notes**: Everything in R is referred to as an object.
 For example, the result of a logical comparison, is an object of type logical.
 Oftentimes, we want to work with an object repeatedly.
 To do this, we can create objects and give them names.
 This is done via assignments.
-
 :::
 
 ---
@@ -422,19 +498,31 @@ so that participants can see the object "my_number" appear in the environment pa
 
 ---
 
-## Assignments and Objects
+## Assigning objects? CHECK TITLE
 
 ```{r}
 my_number <- 5
 ```
 
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
+
 ---
 
 ## Vectors, Lists, and Data Frame
 
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
+
 ---
 
 ## Indexing
+
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
 
 ---
 
@@ -443,6 +531,10 @@ my_number <- 5
 - **Aim**: To work out the relevance of the topic to your students.
 - In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
 - Examine downfalls and practical obstacles.
+
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
 
 ---
 
@@ -456,6 +548,10 @@ my_number <- 5
 Add one practical tips or take-home message.
 :::
 
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
+
 ---
 
 ## Assignment
@@ -465,12 +561,20 @@ Add one practical tips or take-home message.
 - Mention scoring rubrics, if applicable
 - Design a peer-review system for assignments to place students in role of reviewer and author
 
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
+
 ---
 
 ## To conclude: Survey time!
 
 - **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
 - Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
+
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
 
 ---
 
