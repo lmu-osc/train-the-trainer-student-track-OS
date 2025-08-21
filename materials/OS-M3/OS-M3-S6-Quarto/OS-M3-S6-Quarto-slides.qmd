@@ -27,23 +27,31 @@ execute:
 
 **Elizabeth Waterfield**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
+<br>
+<br>
 
-This work is licensed under a CC-BY $.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en)
+This work is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en)
 
 ---
 
 ### Prerequisites
 
 ::: {.callout-important}
-## Prerequisites
-
 Before completing this submodule, please carefully read about the necessary prerequisites.
 :::
 
-| Prerequisite   |  Description  | Link/Where to find it   |
+
+<div style="font-size: 0.6em;"> 
+| Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
-| Topic Name | Basic intro to X | Module + Submodule |
-| Software Name | Configuring the environment | [Download Link](https://quarto.org) |
+| Basic R skills | 3.2. Introduction to R - Part I |  Module 3.2. |
+| Advanced R skills | 3.3. Introduction to R - Part II|  Module 3.3. |
+| Basic Git skills | 3.4. Introduction version control (Git) with RStudio |  Module 3.4. |
+| Collaboration on GitHub | 3.5. Introduction to collaborative coding with GitHub |  Module 3.5. |
+| RStudio | Version 2025.05.1+513 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
+| R | Version 4.4.3 or higher | [Download Link](https://www.r-project.org/) |
+</div>
+
 
 ::: notes
 
