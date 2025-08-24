@@ -54,13 +54,15 @@ Before completing this submodule, please carefully read about the necessary prer
 | R | Version 4.4.3 or higher | [Download Link](https://www.r-project.org/) |
 </div>
 
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: What do you think about these prerequisites? Are we missing something?</span>
+</div>
+
 
 ::: {.notes}
-*Speaker Notes*
-Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
+**Speaker Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
 
-*Instructor Notes* 
-Instructor notes provide teaching support but are not intended to be spoken directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner's needs as well as anticipate challenges.
+**Instructor Notes**: Instructor notes provide teaching support but are not intended to be spoken directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner's needs as well as anticipate challenges.
 :::
 
 ---
@@ -88,16 +90,16 @@ Click on the following link or scan the QR code to test your prior Quarto knowle
 ![](images/particify1.png)
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Add link from particify https://ars.particify.de/login instead - menti has a limit on how many people can participate - we should make an account with our OSC email address and add QR code - in class people may not be able to click</span> check
+<span style="color:red">From SvG: We have an OSC account where you can generate a room for this - let us leave it like this for now but we will need to be systematic about these QR codes and surveys - a discussion for a team!</span>
 </div>
 
 ::: {.notes}
-*Speaker Note*
+**Speaker Notes**: 
 - Let's start the session by guaging where our skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
-*Instructor Note*
+**Instructor Notes**:
 - Aim: the pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
 - Use free survey software such as particify or formR) to establish this. You can use the example survey, edit it or create your own.
-::::
+:::
 
 ---
 
@@ -106,7 +108,7 @@ Click on the following link or scan the QR code to test your prior Quarto knowle
 **What can we take from this?**
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**:
 - Aim: briefly examine the answers given to each question interactively with the group.
 - Use visuals from the survey to highlight specific answers.
 - Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
@@ -121,7 +123,7 @@ Click on the following link or scan the QR code to test your prior Quarto knowle
 </div>
 
 ::: {.notes}
-*Speaker Notes*
+:*Speaker Notes**:
 - Aim: Place the topic of the current submodule within a broader context.
 - Remind students what you are working towards and what the bigger picture is.
 :::
@@ -134,28 +136,18 @@ An **open-source scientific and publishing system** that combines text, code and
 
 With Quarto, you can easily: 
 
-- **analyze** data, text, or research content
-- **share** results and outputs like reports, slides, or websites
-- **reproduce** entire workflows
+- **Analyze** data, text, or research content
+- **Share** results and outputs like reports, slides, or websites
+- **Reproduce** entire workflows
 
 :::callout-note
 
-## website
-
+## Website
 You can always check out the [Quarto Website](https://quarto.org/) to learn more.
 :::
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Maybe add here analyse and reproduce what..? And also - for this slide - do you think this overlaps with the key terms and definitions slide below?</span> check
-</div>
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Did you want to add a hyperlink to their website here?</span> check
-</div>
-
 ::: {.notes}
-*Speaker Notes*
-- From SvG: add speaker notes to this slide
+**Speaker Notes**: From SvG: Add speaker notes to this slide.
 :::
 
 ---
@@ -169,8 +161,12 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 - Adding Citations
 - Publishing
 
+<div style="font-size: 0.6em;">
+<span style="color:red"> maybe make these points more speicifc? Publishing what, for example?</span>
+</div>
+
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**:
 - Aim: Core theoretical introduction of submodule topic.
 - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980). 
 
@@ -190,16 +186,16 @@ For students who advance faster: Prepare extra exercises.
 
 At the end of this session, you should be able to:
 
-- **create**, **edit**, and **render** Quarto documents
-- **use** key Quarto features like code chunks, YAML headers, citations, and output formatting
-- **publish** and **share** your work using Git Pages 
+- **Create**, **edit**, and **render** Quarto documents
+- **Use** key Quarto features like code chunks, YAML headers, citations, and output formatting
+- **Publish** and **share** your work using GitHub Pages 
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Unsure about the last learning goal - remember that these are ready-to-use materials for the classroom, so the last learning goal is not really relevant for students? What else are you trying to get across in this slide set?</span> check
+<span style="color:red">From SvG: Did you want to add a learning goal for Zotero? Make sure that your learning goals align with the content you are getting across here (in the name of constructional alignment)</span>
 </div>
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**:
 - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
 - Emphasis is placed on the **verbs** of the learning goals- choose verbs that align with the skills you want to develop or assess.
 - Examples:
@@ -218,10 +214,13 @@ Components of a **.qmd file**:
 
 -   **YAML header** is the section at the top of the Quarto document that controls settings like the title, output format, and author.
 
--   **code chunks** are the sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations
+-   **Code chunks** are the sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations
 
 -   **Quarto markdown** combines text, codes, and formatting to create the actual content of the document
 
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: Did you want to make bullet points for the first two lines? Also make sure to capitalise the first word in a bulleted list, as well as titles within the call-out notes, first word of the title only </span>
+</div>
 
 ::: {.notes}
 *Speaker Notes*
@@ -243,7 +242,7 @@ There are two ways to render in Quarto:
 ![You can find both *Render on Save* and *Manual Render* at the top of your workspace](images/rendering.png)
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**:
 - Quarto documents can be rendered either manually or automatically when you save. 
 - Manual rendering gives you control meaning you decide when to update the document, which is helpful if you’re making lots of edits and don’t want constant re-renders. 
 - Render on Save automatically updates your document every time you hit Save, which is great for quick feedback and seeing your changes instantly. In this lesson, you can try both to see which workflow feels more comfortable for you.
@@ -261,14 +260,18 @@ You can write Quarto documents in **Source mode** or **Visual mode** in RStudio.
 
 - This is part of the **authoring process**, and it allows you to format the text, add code, and build your document.
 
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: Does it make sense for you to have the key terms I - III like this? Added this for overview - I also did the numbering later for authoring for instance, but perhaps there you can find better titles instead of my Authoring (I) etc? </span>
+</div>
+
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**:
 - Base yourself on conceptual change theory and examine existing concepts in relation to some key terms.
 - Re-examine formation of new concepts at the end of the lesson.
 - WYSIWYM is an acronym for "What You Say is What You Mean" which means that whatever you see in your document will be what you see even when you save or render the document as PDF or as HTML.
 - Quarto documents can be created and edited in either Source mode or Visual mode. Both modes work with the same file, but they provide slightly different experiences. In this lesson, most of our tasks will be done in Source mode, but you’ll also have a chance to try Visual mode so you can compare how the same content looks and feels in each.
-*Instructor Note*
-- "authoring process" is mentioned here but not defined because it will be explained further in later slides
+**Instructor Notes**:
+- "Authoring process" is mentioned here but not defined because it will be explained further in later slides.
 :::
 
 ---
@@ -287,12 +290,11 @@ You can write Quarto documents in **Source mode** or **Visual mode** in RStudio.
 ::::::
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**:
 - To get started with Quarto in RStudio, the first step is simply creating a new Quarto document.
 - You see options for both Quarto Document and Quarto Presentation. What's the difference between the two? 
   - A Quarto Document is best for reports or articles because it produces continuous text like a paper. 
   - A Quarto Presentation is for creating slide decks, like PowerPoint or Reveal.js slides.
-
 :::
 
 ---
@@ -313,7 +315,7 @@ You can write Quarto documents in **Source mode** or **Visual mode** in RStudio.
 ::::::
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**:
 - This creates your document where you can now customize the YAML header, add Markdown text, and insert code chunks.
 - The default format is html but this can be changed later on by editing the YAML header directly in the document.
 :::
@@ -325,7 +327,7 @@ You can write Quarto documents in **Source mode** or **Visual mode** in RStudio.
 -   [ ] Repeat the steps to create a new Quarto Document
 
 ::: {.notes}
-*Speaker Notes*
+*:Speaker Notes**:
 - Ensure students know where their Quarto project folder is located on their device. This will make it easier for them to find files in later tasks. Encourage them to save the document right after creating it by selecting "Save As", so they can intentionally choose the document location (e.g., Desktop, a dedicated course folder, etc.).
 :::
 
@@ -340,10 +342,10 @@ What is **authoring**? The process of writing and structuring the Quarto documen
 To practice authoring in Quarto, let's start with setting the YAML header and adding markdown text in **Source** mode.
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**:
 - The YAML header is the section at the very top, wrapped in three dashes (---). It holds the document’s settings, like the title, author, date, and output format. 
 - Below that, we use Markdown to write the actual content which are things like headings, bullet points, bold or italic text.
-*Instructor Notes*
+**Instructor Notes**:
 - Reminding students on the meanings of YAML Header and Markdown will be helpful especially to those with very little prior knowledge for working with Quarto.
 :::
 
@@ -364,7 +366,7 @@ format:
 ---
 ```
 ::: callout-note
-## output format
+## Output format
 
 You can replace "html" to render the document to a different format.
 
@@ -372,11 +374,11 @@ Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" targ
 :::
 
 ::: {.notes}
-*Speaker Note*
+**Speaker Notes**:
 - Remember that the YAML Header goes at the top of the document in both Source and Visual Modes. 
 - In the YAML header, the format field tells Quarto what kind of output to create. Here we’ve set it to html, which means the document will render as a web page. You could choose other formats like PDF or Word, but for this lesson we’ll stick with HTML so everyone has the same experience.
 
-*Instructor Notes*
+**Instructor Notes**:
 - There is a small clipboard icon at the top-right of the text box. Let students know they can simply click the icon to copy all the text in that specific text box. This icon will appear for every text box moving forward so you can remind them of it the next few times a task requires them to copy the content of a text box.
 :::
 
@@ -395,13 +397,13 @@ Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" targ
 -   `Inline code:` `` `code` `` → `code`
 
 ::: callout-note
-## markdown shortcuts
+## Markdown shortcuts
 
 Here is a <a href="https://quarto.org/docs/visual-editor/options.html">link for the full list of markdown shortcuts</a> for formatting!
 :::
 
 ::: {.notes}
-*Speaker Note*
+**Speaker Notes**:
 - In Markdown, we can format text with very simple symbols. It works the same way in both Source and Visual mode with the only difference being how you see it while typing. 
 - In Source mode you see the symbols, while in Visual mode it looks like regular bold or italic text right away.
 :::
@@ -428,7 +430,7 @@ Key steps include:
 This is an example of **markdown text**. Let's use it to continue authoring and building our document. 
 
 ::: {.notes}
-*Speaker Note*
+**Speaker Notes**:
 - Aim: Help students feel comfortable using Markdown by showing how simple and familiar it really is.
 - the words "Markdown Text" may seem technical or complicated for those new to Quarto. But Markdown can simply be understood as just typing (like writing in any normal document), sometimes with a few simple symbols to add structure or emphasis. 
 :::
@@ -442,7 +444,7 @@ This is an example of **markdown text**. Let's use it to continue authoring and 
 -   [ ] Italicize the phrase *"growth trends"*
 
 ::: {.notes}
-*Speaker Note*
+**Speaker Notes**:
 - Also instruct students to render their document after each practical exercise (where applicable) so they can see the changes as they make them and identify issues. 
 :::
 
