@@ -1553,14 +1553,14 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#what-is-quarto",
     "title": "Introduction to literate programming with Quarto",
     "section": "What is Quarto?",
-    "text": "What is Quarto?\nAn open-source scientific and publishing system that combines text, code and media to produce transparent and reproducible work that can be freely accessed by others.\nWith Quarto, you can easily:\n\nAnalyze data, text, or research content\nShare results and outputs like reports, slides, or websites\nReproduce entire workflows\n\n\n\n\n\n\n\nWebsite\n\n\nYou can always check out the Quarto Website to learn more.\n\n\n\n\nSpeaker Notes: From SvG: Add speaker notes to this slide."
+    "text": "What is Quarto?\nAn open-source scientific and publishing system that combines text, code and media to produce transparent and reproducible work that can be freely accessed by others.\nWith Quarto, you can easily:\n\nAnalyze data, text, or research content\nShare results and outputs like reports, slides, or websites\nReproduce entire workflows\n\n\n\n\n\n\n\nQuarto Website\n\n\nYou can always check out the Quarto Website to learn more.\n\n\n\n\nSpeaker Notes - Quarto is an open-source publishing system, this means it is free to use and community-driven. Anyone can download it, contribute towards its improvement, and adapt it. - It’s designed for combining text, code, and media in a way that makes your work transparent and reprodcible, this means that anyone can read it, rerun the code, and even check the results themselves. - The 3 key things you can do with Quarto are: - Analyze and work with data, text, or research content directly in your document - Share or present your results as reports, slides, or even full websites - Make your workflow reproducible so others can repeat them. Instructor Notes - Establishing a clear idea of what Quarto is at the beginning of the lesson is useful for building context and purpose - Context: how all the parts of Quarto work together to create intended document(s) - Purpose: reasons why one would use Quarto (its versatile, customizable, and shareable)"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#covered-in-this-session",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#covered-in-this-session",
     "title": "Introduction to literate programming with Quarto",
     "section": "Covered in this session",
-    "text": "Covered in this session\n\nKey Terms and Definitions\nSetting up a Quarto Document\nAuthoring\nCode Chunks\nAdding Citations\nPublishing\n\n\n maybe make these points more speicifc? Publishing what, for example?\n\n\nSpeaker Notes: - Aim: Core theoretical introduction of submodule topic. - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\n\nFor a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).\n\nPractical exercises on topic - Aim: practical exercises for students to apply the new skills in practise. Each submodule topic will include corresponding Tasks- adopting a “learn by doing” approach. - Depending on the topic, the exercises should be in accordance with the learning objective(s). - It’s useful to have exercises directly after a topic is taught to reinforce what was learnt.\nFor students who advance faster: Prepare extra exercises."
+    "text": "Covered in this session\n\nKey Terms and Definitions: Understanding core concepts in Quarto\nSetting up Quarto: Opening a Quarto document in RStudio\nAuthoring: Writing text and structuring content\nCode Chunks: Running and displaying code\nAdditional Authoring Features: Using images, links, and columns\nCitations: Adding citations and bibliography with Zotero\nPublishing: Sharing your Quarto document to GitHub\n\n\n maybe make these points more speicifc? Publishing what, for example? Beth: Yes, I was just using them as a list of headers but I can see how having a small description would helpful\n\n\nSpeaker Notes: - Aim: Core theoretical introduction of submodule topic.\nPractical exercises on topic - Aim: practical exercises for students to apply the new skills in practise. Each submodule topic will include corresponding Tasks- adopting a “learn by doing” approach. - Depending on the topic, the exercises should be in accordance with the learning objective(s). - It’s useful to have exercises directly after a topic is taught to reinforce what was learnt.\nFor students who advance faster: Prepare extra exercises.\nIntructor Note - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980). - For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break)."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#quarto-learning-goals",
@@ -1574,21 +1574,21 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-i",
     "title": "Introduction to literate programming with Quarto",
     "section": "Key terms and definitions (I)",
-    "text": "Key terms and definitions (I)\nA Quarto Markdown document is saved as a .qmd file\nComponents of a .qmd file:\n\nYAML header is the section at the top of the Quarto document that controls settings like the title, output format, and author.\nCode chunks are the sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations\nQuarto markdown combines text, codes, and formatting to create the actual content of the document\n\n\nFrom SvG: Did you want to make bullet points for the first two lines? Also make sure to capitalise the first word in a bulleted list, as well as titles within the call-out notes, first word of the title only \n\n\nSpeaker Notes - Aim: Introduce key terms and definitions that students will come across throughout the session. - This first part of the lesson is useful to establish an understanding of important vocabulary- it can be helpful to remind students of the meaning of these terms as they appear in the upcoming sections."
+    "text": "Key terms and definitions (I)\nA Quarto Markdown document is saved as a .qmd file\n\nComponents of a .qmd file:\n\nYAML header is the section at the top of the Quarto document that controls settings like the title, output format, and author.\nCode chunks are the sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations\nQuarto markdown combines text, codes, and formatting to create the actual content of the document\n\n\n\nFrom SvG: Did you want to make bullet points for the first two lines? Also make sure to capitalise the first word in a bulleted list, as well as titles within the call-out notes, first word of the title only  Yes making the second line a bullet point is good but I like the first line being as it is\n\n\nSpeaker Notes - Aim: Introduce key terms and definitions that students will come across throughout the session. - This first part of the lesson is useful to establish an understanding of important vocabulary- it can be helpful to remind students of the meaning of these terms as they appear in the upcoming sections."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-ii",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-ii",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Key terms and definitions (II)",
-    "text": "Key terms and definitions (II)\nWhat is rendering? The process where Quarto runs the code, combines it with the text, and creates a final output.\nThere are two ways to render in Quarto:\n\nRender on Save: Quarto will automatically re-render the document each time you click “Save”\nManual Rendering: having to click on the “Render” each time you want to see the output\n\n\nYou can find both Render on Save and Manual Render at the top of your workspace\nSpeaker Notes: - Quarto documents can be rendered either manually or automatically when you save. - Manual rendering gives you control meaning you decide when to update the document, which is helpful if you’re making lots of edits and don’t want constant re-renders. - Render on Save automatically updates your document every time you hit Save, which is great for quick feedback and seeing your changes instantly. In this lesson, you can try both to see which workflow feels more comfortable for you."
+    "section": "1.2 Key terms and definitions (II)",
+    "text": "1.2 Key terms and definitions (II)\nWhat is rendering? The process where Quarto runs the code, combines it with the text, and creates a final output.\nThere are two ways to render in Quarto:\n\nRender on Save: Quarto will automatically re-render the document each time you click “Save”\nManual Rendering: having to click on the “Render” each time you want to see the output\n\n\nYou can find both Render on Save and Manual Render at the top of your workspace\nSpeaker Notes: - Quarto documents can be rendered either manually or automatically when you save. - Manual rendering gives you control meaning you decide when to update the document, which is helpful if you’re making lots of edits and don’t want constant re-renders. - Render on Save automatically updates your document every time you hit Save, which is great for quick feedback and seeing your changes instantly. In this lesson, you can try both to see which workflow feels more comfortable for you."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-a-quarto-document-using-rstudio",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-a-quarto-document-using-rstudio",
     "title": "Introduction to literate programming with Quarto",
     "section": "Setting up a Quarto document using RStudio",
-    "text": "Setting up a Quarto document using RStudio\n\n\n\n\n\nSelect File\n\n→ Select New File\n\n→ Select Quarto Document\n\n\n\nSpeaker Notes: - To get started with Quarto in RStudio, the first step is simply creating a new Quarto document. - You see options for both Quarto Document and Quarto Presentation. What’s the difference between the two? - A Quarto Document is best for reports or articles because it produces continuous text like a paper. - A Quarto Presentation is for creating slide decks, like PowerPoint or Reveal.js slides."
+    "text": "Setting up a Quarto document using RStudio\n\n\n\n\n\nYou can set some of the YAML header details here like the title and output format\n\nThe default format is html\n\n→ Hit Create\n\n\n\nSpeaker Notes: - This creates your document where you can now customize the YAML header, add Markdown text, and insert code chunks. - The default format is html but this can be changed later on by editing the YAML header directly in the document."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-a-quarto-document-using-rstudio-1",
@@ -1721,21 +1721,21 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#post-break-survey-discussion",
     "title": "Introduction to literate programming with Quarto",
     "section": "Post-break survey discussion",
-    "text": "Post-break survey discussion\n\nSpeaker Notes - Aim: To clarify concepts and aspects that are not yet understood - Highlight specific answers given during the survey"
+    "text": "Post-break survey discussion\n\nSpeaker Notes - Aim: To clarify concepts and aspects that are not yet understood - Highlight specific answers given during the survey - Also, use this time to clarify any confusions or questions on specific topics students may have from the first part of the session."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#additional-authoring-features",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#additional-authoring-features",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Additional authoring features",
-    "text": "Additional authoring features\nQuarto offers additional authoring features that make it more versatile and comprehensive.\nThese include:\n\nadding links and hyperlinking text,\nembedding media,\ncreating multi-column layouts, and more.\n\n\n\n\n\n\n\ncommonly used authoring features\n\n\nHere is a link for commonly used markdown syntax for additional authoring features!\n\n\n\n\nSpeaker Notes - Beyond writing plain text, Quarto also allows us to add features like hyperlinks, images or videos, and multi-column layouts. These improve how our document communicates. - Hyperlinks let us connect to sources or other sections, media like images and video help explain complex ideas more clearly, and multi-column layouts make the content easier to read and more visually appealing. - Using these features thoughtfully improves both the usability and the overall look of the document."
+    "section": "5.1 Additional authoring features",
+    "text": "5.1 Additional authoring features\nQuarto offers additional authoring features that make it more versatile and comprehensive.\nThese include:\n\nAdding links and hyperlinking text\nEmbedding media\nCreating multi-column layouts and more.\n\n\n\n\n\n\n\nCommonly used authoring features\n\n\nHere is a link for commonly used markdown syntax for additional authoring features.\n\n\n\n\nSpeaker Notes - Beyond writing plain text, Quarto also allows us to add features like hyperlinks, images or videos, and multi-column layouts. These improve how our document communicates. - Hyperlinks let us connect to sources or other sections, media like images and video help explain complex ideas more clearly, and multi-column layouts make the content easier to read and more visually appealing. - Using these features thoughtfully improves both the usability and the overall look of the document."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-links",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-links",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Inserting links",
-    "text": "Inserting links\nLink with title: [title](link)\n\n[Quarto Website](https://quarto.org) → Quarto Website\n[Click here to see more information on reveal.js](https://revealjs.com) → Click here to see more information on reveal.js\n\nLink without title: &lt;https://link&gt;\n\n&lt;https://www.markdownguide.org/&gt; → https://www.markdownguide.org/\n&lt;https://github.com/&gt; → https://github.com/\n\n\nSpeaker Notes - You can insert a link with a title using square brackets for the text and parentheses for the URL. This is helpful when you want the link to be descriptive or if you want to hyperlink written text. - You can also add a link without a title by simply wrapping the URL in angle brackets (&lt;…&gt;). This shows the raw link, which is fine if the URL itself is clear and concise enough. - A good rule of thumb is to use titled links for readability, and untitled links when you want to show the exact URL."
+    "section": "5.2 Inserting links",
+    "text": "5.2 Inserting links\nLink with title: [title](link)\n\n[Quarto Website](https://quarto.org) → Quarto Website\n[Click here to see more information on reveal.js](https://revealjs.com) → Click here to see more information on reveal.js\n\nLink without title: &lt;https://link&gt;\n\n&lt;https://www.markdownguide.org/&gt; → https://www.markdownguide.org/\n&lt;https://github.com/&gt; → https://github.com/\n\n\nSpeaker Notes - You can insert a link with a title using square brackets for the text and parentheses for the URL. This is helpful when you want the link to be descriptive or if you want to hyperlink written text. - You can also add a link without a title by simply wrapping the URL in angle brackets (&lt;…&gt;). This shows the raw link, which is fine if the URL itself is clear and concise enough. - A good rule of thumb is to use titled links for readability, and untitled links when you want to show the exact URL."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-i",
@@ -1769,8 +1769,8 @@
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#creating-columns-on-the-slide",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#creating-columns-on-the-slide",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Creating columns on the slide",
-    "text": "Creating columns on the slide\nYou can change the layout of a section using columns:\n\nStart the column layout by writing “:::::: columns”\nBegin the first column with “::: column”\nAdd content and end it with “:::”\nBegin second coloumn with “::: column”\nAdd content and end it with “:::”\nEnd section with a final “::::::”\n\n\n\n\n\n\n\nlist of page layout options\n\n\nHere is a link for page layout options to author how content looks on your document!\n\n\n\n\nSpeaker Notes - Columns are useful when you want to organize content side by side instead of in a long vertical flow. For e.g., you might place an image in one column and an explanation in the other, or compare two code outputs directly next to each other like comparing two separate plots. - Columns help make information easier to scan and can improve the balance and readability of your slides or documents."
+    "section": "5.6 Creating columns on the slide",
+    "text": "5.6 Creating columns on the slide\nYou can change the layout of a section using columns:\n\nStart the column layout by writing “:::::: columns”\n→ Begin the first column with “::: column”\n→ Add content and end it with “:::”\n→ Begin second coloumn with “::: column”\n→ Add content and end it with “:::”\n→ End section with a final “::::::”\n\n\n\n\n\n\n\nList of page layout options\n\n\nHere is a link for page layout options to author how content looks on your document.\n\n\n\n\nSpeaker Notes - Columns are useful when you want to organize content side by side instead of in a long vertical flow. For e.g., you might place an image in one column and an explanation in the other, or compare two code outputs directly next to each other like comparing two separate plots. - Columns help make information easier to scan and can improve the balance and readability of your slides or documents."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#side-by-side-image-and-bullet-points-with-columns",
@@ -1790,22 +1790,22 @@
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Adding Citations with Zotero",
-    "text": "Adding Citations with Zotero\n\n\n\n\nWhat is Zotero? This is a free reference management tool to collect, organize, cite, and share research sources.\nYou can use Zotero in RStudio to easily insert citations into your Quarto document\n\n\nSpeaker Notes - Zotero is a reference manager that helps you collect and organize research articles, books, and other sources. When you connect Zotero to Quarto, you can easily insert citations while writing and then automatically generate a reference list at the end. This saves time and reduces errors compared to typing citations manually."
+    "section": "6.2 Adding citations with Zotero",
+    "text": "6.2 Adding citations with Zotero\n\nTo insert a citation:\n\nOpen Zotero on your device\n→ Switch to the “Visual Editor” mode\n→ Add bibliography: references.bib in the YAML header\n→ Press the “Insert” button in the toolbar and select “Citation”\n\nA reference list or bibliography is automatically generated at the end of the document with all the citations used.\n\nSpeaker Notes - To add citations in Quarto, you’ll need Zotero open on your device. - In RStudio, switch to the Visual Editor, which makes citation insertion easier. - Make sure your YAML header includes bibliography: references.bib so Quarto knows where to look for your references. - Then, simply go to the toolbar, click Insert → Citation, and you’ll be able to search your Zotero library directly. - Once you add citations in the text, Quarto automatically generates a reference list or bibliography at the end of your document so that you don’t have to format it manually."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-1",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-1",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Adding Citations with Zotero",
-    "text": "Adding Citations with Zotero\n\nTo insert a citation:\n\nswitch to the “Visual Editor” mode\nadd bibliography: references.bib in the YAML header\nopen Zotero on your device\npress the “Insert” button in the toolbar and select “Citation”\n\nA reference list or bibliography is automatically generated at the end of the document with all the citations used.\n\nSpeaker Notes - Add speaker notes here."
+    "section": "6.3 Adding citations with Zotero",
+    "text": "6.3 Adding citations with Zotero\n\n\n\n\n\n\n→ Select citations straight from the folders in your Zotero library\nEach citation is assigned a short citation key based on the author and year (e.g., pauwels2015).\nYou can quickly cite it in your document by typing @ followed by the citation key.\n\n\n\n\nSpeaker Notes - When you click “My Library,” it mirrors what folders you’ve created in Zotero Library. This helps you navigate to the folder where the citation is stored. - After inserting a citation once, you see what citation key is assigned to it for easier referencing later in the text. But the way the citation key is written is different for regular and in-text citations. Instructor Note - the Zotero program needs to be open on the device for the “Zotero” option to show up in RStudio like it does in the image."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-2",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-2",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Adding Citations with Zotero",
-    "text": "Adding Citations with Zotero\n\n\n\n\n\nYou can select citations straight from your library and folders in Zotero\nEach citation is assigned a short citation key based on the author and year (e.g., pauwels2015).\nYou can quickly cite it in your document by typing @ followed by the citation key.\n\n\n\nSpeaker Notes - Add speaker notes here. Instructor Note - the Zotero program needs to be open on the device for the “Zotero” option to show up in RStudio like it does in the image."
+    "section": "6.4 Adding citations with Zotero",
+    "text": "6.4 Adding citations with Zotero\n\n\nNow you should have\n\nA citation\nAn in-text citation\nA reference list (bibliography)\n\n\n\n\n\n\n\n\n\n\nChanging the citation style\n\n\nYou can change the citation style by using csl files directly from the Zotero website. For e.g., putting “csl: https://www.zotero.org/styles/apa” in your YAML changes the citation style to APA.\n\n\n\n\nSpeaker Notes - When you render, you should have three key elements in your Quarto document: a citation, an in-text citation, and a reference list or bibliography at the end. - As you can see, Quarto does most of the heavy lifting as long as you insert citations correctly and the bibliography builds automatically. - Also, if you ever need to follow a specific format, like APA or Chicago, you can easily change the citation style by adding a CSL file in your YAML. It can be a link directly to the Zotero website so that you don’t have to download any additional files."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-3",
@@ -1846,8 +1846,8 @@
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Publishing",
-    "text": "Publishing\nWhat is publishing with Quarto? The process of sharing the rendered documents or projects online so it can become accessible to others.\nYou can publish to:\n\nGitHub Pages\nQuarto Pub\npersonal website\n\n\n\n\n\n\n\nlist of publishing services\n\n\nHere is a link for a list of publishing services and more information!\n\n\n\n\nSpeaker Notes - Publishing in Quarto is all about making your work accessible to others. Once you’ve created and rendered your document, you can share it online so that collaborators, students, or the wider community can view it. Quarto supports multiple publishing options, including GitHub Pages, Quarto Pub, or even your own personal website.\nInstructor Notes - The key takeaway here is that publishing turns your local work into something that can be accessed from anywhere."
+    "section": "7.1 Publishing",
+    "text": "7.1 Publishing\nWhat is publishing with Quarto? The process of sharing the rendered documents or projects online so it can become accessible to others.\n\nYou can publish to:\n\nGitHub Pages\nQuarto Pub\nA personal website\n\n\n\n\n\n\n\n\nList of publishing services\n\n\nHere is a link for a list of publishing services and more information!\n\n\n\n\nSpeaker Notes - Publishing in Quarto is all about making your work accessible to others. Once you’ve created and rendered your document, you can share it online so that collaborators, students, or the wider community can view it. Quarto supports multiple publishing options, including GitHub Pages, Quarto Pub, or even your own personal website.\nInstructor Notes - The key takeaway here is that publishing turns your local work into something that can be accessed from anywhere."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-i",
@@ -1874,8 +1874,8 @@
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Publishing to GitHub",
-    "text": "Publishing to GitHub\nWork with Git Bash directly from the Terminal in RStudio.\n\nclick Terminal → Terminal Options and set it to open with Git Bash\n\n\n\n\n\n\n\n\nthen, click Terminal → New Terminal to begin working with Git Bash\n\n\nSpeaker Notes - Add speaker notes here. Instructor Notes - When you click the drop-down arrow by Terminal, the options may look different than what’s in the image in this slide but the “Terminal Options…” will be at the end (you may have to scroll a bit). - The last step (open a new Terminal) is important because the current Terminal does not automatically change to Git Bash."
+    "section": "7.2 Publishing to GitHub",
+    "text": "7.2 Publishing to GitHub\nA great option to share your document is publishing to GitHub.\n\nGitHub is a platform for hosting and sharing code and projects online\nAn advantage of GitHub is it allows for version control- the ability to track and manage changes over time\nA free and widely used way to publish your Quarto document to GitHub is by using GitHub Pages\n\n\nSpeaker Notes - GitHub is one of the most common platforms for sharing code and documents. One of its biggest advantages is version control, which means you can track every change made to your files and even go back to earlier versions if needed. - For Quarto, publishing to GitHub is a great option because it’s free, widely used, and makes your work easily accessible to others. - The simplest way is through GitHub Pages, which lets you turn your Quarto document into a live website that anyone can access."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-iv",
@@ -1895,8 +1895,8 @@
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-1",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-1",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Publishing to GitHub",
-    "text": "Publishing to GitHub\nPractical exercise 14\nquarto render\n\nCopy & paste the above into Terminal to generate HTML in the docs/ folder\n\ngit init\ngit branch -M main  \n\nCopy & paste the above into Terminal to initialize Git and rename “master” to “main”\n\n\nSpeaker Notes - Add speaker notes here. Instructor Notes - You will see a warning about references.bib not found in resource path which usually happens because Quarto looks for the file in the project’s root or resource path, but Git Bash is case-sensitive and strict with paths. - So, you will see in your completed Git Pages web page that the citations look strange but we will leave it like that for now. - Extra steps are needed to correct this that will be covered in the Advanced Intro to Quarto Activity PDF."
+    "section": "7.3 Publishing to GitHub",
+    "text": "7.3 Publishing to GitHub\nGitHub Pages enables you to publish content based on source code managed within a GitHub repository.\n3 methods to publish a Quarto document to GitHub Pages:\n\nRender to the docs directory and checking it into your repository\nUse the quarto publish command\nUse GitHub Actions to auto-render and publish whenever you push changes\n\n\nSpeaker Notes - GitHub Pages makes it possible to publish Quarto content as a live website, directly from your GitHub repository. There are three main ways to do this: - The simplest way is to render your document to a docs folder and commit it to your repo. GitHub Pages can then serve those files as a website. “Docs” here is a folder in your project where you put the files that should be published as a website. - You can also use the quarto publish command, which pushes your rendered site to GitHub Pages automatically. - For a more advanced setup, you can use GitHub Actions so that every time you push changes to your repo, the site automatically re-renders and updates online. - Whichever method you use depends on how automated you want the process to be."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-vi",
@@ -1917,7 +1917,7 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#recap",
     "title": "Introduction to literate programming with Quarto",
     "section": "Recap",
-    "text": "Recap\nAbout Quarto\n\nQuarto is a powerful tool that combines text, code, and media into documents that are transparent, reproducible, and accessible.\nIn a .qmd file:\n\nthe YAML header controls the document settings\ncode chunks run code and show results\nmarkdown text creates the main content\n\nYou can use simple formatting and keyboard shortcuts for styling text.\n\n**bold** → bold\n*italic* → italic\n\n\n\nSpeaker Note - Here are some of the key things covered in the lesson that give a general overview of Quarto and what it contains. Instructor Note - Aim: to give a recap of important elements of Quarto covered in the lesson."
+    "text": "Recap\nAbout Quarto\n\nQuarto is a powerful tool that combines text, code, and media to make documents which are transparent, reproducible, and accessible.\nIn a .qmd file:\n\nThe YAML header controls the document settings\nCode chunks run code and show results\nMarkdown text creates the main content\n\nYou can use simple formatting and keyboard shortcuts for styling text.\n\n**bold** → bold\n*italic* → italic\n\n\n\nSpeaker Note - Here are some of the key things covered in the lesson that give a general overview of Quarto and what it contains. Instructor Note - Aim: to give a recap of important elements of Quarto covered in the lesson."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#relevance-and-implications",
@@ -1959,21 +1959,21 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#references",
     "title": "Introduction to literate programming with Quarto",
     "section": "References",
-    "text": "References\n\nLi, J., Yuan, J., Miao, Z., Song, Z., Yang, Y., Tian, W., & Guo, Y. (2016). Effect of dietary nutrient density on small intestinal phosphate transport and bone mineralization of broilers during the growing period. PLOS ONE, 11(4), e0153859. https://doi.org/10.1371/journal.pone.0153859\nPauwels, J., Coopman, F., Cools, A., Michiels, J., Fremaut, D., De Smet, S., & Janssens, G. P. J. (2015). Selection for growth performance in broiler chickens associates with less diet flexibility. PLOS ONE, 10(6), e0127819. https://doi.org/10.1371/journal.pone.0127819\nForehand, M. (2010). Bloom’s taxonomy. Emerging perspectives on learning, teaching, and technology, 41(4), 47-56.\n\n\nFrom SvG: Add references here\n\ncheck"
+    "text": "References\n\nLi, J., Yuan, J., Miao, Z., Song, Z., Yang, Y., Tian, W., & Guo, Y. (2016). Effect of dietary nutrient density on small intestinal phosphate transport and bone mineralization of broilers during the growing period. PLOS ONE, 11(4), e0153859. https://doi.org/10.1371/journal.pone.0153859\nPauwels, J., Coopman, F., Cools, A., Michiels, J., Fremaut, D., De Smet, S., & Janssens, G. P. J. (2015). Selection for growth performance in broiler chickens associates with less diet flexibility. PLOS ONE, 10(6), e0127819. https://doi.org/10.1371/journal.pone.0127819\nForehand, M. (2010). Bloom’s taxonomy. Emerging perspectives on learning, teaching, and technology, 41(4), 47-56.\n\n\nFrom SvG: Add references here Beth: should I cite the Quarto Website?"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pedagogical-add-on-tools-for-instructors",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pedagogical-add-on-tools-for-instructors",
     "title": "Introduction to literate programming with Quarto",
     "section": "Pedagogical add-on tools for instructors",
-    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students.\n\n\n\nFrom SvG: Still to do right?"
+    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students.\n\n\n\nFrom SvG: Still to do right? Beth: yes"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#additional-literature-for-instructors",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#additional-literature-for-instructors",
     "title": "Introduction to literate programming with Quarto",
     "section": "Additional literature for instructors",
-    "text": "Additional literature for instructors\n\nReferences for content\n\nhttps://quarto.org/docs/guide/\n\nReferences for pedagogical add-on tools\n\nhttps://quarto.org/docs/presentations/\nBloom’s Taxonomy\n\nOther resources (videos etc.)\n\nVideo on crafting presentations with R and Quarto\n\n\n\nFrom SvG: Still to do right?\n\ncheck"
+    "text": "Additional literature for instructors\n\nReferences for content\n\nhttps://quarto.org/docs/guide/\n\nReferences for pedagogical add-on tools\n\nhttps://quarto.org/docs/presentations/\nBloom’s Taxonomy\n\nOther resources\n\nVideo on crafting presentations with R and Quarto\n\n\n\nFrom SvG: Still to do right? Beth: this video was helpful but I did not incorporate everything from it"
   },
   {
     "objectID": "materials/OS-template-module/OS-template-slides.html#credit-statement-and-licence",
@@ -2246,7 +2246,7 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#session-learning-goals",
     "title": "Introduction to literate programming with Quarto",
     "section": "Session learning goals",
-    "text": "Session learning goals\nAt the end of this session, you should be able to:\n\nCreate, edit, and render Quarto documents\nUse key Quarto features like code chunks, YAML headers, citations, and output formatting\nPublish and share your work using GitHub Pages\n\n\nFrom SvG: Did you want to add a learning goal for Zotero? Make sure that your learning goals align with the content you are getting across here (in the name of constructional alignment)\n\n\nSpeaker Notes: - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956) - Emphasis is placed on the verbs of the learning goals- choose verbs that align with the skills you want to develop or assess. - Examples:\n-   Students will **describe** the process of photosynthesis or\n-   Students will **construct** a diagram illustrating the process of photosynthesis"
+    "text": "Session learning goals\nAt the end of this session, you should be able to:\n\nCreate, edit, and render Quarto documents\nUse key Quarto features like code chunks, YAML headers, citations, and output formatting\nInsert citations and generate a bibliography with Zotero\nPublish and share your work using GitHub Pages\n\n\nFrom SvG: Did you want to add a learning goal for Zotero? Make sure that your learning goals align with the content you are getting across here (in the name of constructional alignment) Beth: Okay yes true because that would be the only one missing\n\n\nSpeaker Notes: - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956) - Emphasis is placed on the verbs of the learning goals- choose verbs that align with the skills you want to develop or assess. - Examples:\n-   Students will **describe** the process of photosynthesis or\n-   Students will **construct** a diagram illustrating the process of photosynthesis"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-6",
@@ -2295,21 +2295,21 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-9",
     "title": "Introduction to literate programming with Quarto",
     "section": "Practical exercise 9",
-    "text": "Practical exercise 9\nLet’s practice adding a citation using Zotero:\n\nOpen Zotero on your device\nAdd bibliography: references.bib to your YAML header\nFollow this link to an article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\nDiet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more \n\nCopy & paste the text above and place the cursor at the end of the sentence\n\n\nSpeaker Notes - Aim: to show how using Zotero with RStudio to insert citations and generates bibliography simplifies the referencing process - Follow these steps to add a citation to your Zotero library and add some information extracted from it to your Quarto document. Instructor Notes - There are several ways to add a citation to your Zotero library but an easy way is using the ‘magic wand’ (adding the item by its identifier). Here, you can just copy the DOI of the study, hit Enter, and it will be added to Zotero. The DOIs of the articles in these tasks will be clearly visible so this method is recommended."
+    "text": "Practical exercise 9\nLet’s practice adding a citation using Zotero.\n\nOpen Zotero on your device\nAdd bibliography: references.bib to your YAML header\nFollow this link to an article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\nDiet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more \n\nCopy & paste the text above and place the cursor at the end of the sentence\n\n\nSpeaker Notes - Aim: to show how using Zotero with RStudio to insert citations and generates bibliography simplifies the referencing process - Follow these steps to add a citation to your Zotero library and add some information extracted from it to your Quarto document. Instructor Notes - There are several ways to add a citation to your Zotero library but an easy way is using the ‘magic wand’ (adding the item by its identifier). Here, you can just copy the DOI of the study, hit Enter, and it will be added to Zotero. The DOIs of the articles in these tasks will be clearly visible so this method is recommended."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-9-1",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-9-1",
     "title": "Introduction to literate programming with Quarto",
     "section": "Practical exercise 9",
-    "text": "Practical exercise 9\n\nIn Visual Mode, click “Insert” and find the article in the Zotero Library\nClick “Insert” to add the citation\n\n\nWhen you find the article in the Zotero Library folder here, select it and then click Insert\nSpeaker Notes - Follow these steps to add the citation to the end of the text. - It is possible to add citations in Source mode, but it is easier and more efficient to do it in Visual mdoe. Instructor Notes - This is also a good opportunity for students to see all the work they’ve done so far in the Quarto document now in Visual mode."
+    "text": "Practical exercise 9\n\nIn Visual Mode, click “Insert” and find the article in the Zotero Library\nClick “Insert” to add the citation\n\n\nWhen you find the article in the Zotero Library folder here, select it, then click Insert\nSpeaker Notes - Follow these steps to add the citation to the end of the text. - It is possible to add citations in Source mode, but it is easier and more efficient to do it in Visual mdoe. Instructor Notes - This is also a good opportunity for students to see all the work they’ve done so far in the Quarto document now in Visual mode."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-10",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-10",
     "title": "Introduction to literate programming with Quarto",
     "section": "Practical exercise 10",
-    "text": "Practical exercise 10\nLet’s practice adding in-text citations:\n\nFollow this link to another article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\n found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.\n\nCopy the text above and place the cursor at the beginning of the sentence\n\n\nSpeaker Notes - Follow these steps to place an in-text citation at the beginning of the text. This is another article, meaning that you will have to click the link to go to it and add it to your Zotero library. - Reminder that in-text citation is a short reference within the sentence itself that points to the full source that you’re citing. -"
+    "text": "Practical exercise 10\nLet’s practice adding in-text citations:\n\nFollow this link to another article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\n found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.\n\nCopy the text above and place the cursor at the beginning of the sentence\n\n\nSpeaker Notes - Follow these steps to place an in-text citation at the beginning of the text. This is another article, meaning that you will have to click the link to go to it and add it to your Zotero library. - Reminder that in-text citation is a short reference within the sentence itself that points to the full source that you’re citing."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-10-1",
@@ -2330,14 +2330,14 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-11",
     "title": "Introduction to literate programming with Quarto",
     "section": "Practical exercise 11",
-    "text": "Practical exercise 11\n\nIn your Quarto Document, edit YAML and add:\n\nproject:\n  type: website\n  output-dir: docs\n\nSet Terminal to open with Git Bash and open new Terminal\nChange directory to the path of the main folder with the Quarto files using cd\n\n\nSpeaker Notes - In this exercise, we’re preparing our Quarto document so it can be published on GitHub Pages. First, edit the YAML header of your Quarto document to define it as a website project and set the output to the docs folder. This tells Quarto where to place the rendered files that GitHub Pages will serve. - Next, set up your terminal in RStudio to use Git Bash by following the steps in the previous slide. - From there, you’ll use the cd command to change into the main folder where your Quarto files are stored. This step makes sure any Git commands you run apply to the right project folder. Instructor Notes - Reminder that copying & pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. - Sometimes in Git Bash/Terminal, just copying & pasting will run the command, but sometimes you need to hit Enter. - Setting the directory can be tricky. - Backslashes (\\) need to be changes to forward slashes (/). - If you’re pasting the exact path of the folder, wrap it in quotation marks (\"...\")"
+    "text": "Practical exercise 11\n\nIn your Quarto Document, edit YAML and add:\n\nproject:\n  type: website\n  output-dir: docs\n\nSet Terminal to open with Git Bash and open new Terminal\nChange directory to the path of the main folder with the Quarto files using cd\n\n\nSpeaker Notes - In this exercise, we’re preparing our Quarto document so it can be published on GitHub Pages. First, edit the YAML header of your Quarto document to define it as a website project and set the output to the docs folder. This tells Quarto where to place the rendered files that GitHub Pages will serve. - Next, set up your terminal in RStudio to use Git Bash by following the steps in the previous slide. - From there, you’ll use the cd command to change into the main folder where your Quarto files are stored. This step makes sure any Git commands you run apply to the right project folder. Instructor Notes - Reminder that copying & pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. - Sometimes in Git Bash/Terminal, just copying & pasting will run the command, but sometimes you need to hit Enter. - Setting the directory can be tricky. - Backslashes (\\) need to be changes to forward slashes (/). - If you’re pasting the exact path of the folder, wrap it in quotation marks (\"...\") - OR an easy way so change the directory is by typing cd then selecting and dragging the folder directly into Git Bash- this puts the folder path after the cd"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-11-1",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-11-1",
     "title": "Introduction to literate programming with Quarto",
     "section": "Practical exercise 11",
-    "text": "Practical exercise 11\necho \"project:\n  type: website\n  output-dir: docs\" &gt; _quarto.yml\n\nMake a simple _quarto.yml file by copying & pasting the above in the Terminal\n\ntouch .nojekyll\n\nCopy & paste the above into the Terminal to add a .nojekyll file\n\n\n\n\n\n\n\n.nojekyll\n\n\nAdding a .nojekyll file to the root of your repo tells GitHub Pages not to do additional processing of your published site using Jekyll\n\n\n\n\nSpeaker Notes - Here, we’re setting up the basic project files GitHub Pages needs in order to publish our Quarto website. - First, we’ll create a _quarto.yml file using the Terminal. This file tells Quarto that the project is a website and that the rendered output should go into the docs folder. - Next, we’ll add a special file called .nojekyll. By default, GitHub Pages uses Jekyll to process websites, but that can interfere with Quarto’s output. Adding a .nojekyll file tells GitHub Pages to leave our site exactly as Quarto created it."
+    "text": "Practical exercise 11\necho \"project:\n  type: website\n  output-dir: docs\" &gt; _quarto.yml\n\nMake a simple _quarto.yml file by copying & pasting the above in the Terminal\n\ntouch .nojekyll\n\nCopy & paste the above into the Terminal to add a .nojekyll file\n\n\n\n\n\n\n\nWhy we add .nojekyll\n\n\nAdding a .nojekyll file to the root of your repo tells GitHub Pages not to do additional processing of your published site using Jekyll\n\n\n\n\nSpeaker Notes - Here, we’re setting up the basic project files GitHub Pages needs in order to publish our Quarto website. - First, we’ll create a _quarto.yml file using the Terminal. This file tells Quarto that the project is a website and that the rendered output should go into the docs folder. - Next, we’ll add a special file called .nojekyll. By default, GitHub Pages uses Jekyll to process websites, but that can interfere with Quarto’s output. Adding a .nojekyll file tells GitHub Pages to leave our site exactly as Quarto created it."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-11-2",
@@ -2358,13 +2358,160 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-11-4",
     "title": "Introduction to literate programming with Quarto",
     "section": "Practical exercise 11",
-    "text": "Practical exercise 11\n\n\n\nChange “none” to “main”\n\n\n\n\n\n\n\n\n\nChange “/root” to “/docs”\nClick Save\n\n\n\n\n\n\nAfter 1-2 minutes, you will see that your site is live!\n\nSpeaker Notes - The last stepp to make the site public is to configure the GitHub repository settings under “Pages.” - Follow the steps to switch to the branch we are working on and switch the folder where Quarto rendered the website files. Instructor Notes - Reminder that the citations will not be complete because configuring to include the bibliography was not done. That’s an additional step."
+    "text": "Practical exercise 11\n\n\n\nChange “none” to “main”\n\n\n\n\n\n\n\n\n\nChange “/root” to “/docs”\nClick Save\n\n\n\n\n\n\nAfter 1-2 minutes, you will see that your site will be live!\n\nSpeaker Notes - The last stepp to make the site public is to configure the GitHub repository settings under “Pages.” - Follow the steps to switch to the branch we are working on and switch the folder where Quarto rendered the website files. Instructor Notes - Reminder that the citations will not be complete because configuring to include the bibliography was not done. That’s an additional step."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#recap-1",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#recap-1",
     "title": "Introduction to literate programming with Quarto",
     "section": "Recap",
-    "text": "Recap\nFeatures and Sharing\n\nCode chunks can be customized in the YAML header (e.g., code-fold: true makes code collapsible).\nYou can add links, images, media, and layouts (like columns) to improve presentation.\nZotero helps manage references, allowing you to cite while you write and automatically builds a bibliography.\nPublishing makes your work accessible and reproducible.\n\nOptions for publishing include Quarto Pub, GitHub Pages, or your own website.\n\n\nClick to download a cheat-sheet\n\nSpeaker Note - Here are some of the authoring features that were discussed and applied in the lesson to create and customize the Quarto document that we then shared using GitHub Pages. - For quick reference, a downloadable cheat sheet is provided with this lesson. It offers beginner-friendly instructions summarizing the key terms, features, and functions of Quarto. Instructor Note - Aim: to give a recap of things you can do to edit the Quarto document and then make it shareable. - Instruct students to download a cheat-sheet to have a summary of information and features that were covered in this session.\n\n\nFrom SvG: Would this differ from the take home messages? check"
+    "text": "Recap\nFeatures and Sharing\n\nCode chunks can be customized in the YAML header (e.g., code-fold: true makes code collapsible).\nYou can add links, images, media, and layout features (like columns) to improve presentation and usability.\nZotero helps manage references, allowing you to cite while you write and automatically builds a bibliography.\nPublishing makes your work accessible and reproducible.\n\nOptions for publishing include Quarto Pub, GitHub Pages, or your own website.\n\n\nFor a summary of what we learned and applied using Quarto, click here to download a cheat sheet.\n\nSpeaker Note - Here are some of the authoring features that were discussed and applied in the lesson to create and customize the Quarto document that we then shared using GitHub Pages. - For quick reference, a downloadable cheat sheet is provided with this lesson. It offers beginner-friendly instructions summarizing the key terms, features, and functions of Quarto. Instructor Note - Aim: to give a recap of things you can do to edit the Quarto document and then make it shareable. - Instruct students to download a cheat-sheet to have a summary of information and features that were covered in this session.\n\n\nFrom SvG: Would this differ from the take home messages? Yes- I made the recap like an overall review that’s instructor-led and the take home message as an opportunity for students to reflect on the lesson."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "1.1 Key terms and definitions",
+    "text": "1.1 Key terms and definitions\nA Quarto Markdown document is saved as a .qmd file\n\nComponents of a .qmd file:\n\nYAML header is the section at the top of the Quarto document that controls settings like the title, output format, and author.\nCode chunks are the sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations\nQuarto markdown combines text, codes, and formatting to create the actual content of the document\n\n\n\nFrom SvG: Did you want to make bullet points for the first two lines? Also make sure to capitalise the first word in a bulleted list, as well as titles within the call-out notes, first word of the title only  Beth: Yes making the second line a bullet point is good but I like the first line being as it is\n\n\nSpeaker Notes - Aim: Introduce key terms and definitions that students will come across throughout the session. - This first part of the lesson is useful to establish an understanding of important vocabulary- it can be helpful to remind students of the meaning of these terms as they appear in the upcoming sections."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "1.2 Key terms and definitions",
+    "text": "1.2 Key terms and definitions\nWhat is rendering? The process where Quarto runs the code, combines it with the text, and creates a final output.\n\nThere are two ways to render in Quarto:\n\nRender on Save: Quarto will automatically re-render the document each time you click “Save”\nManual Rendering: You have to click on the “Render” each time you want to see the output\n\n\n\nYou can find both Render on Save and Manual Render at the top of your workspace\nSpeaker Notes: - Quarto documents can be rendered either manually or automatically when you save. - Manual rendering gives you control meaning you decide when to update the document, which is helpful if you’re making lots of edits and don’t want constant re-renders. - Render on Save automatically updates your document every time you hit Save, which is great for quick feedback and seeing your changes instantly. In this lesson, you can try both to see which workflow feels more comfortable for you."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-2",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-2",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "1.3 Key terms and definitions",
+    "text": "1.3 Key terms and definitions\nYou can write Quarto documents in Source mode or Visual mode in RStudio.\n\nSource mode allows you write directly in plain text/Markdown Syntax, allowing for more control and it’s closer to raw code\nVisual mode gives a WYSIWYM-style interface which is easier for beginners, but sometimes hides syntax.\nThis is part of the authoring process, and it allows you to format the text, add code, and build your document.\n\n\nFrom SvG: Does it make sense for you to have the key terms I - III like this? Added this for overview - I also did the numbering later for authoring for instance, but perhaps there you can find better titles instead of my Authoring (I) etc?  Beth: I originally wanted to number it like 1.1, 1.2, 1.3 to reflect the numbering in the “Covered in this session” section, is this okay?\n\n\nSpeaker Notes: - Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. - Re-examine formation of new concepts at the end of the lesson. - WYSIWYM is an acronym for “What You Say is What You Mean” which means that whatever you see in your document will be what you see even when you save or render the document as PDF or as HTML. - Quarto documents can be created and edited in either Source mode or Visual mode. Both modes work with the same file, but they provide slightly different experiences. In this lesson, most of our tasks will be done in Source mode, but you’ll also have a chance to try Visual mode so you can compare how the same content looks and feels in each. Instructor Notes: - “Authoring process” is mentioned here but not defined because it will be explained further in later slides."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-quarto",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-quarto",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "2.1 Setting up Quarto",
+    "text": "2.1 Setting up Quarto\nThese are the steps to open a Quarto Document in RStudio:\n\n\n\n\n\nSelect File\n\n→ Select New File\n\n→ Select Quarto Document\n\n\n\nSpeaker Notes: - To get started with Quarto in RStudio, the first step is simply creating a new Quarto document. - You see options for both Quarto Document and Quarto Presentation. What’s the difference between the two? - A Quarto Document is best for reports or articles because it produces continuous text like a paper. - A Quarto Presentation is for creating slide decks, like PowerPoint or Reveal.js slides."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-quarto-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-quarto-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "2.2 Setting up Quarto",
+    "text": "2.2 Setting up Quarto\n\n\n\n\n\nYou can set some of the YAML header details here like the title and output format\n\nThe default format is html\n\n→ Hit Create\n\n\n\nSpeaker Notes: - This creates your document where you can now customize the YAML header, add Markdown text, and insert code chunks. - The default format is html but this can be changed later on by editing the YAML header directly in the document."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "3.1 Authoring",
+    "text": "3.1 Authoring\nWhat is authoring? The process of writing and structuring the Quarto document.\nAuthoring = YAML Header + Markdown\nTo practice authoring in Quarto, let’s start with setting the YAML header and adding markdown text in Source mode.\n\nSpeaker Notes: - The YAML header is the section at the very top, wrapped in three dashes (—). It holds the document’s settings, like the title, author, date, and output format. - Below that, we use Markdown to write the actual content which are things like headings, bullet points, bold or italic text. Instructor Notes: - Reminding students on the meanings of YAML Header and Markdown will be helpful especially to those with very little prior knowledge for working with Quarto."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "3.2 Authoring",
+    "text": "3.2 Authoring\nBasic Markdown Text Formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\n\n\n\n\n\n\nMarkdown shortcuts\n\n\nHere is a link for the full list of markdown shortcuts for formatting!\n\n\n\n\nSpeaker Notes: - In Markdown, we can format text with very simple symbols. It works the same way in both Source and Visual mode with the only difference being how you see it while typing. - In Source mode you see the symbols, while in Visual mode it looks like regular bold or italic text right away."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-2",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-2",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "3.3 Authoring",
+    "text": "3.3 Authoring\n\nHave you ever wondered what affects a chick's weight? \nThis document explores the ChickWeight dataset using R.  \nThe goal is to compare chick weight across different diets and time points.  \nKey steps include:\n\n- Loading the dataset  \n- Visualizing growth trends  \n- Summarizing results\n\nThis is an example of markdown text. Let’s use it to continue authoring and building our document.\n\nSpeaker Notes: - Aim: Help students feel comfortable using Markdown by showing how simple and familiar it really is. - the words “Markdown Text” may seem technical or complicated for those new to Quarto. But Markdown can simply be understood as just typing (like writing in any normal document), sometimes with a few simple symbols to add structure or emphasis."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-3",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-3",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "3.4 Authoring",
+    "text": "3.4 Authoring\nHighlighting particularly important aspects with Quarto callout boxes\n\n\n\n\n\n\nImportant with Title\n\n\nThis is an example of a callout box to highlight particularly important information using callout-important\n\n\n\n\n\n\n\n\n\nTip with Title\n\n\nThis is an example of a callout box to give important tips using callout-tip\n\n\n\n\n\n\n\n\n\nNote with Title\n\n\nThis is an example of a callout box to include an additional note using callout-note\n\n\n\n\nSpeaker Notes - Callout boxes are a way to highlight important information in your document. They stand out visually, so readers immediately notice them. You can use them to emphasize tips, warnings, examples, or key takeaways. - Acknowledge that the look of the callout boxes changes depending on if “-important,” “-tip,” or “-note” follows the word “callout” Instructor Notes - These are just examples of callout boxes. How to actually create one will be covered in the next slide/task."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-4",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-4",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "3.5 Authoring",
+    "text": "3.5 Authoring\nAdding a Callout Box\nHere is the markdown text for inserting a callout note box:\n::: callout-note\n## Based on Real Data\n\nThe ChickWeight dataset in R is based on real experimental data.\n:::\n\nSpeaker Note - Inside the box, you can add a heading and text. - These aren’t just for highlighting important information but can be used for supplementary or by-the-way information."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#code-chunks",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#code-chunks",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "4.1 Code chunks",
+    "text": "4.1 Code chunks\nThere are two ways to insert code chunks:\n\nManually type 3 back ticks ``` then {r} to start a coding chunk, enter your code, then end it with 3 back ticks\n\nOR\n\nUse the keyboard shortcut Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac) to insert a code chunk then simply enter your code\n\n\nSpeaker Notes - Code chunks are sections of a Quarto document where we can run code directly inside our file. They’re marked by three backticks followed by the language name, like {r} or {python}. - These let us write and execute code, and then display the results, such as tables, plots, or calculations, right in the document. Code chunks make it possible to combine text and analysis in one place, so the document stays reproducible and dynamic. Instructor Notes - using {r} to start the Code Chunk indicates that the coding language that we’re using is R. This is relevant for this lesson as students will be using R Studio and ossession of some background knowledge in R is assumed."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#code-chunks-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#code-chunks-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "4.2 Code chunks",
+    "text": "4.2 Code chunks\n\nsummary(ChickWeight)\n\nlibrary(ggplot2)\nggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +\n  geom_line(aes(group = Chick)) +\n  labs(title = \"Chick Growth Over Time\")\n\nThese are examples of R code. Let’s use it to insert code chunks in our document.\n\nSpeaker Note\nAdd instructor notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#code-chunks-2",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#code-chunks-2",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "4.3 Code chunks",
+    "text": "4.3 Code chunks\nAdjust how the code is portrayed by editing the YAML header:\n\n\n\n\n\nCurrently in our YAML header, we have it set to code-fold: false which means the code is visible and not collapsible.\n\n\n\nSpeaker Notes - clarify that “not collapsible” means that we cannot chose to hide the code, we cannot fold it closed (as we will see when we set it to code-fold: true) - Quarto gives us several options for controlling how code appears in our documents. For example, we can choose whether to show or hide the code itself, whether readers can fold code open and closed, or whether only the results are shown. - These settings don’t change the analysis, but just change how it’s displayed. This flexibility is helpful because sometimes we want to highlight the process by showing the code, and other times we want readers to focus on the results. - In open research, showing the underlying code isn’t just a technical choice, it’s important for building trust and reproducibility."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#code-chunks-3",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#code-chunks-3",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "4.4 Code chunks",
+    "text": "4.4 Code chunks\nHere are some other code display settings that we can incorporate into our YAML header:\n\ncode-fold: true collapses the code so the reader can expand it\ncode-tools: true adds the functions “show code” at the top of the page and “copy” next to the chunks\necho: true both the code and the output is visible\n\nLet’s edit the YAML header to make the code chunks collapsible and add code tools.\n\nSpeaker Notes - echo: true and code-fold: false both affect how code is shown, but in different ways. echo decides if the code prints at all, while code-fold lets readers toggle it open or closed, deciding whether the code can be hidden or expanded. Instructor Notes - It’s easy to confuse echo and code-fold because they both deal with code visibility. Be clear on the difference."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "5.3 Inserting images",
+    "text": "5.3 Inserting images\n\nImage by itself with no caption: ![](path/image.png)\n\n\n\nSpeaker Notes - A benefit of using Quarto is the ability to easily add media, such as images, to your documents. - For this lesson, we will focus on just adding images. You can add the image by itself with no additional text, such as a caption. - The “path” tells Quarto where to find the image on your device. If the image is stored in the same folder as your .qmd file, you only need to use the image’s file name. If the image is inside a subfolder (e.g., an images folder next to your .qmd), then you just include the folder name in the path, like images/picture.png."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "5.4 Inserting images",
+    "text": "5.4 Inserting images\n\nImage with a caption below it: ![caption](path/image.png)\n\n\nThis is a caption about three yellow chicks in the grass.\nSpeaker Notes - Images can also be inserted with a caption placed below it. - Helps with clarity and accessibility, since captions explain the relevance of the image. - Also useful in reports, presentations, or academic writing where figures must be labeled."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-2",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-2",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "5.5 Inserting images",
+    "text": "5.5 Inserting images\n\nImage that redirects you to a link: [![caption](path/image.png)](link)\n\n\n\n\nClick on the image to see a study on broiler chicks\n\n\n\nSpeaker Notes - Images can also be inserted with links embedded in them. - This allows readers to click and explore more details (e.g., linking a screenshot to a website or dataset). - Keeps documents concise while still offering extra resources for those who want them."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#citations",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#citations",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "6.1 Citations",
+    "text": "6.1 Citations\n\n\n\n\n\nWhat is Zotero? This is a free reference management tool to collect, organize, cite, and share research sources.\n\n\n\nYou can use Zotero in RStudio to easily insert citations into your Quarto document.\n\n\nSpeaker Notes - Zotero is a reference manager that helps you collect and organize research articles, books, and other sources. When you connect Zotero to Quarto, you can easily insert citations while writing and then automatically generate a reference list at the end. This saves time and reduces errors compared to typing citations manually."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "6.1 Adding citations",
+    "text": "6.1 Adding citations\n\n\n\n\n\nWhat is Zotero? This is a free reference management tool to collect, organize, cite, and share research sources.\n\n\n\nYou can use Zotero in RStudio to easily insert citations into your Quarto document.\n\n\nSpeaker Notes - Zotero is a reference manager that helps you collect and organize research articles, books, and other sources. When you connect Zotero to Quarto, you can easily insert citations while writing and then automatically generate a reference list at the end. This saves time and reduces errors compared to typing citations manually."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-2",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-2",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "7.4 Publishing to GitHub",
+    "text": "7.4 Publishing to GitHub\nLet’s publish our document using the first method:\nRender to docs\n\nSpeaker Notes - For this lesson, we will publish our completed Quarto document with all the additions we’ve made to Git Pages using the “Render to docs” method."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-3",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-3",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "7.5 Publishing to GitHub",
+    "text": "7.5 Publishing to GitHub\nWork with Git Bash directly from the Terminal in RStudio.\n\nclick Terminal → Terminal Options and set it to open with Git Bash\n\n\n\n\n\n\n\n\nthen, click Terminal → New Terminal to begin working with Git Bash\n\n\nSpeaker Notes - When publishing to GitHub, we’ll often use Git Bash, which is a command-line tool for running Git commands. Fortunately, you don’t have to leave RStudio to use it by opening Git Bash directly inside RStudio’s Terminal tab. - To do this, go to Terminal → Terminal Options, and under ‘New terminals open with,’ select Git Bash. Then, when you click Terminal → New Terminal, it will open Git Bash automatically, ready for you to start working. - This setup keeps everything in one place so you don’t need to switch between RStudio and an external terminal. Instructor Notes - Git Bash should be installed on the student’s device. - When you click the drop-down arrow by Terminal, the options may look different than what’s in the image in this slide, but the “Terminal Options…” will be at the end (you may have to scroll a bit). - The last step (open a new Terminal) is important because the current Terminal does not automatically change to Git Bash."
   }
 ]
