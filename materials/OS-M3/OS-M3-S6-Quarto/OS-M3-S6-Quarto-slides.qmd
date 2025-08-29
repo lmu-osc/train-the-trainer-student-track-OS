@@ -221,7 +221,7 @@ At the end of this session, you should be able to:
 
 ---
 
-## 1.1 Key terms and definitions
+## 1.0 Key terms and definitions
 
 A Quarto Markdown document is saved as a **.qmd file**
 
@@ -245,7 +245,7 @@ A Quarto Markdown document is saved as a **.qmd file**
 
 ---
 
-## 1.2 Key terms and definitions
+## 1.1 Key terms and definitions
 
 What is **rendering**? The process where Quarto runs the code, combines it with the text, and creates a final output.
 
@@ -265,7 +265,7 @@ What is **rendering**? The process where Quarto runs the code, combines it with 
 
 ---
 
-## 1.3 Key terms and definitions
+## 1.2 Key terms and definitions
 
 You can write Quarto documents in **Source mode** or **Visual mode** in RStudio.
 
@@ -291,7 +291,7 @@ You can write Quarto documents in **Source mode** or **Visual mode** in RStudio.
 
 ---
 
-## 2.1 Setting up Quarto
+## 2.0 Setting up Quarto
 
 These are the steps to open a Quarto Document in RStudio:
 
@@ -316,7 +316,7 @@ These are the steps to open a Quarto Document in RStudio:
 
 ---
 
-## 2.2 Setting up Quarto
+## 2.1 Setting up Quarto
 
 :::::: columns
 ::: column
@@ -345,32 +345,33 @@ These are the steps to open a Quarto Document in RStudio:
 
 ::: {.notes}
 *:Speaker Notes**:
-- Ensure students know where their Quarto project folder is located on their device. This will make it easier for them to find files in later tasks. Encourage them to save the document right after creating it by selecting "Save As", so they can intentionally choose the document location (e.g., Desktop, a dedicated course folder, etc.).
+- Ensure students know where their Quarto project folder is located on their device. This will make it easier for them to find files in later tasks. Encourage them to save the document right after creating it by selecting "Save As", so they can intentionally choose the document location (for example, on the Desktop or a dedicated course folder).
 :::
 
 ---
 
-## 3.1 Authoring
+## 3.0 Authoring
 
 What is **authoring**? The process of writing and structuring the Quarto document.
 
-**Authoring = YAML Header + Markdown**
+- Consider it as this formula: **Authoring = YAML Header + Markdown**
 
-To practice authoring in Quarto, let's start with setting the YAML header and adding markdown text in **Source** mode.
+- To practice authoring in Quarto, let's start with setting the YAML header and adding markdown text in **Source mode**.
 
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**
+- Authoring is combining the YAML header with the markdown text. This means that what you do to customize, add to, and develop your document is the process of authoring
 - The YAML header is the section at the very top, wrapped in three dashes (---). It holds the document’s settings, like the title, author, date, and output format. 
-- Below that, we use Markdown to write the actual content which are things like headings, bullet points, bold or italic text.
-**Instructor Notes**:
-- Reminding students on the meanings of YAML Header and Markdown will be helpful especially to those with very little prior knowledge for working with Quarto.
+- Below that, we use Markdown to write the actual content which are things like headings, bullet points, bold or italic text, and the actual body of your document.
+**Instructor Notes**
+- Reminding students on the meanings of YAML Header and Markdown will be helpful especially to those with very little prior knowledge as these are terms that appear very often when working with Quarto. 
 :::
 
 ---
 
 ## Practical exericise 2
 
--   [ ] Copy & paste the following into the YAML Header of your document
+-   [ ] Copy and paste the following into the YAML Header of your document
 
 ``` yaml
 ---
@@ -401,7 +402,7 @@ Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" targ
 
 ---
 
-## 3.2 Authoring
+## 3.1 Authoring
 
 **Basic Markdown Text Formatting**
 
@@ -427,7 +428,7 @@ Here is a <a href="https://quarto.org/docs/visual-editor/options.html">link for 
 
 ---
 
-## 3.3 Authoring
+## 3.2 Authoring
 
 <br>
 
@@ -467,7 +468,7 @@ This is an example of **markdown text**. Let's use it to continue authoring and 
 
 ---
 
-## 3.4 Authoring
+## 3.3 Authoring
 
 Highlighting particularly important aspects with **Quarto callout boxes**
 
@@ -499,7 +500,7 @@ This is an example of a callout box to include an additional note using `callout
 
 ---
 
-## 3.5 Authoring
+## 3.4 Authoring
 
 **Adding a Callout Box**
 
@@ -523,7 +524,7 @@ The ChickWeight dataset in R is based on real experimental data.
 
 ## Practical exercise 4
 
--   [ ] Copy & paste the markdown text from the previous slide into your Quarto document to add this callout note box.
+-   [ ] Copy and paste the markdown text from the previous slide into your Quarto document to add this callout note box.
 
 ::: {.notes}
 *Speaker Note*
@@ -539,7 +540,7 @@ The ChickWeight dataset in R is based on real experimental data.
 :::
 ---
 
-## 4.1 Code chunks
+## 4.0 Code chunks
 
 There are two ways to insert **code chunks**:
 
@@ -559,7 +560,7 @@ OR
 
 ---
 
-## 4.2 Code chunks
+## 4.1 Code chunks
 
 <br>
 
@@ -603,7 +604,7 @@ Add instructor notes here.
 
 ---
 
-## 4.3 Code chunks
+## 4.2 Code chunks
 
 Adjust how the code is portrayed by editing the YAML header:
 
@@ -614,7 +615,7 @@ Adjust how the code is portrayed by editing the YAML header:
 :::
 ::: {style="flex: 1;"}
 
-Currently in our YAML header, we have it set to `code-fold: false` which means the code is visible and not collapsible. 
+- Currently in our YAML header, we have it set to `code-fold: false` which means the code is visible and not collapsible. 
 
 :::
 ::::::
@@ -629,7 +630,7 @@ Currently in our YAML header, we have it set to `code-fold: false` which means t
 
 ---
 
-## 4.4 Code chunks 
+## 4.3 Code chunks 
 
 Here are some other code display settings that we can incorporate into our YAML header: 
 
@@ -723,7 +724,7 @@ d.  All of the above
 
 ---
 
-# Break! 10 minutes
+# Break! 5 minutes
 
 ---
 
@@ -738,11 +739,9 @@ d.  All of the above
 
 ---
 
-## 5.1 Additional authoring features
+## 5.0 Additional authoring features
 
-Quarto offers additional **authoring features** that make it more versatile and comprehensive. 
-
-These include:
+Quarto offers additional **authoring features** that make it more versatile and comprehensive. These include:
 
 - Adding **links** and **hyperlinking** text
 - Embedding **media**
@@ -763,7 +762,7 @@ Here is a <a href="https://quarto.org/docs/authoring/markdown-basics.html">link 
 
 ---
 
-## 5.2 Inserting links
+## 5.1 Inserting links
 
 Link with title: `[title](link)`
 
@@ -784,7 +783,7 @@ Link without title: `<https://link>`
 
 ---
 
-## 5.3 Inserting images
+## 5.2 Inserting images
 
 -   Image by itself with no caption: `![](path/image.png)`
 
@@ -794,12 +793,12 @@ Link without title: `<https://link>`
 *Speaker Notes*
 - A benefit of using Quarto is the ability to easily add media, such as images, to your documents.
 - For this lesson, we will focus on just adding images. You can add the image by itself with no additional text, such as a caption.
-- The "path" tells Quarto where to find the image on your device. If the image is stored in the same folder as your .qmd file, you only need to use the image’s file name. If the image is inside a subfolder (e.g., an images folder next to your .qmd), then you just include the folder name in the path, like images/picture.png.
+- The "path" tells Quarto where to find the image on your device. If the image is stored in the same folder as your .qmd file, you only need to use the image’s file name. If the image is inside a subfolder (For example, an images folder next to your .qmd), then you just include the folder name in the path, like images/picture.png.
 :::
 
 ---
 
-## 5.4 Inserting images
+## 5.3 Inserting images
 
 -   Image with a caption below it: `![caption](path/image.png)`
 
@@ -814,7 +813,7 @@ Link without title: `<https://link>`
 
 ---
 
-## 5.5 Inserting images
+## 5.4 Inserting images
 
 -   Image that redirects you to a link: `[![caption](path/image.png)](link)`
 
@@ -823,7 +822,7 @@ Link without title: `<https://link>`
 ::: {.notes}
 *Speaker Notes*
 - Images can also be inserted with links embedded in them.
-- This allows readers to click and explore more details (e.g., linking a screenshot to a website or dataset).
+- This allows readers to click and explore more details (for example, linking a screenshot to a website or dataset).
 - Keeps documents concise while still offering extra resources for those who want them.
 :::
 
@@ -837,7 +836,7 @@ Link without title: `<https://link>`
 ``` markdown
 ![No chicks were harmed in the making of this document.](images/chickpic1.png)
 ```
--   [ ] Copy & paste the markdown text above to insert an image with a caption (edit path if needed)
+-   [ ] Copy and paste the markdown text above to insert an image with a caption (edit path if needed)
 
 ::: {.notes}
 *Speaker Notes*
@@ -855,7 +854,7 @@ Link without title: `<https://link>`
 
 ---
 
-## 5.6 Creating columns on the slide
+## 5.5 Creating columns on the slide
 
 You can change the layout of a section using **columns**:
 
@@ -874,7 +873,7 @@ Here is a <a href="https://quarto.org/docs/authoring/article-layout.html">link f
 
 ::: {.notes}
 *Speaker Notes*
-- Columns are useful when you want to organize content side by side instead of in a long vertical flow. For e.g., you might place an image in one column and an explanation in the other, or compare two code outputs directly next to each other like comparing two separate plots. - Columns help make information easier to scan and can improve the balance and readability of your slides or documents.
+- Columns are useful when you want to organize content side by side instead of in a long vertical flow. For example, you might place an image in one column and an explanation in the other, or compare two code outputs directly next to each other like comparing two separate plots. - Columns help make information easier to scan and can improve the balance and readability of your slides or documents.
 :::
 
 ---
@@ -916,7 +915,7 @@ Let's use columns to add bullet points next to an image.
 ::::::
 ```
 
--   [ ] Copy & paste the markdown text to add an image with bullet points using columns (edit path if needed)
+-   [ ] Copy and paste the markdown text to add an image with bullet points using columns (edit path if needed)
 
 ::: {.notes}
 *Speaker Notes*
@@ -933,7 +932,7 @@ Let's use columns to add bullet points next to an image.
 
 ---
 
-## 6.1 Adding citations 
+## 6.0 Adding citations 
 
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 0.5;"}
@@ -957,7 +956,7 @@ What is **Zotero**? This is a free reference management tool to collect, organiz
 
 ---
 
-## 6.2 Adding citations with Zotero
+## 6.1 Adding citations with Zotero
 
 ![](images/zotero1.png)
 
@@ -983,7 +982,7 @@ A reference list or bibliography is automatically generated at the end of the do
 
 ---
 
-## 6.3 Adding citations with Zotero
+## 6.2 Adding citations with Zotero
 
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 0.5;"}
@@ -994,7 +993,7 @@ A reference list or bibliography is automatically generated at the end of the do
 
 - → Select citations straight from the folders in your **Zotero library**
 
-- Each citation is assigned a short citation key based on the author and year (e.g., pauwels2015).
+- Each citation is assigned a short citation key based on the author and year (for example, "pauwels2015").
 
 - You can quickly cite it in your document by typing @ followed by the citation key.
 
@@ -1024,7 +1023,7 @@ Let's practice adding a citation using **Zotero**.
 Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more 
 ```
 
-- [ ] Copy & paste the text above and place the cursor at the end of the sentence
+- [ ] Copy and paste the text above and place the cursor at the end of the sentence
 
 ::: {.notes}
 *Speaker Notes*
@@ -1090,7 +1089,7 @@ Let's practice adding **in-text** citations:
 
 ---
 
-## 6.4 Adding citations with Zotero
+## 6.3 Adding citations with Zotero
 
 :::::: columns
 ::: column
@@ -1112,7 +1111,7 @@ Now you should have
 ::: callout-note
 ## Changing the citation style
 
-You can change the citation style by using csl files directly from the Zotero website. For e.g., putting "`csl: https://www.zotero.org/styles/apa`" in your YAML changes the citation style to APA.
+You can change the citation style by using csl files directly from the Zotero website. For example, putting "`csl: https://www.zotero.org/styles/apa`" in your YAML changes the citation style to APA.
 :::
 
 ::: {.notes}
@@ -1124,7 +1123,7 @@ You can change the citation style by using csl files directly from the Zotero we
 
 ---
 
-## 7.1 Publishing
+## 7.0 Publishing
 
 What is **publishing** with Quarto? The process of sharing the rendered documents or projects online so it can become accessible to others.
 
@@ -1145,6 +1144,35 @@ Here is a <a href="https://quarto.org/docs/publishing/index.html">link for a lis
 
 *Instructor Notes*
 - The key takeaway here is that publishing turns your local work into something that can be accessed from anywhere.
+
+:::
+
+---
+
+## 7.1 Publishing
+
+When sharing your work, it's important to follow established **rules and standards**. This includes:
+
+- Considering the legal aspects
+- Applying appropriate licenses
+- Proper archiving 
+
+::: callout-note
+## List of publishing services
+
+<a href="https://lmu-osc.github.io/code-publishing/intro.html">Click here for the LMU OSC page</a> on all you need to know about sharing, copyright, best practices and more.
+:::
+
+::: {.notes}
+*Speaker Notes*
+- As practitioners of open research, sharing your work is more than just making it available. It's also about being responsible and following certain standards. There are legal aspects of sharing that we should consider such as 
+  - Licenses that define how other may use your work, 
+  - The importance of archiving to preserve your work in the long run
+  - Established best practices to make sure our research remains credible and reusable.
+
+*Instructor Notes*
+- Aim: To inform students that open science involves thoughtful practices. In this case, sharing should be done with legality, licenses, and reusability in mind. 
+- We will not practice this in the session but it is good to know moving forward.
 
 :::
 
@@ -1173,11 +1201,10 @@ A great option to share your document is **publishing to GitHub**.
 
 **GitHub Pages** enables you to publish content based on source code managed within a GitHub repository.
 
-**3 methods** to publish a Quarto document to GitHub Pages:
-
-1. Render to the `docs` directory and checking it into your repository
-2. Use the `quarto publish` command 
-3. Use GitHub Actions to auto-render and publish whenever you push changes
+- **3 methods** to publish a Quarto document to GitHub Pages:
+  1. Render to the `docs` directory and checking it into your repository
+  2. Use the `quarto publish` command 
+  3. Use GitHub Actions to auto-render and publish whenever you push changes
 
 ::: {.notes}
 *Speaker Notes*
@@ -1257,8 +1284,8 @@ project:
 - Next, set up your terminal in RStudio to use Git Bash by following the steps in the previous slide. 
 - From there, you’ll use the `cd` command to change into the main folder where your Quarto files are stored. This step makes sure any Git commands you run apply to the right project folder.
 *Instructor Notes*
-- Reminder that copying & pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. 
-- Sometimes in Git Bash/Terminal, just copying & pasting will run the command, but sometimes you need to hit Enter. 
+- Reminder that copying and pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. 
+- Sometimes in Git Bash/Terminal, just copying and pasting will run the command, but sometimes you need to hit Enter. 
 - Setting the directory can be tricky. 
   - Backslashes (`\`) need to be changes to forward slashes (`/`). 
   - If you're pasting the exact path of the folder, wrap it in quotation marks (`"..."`)
@@ -1275,12 +1302,12 @@ echo "project:
   type: website
   output-dir: docs" > _quarto.yml
 ```
-- [ ] Make a simple `_quarto.yml` file by copying & pasting the above in the Terminal
+- [ ] Make a simple `_quarto.yml` file by copying and pasting the above in the Terminal
 
 ```markdown
 touch .nojekyll
 ```
-- [ ] Copy & paste the above into the Terminal to add a `.nojekyll` file
+- [ ] Copy and paste the above into the Terminal to add a `.nojekyll` file
 
 :::callout-note
 ## Why we add `.nojekyll`
@@ -1303,13 +1330,13 @@ Adding a `.nojekyll` file to the root of your repo tells GitHub Pages not to do 
 ```markdown
 quarto render
 ``` 
-- [ ] Copy & paste the above into Terminal to generate HTML in the `docs/` folder
+- [ ] Copy and paste the above into Terminal to generate HTML in the `docs/` folder
 
 ```markdown
 git init
 git branch -M main  
 ```
-- [ ] Copy & paste the above into Terminal to initialize Git and rename "master" to "main"
+- [ ] Copy and paste the above into Terminal to initialize Git and rename "master" to "main"
 
 ::: {.notes}
 *Speaker Notes*
@@ -1318,7 +1345,7 @@ git branch -M main
 *Instructor Notes*
 - You will see a warning about `references.bib not found in resource path` which usually happens because Quarto looks for the file in the project’s root or resource path, but Git Bash is case-sensitive and strict with paths.
 - So, you will see in your completed Git Pages web page that the citations look strange but we will leave it like that for now.
-- Extra steps are needed to correct this that will be covered in the Advanced Intro to Quarto Activity PDF. 
+- Extra steps are needed to correct this that will be covered in the Homework Assignment/Extra Activities PDF. 
 :::
 
 ---
@@ -1326,7 +1353,7 @@ git branch -M main
 ## Practical exercise 11
 
 - [ ] Go to [GitHub](github.com) and create a new repo
-- [ ] In Terminal, connect to local project by using "`git remote add origin`" + the repo's HTTPS URL (e.g., "`git remote add origin https://github.com/yourname/chickweight-exercise.git`")
+- [ ] In Terminal, connect to local project by using "`git remote add origin`" + the repo's HTTPS URL (for example, "`git remote add origin https://github.com/yourname/chickweight-exercise.git`")
 
 ```markdown
 quarto render
@@ -1334,7 +1361,7 @@ git add docs
 git commit -m "Publish site to docs/"
 git push -u origin main
 ```
-- [ ] Copy & paste the above into Terminal to render your site and push it to GitHub
+- [ ] Copy and paste the above into Terminal to render your site and push it to GitHub
 - [ ] In your repo on [GitHub](github.com), go to Settings 
 - [ ] Click "Pages" to configure GitHub Pages
 
@@ -1377,7 +1404,7 @@ git push -u origin main
 :::
 ::::::
 
-After 1-2 minutes, you will see that your site will be **live**! 
+- After 1-2 minutes, you will see that your site will be **live**! 
 
 ::: {.notes}
 *Speaker Notes*
@@ -1415,7 +1442,7 @@ After 1-2 minutes, you will see that your site will be **live**!
 
 **Features and Sharing**
 
-- Code chunks can be customized in the YAML header (e.g., `code-fold: true` makes code collapsible).
+- Code chunks can be customized in the YAML header (for example, `code-fold: true` makes code collapsible).
 - You can add **links, images, media, and layout features** (like columns) to improve presentation and usability.
 - **Zotero** helps manage references, allowing you to cite while you write and automatically builds a bibliography.
 - **Publishing** makes your work accessible and reproducible.
