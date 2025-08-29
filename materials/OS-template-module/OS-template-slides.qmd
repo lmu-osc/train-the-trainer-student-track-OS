@@ -22,30 +22,35 @@ execute:
   engine: knitr
 ---
 
-## Credit statement and licence
+## Contribution statement and licence
 
-Possible roles using the CRediT contribition system: 
+<br>
 
-**Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
+**Creator**: Name, first name, (orcid)
+
+**Reviewer**: Name, first name, (orcid)
+
+**Acknowledgments**: Name, first name, (orcid)
+
 
 <br>
 <br>
 
 <div style="font-size: 0.6em;">
-This work by YYY XXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+This work by XXXX XXXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
 </div>
 
 ::: {.notes}
-*Speaker Notes*
-These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
+**Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
 
-*Instructor Notes*
-There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+
+**Acessibility Tips**: where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
 :::
 
 ---
 
-## Prerequisites
+## Prerequisites - table format
 
 ::: {.callout-important}
 Before completing this submodule, please carefully read about the necessary prerequisites.
@@ -56,12 +61,26 @@ Before completing this submodule, please carefully read about the necessary prer
 | Topic Name | Basic intro to X | Module + Submodule |
 | Software Name | Configuring the environment | [Download Link](https://quarto.org) |
 
-::: notes
-*Speaker Notes*
-Script for the presentation here. 
+::: {.notes}
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
+
+## Prerequisites - bullet points
+
+::: {.callout-important}
+Before completing this submodule, please carefully read about the necessary prerequisites.
+:::
+
+- **Aim**:  Outline any essential prerequisites (software, tools, other submodules etc.) here in bullet point format.
+
+::: {.notes}
+**Speaker Notes**: Script for the presentation here. 
+:::
+
+---
+
 
 ## Questions from previous submodule
 
@@ -71,9 +90,9 @@ Script for the presentation here.
 - Not applicable if this set of slides corresponds to the first submodule of a new module. 
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
+
 
 ---
 
@@ -83,8 +102,7 @@ Script for the presentation here.
 - Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides).
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -136,9 +154,9 @@ e. 5
 - Use visuals from the survey to highlight specific answers.
 
 ::: {.notes}
-*Speaker Notes*
-Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
+**Speaker Notes**: Script for the presentation here. 
 :::
+
 
 ---
 
@@ -148,9 +166,9 @@ Make it clear to the group that there will be a similar post-submodule survey to
 - Remind students what you are working towards and what the bigger picture is.
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
+
 
 ---
 
@@ -164,9 +182,9 @@ Script for the presentation here.
   - Students will **construct** a diagram illustrating the process of photosynthesis
   
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
+
 
 ---
 
@@ -178,9 +196,9 @@ Script for the presentation here.
 - Topic 3
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
+
 
 ---
 
@@ -194,8 +212,7 @@ Script for the presentation here.
 - **Key Term 3**: Definition
 
 ::: {.notes}
-*Speaker notes*
-Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
+**Speaker Notes**: Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
 :::
 
 ---
@@ -207,8 +224,7 @@ Base yourself on conceptual change theory and examine exisiting concepts in rela
 - Use multiple slides for this part.
 
 ::: {.notes}
-*Speaker notes*
-For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
+**Speaker notes**: For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
 :::
 
 ---
@@ -231,8 +247,7 @@ This is an example of a callout box to give important tips.
 :::
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -248,8 +263,7 @@ Script for the presentation here.
 - [ ] Step 3
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -260,8 +274,7 @@ Script for the presentation here.
 - Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -300,8 +313,7 @@ d. Gills to breathe underwater
 - Highlight specific answers given during the survey
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -317,8 +329,7 @@ Script for the presentation here.
 - [ ] Step 3
 
 ::: {.notes}
-*Speaker notes*
-For students who advance faster: Prepare extra exercises. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -330,8 +341,7 @@ For students who advance faster: Prepare extra exercises.
 - Examine downfalls and practical obstacles.
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -347,8 +357,7 @@ Add one practical tips or take-home message.
 :::
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -361,8 +370,7 @@ Script for the presentation here.
 - Design a peer-review system for assignments to place students in role of reviewer and author
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -373,8 +381,7 @@ Script for the presentation here.
 - Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -426,8 +433,7 @@ e. 5
 - Compare and highlight specific differences in answers between pre- and post-survey answers
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -437,8 +443,7 @@ Script for the presentation here.
 - Provide literature you refer to throughout this lesson.
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the presentation here. 
 :::
 
 ---
@@ -739,8 +744,10 @@ hist(rnorm(100), main = "Histogram of Random Normals")
 
 ---
 
-## Example attribution (for previous slide)
+## Credit Statement
 
-"[Tutorial template for student track](https://github.com/SvonGrebmer/Template-Slides-Students)" by Sarah von Grebmer is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).
+Possible roles using the CRediT contribition system: 
+
+**Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
 ---
