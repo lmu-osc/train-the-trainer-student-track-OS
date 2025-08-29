@@ -3,7 +3,7 @@
 
 /* Style the top navbar */
 .navbar {
-  background-color: #4CAF50;
+  background-color: #009933;
 }
 
 .navbar a {
@@ -20,12 +20,20 @@
   background-color: #f1f1f1;
 }
 
-.sidebar nav a {
-  color: #333;
+/* Sidebar link colour when hovering */
+.sidebar nav a:hover {
+  background-color: #e0e0e0;
+    color: #000;
 }
 
-.sidebar nav a:hover,
+/* Sidebar link colour for active link */
 .sidebar nav .active {
   background-color: #e0e0e0;
-  color: #000;
+    color: #006426; 
+}
+
+/* Global link styling */
+a {
+  color: #006426;        /* Default link color */
+      /*text-decoration: none;    Removes underline by default */
 }
