@@ -33,6 +33,16 @@ execute:
 This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
 </div>
 
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: I think you are mixing instructor and speaker notes throughout - make sure to add what you would say for a slide to the students to speaker notes, and any tips or things instructors need to pay attention to to the instructor notes. Also make sure to have consistent formatting for these notes, like the speaker notes in bold and if there are bullet points separated by a <br > see the first 20 slides or so and revise the rest accordingly. Also check the creation manual for naming of the images and edit! </span>
+</div>
+
+::: {.notes}
+**Speaker Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
+
+**Instructor Notes**: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner's needs as well as anticipate challenges.
+:::
+
 
 ---
 
@@ -56,9 +66,9 @@ Before completing this submodule, please carefully read about the necessary prer
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
+**Speaker Notes**: Let us first take a look at these prerequisites. These are important to complete this submodule. 
 
-**Instructor Notes**: Instructor notes provide teaching support but are not intended to be spoken directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner's needs as well as anticipate challenges.
+**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiariy with Git and GitHub and that the audience has also completed those submodules. Finally, we assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines, and also have the desktop app for Zotero. 
 :::
 
 ---
@@ -66,7 +76,9 @@ Before completing this submodule, please carefully read about the necessary prer
 ## Questions from previous submodule?
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**: Are there any questions from what we discussed during the last session? Are there any remaining thoughts or discussion points?
+<br>
+**Instructor  Notes**: <br>
 - Aim: clarify questions from the previous submodule and/or to discuss assignments.
 - Additional slides may need to be added depending on the nature of the homework assignments.
 - It is critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.
@@ -77,7 +89,6 @@ Before completing this submodule, please carefully read about the necessary prer
 
 ## Before we start: Survey time!
 
-**Where are we at?**
 <br>
 <br>
 Click on the following link or scan the QR code to test your prior Quarto knowledge:
@@ -85,16 +96,12 @@ Click on the following link or scan the QR code to test your prior Quarto knowle
 
 ![](images/particify1.png)
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: We have an OSC account where you can generate a room for this - let us leave it like this for now but we will need to be systematic about these QR codes and surveys - a discussion for a team!</span>
-</div>
-
 ::: {.notes}
-**Speaker Notes**: 
-- Let's start the session by guaging where our skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
-**Instructor Notes**:
+**Speaker Notes**: <br>
+- Let's start the session by gauging where our Quarto skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
+**Instructor Notes**: <br>
 - Aim: the pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
-- Use free survey software such as particify or formR) to establish this. You can use the example survey, edit it or create your own.
+- Use free survey software such as particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides. 
 :::
 
 ---
@@ -104,7 +111,8 @@ Click on the following link or scan the QR code to test your prior Quarto knowle
 **What can we take from this?**
 
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**: Looking at the results from this small survey, what can we take from this? <br>
+**Instructor Notes**: <br>
 - Aim: briefly examine the answers given to each question interactively with the group.
 - Use visuals from the survey to highlight specific answers.
 - Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
@@ -114,7 +122,7 @@ Click on the following link or scan the QR code to test your prior Quarto knowle
 
 ## Where are we at?
 
-**Open Research** is about sharing data, methods, and results to promote collaboration in science.
+**Open Research** is about sharing data, methods, and results to promote collaboration in science. <br>
 
 *So, why Quarto?*
 
@@ -125,14 +133,13 @@ Click on the following link or scan the QR code to test your prior Quarto knowle
 
 Quarto is a tool that can help us connect ideas, data, and people through open and reproducible research. 
 
-
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**: <br>
 - Let's first answer the question, "why are we learning Quarto?" Research can be messy and scattered sometimes, especially when you want to use different elements like text, code, and media. This can also be an obstacle when sharing and ensuring your work is reproducible. 
 - This is where Quarto comes in! It brings these elements together where we can type, run code, embed media, and cite literature all in one place. It also allows for different ways to share and ensure our research is transparent and reproducible. 
 - So this lesson is just part of a bigger journey in integrating Open Research practices in our work. 
 
-*Instructor Notes*
+**Instructor Notes**: <br>
 - Aim: Place the topic of the current submodule within a broader context. 
 - Consider Quarto as a solution to some existing challenges in Open Research to remind students what they are working towards and what the bigger picture is.
 :::
@@ -156,18 +163,17 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 :::
 
 ::: {.notes}
-**Speaker Notes**
+**Speaker Notes**: <br>
 - Quarto is an open-source publishing system, this means it is free to use and community-driven. Anyone can download it, contribute towards its improvement, and adapt it. 
 - It's designed for combining text, code, and media in a way that makes your work transparent and reprodcible, this means that anyone can read it, rerun the code, and even check the results themselves.
 - The 3 key things you can do with Quarto are:
   - Analyze and work with data, text, or research content directly in your document
   - Share or present your results as reports, slides, or even full websites
   - Make your workflow reproducible so others can repeat them. 
-*Instructor Notes*
+**Instructor Notes**: <br>
 - Establishing a clear idea of what Quarto is at the beginning of the lesson is useful for building context and purpose
   - Context: how all the parts of Quarto work together to create intended document(s)
   - Purpose: reasons why one would use Quarto (its versatile, customizable, and shareable)
-  
 :::
 
 ---
@@ -182,18 +188,14 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 6. **Citations**: Adding citations and bibliography with Zotero
 7. **Publishing**: Sharing your Quarto document to GitHub
 
-<div style="font-size: 0.6em;">
-<span style="color:red"> maybe make these points more speicifc? Publishing what, for example?</span> Beth: Yes, I was just using them as a list of headers but I can see how having a small description would helpful 
-</div>
-
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**: <br>
 - Aim: Core theoretical introduction of submodule topic.
 - This session will cover some basics in how to use Quarto and then some ways it can work with other platforms to perform functions like referencing and publishing.
 - We will first begin by setting up a Quarto document in RStudio, then we will look at important elements: text, code, media, links, and layout. Next, we will work with both Quarto and Zotero for quick and easy citations and, finally, we will look at sharing our work to GitHub. 
 - All of these are pertinent steps in learning how to use Quarto to facilitate Open Research practices
 
-*Intructor Note*
+**Instructor Notes**: <br>
 - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980). 
 - For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
 - Practical exercises on topic
@@ -201,7 +203,6 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
   - Depending on the topic, the exercises should be in accordance with the learning objective(s).
   - It's useful to have exercises directly after a topic is taught to reinforce what was learnt.
 - For students who advance faster: Prepare extra exercises.
-
 :::
 
 ---
@@ -215,18 +216,15 @@ At the end of this session, you should be able to:
 - **Insert** citations and **generate** a bibliography with Zotero
 - **Publish** and **share** your work using GitHub Pages 
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Did you want to add a learning goal for Zotero? Make sure that your learning goals align with the content you are getting across here (in the name of constructional alignment)</span> Beth: Okay yes true because that would be the only one missing 
-</div>
 
 ::: {.notes}
 
-**Speaker Notes**
+**Speaker Notes**: <br>
 - These are the goals we’re working toward in today’s session. By the end, you should be comfortable creating, editing, and rendering Quarto documents. You’ll also know how to use key features like code chunks, YAML headers, citations, and formatting. 
 - We’ll practice inserting citations and generating bibliographies using Zotero, and finally, we’ll publish and share our work using GitHub Pages. 
 - Think of this as the full workflow: from authoring, through referencing, to sharing your work openly.
 
-**Instructor Notes**:
+**Instructor Notes**: <br>
 - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
 - Emphasis is placed on the **verbs** of the learning goals- choose verbs that align with the skills you want to develop or assess.
 :::
@@ -235,29 +233,27 @@ At the end of this session, you should be able to:
 
 ## Key terms and definitions
 
-A Quarto Markdown document is saved as a **.qmd file**
+- A Quarto document is saved as a **.qmd file**
 
 - Components of a **.qmd file**:
 
-  - **YAML header** is the section at the top of the Quarto document that controls settings like the title, output format, and author.
+  - **YAML header** is the section at the top of the Quarto document that controls settings like the title, output format, and author
 
   - **Code chunks** are the sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations
 
   - **Quarto markdown text** combines text, codes, and formatting to create the actual content of the document
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Did you want to make bullet points for the first two lines? Also make sure to capitalise the first word in a bulleted list, as well as titles within the call-out notes, first word of the title only </span> Beth: Yes making the second line a bullet point is good but I like the first line being as it is
-</div>
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**: A Quarto document or file gets the extension of .qmd. There are different components within a Quarto document that are important for rendering. First, we have the YAML header, which is the section at the top of the Quarto document that controls settings like the title, output format, and author. Second, we have the code chunks, the sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations. Finally, we have the Quarto markdown text, which is the component that combines text, codes, and formatting to create the actual content of the document. 
+**Instructor Notes**: <br>
 - Aim: Introduce key terms and definitions that students will come across throughout the session.
 - This first part of the lesson is useful to establish an understanding of important vocabulary- it can be helpful to remind students of the meaning of these terms as they appear in the upcoming sections. 
 :::
 
 ---
 
-## Key terms and definitions
+## "Rendering in Quarto"
 
 What is **rendering**? The process where Quarto runs the code, combines it with the text, and creates a final output.
 
@@ -269,7 +265,7 @@ What is **rendering**? The process where Quarto runs the code, combines it with 
 ![You can find both *Render on Save* and *Manual Render* at the top of your workspace](images/rendering.png)
 
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**: <br>
 - Quarto documents can be rendered either manually or automatically when you save. 
 - Manual rendering gives you control meaning you decide when to update the document, which is helpful if you’re making lots of edits and don’t want constant re-renders. 
 - Render on Save automatically updates your document every time you hit Save, which is great for quick feedback and seeing your changes instantly. In this lesson, you can try both to see which workflow feels more comfortable for you.
@@ -277,7 +273,7 @@ What is **rendering**? The process where Quarto runs the code, combines it with 
 
 ---
 
-## Key terms and definitions
+## Quarto modes
 
 You can write Quarto documents in **Source mode** or **Visual mode** in RStudio.
 
@@ -287,23 +283,20 @@ You can write Quarto documents in **Source mode** or **Visual mode** in RStudio.
 
 - This is part of the **authoring process**, and it allows you to format the text, add code, and build your document.
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Does it make sense for you to have the key terms I - III like this? Added this for overview - I also did the numbering later for authoring for instance, but perhaps there you can find better titles instead of my Authoring (I) etc? </span> Beth: I originally wanted to number it like 1.1, 1.2, 1.3 to reflect the numbering in the "Covered in this session" section, is this okay? Updated: I took them out
-</div> 
 
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**: <br>
 - Base yourself on conceptual change theory and examine existing concepts in relation to some key terms.
 - Re-examine formation of new concepts at the end of the lesson.
 - WYSIWYM is an acronym for "What You Say is What You Mean" which means that whatever you see in your document will be what you see even when you save or render the document as PDF or as HTML.
 - Quarto documents can be created and edited in either Source mode or Visual mode. Both modes work with the same file, but they provide slightly different experiences. In this lesson, most of our tasks will be done in Source mode, but you’ll also have a chance to try Visual mode so you can compare how the same content looks and feels in each.
-**Instructor Notes**:
+**Instructor Notes**: <br>
 - "Authoring process" is mentioned here but not defined because it will be explained further in later slides.
 :::
 
 ---
 
-## Setting up Quarto
+## Creating a Quarto document
 
 These are the steps to open a Quarto Document in RStudio:
 
@@ -319,7 +312,7 @@ These are the steps to open a Quarto Document in RStudio:
 ::::::
 
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**: <br>
 - To get started with Quarto in RStudio, the first step is simply creating a new Quarto document.
 - You see options for both Quarto Document and Quarto Presentation. What's the difference between the two? 
   - A Quarto Document is best for reports or articles because it produces continuous text like a paper. 
@@ -328,7 +321,7 @@ These are the steps to open a Quarto Document in RStudio:
 
 ---
 
-## Setting up Quarto
+## Setting up Quarto document
 
 :::::: columns
 ::: column
@@ -344,7 +337,7 @@ These are the steps to open a Quarto Document in RStudio:
 ::::::
 
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**: <br>
 - This creates your document where you can now customize the YAML header, add Markdown text, and insert code chunks.
 - The default format is html but this can be changed later on by editing the YAML header directly in the document.
 :::
@@ -356,13 +349,13 @@ These are the steps to open a Quarto Document in RStudio:
 -   [ ] Repeat the steps to create a new Quarto Document
 
 ::: {.notes}
-*:Speaker Notes**:
-- Ensure students know where their Quarto project folder is located on their device. This will make it easier for them to find files in later tasks. Encourage them to save the document right after creating it by selecting "Save As", so they can intentionally choose the document location (for example, on the Desktop or a dedicated course folder).
+**Speaker Notes**: ADDD
+**Instructor Notes**: Ensure students know where their Quarto project folder is located on their device. This will make it easier for them to find files in later tasks. Encourage them to save the document right after creating it by selecting "Save As", so they can intentionally choose the document location (for example, on the Desktop or a dedicated course folder).
 :::
 
 ---
 
-## Authoring
+## Authoring a Quarto document
 
 What is **authoring**? The process of writing and structuring the Quarto document.
 
@@ -371,11 +364,11 @@ What is **authoring**? The process of writing and structuring the Quarto documen
 - To practice authoring in Quarto, let's start with setting the YAML header and adding markdown text in **Source mode**.
 
 ::: {.notes}
-**Speaker Notes**
+**Speaker Notes**: <br>
 - Authoring is combining the YAML header with the markdown text. This means that what you do to customize, add to, and develop your document is the process of authoring
 - The YAML header is the section at the very top, wrapped in three dashes (---). It holds the document’s settings, like the title, author, date, and output format. 
 - Below that, we use Markdown text to write the actual content which are things like headings, bullet points, bold or italic text, and the actual body of your document.
-**Instructor Notes**
+**Instructor Notes**: <br>
 - Reminding students on the meanings of YAML Header and Markdown text will be helpful especially to those with very little prior knowledge as these are terms that appear very often when working with Quarto. 
 :::
 
@@ -404,17 +397,16 @@ Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" targ
 :::
 
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**: <br>
 - Remember that the YAML Header goes at the top of the document in both Source and Visual Modes. 
 - In the YAML header, the format field tells Quarto what kind of output to create. Here we’ve set it to html, which means the document will render as a web page. You could choose other formats like PDF or Word, but for this lesson we’ll stick with HTML so everyone has the same experience.
 
-**Instructor Notes**:
-- There is a small clipboard icon at the top-right of the text box. Let students know they can simply click the icon to copy all the text in that specific text box. This icon will appear for every text box moving forward so you can remind them of it the next few times a task requires them to copy the content of a text box.
+**Instructor Notes**: There is a small clipboard icon at the top-right of the text box. Let students know they can simply click the icon to copy all the text in that specific text box. This icon will appear for every text box moving forward so you can remind them of it the next few times a task requires them to copy the content of a text box.
 :::
 
 ---
 
-## Authoring
+## Authoring: Text formatting
 
 **Basic Markdown Text Formatting**
 
@@ -433,14 +425,14 @@ Here is a <a href="https://quarto.org/docs/visual-editor/options.html">link for 
 :::
 
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**: <br>
 - With Markdown text, we can format text with very simple symbols. It works the same way in both Source and Visual mode with the only difference being how you see it while typing. 
 - In Source mode you see the symbols, while in Visual mode it looks like regular bold or italic text right away.
 :::
 
 ---
 
-## Authoring
+## Authoring: Markdown text
 
 <br>
 
@@ -460,7 +452,7 @@ Key steps include:
 This is an example of **markdown text**. Let's use it to continue authoring and building our document. 
 
 ::: {.notes}
-**Speaker Notes**:
+**Speaker Notes**: <br>
 - Aim: Help students feel comfortable using Markdown text by showing how simple and familiar it really is.
 - the words "Markdown Text" may seem technical or complicated for those new to Quarto. But Markdown text can simply be understood as just typing (like writing in any normal document), sometimes with a few simple symbols to add structure or emphasis. 
 :::
@@ -474,13 +466,13 @@ This is an example of **markdown text**. Let's use it to continue authoring and 
 -   [ ] Italicize the phrase *"growth trends"*
 
 ::: {.notes}
-**Speaker Notes**:
-- Also instruct students to render their document after each practical exercise (where applicable) so they can see the changes as they make them and identify issues. 
+**Speaker Notes**: ADD
+**Instructor Notes**: Instruct students to render their document after each practical exercise (where applicable) so they can see the changes as they make them and identify issues. 
 :::
 
 ---
 
-## Authoring
+## Authoring: Callout boxes
 
 Highlighting particularly important aspects with **Quarto callout boxes**
 
@@ -503,18 +495,16 @@ This is an example of a callout box to include an additional note using `callout
 :::
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**: <br>
 - Callout boxes are a way to highlight important information in your document. They stand out visually, so readers immediately notice them. You can use them to emphasize tips, warnings, examples, or key takeaways. 
 - Acknowledge that the look of the callout boxes changes depending on if "-important," "-tip," or "-note" follows the word "callout"
-*Instructor Notes*
-- These are just examples of callout boxes. How to actually create one will be covered in the next slide/task.
+**Instructor Notes**:  These are just examples of callout boxes. How to actually create one will be covered in the next slide/task.
 :::
 
 ---
 
-## Authoring
+## Authoring: Inserting callout boxes
 
-**Adding a Callout Box**
 
 Here is the markdown text for inserting a **callout note** box:
 
@@ -527,7 +517,7 @@ The ChickWeight dataset in R is based on real experimental data.
 ```
 
 ::: {.notes}
-*Speaker Note*
+**Speaker Notes**: <br>
 - Inside the box, you can add a heading and text.
 - These aren't just for highlighting important information but can be used for supplementary or by-the-way information as well as warnings.
 :::
@@ -539,15 +529,16 @@ The ChickWeight dataset in R is based on real experimental data.
 -   [ ] Copy and paste the markdown text from the previous slide into your Quarto document to add this callout note box.
 
 ::: {.notes}
-*Speaker Note*
-- Aim: Understand and practice the specific format of a callout box. 
-- When rendered, acknowledge how the callout boxes sets its contents apart from the rest of the document to draw the reader's attention
-*Instructor Note*
+**Speaker Notes**: <br>
 - The details in the formatting are very important (for callout boxes and for all authoring features)
 - Specific details: 
   - beginning and ending in 3 `:::`; 
   - single space between the first `:::` and callout-note; 
   - single space between `##` and title
+
+**Instructor Notes**: <br>
+- Aim: Understand and practice the specific format of a callout box. 
+- When rendered, acknowledge how the callout boxes sets its contents apart from the rest of the document to draw the reader's attention
   
 :::
 ---
@@ -563,16 +554,16 @@ OR
 -   Use the keyboard shortcut Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac) to insert a code chunk then simply enter your code
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**: <br>
 - Code chunks are sections of a Quarto document where we can run code directly inside our file. They’re marked by three backticks followed by the language name, like {r} or {python}. 
 - These let us write and execute code, and then display the results, such as tables, plots, or calculations, right in the document. Code chunks make it possible to combine text and analysis in one place, so the document stays reproducible and dynamic. 
-*Instructor Notes*
+**Instructor Notes**:
 - using {r} to start the Code Chunk indicates that the coding language that we're using is R. This is relevant for this lesson as students will be using R Studio and ossession of some background knowledge in R is assumed.
 :::
 
 ---
 
-## Code chunks
+## Inserting code chunks
 
 <br>
 
@@ -594,10 +585,10 @@ ggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +
 These are examples of **R code**. Let's use it to insert code chunks in our document. 
 
 ::: {.notes}
-*Speaker Note*
+**Speaker Notes**: <br>
 - For example, here we’re summarizing the ChickWeight dataset, and below, we’re using `ggplot2` to create a visualization of chick growth over time. Notice how the code is written inside a chunk, and when rendered, Quarto automatically runs the code and shows the results in your output. This is what makes Quarto so powerful, it combines text, code, and results all in one place.
 
-*Instructor Note*
+**Instructor Notes**: <br>
 - It's also possible to see the output of the code before rendering by clicking the small, green arrow at the top-right corner of the code chunk. Hover over it and it would say "Run Current Chunk." 
 :::
 
@@ -608,17 +599,18 @@ These are examples of **R code**. Let's use it to insert code chunks in our docu
 -   [ ] Insert the code from the previous slide in *two separate code chunks*
 
 ::: {.notes}
-*Speaker Note*
+**Speaker Notes**: <br>
+- ADD
+**Instructor Notes**: <br>
+- Students don't need to hit Ctrl + Enter (Windows) or Command + Enter (Mac) to run the code. After placing it in the coding chunk, rendering the document will run the code and print the output.
 - Encourage students to try using both methods to insert coding chunks for this exercise.
 - Note that the code is in two separate text boxes/coding chunks for teaching purposes but can actually both be put in 1 coding chunk. You do not have to start a new coding chunk each time you want to use a different R function. 
 - After students render the output and observe how the code appears together with the markdown text from the previous activities, use this as an opportunity to exemplify and emphasize how Quarto is useful for combining text and code into one document. 
-*Instructor Note*
-- Students don't need to hit Ctrl + Enter (Windows) or Command + Enter (Mac) to run the code. After placing it in the coding chunk, rendering the document will run the code and print the output.
 :::
 
 ---
 
-## Code chunks
+## Adjusting the code chunks
 
 Adjust how the code is portrayed by editing the YAML header:
 
@@ -635,8 +627,9 @@ Adjust how the code is portrayed by editing the YAML header:
 ::::::
 
 ::: {.notes}
-*Speaker Notes*
-- clarify that "not collapsible" means that we cannot chose to hide the code, we cannot fold it closed (as we will see when we set it to `code-fold: true`)
+**Speaker Notes**: ADD
+**Instructor Notes**: 
+- Clarify that "not collapsible" means that we cannot chose to hide the code, we cannot fold it closed (as we will see when we set it to `code-fold: true`)
 - Quarto gives us several options for controlling how code appears in our documents. For example, we can choose whether to show or hide the code itself, whether readers can fold code open and closed, or whether only the results are shown. 
 - These settings don’t change the analysis, but just change how it’s displayed. This flexibility is helpful because sometimes we want to highlight the process by showing the code, and other times we want readers to focus on the results.
 - In open research, showing the underlying code isn’t just a technical choice, it’s important for building trust and reproducibility.
@@ -644,7 +637,7 @@ Adjust how the code is portrayed by editing the YAML header:
 
 ---
 
-## Code chunks 
+## Code chunks display settings
 
 Here are some other code display settings that we can incorporate into our YAML header: 
 
@@ -655,9 +648,9 @@ Here are some other code display settings that we can incorporate into our YAML 
 Let's edit the YAML header to make the code chunks **collapsible** and add **code tools**.
 
 ::: {.notes}
-*Speaker Notes*
+**Speaker Notes**: <br>
 - `echo: true` and `code-fold: false` both affect how code is shown, but in different ways. `echo` decides if the code prints at all, while `code-fold` lets readers toggle it open or closed, deciding whether the code can be hidden or expanded.
-*Instructor Notes*
+**Instructor Notes**: <br>
 - It's easy to confuse `echo` and `code-fold` because they both deal with code visibility. Be clear on the difference.
 :::
 
@@ -671,8 +664,8 @@ In the YAML header:
 -   [ ] Add `code-tools: true`
 
 ::: {.notes}
-*Speaker Note*
-- Engage students by asking for possible reasons why one would want their code to be visible or not. 
+**Speaker Notes**: ADD
+**Instructor Notes**: Engage students by asking for possible reasons why one would want their code to be visible or not. 
 :::
 
 ---
@@ -680,7 +673,8 @@ In the YAML header:
 ## Pre-break survey
 
 ::: {.notes}
-*Speaker Note*
+**Speaker Notes**: ADD
+**Instructor Notes**: <br>
 - Before the break, take a moment to review the things we covered in the first part of this lesson. It's important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson.
 :::
 
@@ -697,9 +691,8 @@ c.  .doc file
 d.  .mp3 file
 
 ::: {.notes}
-*Speaker Notes*
-- This survey has a few simple recap questions about what we’ve covered so far in Quarto. The goal isn’t to test you, but to help you reflect on what you’ve learned and for me to see if anything needs a bit more clarification.
-*Instructor Notes*
+**Speaker Notes**: This survey has a few simple recap questions about what we’ve covered so far in Quarto. The goal isn’t to test you, but to help you reflect on what you’ve learned and for me to see if anything needs a bit more clarification.
+**Instructor Notes**: <br>
 -  Aim: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
 - Use free survey software such as or other survey software (Menti, particify, formR) to establish the following questions.
 :::
@@ -730,7 +723,11 @@ d.  All of the above
 
 ---
 
-**What are the 2 components of the Authoring process?**
+**What are the two components of the Authoring process?**
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: Are there answers to this question and the one on the next slide? </span>
+</div>
 
 ---
 
