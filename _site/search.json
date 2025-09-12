@@ -2233,5 +2233,313 @@
     "title": "Template Slides: Title of submodule",
     "section": "Example attribution (for previous slide)",
     "text": "Example attribution (for previous slide)\n“Tutorial template for student track” by Sarah von Grebmer is licensed under CC-BY-SA 4.0."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#contribution-statement-and-licence",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#contribution-statement-and-licence",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Contribution statement and licence",
+    "text": "Contribution statement and licence\n\nCreator: Von Grebmer zu Wolfsthurn, Sarah ( 0000-0002-6413-3895)\nReviewer: Name, first name ( orcid)\nAcknowledgments: Name, first name ( orcid)\n\n\nThis work was originally created by Mike Croucher under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International License. It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes: There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#prerequisites",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#prerequisites",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this submodule, please carefully read about the prerequisites.\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR\nIntroduction to R\nModule + Submodule\n\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#questions-from-previous-submodule",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#questions-from-previous-submodule",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Questions from previous submodule",
+    "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module.\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. - Additional slides may need to be added depending on the nature of the homework assignments. - Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. - Not applicable if this set of slides corresponds to the first submodule of a new module."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#before-we-start-survey-time",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#before-we-start-survey-time",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Before we start: Survey time!",
+    "text": "Before we start: Survey time!\n\nAim: The pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides).\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: The pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. - Use free survey software such as particify or formR to establish the following questions (shown on separate slides)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim”: Briefly examine the answers given to each question interactively with the group.\nUse visuals from the survey to highlight specific answers.\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim”: Briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#where-are-we-at",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#where-are-we-at",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Where are we at?",
+    "text": "Where are we at?\n\nAim: Place the topic of the current submodule within a broader context.\nRemind students what you are working towards and what the bigger picture is.\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Place the topic of the current submodule within a broader context. - Remind students what you are working towards and what the bigger picture is."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#covered-in-this-session",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#covered-in-this-session",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Covered in this session",
+    "text": "Covered in this session\n\nVersion control with Git from within RStudio\nReproducible workflows with RProjects\nBacking up work on GitHub server\n\n\nSpeaker Notes: Script for the slide here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#learning-goals",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#learning-goals",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nInstall and configure Git\nCreate an RProject under version control\nMake changes and commit changes locally\nConnect local and remote repositories for your work\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956) - Place an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess. - Examples: - Students will describe the process of photosynthesis or - Students will construct a diagram illustrating the process of photosynthesis"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#key-terms-and-definitions",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#key-terms-and-definitions",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Key terms and definitions",
+    "text": "Key terms and definitions\n\nReproducible workflows: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools\nR Project: Way to store all files related to one R project in one place (R scripts, files, workspace, history ..)\nVersion control: System that records changes to files over time\nGit: Version control system that tracks and manages changes to files and code\nGitHub: Cloud-based platform for hosting Git repositories which includes collaboration features\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#git-what-is-it",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#git-what-is-it",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Git: What is it?",
+    "text": "Git: What is it?\n\nGit is a free and open source software allowing to track changes across directories and files\nWith Git, you can:\n\nTrack changes to files over time, seeing what was changed, when and by whom\nCollaborate efficiently within a team as multiple people can work on the same directories\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Installing Git:",
+    "text": "Installing Git:\nWindows - Download from http://git-scm.com/downloads - Download and run .exe file - Accept all the default settings and keep clicking ‘next’\nOS X - Download from http://git-scm.com/downloads - Select first option suggestsing to install git through installing homebrew - Paste the line of command provided in their instructions in your terminal - Accept the prompts appearing the terminal\nDebian/Ubuntu\nsudo apt-get install git-core\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#configuring-git",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#configuring-git",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Configuring Git",
+    "text": "Configuring Git\n\nBy default, Git is used through command line interface, but can be used through RStudio (later in this session)\nWindows: open Git Bash (start menu -&gt; Git Bash)\nMacOS: open the Terminal app\nLinux: open your distribution’s terminal emulator\nEnter the following commands with your email one after the other (hitting ENTER after each command):\n\ngit config --global user.email \"you@youremail.com\"\ngit config --global user.name \"Your Name\"\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#r-projects-what-is-it",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#r-projects-what-is-it",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "R Projects: What is it?",
+    "text": "R Projects: What is it?\n\nLocal folder used to organize your work within a self-contained R storage\nContains all files related to project: R scripts, source files, location of the R working directory, RStudio workspace …\nIncludes shortcut to open the project directly in RStudio\n\n\nSpeaker notes:  - Projects simplify working with multiple files - A project is a folder on your computer that contains all files related to a specific analysis project and a shortcut that allows you to open the project directly in RStudio. Instructor Notes:"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#creating-an-r-project",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#creating-an-r-project",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Creating an R Project",
+    "text": "Creating an R Project\n\nAim: Present relevant content\nHighlight particularly important aspects with Quarto call-out boxes, for example:\n\n\n\n\n\n\n\nImportant with Title\n\n\nThis is an example of a callout box to highlight particularly important information.\n\n\n\n\n\n\n\n\n\nTip with Title\n\n\nThis is an example of a callout box to give important tips.\n\n\n\n\nSpeaker Notes: Script for the slide here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#practical-exercise-1",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#practical-exercise-1",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Practical exercise 1",
+    "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Design more practical exercises for students to apply the new skills in practice. - Depending on the topic, the exercises should be in accordance with the learning objective(s). - Add a description of the task, as well as a checklist as an overview of that your students need to be doing."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#pre-break-survey",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#pre-break-survey",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Pre-break survey",
+    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides)\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule - Use free survey software such as particify or formR to establish the following questions (shown on separate slides)"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#post-break-survey-discussion",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#post-break-survey-discussion",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Post-break survey discussion",
+    "text": "Post-break survey discussion\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: To clarify concepts and aspects that are not yet understood - Highlight specific answers given during the survey"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#practical-exercise-2",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#practical-exercise-2",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Practical exercise 2",
+    "text": "Practical exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Design more practical exercises for students to apply the new skills in practice. - Depending on the topic, the exercises should be in accordance with the learning objective(s). - Add a description of the task, as well as a checklist as an overview of that your students need to be doing."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#relevance-and-implications",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#relevance-and-implications",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Relevance and implications",
+    "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: To work out the relevance of the topic to your students. - In an interactive setting, discuss how the new skills could be applied in practise with specific examples. - Examine downfalls and practical obstacles."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#assignment",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#assignment",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Assignment",
+    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\nSpeaker Notes: Script for the presentation here. Instructor Notes:  - Aim: Explain the homework assignment and the rationale behind the homework. - Examine whether/how it will be assessed - Mention scoring rubrics, if applicable - Design a peer-review system for assignments to place students in role of reviewer and author"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#take-home-message",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#take-home-message",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Take-home message",
+    "text": "Take-home message\n\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message.\n\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: End lesson on clear take-home message that are interactively compiled by students."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#to-conclude-survey-time",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#to-conclude-survey-time",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "To conclude: Survey time!",
+    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides)\nUse identical questions as in the pre-submodule survey to be able to directly compare\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic. - Use free survey software such as particify or formR to establish the following questions (shown on separate slides) - Use identical questions as in the pre-submodule survey to be able to directly compare"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results-1",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results-1",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\nSpeaker Notes: Script for the slide here. Instructer Notes:  - Aim: Briefly examine the answers given to each question interactively with the group. - Compare and highlight specific differences in answers between pre- and post-survey answers"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#references",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#references",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "References",
+    "text": "References\n\nProvide literature you refer to throughout this lesson.\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes: Highlight particularly relevant reading for your students in bold."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#pedagogical-add-on-tools-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#pedagogical-add-on-tools-for-instructors",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Pedagogical add-on tools for instructors",
+    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#additional-literature-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#additional-literature-for-instructors",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Additional literature for instructors",
+    "text": "Additional literature for instructors\n\nReferences for content\nReferences for pedagogical add-on tools\n\nOther resources (videos etc.)"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#text-with-example-links",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#text-with-example-links",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Text with example links",
+    "text": "Text with example links\n\nQuarto Documentation\nReveal.js Documentation\nMarkdown Guide\nGitHub"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#basic-text-formatting",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#basic-text-formatting",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Basic text formatting",
+    "text": "Basic text formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\nBlockquote: &gt; Quote →\n“This is a quote”"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#figure-with-caption",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#figure-with-caption",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Figure with caption",
+    "text": "Figure with caption\n\nCentered image and caption below in italics\n\n\n\n\nThis is a Penguin."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#figure-with-bullet-points",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#figure-with-bullet-points",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Figure with bullet points",
+    "text": "Figure with bullet points\n\n\n\n  \n  \n    \n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#side-by-side-figures",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#side-by-side-figures",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Side-by-side figures",
+    "text": "Side-by-side figures\n\n\n  \n    \n    Figure 1: Penguin\n  \n\n  \n    \n    Figure 2: Seal"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#stacked-figures-with-text",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#stacked-figures-with-text",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Stacked figures with text",
+    "text": "Stacked figures with text\n\n\n\n  \n  \n\n    \n    \n\n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#two-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#two-column-text-slide",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Two-column text slide",
+    "text": "Two-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\nCras venenatis euismod malesuada.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#three-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#three-column-text-slide",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Three-column text slide",
+    "text": "Three-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\n\nColumn 3\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#simple-table",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#simple-table",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Simple table",
+    "text": "Simple table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#complex-table",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#complex-table",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Complex table",
+    "text": "Complex table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#task-list",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#task-list",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Task list",
+    "text": "Task list\n\nDone\nTo do"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#embedding-videos",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#embedding-videos",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Embedding videos",
+    "text": "Embedding videos"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#code-blocks",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#code-blocks",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Code blocks",
+    "text": "Code blocks\n\n# A basic R code chunk\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5\n\n# A simple plot\nhist(rnorm(100), main = \"Histogram of Random Normals\")"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#license",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#license",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "License",
+    "text": "License\n\nThis slide should contain information about the license details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#credit-statement",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#credit-statement",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Credit Statement",
+    "text": "Credit Statement\nPossible roles using the CRediT contribition system or the Zenodo Contribution System:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git-windows",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git-windows",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Installing Git: Windows",
+    "text": "Installing Git: Windows\n\nDownload from http://git-scm.com/downloads\nDownload and run .exe file\nAccept all the default settings and keep clicking ‘next’\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git-os",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git-os",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Installing Git: OS",
+    "text": "Installing Git: OS\n\nDownload from http://git-scm.com/downloads\nSelect first option suggestsing to install git through installing homebrew\nPaste the line of command provided in their instructions in your terminal\nAccept the prompts appearing the terminal\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git-ubuntu",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git-ubuntu",
+    "title": "Reproducible workflows in RStudio using Git",
+    "section": "Installing Git: Ubuntu",
+    "text": "Installing Git: Ubuntu\nsudo apt-get install git-core\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   }
 ]

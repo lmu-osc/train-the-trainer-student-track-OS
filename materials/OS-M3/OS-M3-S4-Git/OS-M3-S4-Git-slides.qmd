@@ -1,0 +1,856 @@
+---
+title: "Reproducible workflows in RStudio using Git"
+author: "LMU Open Science Center"
+date: "today"
+date-format: "DD/MM/YYYY"
+format: 
+  revealjs:
+    css: ../../../slides-custom.css # looks for css file in root
+    footer: LMU Open Science Center
+    slide-number: true
+    logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+  pptx: 
+    css: ../../../slides-custom.css # looks for css file in root
+
+execute:
+  echo: true
+  eval: true
+  engine: knitr
+---
+
+## Contribution statement and licence
+
+<br>
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) 0000-0002-6413-3895)
+
+**Reviewer**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+
+**Acknowledgments**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+
+<br>
+
+<div style="font-size: 0.6em;">
+This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle  is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+</div>
+
+::: {.notes}
+**Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+
+**Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
+:::
+
+---
+
+## Prerequisites
+
+::: {.callout-important}
+Before completing this submodule, please carefully read about the prerequisites.
+:::
+
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| R | Introduction to R | Module + Submodule |
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead. 
+:::
+
+
+---
+
+## Questions from previous submodule
+
+- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
+- Additional slides may need to be added depending on the nature of the homework assignments. 
+- Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. 
+- Not applicable if this set of slides corresponds to the first submodule of a new module. 
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
+- Additional slides may need to be added depending on the nature of the homework assignments. 
+- Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. 
+- Not applicable if this set of slides corresponds to the first submodule of a new module. 
+:::
+
+---
+
+## Before we start: Survey time!
+
+- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
+- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides).
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
+- Use free survey software such as particify or formR to establish the following questions (shown on separate slides).
+:::
+
+---
+
+**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+
+a. I have never heard of it before.
+
+b. I have heard of it but have never worked with it.
+
+c. I have basic understanding and experience with it.
+
+d. I am very familiar and have worked with it extensively.
+
+---
+
+**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
+
+a. Concept 1
+
+b. Concept 2
+
+c. Concept 3
+
+d. Concept 4
+
+e. I am not sure about any of these concepts.
+
+---
+
+**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]?
+(1 = Not comfortable at all, 5 = Very comfortable)**
+
+a. 1
+
+b. 2
+
+c. 3
+
+d. 4
+
+e. 5
+
+---
+
+## Discussion of survey results
+
+- **Aim"**: Briefly examine the answers given to each question interactively with the group.
+- Use visuals from the survey to highlight specific answers.
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim"**: Briefly examine the answers given to each question interactively with the group.
+- Use visuals from the survey to highlight specific answers.
+:::
+
+---
+
+## Where are we at?
+
+- **Aim**: Place the topic of the current submodule within a broader context.
+- Remind students what you are working towards and what the bigger picture is.
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: Place the topic of the current submodule within a broader context.
+- Remind students what you are working towards and what the bigger picture is.
+:::
+
+---
+
+## Covered in this session
+
+- Version control with Git from within RStudio
+- Reproducible workflows with RProjects
+- Backing up work on GitHub server
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+:::
+
+---
+
+## Learning goals
+
+- **Install** and **configure** Git 
+- **Create** an RProject under version control
+- **Make** changes and **commit** changes locally
+- **Connect** local and remote repositories for your work
+  
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
+- Examples: 
+  - Students will **describe** the process of photosynthesis or
+  - Students will **construct** a diagram illustrating the process of photosynthesis
+  
+:::
+
+---
+
+## Key terms and definitions
+
+- **Reproducible workflows**: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools
+- **R Project**: Way  to store all files related to one R project in one place (R scripts, files, workspace, history ..) 
+- **Version control**: System that records changes to files over time
+- **Git**: Version control system that tracks and manages changes to files and code
+- **GitHub**: Cloud-based platform for hosting Git repositories which includes collaboration features
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
+:::
+
+---
+
+## Git: What is it?
+
+- Git is a free and open source software allowing to track changes across directories and files
+- With Git, you can: 
+  - Track changes to files over time, seeing what was changed, when and by whom
+  - Collaborate efficiently within a team as multiple people can work on the same directories
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+---
+
+## Installing Git: Windows
+
+- Download from [ http://git-scm.com/downloads]( http://git-scm.com/downloads) 
+- Download and run .exe file
+- Accept all the default settings and keep clicking ‘next’
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+---
+
+## Installing Git: OS
+
+- Download from [ http://git-scm.com/downloads]( http://git-scm.com/downloads) 
+- Select  first option suggestsing to install git through installing homebrew
+- Paste the line of command provided in their instructions in your terminal
+- Accept the prompts appearing the terminal
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Installing Git: Ubuntu
+
+```text
+sudo apt-get install git-core
+```
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Configuring Git
+
+- By default, Git is used through command line interface, but can be used through RStudio (later in this session)
+- **Windows**: open Git Bash (start menu -> Git Bash)
+- **MacOS**: open the Terminal app
+- **Linux**: open your distribution’s terminal emulator
+- Enter the following commands with your email one after the other (hitting ENTER after each command):
+
+```text
+git config --global user.email "you@youremail.com"
+git config --global user.name "Your Name"
+```
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: On successful execution, students should see no output from these commands.  
+:::
+
+---
+
+## R Projects: What is it?
+
+- Local folder used to organize your work within a self-contained R storage
+- Contains all files related to project: R scripts, source files, location of the R working directory, RStudio workspace ...
+- Includes shortcut to open the project directly in RStudio
+
+::: {.notes}
+**Speaker notes**: <br>
+- Projects simplify working with multiple files
+- A project is a folder on your computer that contains all files related to a specific analysis project and a shortcut that allows you to open the project directly in RStudio.
+**Instructor Notes**: <br>
+:::
+
+---
+
+## Creating an R Project
+
+- **Aim**: Present relevant content
+- Highlight particularly important aspects with Quarto call-out boxes, for example: 
+
+::: {.callout-important}
+## Important with Title
+
+This is an example of a callout box to highlight particularly important information.
+:::
+
+::: {.callout-tip}
+## Tip with Title
+
+This is an example of a callout box to give important tips. 
+:::
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+:::
+
+---
+
+## Practical exercise 1
+
+- **Aim**: Design more practical exercises for students to apply the new skills in practice.
+- Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+
+- [x] Step 1
+- [ ] Step 2
+- [ ] Step 3
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: Design more practical exercises for students to apply the new skills in practice.
+- Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+:::
+
+---
+
+## Pre-break survey
+
+- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
+- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides)
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here.
+**Instructor Notes**: <br>
+- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
+- Use free survey software such as particify or formR to establish the following questions (shown on separate slides)
+:::
+
+---
+
+**Which species is the largest type of penguin**?
+
+a. Chinstrap Penguin
+
+b. Emperor Penguin ✅
+
+c. Adélie Penguin
+
+d. King Penguin
+
+---
+
+**What is the key biological feature that helps penguins swim efficiently?**
+
+a. Hollow bones for buoyancy
+
+b. Webbed feet for paddling
+
+c. Waterproof feathers and flipper-like wings ✅
+
+d. Gills to breathe underwater
+
+---
+
+# Break! 15 minutes
+
+---
+
+## Post-break survey discussion
+
+- **Aim**: To clarify concepts and aspects that are not yet understood
+- Highlight specific answers given during the survey
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: To clarify concepts and aspects that are not yet understood
+- Highlight specific answers given during the survey
+:::
+
+---
+
+## Practical exercise 2
+
+- **Aim**: Design more practical exercises for students to apply the new skills in practice.
+- Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+
+- [x] Step 1
+- [ ] Step 2
+- [ ] Step 3
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: Design more practical exercises for students to apply the new skills in practice.
+- Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+:::
+
+---
+
+## Relevance and implications
+
+- **Aim**: To work out the relevance of the topic to your students.
+- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
+- Examine downfalls and practical obstacles.
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: To work out the relevance of the topic to your students.
+- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
+- Examine downfalls and practical obstacles.
+:::
+
+---
+
+## Assignment
+
+- **Aim**: Explain the homework assignment and the rationale behind the homework.
+- Examine whether/how it will be assessed
+- Mention scoring rubrics, if applicable
+- Design a peer-review system for assignments to place students in role of reviewer and author
+
+::: {.notes}
+**Speaker Notes**: Script for the presentation here. 
+**Instructor Notes**: <br>
+- **Aim**: Explain the homework assignment and the rationale behind the homework.
+- Examine whether/how it will be assessed
+- Mention scoring rubrics, if applicable
+- Design a peer-review system for assignments to place students in role of reviewer and author
+:::
+
+---
+
+## Take-home message
+
+- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
+
+::: {.callout-tip}
+## Tip with Title
+Add one practical tips or take-home message.
+:::
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
+:::
+
+---
+
+## To conclude: Survey time!
+
+- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
+- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
+- Use identical questions as in the pre-submodule survey to be able to directly compare
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
+- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
+- Use identical questions as in the pre-submodule survey to be able to directly compare
+:::
+
+---
+
+**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+
+a. I have never heard of it before.
+
+b. I have heard of it but have never worked with it.
+
+c. I have basic understanding and experience with it.
+
+d. I am very familiar and have worked with it extensively.
+
+---
+
+**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
+
+a. Concept 1
+
+b. Concept 2
+
+c. Concept 3
+
+d. Concept 4
+
+e. I am not sure about any of these concepts.
+
+---
+
+**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)**
+
+a. 1
+
+b. 2
+
+c. 3
+
+d. 4
+
+e. 5
+
+---
+
+## Discussion of survey results
+
+- **Aim**: Briefly examine the answers given to each question interactively with the group.
+- Compare and highlight specific differences in answers between pre- and post-survey answers
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here.
+**Instructer Notes**: <br>
+- **Aim**: Briefly examine the answers given to each question interactively with the group.
+- Compare and highlight specific differences in answers between pre- and post-survey answers
+:::
+
+---
+
+## References
+
+- Provide literature you refer to throughout this lesson.
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: Highlight particularly relevant reading for your students in bold. 
+:::
+
+---
+
+# Thanks! <br>
+See you next class :)
+
+---
+
+## Pedagogical add-on tools for instructors
+
+- This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
+  - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
+  - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
+  - Extra exercises for faster students.	
+
+---
+
+## Additional literature for instructors
+
+- References for content
+- References for pedagogical add-on tools	
+- Other resources (videos etc.)	
+
+---
+
+# Formatting elements for instructors
+
+- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. 
+
+---
+
+## Text with example links
+
+- [Quarto Documentation](https://quarto.org/docs/)
+- [Reveal.js Documentation](https://revealjs.com/)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [GitHub](https://github.com/)
+
+---
+
+## Basic text formatting
+
+- **Bold:** `**bold**` → **bold**
+- *Italic:* `*italic*` → *italic*
+- ~~Strikethrough:~~ `~~text~~` → ~~text~~
+- `Inline code:` `` `code` `` → `code`
+- > Blockquote: `> Quote` →  
+  > "This is a quote"
+  
+---
+
+## Figure with caption
+
+- Centered image and caption below in italics
+
+<div style="text-align: center;">
+  <img src="images/penguin.png" style="width:50%;" />
+  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>This is a Penguin.</em></div>
+</div>
+
+---
+
+## Figure with bullet points
+
+```{=html}
+
+<div style="display: flex; align-items: flex-start; gap: 2em;">
+
+  <!-- Left side: single image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/penguin.png" style="width: 100%;" />
+  </div>
+  
+```
+
+  <!-- Right side: bullet points -->
+  <div style="flex: 1;">
+
+  - First bullet point
+  - Second bullet point
+  - Third bullet point
+
+  </div>
+
+</div>
+
+---
+
+## Side-by-side figures
+
+```{=html}
+<div style="display: flex; justify-content: center; gap: 2em; align-items: flex-start;">
+
+  <div style="text-align: center; width: 45%;">
+    <img src="images/penguin.png" style="width: 100%;" />
+    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 1: Penguin</em></div>
+  </div>
+
+  <div style="text-align: center; width: 45%;">
+    <img src="images/seal.png" style="width: 100%;" />
+    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 2: Seal</em></div>
+  </div>
+
+</div>
+
+```
+
+---
+
+## Stacked figures with text
+
+```{=html}
+
+<div style="display: flex; align-items: flex-start; gap: 0.5em;">
+
+  <!-- Left side: two images stacked vertically -->
+  <div style="flex: 1; display: flex; flex-direction: column; gap: 0.5em;">
+
+    <img src="images/penguin.png" style="width: 60%;" />
+    <img src="images/seal.png" style="width: 60%;" />
+
+  </div>
+  
+```
+
+  <!-- Right side: bullet points -->
+  <div style="flex: 1;">
+
+  - First bullet point
+  - Second bullet point
+  - Third bullet point
+
+  </div>
+
+</div>
+
+---
+
+## Two-column text slide
+
+<div style="display: flex; gap: 2em;">
+
+  <div style="flex: 1;">
+  **Column 1**
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+  Vivamus lacinia odio vitae vestibulum vestibulum.  
+  Cras venenatis euismod malesuada.
+  </div>
+
+  <div style="flex: 1;">
+  **Column 2**
+
+  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+  </div>
+
+</div>
+
+---
+
+## Three-column text slide
+
+<div style="display: flex; gap: 1em;">
+
+  <div style="flex: 1;">
+  **Column 1**
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+  Vivamus lacinia odio vitae vestibulum vestibulum.
+  </div>
+
+  <div style="flex: 1;">
+  **Column 2**
+
+  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+  </div>
+
+  <div style="flex: 1;">
+  **Column 3**
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </div>
+
+</div>
+
+---
+
+## Simple table
+
+<div style="height: 2cm;"></div>
+
+
+| Column 1   | Column 2   | Column 3   |
+|------------|------------|------------|
+| Row 1 Cell | Row 1 Cell | Row 1 Cell |
+| Row 2 Cell | Row 2 Cell | Row 2 Cell |
+| Row 3 Cell | Row 3 Cell | Row 3 Cell |
+| Row 4 Cell | Row 4 Cell | Row 4 Cell |
+
+---
+
+## Complex table
+
+<div style="height: 2cm;"></div>
+
+```{=html}
+
+<table style="border-collapse: collapse; width: 100%;">
+
+  <thead>
+    <tr style="background-color: #093; color: white; font-weight: bold;">
+      <th style="border: 1px solid #ccc; padding: 8px;">Column 1</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Column 2</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Column 3</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr style="background-color: white; color: black;">
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
+    </tr>
+    <tr style="background-color: #f0fff0; color: black;"> <!-- very light green -->
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
+    </tr>
+    <tr style="background-color: white; color: black;">
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
+    </tr>
+    <tr style="background-color: #f0fff0; color: black;">
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
+    </tr>
+  </tbody>
+
+</table>
+
+```
+---
+
+## Task list
+- [x] Done
+- [ ] To do
+
+---
+
+## Embedding videos
+
+<div style="text-align: center;">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/q3uXXh1sHcI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+---
+
+## Code blocks
+
+```{r}
+# A basic R code chunk
+x <- 1:10
+mean(x)
+
+
+# A simple plot
+hist(rnorm(100), main = "Histogram of Random Normals")
+
+```
+
+---
+
+## License 
+
+- This slide should contain information about the license details of this current set of slides. 
+
+- The default for the created materials is [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/)
+  - = Creative Commons license that allows others to **share, adapt, and build upon** the original work
+  - **only** if they attribute the creator and also share their new work under the **same terms**
+  - allows for both **commercial and non-commercial** use of the licensed material
+
+- Components of attributions: 
+  - `Title`
+  - `Author`
+  - `Source`
+  - `License`
+
+---
+
+## Credit Statement
+
+Possible roles using the CRediT contribition system or the Zenodo Contribution System: 
+
+**Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
+
+---
