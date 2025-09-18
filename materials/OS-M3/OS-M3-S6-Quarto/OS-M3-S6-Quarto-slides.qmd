@@ -21,20 +21,30 @@ execute:
   eval: true
   engine: knitr
 ---
+## Feedback Slide - please DELETE at the end
 
-## Credit statement and licence
+<div style="font-size: 0.6em;">
+<span style="color:red">From SvG: <br>
+- Changed around the contribution and credit statement
+- Something to check: are the QR codes stable? Some generators do not allow for the QR code to be active for longer than X amount of time - so will the QR code link out to particify? On the other hand, particify rooms stay indefinitely, so that is nice! </span>
+</div>
 
-**Elizabeth Waterfield**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
+---
+
+## Contribution statement and licence
+
+**Creator**: Waterfield, Elizabeth (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
+
+**Acknowledgments**: Middleton, Sara Lil (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+
 
 <br>
 <br>
 
 <div style="font-size: 0.6em;">
 This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
-</div>
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: I think you are mixing instructor and speaker notes throughout - make sure to add what you would say for a slide to the students to speaker notes, and any tips or things instructors need to pay attention to to the instructor notes. Also make sure to have consistent formatting for these notes, like the speaker notes in bold and if there are bullet points separated by a <br > see the first 20 slides or so and revise the rest accordingly. Also check the creation manual for naming of the images and edit! </span>
 </div>
 
 ::: {.notes}
@@ -45,25 +55,21 @@ This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu W
 **Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
 :::
 
-
 ---
 
-### Prerequisites
+## Prerequisites
 
 ::: {.callout-important}
 Before completing this submodule, please carefully read about the necessary prerequisites.
 :::
 
-
-<div style="font-size: 0.6em;"> 
+<div style="font-size: 0.8em;"> 
 | Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
 | Basic R skills | 3.2. Introduction to R - Part I |  Module 3.2. |
 | Advanced R skills | 3.3. Introduction to R - Part II|  Module 3.3. |
 | Basic Git skills | 3.4. Introduction version control (Git) with RStudio |  Module 3.4. |
 | Collaboration on GitHub | 3.5. Introduction to collaborative coding with GitHub |  Module 3.5. |
-| RStudio | Version 2025.05.1+513 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
-| R | Version 4.4.3 or higher | [Download Link](https://www.r-project.org/) |
 | Zotero | Reference Management Tool | [Download Link](https://www.zotero.org/) |
 </div>
 
@@ -71,6 +77,27 @@ Before completing this submodule, please carefully read about the necessary prer
 **Speaker Notes**: Let us first take a look at these prerequisites. These are important to complete this submodule. 
 
 **Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiariy with Git and GitHub and that the audience has also completed those submodules. Finally, we assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines, and also have the desktop app for Zotero. 
+:::
+
+---
+
+## Setting up Quarto
+
+::: {.callout-important}
+Make sure to have a recent version of [R](https://www.r-project.org/) (Version 4.4.3 or higher ) and [RStudio](https://posit.co/download/rstudio-desktop/) (Version 2025.05.1+513 or higher) installed before you install/update Quarto. For installing R and RStudio, see [here](https://posit.co/download/rstudio-desktop/).
+:::
+
+During this session, we will be using Quarto from RStudio. To set up Quarto, follow these steps:
+
+1. Open RStudio
+2. Install the most recent version of Quarto [here](https://quarto.org/docs/download/release.html)
+3. In RStudio, go to the Terminal tab and install [tinytex](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex) by typing `quarto install tinytex` into your terminal
+4. Type `quarto --version` into the terminal to check with version of Quarto you are using (should be 1.7 or higher)
+
+::: {.notes}
+**Speaker Notes**: During this session, we will be using Quarto from RStudio. It is therefore necessary for you to have the most recent version of R and RStudio installed. Then open RStudio and install Quarto following the link. Finally, install tinytex, which is a small version of TeX that can be used to build pdf documents with Quarto. You need to install tinytex from the Terminal within RStudio by typing `quarto install tinytex` into the terminal. 
+
+**Instructor Notes**: Leave enough time for the download and installation of Quarto. Guide your students through the installation of tinytex by showing them where to find the Terminal in RStudio. To see which version of Quarto they already have installed, students can type `quarto --version` into the terminal. Quarto versions of 1.7 or higher are suitable for the rest of this tutorial. 
 :::
 
 ---
@@ -96,7 +123,7 @@ Before completing this submodule, please carefully read about the necessary prer
 Click on the following link or scan the QR code to test your prior Quarto knowledge:
 [Quarto Survey](https://partici.fi/06396725)
 
-![](images/particify1.png)
+![](images/00_particify.png){fig-align="center" width="20%"}
 
 ::: {.notes}
 **Speaker Notes**: <br>
@@ -164,8 +191,8 @@ With Quarto, you can easily:
 
 ## Quarto Website
 You can always check out the [Quarto Website](https://quarto.org/) to learn more.
-:::
 
+:::
 ::: {.notes}
 **Speaker Notes**: <br>
 - Quarto is an open-source publishing system, this means it is free to use and community-driven. Anyone can download it, contribute towards its improvement, and adapt it. <br>
@@ -179,12 +206,13 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 - Establishing a clear idea of what Quarto is at the beginning of the lesson is useful for building context and purpose. <br>
   - Context: how all the parts of Quarto work together to create the intended document(s) <br>
   - Purpose: reasons why one would use Quarto (it's versatile, customizable, and shareable)
-  
 :::
 
 ---
 
 ## Covered in this session
+
+<div style="font-size: 1.2em;">
 
 1. **Key Terms and Definitions**: Understanding core concepts in Quarto
 2. **Setting up Quarto**: Opening a Quarto document in RStudio
@@ -193,6 +221,7 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 5. **Additional Authoring Features**: Using images, links, and columns
 6. **Citations**: Adding citations and bibliography with Zotero
 7. **Publishing**: Sharing your Quarto document to GitHub
+</div>
 
 ::: {.notes}
 **Speaker Notes**: <br>
@@ -1712,5 +1741,19 @@ See you next class :)
 <div style="font-size: 0.6em;">
 <span style="color:red">From SvG: Still to do right?</span> Beth: this video was helpful but I did not incorporate everything from it
 </div> 
+
+---
+
+## License 
+
+<div style="font-size: 0.6em;">
+This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+</div>
+
+---
+
+## CREDiT Contribution Statement
+
+**Elizabeth Waterfield**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
 ---

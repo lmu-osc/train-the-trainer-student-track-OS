@@ -6,11 +6,10 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.31">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.34">
 
   <meta name="author" content="Elizabeth Waterfield">
-  <meta name="dcterms.date" content="2025-04-09">
   <title>Train the Trainer: Student Track Open Science Content – Introduction to literate programming with Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -205,21 +204,27 @@ Elizabeth Waterfield
 </div>
 </div>
 
-  <p class="date">04/09/2025</p>
+  <p class="date">18/09/2025</p>
 </section>
-<section id="credit-statement-and-licence" class="slide level2">
-<h2>Credit statement and licence</h2>
-<p><strong>Elizabeth Waterfield</strong>: Conceptualization, Software, Writing - Original Draft, Visualization. <strong>Sara Lil Middleton</strong>: Writing - Review &amp; Editing, Supervision. <strong>Sarah von Grebmer zu Wolfsthurn</strong>: Conceptualisation, Writing - Review &amp; Editing, Supervision, Project Administration, Validation.</p>
+<section id="feedback-slide---please-delete-at-the-end" class="slide level2">
+<h2>Feedback Slide - please DELETE at the end</h2>
+<div style="font-size: 0.6em;">
+<p><span style="color:red">From SvG: <br> - Changed around the contribution and credit statement - Something to check: are the QR codes stable? Some generators do not allow for the QR code to be active for longer than X amount of time - so will the QR code link out to particify? On the other hand, particify rooms stay indefinitely, so that is nice! </span></p>
+</div>
+</section>
+<section id="contribution-statement-and-licence" class="slide level2">
+<h2>Contribution statement and licence</h2>
+<p><strong>Creator</strong>: Waterfield, Elizabeth (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> orcid)</p>
+<p><strong>Reviewer</strong>: von Grebmer zu Wolfsthurn, Sarah (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> <a href="https://orcid.org/my-orcid?orcid=0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
+<p><strong>Acknowledgments</strong>: Middleton, Sara Lil (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> orcid)</p>
 <p><br> <br></p>
 <div style="font-size: 0.6em;">
 <p>This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>.</p>
 </div>
-<div style="font-size: 0.6em;">
-<p><span style="color:red">From SvG: I think you are mixing instructor and speaker notes throughout - make sure to add what you would say for a slide to the students to speaker notes, and any tips or things instructors need to pay attention to to the instructor notes. Also make sure to have consistent formatting for these notes, like the speaker notes in bold and if there are bullet points separated by a <br> see the first 20 slides or so and revise the rest accordingly. Also check the creation manual for naming of the images and edit! </span></p>
-</div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.</p>
 <p><strong>Instructor Notes</strong>: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner’s needs as well as anticipate challenges.</p>
+<p><strong>Acessibility Tips</strong>: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -232,9 +237,8 @@ Elizabeth Waterfield
           display:block!important;
       }</style></aside>
 </section>
-<section class="slide level2">
-
-<h3 id="prerequisites">Prerequisites</h3>
+<section id="prerequisites" class="slide level2">
+<h2>Prerequisites</h2>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -279,16 +283,6 @@ Elizabeth Waterfield
 <td>Module 3.5.</td>
 </tr>
 <tr class="odd">
-<td>RStudio</td>
-<td>Version 2025.05.1+513 or higher</td>
-<td><a href="https://posit.co/download/rstudio-desktop/">Download Link</a></td>
-</tr>
-<tr class="even">
-<td>R</td>
-<td>Version 4.4.3 or higher</td>
-<td><a href="https://www.r-project.org/">Download Link</a></td>
-</tr>
-<tr class="odd">
 <td>Zotero</td>
 <td>Reference Management Tool</td>
 <td><a href="https://www.zotero.org/">Download Link</a></td>
@@ -299,6 +293,43 @@ Elizabeth Waterfield
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Let us first take a look at these prerequisites. These are important to complete this submodule.</p>
 <p><strong>Instructor Notes</strong>: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiariy with Git and GitHub and that the audience has also completed those submodules. Finally, we assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines, and also have the desktop app for Zotero.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="setting-up-quarto" class="slide level2">
+<h2>Setting up Quarto</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>Make sure to have a recent version of <a href="https://www.r-project.org/">R</a> (Version 4.4.3 or higher ) and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> (Version 2025.05.1+513 or higher) installed before you install/update Quarto. For installing R and RStudio, see <a href="https://posit.co/download/rstudio-desktop/">here</a>.</p>
+</div>
+</div>
+</div>
+<p>During this session, we will be using Quarto from RStudio. To set up Quarto, follow these steps:</p>
+<ol type="1">
+<li>Open RStudio</li>
+<li>Install the most recent version of Quarto <a href="https://quarto.org/docs/download/release.html">here</a></li>
+<li>In RStudio, go to the Terminal tab and install <a href="https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex">tinytex</a> by typing <code>quarto install tinytex</code> into your terminal</li>
+<li>Type <code>quarto --version</code> into the terminal to check with version of Quarto you are using (should be 1.7 or higher)</li>
+</ol>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: During this session, we will be using Quarto from RStudio. It is therefore necessary for you to have the most recent version of R and RStudio installed. Then open RStudio and install Quarto following the link. Finally, install tinytex, which is a small version of TeX that can be used to build pdf documents with Quarto. You need to install tinytex from the Terminal within RStudio by typing <code>quarto install tinytex</code> into the terminal.</p>
+<p><strong>Instructor Notes</strong>: Leave enough time for the download and installation of Quarto. Guide your students through the installation of tinytex by showing them where to find the Terminal in RStudio. To see which version of Quarto they already have installed, students can type <code>quarto --version</code> into the terminal. Quarto versions of 1.7 or higher are suitable for the rest of this tutorial.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -332,7 +363,7 @@ Elizabeth Waterfield
 <h2>Before we start: Survey time!</h2>
 <p><br> <br> Click on the following link or scan the QR code to test your prior Quarto knowledge: <a href="https://partici.fi/06396725">Quarto Survey</a></p>
 
-<img data-src="images/particify1.png" class="r-stretch"><aside class="notes">
+<img data-src="images/00_particify.png" class="quarto-figure quarto-figure-center r-stretch" style="width:20.0%"><aside class="notes">
 <p><strong>Speaker Notes</strong>: <br> - Let’s start the session by gauging where our Quarto skills are at this point. Please answer honestly and don’t worry about having little to no prior knowledge about Quarto. This lesson is for beginners.</p>
 <p><strong>Instructor Notes</strong>: <br> - Aim: the pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. - Use free survey software such as particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides.</p>
 <style type="text/css">
@@ -430,6 +461,7 @@ Elizabeth Waterfield
 </section>
 <section id="covered-in-this-session" class="slide level2">
 <h2>Covered in this session</h2>
+<div style="font-size: 1.2em;">
 <ol type="1">
 <li><strong>Key Terms and Definitions</strong>: Understanding core concepts in Quarto</li>
 <li><strong>Setting up Quarto</strong>: Opening a Quarto document in RStudio</li>
@@ -439,6 +471,7 @@ Elizabeth Waterfield
 <li><strong>Citations</strong>: Adding citations and bibliography with Zotero</li>
 <li><strong>Publishing</strong>: Sharing your Quarto document to GitHub</li>
 </ol>
+</div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: <br> - This session will cover some basics in how to use Quarto and then some ways it can work with other platforms to perform functions like referencing and publishing. <br> - We will first begin by setting up a Quarto document in RStudio, then we will look at important elements: text, code, media, links, and layout. Next, we will work with both Quarto and Zotero for quick and easy citations and, finally, we will look at sharing our work to GitHub. <br> - All of these are pertinent steps in learning how to use Quarto to facilitate Open Research practices</p>
 <p><strong>Instructor Notes</strong>: <br> - Aim: To establish the core theoretical introduction of submodule topics. <br> - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980). <br> - For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break). <br> - Practical exercises on topic <br> - Aim: practical exercises for students to apply the new skills in practise. Each submodule topic will include corresponding Tasks- adopting a “learn by doing” approach. <br> - Depending on the topic, the exercises should be in accordance with the learning objective(s). <br> - It’s useful to have exercises directly after a topic is taught to reinforce what was learnt. <br> - For students who advance faster: Prepare extra exercises or redirect them to resources that provide advanced activities.</p>
@@ -2260,6 +2293,16 @@ Elizabeth Waterfield
 <div style="font-size: 0.6em;">
 <p><span style="color:red">From SvG: Still to do right?</span> Beth: this video was helpful but I did not incorporate everything from it</p>
 </div>
+</section>
+<section id="license" class="slide level2">
+<h2>License</h2>
+<div style="font-size: 0.6em;">
+<p>This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>.</p>
+</div>
+</section>
+<section id="credit-contribution-statement" class="slide level2">
+<h2>CREDiT Contribution Statement</h2>
+<p><strong>Elizabeth Waterfield</strong>: Conceptualization, Software, Writing - Original Draft, Visualization. <strong>Sara Lil Middleton</strong>: Writing - Review &amp; Editing, Supervision. <strong>Sarah von Grebmer zu Wolfsthurn</strong>: Conceptualisation, Writing - Review &amp; Editing, Supervision, Project Administration, Validation.</p>
 </section>
 <section class="slide level2">
 
