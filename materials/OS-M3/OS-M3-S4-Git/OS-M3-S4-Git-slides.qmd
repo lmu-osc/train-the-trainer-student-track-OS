@@ -1,20 +1,22 @@
 ---
-title: "Reproducible workflows in RStudio using Git"
+title: "Introduction to version control with Git in RStudio"
 author: "LMU Open Science Center"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
   revealjs:
-    css: ../../../slides-custom.css # looks for css file in root
+    css: ../../../slides-custom.css
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
+    logo: ../../../OSC_FORRT_Logo.png
   pdf:
     geometry: 
       - top=30mm
       - left=30mm
-  pptx: 
-    css: ../../../slides-custom.css # looks for css file in root
+  pptx:
+    incremental: true 
+    #reference-doc: template.pptx
+
 
 execute:
   echo: true
@@ -22,15 +24,16 @@ execute:
   engine: knitr
 ---
 
+
 ## Contribution statement and licence
 
 <br>
 
-**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) 0000-0002-6413-3895)
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [ORCID 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
 **Reviewer**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
 
-**Acknowledgments**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+**Consultant**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
 
 <br>
 
@@ -56,13 +59,25 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| R | Introduction to R | Module + Submodule |
+| R | Introduction to R - Part I | Module + Submodule |
+| R | Introduction to R - Part II | Module + Submodule |
+| GitHub account | Free account for GitHub platform | Download from [https://github.com/join](https://github.com/join) |
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
 **Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead. 
 :::
 
+---
+
+## Introductory video
+
+Before starting this session, please watch the following video on OSF. [Click here to watch the video](https://osf.io/dcqt9){target="_blank"}.
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
 
 ---
 
@@ -169,12 +184,14 @@ e. 5
 
 ## Covered in this session
 
+- Installing and configuring Git
 - Version control with Git from within RStudio
 - Reproducible workflows with RProjects
-- Backing up work on GitHub server
+- Backing up your work on the GitHub server
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: ADD here. 
 :::
 
 ---
@@ -182,8 +199,9 @@ e. 5
 ## Learning goals
 
 - **Install** and **configure** Git 
+- **Set up** the connection between your computer and GitHub
 - **Create** an RProject under version control
-- **Make** changes and **commit** changes locally
+- **Make** changes within RStudio and **commit** changes locally
 - **Connect** local and remote repositories for your work
   
 ::: {.notes}
@@ -194,7 +212,6 @@ e. 5
 - Examples: 
   - Students will **describe** the process of photosynthesis or
   - Students will **construct** a diagram illustrating the process of photosynthesis
-  
 :::
 
 ---
@@ -205,7 +222,8 @@ e. 5
 - **R Project**: Way  to store all files related to one R project in one place (R scripts, files, workspace, history ..) 
 - **Version control**: System that records changes to files over time
 - **Git**: Version control system that tracks and manages changes to files and code
-- **GitHub**: Cloud-based platform for hosting Git repositories which includes collaboration features
+- **GitHub**: Cloud-based version control platform for hosting Git repositories which includes collaboration features
+- **Repositories**: Git terminology for a storage space for all project files tracked by Git
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -216,20 +234,49 @@ e. 5
 
 ## Git: What is it?
 
-- Git is a free and open source software allowing to track changes across directories and files
-- With Git, you can: 
-  - Track changes to files over time, seeing what was changed, when and by whom
-  - Collaborate efficiently within a team as multiple people can work on the same directories
+**Git** is a free and **open source software**. With Git, you can: 
+
+- **Track changes** to files across directories over time, seeing what was changed, when and by whom
+- **Collaborate** efficiently within a team as multiple people can work on the same directories
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
 **Instructor  Notes**: Add here.  
 :::
+
+---
+
+## GitHub: What is it?
+
+**GitHub** is a **cloud-based version control platform** that uses Git to track changes an hosts Git repositories.
+
+- Allows multiple people to **collaborate** on the same project
+- Collaborators can **share** repositories, code etc. and ask for **feedback**, initiate discussions and point out bugs and issues
+- GitHub **stores** all files remotely, making it accessible from anywhere
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## The Git - GitHub workflow
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/GitHub-remote.png){fig-align="center" width=600 fig-alt="Git - GitHub workflow"}
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
 ---
 
 ## Installing Git: Windows
 
-- Download from [ http://git-scm.com/downloads]( http://git-scm.com/downloads) 
+To install Git on Windows: 
+
+- Download Git from [http://git-scm.com/downloads]( http://git-scm.com/downloads) 
 - Download and run .exe file
 - Accept all the default settings and keep clicking ‘next’
 
@@ -237,11 +284,14 @@ e. 5
 **Speaker Notes**: Add script for slide here. 
 **Instructor  Notes**: Add here.  
 :::
+
 ---
 
-## Installing Git: OS
+## Installing Git: MacOS
 
-- Download from [ http://git-scm.com/downloads]( http://git-scm.com/downloads) 
+To install Git on MacOS: 
+
+- Download Git from [http://git-scm.com/downloads]( http://git-scm.com/downloads) 
 - Select  first option suggestsing to install git through installing homebrew
 - Paste the line of command provided in their instructions in your terminal
 - Accept the prompts appearing the terminal
@@ -254,6 +304,8 @@ e. 5
 ---
 
 ## Installing Git: Ubuntu
+
+To install Git on Ubuntu: 
 
 ```text
 sudo apt-get install git-core
@@ -268,11 +320,23 @@ sudo apt-get install git-core
 
 ## Configuring Git
 
-- By default, Git is used through command line interface, but can be used through RStudio (later in this session)
-- **Windows**: open Git Bash (start menu -> Git Bash)
-- **MacOS**: open the Terminal app
-- **Linux**: open your distribution’s terminal emulator
-- Enter the following commands with your email one after the other (hitting ENTER after each command):
+**Step 1**: By default, Git is used through the **command line** interface, but can be used through RStudio (later in this session).
+
+- **Windows**: Open Git Bash (start menu -> Git Bash)
+- **MacOS**: Open the Terminal app
+- **Linux**: Open your distribution’s terminal emulator
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Configuring Git
+
+
+**Step 2**: Next, enter the following commands with your email one after the other (hitting ENTER after each command):
 
 ```text
 git config --global user.email "you@youremail.com"
@@ -285,9 +349,337 @@ git config --global user.name "Your Name"
 
 ---
 
-## R Projects: What is it?
+## Securing the connection between your computer and GitHub
 
-- Local folder used to organize your work within a self-contained R storage
+You need to identify yourself and your machine to GitHub before interacting with GitHub repositories.
+
+- **SSH keys** are a common way to manifest your identification to GitHub
+
+::: {.callout-important}
+**SSH keys** come in pairs, a public key that gets shared with services like GitHub, and a private key that is stored only on your computer. If the keys match, you’re granted access. Setting up the SSH key has to be executed once per GitHub account and for **each** computer you will use to connect to GitHub. 
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.   
+:::
+
+---
+
+## Checking for existing SSH key pair
+
+**Step 1**: Before generating a new SSH key pair, check for existing key in your .ssh directory.
+
+- **Windows**: Open Git Bash (start menu > Git Bash)
+- **MacOS**: Open Terminal App
+- **Linux**: Open your distribution’s (or any other) terminal emulator
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.   
+:::
+
+---
+
+## Checking for existing SSH key pair
+
+**Step 2**: Enter the following command to list the content of the ssh directory:
+
+```text
+ls ~/.ssh
+```
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: On successful execution, students should see no output from these commands.  
+:::
+
+--- 
+
+## Checking for existing SSH key pair
+
+**Step 3**: If there are existing ssh keys, they are named one of the following: 
+
+```text
+id_rsa.pub
+id_ecdsa.pub
+id_ed25519.pub
+```
+::: {.callout-important}
+If you already have an SSH key pair, you can skip the section on how to generate a new SSH key pair. If you don’t have an existing public and private key pair (which is to be expected!), or if you receive an error that ~/.ssh doesn’t exist, that this file location doesn’t exist, or that you can’t access this folder, go ahead and generate a new SSH key pair.
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: On successful execution, students should see no output from these commands.  
+:::
+
+---
+
+## Generating a new SSH key pair
+
+**Step 1**: In the command line, type the following (replacing the email here with your *own* email) to create a new SSH key pair with your email as a label. 
+
+```text
+ssh-keygen -t ed25519 -C "your_email@email.com"
+```
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add.  
+:::
+
+---
+
+## Generating a new SSH key pair
+
+**Step 2**: When prompted to *Enter a file in which to save key*, press ENTER to accept the default file location. That should give you this prompt:
+
+```text
+Generating public/private ed25519 key pair.  
+Enter file in which to save the key (/Users/username/.ssh/id_ed25519):
+```
+
+::: {.callout-tip}
+Pay close attention to spacing and capital letters while typing. 
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: On successful execution, students should see no output from these commands.  
+:::
+
+---
+
+## Generating a new SSH key pair
+
+**Step 3**: Next, you are asked to provide a passphrase in the terminal. Protecting your keys with a password is optional but highly recommended. Press ENTER after confirming your password. 
+
+```text
+Enter passphrase (empty for no passphrase):  
+Enter same passphrase again:
+```
+
+::: {.callout-warning}
+when you type passwords in the command line, **nothing** is displayed, not even ***, you are however still typing in the background.
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: On successful execution, students should see no output from these commands.  
+:::
+
+---
+
+## Generating a new SSH key pair
+
+**Step 4**: When the key generation is complete, you should see the following confirmation:
+
+```text
+Your identification has been saved in /Users/username/.ssh/id_ed25519.
+Your public key has been saved in /Users/username/.ssh/id_ed25519.pub.
+The key fingerprint is:
+SHA256:6nr/zo0g7Bz7WMRwy34maBhQy1UZyX47gT+egRdlIhs your_email@email.com
+The key's randomart image is:
++--[ED25519 256]--+
+|    .o++         |
+|   o oF . o      |
+|  . o+ =.+.      |
+|   .  + += .     |
+|    .  +S++      |
+|   . ..oB=       |
+|    . ++*=.      |
+|     o.==* o     |
+|    .o.o+** .    |
++----[SHA256]-----+
+```
+
+::: {.callout-note}
+Done! You have successfully **created your public SSH key**.
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: On successful execution, students should see no output from these commands.  
+:::
+
+---
+
+## Adding the SSH key to GitHub account
+
+**Step 1**: Tell GitHub about your new public key. In the terminal, please hit ENTER after typing: 
+
+```text
+cat ~/.ssh/id_ed25519.pub
+```
+::: {.callout-important}
+Be careful: do not copy the content of your *private* key, but your **public** key. Your public key ends with .pub.
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Adding the SSH key to GitHub account
+
+**Step 2**: The output should be something like:
+```text
+# The output looks like this. The characters after ssh-ed25519 will be different for you, however.
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm your_email@email.com
+```
+
+<br>
+::: {.callout-warning}
+Copy the contents of the output to your clipboard.
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here. 
+:::
+
+---
+
+## Adding the SSH key to GitHub account
+
+**Step 3**: 
+
+- Login to [github.com](github.com)
+- Navigate to your account settings by clicking on your profile photo (top right) and selecting Settings
+- Click on SSH and GPG keys (left sidebar)
+- Click on the green button ‘New SSH key’ or ‘Add SSH key’.
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Adding the SSH key to GitHub account
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/ssh-key.png){fig-align="center" width=600 fig-alt="Add SSH key"}
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here. 
+:::
+
+---
+
+## Adding the SSH key to GitHub account
+
+**Step 4**: 
+
+- In the “Title” field, add a descriptive label for the new key, e.g. something that would identify the device you just connected
+- For example, if you’re using a personal laptop, you might call this key “Personal MacBook Air”. 
+- Paste the contents of your clipboard into the Key text box
+- Hit the green ‘Add key’ button to save. Enter your GitHub password if prompted.
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/add-ssh-key.png){fig-align="center" width=600 fig-alt="Add SSH key"}
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.   
+:::
+
+---
+
+## Adding the SSH key to *ssh-agent*
+
+Managing your ssh keys is done via the [ssh-agent](https://smallstep.com/blog/ssh-agent-explained/) software.
+
+::: {.callout-note}
+Depending on your system, the following might not be necessary. On most GNU/Linux distributions, your key will be automatically added to the ssh-agent after the first time you enter it. If you keep getting asked for your key each time you want to clone or push to a GitHub repository, you can follow the  instructions on the next slides.
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Adding the SSH key to ssh-agent
+
+**Step 1**: In the command line, start the ssh-agent with this command: 
+
+```text
+eval "$(ssh-agent -s)"
+```
+This should give you this:
+```text
+Agent pid 59566
+```
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Adding the SSH key to ssh-agent
+
+**Step 2**: Add your key to the ssh-agent by typing the entirety of this command:
+
+```text
+ssh-add ~/.ssh/id_ed25519
+```
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Testing the GitHub connection
+
+**Step 1**: “Ask” GitHub at the command line if our connection is acceptable with the following code:
+
+```text
+ssh -T git@github.com
+```
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+--- 
+
+## Testing the GitHub connection
+
+**Step 2**: When asked about *fingerprinting*, type *yes*, then press ENTER to receive this output: 
+
+```text
+> Hi USERNAME! You've successfully authenticated, but GitHub does not
+> provide shell access.
+```
+<br>
+<br>
+
+::: {.callout-important}
+This is it! You have set up a new SSH key pair and successfully let GitHub know your identity to connect your computer to your GitHub account. These steps will only have to be repeated when you change computers. Let the fun begin!
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+# Break! 15 minutes
+
+---
+
+## RStudio Projects: What is it?
+
+**Local folder** used to organize your work within a self-contained R storage.
+
 - Contains all files related to project: R scripts, source files, location of the R working directory, RStudio workspace ...
 - Includes shortcut to open the project directly in RStudio
 
@@ -300,7 +692,352 @@ git config --global user.name "Your Name"
 
 ---
 
-## Creating an R Project
+## Creating an RStudio Project
+
+**Step 1**: Create a new project in RStudio as follows: *File -> New Project -> New Directory*
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/project_screen1.png){fig-align="center" width=600 fig-alt="Create RStudio Project"}
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Creating an RStudio Project
+
+**Step 2**: In the New Project Wizard screen, click on **New project**:
+
+
+![](assets/01_create_new_Rproject.png){fig-align="center"}
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Creating an RStudio Project
+
+**Step 3**: Give your project a name (e.g.’my_first_test_repo’) and ensure that create a git repository is ticked. Next, click on **Create Project**.
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/project_screen3.png){fig-align="center" width=700 fig-alt="Create new repo"}
+
+::: {.callout-note}
+RStudio will create a new folder containing an empty project and set R’s working directory to within it.
+:::
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Creating an RStudio Project: Important files
+
+Two files are created in the otherwise empty project:
+
+- **.gitignore**: Specifies files that should be ignored by the version control system (e.g. sensible data files that should not be made public, or documentation that you don’t need version controlled).
+- **my_first_test_repo.Rproj**:  Configuration information for the RStudio project.
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/project_files.png){fig-align="center" width=600 fig-alt="Project files"}
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Setting up a small practice project
+
+We will now generate a small project to practice version control on. 
+
+<br>
+
+**Step 1**: Download dataset to practice analyses on.
+
+<div style="text-align:center;">
+  <a href="assets/example_data.csv" download>
+    <button style="padding:10px 20px; border:none; border-radius:8px; background:#007ACC; color:white; font-size:20px; cursor:pointer;">
+      ⬇️ Download dataset (PDF)
+    </button>
+  </a>
+</div>
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Setting up a small practice project
+
+**Step 2**: Create a new R script *File -> New File -> R script* and save it as *myscript.R. Then add the  code below to your R script.
+
+```text
+mydata = read.csv("example_data.csv")
+plot(mydata$xdata,mydata$ydata)
+```
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Setting up a small practice project
+
+**Step 3**: Run the code and check your directory. It should now contain four files: 
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/file_list.png){fig-align="center" width=600 fig-alt="Directory files"}
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Getting your project under version control
+
+**Step 1**: Find the git version control pane in the top right corner of RStudio in the *Git* tab. 
+
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_pane.png){fig-align="center" width=600 fig-alt="Git pane"}
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Getting your project under version control
+
+**Step 2**: Hover the mouse pointer over the yellow ? marks in GitHub, you’ll see a tooltip telling us that the file is **untracked**. This means that git is not tracking versions of this file. Tick **staged** for each file. 
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_pane_added.png){fig-align="center" width=600 fig-alt="Git staging"}
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Getting your project under version control
+
+**Step 3**: Our staged files are now ready for the first **commit**. Click on the **commit button**. 
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/commit.png){fig-align="center" width=500 fig-alt="Git commit"}
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Getting your project under version control
+
+**Step 4**: Specify a **commit message**, which is a brief description of the changes you made. For now, we will add the commit message  *First commit*. Then click on **Commit**. 
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/first_commit.png){fig-align="center" width=600 fig-alt="First commit"}
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Getting your project under version control
+
+**Step 5**: Check the message from git and then click on close - finished! 
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_commit_message.png){fig-align="center" width=600 fig-alt="Git feedback"}
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Making changes
+
+Now we want to make some actual changes to practise using Git and to show how Git handles modifications of files. <br>
+
+**Step 1**: Add the following code to your existing R script
+
+```text
+# some guesses for the parameters.
+p1 = 1
+p2 = 0.2
+
+# do the fit
+fit = nls(ydata ~ p1*cos(p2*xdata) + p2*sin(p1*xdata), data = mydata, start = list(p1=p1,p2=p2))
+
+#Plot the fitted line
+new = data.frame(xdata = seq(min(mydata$xdata),max(mydata$xdata),len=200))
+lines(new$xdata,predict(fit,newdata=new))
+```
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Making changes
+
+**Step 2**: Change the command that plots our data in this file. Change the line
+
+```text
+plot(mydata$xdata,mydata$ydata)
+```
+
+to 
+
+```text
+plot(mydata$xdata,mydata$ydata,col='red')
+```
+
+and run this code. 
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Making changes
+
+**Step 3**(optional): Create another R file with *File -> New File -> R script*. Save as *myscript_version2.R*. Then add and run the code below in the new R script: 
+
+```{r simulate}
+#Simulate some data
+plot(rnorm(100,0,1))
+```
+
+ 
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Committing changes
+
+Click on the **git tab in the top right corner. Two files appeared, the script we modified and the new script.
+
+<br>
+
+**Step 1**: Click on the **staged** box to stage changes for the *first* script.
+
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_changed.png){fig-align="center" width=600 fig-alt="git stage"}
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Committing changes
+
+**Step 2**: Click on **Diff** for a reminder summary of what changed. Then add a commit message and click *commit*. 
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_diff.png){fig-align="center" width=600 fig-alt="git difference"}
+
+::: {.callout-important}
+Lines that have been added are green. Lines that have been removed are red.
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Practical exercise 1
+
+- [ ] Stage the second script and write a new commit message. 
+- [ ] In the git tab, press the **History** button to review the change and commit history of your files. 
+
+
+::: {.callout-note}
+By default, the history search feature will show all files added, changed, or deleted for each commit. This can be extremely useful for finding bugs or looking back to how your project looked a few months ago. However, it is often more practical to review the changes made to a single file over time; this enables, for example, clear tracking of the evolution of data cleaning and analysis steps in your project.
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Connecting the local repository to GitHub
+
+The project is under version control. Time to create a new GitHub repository and upload to GitHub!
+
+<br>
+
+**Step 1**: Log into GitHub and go to your profile page. On the **repositories** tab, click **New**. 
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/new_repo.png){fig-align="center" width=600 fig-alt="new GitHub repository"}
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## Connecting the local repository to GitHub
+
+**Step 2**: Give the repository a name and click **Create Repository**. 
+
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/new_repo_name.png){fig-align="center" width=200 fig-alt="new GitHub repository"}
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## CONTINUE FROM HERE
+
+quick setup https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/github_sync.html
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add here.  
+:::
+
+---
+
+## HEREEEE
+from quick set up screen https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/github_sync.html
 
 - **Aim**: Present relevant content
 - Highlight particularly important aspects with Quarto call-out boxes, for example: 
@@ -606,82 +1343,6 @@ See you next class :)
 <div style="text-align: center;">
   <img src="images/penguin.png" style="width:50%;" />
   <div style="font-size: 0.6em; margin-top: 0.5em;"><em>This is a Penguin.</em></div>
-</div>
-
----
-
-## Figure with bullet points
-
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-
-  <!-- Left side: single image -->
-  <div style="flex: 1; text-align: center;">
-    <img src="images/penguin.png" style="width: 100%;" />
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
-
-</div>
-
----
-
-## Side-by-side figures
-
-```{=html}
-<div style="display: flex; justify-content: center; gap: 2em; align-items: flex-start;">
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/penguin.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 1: Penguin</em></div>
-  </div>
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/seal.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 2: Seal</em></div>
-  </div>
-
-</div>
-
-```
-
----
-
-## Stacked figures with text
-
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 0.5em;">
-
-  <!-- Left side: two images stacked vertically -->
-  <div style="flex: 1; display: flex; flex-direction: column; gap: 0.5em;">
-
-    <img src="images/penguin.png" style="width: 60%;" />
-    <img src="images/seal.png" style="width: 60%;" />
-
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
-
 </div>
 
 ---

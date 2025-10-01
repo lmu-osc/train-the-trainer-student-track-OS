@@ -30,13 +30,13 @@ Add prerequisites here (make sure it matches with the slides)
 
 Download the solutions for the practical exercises here: 
 
-{{< downloadthis assets/mtcars.csv dname="carz.csv" label="Download">}}
+{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
 
 ## Helpfiles
 
-Download the csv file for the mtcars data: 
+Download the csv file for the example data: 
 
-{{< downloadthis assets/mtcars.csv dname="carz.csv" label="Download">}}
+{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
 
  <!-- https://github.com/shafayetShafee/downloadthis -->
 <!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
