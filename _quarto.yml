@@ -19,14 +19,14 @@ website:
       - section: "Template Module"
         contents:
           #- href: materials/OS-template-module/OS-template.qmd
-      - section: "Module 1: Open Science Principles"
+      - section: "Module 1: Open Research Principles"
         contents:
           # - href: materials/OS-M1/OS-M1-S0-Module-Intro/OS-M1-S0-Module-Intro.qmd
           #- href: materials/OS-M1/OS-M1-S1-Intro-OS/OS-M1-S1-Intro-OS.qmd
-      - section: "Module 2: Open Science Methodological Foundations"
+      - section: "Module 2: Open Research Methodological Foundations"
         contents:
           # - href: materials/OS-M2/OS-M2-S0-Module-Intro/OS-M2-S0_Module-Intro.qmd
-      - section: "Module 3: Open Science Tools"
+      - section: "Module 3: Open Research Software Tools"
         contents:
            #- href: materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.qmd # with template
            - href: materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.qmd # work in progress
