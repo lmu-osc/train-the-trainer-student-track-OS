@@ -60,6 +60,8 @@ This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu W
 ## Prerequisites
 
 ::: {.callout-important}
+## Prerequisites
+
 Before completing this submodule, please carefully read about the necessary prerequisites.
 :::
 
@@ -74,7 +76,7 @@ Before completing this submodule, please carefully read about the necessary prer
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let us first take a look at these prerequisites. These are important to complete this submodule. 
+**Speaker Notes**: Let us first take a look at these prerequisites. These are important to complete in order to fully understand what will be covered in this submodule. 
 
 **Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiariy with Git and GitHub and that the audience has also completed those submodules. Finally, we assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines, and also have the desktop app for Zotero. 
 :::
@@ -206,6 +208,7 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 - Establishing a clear idea of what Quarto is at the beginning of the lesson is useful for building context and purpose. <br>
   - Context: how all the parts of Quarto work together to create the intended document(s) <br>
   - Purpose: reasons why one would use Quarto (it's versatile, customizable, and shareable)
+  
 :::
 
 ---
@@ -238,6 +241,7 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
   - Depending on the topic, the exercises should be in accordance with the learning objective(s). <br>
   - It's useful to have exercises directly after a topic is taught to reinforce what was learnt. <br>
 - For students who advance faster: Prepare extra exercises or redirect them to resources that provide advanced activities.
+
 :::
 
 ---
@@ -767,19 +771,19 @@ d.  All of the above
 
 ✅ The YAML header and Markdown text.
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Are there answers to this question and the one on the next slide? </span> Beth: I will add the answers on the side itself and indicate it with a 
-</div>
-
 ---
 
 **How to create a code chunk in a Quarto Document?**
 
-✅ There are two ways to create a code chunk: either start with 3 backticks followed by the coding language (for example {r}), then end the chunk with 3 backticks 
+✅ There are several ways to create a code chunk: either start with 3 backticks followed by the coding language (for example {r}), then end the chunk with 3 backticks 
 
 OR 
 
 ✅ Using the keyboard shortcuts Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac)
+
+OR
+
+✅ Click the green "`Insert a new code chunk`" on RStudio's toolbar
 
 ---
 
