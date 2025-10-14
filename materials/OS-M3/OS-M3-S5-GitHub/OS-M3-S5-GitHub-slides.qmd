@@ -22,36 +22,39 @@ execute:
   engine: knitr
 ---
 
-## Credit statement and licence
+## Feedback Slide - please DELETE at the end
 
-Possible roles using the CRediT contribition system: 
+<div style="font-size: 0.6em;">
+<span style="color:red">From Beth: <br>
+- do they need to do advanced r skills lesson?
+</span>
+</div>
 
-- **Conceptualization**: Ideas; formulation or evolution of overarching research goals and aims
-- **Methodology**: Development or design of methodology; creation of models
+--- 
 
-- **Software** : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components
+## Contribution statement and licence
 
-- **Validation**: Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs
+**Creator**: Waterfield, Elizabeth (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730)
 
-- **Formal analysis**: Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
 
-- **Investigation**: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection
+**Acknowledgments**: Middleton, Sara Lil (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
 
-- **Resources**: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools
 
-- **Data Curation**: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse
+<br>
+<br>
 
-- **Writing - Original Draft**: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)
+<div style="font-size: 0.6em;">
+This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+</div>
 
-- **Writing - Review & Editing**: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages
+::: {.notes}
+**Speaker Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
 
-- **Visualization**: Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation
+**Instructor Notes**: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner's needs as well as anticipate challenges.
 
-- **Supervision**: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team
-
-- **Project administration**: Management and coordination responsibility for the research activity planning and execution
-
-- **Funding acquisition**: Acquisition of the financial support for the project leading to this publication
+**Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
+:::
 
 ---
 
@@ -63,37 +66,65 @@ Possible roles using the CRediT contribition system:
 Before completing this submodule, please carefully read about the necessary prerequisites.
 :::
 
+<div style="font-size: 0.8em;"> 
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| Topic Name | Basic intro to X | Module + Submodule |
-| Software Name | Configuring the environment | [Download Link](https://quarto.org) |
-
+| Basic R skills | 3.2. Introduction to R - Part I |  Module 3.2. |
+| Basic Git skills | 3.4. Introduction version control (Git) with RStudio |  Module 3.4. |
+</div>
 
 ::: {.notes}
-These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
+**Speaker Notes**: Let us first take a look at these prerequisites. These are important to complete in order to fully understand what will be covered in this submodule. 
 
-There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiariy with Git and that the audience has also completed that submodule. Finally, we assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines. 
+:::
+
+---
+
+## Preparation for Collaboration on GitHub
+
+**How to create an account on GitHub**
+
+1. Got to the [GitHub website](https://github.com/) and click on *Sign Up* in the top-right corner.
+2. Use your email, create a Password, choose a unique username, and select the country.
+3. Click *Create account* and verify your email to finish signing up.
+
+::: {.notes}
+**Speaker Notes**: If you already have an account on GitHub, then great! Please sign in now. But if not, follow these steps to create one.
+
+**Instructor Notes**: Students should create their own GitHub account that they can continue using for future projects, not just for this lesson. 
 :::
 
 ---
 
 ## Questions from previous submodule
 
-- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
-- Additional slides may need to be added depending on the nature of the homework assignments. 
-- Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. 
-- Not applicable if this set of slides corresponds to the first submodule of a new module. 
+::: {.notes}
+**Speaker Notes**: Are there any questions from what was discussed during the last session? Are there any remaining thoughts or discussion points?
+
+**Instructor  Notes**: <br>
+- Aim: clarify questions from the previous submodule and/or to discuss assignments.
+- Additional slides may need to be added depending on the nature of the homework assignments.
+- It is critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.
+- Not applicable if this set of slides corresponds to the first submodule of a new module.
+:::
 
 ---
 
 ## Before we start: Survey time!
 
-- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the sumodule's topic.
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
+::: {.notes}
+**Speaker Notes**: <br>
+- Let's start the session by gauging where our Quarto skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
+
+**Instructor Notes**: <br>
+- Aim: the pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
+- Use free survey software such as particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides. 
+:::
 
 ---
 
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+**What is your level of familiarity with working on GitHub?**
 
 a. I have never heard of it before.
 
@@ -105,22 +136,25 @@ d. I am very familiar and have worked with it extensively.
 
 ---
 
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
+**Which of the following concepts or skills do you feel most confident about in relation to Git and GitHub? (Select all that apply)**
 
-a. Concept 1
+a. Creating and initializing a new Git repository.
 
-b. Concept 2
+b. Making commits and writing meaningful commit messages.
 
-c. Concept 3
+c. Cloning a repository from GitHub to my local machine.
 
-d. Concept 4
+d. Pushing local changes to a remote repository.
 
-e. I am not sure about any of these concepts.
+e. Pulling or fetching updates from a remote repository.
+
+f. Forking a repository and working on my own copy.
+
+g. I am not sure about any of these concepts.
 
 ---
 
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]?
-(1 = Not comfortable at all, 5 = Very comfortable)**
+**On a scale of 1 to 5, how comfortable are you with using Git and GitHub for collaborative coding and version control? (1 = Not comfortable at all, 5 = Very comfortable)**
 
 a. 1
 
@@ -134,128 +168,382 @@ e. 5
 
 ---
 
+**When working collaboratively on a GitHub project, what aspect do you find most challenging?**
+
+a. Understanding Git commands (commit, push, pull).
+
+b. Managing merge conflicts.
+
+c. Navigating the GitHub interface.
+
+d. Other
+
+e. I haven’t collaborated on GitHub yet.
+
+---
+
 ## Discussion of survey results
 
-- **Aim"**: Briefly examine the answers given to each question interactively with the group.
-- Use visuals from the survey to highlight specific answers.
+**What can we take from this?**
 
 ::: {.notes}
-Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
+**Speaker Notes**: Looking at the results from this small survey, what can we take from this? There will be a similar post-submodule survey to examine understanding and learning progress.
+
+**Instructor Notes**: <br>
+- Aim: briefly examine the answers given to each question interactively with the group.
+- Use visuals from the survey to highlight specific answers.
+- Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
 :::
 
 ---
 
 ## Where are we at?
 
-- **Aim**: Place the topic of the current submodule within a broader context.
-- Remind students what you are working towards and what the bigger picture is.
+**Open Science** builds a culture of transparency, collaboration, and reproducibility. <br>
+
+**GitHub** contributes to this by allowing researchers to:
+
+- Share their projects openly
+- Collaborate remotely
+- Track changes
+
+**GitHub** offers a platform that enables transparent sharing, version control, and reproducible workflows. These are the core pillars of Open Science.
+
+::: {.notes}
+**Speaker Notes**: 
+
+**Instructor Notes**: <br>
+- Aim: Place the topic of the current submodule within a broader context. <br>
+- Consider GitHub as a solution to some existing challenges in Open Research to remind students what they are working towards and what the bigger picture is.
+:::
 
 ---
 
 ## Learning goals
 
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+At the end of this session, you should be able to:
 
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-- Examples: 
-  - Students will **describe** the process of photosynthesis or
-  - Students will **construct** a diagram illustrating the process of photosynthesis
+- **Navigate** GitHub to collaborate on shared projects.
+- **Fork** and **clone** repositories to work locally without altering the main branch.
+- **Commit**, **push**, and **pull** changes to keep your project tracked and synchronized.
+- **Design** a collaborative workflow that enhances the openness and reproducibility of your research.
+
+::: {.notes}
+**Speaker Notes**: 
+
+**Instructor Notes**: <br>
+- Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956) <br>
+- Emphasis is placed on the VERBS of the learning goals that align with the skills you want to develop or assess.
+:::
 
 ---
 
-### Covered in in this session
+## Covered in this session
 
-- **Aim**: This slides serves as an overview of the topics that are discussed, presented as bullet point:
-- Topic 1
-- Topic 2
-- Topic 3
+<div style="font-size: 1.2em;">
+
+- **GitHub Workflow**
+- **Fork a Repo**
+- **Clone a Repo**
+- **Commit to a Project**
+- **Push Changes**
+- **Pull Request**
+- **Merge Changes**
+- **Pull Upstream**
+
+</div>
+
+::: {.notes}
+**Speaker Notes**: This session will be an introduction on how to navigate GitHub and the language (coding) used to communicate with GitHub using your RStudio terminal. What follows are essentially commands you can use to collaborate with others on projects by accessing the files, making changes without affecting anyone else's progress, keeping your work updated, and more. 
+
+**Instructor Notes**: <br>
+- Aim: To establish the core theoretical introduction of submodule topics. <br>
+- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
+
+:::
 
 ---
 
 ## Key terms and definitions
 
-- **Aim**: Introduce key terms and definitions that students will come across throughout the session.
-<br>
+- **Git**: A tool that tracks changes made to files over time.  
+- **Version Control**: A system that records and manages changes so you can revisit or collaborate on different versions of your work.  
+- **Git Repository**: (repo) A folder that contains your project files and the history of all changes made to them.
+- **Branch**: A separate workspace where you can make changes without affecting the main project.
 
-- **Key Term 1**: Definition
-- **Key Term 2**: Definition
-- **Key Term 3**: Definition
 
 ::: {.notes}
-Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
+**Speaker Notes**: These are some of the key terms that will come up throughout this lesson, let's define them. <br>
+- Think of Git is like a time machine for your project as it keeps track of every edit so you can go back to earlier versions or see who changed what. Git runs locally on your computer but connects easily with platforms like GitHub for sharing. <br>
+- Version control is the process of tracking and managing updates to your files over time. It allows multiple people to work on the same project without overwriting each other’s work, making research more organized, transparent, and reproducible. <br>
+- A Git repository is a folder that contains your project files and a full history of their changes. This folder can live locally on your computer or online (for example, on GitHub) so others can collaborate. <br>
+- A Branch is a copy of your project where you can test changes without affecting the main version. The Main Branch is the stable, official version of your project. You can work on a branch, then merge your updates back into the main branch once they’re reviewed or ready.  
+
+**Instructor Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
 :::
 
 ---
 
-## Introduction of submodule topic
+## What is GitHub?
 
-- **Aim**: Core theoretical introduction of submodule topic.
+**GitHub** is an online platform that helps people store, share, and collaborate on projects using Git.
+  
+:::::: {style="display: flex; gap: 1em;"}
+::: {style="flex: 0.5;"}
+
+![](images/01_GitHub_Logo.png)
+
+:::
+::: {style="flex: 1.5;"}
+
+On **GitHub**, you can:
+
+- Host repositories online so teams can work from anywhere.
+- Track changes and keep project history.
+- Collaborate through branches, commits, and pull requests.
+- Promote openness, transparency, and reproducibility in research.
+
+:::
+::::::
+
+::: {.notes}
+**Speaker Notes**:
+
+**Instructor Notes**: For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break). <br>
+- Aim: Core theoretical introduction of submodule topic. <br>
 - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
-- Use multiple slides for this part.
-
-::: {.notes}
-For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
 :::
+
 ---
 
-## Submodule content slide
+## What is collaborative coding? 
 
-- **Aim**: Present relevant content
-- Highlight particularly important aspects with Quarto call-out boxes, for example: 
+**Collaborative coding** is the process of working together on the same code or project (like on GitHub) where everyone can contribute, review, and improve the work collectively.
 
-::: {.callout-important}
-## Important with Title
+:::::: {style="display: flex; gap: 1em;"}
+::: {style="flex: 0.5;"}
 
-This is an example of a callout box to highlight particularly important information.
+![](images/02_Collab_Code.png) 
+
+:::
+::: {style="flex: 1.5;"}
+
+With **collaborative coding**:
+
+- Multiple people can work on different parts of the same project at once.
+- Git and GitHub keep everyone’s work organized, merged, and tracked.
+- There's more transparency and reproducibility in research projects. 
+
+:::
+::::::
+
+::: {.notes}
+**Speaker Notes**:
+
+**Instructor Notes**: 
 :::
 
-::: {.callout-tip}
-## Tip with Title
+---
 
-This is an example of a callout box to give important tips. 
+## Creating a workflow with GitHub
+
+What a *workflow* using **GitHub** can look like:
+
+![](images/00_GitHub_Workflow.png){fig-align="center"}
+
+::: {.notes}
+**Speaker Notes**: Here’s what a typical workflow using GitHub looks like: <br> 
+- Start with a central repository that contains the shared project files. <br>
+- Fork the repository to create your own copy on GitHub. <br>
+- Clone your fork to your local computer so you can work offline. <br> 
+- Make changes locally and commit them to track your progress. <br>  
+- Push your commits to your fork on GitHub without affecting anyone else’s work. <br>  
+- Pull updates from the main branch regularly to keep your copy up to date. <br>  
+- When your changes are ready, open a pull request so they can be reviewed and merged into the main branch.  
+
+**Instructor Notes**: Students with no prior knowledge in GitHub may not know what any of these terms mean but this is a helpful introduction to how the different actions on GitHub come together to create a workflow and would help students make the connection between them as they follow along in this session to learn them. This image will be shown again at the end so students can have a chance to view the diagram with a clearer understanding of what the terms mean. 
+:::
+
+---
+
+## Fork a repo
+
+To **fork a repo** means to copy a collaborator’s repo to your own remote *GitHub account*.
+
+- Enables multiple contributors to work in parallel.
+- Make changes without affecting the original project.
+- Provides a personal workspace to test ideas.
+
+::: {.notes}
+**Speaker Notes**: The first step when you have access to your project repo to make your own copy of it to your GitHub account. To do this, fork the repo, which means to copy it so that you have your own version where you can host your changes to add back to the main repo later. <br>
+How does this contribute towards collaboration?
+
+
 :::
 
 ---
 
 ## Practical exercise 1
 
-- **Aim**: Design more practical exercises for students to apply the new skills in practise.
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+**Fork a repo**
 
-- [x] Step 1
-- [ ] Step 2
-- [ ] Step 3
+![](images/03_Fork_Exercise.png){width="70%"}
+
+- [ ] Go to the repo on GitHub
+- [ ] Click on "`Fork`" in the top-right toolbar 
+
+![](images/04_Fork_Exercise.png){width="70%"}
+
+- [ ] Click on the green "`Create fork`" button at the bottom-right of the screen
+
+::: {.notes}
+**Instructor Notes**: Provide students with the name or link to the repo created for this session. 
+
+:::
+
+---
+
+## Clone a repo
+
+To **clone a repo** means to copy the project files onto your *local device*, such as your personal computer.
+
+- Connects your local work directly to the team’s online repo.
+- Makes it easy to sync updates between teammates.
+
+::: callout-important
+## Important Difference
+
+When you **fork** the repo, a copy is made on your *remote GitHub account*. When you **clone** a repo, a copy is downloaded from GitHub onto your *local device*.
+:::
+
+::: {.notes}
+**Speaker Notes**: To work on your copy or version of the project, clone it to your personal device. When you clone the repo, it takes the project from GitHub and downloads it onto your personal device so now you would have an offline version of the project to work on. <br>
+How does this contribute towards collaboration?
+
+**Instructor Notes**: Both forking and cloning involve making copies of the repo but to different locations, so make this distinction clear. If there is any confusion, you can go back to the first diagram of the workflow to visualize the difference. 
+:::
+
+---
+
+## Practical exercise 2
+
+**Clone a repo**
+
+
+---
+
+## Commit to a project
+
+To **commit to a project** means to save the file locally in your version control system.
+
+- Records progress in small and trackable steps
+- Lets others see exactly what was changed and why.
+- Makes it possible to revert or review changes if something breaks.
+
+::: {.notes}
+**Speaker Notes**: A commit is like taking a snapshot of your project after you make changes. Each commit records what was changed, when, and by whom. You usually include a short message describing the update, for example, “Updated code for analysis," and saves it in Git's version history. <br>
+How does this contribute towards collaboration? 
+
+:::
+
+---
+
+## Practical exercise 3
+
+**Commit to a project**
+
+---
+
+## Push changes
+
+To **push changes** means to upload your local commits from your local computer to the remote repository on GitHub.
+
+- Keeps the online version of the project up to date.
+- Makes your work visible to teammates in real time.
+- Enables others to pull your latest edits and build on them.
+
+::: {.notes}
+**Speaker Notes**: The next step after making your changes and committing them is to push the changes you made from your local device onto the remote forked repository that is on your GitHub account. <br>
+How does this contribute towards collaboration? 
+:::
+
+---
+
+## Practical exercise 4
+
+**Push changes**
 
 ---
 
 ## Pre-break survey
 
-- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
----
+::: {.notes}
+**Speaker Notes**: Before the break, let's take a moment to review the things we covered in the first part of this lesson. This survey has a few simple recap questions about what we’ve learned so far about using GitHub for collaboration on projects. The goal isn’t to test you, but to help you reflect on what you’ve learned and to see if anything needs a bit more clarification.
 
-**Which species is the largest type of penguin**?
-
-a. Chinstrap Penguin
-
-b. Emperor Penguin ✅
-
-c. Adélie Penguin
-
-d. King Penguin
+**Instructor Notes**: It's important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson. <br>
+- Aim: This pre-break survey serves to examine students' current understanding of key concepts of the submodule. <br>
+- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides)
+:::
 
 ---
 
-**What is the key biological feature that helps penguins swim efficiently?**
+**What is GitHub mainly used for?**
 
-a. Hollow bones for buoyancy
+a. Editing photos online
 
-b. Webbed feet for paddling
+b. Hosting and collaborating on code or research projects ✅
 
-c. Waterproof feathers and flipper-like wings ✅
+c. Sending emails to developers
 
-d. Gills to breathe underwater
+d. Backing up personal files only
+
+---
+
+**What happens when you fork a repository?**
+
+a. You delete the original project
+
+b. You download a copy of the project to your local computer
+
+c. You create your own copy of someone else’s repository on GitHub ✅
+
+d. You merge your work into the main branch
+
+---
+
+**What does it mean to clone a repository?**
+
+a. You download the repository from GitHub to your local device ✅
+
+b. You create a backup of your GitHub account
+
+c. You make your repository private
+
+d. You copy code into a new file
+
+---
+
+**What does a commit do in Git?**
+
+a. Deletes all previous versions of your file
+
+b. Sends your work directly to the main repository
+
+c. Saves your changes locally ✅
+
+d. Approves changes made by other collaborators
+
+---
+
+**What does it mean to push changes?**
+
+a. Create a new repository
+
+b. Merge your branch automatically
+
+c. Close a pull request
+
+d. Upload local commits to GitHub ✅
 
 ---
 
@@ -265,24 +553,95 @@ d. Gills to breathe underwater
 
 ## Post-break survey discussion
 
-- **Aim**: To clarify concepts and aspects that are not yet understood
+::: {.notes}
+**Speaker Notes**: Let's discuss the survey answers and clarify any questions before moving on to the next section.
+
+**Instructor Notes** <br>
+- Aim: To clarify concepts and aspects that are not yet understood
 - Highlight specific answers given during the survey
+- Also, use this time to clarify any confusions or questions on specific topics students may have from the first part of the session.
+:::
 
 ---
 
-## Practical Exercise 2
+## Pull request
 
-- **Aim**: Design more practical exercises for students to apply the new skills in practise.
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+To make a **pull request** means to ask for your changes (from your fork or branch) to be reviewed and merged into the main project.
 
-- [x] Step 1
-- [ ] Step 2
-- [ ] Step 3
+- Creates a space for discussion and code review before incorporating changes.
+- Encourages feedback and peer learning
+- Maintains project quality and consistency.
 
 ::: {.notes}
-For students who advance faster: Prepare extra exercises. 
+**Speaker Notes**: After pushing your changes to your remote repository, it's just on your forked copy and not in the main project. You then need to make a pull request which is a request on GitHub for the changes you pushed to be reviewed and then incorporated into the main project (merged). <br>
+How does this contribute towards collaboration? 
 :::
+
+---
+
+## Practical exercise 5
+
+**Pull request**
+
+---
+
+## Merge changes
+
+To **merge changes** means to combine updates from different branches or contributors into one unified version of the project.
+
+- Brings everyone’s contributions together.
+- Ensures new work integrates smoothly with the main branch.
+- Helps resolve overlapping edits or conflicts between files.
+
+::: {.notes}
+**Speaker Notes**: Now that the changes have been made and you opened a pull request, the next step is for those changes to be reviewed and incorporated into the main branch. This is what is meant by "merge" because the contributions from the different collaborators are merged into the one project that everyone is working on. <br>
+How does this contribute towards collaboration?
+
+:::
+
+---
+
+## How to merge changes
+
+::: {.notes}
+**Speaker Notes**:
+
+**Instructor Notes**: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own.
+:::
+
+---
+
+## Pull upstream
+
+To **pull upstream** means to update your local or forked repository with the latest changes from the original (upstream) repository.
+
+- Keeps your local copy aligned with the main project’s progress.
+- Prevents outdated or conflicting edits when working in teams.
+- Encourages synchronization across all contributors.
+
+::: {.notes}
+**Speaker Notes**: Even after you pushed your changes and it was merged into the main branch, the project may still be ongoing or your local and remote copied repositories may not have the contributions from the other collaborators. This is why you should pull upstream to update your local or forked repository with the latest changes from the original repo. <br>
+How does this contribute towards collaboration?
+
+:::
+
+---
+
+## Practical exercise 6
+
+**Pull upstream**
+
+---
+
+## Recap 
+
+- **Fork a repo**: make your own copy on GitHub
+- **Clone the repo**: bring it to your local computer
+- **Commit**: make changes locally
+- **Push**: upload those changes to your fork on GitHub
+- **Pull request**: propose those changes to the main/original repo
+- **Merge**: the project owner merges your pull request into the main branch
+- **Pull upstream**: after the merge, you pull the updated main branch from the original repo to sync your local copy
 
 ---
 
@@ -317,39 +676,33 @@ Add one practical tips or take-home message.
 
 ## To conclude: Survey time!
 
-- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
+::: {.notes}
+**Speaker Notes**: To end this lesson, let's use this survey to see where we stand in our understanding of using GitHub and what we can focus on more moving forward to become more proficient in using it for collaborative work. 
+
+*Instructor Notes* <br>
+- Aim: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic. <br>
+- Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):
+:::
 
 ---
 
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+**Which of the following concepts or skills do you feel MOST confident about in relation to Git and GitHub? (Select all that apply)**
 
-a. I have never heard of it before.
+a. Forking a repository and working on my own copy.
 
-b. I have heard of it but have never worked with it.
+b. Cloning a repository from GitHub to my local machine.
 
-c. I have basic understanding and experience with it.
+c. Making commits and writing meaningful commit messages.
 
-d. I am very familiar and have worked with it extensively.
+d. Pushing local changes to a remote repository.
 
----
+e. Pulling or fetching updates from a remote repository.
 
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
+g. I am still not sure about any of these concepts.
 
 ---
 
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]?
-(1 = Not comfortable at all, 5 = Very comfortable)**
+**On a scale of 1 to 5, how comfortable are you right now with using Git and GitHub for collaborative coding and version control? (1 = Not comfortable at all, 5 = Very comfortable)**
 
 a. 1
 
@@ -363,16 +716,31 @@ e. 5
 
 ---
 
+**When you worked collaboratively on this GitHub project, what aspect did you find most challenging?**
+
+a. Understanding Git commands (commit, push, pull).
+
+b. Remembering all the steps.
+
+c. Navigating the GitHub interface.
+
+d. Other
+
+---
+
 ## Discussion of survey results
 
-- **Aim**: Briefly examine the answers given to each question interactively with the group.
-- Compare and highlight specific differences in answers between pre- and post-survey answers
+::: {.notes}
+**Speaker Notes**: Now that you've completed both the pre- and post-module survey, let's compare the results to see where we began and how we've made progress. This is also a good time to raise any concerns or clarify any concepts you may not have understood fully.
+
+**Instructor Notes**: Aim: Briefly examine the answers given to each question interactively with the group. Compare and highlight specific differences in answers between pre- and post-survey answers
+:::
 
 ---
 
 ## References
 
-- Provide literature you refer to throughout this lesson.
+- LMU Open Science Center. (n.d.). Collaborative coding with GitHub and RStudio. Retrieved from [](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/)
 
 ---
 
@@ -395,43 +763,6 @@ See you next class :)
 - References for content
 - References for pedagogical add-on tools	
 - Other resources (videos etc.)	
-
----
-
-# Formatting elements for instructors
-
-- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. 
-
----
-
-## Text with example links
-
-- [Quarto Documentation](https://quarto.org/docs/)
-- [Reveal.js Documentation](https://revealjs.com/)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [GitHub](https://github.com/)
-
----
-
-## Basic text formatting
-
-- **Bold:** `**bold**` → **bold**
-- *Italic:* `*italic*` → *italic*
-- ~~Strikethrough:~~ `~~text~~` → ~~text~~
-- `Inline code:` `` `code` `` → `code`
-- > Blockquote: `> Quote` →  
-  > "This is a quote"
-  
----
-
-## Figure with caption
-
-- Centered image and caption below in italics
-
-<div style="text-align: center;">
-  <img src="images/penguin.png" style="width:50%;" />
-  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>This is a Penguin.</em></div>
-</div>
 
 ---
 
@@ -559,99 +890,6 @@ See you next class :)
   </div>
 
 </div>
-
----
-
-## Simple table
-
-<div style="height: 2cm;"></div>
-
-
-| Column 1   | Column 2   | Column 3   |
-|------------|------------|------------|
-| Row 1 Cell | Row 1 Cell | Row 1 Cell |
-| Row 2 Cell | Row 2 Cell | Row 2 Cell |
-| Row 3 Cell | Row 3 Cell | Row 3 Cell |
-| Row 4 Cell | Row 4 Cell | Row 4 Cell |
-
----
-
-## Complex table
-
-<div style="height: 2cm;"></div>
-
-```{=html}
-
-<table style="border-collapse: collapse; width: 100%;">
-
-  <thead>
-    <tr style="background-color: #093; color: white; font-weight: bold;">
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 1</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 2</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 3</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr style="background-color: white; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-    </tr>
-    <tr style="background-color: #f0fff0; color: black;"> <!-- very light green -->
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-    </tr>
-    <tr style="background-color: white; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-    </tr>
-    <tr style="background-color: #f0fff0; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-    </tr>
-  </tbody>
-
-</table>
-
-```
----
-
-## Task list
-- [x] Done
-- [ ] To do
-
----
-
-## Embedding videos
-
-<div style="text-align: center;">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/q3uXXh1sHcI"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
-
----
-
-## Code blocks
-
-```{r}
-# A basic R code chunk
-x <- 1:10
-mean(x)
-
-
-# A simple plot
-hist(rnorm(100), main = "Histogram of Random Normals")
-
-```
 
 ---
 

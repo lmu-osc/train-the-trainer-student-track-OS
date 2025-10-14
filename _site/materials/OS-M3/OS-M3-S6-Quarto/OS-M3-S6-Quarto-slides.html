@@ -6,10 +6,11 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Elizabeth Waterfield">
+  <meta name="dcterms.date" content="2025-12-10">
   <title>Train the Trainer: Student Track Open Science Content – Introduction to literate programming with Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -95,7 +96,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link rel="stylesheet" href="../../../slides-custom.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -204,7 +205,7 @@ Elizabeth Waterfield
 </div>
 </div>
 
-  <p class="date">18/09/2025</p>
+  <p class="date">12/10/2025</p>
 </section>
 <section id="feedback-slide---please-delete-at-the-end" class="slide level2">
 <h2>Feedback Slide - please DELETE at the end</h2>
@@ -214,7 +215,7 @@ Elizabeth Waterfield
 </section>
 <section id="contribution-statement-and-licence" class="slide level2">
 <h2>Contribution statement and licence</h2>
-<p><strong>Creator</strong>: Waterfield, Elizabeth (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> orcid)</p>
+<p><strong>Creator</strong>: Waterfield, Elizabeth (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> <a href="https://orcid.org/my-orcid?orcid=0009-0006-3725-6730">0009-0006-3725-6730</a></p>
 <p><strong>Reviewer</strong>: von Grebmer zu Wolfsthurn, Sarah (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> <a href="https://orcid.org/my-orcid?orcid=0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
 <p><strong>Acknowledgments</strong>: Middleton, Sara Lil (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> orcid)</p>
 <p><br> <br></p>
@@ -252,7 +253,7 @@ Elizabeth Waterfield
 </div>
 </div>
 </div>
-<div style="font-size: 0.6em;">
+<div style="font-size: 0.8em;">
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -689,14 +690,14 @@ Elizabeth Waterfield
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the following into the YAML Header of your document</label></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a></a><span class="pp">---</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a></a><span class="pp">---</span></span>
 <span id="cb1-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"ChickWeight Analysis"</span></span>
 <span id="cb1-3"><a></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Name"</span></span>
 <span id="cb1-4"><a></a><span class="fu">format</span><span class="kw">:</span></span>
 <span id="cb1-5"><a></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
 <span id="cb1-6"><a></a><span class="at">    </span><span class="fu">code-fold</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
 <span id="cb1-7"><a></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb1-8"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-8"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -765,14 +766,14 @@ Elizabeth Waterfield
 <section id="authoring-markdown-text" class="slide level2">
 <h2>Authoring: Markdown text</h2>
 <p><br></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a>Have you ever wondered what affects a chick's weight? </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a>Have you ever wondered what affects a chick's weight? </span>
 <span id="cb2-2"><a></a>This document explores the ChickWeight dataset using R.  </span>
 <span id="cb2-3"><a></a>The goal is to compare chick weight across different diets and time points.  </span>
 <span id="cb2-4"><a></a>Key steps include:</span>
 <span id="cb2-5"><a></a></span>
 <span id="cb2-6"><a></a><span class="ss">- </span>Loading the dataset  </span>
 <span id="cb2-7"><a></a><span class="ss">- </span>Visualizing growth trends  </span>
-<span id="cb2-8"><a></a><span class="ss">- </span>Summarizing results</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-8"><a></a><span class="ss">- </span>Summarizing results</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><br></p>
 <p>This is an example of <strong>markdown text</strong>. Let’s use it to continue authoring and building our document.</p>
 <aside class="notes">
@@ -872,11 +873,11 @@ Elizabeth Waterfield
 <section id="authoring-inserting-callout-boxes" class="slide level2">
 <h2>Authoring: Inserting callout boxes</h2>
 <p>Here is the markdown text for inserting a <strong>callout note</strong> box:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a></a>::: callout-note</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a></a>::: callout-note</span>
 <span id="cb3-2"><a></a><span class="fu">## Based on Real Data</span></span>
 <span id="cb3-3"><a></a></span>
 <span id="cb3-4"><a></a>The ChickWeight dataset in R is based on real experimental data.</span>
-<span id="cb3-5"><a></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-5"><a></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: This is what the Markdown syntax looks like for a callout box. Inside the box, you can add a heading using ## and then add text below it. These aren’t just for highlighting important information but can be used for supplementary or by-the-way information as well as warnings.</p>
 <style type="text/css">
@@ -913,13 +914,12 @@ Elizabeth Waterfield
 </section>
 <section id="code-chunks" class="slide level2">
 <h2>Code chunks</h2>
-<p>There are two ways to insert <strong>code chunks</strong>:</p>
-<ul>
-<li>Manually type 3 back ticks ``` then {r} to start a coding chunk, enter your code, then end it with 3 back ticks</li>
-</ul>
-<p>OR</p>
-<ul>
-<li>Use the keyboard shortcut Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac) to insert a code chunk then simply enter your code</li>
+<p>There are multiple ways to insert <strong>code chunks</strong>:</p>
+
+<img data-src="images/Code_Chunk.png" class="r-stretch"><ul>
+<li><p>Simply click the green Insert Code Chunk button on the toolbar</p></li>
+<li><p>Manually type 3 back ticks ``` then {r} to start a coding chunk, enter your code, then end it with 3 back ticks</p></li>
+<li><p>Use the keyboard shortcut Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac) to insert a code chunk then simply enter your code</p></li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: <br> - Code chunks are sections of a Quarto document where we can run code directly inside our file. They’re marked by three backticks followed by the language name, like {r} or {python}. So, using {r} to start the Code Chunk indicates that the coding language that we’re using is R. <br> - These let us write and execute code, and then display the results, such as tables, plots, or calculations, right in the document. Code chunks make it possible to combine text and analysis in one place, so the document stays reproducible and dynamic.</p>
@@ -939,12 +939,12 @@ Elizabeth Waterfield
 <section id="inserting-code-chunks" class="slide level2">
 <h2>Inserting code chunks</h2>
 <p><br></p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a></a>summary(ChickWeight)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a></a>summary(ChickWeight)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><br></p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a></a>library(ggplot2)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a></a>library(ggplot2)</span>
 <span id="cb5-2"><a></a>ggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +</span>
 <span id="cb5-3"><a></a>  geom_line(aes(group = Chick)) +</span>
-<span id="cb5-4"><a></a>  labs(title = "Chick Growth Over Time")</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-4"><a></a>  labs(title = "Chick Growth Over Time")</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><br></p>
 <p>These are examples of <strong>R code</strong>. Let’s use it to insert code chunks in our document.</p>
 <aside class="notes">
@@ -1289,7 +1289,7 @@ Elizabeth Waterfield
 <li><label><input type="checkbox"><a href="images/05_Chick_Pic.png" download="">Click this link to download the image</a></label></li>
 <li><label><input type="checkbox">Save the image to the main folder of the Quarto document files</label></li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a></a><span class="al">![No chicks were harmed in the making of this document.](images/05_Chick_Pic.png)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a></a><span class="al">![No chicks were harmed in the making of this document.](images/05_Chick_Pic.png)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the markdown text above to insert an image with a caption (edit path if needed)</label></li>
 </ul>
@@ -1370,7 +1370,7 @@ Elizabeth Waterfield
 </section>
 <section id="practical-exercise-8-1" class="slide level2">
 <h2>Practical exercise 8</h2>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a></a>:::::: columns</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a></a>:::::: columns</span>
 <span id="cb7-2"><a></a>::: column</span>
 <span id="cb7-3"><a></a></span>
 <span id="cb7-4"><a></a><span class="al">![](images/06_Chick_Pic.png)</span></span>
@@ -1382,7 +1382,7 @@ Elizabeth Waterfield
 <span id="cb7-10"><a></a><span class="ss">-   </span>Compare diets and weight gain</span>
 <span id="cb7-11"><a></a></span>
 <span id="cb7-12"><a></a>:::</span>
-<span id="cb7-13"><a></a>::::::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-13"><a></a>::::::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the markdown text to add an image with bullet points using columns (edit path if needed)</label></li>
 </ul>
@@ -1432,14 +1432,13 @@ Elizabeth Waterfield
 
 <img data-src="images/08_Zotero_Toolbar.png" class="r-stretch"><p>To insert a citation:</p>
 <ul>
-<li><p>Open Zotero on your device</p></li>
-<li><p>→ Switch to the “Visual Editor” mode</p></li>
+<li><p>Switch to the “Visual Editor” mode</p></li>
 <li><p>→ Add <code>bibliography: references.bib</code> in the YAML header</p></li>
 <li><p>→ Press the “Insert” button in the toolbar and select “Citation”</p></li>
 </ul>
 <p>A reference list or bibliography is automatically generated at the end of the document with all the citations used.</p>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: <br> - To add citations in Quarto, you’ll need Zotero opened on your device. <br> - Then, in RStudio, switch to the Visual Editor, which makes citation insertion easier. <br> - Make sure your YAML header includes <code>bibliography: references.bib</code> so Quarto knows where to look for your references. <br> - Then, simply go to the toolbar, click Insert → Citation, and you’ll be able to search your Zotero library directly. <br> - Once you add citations in the text, Quarto automatically generates a reference list or bibliography at the end of your document so that you don’t have to format it manually.</p>
+<p><strong>Speaker Notes</strong>: <br> - To add citations in Quarto, you’ll need Zotero installed on your device. <br> - Then, in RStudio, switch to the Visual Editor, which makes citation insertion easier. <br> - Make sure your YAML header includes <code>bibliography: references.bib</code> so Quarto knows where to look for your references. <br> - Then, simply go to the toolbar, click Insert → Citation, and you’ll be able to search your Zotero library directly. <br> - Once you add citations in the text, Quarto automatically generates a reference list or bibliography at the end of your document so that you don’t have to format it manually.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1468,7 +1467,7 @@ Elizabeth Waterfield
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: <br> - When you click “My Library,” it mirrors what folders you’ve created in Zotero Library. This helps you navigate to the folder where the citation is stored. <br> - After inserting a citation once, you see what citation key is assigned to it for easier referencing later in the text. But the way the citation key is written is different for regular and in-text citations.</p>
-<p><strong>Instructor Note</strong>: The Zotero program needs to be open on the device for the “Zotero” option to show up in RStudio like it does in the image.</p>
+<p><strong>Instructor Note</strong>: The Zotero program does not need to be open on the device for the “Zotero” option to show up in RStudio. But if it’s not appearing like it does in the image, opening the program on the device may help.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1485,12 +1484,11 @@ Elizabeth Waterfield
 <h2>Practical exercise 9</h2>
 <p>Let’s practice adding a citation using <strong>Zotero</strong>.</p>
 <ul class="task-list">
-<li><label><input type="checkbox">Open Zotero on your device</label></li>
 <li><label><input type="checkbox">Add <code>bibliography: references.bib</code> to your YAML header</label></li>
 <li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819">Follow this link to an article on diets and broiler chicks</a></label></li>
 <li><label><input type="checkbox">Add the citation to your Zotero Library</label></li>
 </ul>
-<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a></a>Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a></a>Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the text above and place the cursor at the end of the sentence</label></li>
 </ul>
@@ -1536,7 +1534,7 @@ Elizabeth Waterfield
 <li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153859#:~:text=In%20conclusion%2C%20HDND%20improved%20the,diet%20adversely%20affected%20bone%20mineralization.">Follow this link to another article on diets and broiler chicks</a></label></li>
 <li><label><input type="checkbox">Add the citation to your Zotero Library</label></li>
 </ul>
-<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a></a> found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a></a> found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the text above then place your cursor at the beginning of the sentence</label></li>
 </ul>
@@ -1793,9 +1791,9 @@ Elizabeth Waterfield
 <ul class="task-list">
 <li><label><input type="checkbox">In your Quarto Document, edit YAML and add:</label></li>
 </ul>
-<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource mardown number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a></a>project:</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource mardown number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a></a>project:</span>
 <span id="cb10-2"><a></a>  type: website</span>
-<span id="cb10-3"><a></a>  output-dir: docs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-3"><a></a>  output-dir: docs</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Set Terminal to open with Git Bash and open new Terminal</label></li>
 <li><label><input type="checkbox">Change directory to the path of the main folder with the Quarto files using <code>cd</code></label></li>
@@ -1817,13 +1815,13 @@ Elizabeth Waterfield
 </section>
 <section id="practical-exercise-11-1" class="slide level2">
 <h2>Practical exercise 11</h2>
-<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a></a>echo "project:</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a></a>echo "project:</span>
 <span id="cb11-2"><a></a>  type: website</span>
-<span id="cb11-3"><a></a>  output-dir: docs" &gt; _quarto.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-3"><a></a>  output-dir: docs" &gt; _quarto.yml</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Make a simple <code>_quarto.yml</code> file by copying and pasting the above in the Terminal</label></li>
 </ul>
-<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a></a>touch .nojekyll</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a></a>touch .nojekyll</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the above into the Terminal to add a <code>.nojekyll</code> file</label></li>
 </ul>
@@ -1856,12 +1854,12 @@ Elizabeth Waterfield
 </section>
 <section id="practical-exercise-11-2" class="slide level2">
 <h2>Practical exercise 11</h2>
-<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a></a>quarto render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a></a>quarto render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the above into Terminal to generate HTML in the <code>docs/</code> folder</label></li>
 </ul>
-<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb14-1"><a></a>git init</span>
-<span id="cb14-2"><a></a>git branch -M main  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb14-1"><a></a>git init</span>
+<span id="cb14-2"><a></a>git branch -M main  </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the above into Terminal to initialize Git and rename “master” to “main”</label></li>
 </ul>
@@ -1886,10 +1884,10 @@ Elizabeth Waterfield
 <li><label><input type="checkbox">Go to <a href="github.com">GitHub</a> and create a new repository</label></li>
 <li><label><input type="checkbox">In Terminal, connect to local project by using “<code>git remote add origin</code>” + the repo’s HTTPS URL (for example, “<code>git remote add origin https://github.com/yourname/chickweight-exercise.git</code>”)</label></li>
 </ul>
-<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb15-1"><a></a>quarto render</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb15-1"><a></a>quarto render</span>
 <span id="cb15-2"><a></a>git add docs</span>
 <span id="cb15-3"><a></a>git commit -m "Publish site to docs/"</span>
-<span id="cb15-4"><a></a>git push -u origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-4"><a></a>git push -u origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the above into Terminal to render your site and push it to GitHub</label></li>
 <li><label><input type="checkbox">In your repo on <a href="github.com">GitHub</a>, go to Settings</label></li>
@@ -2499,7 +2497,7 @@ Elizabeth Waterfield
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -2649,13 +2647,14 @@ Elizabeth Waterfield
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

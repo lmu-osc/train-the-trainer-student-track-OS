@@ -1273,42 +1273,42 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#questions-from-previous-submodule",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Questions from previous submodule",
-    "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module."
+    "text": "Questions from previous submodule\n\nSpeaker Notes: Are there any questions from what was discussed during the last session? Are there any remaining thoughts or discussion points?\nInstructor Notes:  - Aim: clarify questions from the previous submodule and/or to discuss assignments. - Additional slides may need to be added depending on the nature of the homework assignments. - It is critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. - Not applicable if this set of slides corresponds to the first submodule of a new module."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#before-we-start-survey-time",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#before-we-start-survey-time",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Before we start: Survey time!",
-    "text": "Before we start: Survey time!\n\nAim: The pre-submodule survey serves to examine students’ prior knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):"
+    "text": "Before we start: Survey time!\n\nSpeaker Notes:  - Let’s start the session by gauging where our Quarto skills are at this point. Please answer honestly and don’t worry about having little to no prior knowledge about Quarto. This lesson is for beginners.\nInstructor Notes:  - Aim: the pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. - Use free survey software such as particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\n\nAim”: Briefly examine the answers given to each question interactively with the group.\nUse visuals from the survey to highlight specific answers.\n\n\nMake it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
+    "text": "Discussion of survey results\nWhat can we take from this?\n\nSpeaker Notes: Looking at the results from this small survey, what can we take from this? There will be a similar post-submodule survey to examine understanding and learning progress.\nInstructor Notes:  - Aim: briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers. - Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#where-are-we-at",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#where-are-we-at",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Where are we at?",
-    "text": "Where are we at?\n\nAim: Place the topic of the current submodule within a broader context.\nRemind students what you are working towards and what the bigger picture is."
+    "text": "Where are we at?\nOpen Science builds a culture of transparency, collaboration, and reproducibility. \nGitHub contributes to this by allowing researchers to:\n\nShare their projects openly\nCollaborate remotely\nTrack changes\n\nGitHub offers a platform that enables transparent sharing, version control, and reproducible workflows. These are the core pillars of Open Science.\n\nSpeaker Notes:\nInstructor Notes:  - Aim: Place the topic of the current submodule within a broader context.  - Consider GitHub as a solution to some existing challenges in Open Research to remind students what they are working towards and what the bigger picture is."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#learning-goals",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#learning-goals",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Learning goals",
-    "text": "Learning goals\n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nStudents will describe the process of photosynthesis or\nStudents will construct a diagram illustrating the process of photosynthesis"
+    "text": "Learning goals\nAt the end of this session, you should be able to:\n\nNavigate GitHub to collaborate on shared projects.\nFork and clone repositories to work locally without altering the main branch.\nCommit, push, and pull changes to keep your project tracked and synchronized.\nDesign a collaborative workflow that enhances the openness and reproducibility of your research.\n\n\nSpeaker Notes:\nInstructor Notes:  - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)  - Emphasis is placed on the VERBS of the learning goals that align with the skills you want to develop or assess."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#key-terms-and-definitions",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#key-terms-and-definitions",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Key terms and definitions",
-    "text": "Key terms and definitions\n\nAim: Introduce key terms and definitions that students will come across throughout the session. \nKey Term 1: Definition\nKey Term 2: Definition\nKey Term 3: Definition\n\n\nBase yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson."
+    "text": "Key terms and definitions\n\nGit: A tool that tracks changes made to files over time.\n\nVersion Control: A system that records and manages changes so you can revisit or collaborate on different versions of your work.\n\nGit Repository: (repo) A folder that contains your project files and the history of all changes made to them.\nBranch: A separate workspace where you can make changes without affecting the main project.\n\n\nSpeaker Notes: These are some of the key terms that will come up throughout this lesson, let’s define them.  - Think of Git is like a time machine for your project as it keeps track of every edit so you can go back to earlier versions or see who changed what. Git runs locally on your computer but connects easily with platforms like GitHub for sharing.  - Version control is the process of tracking and managing updates to your files over time. It allows multiple people to work on the same project without overwriting each other’s work, making research more organized, transparent, and reproducible.  - A Git repository is a folder that contains your project files and a full history of their changes. This folder can live locally on your computer or online (for example, on GitHub) so others can collaborate.  - A Branch is a copy of your project where you can test changes without affecting the main version. The Main Branch is the stable, official version of your project. You can work on a branch, then merge your updates back into the main branch once they’re reviewed or ready.\nInstructor Notes: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#introduction-of-submodule-topic",
@@ -1329,28 +1329,28 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Practical exercise 1",
-    "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3"
+    "text": "Practical exercise 1\nFork a repo\n\n\nGo to the repo on GitHub\nClick on “Fork” in the top-right toolbar\n\n\n\nClick on the green “Create fork” button at the bottom-right of the screen\n\n\nInstructor Notes: Provide students with the name or link to the repo created for this session."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pre-break-survey",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pre-break-survey",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Pre-break survey",
-    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\nWhich species is the largest type of penguin?\n\nChinstrap Penguin\nEmperor Penguin ✅\nAdélie Penguin\nKing Penguin"
+    "text": "Pre-break survey\n\nSpeaker Notes: Before the break, let’s take a moment to review the things we covered in the first part of this lesson. This survey has a few simple recap questions about what we’ve learned so far about using GitHub for collaboration on projects. The goal isn’t to test you, but to help you reflect on what you’ve learned and to see if anything needs a bit more clarification.\nInstructor Notes: It’s important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson.  - Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule.  - Use free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides)"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#post-break-survey-discussion",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#post-break-survey-discussion",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Post-break survey discussion",
-    "text": "Post-break survey discussion\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey"
+    "text": "Post-break survey discussion\n\nSpeaker Notes: Let’s discuss the survey answers and clarify any questions before moving on to the next section.\nInstructor Notes  - Aim: To clarify concepts and aspects that are not yet understood - Highlight specific answers given during the survey - Also, use this time to clarify any confusions or questions on specific topics students may have from the first part of the session."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2",
     "title": "Introduction to Collaborative Coding with GitHub",
-    "section": "Practical Exercise 2",
-    "text": "Practical Exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nFor students who advance faster: Prepare extra exercises."
+    "section": "Practical exercise 2",
+    "text": "Practical exercise 2\nClone a repo"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#relevance-and-implications",
@@ -1378,21 +1378,21 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#to-conclude-survey-time",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "To conclude: Survey time!",
-    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):"
+    "text": "To conclude: Survey time!\n\nSpeaker Notes: To end this lesson, let’s use this survey to see where we stand in our understanding of using GitHub and what we can focus on more moving forward to become more proficient in using it for collaborative work.\nInstructor Notes  - Aim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.  - Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results-1",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results-1",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers"
+    "text": "Discussion of survey results\n\nSpeaker Notes: Now that you’ve completed both the pre- and post-module survey, let’s compare the results to see where we began and how we’ve made progress. This is also a good time to raise any concerns or clarify any concepts you may not have understood fully.\nInstructor Notes: Aim: Briefly examine the answers given to each question interactively with the group. Compare and highlight specific differences in answers between pre- and post-survey answers"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#references",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#references",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "References",
-    "text": "References\n\nProvide literature you refer to throughout this lesson."
+    "text": "References\n\nLMU Open Science Center. (n.d.). Collaborative coding with GitHub and RStudio. Retrieved from"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pedagogical-add-on-tools-for-instructors",
@@ -1672,7 +1672,7 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#code-chunks",
     "title": "Introduction to literate programming with Quarto",
     "section": "Code chunks",
-    "text": "Code chunks\nThere are two ways to insert code chunks:\n\nManually type 3 back ticks ``` then {r} to start a coding chunk, enter your code, then end it with 3 back ticks\n\nOR\n\nUse the keyboard shortcut Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac) to insert a code chunk then simply enter your code\n\n\nSpeaker Notes:  - Code chunks are sections of a Quarto document where we can run code directly inside our file. They’re marked by three backticks followed by the language name, like {r} or {python}. So, using {r} to start the Code Chunk indicates that the coding language that we’re using is R.  - These let us write and execute code, and then display the results, such as tables, plots, or calculations, right in the document. Code chunks make it possible to combine text and analysis in one place, so the document stays reproducible and dynamic.\nInstructor Notes: Use ```{r} for this lesson as students will be using R Studio and possession of some background knowledge in R is assumed."
+    "text": "Code chunks\nThere are multiple ways to insert code chunks:\n\n\nSimply click the green Insert Code Chunk button on the toolbar\nManually type 3 back ticks ``` then {r} to start a coding chunk, enter your code, then end it with 3 back ticks\nUse the keyboard shortcut Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac) to insert a code chunk then simply enter your code\n\n\nSpeaker Notes:  - Code chunks are sections of a Quarto document where we can run code directly inside our file. They’re marked by three backticks followed by the language name, like {r} or {python}. So, using {r} to start the Code Chunk indicates that the coding language that we’re using is R.  - These let us write and execute code, and then display the results, such as tables, plots, or calculations, right in the document. Code chunks make it possible to combine text and analysis in one place, so the document stays reproducible and dynamic.\nInstructor Notes: Use ```{r} for this lesson as students will be using R Studio and possession of some background knowledge in R is assumed."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks",
@@ -1798,21 +1798,21 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero",
     "title": "Introduction to literate programming with Quarto",
     "section": "Adding citations with Zotero",
-    "text": "Adding citations with Zotero\n\nTo insert a citation:\n\nOpen Zotero on your device\n→ Switch to the “Visual Editor” mode\n→ Add bibliography: references.bib in the YAML header\n→ Press the “Insert” button in the toolbar and select “Citation”\n\nA reference list or bibliography is automatically generated at the end of the document with all the citations used.\n\nSpeaker Notes:  - To add citations in Quarto, you’ll need Zotero opened on your device.  - Then, in RStudio, switch to the Visual Editor, which makes citation insertion easier.  - Make sure your YAML header includes bibliography: references.bib so Quarto knows where to look for your references.  - Then, simply go to the toolbar, click Insert → Citation, and you’ll be able to search your Zotero library directly.  - Once you add citations in the text, Quarto automatically generates a reference list or bibliography at the end of your document so that you don’t have to format it manually."
+    "text": "Adding citations with Zotero\n\nTo insert a citation:\n\nSwitch to the “Visual Editor” mode\n→ Add bibliography: references.bib in the YAML header\n→ Press the “Insert” button in the toolbar and select “Citation”\n\nA reference list or bibliography is automatically generated at the end of the document with all the citations used.\n\nSpeaker Notes:  - To add citations in Quarto, you’ll need Zotero installed on your device.  - Then, in RStudio, switch to the Visual Editor, which makes citation insertion easier.  - Make sure your YAML header includes bibliography: references.bib so Quarto knows where to look for your references.  - Then, simply go to the toolbar, click Insert → Citation, and you’ll be able to search your Zotero library directly.  - Once you add citations in the text, Quarto automatically generates a reference list or bibliography at the end of your document so that you don’t have to format it manually."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-1",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-1",
     "title": "Introduction to literate programming with Quarto",
     "section": "Adding citations with Zotero",
-    "text": "Adding citations with Zotero\n\n\n\n\n\n\n→ Select citations straight from the folders in your Zotero library\nEach citation is assigned a short citation key based on the author and year (for example, “pauwels2015”).\nYou can quickly cite it in your document by typing @ followed by the citation key.\n\n\n\n\nSpeaker Notes:  - When you click “My Library,” it mirrors what folders you’ve created in Zotero Library. This helps you navigate to the folder where the citation is stored.  - After inserting a citation once, you see what citation key is assigned to it for easier referencing later in the text. But the way the citation key is written is different for regular and in-text citations.\nInstructor Note: The Zotero program needs to be open on the device for the “Zotero” option to show up in RStudio like it does in the image."
+    "text": "Adding citations with Zotero\n\n\n\n\n\n\n→ Select citations straight from the folders in your Zotero library\nEach citation is assigned a short citation key based on the author and year (for example, “pauwels2015”).\nYou can quickly cite it in your document by typing @ followed by the citation key.\n\n\n\n\nSpeaker Notes:  - When you click “My Library,” it mirrors what folders you’ve created in Zotero Library. This helps you navigate to the folder where the citation is stored.  - After inserting a citation once, you see what citation key is assigned to it for easier referencing later in the text. But the way the citation key is written is different for regular and in-text citations.\nInstructor Note: The Zotero program does not need to be open on the device for the “Zotero” option to show up in RStudio. But if it’s not appearing like it does in the image, opening the program on the device may help."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-9",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-9",
     "title": "Introduction to literate programming with Quarto",
     "section": "Practical exercise 9",
-    "text": "Practical exercise 9\nLet’s practice adding a citation using Zotero.\n\nOpen Zotero on your device\nAdd bibliography: references.bib to your YAML header\nFollow this link to an article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\nDiet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more \n\nCopy and paste the text above and place the cursor at the end of the sentence\n\n\nSpeaker Notes:  - Let’s use Zotero with RStudio to insert citations in our Quarto document and generate a bibliography, this simplifies the referencing process.  - Follow these steps to add a citation to your Zotero library and add some information extracted from it to your Quarto document.  - There are several ways to add a citation to your Zotero library but an easy way is using the ‘magic wand’ (adding the item by its identifier). Here, you can just copy the DOI of the study, hit Enter, and it will be added to Zotero. The DOIs of the articles in these tasks will be clearly visible so this method is recommended."
+    "text": "Practical exercise 9\nLet’s practice adding a citation using Zotero.\n\nAdd bibliography: references.bib to your YAML header\nFollow this link to an article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\nDiet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more \n\nCopy and paste the text above and place the cursor at the end of the sentence\n\n\nSpeaker Notes:  - Let’s use Zotero with RStudio to insert citations in our Quarto document and generate a bibliography, this simplifies the referencing process.  - Follow these steps to add a citation to your Zotero library and add some information extracted from it to your Quarto document.  - There are several ways to add a citation to your Zotero library but an easy way is using the ‘magic wand’ (adding the item by its identifier). Here, you can just copy the DOI of the study, hit Enter, and it will be added to Zotero. The DOIs of the articles in these tasks will be clearly visible so this method is recommended."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-9-1",
@@ -2260,7 +2260,7 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#contribution-statement-and-licence",
     "title": "Introduction to literate programming with Quarto",
     "section": "Contribution statement and licence",
-    "text": "Contribution statement and licence\nCreator: Waterfield, Elizabeth ( orcid)\nReviewer: von Grebmer zu Wolfsthurn, Sarah ( 0000-0002-6413-3895)\nAcknowledgments: Middleton, Sara Lil ( orcid)\n \n\nThis work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.\nInstructor Notes: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner’s needs as well as anticipate challenges.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
+    "text": "Contribution statement and licence\nCreator: Waterfield, Elizabeth ( 0009-0006-3725-6730\nReviewer: von Grebmer zu Wolfsthurn, Sarah ( 0000-0002-6413-3895)\nAcknowledgments: Middleton, Sara Lil ( orcid)\n \n\nThis work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.\nInstructor Notes: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner’s needs as well as anticipate challenges.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#license",
@@ -2296,5 +2296,187 @@
     "title": "Introduction to literate programming with Quarto",
     "section": "Feedback Slide - please DELETE at the end",
     "text": "Feedback Slide - please DELETE at the end\n\nFrom SvG:  - Changed around the contribution and credit statement - Something to check: are the QR codes stable? Some generators do not allow for the QR code to be active for longer than X amount of time - so will the QR code link out to particify? On the other hand, particify rooms stay indefinitely, so that is nice!"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#feedback-slide---please-delete-at-the-end",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#feedback-slide---please-delete-at-the-end",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Feedback Slide - please DELETE at the end",
+    "text": "Feedback Slide - please DELETE at the end\n\nFrom Beth:  - do they need to do advanced r skills lesson?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#contribution-statement-and-licence",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#contribution-statement-and-licence",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Contribution statement and licence",
+    "text": "Contribution statement and licence\nCreator: Waterfield, Elizabeth ( 0009-0006-3725-6730\nReviewer: von Grebmer zu Wolfsthurn, Sarah ( 0000-0002-6413-3895)\nAcknowledgments: Middleton, Sara Lil ( orcid)\n \n\nThis work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.\nInstructor Notes: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner’s needs as well as anticipate challenges.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#preparation-for-collaboration-on-github",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#preparation-for-collaboration-on-github",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Preparation for Collaboration on GitHub",
+    "text": "Preparation for Collaboration on GitHub\nHow to create an account on GitHub\n\nGot to the GitHub website and click on Sign Up in the top-right corner.\nUse your email, create a Password, choose a unique username, and select the country.\nClick Create account and verify your email to finish signing up.\n\n\nSpeaker Notes: If you already have an account on GitHub, then great! Please sign in now. But if not, follow these steps to create one.\nInstructor Notes: Students should create their own GitHub account that they can continue using for future projects, not just for this lesson."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#covered-in-this-session",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#covered-in-this-session",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Covered in this session",
+    "text": "Covered in this session\n\n\nGitHub Workflow\nFork a Repo\nClone a Repo\nCommit to a Project\nPush Changes\nPull Request\nMerge Changes\nPull Upstream\n\n\n\nSpeaker Notes: This session will be an introduction on how to navigate GitHub and the language (coding) used to communicate with GitHub using your RStudio terminal. What follows are essentially commands you can use to collaborate with others on projects by accessing the files, making changes without affecting anyone else’s progress, keeping your work updated, and more.\nInstructor Notes:  - Aim: To establish the core theoretical introduction of submodule topics.  - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#what-is-github-note-for-beth-check-for-repition",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#what-is-github-note-for-beth-check-for-repition",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "What is GitHub (***Note for Beth: Check for repition)",
+    "text": "What is GitHub (***Note for Beth: Check for repition)\nGitHub is an online platform that helps people store, share, and collaborate on projects using Git\n\n\n\n\n\nOn GitHub, you can:\n\nHost repositories online so teams can work from anywhere.\nTrack changes and keep project history.\nCollaborate through branches, commits, and pull requests.\nPromote openness, transparency, and reproducibility in research.\n\n\n\n\nSpeaker Notes:\nInstructor Notes: For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).  - Aim: Core theoretical introduction of submodule topic.  - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#what-is-collaborative-coding",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#what-is-collaborative-coding",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "What is collaborative coding?",
+    "text": "What is collaborative coding?\nCollaborative coding is the process of working together on the same code or project (like on GitHub) where everyone can contribute, review, and improve the work collectively.\n\n\n\n\n\nWith collaborative coding:\n\nMultiple people can work on different parts of the same project at once.\nGit and GitHub keep everyone’s work organized, merged, and tracked.\nThere’s more transparency and reproducibility in research projects.\n\n\n\n\nSpeaker Notes:\nInstructor Notes:"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#what-is-github",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#what-is-github",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\nGitHub is an online platform that helps people store, share, and collaborate on projects using Git.\n\n\n\n\n\nOn GitHub, you can:\n\nHost repositories online so teams can work from anywhere.\nTrack changes and keep project history.\nCollaborate through branches, commits, and pull requests.\nPromote openness, transparency, and reproducibility in research.\n\n\n\n\nSpeaker Notes:\nInstructor Notes: For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).  - Aim: Core theoretical introduction of submodule topic.  - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#fork-a-repo",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#fork-a-repo",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Fork a repo",
+    "text": "Fork a repo\nTo fork a repo means to copy a collaborator’s repo to your own remote GitHub account.\n\nEnables multiple contributors to work in parallel.\nMake changes without affecting the original project.\nProvides a personal workspace to test ideas.\n\n\nSpeaker Notes: The first step when you have access to your project repo to make your own copy of it to your GitHub account. To do this, fork the repo, which means to copy it so that you have your own version where you can host your changes to add back to the main repo later.  How does this contribute towards collaboration?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#clone-a-repo",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#clone-a-repo",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Clone a repo",
+    "text": "Clone a repo\nTo clone a repo means to copy the project files onto your local device, such as your personal computer.\n\nConnects your local work directly to the team’s online repo.\nMakes it easy to sync updates between teammates.\n\n\n\n\n\n\n\nImportant Difference\n\n\nWhen you fork the repo, a copy is made on your remote GitHub account. When you clone a repo, a copy is downloaded from GitHub onto your local device.\n\n\n\n\nSpeaker Notes: To work on your copy or version of the project, clone it to your personal device. When you clone the repo, it takes the project from GitHub and downloads it onto your personal device so now you would have an offline version of the project to work on.  How does this contribute towards collaboration?\nInstructor Notes: Both forking and cloning involve making copies of the repo but to different locations, so make this distinction clear. If there is any confusion, you can go back to the first diagram of the workflow to visualize the difference."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#commit-to-a-project",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#commit-to-a-project",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Commit to a project",
+    "text": "Commit to a project\nTo commit to a project means to save the file locally in your version control system.\n\nRecords progress in small and trackable steps\nLets others see exactly what was changed and why.\nMakes it possible to revert or review changes if something breaks.\n\n\nSpeaker Notes: A commit is like taking a snapshot of your project after you make changes. Each commit records what was changed, when, and by whom. You usually include a short message describing the update, for example, “Updated code for analysis,” and saves it in Git’s version history.  How does this contribute towards collaboration?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#push-changes",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#push-changes",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Push changes",
+    "text": "Push changes\nTo push changes means to upload your local commits from your local computer to the remote repository on GitHub.\n\nKeeps the online version of the project up to date.\nMakes your work visible to teammates in real time.\nEnables others to pull your latest edits and build on them.\n\n\nSpeaker Notes: The next step after making your changes and committing them is to push the changes you made from your local device onto the remote forked repository that is on your GitHub account.  How does this contribute towards collaboration?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-request",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-request",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Pull request",
+    "text": "Pull request\nTo make a pull request means to ask for your changes (from your fork or branch) to be reviewed and merged into the main project.\n\nCreates a space for discussion and code review before incorporating changes.\nEncourages feedback and peer learning\nMaintains project quality and consistency.\n\n\nSpeaker Notes: After pushing your changes to your remote repository, it’s just on your forked copy and not in the main project. You then need to make a pull request which is a request on GitHub for the changes you pushed to be reviewed and then incorporated into the main project (merged).  How does this contribute towards collaboration?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#merge-changes",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#merge-changes",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Merge changes",
+    "text": "Merge changes\nTo merge changes means to combine updates from different branches or contributors into one unified version of the project.\n\nBrings everyone’s contributions together.\nEnsures new work integrates smoothly with the main branch.\nHelps resolve overlapping edits or conflicts between files.\n\n\nSpeaker Notes: Now that the changes have been made and you opened a pull request, the next step is for those changes to be reviewed and incorporated into the main branch. This is what is meant by “merge” because the contributions from the different collaborators are merged into the one project that everyone is working on.  How does this contribute towards collaboration?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-upstream",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-upstream",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Pull upstream",
+    "text": "Pull upstream\nTo pull upstream means to update your local or forked repository with the latest changes from the original (upstream) repository.\n\nKeeps your local copy aligned with the main project’s progress.\nPrevents outdated or conflicting edits when working in teams.\nEncourages synchronization across all contributors.\n\n\nSpeaker Notes: Even after you pushed your changes and it was merged into the main branch, the project may still be ongoing or your local and remote copied repositories may not have the contributions from the other collaborators. This is why you should pull upstream to update your local or forked repository with the latest changes from the original repo.  How does this contribute towards collaboration?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-fork-a-repo",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-fork-a-repo",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "How to fork a repo",
+    "text": "How to fork a repo"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-clone-a-repo",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-clone-a-repo",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "How to clone a repo",
+    "text": "How to clone a repo"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#creating-a-workflow-using-github",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#creating-a-workflow-using-github",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Creating a workflow using GitHub",
+    "text": "Creating a workflow using GitHub\n\nWhat’s going on here?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 1",
+    "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nInstructor Notes:  - Practical exercises on topic  - Aim: practical exercises for students to apply the new skills in practise. Each submodule topic will include corresponding Tasks- adopting a “learn by doing” approach.  - Depending on the topic, the exercises should be in accordance with the learning objective(s).  - It’s useful to have exercises directly after a topic is taught to reinforce what was learnt.  - For students who advance faster: Prepare extra exercises or redirect them to resources that provide advanced activities."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#creating-a-workflow-with-github",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#creating-a-workflow-with-github",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Creating a workflow with GitHub",
+    "text": "Creating a workflow with GitHub\nWhat a workflow using GitHub can look like:\n\n\nSpeaker Notes: Here’s what a typical workflow using GitHub looks like:  - Start with a central repository that contains the shared project files.  - Fork the repository to create your own copy on GitHub.  - Clone your fork to your local computer so you can work offline.  - Make changes locally and commit them to track your progress. \n- Push your commits to your fork on GitHub without affecting anyone else’s work. \n- Pull updates from the main branch regularly to keep your copy up to date. \n- When your changes are ready, open a pull request so they can be reviewed and merged into the main branch.\nInstructor Notes: Students with no prior knowledge in GitHub may not know what any of these terms mean but this is a helpful introduction to how the different actions on GitHub come together to create a workflow and would help students make the connection between them as they follow along in this session to learn them. This image will be shown again at the end so students can have a chance to view the diagram with a clearer understanding of what the terms mean."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-merge-changes",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-merge-changes",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "How to merge changes",
+    "text": "How to merge changes\n\nSpeaker Notes:\nInstructor Notes: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#recap",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#recap",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Recap",
+    "text": "Recap\n\nFork a repo: make your own copy on GitHub\nClone the repo: bring it to your local computer\nCommit: make changes locally\nPush: upload those changes to your fork on GitHub\nPull request: propose those changes to the main/original repo\nMerge: the project owner merges your pull request into the main branch\nPull upstream: after the merge, you pull the updated main branch from the original repo to sync your local copy"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 3",
+    "text": "Practical exercise 3\nCommit to a project"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-4",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-4",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 4",
+    "text": "Practical exercise 4\nPush changes"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 5",
+    "text": "Practical exercise 5\nPull request"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 6",
+    "text": "Practical exercise 6\nPull upstream"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical Exercise 2",
+    "text": "Practical Exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nFor students who advance faster: Prepare extra exercises."
   }
 ]

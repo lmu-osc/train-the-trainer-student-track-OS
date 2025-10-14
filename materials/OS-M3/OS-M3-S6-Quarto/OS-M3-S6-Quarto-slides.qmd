@@ -33,7 +33,7 @@ execute:
 
 ## Contribution statement and licence
 
-**Creator**: Waterfield, Elizabeth (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+**Creator**: Waterfield, Elizabeth (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730)
 
 **Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
 
@@ -578,15 +578,18 @@ The ChickWeight dataset in R is based on real experimental data.
 
 **Instructor Notes**: Aim: to understand and practice the specific format of a callout box and how it is useful. 
 :::
+
 ---
 
 ## Code chunks
 
-There are two ways to insert **code chunks**:
+There are multiple ways to insert **code chunks**:
+
+![](images/Code_Chunk.png) 
+
+- Simply click the green Insert Code Chunk button on the toolbar
 
 - Manually type 3 back ticks \`\`\` then {r} to start a coding chunk, enter your code, then end it with 3 back ticks
-
-OR
 
 - Use the keyboard shortcut Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac) to insert a code chunk then simply enter your code
 
@@ -1008,9 +1011,7 @@ What is **Zotero**? This is a free reference management tool to collect, organiz
 
 To insert a citation:
 
--   Open Zotero on your device
-
--   → Switch to the "Visual Editor" mode
+-   Switch to the "Visual Editor" mode
 
 -   → Add `bibliography: references.bib` in the YAML header
 
@@ -1020,7 +1021,7 @@ A reference list or bibliography is automatically generated at the end of the do
 
 ::: {.notes}
 **Speaker Notes**: <br>
-- To add citations in Quarto, you’ll need Zotero opened on your device. <br>
+- To add citations in Quarto, you’ll need Zotero installed on your device. <br>
 - Then, in RStudio, switch to the Visual Editor, which makes citation insertion easier. <br>
 - Make sure your YAML header includes `bibliography: references.bib` so Quarto knows where to look for your references. <br>
 - Then, simply go to the toolbar, click Insert → Citation, and you’ll be able to search your Zotero library directly. <br>
@@ -1052,7 +1053,7 @@ A reference list or bibliography is automatically generated at the end of the do
 - When you click "My Library," it mirrors what folders you've created in Zotero Library. This helps you navigate to the folder where the citation is stored. <br>
 - After inserting a citation once, you see what citation key is assigned to it for easier referencing later in the text. But the way the citation key is written is different for regular and in-text citations. 
 
-**Instructor Note**: The Zotero program needs to be open on the device for the "Zotero" option to show up in RStudio like it does in the image.
+**Instructor Note**: The Zotero program does not need to be open on the device for the "Zotero" option to show up in RStudio. But if it's not appearing like it does in the image, opening the program on the device may help.
 :::
 
 ---
@@ -1061,7 +1062,6 @@ A reference list or bibliography is automatically generated at the end of the do
 
 Let's practice adding a citation using **Zotero**.
 
-- [ ] Open Zotero on your device
 - [ ] Add `bibliography: references.bib` to your YAML header
 - [ ] [Follow this link to an article on diets and broiler chicks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819) 
 - [ ] Add the citation to your Zotero Library
