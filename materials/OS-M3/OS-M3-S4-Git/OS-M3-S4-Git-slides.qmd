@@ -13,8 +13,8 @@ format:
     geometry: 
       - top=30mm
       - left=30mm
-  pptx:
-    incremental: true 
+  #pptx:
+    #incremental: true 
     #reference-doc: template.pptx
 
 
@@ -29,11 +29,11 @@ execute:
 
 <br>
 
-**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+**Reviewer**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)orcid)
 
-**Consultant**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+**Consultant**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)orcid)
 
 <br>
 
@@ -575,6 +575,7 @@ Copy the contents of the output to your clipboard.
 - Hit the green ‘Add key’ button to save. Enter your GitHub password if prompted.
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/add-ssh-key.png){fig-align="center" width=600 fig-alt="Add SSH key"}
+
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
 **Instructor  Notes**: Add here.   
@@ -654,6 +655,7 @@ ssh -T git@github.com
 > Hi USERNAME! You've successfully authenticated, but GitHub does not
 > provide shell access.
 ```
+
 <br>
 <br>
 
