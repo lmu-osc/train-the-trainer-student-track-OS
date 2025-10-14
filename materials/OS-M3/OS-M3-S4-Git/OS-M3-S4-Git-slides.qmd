@@ -104,8 +104,7 @@ Any remaining questions about the most recent content and/or practical exercises
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
 **Instructor Notes**: <br>
-- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
-- Use free survey software such as particify or formR to establish the following questions (shown on separate slides).
+- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about version control and related concepts.
 :::
 
 ---
@@ -152,6 +151,14 @@ e. 5
 
 ## Discussion of survey results
 
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
+
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
 **Instructor Notes**: <br>
@@ -163,8 +170,20 @@ e. 5
 
 ## Where are we at?
 
-- **Aim**: Place the topic of the current submodule within a broader context.
-- Remind students what you are working towards and what the bigger picture is.
+**Previously**:
+
+-  Familiarization with the basics of R
+-  More advanced R skills: data manipulation, reshaping, functions, plotting etc.
+-  Using R for your own scientific work
+
+<div style="background-color: #f0f0f0;">
+**Up next**:
+
+- Enhancing reproducibility and accountability
+- Facilitating cross-discipline collaboration
+- Increasing transparency for validating and reproducing results
+</div>
+
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
@@ -193,7 +212,7 @@ e. 5
 
 - **Install** and **configure** Git 
 - **Set up** the connection between your computer and GitHub
-- **Create** an RStudio Project under version control
+- **Create** an RStudio Project under version control for a reproducible
 - **Make** changes within RStudio and **commit** changes locally
 - **Connect** local and remote repositories for your work
   
@@ -212,7 +231,7 @@ e. 5
 ## Key terms and definitions
 
 - **Reproducible workflows**: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools
-- **RStudio Project**: Way  to store all files related to one R project in one place (R scripts, files, workspace, history ..) 
+- **RStudio Project**: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..) 
 - **Version control**: System that records changes to files over time
 - **Git**: Version control system that tracks and manages changes to files and code
 - **GitHub**: Cloud-based version control platform for hosting Git repositories which includes collaboration features
@@ -285,7 +304,7 @@ To install Git on Windows:
 To install Git on MacOS: 
 
 - Download Git from [http://git-scm.com/downloads]( http://git-scm.com/downloads) 
-- Select  first option suggestsing to install git through installing homebrew
+- Select  first option suggesting to install git through installing homebrew
 - Paste the line of command provided in their instructions in your terminal
 - Accept the prompts appearing the terminal
 
@@ -300,7 +319,9 @@ To install Git on MacOS:
 
 To install Git on Ubuntu: 
 
-```text
+- Paste the following line into your terminal:
+
+```{text}
 sudo apt-get install git-core
 ```
 
@@ -315,9 +336,9 @@ sudo apt-get install git-core
 
 **Step 1**: By default, Git is used through the **command line** interface, but can be used through RStudio (later in this session).
 
-- **Windows**: Open Git Bash (start menu -> Git Bash)
-- **MacOS**: Open the Terminal app
-- **Linux**: Open your distribution’s terminal emulator
+- **Windows**: Open Git Bash (start menu > *Git Bash*)
+- **MacOS**: Open the *Terminal app*
+- **Linux**: Open your distribution’s *terminal emulator*
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -331,7 +352,7 @@ sudo apt-get install git-core
 
 **Step 2**: Next, enter the following commands with your email one after the other (hitting ENTER after each command):
 
-```text
+```{text}
 git config --global user.email "you@youremail.com"
 git config --global user.name "Your Name"
 ```
@@ -378,7 +399,7 @@ You need to identify yourself and your machine to GitHub before interacting with
 
 **Step 2**: Enter the following command to list the content of the ssh directory:
 
-```text
+```{text}
 ls ~/.ssh
 ```
 
@@ -393,7 +414,7 @@ ls ~/.ssh
 
 **Step 3**: If there are existing ssh keys, they are named one of the following: 
 
-```text
+```{text}
 id_rsa.pub
 id_ecdsa.pub
 id_ed25519.pub
@@ -411,11 +432,16 @@ If you already have an SSH key pair, you can skip the section on how to generate
 
 ## Generating a new SSH key pair
 
-**Step 1**: In the command line, type the following (replacing the email here with your *own* email) to create a new SSH key pair with your email as a label. 
+**Step 1**: In the command line, type the following (replacing the email here with your *own* email) to create a new SSH key pair with your email as a label:
 
-```text
+```{text}
 ssh-keygen -t ed25519 -C "your_email@email.com"
 ```
+
+::: {.callout-tip}
+Pay close attention to spacing and capital letters while typing. 
+:::
+
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -428,14 +454,10 @@ ssh-keygen -t ed25519 -C "your_email@email.com"
 
 **Step 2**: When prompted to *Enter a file in which to save key*, press ENTER to accept the default file location. That should give you this prompt:
 
-```text
+```{text}
 Generating public/private ed25519 key pair.  
 Enter file in which to save the key (/Users/username/.ssh/id_ed25519):
 ```
-
-::: {.callout-tip}
-Pay close attention to spacing and capital letters while typing. 
-:::
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -448,7 +470,7 @@ Pay close attention to spacing and capital letters while typing.
 
 **Step 3**: Next, you are asked to provide a passphrase in the terminal. Protecting your keys with a password is optional but highly recommended. Press ENTER after confirming your password. 
 
-```text
+```{text}
 Enter passphrase (empty for no passphrase):  
 Enter same passphrase again:
 ```
@@ -466,9 +488,10 @@ When you type passwords in the command line, **nothing** is displayed, you are h
 
 ## Generating a new SSH key pair
 
-**Step 4**: When the key generation is complete, you should see the following confirmation:
+**Step 4**: When the key generation is complete, you should see the  confirmation below. 
 
-```text
+
+```{.small-text}
 Your identification has been saved in /Users/username/.ssh/id_ed25519.
 Your public key has been saved in /Users/username/.ssh/id_ed25519.pub.
 The key fingerprint is:
@@ -487,9 +510,6 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-::: {.callout-note}
-Done! You have successfully **created your public SSH key**.
-:::
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -498,13 +518,27 @@ Done! You have successfully **created your public SSH key**.
 
 ---
 
+## Generating a new SSH key pair
+
+::: {.callout-note}
+**Done!** You have successfully **generated your public SSH key**.
+:::
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: ADD
+:::
+
+---
+
 ## Adding the SSH key to GitHub account
 
 **Step 1**: Tell GitHub about your new public key. In the terminal, please hit ENTER after typing: 
 
-```text
+```{text}
 cat ~/.ssh/id_ed25519.pub
 ```
+
 ::: {.callout-important}
 Be careful: do not copy the content of your *private* key, but your **public** key. Your public key ends with .pub.
 :::
@@ -519,7 +553,8 @@ Be careful: do not copy the content of your *private* key, but your **public** k
 ## Adding the SSH key to GitHub account
 
 **Step 2**: The output should be something like:
-```text
+
+```{text}
 # The output looks like this. The characters after ssh-ed25519 will be different for you, however.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm your_email@email.com
 ```
@@ -602,11 +637,13 @@ Depending on your system, the following might not be necessary. On most GNU/Linu
 
 **Step 1**: In the command line, start the ssh-agent with this command: 
 
-```text
+```{text}
 eval "$(ssh-agent -s)"
 ```
+
 This should give you this:
-```text
+
+```{text}
 Agent pid 59566
 ```
 
@@ -621,7 +658,7 @@ Agent pid 59566
 
 **Step 2**: Add your key to the ssh-agent by typing the entirety of this command:
 
-```text
+```{text}
 ssh-add ~/.ssh/id_ed25519
 ```
 
@@ -636,7 +673,7 @@ ssh-add ~/.ssh/id_ed25519
 
 **Step 1**: “Ask” GitHub at the command line if our connection is acceptable with the following code:
 
-```text
+```{text}
 ssh -T git@github.com
 ```
 
@@ -651,7 +688,7 @@ ssh -T git@github.com
 
 **Step 2**: When asked about *fingerprinting*, type *yes*, then press ENTER to receive this output: 
 
-```text
+```{text}
 > Hi USERNAME! You've successfully authenticated, but GitHub does not
 > provide shell access.
 ```
@@ -838,7 +875,7 @@ We will now generate a small project to practice version control on.
 <div style="text-align:center;">
   <a href="assets/example_data.csv" download>
     <button style="padding:10px 20px; border:none; border-radius:8px; background:#007ACC; color:white; font-size:20px; cursor:pointer;">
-      ⬇️ Download dataset (PDF)
+      ⬇️ Download dataset (.csv)
     </button>
   </a>
 </div>
@@ -855,7 +892,7 @@ We will now generate a small project to practice version control on.
 
 **Step 2**: Create a new R script *File -> New File -> R script* and save it as *myscript.R. Then add the  code below to your R script.
 
-```text
+```{text}
 mydata = read.csv("example_data.csv")
 plot(mydata$xdata,mydata$ydata)
 ```
@@ -955,7 +992,7 @@ Now we want to make some actual changes to practise using Git and to show how Gi
 
 **Step 1**: Add the following code to your existing R script
 
-```text
+```{text}
 # some guesses for the parameters.
 p1 = 1
 p2 = 0.2
@@ -984,13 +1021,13 @@ lines(new$xdata,predict(fit,newdata=new))
 
 Change the line
 
-```text
+```{text}
 plot(mydata$xdata,mydata$ydata)
 ```
 
 to 
 
-```text
+```{text}
 plot(mydata$xdata,mydata$ydata,col='red')
 ```
 
@@ -1144,7 +1181,7 @@ Select the **SSH** tab and make sure the  url shown in the blue box should start
 
 **Step 6**: Paste the git commands from your clipboard into the terminal and press enter to execute them. Insert your SSH key password if prompted or type 
 
-```text
+```{text}
 yes
 ```
 when a sentence about continuing to connect appears in the terminal.
@@ -1194,7 +1231,7 @@ A README file is a short document that explains what your R project is about and
 
 **Step 1**: In RStudio, click on *File > New File > Text File*. Add the following text to the file and save it as **Readme.md**:
 
-```text
+```{text}
 # My Example Repo
 
 This repo is used to demonstrate GitHub to users of R and R Studio.
@@ -1378,7 +1415,8 @@ When creating the new RStudio project, make sure to check “Create a git reposi
 - The final project pushed to GitHub (if possible) <br>
 
 Example code:
-```text
+
+```{text}
 data <- read.csv("data.csv")
 head(data)
 summary(data)

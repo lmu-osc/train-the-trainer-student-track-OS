@@ -32,21 +32,21 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#before-we-start-survey-time",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Before we start: Survey time!",
-    "text": "Before we start: Survey time!\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: The pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. - Use free survey software such as particify or formR to establish the following questions (shown on separate slides)."
+    "text": "Before we start: Survey time!\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: The pre-submodule survey serves to examine students’ prior knowledge about version control and related concepts."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim”: Briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers."
+    "text": "Discussion of survey results\n\n\nWhat do we see in the results?\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim”: Briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#where-are-we-at",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#where-are-we-at",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Where are we at?",
-    "text": "Where are we at?\n\nAim: Place the topic of the current submodule within a broader context.\nRemind students what you are working towards and what the bigger picture is.\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Place the topic of the current submodule within a broader context. - Remind students what you are working towards and what the bigger picture is."
+    "text": "Where are we at?\nPreviously:\n\nFamiliarization with the basics of R\nMore advanced R skills: data manipulation, reshaping, functions, plotting etc.\nUsing R for your own scientific work\n\n\nUp next:\n\nEnhancing reproducibility and accountability\nFacilitating cross-discipline collaboration\nIncreasing transparency for validating and reproducing results\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Place the topic of the current submodule within a broader context. - Remind students what you are working towards and what the bigger picture is."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#covered-in-this-session",
@@ -60,14 +60,14 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#learning-goals",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Learning goals",
-    "text": "Learning goals\n\nInstall and configure Git\nSet up the connection between your computer and GitHub\nCreate an RStudio Project under version control\nMake changes within RStudio and commit changes locally\nConnect local and remote repositories for your work\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956) - Place an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess. - Examples: - Students will describe the process of photosynthesis or - Students will construct a diagram illustrating the process of photosynthesis"
+    "text": "Learning goals\n\nInstall and configure Git\nSet up the connection between your computer and GitHub\nCreate an RStudio Project under version control for a reproducible\nMake changes within RStudio and commit changes locally\nConnect local and remote repositories for your work\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956) - Place an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess. - Examples: - Students will describe the process of photosynthesis or - Students will construct a diagram illustrating the process of photosynthesis"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#key-terms-and-definitions",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#key-terms-and-definitions",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Key terms and definitions",
-    "text": "Key terms and definitions\n\nReproducible workflows: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools\nRStudio Project: Way to store all files related to one R project in one place (R scripts, files, workspace, history ..)\nVersion control: System that records changes to files over time\nGit: Version control system that tracks and manages changes to files and code\nGitHub: Cloud-based version control platform for hosting Git repositories which includes collaboration features\nRepositories: Git terminology for a storage space for all project files tracked by Git\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson."
+    "text": "Key terms and definitions\n\nReproducible workflows: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools\nRStudio Project: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..)\nVersion control: System that records changes to files over time\nGit: Version control system that tracks and manages changes to files and code\nGitHub: Cloud-based version control platform for hosting Git repositories which includes collaboration features\nRepositories: Git terminology for a storage space for all project files tracked by Git\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#git-what-is-it",
@@ -102,28 +102,28 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git-macos",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Installing Git: MacOS",
-    "text": "Installing Git: MacOS\nTo install Git on MacOS:\n\nDownload Git from http://git-scm.com/downloads\nSelect first option suggestsing to install git through installing homebrew\nPaste the line of command provided in their instructions in your terminal\nAccept the prompts appearing the terminal\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Installing Git: MacOS\nTo install Git on MacOS:\n\nDownload Git from http://git-scm.com/downloads\nSelect first option suggesting to install git through installing homebrew\nPaste the line of command provided in their instructions in your terminal\nAccept the prompts appearing the terminal\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git-ubuntu",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#installing-git-ubuntu",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Installing Git: Ubuntu",
-    "text": "Installing Git: Ubuntu\nTo install Git on Ubuntu:\nsudo apt-get install git-core\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Installing Git: Ubuntu\nTo install Git on Ubuntu:\n\nPaste the following line into your terminal:\n\n\nsudo apt-get install git-core\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#configuring-git",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#configuring-git",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Configuring Git",
-    "text": "Configuring Git\nStep 1: By default, Git is used through the command line interface, but can be used through RStudio (later in this session).\n\nWindows: Open Git Bash (start menu -&gt; Git Bash)\nMacOS: Open the Terminal app\nLinux: Open your distribution’s terminal emulator\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Configuring Git\nStep 1: By default, Git is used through the command line interface, but can be used through RStudio (later in this session).\n\nWindows: Open Git Bash (start menu &gt; Git Bash)\nMacOS: Open the Terminal app\nLinux: Open your distribution’s terminal emulator\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#configuring-git-1",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#configuring-git-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Configuring Git",
-    "text": "Configuring Git\nStep 2: Next, enter the following commands with your email one after the other (hitting ENTER after each command):\ngit config --global user.email \"you@youremail.com\"\ngit config --global user.name \"Your Name\"\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
+    "text": "Configuring Git\nStep 2: Next, enter the following commands with your email one after the other (hitting ENTER after each command):\n\ngit config --global user.email \"you@youremail.com\"\ngit config --global user.name \"Your Name\"\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#securing-the-connection-between-your-computer-and-github",
@@ -144,56 +144,56 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#checking-for-existing-ssh-key-pair-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Checking for existing SSH key pair",
-    "text": "Checking for existing SSH key pair\nStep 2: Enter the following command to list the content of the ssh directory:\nls ~/.ssh\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
+    "text": "Checking for existing SSH key pair\nStep 2: Enter the following command to list the content of the ssh directory:\n\nls ~/.ssh\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#checking-for-existing-ssh-key-pair-2",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#checking-for-existing-ssh-key-pair-2",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Checking for existing SSH key pair",
-    "text": "Checking for existing SSH key pair\nStep 3: If there are existing ssh keys, they are named one of the following:\nid_rsa.pub\nid_ecdsa.pub\nid_ed25519.pub\n\n\n\n\n\n\nImportant\n\n\nIf you already have an SSH key pair, you can skip the section on how to generate a new SSH key pair. If you don’t have an existing public and private key pair (which is to be expected!), or if you receive an error that ~/.ssh doesn’t exist, that this file location doesn’t exist, or that you can’t access this folder, go ahead and generate a new SSH key pair.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
+    "text": "Checking for existing SSH key pair\nStep 3: If there are existing ssh keys, they are named one of the following:\n\nid_rsa.pub\nid_ecdsa.pub\nid_ed25519.pub\n\n\n\n\n\n\n\nImportant\n\n\nIf you already have an SSH key pair, you can skip the section on how to generate a new SSH key pair. If you don’t have an existing public and private key pair (which is to be expected!), or if you receive an error that ~/.ssh doesn’t exist, that this file location doesn’t exist, or that you can’t access this folder, go ahead and generate a new SSH key pair.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Generating a new SSH key pair",
-    "text": "Generating a new SSH key pair\nStep 1: In the command line, type the following (replacing the email here with your own email) to create a new SSH key pair with your email as a label.\nssh-keygen -t ed25519 -C \"your_email@email.com\"\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add."
+    "text": "Generating a new SSH key pair\nStep 1: In the command line, type the following (replacing the email here with your own email) to create a new SSH key pair with your email as a label:\n\nssh-keygen -t ed25519 -C \"your_email@email.com\"\n\n\n\n\n\n\n\nTip\n\n\nPay close attention to spacing and capital letters while typing.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair-1",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Generating a new SSH key pair",
-    "text": "Generating a new SSH key pair\nStep 2: When prompted to Enter a file in which to save key, press ENTER to accept the default file location. That should give you this prompt:\nGenerating public/private ed25519 key pair.  \nEnter file in which to save the key (/Users/username/.ssh/id_ed25519):\n\n\n\n\n\n\nTip\n\n\nPay close attention to spacing and capital letters while typing.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
+    "text": "Generating a new SSH key pair\nStep 2: When prompted to Enter a file in which to save key, press ENTER to accept the default file location. That should give you this prompt:\n\nGenerating public/private ed25519 key pair.  \nEnter file in which to save the key (/Users/username/.ssh/id_ed25519):\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair-2",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair-2",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Generating a new SSH key pair",
-    "text": "Generating a new SSH key pair\nStep 3: Next, you are asked to provide a passphrase in the terminal. Protecting your keys with a password is optional but highly recommended. Press ENTER after confirming your password.\nEnter passphrase (empty for no passphrase):  \nEnter same passphrase again:\n\n\n\n\n\n\nWarning\n\n\nWhen you type passwords in the command line, nothing is displayed, you are however still typing in the background.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
+    "text": "Generating a new SSH key pair\nStep 3: Next, you are asked to provide a passphrase in the terminal. Protecting your keys with a password is optional but highly recommended. Press ENTER after confirming your password.\n\nEnter passphrase (empty for no passphrase):  \nEnter same passphrase again:\n\n\n\n\n\n\n\nWarning\n\n\nWhen you type passwords in the command line, nothing is displayed, you are however still typing in the background.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair-3",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair-3",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Generating a new SSH key pair",
-    "text": "Generating a new SSH key pair\nStep 4: When the key generation is complete, you should see the following confirmation:\nYour identification has been saved in /Users/username/.ssh/id_ed25519.\nYour public key has been saved in /Users/username/.ssh/id_ed25519.pub.\nThe key fingerprint is:\nSHA256:6nr/zo0g7Bz7WMRwy34maBhQy1UZyX47gT+egRdlIhs your_email@email.com\nThe key's randomart image is:\n+--[ED25519 256]--+\n|    .o++         |\n|   o oF . o      |\n|  . o+ =.+.      |\n|   .  + += .     |\n|    .  +S++      |\n|   . ..oB=       |\n|    . ++*=.      |\n|     o.==* o     |\n|    .o.o+** .    |\n+----[SHA256]-----+\n\n\n\n\n\n\nNote\n\n\nDone! You have successfully created your public SSH key.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
+    "text": "Generating a new SSH key pair\nStep 4: When the key generation is complete, you should see the confirmation below.\nYour identification has been saved in /Users/username/.ssh/id_ed25519.\nYour public key has been saved in /Users/username/.ssh/id_ed25519.pub.\nThe key fingerprint is:\nSHA256:6nr/zo0g7Bz7WMRwy34maBhQy1UZyX47gT+egRdlIhs your_email@email.com\nThe key's randomart image is:\n+--[ED25519 256]--+\n|    .o++         |\n|   o oF . o      |\n|  . o+ =.+.      |\n|   .  + += .     |\n|    .  +S++      |\n|   . ..oB=       |\n|    . ++*=.      |\n|     o.==* o     |\n|    .o.o+** .    |\n+----[SHA256]-----+\n\nSpeaker Notes: Add script for slide here. Instructor Notes: On successful execution, students should see no output from these commands."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-the-ssh-key-to-github-account",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-the-ssh-key-to-github-account",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Adding the SSH key to GitHub account",
-    "text": "Adding the SSH key to GitHub account\nStep 1: Tell GitHub about your new public key. In the terminal, please hit ENTER after typing:\ncat ~/.ssh/id_ed25519.pub\n\n\n\n\n\n\nImportant\n\n\nBe careful: do not copy the content of your private key, but your public key. Your public key ends with .pub.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Adding the SSH key to GitHub account\nStep 1: Tell GitHub about your new public key. In the terminal, please hit ENTER after typing:\n\ncat ~/.ssh/id_ed25519.pub\n\n\n\n\n\n\n\nImportant\n\n\nBe careful: do not copy the content of your private key, but your public key. Your public key ends with .pub.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-the-ssh-key-to-github-account-1",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-the-ssh-key-to-github-account-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Adding the SSH key to GitHub account",
-    "text": "Adding the SSH key to GitHub account\nStep 2: The output should be something like:\n# The output looks like this. The characters after ssh-ed25519 will be different for you, however.\nssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm your_email@email.com\n\n\n\n\n\n\n\nWarning\n\n\nCopy the contents of the output to your clipboard.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Adding the SSH key to GitHub account\nStep 2: The output should be something like:\n\n# The output looks like this. The characters after ssh-ed25519 will be different for you, however.\nssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm your_email@email.com\n\n\n\n\n\n\n\n\nWarning\n\n\nCopy the contents of the output to your clipboard.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-the-ssh-key-to-github-account-2",
@@ -228,28 +228,28 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-the-ssh-key-to-ssh-agent-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Adding the SSH key to ssh-agent",
-    "text": "Adding the SSH key to ssh-agent\nStep 1: In the command line, start the ssh-agent with this command:\neval \"$(ssh-agent -s)\"\nThis should give you this:\nAgent pid 59566\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Adding the SSH key to ssh-agent\nStep 1: In the command line, start the ssh-agent with this command:\n\neval \"$(ssh-agent -s)\"\n\nThis should give you this:\n\nAgent pid 59566\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-the-ssh-key-to-ssh-agent-2",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-the-ssh-key-to-ssh-agent-2",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Adding the SSH key to ssh-agent",
-    "text": "Adding the SSH key to ssh-agent\nStep 2: Add your key to the ssh-agent by typing the entirety of this command:\nssh-add ~/.ssh/id_ed25519\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Adding the SSH key to ssh-agent\nStep 2: Add your key to the ssh-agent by typing the entirety of this command:\n\nssh-add ~/.ssh/id_ed25519\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#testing-the-github-connection",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#testing-the-github-connection",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Testing the GitHub connection",
-    "text": "Testing the GitHub connection\nStep 1: “Ask” GitHub at the command line if our connection is acceptable with the following code:\nssh -T git@github.com\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Testing the GitHub connection\nStep 1: “Ask” GitHub at the command line if our connection is acceptable with the following code:\n\nssh -T git@github.com\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#testing-the-github-connection-1",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#testing-the-github-connection-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Testing the GitHub connection",
-    "text": "Testing the GitHub connection\nStep 2: When asked about fingerprinting, type yes, then press ENTER to receive this output:\n&gt; Hi USERNAME! You've successfully authenticated, but GitHub does not\n&gt; provide shell access.\n \n\n\n\n\n\n\nImportant\n\n\nThis is it! You have set up a new SSH key pair and successfully let GitHub know your identity to connect your computer to your GitHub account. These steps will only have to be repeated when you change computers. Let the fun begin!\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Testing the GitHub connection\nStep 2: When asked about fingerprinting, type yes, then press ENTER to receive this output:\n\n&gt; Hi USERNAME! You've successfully authenticated, but GitHub does not\n&gt; provide shell access.\n\n \n\n\n\n\n\n\nImportant\n\n\nThis is it! You have set up a new SSH key pair and successfully let GitHub know your identity to connect your computer to your GitHub account. These steps will only have to be repeated when you change computers. Let the fun begin!\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#rstudio-projects-what-is-it",
@@ -291,14 +291,14 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#setting-up-a-small-practice-project",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Setting up a small practice project",
-    "text": "Setting up a small practice project\nWe will now generate a small project to practice version control on.\n\nStep 1: Download dataset to practice analyses on.\n\n  ⬇️ Download dataset (PDF)  \n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Setting up a small practice project\nWe will now generate a small project to practice version control on.\n\nStep 1: Download dataset to practice analyses on.\n\n  ⬇️ Download dataset (.csv)  \n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#setting-up-a-small-practice-project-1",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#setting-up-a-small-practice-project-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Setting up a small practice project",
-    "text": "Setting up a small practice project\nStep 2: Create a new R script File -&gt; New File -&gt; R script and save it as *myscript.R. Then add the code below to your R script.\nmydata = read.csv(\"example_data.csv\")\nplot(mydata$xdata,mydata$ydata)\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Setting up a small practice project\nStep 2: Create a new R script File -&gt; New File -&gt; R script and save it as *myscript.R. Then add the code below to your R script.\n\nmydata = read.csv(\"example_data.csv\")\nplot(mydata$xdata,mydata$ydata)\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#setting-up-a-small-practice-project-2",
@@ -347,14 +347,14 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#making-changes",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Making changes",
-    "text": "Making changes\nNow we want to make some actual changes to practise using Git and to show how Git handles modifications of files. \nStep 1: Add the following code to your existing R script\n# some guesses for the parameters.\np1 = 1\np2 = 0.2\n\n# do the fit\nfit = nls(ydata ~ p1*cos(p2*xdata) + p2*sin(p1*xdata), data = mydata, start = list(p1=p1,p2=p2))\n\n#Plot the fitted line\nnew = data.frame(xdata = seq(min(mydata$xdata),max(mydata$xdata),len=200))\nlines(new$xdata,predict(fit,newdata=new))\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Making changes\nNow we want to make some actual changes to practise using Git and to show how Git handles modifications of files. \nStep 1: Add the following code to your existing R script\n\n# some guesses for the parameters.\np1 = 1\np2 = 0.2\n\n# do the fit\nfit = nls(ydata ~ p1*cos(p2*xdata) + p2*sin(p1*xdata), data = mydata, start = list(p1=p1,p2=p2))\n\n#Plot the fitted line\nnew = data.frame(xdata = seq(min(mydata$xdata),max(mydata$xdata),len=200))\nlines(new$xdata,predict(fit,newdata=new))\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#making-changes-1",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#making-changes-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Making changes",
-    "text": "Making changes\nStep 2: Change the command that plots our data in this file.\n\nChange the line\nplot(mydata$xdata,mydata$ydata)\nto\nplot(mydata$xdata,mydata$ydata,col='red')\nand run this code.\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Making changes\nStep 2: Change the command that plots our data in this file.\n\nChange the line\n\nplot(mydata$xdata,mydata$ydata)\n\nto\n\nplot(mydata$xdata,mydata$ydata,col='red')\n\nand run this code.\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#making-changes-2",
@@ -2322,7 +2322,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#connecting-the-local-repository-to-github-5",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Connecting the local repository to GitHub",
-    "text": "Connecting the local repository to GitHub\nStep 6: Paste the git commands from your clipboard into the terminal and press enter to execute them. Insert your SSH key password if prompted or type\nyes\nwhen a sentence about continuing to connect appears in the terminal."
+    "text": "Connecting the local repository to GitHub\nStep 6: Paste the git commands from your clipboard into the terminal and press enter to execute them. Insert your SSH key password if prompted or type\n\nyes\n\nwhen a sentence about continuing to connect appears in the terminal."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#connecting-the-local-repository-to-github-6",
@@ -2350,7 +2350,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-a-readme-to-your-rstudio-project",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Adding a README to your RStudio Project",
-    "text": "Adding a README to your RStudio Project\nStep 1: In RStudio, click on File &gt; New File &gt; Text File. Add the following text to the file and save it as Readme.md:\n# My Example Repo\n\nThis repo is used to demonstrate GitHub to users of R and R Studio.\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Adding a README to your RStudio Project\nStep 1: In RStudio, click on File &gt; New File &gt; Text File. Add the following text to the file and save it as Readme.md:\n\n# My Example Repo\n\nThis repo is used to demonstrate GitHub to users of R and R Studio.\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#adding-a-readme-to-your-rstudio-project-1",
@@ -2413,7 +2413,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#assignment-practising-the-workflow-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Assignment: Practising the workflow",
-    "text": "Assignment: Practising the workflow\n\nCreate a new R script and write code to:\n\n\nread data\ninspect the data\nobtain summary statistics for the data\n\n\nStage and commit changes\nCreate a new repository on GitHub and connect it with your new local repository\nPush your changes to GitHub\nAdd a scatterplot to your code\nStage and commit your changes and push to GitHub\n\n\nSpeaker Notes: Script for the presentation here. Instructor Notes: Students should demonstrate:  - A working Git-enabled RStudio project  - A clear commit history showing each logical step  - The final project pushed to GitHub (if possible) \nExample code:\ndata &lt;- read.csv(\"data.csv\")\nhead(data)\nsummary(data)\nplot(data$xdata, data$ydata, \n     main = \"Simple Scatterplot\", \n     xlab = \"xdata\", \n     ylab = \"ydata\")"
+    "text": "Assignment: Practising the workflow\n\nCreate a new R script and write code to:\n\n\nread data\ninspect the data\nobtain summary statistics for the data\n\n\nStage and commit changes\nCreate a new repository on GitHub and connect it with your new local repository\nPush your changes to GitHub\nAdd a scatterplot to your code\nStage and commit your changes and push to GitHub\n\n\nSpeaker Notes: Script for the presentation here. Instructor Notes: Students should demonstrate:  - A working Git-enabled RStudio project  - A clear commit history showing each logical step  - The final project pushed to GitHub (if possible) \nExample code:\n\ndata &lt;- read.csv(\"data.csv\")\nhead(data)\nsummary(data)\nplot(data$xdata, data$ydata, \n     main = \"Simple Scatterplot\", \n     xlab = \"xdata\", \n     ylab = \"ydata\")"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#help-and-support",
@@ -2428,5 +2428,12 @@
     "title": "Introduction to version control with Git in RStudio",
     "section": "Contribution Statement",
     "text": "Contribution Statement\nPossible roles using the CRediT contribition system or the Zenodo Contribution System:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair-4",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#generating-a-new-ssh-key-pair-4",
+    "title": "Introduction to version control with Git in RStudio",
+    "section": "Generating a new SSH key pair",
+    "text": "Generating a new SSH key pair\n\n\n\n\n\n\nNote\n\n\nDone! You have successfully generated your public SSH key.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: ADD"
   }
 ]
