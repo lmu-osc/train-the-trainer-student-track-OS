@@ -35,11 +35,11 @@ execute:
 
 **Consultant**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)orcid)
 
-<br>
 
-<div style="font-size: 0.6em;">
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 0.6em;">
 This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle  is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
 </div>
+
 
 ::: {.notes}
 **Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
@@ -57,11 +57,16 @@ This work was originally created by [Mike Croucher ](https://github.com/mikecrou
 Before completing this submodule, please carefully read about the prerequisites.
 :::
 
+<br>
+
+<div style="font-size: 0.7em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| R | Introduction to R - Part I | Module + Submodule |
-| R | Introduction to R - Part II | Module + Submodule |
-| GitHub account | Free account for GitHub platform | Download from [https://github.com/join](https://github.com/join) |
+| Basic R skills | Introduction to R - Part I | Module + Submodule |
+| Advanced R skills | Introduction to R - Part II | Module + Submodule |
+| Basic Git | Git Introductory video | Watch video at [https://osf.io/dcqt9](https://osf.io/dcqt9) |
+| GitHub account | Free account for GitHub | Join at [https://github.com/join](https://github.com/join) |
+</div>
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
@@ -70,23 +75,16 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 ---
 
-## Introductory video
-
-Before starting this session, please watch the following video on OSF. [Click here to watch the video](https://osf.io/dcqt9){target="_blank"}.
-
-::: {.notes}
-**Speaker Notes**: Add script for slide here. 
-**Instructor  Notes**: Add here.  
-:::
-
----
-
 ## Questions from the previous submodule
 
-- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
-- Additional slides may need to be added depending on the nature of the homework assignments. 
-- Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. 
-- Not applicable if this set of slides corresponds to the first submodule of a new module. 
+<br>
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+Any remaining questions about the most recent content and/or practical exercises?
+
+</div>
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
@@ -100,6 +98,8 @@ Before starting this session, please watch the following video on OSF. [Click he
 ---
 
 ## Before we start: Survey time!
+
+![](images/01_QR_Code_Start_OS-M3-S4-Git.png){fig-align=center}
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
@@ -116,7 +116,7 @@ a. I have never heard of it before.
 
 b. I have heard of it but have never worked with it.
 
-c. I have basic understanding and experience with it.
+c. I have a basic understanding and  some experience with it.
 
 d. I am very familiar and have worked with it extensively.
 
