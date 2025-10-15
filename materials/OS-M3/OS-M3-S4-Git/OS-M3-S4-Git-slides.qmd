@@ -31,9 +31,12 @@ execute:
 
 **Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)orcid)
+**Reviewer**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
-**Consultant**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)orcid)
+**Consultant**: Middleton, Sara (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029))
+
+<br>
+<br>
 
 
 <div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 0.6em;">
@@ -62,8 +65,8 @@ Before completing this submodule, please carefully read about the prerequisites.
 <div style="font-size: 0.7em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| Basic R skills | Introduction to R - Part I | Module + Submodule |
-| Advanced R skills | Introduction to R - Part II | Module + Submodule |
+| Basic R skills | 3.2 Introduction to R - Part I | LINK |
+| Advanced R skills | 3.3 Introduction to R - Part II | LINK |
 | Basic Git | Git Introductory video | Watch video at [https://osf.io/dcqt9](https://osf.io/dcqt9) |
 | GitHub account | Free account for GitHub | Join at [https://github.com/join](https://github.com/join) |
 </div>
@@ -99,7 +102,7 @@ Any remaining questions about the most recent content and/or practical exercises
 
 ## Before we start: Survey time!
 
-![](images/01_QR_Code_Start_OS-M3-S4-Git.png){fig-align=center}
+![Select the starting survey option!](images/01_QR_Code_Start_OS-M3-S4-Git.png){fig-align=center}
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
@@ -194,20 +197,6 @@ What do we see in the results?
 
 ---
 
-## Covered in this session
-
-- Installing and configuring Git
-- Version control with Git from within RStudio
-- Reproducible workflows with RStudio Projects
-- Backing up your work on the GitHub server
-
-::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: ADD here. 
-:::
-
----
-
 ## Learning goals
 
 - **Install** and **configure** Git 
@@ -265,6 +254,8 @@ What do we see in the results?
 - Allows multiple people to **collaborate** on the same project
 - Collaborators can **share** repositories, code etc. and ask for **feedback**, initiate discussions and point out bugs and issues
 - GitHub **stores** all files remotely, making it accessible from anywhere
+
+![](images/05_GitHub_logo.png){fig-align=center}
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -707,11 +698,15 @@ This is it! You have set up a new SSH key pair and successfully let GitHub know 
 
 ---
 
-## RECAP: Setting up Git and GitHub
+## RECAP: Setting up Git
 
 **What have we done so far?**
 
-ADDD
+- Installed Git ✅
+- Configured Git ✅
+- Secureed a connection between PC and GitHub via SSH key pair ✅
+- Added SSH key pair to GitHub account ✅
+- Tested the connection between your machine and GitHub ✅
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -724,7 +719,7 @@ ADDD
 
 Brief check-in: **Your Turn!**
 
-ADDD QR CODE AND LINKS
+![Select the prebreak survey option!](images/02_QR_Code_Prebreak_OS-M3-S4-Git.png){fig-align=center}
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here.
@@ -777,6 +772,14 @@ d. To enable GitHub to edit our files directly on our computer
 
 ## Post-break survey discussion
 
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
+
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
@@ -821,7 +824,7 @@ d. To enable GitHub to edit our files directly on our computer
 **Step 2**: In the New Project Wizard screen, click on **New project**:
 
 
-![](assets/01_create_new_Rproject.png){fig-align="center"}
+![](images/04_create_new_Rproject.png){fig-align="center"}
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -1111,7 +1114,7 @@ By default, the history search feature will show all files added, changed, or de
 
 ## Connecting the local repository to GitHub
 
-The project is under version control. Time to create a new GitHub repository and upload to GitHub!
+The project is now under version control. Time to create a **new GitHub repository** and **upload** to GitHub!
 
 <br>
 
@@ -1308,12 +1311,12 @@ This repo is used to demonstrate GitHub to users of R and R Studio.
 
 **What have we done so far?**
 
-- We created an RStudio Project in a local repository
-- We created files for the project (code, downloaded data etc.)
-- Added version control to our project in the local repository
-- Made changes and commit these changes locally
-- Connected the local repository with a remote repository
-- Synchronised ( = *pushed* ) the local changes to the remote repository
+- Created an RStudio Project in a local repository ✅
+- Created files for the project (code, downloaded data etc.) ✅
+- Added version control to our project in the local repository ✅
+- Made changes and commit these changes locally ✅
+- Connected the local repository with a remote repository ✅
+- Synchronised ( = *pushed* ) the local changes to the remote repository ✅
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -1343,7 +1346,6 @@ Once you have brought your local repository under version control and connected 
 
 ## Why is version control important and useful?
 
-
 - **Tracks** every change in your R project and acts as a “time machine” for your code/files
 
 - **Makes mistakes easy to fix** because you can revert to earlier versions anytime
@@ -1364,10 +1366,10 @@ Once you have brought your local repository under version control and connected 
 
 ## Assignment: Practising the workflow
 
-1. In a new local folder, create a new RStudio Project named **git_practice**.
+- [ ]  In a new local folder, create a new RStudio Project named **git_practice**.
 
 
-2. Download the practise_data.csv file and save it in your project folder
+- [ ]  Download the practise_data.csv file and save it in your project folder
 
 <div style="text-align:center;">
   <a href="assets/practise_data.csv" download>
@@ -1376,6 +1378,8 @@ Once you have brought your local repository under version control and connected 
     </button>
   </a>
 </div>
+
+This is a dataset containing the number of athletes that participated in the Summer Olympics over the years. 
 
 ::: {.callout-tip}
 When creating the new RStudio project, make sure to check “Create a git repository”.
@@ -1395,16 +1399,15 @@ When creating the new RStudio project, make sure to check “Create a git reposi
 
 ## Assignment: Practising the workflow
 
-3. Create a new R script and write code to:
-- read data
-- inspect the data
-- obtain summary statistics for the data
+- [ ]  Create a new R script and write code to read in data, inspect the data and plot the number of athletes over time
+- [ ] Stage and commit changes
+- [ ] Create a new repository on GitHub and connect it with your new local repository
+- [ ] Push your changes to GitHub
 
-4. Stage and commit changes
-5. Create a new repository on GitHub and connect it with your new local repository
-6. Push your changes to GitHub
-7. Add a scatterplot to your code
-8. Stage and commit your changes and push to GitHub
+
+::: {.callout-tip}
+For the plot, use geom_line() to plot the number of athletes at the Summer Olympics over the years.
+:::
 
 
 ::: {.notes}
@@ -1413,6 +1416,16 @@ When creating the new RStudio project, make sure to check “Create a git reposi
 - A working Git-enabled RStudio project <br>
 - A clear commit history showing each logical step <br>
 - The final project pushed to GitHub (if possible) <br>
+- Example code:
+ggplot(athletes, aes(x = Year, y = Athletes)) +
+  geom_line(color = "blue", size = 1) +
+  geom_point(color = "red", size = 2) +
+  labs(
+    title = "Number of Athletes in the Summer Olympics",
+    x = "Year",
+    y = "Athletes"
+  ) +
+  theme_minimal()
 
 Example code:
 
@@ -1428,7 +1441,6 @@ plot(data$xdata, data$ydata,
 ```
 
 :::
-
 
 ---
 
@@ -1452,6 +1464,7 @@ It is all about practise until you develop a routine - keep practising!
 
 ## To conclude: Survey time!
 
+![Select the finishing survey option!](images/03_QR_Code_Finish_OS-M3-S4-Git.png){fig-align=center}
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
@@ -1460,18 +1473,6 @@ It is all about practise until you develop a routine - keep practising!
 - Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
 - Use identical questions as in the pre-submodule survey to be able to directly compare
 :::
-
----
-
-**What is your level of familiarity with version control?**
-
-a. I have never heard of it before.
-
-b. I have heard of it but have never worked with it.
-
-c. I have basic understanding and experience with it.
-
-d. I am very familiar and have worked with it extensively.
 
 ---
 
@@ -1485,7 +1486,7 @@ c. Repositories
 
 d. RStudio Project
 
-e. I am not sure about any of these concepts.
+e. I am (still) not sure about any of these concepts.
 
 ---
 
@@ -1505,6 +1506,14 @@ e. 5
 
 ## Discussion of survey results
 
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results and how do they compare to the previous ratings?
+
+</div>
+
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
 **Instructor Notes**: <br>
@@ -1518,8 +1527,8 @@ e. 5
 
 If you get stuck, there is plently of help available:
 
-- [**Using Git with RStudio**](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html) for an introductory overview
-- [**Git Guides on staging and committing**](https://github.com/git-guides/git-commit) for an overview of the workflow
+- [Using Git with RStudio](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html) for an introductory overview
+- [Git Guides on staging and committing](https://github.com/git-guides/git-commit) for an overview of the workflow
 - [Git and GitHub learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources) for free interactive courses built in GitHub
 - [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) featuring tips on installation, setup, staging, committing and pushing
 - [The LMU OSC RStudio/Git tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/updates.html) for similar exercises and advanced materials
@@ -1532,7 +1541,7 @@ If you get stuck, there is plently of help available:
 ---
 
 # Thanks! <br>
-See you next class :)
+Ready for the next session? 😊
 
 ---
 

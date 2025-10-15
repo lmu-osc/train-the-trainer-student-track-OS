@@ -4,14 +4,14 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#contribution-statement-and-licence",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Contribution statement and licence",
-    "text": "Contribution statement and licence\n\nCreator: Von Grebmer zu Wolfsthurn, Sarah (0000-0002-6413-3895)\nReviewer: Name, first name (orcid)\nConsultant: Name, first name (orcid)\n\nThis work was originally created by Mike Croucher under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International License. It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes: There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
+    "text": "Contribution statement and licence\n\nCreator: Von Grebmer zu Wolfsthurn, Sarah (0000-0002-6413-3895)\nReviewer: Ihle, Malika (0000-0002-3242-5981)\nConsultant: Middleton, Sara (0000-0001-5307-8029)\n \n\nThis work was originally created by Mike Croucher under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International License. It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes: There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#prerequisites",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#prerequisites",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Prerequisites",
-    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this submodule, please carefully read about the prerequisites.\n\n\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nBasic R skills\nIntroduction to R - Part I\nModule + Submodule\n\n\nAdvanced R skills\nIntroduction to R - Part II\nModule + Submodule\n\n\nBasic Git\nGit Introductory video\nWatch video at https://osf.io/dcqt9\n\n\nGitHub account\nFree account for GitHub\nJoin at https://github.com/join\n\n\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead."
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this submodule, please carefully read about the prerequisites.\n\n\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nBasic R skills\n3.2 Introduction to R - Part I\nLINK\n\n\nAdvanced R skills\n3.3 Introduction to R - Part II\nLINK\n\n\nBasic Git\nGit Introductory video\nWatch video at https://osf.io/dcqt9\n\n\nGitHub account\nFree account for GitHub\nJoin at https://github.com/join\n\n\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#introductory-video",
@@ -32,7 +32,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#before-we-start-survey-time",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Before we start: Survey time!",
-    "text": "Before we start: Survey time!\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: The pre-submodule survey serves to examine students’ prior knowledge about version control and related concepts."
+    "text": "Before we start: Survey time!\n\nSelect the starting survey option!\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: The pre-submodule survey serves to examine students’ prior knowledge about version control and related concepts."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results",
@@ -81,7 +81,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#github-what-is-it",
     "title": "Introduction to version control with Git in RStudio",
     "section": "GitHub: What is it?",
-    "text": "GitHub: What is it?\nGitHub is a cloud-based version control platform that uses Git to track changes an hosts Git repositories.\n\nAllows multiple people to collaborate on the same project\nCollaborators can share repositories, code etc. and ask for feedback, initiate discussions and point out bugs and issues\nGitHub stores all files remotely, making it accessible from anywhere\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "GitHub: What is it?\nGitHub is a cloud-based version control platform that uses Git to track changes an hosts Git repositories.\n\nAllows multiple people to collaborate on the same project\nCollaborators can share repositories, code etc. and ask for feedback, initiate discussions and point out bugs and issues\nGitHub stores all files remotely, making it accessible from anywhere\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#the-git---github-workflow",
@@ -389,7 +389,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#connecting-the-local-repository-to-github",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Connecting the local repository to GitHub",
-    "text": "Connecting the local repository to GitHub\nThe project is under version control. Time to create a new GitHub repository and upload to GitHub!\n\nStep 1: Log into GitHub and go to your profile page. On the repositories tab, click New.\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "Connecting the local repository to GitHub\nThe project is now under version control. Time to create a new GitHub repository and upload to GitHub!\n\nStep 1: Log into GitHub and go to your profile page. On the repositories tab, click New.\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#connecting-the-local-repository-to-github-1",
@@ -424,14 +424,14 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#pre-break-survey",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Pre-break survey",
-    "text": "Pre-break survey\nBrief check-in: Your Turn!\nADDD QR CODE AND LINKS\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule - Use free survey software such as particify or formR to establish the following questions (shown on separate slides)"
+    "text": "Pre-break survey\nBrief check-in: Your Turn!\n\nSelect the prebreak survey option!\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule - Use free survey software such as particify or formR to establish the following questions (shown on separate slides)"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#post-break-survey-discussion",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#post-break-survey-discussion",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Post-break survey discussion",
-    "text": "Post-break survey discussion\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: To clarify concepts and aspects that are not yet understood. Highlight specific answers given during the survey"
+    "text": "Post-break survey discussion\n\n\nWhat do we see in the results?\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: To clarify concepts and aspects that are not yet understood. Highlight specific answers given during the survey"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#practical-exercise-2",
@@ -466,14 +466,14 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#to-conclude-survey-time",
     "title": "Introduction to version control with Git in RStudio",
     "section": "To conclude: Survey time!",
-    "text": "To conclude: Survey time!\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic. - Use free survey software such as particify or formR to establish the following questions (shown on separate slides) - Use identical questions as in the pre-submodule survey to be able to directly compare"
+    "text": "To conclude: Survey time!\n\nSelect the finishing survey option!\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic. - Use free survey software such as particify or formR to establish the following questions (shown on separate slides) - Use identical questions as in the pre-submodule survey to be able to directly compare"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results-1",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim”: Briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers."
+    "text": "Discussion of survey results\n\n\nWhat do we see in the results and how do they compare to the previous ratings?\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim”: Briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#references",
@@ -2336,7 +2336,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#recap-setting-up-git-and-github",
     "title": "Introduction to version control with Git in RStudio",
     "section": "RECAP: Setting up Git and GitHub",
-    "text": "RECAP: Setting up Git and GitHub\nWhat have we done so far?\nADDD\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "RECAP: Setting up Git and GitHub\nWhat have we done so far?\n\nInstalled Git\nConfigured Git\nSecureed a connection between your machine and GitHub via SSH key pair\nAdded SSH key pair to GitHub account\nTested the connection between your machine and GitHub\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#making-changes-adding-a-readme-to-your-rstudio-project",
@@ -2385,7 +2385,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#recap-version-control-in-rstudio-with-git",
     "title": "Introduction to version control with Git in RStudio",
     "section": "RECAP: Version control in RStudio with Git",
-    "text": "RECAP: Version control in RStudio with Git\nWhat have we done so far?\n\nWe created an RStudio Project in a local repository\nWe created files for the project (code, downloaded data etc.)\nAdded version control to our project in the local repository\nMade changes and commit these changes locally\nConnected the local repository with a remote repository\nSynchronised ( = pushed ) the local changes to the remote repository\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
+    "text": "RECAP: Version control in RStudio with Git\nWhat have we done so far?\n\nCreated an RStudio Project in a local repository ✅\nCreated files for the project (code, downloaded data etc.) ✅\nAdded version control to our project in the local repository ✅\nMade changes and commit these changes locally ✅\nConnected the local repository with a remote repository ✅\nSynchronised ( = pushed ) the local changes to the remote repository ✅\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#overview-the-gitgithub-workflow",
@@ -2406,14 +2406,14 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#assignment-practising-the-workflow",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Assignment: Practising the workflow",
-    "text": "Assignment: Practising the workflow\n\nIn a new local folder, create a new RStudio Project named git_practice.\nDownload the practise_data.csv file and save it in your project folder\n\n\n  ⬇️ Download dataset for the assignment  \n\n\n\n\n\n\n\nTip\n\n\nWhen creating the new RStudio project, make sure to check “Create a git repository”.\n\n\n\n\nSpeaker Notes: Script for the presentation here. Instructor Notes:  - Aim: Explain the homework assignment and the rationale behind the homework. - Examine whether/how it will be assessed - Mention scoring rubrics, if applicable - Design a peer-review system for assignments to place students in role of reviewer and author"
+    "text": "Assignment: Practising the workflow\n\nIn a new local folder, create a new RStudio Project named git_practice.\nDownload the practise_data.csv file and save it in your project folder\n\n\n  ⬇️ Download dataset for the assignment  \n\nThis is a dataset containing the number of athletes that participated in the Summer Olympics over the years.\n\n\n\n\n\n\nTip\n\n\nWhen creating the new RStudio project, make sure to check “Create a git repository”.\n\n\n\n\nSpeaker Notes: Script for the presentation here. Instructor Notes:  - Aim: Explain the homework assignment and the rationale behind the homework. - Examine whether/how it will be assessed - Mention scoring rubrics, if applicable - Design a peer-review system for assignments to place students in role of reviewer and author"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#assignment-practising-the-workflow-1",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#assignment-practising-the-workflow-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Assignment: Practising the workflow",
-    "text": "Assignment: Practising the workflow\n\nCreate a new R script and write code to:\n\n\nread data\ninspect the data\nobtain summary statistics for the data\n\n\nStage and commit changes\nCreate a new repository on GitHub and connect it with your new local repository\nPush your changes to GitHub\nAdd a scatterplot to your code\nStage and commit your changes and push to GitHub\n\n\nSpeaker Notes: Script for the presentation here. Instructor Notes: Students should demonstrate:  - A working Git-enabled RStudio project  - A clear commit history showing each logical step  - The final project pushed to GitHub (if possible) \nExample code:\n\ndata &lt;- read.csv(\"data.csv\")\nhead(data)\nsummary(data)\nplot(data$xdata, data$ydata, \n     main = \"Simple Scatterplot\", \n     xlab = \"xdata\", \n     ylab = \"ydata\")"
+    "text": "Assignment: Practising the workflow\n\nCreate a new R script and write code to read in data, inspect the data and plot the number of athletes over time\nStage and commit changes\nCreate a new repository on GitHub and connect it with your new local repository\nPush your changes to GitHub\n\n\n\n\n\n\n\nTip\n\n\nFor the plot, use geom_line() to plot the number of athletes at the Summer Olympics over the years.\n\n\n\n\nSpeaker Notes: Script for the presentation here. Instructor Notes: Students should demonstrate:  - A working Git-enabled RStudio project  - A clear commit history showing each logical step  - The final project pushed to GitHub (if possible)  - Example code: ggplot(athletes, aes(x = Year, y = Athletes)) + geom_line(color = “blue”, size = 1) + geom_point(color = “red”, size = 2) + labs( title = “Number of Athletes in the Summer Olympics”, x = “Year”, y = “Athletes” ) + theme_minimal()\nExample code:\n\ndata &lt;- read.csv(\"data.csv\")\nhead(data)\nsummary(data)\nplot(data$xdata, data$ydata, \n     main = \"Simple Scatterplot\", \n     xlab = \"xdata\", \n     ylab = \"ydata\")"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#help-and-support",
@@ -2435,5 +2435,12 @@
     "title": "Introduction to version control with Git in RStudio",
     "section": "Generating a new SSH key pair",
     "text": "Generating a new SSH key pair\n\n\n\n\n\n\nNote\n\n\nDone! You have successfully generated your public SSH key.\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: ADD"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#recap-setting-up-git",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#recap-setting-up-git",
+    "title": "Introduction to version control with Git in RStudio",
+    "section": "RECAP: Setting up Git",
+    "text": "RECAP: Setting up Git\nWhat have we done so far?\n\nInstalled Git ✅\nConfigured Git ✅\nSecureed a connection between PC and GitHub via SSH key pair ✅\nAdded SSH key pair to GitHub account ✅\nTested the connection between your machine and GitHub ✅\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add here."
   }
 ]
