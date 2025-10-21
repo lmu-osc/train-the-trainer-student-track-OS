@@ -34,11 +34,11 @@ execute:
 
 ## Contribution statement and licence
 
-**Creator**: Waterfield, Elizabeth (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730)
+**Creator**: Waterfield, Elizabeth (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730)
 
-**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Acknowledgments**: Middleton, Sara Lil (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+**Acknowledgments**: Middleton, Sara Lil (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0001-5307-8029 ](https://orcid.org/0000-0001-5307-8029))
 
 
 <br>
@@ -66,33 +66,21 @@ This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu W
 Before completing this submodule, please carefully read about the necessary prerequisites.
 :::
 
-<div style="font-size: 0.8em;"> 
-| Prerequisite   |  Description  | Link/Where to find it   |
+<div style="font-size: 0.6em;"> 
+| Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
 | Basic R skills | 3.2. Introduction to R - Part I |  Module 3.2. |
+| Advanced R skills | 3.3. Introduction to R - Part II|  Module 3.3. |
 | Basic Git skills | 3.4. Introduction version control (Git) with RStudio |  Module 3.4. |
+| RStudio | Version 2025.05.1+513 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
+| R | Version 4.4.3 or higher | [Download Link](https://www.r-project.org/) |
+| GitHub Account | Create a personal account on GitHub | [GitHub](github.com) |
 </div>
 
 ::: {.notes}
 **Speaker Notes**: Let us first take a look at these prerequisites. These are important to complete in order to fully understand what will be covered in this submodule. 
 
 **Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiariy with Git and that the audience has also completed that submodule. Finally, we assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines. 
-:::
-
----
-
-## Preparation for Collaboration on GitHub
-
-**How to create an account on GitHub**
-
-1. Got to the [GitHub website](https://github.com/) and click on *Sign Up* in the top-right corner.
-2. Use your email, create a Password, choose a unique username, and select the country.
-3. Click *Create account* and verify your email to finish signing up.
-
-::: {.notes}
-**Speaker Notes**: If you already have an account on GitHub, then great! Please sign in now. But if not, follow these steps to create one.
-
-**Instructor Notes**: Students should create their own GitHub account that they can continue using for future projects, not just for this lesson. 
 :::
 
 ---
@@ -387,14 +375,20 @@ How does this contribute towards collaboration?
 
 **Fork a repo**
 
-![](images/03_Fork_Exercise.png){width="70%"}
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/fork-button.png
+)
 
-- [ ] Go to the repo on GitHub
-- [ ] Click on "`Fork`" in the top-right toolbar 
+- [ ] Go to the repo on GitHub 
+- [ ] Click on "`Fork`" in the top-right toolbar
 
-![](images/04_Fork_Exercise.png){width="70%"}
+---
+
+## Practical exercise 1
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/create-fork.png){width="70%"}
 
 - [ ] Click on the green "`Create fork`" button at the bottom-right of the screen
+
 
 ::: {.notes}
 **Instructor Notes**: Provide students with the name or link to the repo created for this session. 
@@ -429,6 +423,81 @@ How does this contribute towards collaboration?
 
 **Clone a repo**
 
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/clone-button.png){width="60%"}
+
+- [ ] Click on the green `<> Code` button
+- [ ] Click on the `SSH` tab to get the URL
+- [ ] Copy the repository's URL
+
+---
+
+## Practical exercise 2
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/new-project.png){width="70%"}
+
+- [ ] In **RStudio**, open a New Project
+
+---
+
+## Practical exercise 2
+
+:::::: columns
+::: column
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/version-control-project.png){width="80%"}
+
+:::
+::: column
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/git-project.png){width="80%"}
+
+:::
+::: column
+
+- [ ] Select the `Version Control` option 
+
+:::
+::: column
+
+- [ ] Select the `Git` option
+
+:::
+::::::
+
+::: {.notes}
+**Speaker Notes**: What does this do?
+:::
+
+---
+
+## Practical exercise 2
+
+:::::: columns
+::: column
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/paste-url.png){width="90%"}
+:::
+:::column
+
+- [ ] Paste the URL of the GitHub repository under `Repository URL:`
+- [ ] Click `Create Project`
+
+:::
+::::::
+
+::: callout-important
+## New Folder
+
+Locate this Git repository in a new folder on your device so that each folder has its own Git database.
+:::
+
+---
+
+## Clone a repo
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/files-tab.png)
+
+Now, when you click on the `Files` tab in **RStudio**, you should see all the files from the GitHub repository that you cloned. 
 
 ---
 
