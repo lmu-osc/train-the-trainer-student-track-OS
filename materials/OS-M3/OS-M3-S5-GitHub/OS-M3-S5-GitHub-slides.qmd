@@ -503,7 +503,7 @@ Now, when you click on the `Files` tab in **RStudio**, you should see all the fi
 
 ## Commit to a project
 
-To **commit to a project** means to save the file locally in your version control system.
+To **commit to a project** means to save the file with the changes you made locally in your version control system.
 
 - Records progress in small and trackable steps
 - Lets others see exactly what was changed and why.
@@ -520,6 +520,35 @@ How does this contribute towards collaboration?
 ## Practical exercise 3
 
 **Commit to a project**
+
+Before you **commit**, you need to make some changes to the project.
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/copy-params_tmpl.png)
+
+- [ ] Select the specified file
+- [ ] Click `More` then `Copy...` to make a copy of this file
+- [ ] Enter a name for your copied file
+
+---
+
+## Practical exercise 3
+
+- [ ] Make changes to your copied file according to the instructions
+- [ ] Save your file
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/stage.png)
+
+- [ ] In the `Git` tab, tick the box next to *your copied file* to **stage** your file
+- [ ] Click `Commit` 
+
+---
+
+## Practical exercise 3
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/commit.png)
+
+- [ ] Add a comment in the `Commit message` box briefly describing the changes you made
+- [ ] Click `Commit`
 
 ---
 
@@ -541,6 +570,21 @@ How does this contribute towards collaboration?
 ## Practical exercise 4
 
 **Push changes**
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-rstudio.png)
+
+- [ ] In the `Git` tab, click `Push` to push your changes to GitHub
+- [ ] Enter your password
+
+---
+
+## Push changes
+
+If you successfully pushed your changes, you would see a pop up box like the one below:
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-github.png)
+
+You should see your new file in the GitHub repository when you refresh the page. 
 
 ---
 
@@ -652,6 +696,31 @@ How does this contribute towards collaboration?
 
 **Pull request**
 
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/pull-request-button.png)
+
+- [ ] On your **GitHub repository**, click on `Contribute`
+- [ ] Click on the green `Open pull request` button
+
+---
+
+## Practical exercise 5
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/create-pull-request.png)
+
+- [ ] Ensure the *base repository* is the original one and the *head repository* is your fork
+- [ ] Ensure your requested merge does not create any conflict (you will see a green "`✓ Able to merge`")
+
+---
+
+## Practical exercise 5
+
+- [ ] Add a title and a message describing your contributions/changes made
+- [ ] Click `Create pull request`
+
+You should see a conversation tab around your pull request in the original repository.
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/created-pull-request.png)
+
 ---
 
 ## Merge changes
@@ -672,11 +741,48 @@ How does this contribute towards collaboration?
 
 ## How to merge changes
 
+:::::: columns
+::: column
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/files-changed.png)
+
+:::
+::: column
+
+The owner of the repository will: 
+
+- Go to their `Pull requests` tab to inspect the changed files 
+- Ensure that the parameters were inputted correctly so as to not break down their code down the line
+
+:::
+::::::
+
 ::: {.notes}
 **Speaker Notes**:
 
 **Instructor Notes**: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own.
 :::
+
+---
+
+## How to merge changes
+
+:::::: columns
+::: column
+
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/comment-and-merge.png)
+
+:::
+::: column
+
+If everything looks fine, the owner will: 
+
+- Go back to the `Pull request` tab
+- Write a comment
+- Merge the **pull request** and **confirm the merge**
+
+:::
+::::::
 
 ---
 
@@ -699,6 +805,41 @@ How does this contribute towards collaboration?
 ## Practical exercise 6
 
 **Pull upstream**
+
+- [ ] In **RStudio**, go to the `Terminal` tab
+- [ ] Enter the following command: 
+
+```{markdown}
+git checkout main
+```
+
+<br>
+
+::: callout-note
+## `git checkout`
+
+You set the branch to the one you want to pull the modifications from. In this case, you want to pull the changes from the *main branch* of the *original repo* onto your *local copy*. 
+:::
+
+---
+
+## Practical exercise 6
+
+- [ ] In the **Terminal**, enter the command to pull the original repo and branch following this format: 
+
+```{markdown}
+git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+```
+
+Replace the original owner and original repository.
+
+![Here is an example.](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/command-line.png)
+
+---
+
+## Practical exercise 6
+
+- [ ] In **RStudio**, check the `Files` tab to make sure the new contributions are showing up
 
 ---
 

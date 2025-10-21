@@ -28,6 +28,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link rel="stylesheet" href="../../../slides-custom.css">
@@ -695,7 +761,7 @@ Elizabeth Waterfield
 </section>
 <section id="commit-to-a-project" class="slide level2">
 <h2>Commit to a project</h2>
-<p>To <strong>commit to a project</strong> means to save the file locally in your version control system.</p>
+<p>To <strong>commit to a project</strong> means to save the file with the changes you made locally in your version control system.</p>
 <ul>
 <li>Records progress in small and trackable steps</li>
 <li>Lets others see exactly what was changed and why.</li>
@@ -718,6 +784,33 @@ Elizabeth Waterfield
 <section id="practical-exercise-3" class="slide level2">
 <h2>Practical exercise 3</h2>
 <p><strong>Commit to a project</strong></p>
+<p>Before you <strong>commit</strong>, you need to make some changes to the project.</p>
+
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/copy-params_tmpl.png" class="r-stretch"><ul class="task-list">
+<li><label><input type="checkbox">Select the specified file</label></li>
+<li><label><input type="checkbox">Click <code>More</code> then <code>Copy...</code> to make a copy of this file</label></li>
+<li><label><input type="checkbox">Enter a name for your copied file</label></li>
+</ul>
+</section>
+<section id="practical-exercise-3-1" class="slide level2">
+<h2>Practical exercise 3</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Make changes to your copied file according to the instructions</label></li>
+<li><label><input type="checkbox">Save your file</label></li>
+</ul>
+
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/stage.png" class="r-stretch"><ul class="task-list">
+<li><label><input type="checkbox">In the <code>Git</code> tab, tick the box next to <em>your copied file</em> to <strong>stage</strong> your file</label></li>
+<li><label><input type="checkbox">Click <code>Commit</code></label></li>
+</ul>
+</section>
+<section id="practical-exercise-3-2" class="slide level2">
+<h2>Practical exercise 3</h2>
+
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/commit.png" class="r-stretch"><ul class="task-list">
+<li><label><input type="checkbox">Add a comment in the <code>Commit message</code> box briefly describing the changes you made</label></li>
+<li><label><input type="checkbox">Click <code>Commit</code></label></li>
+</ul>
 </section>
 <section id="push-changes" class="slide level2">
 <h2>Push changes</h2>
@@ -744,6 +837,17 @@ Elizabeth Waterfield
 <section id="practical-exercise-4" class="slide level2">
 <h2>Practical exercise 4</h2>
 <p><strong>Push changes</strong></p>
+
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-rstudio.png" class="r-stretch"><ul class="task-list">
+<li><label><input type="checkbox">In the <code>Git</code> tab, click <code>Push</code> to push your changes to GitHub</label></li>
+<li><label><input type="checkbox">Enter your password</label></li>
+</ul>
+</section>
+<section id="push-changes-1" class="slide level2">
+<h2>Push changes</h2>
+<p>If you successfully pushed your changes, you would see a pop up box like the one below:</p>
+
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-github.png" class="r-stretch"><p>You should see your new file in the GitHub repository when you refresh the page.</p>
 </section>
 <section id="pre-break-survey" class="slide level2">
 <h2>Pre-break survey</h2>
@@ -862,7 +966,29 @@ Elizabeth Waterfield
 <section id="practical-exercise-5" class="slide level2">
 <h2>Practical exercise 5</h2>
 <p><strong>Pull request</strong></p>
+
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/pull-request-button.png" class="r-stretch"><ul class="task-list">
+<li><label><input type="checkbox">On your <strong>GitHub repository</strong>, click on <code>Contribute</code></label></li>
+<li><label><input type="checkbox">Click on the green <code>Open pull request</code> button</label></li>
+</ul>
 </section>
+<section id="practical-exercise-5-1" class="slide level2">
+<h2>Practical exercise 5</h2>
+
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/create-pull-request.png" class="r-stretch"><ul class="task-list">
+<li><label><input type="checkbox">Ensure the <em>base repository</em> is the original one and the <em>head repository</em> is your fork</label></li>
+<li><label><input type="checkbox">Ensure your requested merge does not create any conflict (you will see a green “<code>✓ Able to merge</code>”)</label></li>
+</ul>
+</section>
+<section id="practical-exercise-5-2" class="slide level2">
+<h2>Practical exercise 5</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Add a title and a message describing your contributions/changes made</label></li>
+<li><label><input type="checkbox">Click <code>Create pull request</code></label></li>
+</ul>
+<p>You should see a conversation tab around your pull request in the original repository.</p>
+
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/created-pull-request.png" class="r-stretch"></section>
 <section id="merge-changes" class="slide level2">
 <h2>Merge changes</h2>
 <p>To <strong>merge changes</strong> means to combine updates from different branches or contributors into one unified version of the project.</p>
@@ -887,6 +1013,16 @@ Elizabeth Waterfield
 </section>
 <section id="how-to-merge-changes" class="slide level2">
 <h2>How to merge changes</h2>
+<div class="columns">
+<div class="column">
+<p><img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/files-changed.png"></p>
+</div><div class="column">
+<p>The owner of the repository will:</p>
+<ul>
+<li>Go to their <code>Pull requests</code> tab to inspect the changed files</li>
+<li>Ensure that the parameters were inputted correctly so as to not break down their code down the line</li>
+</ul>
+</div></div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>:</p>
 <p><strong>Instructor Notes</strong>: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own.</p>
@@ -901,6 +1037,20 @@ Elizabeth Waterfield
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="how-to-merge-changes-1" class="slide level2">
+<h2>How to merge changes</h2>
+<div class="columns">
+<div class="column">
+<p><img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/comment-and-merge.png"></p>
+</div><div class="column">
+<p>If everything looks fine, the owner will:</p>
+<ul>
+<li>Go back to the <code>Pull request</code> tab</li>
+<li>Write a comment</li>
+<li>Merge the <strong>pull request</strong> and <strong>confirm the merge</strong></li>
+</ul>
+</div></div>
 </section>
 <section id="pull-upstream" class="slide level2">
 <h2>Pull upstream</h2>
@@ -927,6 +1077,44 @@ Elizabeth Waterfield
 <section id="practical-exercise-6" class="slide level2">
 <h2>Practical exercise 6</h2>
 <p><strong>Pull upstream</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">In <strong>RStudio</strong>, go to the <code>Terminal</code> tab</label></li>
+<li><label><input type="checkbox">Enter the following command:</label></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a>git checkout main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p><br></p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><code>git checkout</code></strong></p>
+</div>
+<div class="callout-content">
+<p>You set the branch to the one you want to pull the modifications from. In this case, you want to pull the changes from the <em>main branch</em> of the <em>original repo</em> onto your <em>local copy</em>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="practical-exercise-6-1" class="slide level2">
+<h2>Practical exercise 6</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">In the <strong>Terminal</strong>, enter the command to pull the original repo and branch following this format:</label></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a>git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Replace the original owner and original repository.</p>
+
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/command-line.png" class="r-stretch quarto-figure-center"><p class="caption">Here is an example.</p></section>
+<section id="practical-exercise-6-2" class="slide level2">
+<h2>Practical exercise 6</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">In <strong>RStudio</strong>, check the <code>Files</code> tab to make sure the new contributions are showing up</label></li>
+</ul>
 </section>
 <section id="recap" class="slide level2">
 <h2>Recap</h2>

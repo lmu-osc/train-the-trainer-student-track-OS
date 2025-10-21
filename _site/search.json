@@ -2302,14 +2302,14 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#commit-to-a-project",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Commit to a project",
-    "text": "Commit to a project\nTo commit to a project means to save the file locally in your version control system.\n\nRecords progress in small and trackable steps\nLets others see exactly what was changed and why.\nMakes it possible to revert or review changes if something breaks.\n\n\nSpeaker Notes: A commit is like taking a snapshot of your project after you make changes. Each commit records what was changed, when, and by whom. You usually include a short message describing the update, for example, “Updated code for analysis,” and saves it in Git’s version history.  How does this contribute towards collaboration?"
+    "text": "Commit to a project\nTo commit to a project means to save the file with the changes you made locally in your version control system.\n\nRecords progress in small and trackable steps\nLets others see exactly what was changed and why.\nMakes it possible to revert or review changes if something breaks.\n\n\nSpeaker Notes: A commit is like taking a snapshot of your project after you make changes. Each commit records what was changed, when, and by whom. You usually include a short message describing the update, for example, “Updated code for analysis,” and saves it in Git’s version history.  How does this contribute towards collaboration?"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Practical exercise 3",
-    "text": "Practical exercise 3\nCommit to a project"
+    "text": "Practical exercise 3\nCommit to a project\nBefore you commit, you need to make some changes to the project.\n\n\nSelect the specified file\nClick More then Copy... to make a copy of this file\nEnter a name for your copied file"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#push-changes",
@@ -2323,7 +2323,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-4",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Practical exercise 4",
-    "text": "Practical exercise 4\nPush changes"
+    "text": "Practical exercise 4\nPush changes\n\n\nIn the Git tab, click Push to push your changes to GitHub\nEnter your password"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-request",
@@ -2337,7 +2337,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Practical exercise 5",
-    "text": "Practical exercise 5\nPull request"
+    "text": "Practical exercise 5\nPull request\n\n\nOn your GitHub repository, click on Contribute\nClick on the green Open pull request button"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#merge-changes",
@@ -2351,7 +2351,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-merge-changes",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "How to merge changes",
-    "text": "How to merge changes\n\nSpeaker Notes:\nInstructor Notes: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own."
+    "text": "How to merge changes\n\n\n\n\nThe owner of the repository will:\n\nGo to their Pull requests tab to inspect the changed files\nEnsure that the parameters were inputted correctly so as to not break down their code down the line\n\n\n\nSpeaker Notes:\nInstructor Notes: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-upstream",
@@ -2365,7 +2365,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Practical exercise 6",
-    "text": "Practical exercise 6\nPull upstream"
+    "text": "Practical exercise 6\nPull upstream\n\nIn RStudio, go to the Terminal tab\nEnter the following command:\n\n\ngit checkout main\n\n\n\n\n\n\n\n\ngit checkout\n\n\nYou set the branch to the one you want to pull the modifications from. In this case, you want to pull the changes from the main branch of the original repo onto your local copy."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#recap",
@@ -2408,5 +2408,68 @@
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Clone a repo",
     "text": "Clone a repo\n\nNow, when you click on the Files tab in RStudio, you should see all the files from the GitHub repository that you cloned."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 3",
+    "text": "Practical exercise 3\n\nMake changes to your copied file according to the instructions\nSave your file\n\n\n\nIn the Git tab, tick the box next to your copied file to stage your file\nClick Commit"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-2",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-2",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 3",
+    "text": "Practical exercise 3\n\n\nAdd a comment in the Commit message box briefly describing the changes you made\nClick Commit"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#push-changes-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#push-changes-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Push changes",
+    "text": "Push changes\nIf you successfully pushed your changes, you would see a pop up box like the one below:\n\nYou should see your new file in the GitHub repository when you refresh the page."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 5",
+    "text": "Practical exercise 5\n\n\nEnsure the base repository is the original one and the head repository is your fork\nEnsure your requested merge does not create any conflict (you will see a green “✓ Able to merge”)"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-2",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-2",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 5",
+    "text": "Practical exercise 5\n\nAdd a title and a message describing your contributions/changes made\nClick Create pull request\n\nYou should see a conversation tab around your pull request in the original repository."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-merge-changes-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-merge-changes-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "How to merge changes",
+    "text": "How to merge changes\n\n\n\n\nIf everything looks fine, the owner will:\n\nGo back to the Pull request tab\nWrite a comment\nMerge the pull request and confirm the merge"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#main-branch",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#main-branch",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Main Branch",
+    "text": "Main Branch\nYou set the branch to the one you want to pull the modifications from. In this case, you want to pull the changes from the main branch of the original repository onto your local copy."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 6",
+    "text": "Practical exercise 6\n\nIn the Terminal, enter the command to pull the original repo and branch following this format:\n\n\ngit pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git\n\nReplace the original owner and original repository.\n\nHere is an example."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-2",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-2",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 6",
+    "text": "Practical exercise 6\n\nIn RStudio, check the Files tab to make sure the new contributions are showing up"
   }
 ]
