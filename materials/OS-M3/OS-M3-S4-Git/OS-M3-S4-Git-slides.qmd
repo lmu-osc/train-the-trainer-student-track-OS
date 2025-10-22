@@ -105,9 +105,11 @@ Any remaining questions about the most recent content and/or practical exercises
 ![Select the starting survey option!](images/01_QR_Code_Start_OS-M3-S4-Git.png){fig-align=center}
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
+**Speaker Notes**: First, I would like to find out more about how familiar you are with different concepts we will touch upon later. Please scan the QR code and select the starting survey for now. 
+
+
 **Instructor Notes**: <br>
-- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about version control and related concepts.
+- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting. 
 :::
 
 ---
@@ -163,10 +165,10 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
+**Speaker Notes**: Let us have a look at these results. 
 **Instructor Notes**: <br>
-- **Aim"**: Briefly examine the answers given to each question interactively with the group.
-- Use visuals from the survey to highlight specific answers.
+- **Aim"**: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers.
+**Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
 :::
 
 ---
@@ -182,14 +184,15 @@ What do we see in the results?
 <div style="background-color: #f0f0f0;">
 **Up next**:
 
-- Enhancing reproducibility and accountability
-- Facilitating cross-discipline collaboration
+- Enhancing reproducibility and our own responsibility
+- Facilitating collaboration
 - Increasing transparency for validating and reproducing results
 </div>
 
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
+**Speaker Notes**: In the previous two sessions, we have familiarised ourselves with R and RStudio. We have learned what we can use R for and we tested some features of R in RStudio, such as data manipulation, reshaping, functions, plotting etc. Next, what we want to use this session is once again use these skills within RStudio, but with a stronger focus on enhancing the reproducibility of our work. We also want to increase our own responsibility for the steps we are taking within the research process. We will start to learn about tools that can help us to facilitate collaboration across different parties and maybe even disciplines, and we will put a special focus on being transparent in every step so that our methods and decision making process is clear to others that come across our work. 
+
 **Instructor Notes**: <br>
 - **Aim**: Place the topic of the current submodule within a broader context.
 - Remind students what you are working towards and what the bigger picture is.
@@ -206,13 +209,11 @@ What do we see in the results?
 - **Connect** local and remote repositories for your work
   
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
+**Speaker Notes**: In this session, we will focus on the following elements. Do not worry if these terms sound unfamiliar to you at this point, we will go through each step one by one.  
 **Instructor Notes**: <br>
 - **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
 - Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-- Examples: 
-  - Students will **describe** the process of photosynthesis or
-  - Students will **construct** a diagram illustrating the process of photosynthesis
+
 :::
 
 ---

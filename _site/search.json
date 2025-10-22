@@ -32,21 +32,21 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#before-we-start-survey-time",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Before we start: Survey time!",
-    "text": "Before we start: Survey time!\n\nSelect the starting survey option!\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: The pre-submodule survey serves to examine students’ prior knowledge about version control and related concepts."
+    "text": "Before we start: Survey time!\n\nSelect the starting survey option!\nSpeaker Notes: First, I would like to find out more about how familiar you are with different concepts we will touch upon later. Please scan the QR code and select the starting survey for now.\nInstructor Notes:  - Aim: The pre-submodule survey serves to examine students’ prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#discussion-of-survey-results",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\n\n\nWhat do we see in the results?\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim”: Briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers."
+    "text": "Discussion of survey results\n\n\nWhat do we see in the results?\n\n\nSpeaker Notes: Let us have a look at these results. Instructor Notes:  - Aim”: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers. Accessibility Tip: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#where-are-we-at",
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#where-are-we-at",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Where are we at?",
-    "text": "Where are we at?\nPreviously:\n\nFamiliarization with the basics of R\nMore advanced R skills: data manipulation, reshaping, functions, plotting etc.\nUsing R for your own scientific work\n\n\nUp next:\n\nEnhancing reproducibility and accountability\nFacilitating cross-discipline collaboration\nIncreasing transparency for validating and reproducing results\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Place the topic of the current submodule within a broader context. - Remind students what you are working towards and what the bigger picture is."
+    "text": "Where are we at?\nPreviously:\n\nFamiliarization with the basics of R\nMore advanced R skills: data manipulation, reshaping, functions, plotting etc.\nUsing R for your own scientific work\n\n\nUp next:\n\nEnhancing reproducibility and our own responsibility\nFacilitating collaboration\nIncreasing transparency for validating and reproducing results\n\n\n\nSpeaker Notes: In the previous two sessions, we have familiarised ourselves with R and RStudio. We have learned what we can use R for and we tested some features of R in RStudio, such as data manipulation, reshaping, functions, plotting etc. Next, what we want to use this session is once again use these skills within RStudio, but with a stronger focus on enhancing the reproducibility of our work. We also want to increase our own responsibility for the steps we are taking within the research process. We will start to learn about tools that can help us to facilitate collaboration across different parties and maybe even disciplines, and we will put a special focus on being transparent in every step so that our methods and decision making process is clear to others that come across our work.\nInstructor Notes:  - Aim: Place the topic of the current submodule within a broader context. - Remind students what you are working towards and what the bigger picture is."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#covered-in-this-session",
@@ -60,7 +60,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#learning-goals",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Learning goals",
-    "text": "Learning goals\n\nInstall and configure Git\nSet up the connection between your computer and GitHub\nCreate an RStudio Project under version control for a reproducible\nMake changes within RStudio and commit changes locally\nConnect local and remote repositories for your work\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956) - Place an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess. - Examples: - Students will describe the process of photosynthesis or - Students will construct a diagram illustrating the process of photosynthesis"
+    "text": "Learning goals\n\nInstall and configure Git\nSet up the connection between your computer and GitHub\nCreate an RStudio Project under version control for a reproducible\nMake changes within RStudio and commit changes locally\nConnect local and remote repositories for your work\n\n\nSpeaker Notes: In this session, we will focus on the following elements. Do not worry if these terms sound unfamiliar to you at this point, we will go through each step one by one.\nInstructor Notes:  - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956) - Place an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#key-terms-and-definitions",
