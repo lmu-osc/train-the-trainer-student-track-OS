@@ -1273,7 +1273,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#questions-from-previous-submodule",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Questions from previous submodule",
-    "text": "Questions from previous submodule\n\nSpeaker Notes: Are there any questions from what was discussed during the last session? Are there any remaining thoughts or discussion points?\nInstructor Notes:  - Aim: clarify questions from the previous submodule and/or to discuss assignments. - Additional slides may need to be added depending on the nature of the homework assignments. - It is critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. - Not applicable if this set of slides corresponds to the first submodule of a new module."
+    "text": "Questions from previous submodule\n \n\nAny remaining questions about the most recent content and/or practical exercises?\n\n\nSpeaker Notes: Are there any questions from what was discussed during the last session? Are there any remaining thoughts or discussion points?\nInstructor Notes:  - Aim: clarify questions from the previous submodule and/or to discuss assignments. - Additional slides may need to be added depending on the nature of the homework assignments. - It is critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. - Not applicable if this set of slides corresponds to the first submodule of a new module."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#before-we-start-survey-time",
@@ -1287,21 +1287,21 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\nWhat can we take from this?\n\nSpeaker Notes: Looking at the results from this small survey, what can we take from this? There will be a similar post-submodule survey to examine understanding and learning progress.\nInstructor Notes:  - Aim: briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers. - Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
+    "text": "Discussion of survey results\n\n\nWhat do we see in the results?\n\n\nSpeaker Notes: Looking at the results from this small survey, what can we take from this? There will be a similar post-submodule survey to examine understanding and learning progress.\nInstructor Notes:  - Aim: briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers. - Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#where-are-we-at",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#where-are-we-at",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Where are we at?",
-    "text": "Where are we at?\nOpen Science builds a culture of transparency, collaboration, and reproducibility. \nGitHub contributes to this by allowing researchers to:\n\nShare their projects openly\nCollaborate remotely\nTrack changes\n\nGitHub offers a platform that enables transparent sharing, version control, and reproducible workflows. These are the core pillars of Open Science.\n\nSpeaker Notes:\nInstructor Notes:  - Aim: Place the topic of the current submodule within a broader context.  - Consider GitHub as a solution to some existing challenges in Open Research to remind students what they are working towards and what the bigger picture is."
+    "text": "Where are we at?\nPreviously:\n\nBasic and advanced R skills (data manipulation, plotting, etc.)\nIntroduction to version control using Git\n\n\nUp next:\n\nCollaborating on projects remotely\nTracking changes of each contributor\n\n\n\n\n\n\n\n\nWhy GitHub?\n\n\nGitHub offers a platform that enables transparent sharing, version control, and reproducible workflows. These are the core pillars of Open Science.\n\n\n\n\nSpeaker Notes: So far, you have built up your R skills from basic data handling to visualizations and learned the fundamentals of version control with Git. Next, we’re moving into how these tools come together for collaboration such as: working on projects remotely and tracking changes from multiple contributors.\nInstructor Notes:  - Aim: Place the topic of the current submodule within a broader context.  - Consider GitHub as a solution to some existing challenges in Open Research to remind students what they are working towards and what the bigger picture is."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#learning-goals",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#learning-goals",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Learning goals",
-    "text": "Learning goals\nAt the end of this session, you should be able to:\n\nNavigate GitHub to collaborate on shared projects.\nFork and clone repositories to work locally without altering the main branch.\nCommit, push, and pull changes to keep your project tracked and synchronized.\nDesign a collaborative workflow that enhances the openness and reproducibility of your research.\n\n\nSpeaker Notes:\nInstructor Notes:  - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)  - Emphasis is placed on the VERBS of the learning goals that align with the skills you want to develop or assess."
+    "text": "Learning goals\nAt the end of this session, you should be able to:\n\nNavigate GitHub to collaborate on shared projects.\nFork and clone repositories to work locally without altering the main branch.\nCommit, push, and pull changes to keep your project tracked and synchronized.\nDesign a collaborative workflow that enhances the openness and reproducibility of your research.\n\n\nSpeaker Notes: By the end of this session, you should feel confident navigating GitHub and using it for collaboration. You’ll learn how to fork and clone repositories to create local copies, commit and push your work, and pull updates from others to stay in sync. Finally, you’ll see how these actions build a workflow that supports open, transparent, and reproducible research.\nInstructor Notes:  - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)  - Emphasis is placed on the VERBS of the learning goals that align with the skills you want to develop or assess."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#key-terms-and-definitions",
@@ -1329,7 +1329,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Practical exercise 1",
-    "text": "Practical exercise 1\nFork a repo\n\n\nGo to the repo on GitHub\nClick on “Fork” in the top-right toolbar"
+    "text": "Practical exercise 1\n\n\nClick on the green “Create fork” button at the bottom-right of the screen\n\n\nInstructor Notes: Provide students with the name or link to the repo created for this session."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pre-break-survey",
@@ -1343,7 +1343,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#post-break-survey-discussion",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Post-break survey discussion",
-    "text": "Post-break survey discussion\n\nSpeaker Notes: Let’s discuss the survey answers and clarify any questions before moving on to the next section.\nInstructor Notes  - Aim: To clarify concepts and aspects that are not yet understood - Highlight specific answers given during the survey - Also, use this time to clarify any confusions or questions on specific topics students may have from the first part of the session."
+    "text": "Post-break survey discussion\n\n\nWhat do we see in the results?\n\n\nSpeaker Notes: Let’s discuss the survey answers and clarify any questions before moving on to the next section.\nInstructor Notes  - Aim: To clarify concepts and aspects that are not yet understood - Highlight specific answers given during the survey - Also, use this time to clarify any confusions or questions on specific topics students may have from the first part of the session."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2",
@@ -1364,7 +1364,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#take-home-message",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Take-home message",
-    "text": "Take-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message."
+    "text": "Take-home message\n \nConsider the following question:\n\nIf you had to explain to a new teammate why using GitHub for collaboration is valuable, what key ideas from today would you talk about?\n\n\nSpeaker Notes: Let’s think about a take-home message from today’s lesson. Take a few moments and consider the question on the slide and then let’s discuss it."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#assignment",
@@ -1385,14 +1385,14 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results-1",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\n\nSpeaker Notes: Now that you’ve completed both the pre- and post-module survey, let’s compare the results to see where we began and how we’ve made progress. This is also a good time to raise any concerns or clarify any concepts you may not have understood fully.\nInstructor Notes: Aim: Briefly examine the answers given to each question interactively with the group. Compare and highlight specific differences in answers between pre- and post-survey answers"
+    "text": "Discussion of survey results\n\n\nWhat do we see in the results and how do they compare to the previous ratings?\n\n\nSpeaker Notes: Now that you’ve completed both the pre- and post-module survey, let’s compare the results to see where we began and how we’ve made progress. This is also a good time to raise any concerns or clarify any concepts you may not have understood fully.\nInstructor Notes: Aim: Briefly examine the answers given to each question interactively with the group. Compare and highlight specific differences in answers between pre- and post-survey answers"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#references",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#references",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "References",
-    "text": "References\n\nLMU Open Science Center. (n.d.). Collaborative coding with GitHub and RStudio. Retrieved from"
+    "text": "References\n\nKrystalli, A. (2024). Collaborative coding with GitHub and RStudio. lmu-osc.github.io/Collaborative-RStudio-GitHub"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pedagogical-add-on-tools-for-instructors",
@@ -2246,7 +2246,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#contribution-statement-and-licence",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Contribution statement and licence",
-    "text": "Contribution statement and licence\nCreator: Waterfield, Elizabeth ( 0009-0006-3725-6730\nReviewer: von Grebmer zu Wolfsthurn, Sarah ( 0000-0002-6413-3895)\nAcknowledgments: Middleton, Sara Lil ( 0000-0001-5307-8029)\n \n\nThis work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.\nInstructor Notes: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner’s needs as well as anticipate challenges.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
+    "text": "Contribution statement and licence\nCreator: Waterfield, Elizabeth ( 0009-0006-3725-6730\nReviewer: von Grebmer zu Wolfsthurn, Sarah ( 0000-0002-6413-3895)\nConsultant: Middleton, Sara Lil ( 0000-0001-5307-8029)\n\n\nThis work was originally created by Anna Krystalli from RSE-Sheffield under a MIT licence (original repository). It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford, with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Sara Lil Middleton is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.\nInstructor Notes: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner’s needs as well as anticipate challenges.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#preparation-for-collaboration-on-github",
@@ -2274,7 +2274,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#what-is-collaborative-coding",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "What is collaborative coding?",
-    "text": "What is collaborative coding?\nCollaborative coding is the process of working together on the same code or project (like on GitHub) where everyone can contribute, review, and improve the work collectively.\n\n\n\n\n\nWith collaborative coding:\n\nMultiple people can work on different parts of the same project at once.\nGit and GitHub keep everyone’s work organized, merged, and tracked.\nThere’s more transparency and reproducibility in research projects.\n\n\n\n\nSpeaker Notes:\nInstructor Notes:"
+    "text": "What is collaborative coding?\nCollaborative coding is the process of working together on the same code or project (like on GitHub) where everyone can contribute, review, and improve the work collectively.\n\n\n\n\n\nWith collaborative coding:\n\nMultiple people can work on different parts of the same project at once.\nGit and GitHub keep everyone’s work organized, merged, and tracked.\nThere’s more transparency and reproducibility in research projects.\n\n\n\n\nSpeaker Notes: Collaborative coding means that a whole team can contribute to the same project in real time where everyone can edit, review, and improve the same code without overwriting each other’s work. Git and GitHub make this possible by keeping track of every change, merging updates smoothly, and maintaining transparency. This approach makes teamwork easier and strengthens openness and reproducibility in research.  As we go through the different actions you can do with your project files on GitHub, we’ll also discuss how it contributes towards a collaborative workflow."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#creating-a-workflow-with-github",
@@ -2288,21 +2288,21 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#fork-a-repo",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Fork a repo",
-    "text": "Fork a repo\nTo fork a repo means to copy a collaborator’s repo to your own remote GitHub account.\n\nEnables multiple contributors to work in parallel.\nMake changes without affecting the original project.\nProvides a personal workspace to test ideas.\n\n\nSpeaker Notes: The first step when you have access to your project repo to make your own copy of it to your GitHub account. To do this, fork the repo, which means to copy it so that you have your own version where you can host your changes to add back to the main repo later.  How does this contribute towards collaboration?"
+    "text": "Fork a repo\nTo fork a repo means to copy a collaborator’s repo to your own remote GitHub account.\n\nEnables multiple contributors to work in parallel.\nMake changes without affecting the original project.\nProvides a personal workspace to test ideas.\n\n\nSpeaker Notes: Now let’s go through each of the steps in the workflow and practice them. The first step is to make your own copy of the project repository to your GitHub account. To do this, you need to fork the repo, which means to copy it so that you have your own version where you can host your changes to send it with changes back to the main repository later.  How does this contribute towards collaboration? It enables multiple contributors to work on the project at the same time. The changes you make on your copy won’t affect the original project, so it becomes your personal workspace where you can freely test ideas ideas."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#clone-a-repo",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#clone-a-repo",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Clone a repo",
-    "text": "Clone a repo\nTo clone a repo means to copy the project files onto your local device, such as your personal computer.\n\nConnects your local work directly to the team’s online repo.\nMakes it easy to sync updates between teammates.\n\n\n\n\n\n\n\nImportant Difference\n\n\nWhen you fork the repo, a copy is made on your remote GitHub account. When you clone a repo, a copy is downloaded from GitHub onto your local device.\n\n\n\n\nSpeaker Notes: To work on your copy or version of the project, clone it to your personal device. When you clone the repo, it takes the project from GitHub and downloads it onto your personal device so now you would have an offline version of the project to work on.  How does this contribute towards collaboration?\nInstructor Notes: Both forking and cloning involve making copies of the repo but to different locations, so make this distinction clear. If there is any confusion, you can go back to the first diagram of the workflow to visualize the difference."
+    "text": "Clone a repo\nTo clone a repo means to copy the project files onto your local device, such as your personal computer.\n\nConnects your local work directly to the team’s online repository.\nMakes it easy to sync updates between contributors.\n\n\n\n\n\n\n\nImportant Difference\n\n\nWhen you fork the repo, a copy is made on your remote GitHub account. When you clone a repo, a copy is downloaded from GitHub onto your local device.\n\n\n\n\nSpeaker Notes: To work on your copy or version of the project, clone it to your personal device. When you clone the repo, it takes the project from GitHub and downloads it onto your personal device so now you would have an offline version of the project to work on.  How does this contribute towards collaboration? You can now have a copy of the project files on your local device that’s still connected to the online repository and it makes it easy to sync updates between contributors.\nInstructor Notes: Both forking and cloning involve making copies of the repo but to different locations, so make this distinction clear. If there is any confusion, you can go back to the first diagram of the workflow to visualize the difference."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#commit-to-a-project",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#commit-to-a-project",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Commit to a project",
-    "text": "Commit to a project\nTo commit to a project means to save the file with the changes you made locally in your version control system.\n\nRecords progress in small and trackable steps\nLets others see exactly what was changed and why.\nMakes it possible to revert or review changes if something breaks.\n\n\nSpeaker Notes: A commit is like taking a snapshot of your project after you make changes. Each commit records what was changed, when, and by whom. You usually include a short message describing the update, for example, “Updated code for analysis,” and saves it in Git’s version history.  How does this contribute towards collaboration?"
+    "text": "Commit to a project\nTo commit to a project means to save the file with the changes you made locally in your version control system.\n\nRecords progress in small and trackable steps.\nLets others see exactly what was changed.\nMakes it possible to revert or review changes if something breaks.\n\n\n\n\n\n\n\nAvoiding Conflicts\n\n\nCommits help with resolving conflicts because they create clear checkpoints in your project’s history. GitHub also offers GitHub issues as a communication tool to resolve conflicts.\n\n\n\n\nSpeaker Notes: A commit is like taking a snapshot of your project after you make changes. Each commit records what was changed, when, and by whom. You usually include a short message describing the update, for example, “Updated code for analysis,” and saves it in Git’s version history.  How does this contribute towards collaboration? Frequent commits records the progress of each contributor in small, trackable steps. It let’s others see what changes had been made. Frequent commits also make it possible to review changes if something breaks because now you can go back, review changes, and isolate problems to fix it."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3",
@@ -2316,7 +2316,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#push-changes",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Push changes",
-    "text": "Push changes\nTo push changes means to upload your local commits from your local computer to the remote repository on GitHub.\n\nKeeps the online version of the project up to date.\nMakes your work visible to teammates in real time.\nEnables others to pull your latest edits and build on them.\n\n\nSpeaker Notes: The next step after making your changes and committing them is to push the changes you made from your local device onto the remote forked repository that is on your GitHub account.  How does this contribute towards collaboration?"
+    "text": "Push changes\nTo push changes means to upload your local commits from your local computer to the remote repository on GitHub.\n\nKeeps the online version of the project up to date.\nMakes your work visible to all contributors in real time.\nEnables others to pull your latest edits and build on them.\n\n\nSpeaker Notes: The next step after making your changes and committing them is to push the changes you made from your local device onto the remote forked repository that is on your GitHub account.  How does this contribute towards collaboration? It keeps the online version of the project up to date with all the changes made and makes it visible to all the contributors. It also enables others working on the project to take your edits and build on them."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-4",
@@ -2330,7 +2330,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-request",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Pull request",
-    "text": "Pull request\nTo make a pull request means to ask for your changes (from your fork or branch) to be reviewed and merged into the main project.\n\nCreates a space for discussion and code review before incorporating changes.\nEncourages feedback and peer learning\nMaintains project quality and consistency.\n\n\nSpeaker Notes: After pushing your changes to your remote repository, it’s just on your forked copy and not in the main project. You then need to make a pull request which is a request on GitHub for the changes you pushed to be reviewed and then incorporated into the main project (merged).  How does this contribute towards collaboration?"
+    "text": "Pull request\nTo make a pull request means to ask for your changes (from your fork or branch) to be reviewed and merged into the main project.\n\nCreates a space for discussion and code review before incorporating changes.\nEncourages feedback and peer learning\nMaintains project quality and consistency.\n\n\nSpeaker Notes: After pushing your changes to your remote repository, it’s just on your forked copy and not in the main project. You then need to make a pull request which is a request on GitHub for the changes you pushed to be reviewed and then incorporated or merged into the main project.  How does this contribute towards collaboration? The changes can be reviewed and checked for error before making it a part of the main project. This allows for feedback, peer learning, and maintains levels of quality and consistency across the project files."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5",
@@ -2344,21 +2344,21 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#merge-changes",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Merge changes",
-    "text": "Merge changes\nTo merge changes means to combine updates from different branches or contributors into one unified version of the project.\n\nBrings everyone’s contributions together.\nEnsures new work integrates smoothly with the main branch.\nHelps resolve overlapping edits or conflicts between files.\n\n\nSpeaker Notes: Now that the changes have been made and you opened a pull request, the next step is for those changes to be reviewed and incorporated into the main branch. This is what is meant by “merge” because the contributions from the different collaborators are merged into the one project that everyone is working on.  How does this contribute towards collaboration?"
+    "text": "Merge changes\nTo merge changes means to combine updates from different branches or contributors into one unified version of the project.\n\nBrings everyone’s contributions together.\nEnsures new work integrates smoothly with the main branch.\nHelps resolve overlapping edits or conflicts between files.\n\n\nSpeaker Notes: Now that the changes have been made and you opened a pull request, the next step is for those changes to be reviewed and incorporated into the main branch. This is what is meant by “merge” because the contributions from the different collaborators are merged into the one project that everyone is working on.  How does this contribute towards collaboration? This brings the contributions together in one place, ensures new work integrates smoothly with the main branch, and will make overlapping edits or conflicts between files visible so you can go in and resolve them."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-merge-changes",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-merge-changes",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "How to merge changes",
-    "text": "How to merge changes\n\n\n\n\nThe owner of the repository will:\n\nGo to their Pull requests tab to inspect the changed files\nEnsure that the parameters were inputted correctly so as to not break down their code down the line\n\n\n\nSpeaker Notes:\nInstructor Notes: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own."
+    "text": "How to merge changes\n\n\n\n\nThe owner of the repository will:\n\nGo to their Pull requests tab to inspect the changed files\nEnsure that the parameters were inputted correctly so as to not break down their code down the line\n\n\n\nSpeaker Notes: Now we will have a live demonstration of how these pull requests are merged into the main repository. First, click on the “Pull requests” tab and inspect the files there. Take one and check that everything was done correctly so it’s ready to merge.\nInstructor Notes: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-upstream",
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-upstream",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Pull upstream",
-    "text": "Pull upstream\nTo pull upstream means to update your local or forked repository with the latest changes from the original (upstream) repository.\n\nKeeps your local copy aligned with the main project’s progress.\nPrevents outdated or conflicting edits when working in teams.\nEncourages synchronization across all contributors.\n\n\nSpeaker Notes: Even after you pushed your changes and it was merged into the main branch, the project may still be ongoing or your local and remote copied repositories may not have the contributions from the other collaborators. This is why you should pull upstream to update your local or forked repository with the latest changes from the original repo.  How does this contribute towards collaboration?"
+    "text": "Pull upstream\nTo pull upstream means to update your local or forked repository with the latest changes from the original (upstream) repository.\n\nKeeps your local copy aligned with the main project’s progress.\nPrevents outdated or conflicting edits when working in teams.\nEncourages synchronization across all contributors.\n\n\nSpeaker Notes: Even after you pushed your changes and it was merged into the main branch, the project may still be ongoing or your local and remote copied repositories may not have the contributions from the other collaborators. This is why you should pull upstream to update your local or forked repository with the latest changes from the original repo.  How does this contribute towards collaboration? Keeps your local copy updated with the changes in the main project, prevents outdated or conflicting edits, and synchronizes work across each contributor."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6",
@@ -2372,7 +2372,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#recap",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Recap",
-    "text": "Recap\n\nFork a repo: make your own copy on GitHub\nClone the repo: bring it to your local computer\nCommit: make changes locally\nPush: upload those changes to your fork on GitHub\nPull request: propose those changes to the main/original repo\nMerge: the project owner merges your pull request into the main branch\nPull upstream: after the merge, you pull the updated main branch from the original repo to sync your local copy"
+    "text": "Recap\nWhat did we learn in today’s lesson?\n\nFork a repo: make your own copy on GitHub\nClone the repo: bring it to your local computer\nCommit: make changes locally\nPush: upload those changes to your fork on GitHub\nPull request: propose those changes to the main/original repo\nMerge: the project owner merges your pull request into the main branch\nPull upstream: after the merge, you pull the updated main branch from the original repo to sync your local copy"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1-1",
@@ -2407,7 +2407,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#clone-a-repo-1",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Clone a repo",
-    "text": "Clone a repo\n\nNow, when you click on the Files tab in RStudio, you should see all the files from the GitHub repository that you cloned."
+    "text": "Clone a repo\n\nNow, when you click on the Files tab in RStudio, you should see all the files from the GitHub repository that you cloned.\n\nSpeaker Notes: And that’s it! You should now have the files of the project on your local device. Check this by clicking on the “Files” tab in RStudio and see that all the files from the project that’s on the GitHub repository is now showing up."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-1",
@@ -2428,7 +2428,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#push-changes-1",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Push changes",
-    "text": "Push changes\nIf you successfully pushed your changes, you would see a pop up box like the one below:\n\nYou should see your new file in the GitHub repository when you refresh the page."
+    "text": "Push changes\nIf you successfully pushed your changes, you would see a pop up box like the one below:\n\nYou should see your new file in the GitHub repository when you refresh the page.\n\nSpeaker Notes: If all went well, you will see a pop up box with a message like this one to let you know the changes were successfully pushed to the remote repository. An additional way to make sure your changes were pushed, refresh your GitHub repository webpage and check to see if the file you copied is now appearing."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-1",
@@ -2449,7 +2449,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-merge-changes-1",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "How to merge changes",
-    "text": "How to merge changes\n\n\n\n\nIf everything looks fine, the owner will:\n\nGo back to the Pull request tab\nWrite a comment\nMerge the pull request and confirm the merge"
+    "text": "How to merge changes\n\n\n\n\nIf everything looks fine, the owner will:\n\nGo back to the Pull request tab\nWrite a comment\nMerge the pull request and confirm the merge\n\n\n\nSpeaker Notes: If everything looks fine, go back to the “Pull request” tab, leave a comment (this is optional), and click on “Merge pull request” then “Confirm the merge”. And now that file that was inspected is now incorporated into the project files in main repository."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#main-branch",
@@ -2471,5 +2471,166 @@
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Practical exercise 6",
     "text": "Practical exercise 6\n\nIn RStudio, check the Files tab to make sure the new contributions are showing up"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#why-github-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#why-github-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Why GitHub?",
+    "text": "Why GitHub?\n\n\n\n\n\nOn GitHub, you can:\n\nHost repositories online so teams can work from anywhere.\nTrack changes and keep project history.\nCollaborate through branches, commits, and pull requests.\nPromote openness, transparency, and reproducibility in research.\n\n\n\n\nSpeaker Notes: GitHub is a collaborative hub for open and transparent research. It allows teams to host and share repositories online so everyone can contribute from anywhere. Using version control, you can track every change, review project history, and work safely in parallel through branches and pull requests. Ultimately, GitHub supports the core principles of Open Science: openness, transparency, and reproducibility.\nInstructor Notes: For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).  - Aim: Core theoretical introduction of submodule topic.  - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1-fork-a-repo",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1-fork-a-repo",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 1: Fork a repo",
+    "text": "Practical exercise 1: Fork a repo\n\n\nGo to the repo on GitHub\nClick on “Fork” in the top-right toolbar\n\n\nSpeaker Notes: Go to the main repository of the project we will be using for today. Find the toolbar at the top that is next to the name of the repository and click “Fork”.\nInstructor Notes: Provide students with the name or link to the repo created for this session."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1-fork-a-repo-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1-fork-a-repo-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 1: Fork a repo",
+    "text": "Practical exercise 1: Fork a repo\n\n\nClick on the green “Create fork” button at the bottom-right of the screen\n\n\nSpeaker Notes: It takes you to a new page where we will leave the default settings and just click the green “Create fork” button at the bottom.\nInstructor Notes:"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-clone-a-repo",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-clone-a-repo",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 2: Clone a repo",
+    "text": "Practical exercise 2: Clone a repo\n\n\nClick on the green &lt;&gt; Code button\nClick on the SSH tab to get the URL\nCopy the repository’s URL\n\n\nSpeaker Notes: Let’s practice this using the same test-repository. Now we are in our fork and need to find the green “Code button”. Once you find that, it will most likely be on the HTTPS tab so we need to click on the SSH tab and copy the URL given there."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-clone-a-repo-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-clone-a-repo-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 2: Clone a repo",
+    "text": "Practical exercise 2: Clone a repo\n\n\nIn RStudio, click File -&gt; New Project to open a new project\n\n\nSpeaker Notes: Now you need to open RStudio and open a new project by selecting “New Project” under the File menu."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-clone-a-repo-2",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-clone-a-repo-2",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 2: Clone a repo",
+    "text": "Practical exercise 2: Clone a repo\n\n\n\n\n\n\n\nSelect the Version Control option\n\n\n\nSelect the Git option\n\n\n\nSpeaker Notes: We need to select “Version Control” to connect RStudio directly to the GitHub repository and work with version-tracked code. Then, we select “Git” to clone the project directly from the GitHub repository."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-clone-a-repo-3",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2-clone-a-repo-3",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 2: Clone a repo",
+    "text": "Practical exercise 2: Clone a repo\n\n\n\n\n\nPaste the URL of the GitHub repository under Repository URL:\nClick Create Project\n\n\n\n\n\n\n\n\nNew Folder\n\n\nLocate this Git repository in a new folder on your device so that each folder has its own Git database.\n\n\n\n\nSpeaker Notes: Remember the URL we copied from the SSH tab? Now we need to paste it under “Repository URL”. If you’ve created a folder with a Git database for a previous lesson, make a new one for this. Each folder should have it’s own Git database. When you hit “Create Project” you’ll need to enter your password.\nInstructor Notes: If students are confused as to which password is required- it’s the password for their individual GitHub accounts."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#fork-a-repo-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#fork-a-repo-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Fork a repo",
+    "text": "Fork a repo\nYou will see the fork of the repository on your GitHub account.\n\n\nSpeaker Notes: When you click on the drop-down arrow next to “Fork” on the main repository, you will see your fork of the repository.\nInstructor Notes:"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-commit",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-commit",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 3: Commit",
+    "text": "Practical exercise 3: Commit\nBefore you commit to a project, you need to make some changes to the project.\n\n\nSelect the specified file\nClick More then Copy... to make a copy of this file\nEnter a name for your copied file\n\n\nSpeaker Notes: We’re still in RStudio. Click on the drop-down arrow by “More” and click “Copy”. You’ll be prompted to give the copied file a name/title, use something identifiable like including your first name.\nInstructor Notes: Copying the file and then editing the copied file is specific to this practice exercise. You do not always need to copy the file to then make changes to it, a project can require a contributor to make changes to the file directly."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-commit-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-commit-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 3: Commit",
+    "text": "Practical exercise 3: Commit\n\nMake changes to your copied file according to the instructions\nSave your file\n\n\n\nIn the Git tab, tick the box next to your copied file to stage your file\nClick Commit\n\n\nSpeaker Notes: Now open your copied file and follow the instructions to make your changes. After this, save the file as normal and tick the checkbox next to it under the “Staged” column. Then click the “Commit” button.\nInstructor Notes: It would be useful if there are clear instructions on what to do within the file itself."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-commit-2",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-commit-2",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 3: Commit",
+    "text": "Practical exercise 3: Commit\n\n\nAdd a comment in the Commit message box briefly describing the changes you made\nClick Commit\n\n\nSpeaker Notes: You should leave a message for your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Click the “Commit” button."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-4-push-changes",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-4-push-changes",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 4: Push changes",
+    "text": "Practical exercise 4: Push changes\n\n\nIn the Git tab, click Push to push your changes to GitHub\nEnter your password\n\n\nSpeaker Notes: To push the changes you just made to the file on your local device to your online fork on GitHub, you need to click the “Push” button in the Git tab. You’ll then need to enter your password again."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-pull-request",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-pull-request",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 5: Pull request",
+    "text": "Practical exercise 5: Pull request\n\n\nOn your GitHub repository, click on Contribute\nClick on the green Open pull request button\n\n\nSpeaker Notes: Now we’re working in the remote repository on GitHub. In your fork, click on “Contribute” and then the green “Open pull request” button."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-pull-request-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-pull-request-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 5: Pull request",
+    "text": "Practical exercise 5: Pull request\n\n\nEnsure the base repository is the original one and the head repository is your fork\nEnsure your requested merge does not create any conflict (you will see a green “✓ Able to merge”)\n\n\nSpeaker Notes: Check the settings to ensure the “base repository” is the original repository and the “head repository” is your fork. You should see a message in green saying “Able to merge” and this means that the request to merge does not create any conflict."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-pull-request-2",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-5-pull-request-2",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 5: Pull request",
+    "text": "Practical exercise 5: Pull request\n\nAdd a title and a message describing your contributions/changes made\nClick Create pull request\n\n\n\nYou should see a conversation tab around your pull request in the original repository.\n\n\nSpeaker Notes: Add a message describing the changes you made. Again, you can just state what you added. Now click “Create pull request”. In the original repository, you should now see a conversation tab around the “Pull request” button."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-pull-upstream",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-pull-upstream",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 6: Pull upstream",
+    "text": "Practical exercise 6: Pull upstream\n\nIn RStudio, go to the Terminal tab\nEnter the following command:\n\n\ngit checkout main\n\n\n\n\n\n\n\n\ngit checkout\n\n\nThis command sets the branch to the one you want to pull the modifications from. In this case, you want to pull the changes from the main branch of the original repo onto your local copy.\n\n\n\n\nSpeaker Notes: To pull upstream repository into your fork, you need to pull the original repository directly into your local repository, not to your remote fork. When the changes are pulled into your local copy, then you could push the changes to your remote fork.  To do this, we go back into RStudio and go to the “Terminal” tab. Enter the given git command."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-pull-upstream-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-pull-upstream-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 6: Pull upstream",
+    "text": "Practical exercise 6: Pull upstream\n\nIn the Terminal, enter the command to pull the original repo and branch following this format, replacing the original owner and original repository:\n\n\ngit pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git\n\n\nThis is an example.\nSpeaker Notes: Next, we type this command to pull the original repository and branch we wish to obtain locally. Follow the format but replace “ORIGINAL_OWNER” and “ORIGINAL_REPOSITORY”. Here’s an example of what it looks like when these two commands are executed successfully."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-pull-upstream-2",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-6-pull-upstream-2",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 6: Pull upstream",
+    "text": "Practical exercise 6: Pull upstream\n\nIn RStudio, check the Files tab to make sure the new contributions are showing up\nTo push this into your remote fork on GitHub, you can also do so by entering the following command into the terminal:\n\n\ngit push\n\n\n\nSpeaker Notes: The files that you pulled from the original repository should now be showing up in your “File” tab in RStudio, this means that they are now on your local copy. To also have them appear on your fork on GitHub you can push them using a simple Git command: git push. Enter this into the terminal to execute it."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#speaker-notes-next",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#speaker-notes-next",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Speaker Notes: Next,",
+    "text": "Speaker Notes: Next,"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-4-push",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-4-push",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Practical exercise 4: Push",
+    "text": "Practical exercise 4: Push\n\n\nIn the Git tab, click Push to push your changes to GitHub\nEnter your password\n\n\nSpeaker Notes: To push the changes you just made to the file on your local device to your online fork on GitHub, you need to click the “Push” button in the Git tab. You’ll then need to enter your password again."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#recap-activity",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#recap-activity",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Recap Activity",
+    "text": "Recap Activity\nRemember this illustration?\n\nFill in the missing words with the actions we learned today!"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#advantage-of-collaborative-coding-with-github",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#advantage-of-collaborative-coding-with-github",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Advantage of collaborative coding with GitHub",
+    "text": "Advantage of collaborative coding with GitHub\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#collaborative-coding-with-github",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#collaborative-coding-with-github",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Collaborative coding with GitHub",
+    "text": "Collaborative coding with GitHub\nHow is collaborative coding with GitHub useful?\n\nTrack changes, isolate mistakes, and review project history with version control.\nMultiple contributors can collaborate on a project without conflicts.\nHave a local copy of the project so it remains accessible from anywhere.\nShared repositories ensure that analyses, code, and results are reproducible and transparent.\n\n\nSpeaker Notes: Some of the ways collaborative coding using GitHub is useful.  - Version control means every change is tracked, so mistakes can be undone easily.  - It allows multiple people to work on the same project at once, even from different locations, without overwriting each other’s work. - By sharing code through repositories, others can reproduce your analyses and see exactly how results were produced. This strengthens both collaboration and scientific transparency.\nInstructor Notes: The aim of this slide is to work out the relevance of the topic to your students. In an interactive setting, discuss how the new skills could be applied in practise with specific examples. Examine downfalls and practical obstacles."
   }
 ]
