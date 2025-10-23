@@ -279,7 +279,7 @@ What do we see in the results?
 - **Track changes** to files across directories over time, seeing what was changed, when and by whom
 - **Collaborate** efficiently within a team as multiple people can work on the same directories
 
-![](images/06_Git_logo.png){fig-align=center width=10%}
+![](images/06_Git_logo.png){fig-align=center width=10% fig-alt="git logo"}
 
 ::: {.notes}
 **Speaker Notes**: Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.
@@ -297,7 +297,7 @@ What do we see in the results?
 - Collaborators can **share** repositories, code etc. and ask for **feedback**, initiate discussions and point out bugs and issues
 - GitHub **stores** all files remotely, making it accessible from anywhere
 
-![](images/05_GitHub_logo.png){fig-align=center width=30%}
+![](images/05_GitHub_logo.png){fig-align=center width=30% fig-alt="github logo"}
 
 ::: {.notes}
 **Speaker Notes**: GitHub is a cloud-based platform built on top of Git that facilitates version control and collaboration. It hosts Git repositories online, making it easy to share your code with others, contribute to open-source projects, and track issues or bugs. GitHub offers additional features like pull requests, which allow collaborators to propose changes to a project and review those changes before they are merged into the main codebase. It also provides tools for project management, documentation, and continuous integration, making it an essential tool for modern software development and collaboration.
@@ -737,7 +737,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm
 
 **Step 4**: continued
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/add-ssh-key.png){fig-align="center" width=600 fig-alt="Add SSH key"}
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/add-ssh-key.png){fig-align="center" width=600 fig-alt="Configure SSH key pair for PC"}
 
 ---
 
@@ -988,7 +988,7 @@ What do we see in the results?
 **Step 2**: In the New Project Wizard screen, click on **New project**:
 
 
-![](images/04_create_new_Rproject.png){fig-align="center"}
+![](images/04_create_new_Rproject.png){fig-align="center" fig-alt="new R project"}
 
 ::: {.notes}
 **Speaker Notes**: As a second step, in the New Project Wizard screen, click on **New project**. 
@@ -1123,7 +1123,7 @@ plot(mydata$xdata,mydata$ydata)
 
 **Step 3**: Our staged files are now ready for the first **commit**. Click on the **commit button**. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/commit.png){fig-align="center" width=500 fig-alt="Git commit"}
+![](images/08_Commit_RStudio.png){fig-align="center" width=500 fig-alt="Git commit"}
 
 
 ::: {.notes}
@@ -1138,7 +1138,7 @@ plot(mydata$xdata,mydata$ydata)
 
 **Step 4**: Specify a **commit message**, which is a brief description of the changes you made. For now, we will add the commit message  *First commit*. Then click on **Commit**. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/first_commit.png){fig-align="center" width=600 fig-alt="First commit"}
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/first_commit.png){fig-align="center" width=600 fig-alt="First git commit"}
 
 ::: {.notes}
 **Speaker Notes**: You want to specify what changes exactly you have made. This can be done via a *commit message*. Writing a good commit message is essential for keeping track of the changes you make to your project. Clear and concise commit messages help you and others understand the purpose of each change, making it easier to review or roll back changes later.
@@ -1248,7 +1248,7 @@ Click on the **git** tab in the top right corner. Two files appeared, the script
 **Step 1**: Click on the **staged** box to stage changes for the *first* script.
 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_changed.png){fig-align="center" width=600 fig-alt="git stage"}
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_changed.png){fig-align="center" width=600 fig-alt="git staging"}
 
 ::: {.notes}
 **Speaker Notes**: Now that you have clicked on the Git tab in the top right corner of RStudio, you should see two files listed: the script you just modified (e.g., myscript.R) and any new scripts that were added if you completed the optional exercise. For the script you modified first, click on the staged box next to it. This marks your changes as ready for the next step, which is committing the changes to your Git history. Do not stage the second script for now. Once you have staged your changes, you're all set to commit them and save a snapshot of your progress.
@@ -1384,6 +1384,7 @@ Once you have copied the commands, you can paste them into your terminal to comp
 ```{text}
 yes
 ```
+
 when a sentence about continuing to connect appears in the terminal.
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/first_push_confirm_identity.png){fig-align="center" width=200 fig-alt="Confirm connection with GitHub"}
@@ -1452,7 +1453,7 @@ Next, add the given text to the file and save the file.
 **Step 2**: In the **git** tab, you should see the new **Readme.md** file (and only that one!). Stage the file and press **commit**. 
 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/staged_readme.png){fig-align="center" width=200 fig-alt="Staged README file"}
+![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/staged_readme.png){fig-align="center" width=200 fig-alt="Stage README file"}
 
 ::: {.notes}
 **Speaker Notes**: In the **git** tab, you should see the new **Readme.md** file (and only that one!). Stage the file and press **commit**. 
