@@ -24,8 +24,29 @@ execute:
   engine: knitr
 ---
 
+## Licence
 
-## Contribution statement and licence
+<br>
+
+<p style="text-align:center;">
+  <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+</div>
+
+::: {.notes}
+**Speaker Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
+
+However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
+:::
+
+---
+
+## Contribution statement
 
 <br>
 
@@ -34,12 +55,6 @@ execute:
 **Reviewer**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 **Consultant**: Middleton, Sara (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029))
-
-
-<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 0.6em;">
-This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
-</div>
-
 
 ::: {.notes}
 **Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
@@ -50,6 +65,7 @@ This work was originally created by [Mike Croucher ](https://github.com/mikecrou
 :::
 
 ---
+
 
 ## Prerequisites
 
