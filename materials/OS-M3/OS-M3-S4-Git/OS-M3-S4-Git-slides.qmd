@@ -359,7 +359,7 @@ To install Git on Windows:
 
 - Download Git from [http://git-scm.com/downloads]( http://git-scm.com/downloads) 
 - Download and run .exe file
-- Accept all the default settings and keep clicking ‘next’
+- Accept all the default settings and keep clicking `Next`
 
 ::: {.notes}
 **Speaker Notes**: To install Git on Windows, first visit http://git-scm.com/downloads
@@ -474,7 +474,7 @@ Remember, once the SSH keys are set up, they streamline your workflow with GitHu
 
 **Step 1**: Before generating a new SSH key pair, check for existing key in your .ssh directory.
 
-- **Windows**: Open Git Bash (start menu > Git Bash)
+- **Windows**: Open Git Bash (`Windows start menu` > type `Git Bash` into search bar)
 - **MacOS**: Open Terminal App
 - **Linux**: Open your distribution’s (or any other) terminal emulator
 
@@ -699,9 +699,9 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm
 **Step 3**: 
 
 - Login to [github.com](github.com)
-- Navigate to your account settings by clicking on your profile photo (top right) and selecting Settings
-- Click on SSH and GPG keys (left sidebar)
-- Click on the green button ‘New SSH key’ or ‘Add SSH key’.
+- Navigate to your account settings by clicking on your profile photo (top right) and selecting `Settings`
+- Click on `SSH and GPG keys` (left sidebar)
+- Click on the green button `New SSH key` or `Add SSH key`.
 
 ::: {.notes}
 **Speaker Notes**: Now that you have your public key copied, it is time to add it to your GitHub account. This third step will enable you to authenticate your computer securely when interacting with GitHub. Here is how to do it:
@@ -730,10 +730,10 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm
 
 **Step 4**: 
 
-- In the “Title” field, add a descriptive label for the new key, e.g. something that would identify the device you just connected
+- In the `Title` field, add a descriptive label for the new key, e.g. something that would identify the device you just connected
 - For example, if you’re using a personal laptop, you might call this key “Personal MacBook Air”. 
 - Paste the contents of your clipboard into the Key text box
-- Hit the green ‘Add key’ button to save. Enter your GitHub password if prompted.
+- Hit the green `Add key` button to save. Enter your GitHub password if prompted.
 
 ::: {.notes}
 **Speaker Notes**: Now that you are on  GitHub in the correct section to add a new SSH key, here is what you need to do next:
@@ -987,12 +987,12 @@ What do we see in the results?
 
 ## Creating an RStudio Project
 
-**Step 1**: Create a new project in RStudio as follows: *File -> New Project -> New Directory*
+**Step 1**: Create a new project in RStudio as follows: `File`> `New Project` > `New Directory`
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/project_screen1.png){fig-align="center" width=600 fig-alt="Create RStudio Project"}
 
 ::: {.notes}
-**Speaker Notes**: As a first step, we want to create a new project in RStudio as follows: *File -> New Project -> New Directory*.
+**Speaker Notes**: As a first step, we want to create a new project in RStudio as follows: `File` > `New Project` > `New Directory`.
 
 **Instructor  Notes**: Demonstrate in your own RStudio how to generate a new project.  
 :::
@@ -1001,20 +1001,20 @@ What do we see in the results?
 
 ## Creating an RStudio Project
 
-**Step 2**: In the New Project Wizard screen, click on **New project**:
+**Step 2**: In the New Project Wizard screen, click on `New project`:
 
 
 ![](images/04_create_new_Rproject.png){fig-align="center" fig-alt="new R project"}
 
 ::: {.notes}
-**Speaker Notes**: As a second step, in the New Project Wizard screen, click on **New project**. 
+**Speaker Notes**: As a second step, in the New Project Wizard screen, click on `New project`. 
 :::
 
 ---
 
 ## Creating an RStudio Project
 
-**Step 3**: Give your project a name (e.g.’my_first_test_repo’) and ensure that *Create a git repository* is ticked. Next, click on **Create Project**.
+**Step 3**: Give your project a name (e.g.’my_first_test_repo’) and ensure that `Create a git repository` is ticked. Next, click on `Create Project`.
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/project_screen3.png){fig-align="center" width=700 fig-alt="Create new repo"}
 
@@ -1071,7 +1071,7 @@ The first thing we will do is download a dataset that we can use for practicing 
 
 ## Setting up a small practice project
 
-**Step 2**: Create a new R script *File -> New File -> R script* and save it as *myscript.R*. Then add the  code below to your R script.
+**Step 2**: Create a new R script `File` > `New File` > `R script` and save it as *myscript.R*. Then add the  code below to your R script.
 
 ```{text}
 mydata = read.csv("example_data.csv")
@@ -1079,7 +1079,7 @@ plot(mydata$xdata,mydata$ydata)
 ```
 
 ::: {.notes}
-**Speaker Notes**: Next, create a new R script by going to *File -> New File -> R script* in RStudio. Once the script is open, save it as myscript.R. After saving the file, add the code provided to your R script. This will be the starting point for your practice project.
+**Speaker Notes**: Next, create a new R script by going to `File -> New File -> R script` in RStudio. Once the script is open, save it as myscript.R. After saving the file, add the code provided to your R script. This will be the starting point for your practice project.
 
 **Instructor  Notes**: Emphasize that the code needs to be copied as is, and that your audience needs to pay attention to spelling and that the file name of the practise data matches the code.
 :::
@@ -1092,7 +1092,6 @@ plot(mydata$xdata,mydata$ydata)
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/file_list.png){fig-align="center" width=600 fig-alt="Directory files"}
 
-
 ::: {.notes}
 **Speaker Notes**: Run the code and check your directory in the bottom right panel. It should now contain four files: the .gitignore fle, the RStudio Project file, the example data .csv file and your R script. 
 
@@ -1103,13 +1102,13 @@ plot(mydata$xdata,mydata$ydata)
 
 ## Getting your project under version control
 
-**Step 1**: Find the git version control pane in the top right corner of RStudio in the *Git* tab. 
+**Step 1**: Find the git version control pane in the top right corner of RStudio in the `Git` tab. 
 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_pane.png){fig-align="center" width=600 fig-alt="Git pane"}
 
 ::: {.notes}
-**Speaker Notes**: AFind the git version control pane in the top right corner of RStudio in the *Git* tab and click on it. 
+**Speaker Notes**: AFind the git version control pane in the top right corner of RStudio in the `Git` tab and click on it. 
 
 **Instructor  Notes**: If the Git tab does not appear, try one of the following options:
 
@@ -1124,10 +1123,9 @@ plot(mydata$xdata,mydata$ydata)
 
 ## Getting your project under version control
 
-**Step 2**: Hover the mouse pointer over the yellow *?* marks in GitHub, you’ll see a tooltip telling us that the file is **untracked**. This means that git is not tracking versions of this file. Tick **staged** for each file. 
+**Step 2**: Hover the mouse pointer over the yellow `?` marks in GitHub, you’ll see a tooltip telling us that the file is **untracked**. This means that git is not tracking versions of this file. Tick `staged` for each file. 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_pane_added.png){fig-align="center" width=600 fig-alt="Git staging"}
-
 
 ::: {.notes}
 **Speaker Notes**: We now what to perform what is called *staging* our files. Staging is like preparing your changes before saving them. When you make changes to a file (like adding new code), Git doesn't automatically track those changes. To tell Git which changes you want to save, you "stage" them. In RStudio, you can do this by selecting the changes you want to keep and clicking "Stage" in the Git tab. In this step, hover the mouse pointer over the yellow *?* marks in GitHub, you’ll see a tooltip telling us that the file is **untracked**. This means that git is not tracking versions of this file. Tick **staged** for each file.  
@@ -1137,7 +1135,7 @@ plot(mydata$xdata,mydata$ydata)
 
 ## Getting your project under version control
 
-**Step 3**: Our staged files are now ready for the first **commit**. Click on the **commit button**. 
+**Step 3**: Our staged files are now ready for the first **commit**. Click on the `commit button`. 
 
 ![](images/08_Commit_RStudio.png){fig-align="center" width=500 fig-alt="Git commit"}
 
@@ -1152,7 +1150,7 @@ plot(mydata$xdata,mydata$ydata)
 
 ## Getting your project under version control
 
-**Step 4**: Specify a **commit message**, which is a brief description of the changes you made. For now, we will add the commit message  *First commit*. Then click on **Commit**. 
+**Step 4**: Specify a **commit message**, which is a brief description of the changes you made. For now, we will add the commit message  *First commit*. Then click on `Commit`. 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/first_commit.png){fig-align="center" width=600 fig-alt="First git commit"}
 
@@ -1241,7 +1239,7 @@ plot(mydata$xdata,mydata$ydata,col='red') and run this code by pressing Ctrl + E
 
 ## Making changes: Optional Exercise
 
-**Step 3**(optional): Create another R file with *File -> New File -> R script*. Save as *myscript_version2.R*. Then add and run the code below in the new R script: 
+**Step 3**(optional): Create another R file with `File` > `New File` > `R script`. Save as *myscript_version2.R*. Then add and run the code below in the new R script: 
 
 ```{r simulate}
 #Simulate some data
@@ -1257,11 +1255,11 @@ plot(rnorm(100,0,1))
 
 ## Committing changes
 
-Click on the **git** tab in the top right corner. Two files appeared, the script we modified and the new script.
+Click on the `git` tab in the top right corner. Two files appeared, the script we modified and the new script.
 
 <br>
 
-**Step 1**: Click on the **staged** box to stage changes for the *first* script.
+**Step 1**: Click on the `staged` box to stage changes for the *first* script.
 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_changed.png){fig-align="center" width=600 fig-alt="git staging"}
@@ -1276,7 +1274,7 @@ Click on the **git** tab in the top right corner. Two files appeared, the script
 
 ## Committing changes
 
-**Step 2**: Click on **Diff** for a reminder summary of what changed. Then add a commit message and click *commit*. 
+**Step 2**: Click on `Diff` for a reminder summary of what changed. Then add a commit message and click `commit`. 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_diff.png){fig-align="center" width=600 fig-alt="git difference"}
 
@@ -1285,7 +1283,7 @@ Lines that have been added are green. Lines that have been removed are red.
 :::
 
 ::: {.notes}
-**Speaker Notes**: Now that your changes are staged, it is time to commit them. First, click on *Diff* to view a summary of what exactly has changed in your script. This gives you a quick reminder of the edits you made. Once you have reviewed the changes, add a brief and concise commit message that describes what you have done, like "Add plot to visualise XX" Finally, click commit to save these changes to your Git history.
+**Speaker Notes**: Now that your changes are staged, it is time to commit them. First, click on `Diff` to view a summary of what exactly has changed in your script. This gives you a quick reminder of the edits you made. Once you have reviewed the changes, add a brief and concise commit message that describes what you have done, like "Add plot to visualise XX" Finally, click commit to save these changes to your Git history.
 With that, your changes are now securely recorded in your Git project!
 
 
@@ -1298,7 +1296,7 @@ With that, your changes are now securely recorded in your Git project!
 
 - [ ] If you have not already done so, create a second R script and save it in your RStudio project folder. 
 - [ ] Stage the second script and write a new commit message. 
-- [ ] In the git tab, press the **History** button to review the change and commit history of your files. 
+- [ ] In the git tab, press the `History` button to review the change and commit history of your files. 
 
 
 ::: {.callout-note}
@@ -1319,12 +1317,12 @@ The project is now under version control. Time to create a **new GitHub reposito
 
 <br>
 
-**Step 1**: Log into GitHub and go to your profile page. On the **repositories** tab, click **New**. 
+**Step 1**: Log into GitHub and go to your profile page. On the `repositories` tab, click `New`. 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/new_repo.png){fig-align="center" width=600 fig-alt="new GitHub repository"}
 
 ::: {.notes}
-**Speaker Notes**: Now that your project is under version control in RStudio, the next step is to connect it to your GitHub account so that you can upload your project and access it online. First, log into your GitHub account and go to your profile page. Once you are there, click on the *Repositories* tab. From this page, click the *New* button to create a new GitHub repository.
+**Speaker Notes**: Now that your project is under version control in RStudio, the next step is to connect it to your GitHub account so that you can upload your project and access it online. First, log into your GitHub account and go to your profile page. Once you are there, click on the `Repositories` tab. From this page, click the `New` button to create a new GitHub repository.
 Creating this new repository on GitHub will allow you to upload your local project to GitHub, making it accessible from anywhere and easier to share or collaborate on. After the repository is created, you can connect it to your local RStudio project in the next steps.
 
 **Instructor  Notes**: Students should be logged into their GiutHub accounts at this point. 
@@ -1334,20 +1332,20 @@ Creating this new repository on GitHub will allow you to upload your local proje
 
 ## Connecting the local repository to GitHub
 
-**Step 2**: Give the repository a name and click **Create Repository**. 
+**Step 2**: Give the repository a name and click `Create Repository`. 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/new_repo_name.png){fig-align="center" width=200 fig-alt="new GitHub repository"}
 
 ::: {.notes}
-**Speaker Notes**: Give the repository a name and click **Create Repository**. 
+**Speaker Notes**: Give the repository a name and click `Create Repository`. 
 :::
 
 ---
 
 ## Connecting the local repository to GitHub
 
-**Step 3**: Configure the repository in the **Quick Setup** screen.
-Select the **SSH** tab and make sure the  url shown in the blue box should start with git@github.com. 
+**Step 3**: Configure the repository in the `Quick Setup` screen.
+Select the `SSH` tab and make sure the  url shown in the blue box should start with git@github.com. 
 
 ::: {.notes}
 **Speaker Notes**: After creating the new repository, you will be directed to the Quick Setup screen. Here, you need to configure the repository for SSH access. Select the SSH tab, and make sure the URL shown in the blue box starts with git@github.com. This ensures that your project will be connected securely to GitHub using SSH, allowing you to push and pull changes without needing to enter your username and password every time. Once you have confirmed this, you are ready to link your local repository to the new GitHub repository.
@@ -1365,12 +1363,12 @@ Select the **SSH** tab and make sure the  url shown in the blue box should start
 
 ## Connecting the local repository to GitHub
 
-**Step 4**: Copy the commands from the *or push an existing repository from the command line* to your clipboard with the GitHub copy button. 
+**Step 4**: Copy the commands from the `or push an existing repository from the command line` to your clipboard with the GitHub copy button. 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/github_git_commands.png){fig-align="center" width=200 fig-alt="quick setup GitHub"}
 
 ::: {.notes}
-**Speaker Notes**: After selecting the SSH tab and confirming the URL, you’ll see a section titled *or push an existing repository from the command line*. This section provides the commands you need to connect your local project to the newly created GitHub repository. Click the **copy** button next to the commands to copy them to your clipboard. These commands will be used in your terminal to link your local repository to GitHub and push your changes.
+**Speaker Notes**: After selecting the SSH tab and confirming the URL, you’ll see a section titled `or push an existing repository from the command line`. This section provides the commands you need to connect your local project to the newly created GitHub repository. Click the `copy`button next to the commands to copy them to your clipboard. These commands will be used in your terminal to link your local repository to GitHub and push your changes.
 
 Once you have copied the commands, you can paste them into your terminal to complete the connection between your local project and the GitHub repository.
 
@@ -1381,12 +1379,12 @@ Once you have copied the commands, you can paste them into your terminal to comp
 
 ## Connecting the local repository to GitHub
 
-**Step 5**: Go to RStudio, navigate to the **git** tab and Click on *More > New Terminal*. 
+**Step 5**: Go to RStudio, navigate to the `git` tab and Click on `More` > `New Terminal`. 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_more_shell.png){fig-align="center" width=200 fig-alt="RStudio new terminal"}
 
 ::: {.notes}
-**Speaker Notes**: Now, go to RStudio. In the Git tab, click on *More > New Terminal*. This will open a new terminal window within RStudio, where you can paste the commands you copied from GitHub.
+**Speaker Notes**: Now, go to RStudio. In the Git tab, click on `More` > `New Terminal`. This will open a new terminal window within RStudio, where you can paste the commands you copied from GitHub.
 
 **Instructor  Notes**: Help students paste the commands pasted from GitHub.   
 :::
@@ -1447,7 +1445,7 @@ A README file is a short document that explains what your R project is about and
 
 ## Adding a README to your RStudio Project
 
-**Step 1**: In RStudio, click on *File > New File > Text File*. Add the following text to the file and save it as **Readme.md**:
+**Step 1**: In RStudio, click on `File` > `New File` > `Text File`. Add the following text to the file and save it as **Readme.md**:
 
 ```{text}
 # My Example Repo
@@ -1481,7 +1479,7 @@ Next, add the given text to the file and save the file.
 
 ## Adding a README to your RStudio Project
 
-**Step 3**: Add a new commit message and press **Commit** in the bottom right corner.
+**Step 3**: Add a new commit message and press `Commit` in the bottom right corner.
 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/readme_commit.png){fig-align="center" width=200 fig-alt="Commit README file"}
@@ -1549,7 +1547,6 @@ Next, add the given text to the file and save the file.
 - Finally, we synchronized our local changes with the remote repository by pushing them to GitHub, ensuring our work is safely stored and accessible.
 
 **With these steps, we have set up a complete version control workflow for our project, both locally and on GitHub.**
-
 
 **Instructor  Notes**: Check in with your students about questions.  
 :::
@@ -1645,7 +1642,7 @@ Once you have brought your local repository under version control and connected 
 This is a dataset containing the number of athletes that participated in the Summer Olympics over the years. 
 
 ::: {.callout-tip}
-When creating the new RStudio project, make sure to check “Create a git repository”.
+When creating the new RStudio project, make sure to check `Create a git repository`.
 :::
 
 ::: {.notes}
