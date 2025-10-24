@@ -22,6 +22,46 @@ execute:
   engine: knitr
 ---
 
+## General feedback - delete slide 
+
+<div style="font-size: 0.7em;">
+<span style="color:red;">Here are my general feedback points/ things I edited: </span>
+
+- Made a separate slide for the licence statement because it was quite a larger slide and placed it as the first slide of the slide deck
+- As for your question about licensing: I will ask Malika, but my understanding is that if there is an existing MIT license, the original author can re-licence it as CC BY 4.0. People using the content but not owning it can also only reshare it with MIT licence. If the MIT licenced content is part of a larger blob of content with the rest being CC BY 4.0, then it needs to be specified what content is which license. 
+- As for the GitHub repo, lets discuss how we can make this sustainable for self-learners, students and instructors?
+- QR codes and self - learners: shall we take them out by default? Thoughts?
+- Consistently add Alt Text to your figures, there is a special option when you insert code for images in Quarto
+- I think we need to brainstorm how we design the Github repo PR activity both for instructors and students in class as well as self learners? For the merge changes, for instance - better for a live demo right? Maybe we can make slides for two paths, one for instructors in class and one for slef learners making a PR for their own repo? Thoughts?
+- {markdown} is replaced by ```text
+
+
+</div>
+
+---
+
+## Licence
+
+<br>
+
+<p style="text-align:center;">
+  <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Sara Lil Middleton is licensed under a CC BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+</div>
+
+::: {.notes}
+**Speaker Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
+
+However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
+:::
+
+---
+
 ## Contribution statement
 
 **Creator**: Waterfield, Elizabeth (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730)
@@ -37,14 +77,6 @@ execute:
 
 **Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
 :::
-
----
-
-## Licence
-
-<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 0.6em;">
-This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Sara Lil Middleton is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
-</div>
 
 ---
 
@@ -69,6 +101,10 @@ Before completing this submodule, please carefully read about the necessary prer
 | Practice Repository | A practice repository on GitHub used for the practical exercises | See [LMU OSC's repo](https://github.com/lmu-osc/Collaborative-RStudio-GitHub) |
 </div>
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">So you did not make a new repo..? Or how are we organising this? Are there instructions for the instructor? And what about self learners..? Hmmm </span>
+</div>
+
 ::: {.notes}
 **Speaker Notes**: Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this submodule and complete the exercises. 
 
@@ -91,10 +127,14 @@ Any remaining questions about the most recent content and/or practical exercises
 ::: {.notes}
 **Speaker Notes**: Are there any questions from what was discussed during the last session? Are there any remaining thoughts or discussion points?
 
-**Instructor  Notes**: <br>
+**Instructor  Notes**:
+
 - Aim: clarify questions from the previous submodule and/or to discuss assignments.
+
 - Additional slides may need to be added depending on the nature of the homework assignments.
+
 - It is critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.
+
 - Not applicable if this set of slides corresponds to the first submodule of a new module.
 :::
 
@@ -102,12 +142,17 @@ Any remaining questions about the most recent content and/or practical exercises
 
 ## Before we start: Survey time!
 
-::: {.notes}
-**Speaker Notes**: <br>
-- Let's start the session by gauging where our Quarto skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
+<div style="font-size: 0.7em;">
+<span style="color:red;">Add QR code here with note for which survey from the room to pick and probably also that the QR should not be scanned by self learners? </span>
+</div>
 
-**Instructor Notes**: <br>
+::: {.notes}
+**Speaker Notes**: Let's start the session by gauging where our Quarto skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
+
+**Instructor Notes**:
+
 - Aim: the pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
+
 - Use free survey software such as particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides. 
 :::
 
@@ -141,6 +186,10 @@ f. Forking a repository and working on my own copy.
 
 g. I am not sure about any of these concepts.
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">Thoughtson this question? I am also unsure about this for the Git slides</span>
+</div>
+
 ---
 
 **On a scale of 1 to 5, how comfortable are you with using Git and GitHub for collaborative coding and version control? (1 = Not comfortable at all, 5 = Very comfortable)**
@@ -169,6 +218,10 @@ d. Other
 
 e. I haven’t collaborated on GitHub yet.
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">Maybe replace with question to check understanding of pushing and pulling? Thoughts?</span>
+</div>
+
 ---
 
 ## Discussion of survey results
@@ -184,9 +237,12 @@ What do we see in the results?
 ::: {.notes}
 **Speaker Notes**: Looking at the results from this small survey, what can we take from this? There will be a similar post-submodule survey to examine understanding and learning progress.
 
-**Instructor Notes**: <br>
+**Instructor Notes**:
+
 - Aim: briefly examine the answers given to each question interactively with the group.
+
 - Use visuals from the survey to highlight specific answers.
+
 - Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
 :::
 
@@ -202,8 +258,13 @@ What do we see in the results?
 <div style="background-color: #f0f0f0;">
 **Up next**:
 
-- Collaborating on projects remotely
-- Tracking changes of each contributor 
+- Collaborating on projects remotely via GitHub
+- Tracking changes of each contributor on GitHub
+</div>
+
+
+<div style="font-size: 0.7em;">
+<span style="color:red;">Unsure if the why github should be here if you also have a slide with that title later?</span>
 </div>
 
 ::: callout-note
@@ -269,6 +330,10 @@ At the end of this session, you should be able to:
 
 ## Key terms and definitions
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">Hm here, to make it more focused, I would put GitHub back in but remove Git and version control? Perhaps also in the quiz before we can have a quiz question about pushing and pulling since that featured before and students would need to know those two as well before starding with this slide deck? Thoughts? </span>
+</div>
+
 - **Git**: A tool that tracks changes made to files over time.  
 - **Version Control**: A system that records and manages changes so you can revisit or collaborate on different versions of your work.  
 - **Git Repository**: (repo) A folder that contains your project files and the history of all changes made to them.
@@ -319,7 +384,7 @@ On **GitHub**, you can:
 
 ## What is collaborative coding? 
 
-**Collaborative coding** is the process of working together on the same code or project (like on GitHub) where everyone can contribute, review, and improve the work collectively.
+**Collaborative coding** is the process of working together on the same code or project (e.g., on GitHub) where everyone can contribute, review, and improve the work collectively.
 
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 0.5;"}
@@ -351,6 +416,10 @@ What a *workflow* using **GitHub** can look like:
 
 ![](images/00_GitHub_Workflow.png){fig-align="center"}
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">I wonder if for this slide you could add a pedagogical activity / tool along the lines of "one minute paper" or something similar for students to explain to each other? To the instructor notes I mean? </span>
+</div>
+
 ::: {.notes}
 **Speaker Notes**: Here’s what a typical workflow using GitHub looks like: <br> 
 - Start with a central repository that contains the shared project files. <br>
@@ -381,7 +450,7 @@ How does this contribute towards collaboration? It enables multiple contributors
 
 ---
 
-## Practical exercise 1: Fork a repo
+## Practical exercise 1: Forkc a repo
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/fork-button.png)
 
@@ -549,9 +618,9 @@ Now, when you click on the `Files` tab in **RStudio**, you should see all the fi
 
 To **commit to a project** means to save the file with the changes you made locally in your version control system.
 
-- Records progress in small and trackable steps.
-- Lets others see exactly what was changed.
-- Makes it possible to revert or review changes if something breaks.
+- Records progress in small and trackable steps
+- Lets others see exactly what was changed
+- Makes it possible to revert or review changes if there are bugs
 
 ::: callout-tip
 ## Avoiding Conflicts
@@ -572,9 +641,15 @@ Before you **commit to a project**, you need to make some changes to the project
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/copy-params_tmpl.png)
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">which specified file? </span>
+</div>
+
 - [ ] Select the specified file
-- [ ] Click `More` then `Copy...` to make a copy of this file
-- [ ] Enter a name for your copied file
+- [ ] Click `More`,  then `Copy...` to make a copy of this file
+- [ ] Enter a name for your copied file <div style="font-size: 0.7em;">
+<span style="color:red;">Maybe with an example? </span>
+</div>
 
 ::: {.notes}
 **Speaker Notes**: We're still in RStudio. Click on the drop-down arrow by "More" and click "Copy". You'll be prompted to give the copied file a name/title, use something identifiable like including your first name. 
@@ -587,9 +662,11 @@ Before you **commit to a project**, you need to make some changes to the project
 ## Practical exercise 3: Commit
 
 - [ ] Make changes to your copied file according to the instructions
-- [ ] Save your file
+- [ ] Save your file <div style="font-size: 0.7em;">
+<span style="color:red;">more instructions on how to save or not needed? </span>
+</div>
 
-![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/stage.png)
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/stage.png){fig-align="center"}
 
 - [ ] In the `Git` tab, tick the box next to *your copied file* to **stage** your file
 - [ ] Click `Commit` 
@@ -604,9 +681,11 @@ Before you **commit to a project**, you need to make some changes to the project
 
 ## Practical exercise 3: Commit
 
-![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/commit.png)
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/commit.png){fig-align="center"}
 
-- [ ] Add a comment in the "Commit message" box briefly describing the changes you made
+- [ ] Add a comment in the "Commit message" box briefly describing the changes you made <div style="font-size: 0.7em;">
+<span style="color:red;">Maybe an example here? </span>
+</div>
 - [ ] Click `Commit`
 
 ::: {.notes}
@@ -616,6 +695,10 @@ Before you **commit to a project**, you need to make some changes to the project
 ---
 
 ## Push changes
+
+<div style="font-size: 0.7em;">
+<span style="color:red;">I think I would find it useful there to have a brief recap + pedagogical activity in the instructor notes? What do you think? Or maybe after concluding this step? </span>
+</div>
 
 To **push changes** means to upload your local commits from your local computer to the remote repository on GitHub.
 
@@ -632,10 +715,10 @@ How does this contribute towards collaboration? It keeps the online version of t
 
 ## Practical exercise 4: Push
 
-![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-rstudio.png)
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-rstudio.png){fig-align="center"}
 
 - [ ] In the `Git` tab, click `Push` to push your changes to GitHub
-- [ ] Enter your password
+- [ ] Enter your password when prompted
 
 ::: {.notes}
 **Speaker Notes**: To push the changes you just made to the file on your local device to your online fork on GitHub, you need to click the "Push" button in the Git tab. You'll then need to enter your password again. 
@@ -647,9 +730,11 @@ How does this contribute towards collaboration? It keeps the online version of t
 
 If you successfully pushed your changes, you would see a pop up box like the one below:
 
-![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-github.png)
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-github.png){fig-align="center"}
 
-You should see your new file in the GitHub repository when you refresh the page. 
+You should see your new file in the GitHub repository when you refresh the page. <div style="font-size: 0.7em;">
+<span style="color:red;">mention the commit message as well? </span>
+</div>
 
 ::: {.notes}
 **Speaker Notes**: If all went well, you will see a pop up box with a message like this one to let you know the changes were successfully pushed to the remote repository. An additional way to make sure your changes were pushed, refresh your GitHub repository webpage and check to see if the file you copied is now appearing.
@@ -658,6 +743,7 @@ You should see your new file in the GitHub repository when you refresh the page.
 ---
 
 ## Pre-break survey
+
 
 ::: {.notes}
 **Speaker Notes**: Before the break, let's take a moment to review the things we covered in the first part of this lesson. This survey has a few simple recap questions about what we’ve learned so far about using GitHub for collaboration on projects. The goal isn’t to test you, but to help you reflect on what you’ve learned and to see if anything needs a bit more clarification.
@@ -671,6 +757,10 @@ You should see your new file in the GitHub repository when you refresh the page.
 
 **What is GitHub mainly used for?**
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">Eliminate the green tick and descrbie the correct answer in the instructor notes? </span>
+</div>
+
 a. Editing photos online
 
 b. Hosting and collaborating on code or research projects ✅
@@ -683,11 +773,15 @@ d. Backing up personal files only
 
 **What happens when you fork a repository?**
 
-a. You delete the original project
+<div style="font-size: 0.7em;">
+<span style="color:red;">rephrased the questions a little - thoughts? </span>
+</div>
 
-b. You download a copy of the project to your local computer
+a. You delete the original repository
 
-c. You create your own copy of someone else’s repository on GitHub ✅
+b. You download a copy of the remote repository to your local computer
+
+c. You create your own remote copy of someone else’s repository on GitHub ✅
 
 d. You merge your work into the main branch
 
@@ -757,6 +851,10 @@ What do we see in the results?
 ## Pull request
 
 To make a **pull request** means to ask for your changes (from your fork or branch) to be reviewed and merged into the main project.
+
+<div style="font-size: 0.7em;">
+<span style="color:red;">I am unsure about the working of main project here - what do you think? </span>
+</div>
 
 - Creates a space for discussion and code review before incorporating changes.
 - Encourages feedback and peer learning
@@ -835,6 +933,10 @@ How does this contribute towards collaboration? This brings the contributions to
 :::
 ::: column
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">maybe emphasise here or with a call out box what is being merged into what in this specific example?</span>
+</div>
+
 The owner of the repository will: 
 
 - Go to their `Pull requests` tab to inspect the changed files 
@@ -878,6 +980,10 @@ If everything looks fine, the owner will:
 
 ## Merge changes
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">I like this one as a feature, but here I think we need to design it so that both instructors could use it in class AND self learners could easily make their own PR and merge? </span>
+</div>
+
 <br>
 <br>
 
@@ -916,7 +1022,7 @@ How does this contribute towards collaboration? Keeps your local copy updated wi
 - [ ] In **RStudio**, go to the `Terminal` tab
 - [ ] Enter the following command: 
 
-```{markdown}
+```text
 git checkout main
 ```
 
@@ -937,13 +1043,18 @@ To do this, we go back into RStudio and go to the "Terminal" tab. Enter the give
 
 ## Practical exercise 6: Pull upstream
 
-- [ ] In the **Terminal**, enter the command to pull the original repo and branch following this format, replacing the original owner and original repository:
+- [ ] In the RStudio **Terminal**, enter the command to pull the original repo and branch following this format, replacing the original owner and original repository<div style="font-size: 0.7em;">
+<span style="color:red;">with? I maybe see potential for difficulties here? </span>
+</div>:
 
-```{markdown}
+```text 
 git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 ```
 
 ![This is an example.](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/command-line.png)
+<div style="font-size: 0.7em;">
+<span style="color:red;">align the caption in the center? </span>
+</div>
 
 ::: {.notes}
 **Speaker Notes**: Next, we type this command to pull the original repository and branch we wish to obtain locally. Follow the format but replace "ORIGINAL_OWNER" and "ORIGINAL_REPOSITORY". Here's an example of what it looks like when these two commands are executed successfully.
@@ -953,10 +1064,14 @@ git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 
 ## Practical exercise 6: Pull upstream
 
-- [ ] In **RStudio**, check the `Files` tab to make sure the new contributions are showing up
-- [ ] To push this into your remote fork on **GitHub**, you can also do so by entering the following command into the terminal:
+- [ ] In **RStudio**, check the `Files` tab to make sure the new contributions <div style="font-size: 0.7em;">
+<span style="color:red;"> which ones (here I think it is worth being very specific?) </span>
+</div> are showing up
+- [ ] To push this <div style="font-size: 0.7em;">
+<span style="color:red;">which? </span>
+</div>into your remote fork on **GitHub**, you can also do so by entering the following command into the terminal:
 
-```{markdown}
+```text
 git push
 ```
 
@@ -990,11 +1105,19 @@ Remember this illustration?
 
 *Fill in the missing words with the actions we learned today!*
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">Nice! Is there a downloadable solution? </span>
+</div>
+
 ---
 
 ## Collaborative coding with GitHub
 
-**How is collaborative coding with GitHub useful?**
+**How can collaborative coding with GitHub be useful?**
+
+<div style="font-size: 0.7em;">
+<span style="color:red;">convert into pedagogical activity with instructions in instructor notes and just leaving the question on its own on the slide before giving the "answers" the slide after= </span>
+</div>
 
 - Track changes, isolate mistakes, and review project history with **version control**.
 - Multiple contributors can **collaborate** on a project without conflicts.
@@ -1126,6 +1249,10 @@ See you next class :)
 - The contents are adapted from the [LMU OSC's Collaborative coding with GitHub and RStudio tutorial](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/). 
 - Download the file for the <a href="assets/00_Example_R_Project.R" download>Example R Project</a> that learners copied and edited in the LMU OSC's **Collaborative coding with GitHub and RStudio** tutorial. You may use or adapt it when creating a repository for this session. 
 
+<div style="font-size: 0.7em;">
+<span style="color:red;">This could use a little more elaboration perhaps? </span>
+</div>
+
 ---
 
 ## Additional related content
@@ -1151,11 +1278,5 @@ Here are some topics that are related to this session
   - `Author`
   - `Source`
   - `License`
-
----
-
-## Example attribution (for previous slide)
-
-"[Tutorial template for student track](https://github.com/SvonGrebmer/Template-Slides-Students)" by Sarah von Grebmer is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ---
