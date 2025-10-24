@@ -68,9 +68,9 @@ Before completing this submodule, please carefully read about the necessary prer
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let us first take a look at these prerequisites. These are important to complete in order to fully understand what will be covered in this submodule. 
+**Speaker Notes**: Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this submodule and complete the exercises. 
 
-**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiarity with Git and that the audience has also completed that submodule. We also assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines. Lastly, the instructor should have created a repository on GitHub with the project files for the students to use for the activities in this session's practical exercises. 
+**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiarity with Git and that the audience has also completed that submodule. We also assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines. Lastly, the instructor should have created a repository on GitHub with the project files for the students to use for the activities in this session's practical exercises. You may look at the repository used for the LMU OSC Collaborative-RStudio-GitHub for inspiration to create your own project files. 
 :::
 
 ---
@@ -604,7 +604,7 @@ Before you **commit to a project**, you need to make some changes to the project
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/commit.png)
 
-- [ ] Add a comment in the `Commit message` box briefly describing the changes you made
+- [ ] Add a comment in the "Commit message" box briefly describing the changes you made
 - [ ] Click `Commit`
 
 ::: {.notes}
@@ -844,7 +844,7 @@ The owner of the repository will:
 ::: {.notes}
 **Speaker Notes**: Now we will have a live demonstration of how these pull requests are merged into the main repository. First, click on the "Pull requests" tab and inspect the files there. Take one and check that everything was done correctly so it's ready to merge. 
 
-**Instructor Notes**: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own.
+**Instructor Notes**: First go through the slides of this section to see how to merge changes, then do a live demonstration using the changes they made to the Example Project. For this session, the instructor created the GitHub repository and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own.
 :::
 
 ---
@@ -870,6 +870,26 @@ If everything looks fine, the owner will:
 
 ::: {.notes}
 **Speaker Notes**: If everything looks fine, go back to the "Pull request" tab, leave a comment (this is optional), and click on "Merge pull request" then "Confirm the merge". And now that file that was inspected is now incorporated into the project files in main repository.
+:::
+
+---
+
+## Merge changes
+
+<br>
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+Now let's see what that looks like for this project with a **live demonstration** using your contributions!
+
+</div>
+
+
+::: {.notes}
+**Speaker Notes**: Now that we know what to do, let's see it in action with a live demonstration! We will merge changes in one or more forks with the main repository project files via the pull requests. 
+
+**Instructor Notes**: Do a live demonstration of merging some changes- depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student.
 :::
 
 ---
@@ -1007,7 +1027,7 @@ If you had to explain to a new teammate why using GitHub for collaboration is va
 
 ---
 
-## Assignment
+## Assignment UNFINISHED
 
 - **Aim**: Explain the homework assignment and the rationale behind the homework.
 - Examine whether/how it will be assessed
@@ -1101,149 +1121,21 @@ See you next class :)
 
 ## Pedagogical add-on tools for instructors
 
-- This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
-  - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
-  - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
-  - Extra exercises for faster students.	
+- The contents are adapted from the [LMU OSC's Collaborative coding with GitHub and RStudio tutorial](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/). 
+- Download the file for the <a href="assets/00_Example_R_Project.R" download>Example R Project</a> that learners copied and edited in the LMU OSC's **Collaborative coding with GitHub and RStudio** tutorial. You may use or adapt it when creating a repository for this session. 
 
 ---
 
-## Additional literature for instructors
+## Additional related content
 
-- References for content
-- References for pedagogical add-on tools	
-- Other resources (videos etc.)	
+Here are some topics that are related to this session
 
----
-
-## Figure with bullet points
-
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-
-  <!-- Left side: single image -->
-  <div style="flex: 1; text-align: center;">
-    <img src="images/penguin.png" style="width: 100%;" />
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
-
-</div>
+- If you already have a project using RStudio that you now want to begin collaborative coding with, you can follow [this video on how to connect existing RStudio projects with GitHub](https://www.youtube.com/watch?v=bUoN85QvC10).
+- [GitHub Copilot](https://github.com/features/copilot) is GitHub’s AI tool (developed with OpenAI) to assist developers by suggesting code, completing functions, and explaining snippets directly inside editors.
 
 ---
 
-## Side-by-side figures
-
-```{=html}
-<div style="display: flex; justify-content: center; gap: 2em; align-items: flex-start;">
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/penguin.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 1: Penguin</em></div>
-  </div>
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/seal.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 2: Seal</em></div>
-  </div>
-
-</div>
-
-```
-
----
-
-## Stacked figures with text
-
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 0.5em;">
-
-  <!-- Left side: two images stacked vertically -->
-  <div style="flex: 1; display: flex; flex-direction: column; gap: 0.5em;">
-
-    <img src="images/penguin.png" style="width: 60%;" />
-    <img src="images/seal.png" style="width: 60%;" />
-
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
-
-</div>
-
----
-
-## Two-column text slide
-
-<div style="display: flex; gap: 2em;">
-
-  <div style="flex: 1;">
-  **Column 1**
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-  Vivamus lacinia odio vitae vestibulum vestibulum.  
-  Cras venenatis euismod malesuada.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 2**
-
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-  </div>
-
-</div>
-
----
-
-## Three-column text slide
-
-<div style="display: flex; gap: 1em;">
-
-  <div style="flex: 1;">
-  **Column 1**
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-  Vivamus lacinia odio vitae vestibulum vestibulum.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 2**
-
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 3**
-
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  </div>
-
-</div>
-
----
-
-## Attribution and license details
+## Attribution and license details UNFINISHED
 
 - This slide should contain information about the license and attribution details of this current set of slides. 
 

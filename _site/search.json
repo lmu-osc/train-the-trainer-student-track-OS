@@ -1399,7 +1399,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pedagogical-add-on-tools-for-instructors",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Pedagogical add-on tools for instructors",
-    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students."
+    "text": "Pedagogical add-on tools for instructors\n\nThe contents are adapted from the LMU OSC’s Collaborative coding with GitHub and RStudio tutorial.\nDownload the file for the Example R Project that learners copied and edited in the LMU OSC’s Collaborative coding with GitHub and RStudio tutorial. You may use or adapt it when creating a repository for this session."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#additional-literature-for-instructors",
@@ -2351,7 +2351,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#how-to-merge-changes",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "How to merge changes",
-    "text": "How to merge changes\n\n\n\n\nThe owner of the repository will:\n\nGo to their Pull requests tab to inspect the changed files\nEnsure that the parameters were inputted correctly so as to not break down their code down the line\n\n\n\nSpeaker Notes: Now we will have a live demonstration of how these pull requests are merged into the main repository. First, click on the “Pull requests” tab and inspect the files there. Take one and check that everything was done correctly so it’s ready to merge.\nInstructor Notes: Do a live demonstration of merging some changes (depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student). For this session, the instructor created the GitHub repo and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own."
+    "text": "How to merge changes\n\n\n\n\nThe owner of the repository will:\n\nGo to their Pull requests tab to inspect the changed files\nEnsure that the parameters were inputted correctly so as to not break down their code down the line\n\n\n\nSpeaker Notes: Now we will have a live demonstration of how these pull requests are merged into the main repository. First, click on the “Pull requests” tab and inspect the files there. Take one and check that everything was done correctly so it’s ready to merge.\nInstructor Notes: First go through the slides of this section to see how to merge changes, then do a live demonstration using the changes they made to the Example Project. For this session, the instructor created the GitHub repository and therefore is the one to review and merge the changes. But it is still important for the students to learn HOW to merge changes for when they begin projects of their own."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pull-upstream",
@@ -2547,7 +2547,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-3-commit-2",
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Practical exercise 3: Commit",
-    "text": "Practical exercise 3: Commit\n\n\nAdd a comment in the Commit message box briefly describing the changes you made\nClick Commit\n\n\nSpeaker Notes: You should leave a message for your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Click the “Commit” button."
+    "text": "Practical exercise 3: Commit\n\n\nAdd a comment in the “Commit message” box briefly describing the changes you made\nClick Commit\n\n\nSpeaker Notes: You should leave a message for your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Click the “Commit” button."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-4-push-changes",
@@ -2632,5 +2632,33 @@
     "title": "Introduction to Collaborative Coding with GitHub",
     "section": "Collaborative coding with GitHub",
     "text": "Collaborative coding with GitHub\nHow is collaborative coding with GitHub useful?\n\nTrack changes, isolate mistakes, and review project history with version control.\nMultiple contributors can collaborate on a project without conflicts.\nHave a local copy of the project so it remains accessible from anywhere.\nShared repositories ensure that analyses, code, and results are reproducible and transparent.\n\n\nSpeaker Notes: Some of the ways collaborative coding using GitHub is useful.  - Version control means every change is tracked, so mistakes can be undone easily.  - It allows multiple people to work on the same project at once, even from different locations, without overwriting each other’s work. - By sharing code through repositories, others can reproduce your analyses and see exactly how results were produced. This strengthens both collaboration and scientific transparency.\nInstructor Notes: The aim of this slide is to work out the relevance of the topic to your students. In an interactive setting, discuss how the new skills could be applied in practise with specific examples. Examine downfalls and practical obstacles."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#additional-related-content",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#additional-related-content",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Additional related content",
+    "text": "Additional related content\nHere are some topics that are related to this session\n\nIf you already have a project using RStudio that you now want to begin collaborative coding with, you can follow this video on how to connect existing RStudio projects with GitHub.\nGitHub Copilot is GitHub’s AI tool (developed with OpenAI) to assist developers by suggesting code, completing functions, and explaining snippets directly inside editors."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#merge-changes-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#merge-changes-1",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Merge changes",
+    "text": "Merge changes\n \n\nNow let’s see what that looks like for this project with a live demonstration using your contributions!\n\n\nSpeaker Notes: Now that we know what to do, let’s see it in action with a live demonstration! We will merge changes in one or more forks with the main repository project files via the pull requests.\nInstructor Notes: Do a live demonstration of merging some changes- depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#assignment-unfinished",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#assignment-unfinished",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Assignment UNFINISHED",
+    "text": "Assignment UNFINISHED\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#attribution-and-license-details-unfinished",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#attribution-and-license-details-unfinished",
+    "title": "Introduction to Collaborative Coding with GitHub",
+    "section": "Attribution and license details UNFINISHED",
+    "text": "Attribution and license details UNFINISHED\n\nThis slide should contain information about the license and attribution details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense"
   }
 ]
