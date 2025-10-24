@@ -6,8 +6,8 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.24">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.34">
 
   <meta name="author" content="Elizabeth Waterfield">
   <title>Train the Trainer: Student Track: OS Content – Introduction to Collaborative Coding with GitHub</title>
@@ -95,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
   <link rel="stylesheet" href="../../../slides-custom.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -206,15 +206,11 @@ Elizabeth Waterfield
 
   <p class="date">24/10/2025</p>
 </section>
-<section id="contribution-statement-and-licence" class="slide level2">
-<h2>Contribution statement and licence</h2>
+<section id="contribution-statement" class="slide level2">
+<h2>Contribution statement</h2>
 <p><strong>Creator</strong>: Waterfield, Elizabeth (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> <a href="https://orcid.org/0009-0006-3725-6730">0009-0006-3725-6730</a></p>
 <p><strong>Reviewer</strong>: von Grebmer zu Wolfsthurn, Sarah (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> <a href="https://orcid.org/0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
 <p><strong>Consultant</strong>: Middleton, Sara Lil (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"> <a href="https://orcid.org/0000-0001-5307-8029">0000-0001-5307-8029</a>)</p>
-<p><br></p>
-<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 0.6em;">
-<p>This work was originally created by <a href="https://github.com/annakrystalli">Anna Krystalli</a> from <a href="https://github.com/RSE-Sheffield">RSE-Sheffield</a> under a <a href="https://github.com/RSE-Sheffield/collaborative_github_exercise">MIT licence (original repository)</a>. It was subsequently adapted by <a href="https://ox.ukrn.org/people/#MalikaIhle">Malika Ihle</a> during her time at <a href="https://ox.ukrn.org/">Reproducible Research Oxford</a>, with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Sara Lil Middleton is licensed under a CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>.</p>
-</div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.</p>
 <p><strong>Instructor Notes</strong>: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner’s needs as well as anticipate challenges.</p>
@@ -230,6 +226,12 @@ Elizabeth Waterfield
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="licence" class="slide level2">
+<h2>Licence</h2>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 0.6em;">
+<p>This work was originally created by <a href="https://github.com/annakrystalli">Anna Krystalli</a> from <a href="https://github.com/RSE-Sheffield">RSE-Sheffield</a> under a <a href="https://github.com/RSE-Sheffield/collaborative_github_exercise">MIT licence (original repository)</a>. It was subsequently adapted by <a href="https://ox.ukrn.org/people/#MalikaIhle">Malika Ihle</a> during her time at <a href="https://ox.ukrn.org/">Reproducible Research Oxford</a>, with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Sara Lil Middleton is licensed under a CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>.</p>
+</div>
 </section>
 <section class="slide level2">
 
@@ -1339,7 +1341,7 @@ Elizabeth Waterfield
 <li><label><input type="checkbox">Enter the following command:</label></li>
 </ul>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a>git checkout main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a>git checkout main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br></p>
 <div class="callout callout-note callout-titled callout-style-default">
@@ -1375,7 +1377,7 @@ Elizabeth Waterfield
 <li><label><input type="checkbox">In the <strong>Terminal</strong>, enter the command to pull the original repo and branch following this format, replacing the original owner and original repository:</label></li>
 </ul>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a>git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a>git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 <img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/command-line.png" class="r-stretch quarto-figure-center"><p class="caption">This is an example.</p><aside class="notes">
@@ -1399,7 +1401,7 @@ Elizabeth Waterfield
 <li><label><input type="checkbox">To push this into your remote fork on <strong>GitHub</strong>, you can also do so by entering the following command into the terminal:</label></li>
 </ul>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a></a>git push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a></a>git push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 <img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/final-push.png" class="r-stretch"><aside class="notes">
@@ -1807,7 +1809,7 @@ Elizabeth Waterfield
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1957,14 +1959,13 @@ Elizabeth Waterfield
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-          const outerScaffold = trigger.parentElement.cloneNode(true);
-          const codeEl = outerScaffold.querySelector('code');
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
             }
-          }
-          return codeEl.innerText;
+            return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
