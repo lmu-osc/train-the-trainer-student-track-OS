@@ -264,7 +264,7 @@ What do we see in the results?
 
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">Unsure if the why github should be here if you also have a slide with that title later?</span> Beth: yea the title is repetitive but this callout is about how GitHub can be used to facilitate Open Science practices
+<span style="color:red;">Unsure if the why github should be here if you also have a slide with that title later?</span> Beth: yea the title is repetitive but this callout is about how using GitHub can facilitate Open Science practices
 </div>
 
 ::: callout-note
@@ -331,7 +331,7 @@ At the end of this session, you should be able to:
 ## Key terms and definitions
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">Hm here, to make it more focused, I would put GitHub back in but remove Git and version control? Perhaps also in the quiz before we can have a quiz question about pushing and pulling since that featured before and students would need to know those two as well before starding with this slide deck? Thoughts? </span> Beth: I can include version control into the definition of git but I would leave it in as a small recap of what git is. 
+<span style="color:red;">Hm here, to make it more focused, I would put GitHub back in but remove Git and version control? Perhaps also in the quiz before we can have a quiz question about pushing and pulling since that featured before and students would need to know those two as well before starding with this slide deck? Thoughts? </span> Beth: I included "version control" into the definition of git but I would leave it in as a small recap of what git is. 
 </div>
 
 - **Git**: A version control system that tracks changes made to files over time.  
@@ -344,8 +344,7 @@ At the end of this session, you should be able to:
 ::: {.notes}
 **Speaker Notes**: These are some of the key terms that will come up throughout this lesson, let's define them. <br>
 - Think of Git is like a time machine for your project as it keeps track of every edit so you can go back to earlier versions or see who changed what. Git runs locally on your computer but connects easily with platforms like GitHub for sharing. <br>
-- Version control is the process of tracking and managing updates to your files over time. It allows multiple people to work on the same project without overwriting each other’s work, making research more organized, transparent, and reproducible. <br>
-- A Git repository is a folder that contains your project files and a full history of their changes. This folder can live locally on your computer or online (for example, on GitHub) so others can collaborate. <br>
+- A Git repository is a folder that contains your project files and is tracked by Git so you can see the full history of changes. This folder can live locally on your computer or online, for example, a GitHub repository is a one that's hosted on GitHub. <br>
 - A Branch is a copy of your project where you can test changes without affecting the main version. The Main Branch is the stable, official version of your project. You can work on a branch, then merge your updates back into the main branch once they’re reviewed or ready.  
 
 **Instructor Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
@@ -659,9 +658,11 @@ Before you **commit to a project**, you need to make some changes to the project
 
 ## Practical exercise 3: Commit
 
-- [ ] Enter a name for your copied file 
+- [ ] Enter a name for your copied file like in the example below:
 
-![This is an example of a name for the copied file.](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/rename-copy.png)
+<div style="text-align: center;">
+<img src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/rename-copy.png" width="50%">
+</div>
 
 <div style="font-size: 0.7em;">
 <span style="color:red;">Maybe with an example? </span> Beth: added.
@@ -699,13 +700,36 @@ Before you **commit to a project**, you need to make some changes to the project
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/commit.png){fig-align="center"}
 
-- [ ] Add a comment in the "Commit message" box briefly describing the changes you made (for example: "add Malika rocks parameters" <div style="font-size: 0.7em;">
+- [ ] Add a comment in the "Commit message" box briefly describing the changes you made (for example: "add Malika rocks parameters") 
+<div style="font-size: 0.7em;">
 <span style="color:red;">Maybe an example here? </span> Yes, an example is in the image but I can also include it in the instruction. 
 </div>
 - [ ] Click `Commit`
 
 ::: {.notes}
-**Speaker Notes**: You should leave a message for your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Click the "Commit" button. 
+**Speaker Notes**: You should leave a message for your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Then, Click the "Commit" button. 
+:::
+
+---
+
+## You made a contribution!
+
+Great, now you've made changes to a file on a shared project and committed it. Let's take a minute (literally) and recap what you did to achieve that. 
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+**Activity**
+
+- You have 60 seconds to write down what steps you took to collaborate on this project. 
+- Think of the names of the actions, in which order you did them, and how can this be beneficial to you as a collaborator. 
+
+</div>
+
+::: {.notes}
+**Speaker Notes**: You've successfully made a contribution by making some changes to a file in the shared project. This is how collaboration on GitHub happens- by each contributor having their own copies of the project and making their individual changes. Before we go further, let's take a minute to recap what steps we took to get here with this activity. <br>
+You have 60 seconds to write down these steps. Think of the names of the actions, in which order you did them, and how can this be beneficial to you as a collaborator.
+
+**Instructor Notes**: This one-minute paper activity is to give the instructor an idea of how the learners are progressing with the steps of collaborative coding so far and if they are understanding how the steps fit into a workflow using GitHub. It also doubly acts as a way to reinforce the concepts discussed in this session. If you want to make the activity a bit easier, you can provide them with the terms: repo, fork, clone, commit.
 :::
 
 ---
@@ -713,7 +737,7 @@ Before you **commit to a project**, you need to make some changes to the project
 ## Push changes
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">I think I would find it useful there to have a brief recap + pedagogical activity in the instructor notes? What do you think? Or maybe after concluding this step? </span> Beth: then I like the idea of the One-Minute Paper activity coming here to do a recap.  
+<span style="color:red;">I think I would find it useful there to have a brief recap + pedagogical activity in the instructor notes? What do you think? Or maybe after concluding this step? </span> Beth: then I like the idea of the One-Minute Paper activity coming in the slide before as a recap activity.  
 </div>
 
 To **push changes** means to upload your local commits from your local computer to the remote repository on GitHub.
@@ -753,7 +777,7 @@ You should see your new file and your commit message next to it in the GitHub re
 </div>
 
 ::: {.notes}
-**Speaker Notes**: If all went well, you will see a pop up box with a message like this one to let you know the changes were successfully pushed to the remote repository. An additional way to make sure your changes were pushed, refresh your GitHub repository webpage and check to see if the file you copied is now appearing.
+**Speaker Notes**: If all went well, you will see a pop up box with a message like this one to let you know the changes were successfully pushed to the remote repository. An additional way to make sure your changes were pushed, refresh your GitHub repository webpage and check to see if the file you copied is now appearing. The commit message should also appear next to it on GitHub. 
 :::
 
 ---
@@ -771,71 +795,91 @@ You should see your new file and your commit message next to it in the GitHub re
 
 ---
 
-**What is GitHub mainly used for?**
+**What is GitHub mainly used for by a team working on the same project?**
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">Eliminate the green tick and descrbie the correct answer in the instructor notes? </span>
+<span style="color:red;">Eliminate the green tick and descrbie the correct answer in the instructor notes? </span> Beth: done, I also changed the answers a bit.
 </div>
 
 a. Editing photos online
 
-b. Hosting and collaborating on code or research projects ✅
+b. Hosting and collaborating on code or research projects 
 
-c. Sending emails to developers
+c. Sending emails and important messages to team members
 
 d. Backing up personal files only
 
+::: {.notes}
+**Instructor Notes**: The correct answer is b.
+:::
+
 ---
 
-**What happens when you fork a repository?**
+**On GitHub, why would you fork a repository?**
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">rephrased the questions a little - thoughts? </span>
+<span style="color:red;">rephrased the questions a little - thoughts? </span> Beth: I rephrased them to be more specific
 </div>
 
-a. You delete the original repository
+a. To delete the original repository and start a new one
 
-b. You download a copy of the remote repository to your local computer
+b. To download a copy of the remote repository to your local computer
 
-c. You create your own remote copy of someone else’s repository on GitHub ✅
+c. To create your own remote copy of someone else’s repository on GitHub 
 
-d. You merge your work into the main branch
+d. To merge your work into the main branch and have everyone's work in one folder
+
+::: {.notes}
+**Instructor Notes**: The correct answer is c.
+:::
 
 ---
 
 **What does it mean to clone a repository?**
 
-a. You download the repository from GitHub to your local device ✅
+a. You download the repository from GitHub to your local device 
 
-b. You create a backup of your GitHub account
+b. You create a backup of your GitHub account 
 
 c. You make your repository private
 
-d. You copy code into a new file
+d. You copy code into a new file then upload it to GitHub
+
+::: {.notes}
+**Instructor Notes**: The correct answer is a.
+:::
 
 ---
 
-**What does a commit do in Git?**
+**When you make changes to a file then commit it, what happens?**
 
-a. Deletes all previous versions of your file
+a. It deletes all previous versions of your file
 
-b. Sends your work directly to the main repository
+b. It sends your work directly to the main repository
 
-c. Saves your changes locally ✅
+c. It saves your changes locally (on your device)
 
-d. Approves changes made by other collaborators
+d. It approves changes made by other collaborators
+
+::: {.notes}
+**Instructor Notes**: The correct answer is c.
+:::
 
 ---
 
-**What does it mean to push changes?**
+**After I made changes and committed it, why would I then push the changes?**
 
-a. Create a new repository
+a. To create a new repository
 
-b. Merge your branch automatically
+b. To incorporate my changes into the files of the main repository
 
-c. Close a pull request
+c. To notify my teammates that I made changes
 
-d. Upload local commits to GitHub ✅
+d. To upload the work I saved locally to GitHub 
+
+::: {.notes}
+**Instructor Notes**: The correct answer is d.
+:::
 
 ---
 
@@ -866,10 +910,10 @@ What do we see in the results?
 
 ## Pull request
 
-To make a **pull request** means to ask for your changes (from your fork or branch) to be reviewed and merged into the main project.
+To make a **pull request** means to ask for your changes (from your fork or branch) to be reviewed and merged into the main repository that has the original project files.
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">I am unsure about the working of main project here - what do you think? </span>
+<span style="color:red;">I am unsure about the working of main project here - what do you think? </span> Beth: I tried to clarify it a bit
 </div>
 
 - Creates a space for discussion and code review before incorporating changes.
@@ -877,7 +921,7 @@ To make a **pull request** means to ask for your changes (from your fork or bran
 - Maintains project quality and consistency.
 
 ::: {.notes}
-**Speaker Notes**: After pushing your changes to your remote repository, it's just on your forked copy and not in the main project. You then need to make a pull request which is a request on GitHub for the changes you pushed to be reviewed and then incorporated or merged into the main project. <br>
+**Speaker Notes**: After pushing your changes to your remote repository, it's just on your forked copy and not in the main repository that has the original project files. You then need to make a pull request which is a request on GitHub for the changes you pushed to be reviewed and then incorporated or merged into the main repository to either add to or change the original project files. <br>
 How does this contribute towards collaboration? The changes can be reviewed and checked for error before making it a part of the main project. This allows for feedback, peer learning, and maintains levels of quality and consistency across the project files. 
 :::
 
@@ -944,22 +988,28 @@ How does this contribute towards collaboration? This brings the contributions to
 :::::: columns
 ::: column
 
-![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/files-changed.png)
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/files-changed.png){width="80%"}
 
 :::
 ::: column
 
-<div style="font-size: 0.7em;">
-<span style="color:red;">maybe emphasise here or with a call out box what is being merged into what in this specific example?</span>
-</div>
+The owner of the repository: 
 
-The owner of the repository will: 
-
-- Go to their `Pull requests` tab to inspect the changed files 
-- Ensure that the parameters were inputted correctly so as to not break down their code down the line
+- Goes to their `Pull requests` tab to inspect the changed files 
+- Ensures that the parameters were inputted correctly so as to not break down their code down the line
 
 :::
 ::::::
+
+<div style="font-size: 0.7em;">
+<span style="color:red;">maybe emphasise here or with a call out box what is being merged into what in this specific example?</span> Beth: yes, I'll add the callout box
+</div>
+
+::: callout-note
+## What's happening here?
+
+In this example, the file "malika_rocks.R" is being reviewed to then be added to the `params` sub-folder in the main repository project files. 
+:::
 
 ::: {.notes}
 **Speaker Notes**: Now we will have a live demonstration of how these pull requests are merged into the main repository. First, click on the "Pull requests" tab and inspect the files there. Take one and check that everything was done correctly so it's ready to merge. 
@@ -997,7 +1047,7 @@ If everything looks fine, the owner will:
 ## Merge changes
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">I like this one as a feature, but here I think we need to design it so that both instructors could use it in class AND self learners could easily make their own PR and merge? </span>
+<span style="color:red;">I like this one as a feature, but here I think we need to design it so that both instructors could use it in class AND self learners could easily make their own PR and merge? </span> Beth: Should this section then have a Practical exercise with merging changes instead of just having it as instructions+live demo?
 </div>
 
 <br>
@@ -1033,7 +1083,7 @@ How does this contribute towards collaboration? Keeps your local copy updated wi
 
 ---
 
-## Practical exercise 6: Pull upstream
+## Practical exercise 6: Pull 
 
 - [ ] In **RStudio**, go to the `Terminal` tab
 - [ ] Enter the following command: 
@@ -1057,19 +1107,23 @@ To do this, we go back into RStudio and go to the "Terminal" tab. Enter the give
 
 ---
 
-## Practical exercise 6: Pull upstream
+## Practical exercise 6: Pull 
 
-- [ ] In the RStudio **Terminal**, enter the command to pull the original repo and branch following this format, replacing the original owner and original repository<div style="font-size: 0.7em;">
-<span style="color:red;">with? I maybe see potential for difficulties here? </span>
-</div>:
+- [ ] In the RStudio **Terminal**, enter the command to pull the original repo and branch following this format:
 
 ```text 
 git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 ```
+<br> 
 
-![This is an example.](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/command-line.png)
+::: callout-warning
+## How to properly format this command?
+
+Replace the "`ORIGINAL_OWNER`" with the name of the GitHub account that owns the main repository. Replace "`ORIGINAL_REPOSITORY`" with the name of the main repository that has the original project files. 
+:::
+
 <div style="font-size: 0.7em;">
-<span style="color:red;">align the caption in the center? </span>
+<span style="color:red;">with? I maybe see potential for difficulties here? </span> Beth: I added a callout box to clarify
 </div>
 
 ::: {.notes}
@@ -1078,7 +1132,16 @@ git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 
 ---
 
-## Practical exercise 6: Pull upstream
+## Practical exercise 6: Pull
+
+<div style="text-align: center;">
+<img src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/command-line.png" alt="This is an example." width="80%">
+<p><em>This is an example.</em></p>
+</div>
+
+---
+
+## Practical exercise 6: Pull 
 
 - [ ] In **RStudio**, check the `Files` tab to make sure the new contributions <div style="font-size: 0.7em;">
 <span style="color:red;"> which ones (here I think it is worth being very specific?) </span>
