@@ -27,13 +27,13 @@ execute:
 <div style="font-size: 0.7em;">
 <span style="color:red;">Here are my general feedback points/ things I edited: </span>
 
-- Made a separate slide for the licence statement because it was quite a larger slide and placed it as the first slide of the slide deck
-- As for your question about licensing: I will ask Malika, but my understanding is that if there is an existing MIT license, the original author can re-licence it as CC BY 4.0. People using the content but not owning it can also only reshare it with MIT licence. If the MIT licenced content is part of a larger blob of content with the rest being CC BY 4.0, then it needs to be specified what content is which license. 
-- As for the GitHub repo, lets discuss how we can make this sustainable for self-learners, students and instructors?
-- QR codes and self - learners: shall we take them out by default? Thoughts?
-- Consistently add Alt Text to your figures, there is a special option when you insert code for images in Quarto
-- I think we need to brainstorm how we design the Github repo PR activity both for instructors and students in class as well as self learners? For the merge changes, for instance - better for a live demo right? Maybe we can make slides for two paths, one for instructors in class and one for slef learners making a PR for their own repo? Thoughts?
-- {markdown} is replaced by ```text
+- Made a separate slide for the licence statement because it was quite a larger slide and placed it as the first slide of the slide deck (beth: okay great)
+- As for your question about licensing: I will ask Malika, but my understanding is that if there is an existing MIT license, the original author can re-licence it as CC BY 4.0. People using the content but not owning it can also only reshare it with MIT licence. If the MIT licenced content is part of a larger blob of content with the rest being CC BY 4.0, then it needs to be specified what content is which license. (Beth: so we can leave it stating both the original and CC BY 4.0 then)
+- As for the GitHub repo, lets discuss how we can make this sustainable for self-learners, students and instructors? (Beth: Could we copy the files from the repo of the OSC tutorial and put it in a downloadable zip folder? that way self-leanrers (& instructors) can download it + upload it to GitHub to build their own 'project'? I'm thinking of how to make it ready-to-go...)
+- QR codes and self - learners: shall we take them out by default? Thoughts? (Beth: Yes adding the QR code would be good and external instructors can just use it for inspo to make their own? I'm thinking about whether they'd have access to the results if they use the survey on the osc account)
+- **Consistently add Alt Text to your figures, there is a special option when you insert code for images in Quarto
+- I think we need to brainstorm how we design the Github repo PR activity both for instructors and students in class as well as self learners? For the merge changes, for instance - better for a live demo right? Maybe we can make slides for two paths, one for instructors in class and one for slef learners making a PR for their own repo? Thoughts? (Beth: Yes, that was my idea with having the steps on how to merge changes first and then it's followed by a live demonstration. But I can see how to distinguish it more maybe)
+- {markdown} is replaced by ```text (Beth: okay)
 
 
 </div>
@@ -102,7 +102,7 @@ Before completing this submodule, please carefully read about the necessary prer
 </div>
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">So you did not make a new repo..? Or how are we organising this? Are there instructions for the instructor? And what about self learners..? Hmmm </span>
+<span style="color:red;">So you did not make a new repo..? Or how are we organising this? Are there instructions for the instructor? And what about self learners..? Hmmm </span> Beth: I was hesitant to make a repo because then I would be the owner and then if I change the contents to make an entirely new practice activity, it won't match the images used in the slides. This is why I suggest putting the files from the LMU OSC repo for this tutorial in a folder for the instructors or self-learners to download and build their own repo. 
 </div>
 
 ::: {.notes}
@@ -187,7 +187,7 @@ f. Forking a repository and working on my own copy.
 g. I am not sure about any of these concepts.
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">Thoughtson this question? I am also unsure about this for the Git slides</span>
+<span style="color:red;">Thoughtson this question? I am also unsure about this for the Git slides</span> Beth: It can give some insight into which concepts were easier to grasp for those who already have experience with GitHub. 
 </div>
 
 ---
@@ -206,20 +206,20 @@ e. 5
 
 ---
 
-**When working collaboratively on a GitHub project, what aspect do you find most challenging?**
+**When working collaboratively on a GitHub project, which statement best describes your experience with *pushing* and *pulling*  ?**
 
-a. Understanding Git commands (commit, push, pull).
+a. I feel confident enough to explain the difference between pushing and pulling.
 
-b. Managing merge conflicts.
+b. I regularly push my work and pull updates from collaborators. 
 
-c. Navigating the GitHub interface.
+c. I know that these actions involve syncing changes, but I'm still not sure when to use each.
 
-d. Other
+d. I clearly understand just one of these concepts (push or pull), but not the other
 
-e. I haven’t collaborated on GitHub yet.
+e. I do not know about nor have experience with pushing and pulling on GitHub. 
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">Maybe replace with question to check understanding of pushing and pulling? Thoughts?</span>
+<span style="color:red;">Maybe replace with question to check understanding of pushing and pulling? Thoughts?</span> Beth: Yes I like that idea, but would it be better to check understanding or experience using it? 
 </div>
 
 ---
@@ -264,11 +264,11 @@ What do we see in the results?
 
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">Unsure if the why github should be here if you also have a slide with that title later?</span>
+<span style="color:red;">Unsure if the why github should be here if you also have a slide with that title later?</span> Beth: yea the title is repetitive but this callout is about how GitHub can be used to facilitate Open Science practices
 </div>
 
 ::: callout-note
-## Why GitHub?
+## GitHub and Open Science
 
 **GitHub** offers a platform that enables transparent sharing, version control, and reproducible workflows. These are the core pillars of Open Science.
 :::
@@ -331,12 +331,13 @@ At the end of this session, you should be able to:
 ## Key terms and definitions
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">Hm here, to make it more focused, I would put GitHub back in but remove Git and version control? Perhaps also in the quiz before we can have a quiz question about pushing and pulling since that featured before and students would need to know those two as well before starding with this slide deck? Thoughts? </span>
+<span style="color:red;">Hm here, to make it more focused, I would put GitHub back in but remove Git and version control? Perhaps also in the quiz before we can have a quiz question about pushing and pulling since that featured before and students would need to know those two as well before starding with this slide deck? Thoughts? </span> Beth: I can include version control into the definition of git but I would leave it in as a small recap of what git is. 
 </div>
 
-- **Git**: A tool that tracks changes made to files over time.  
-- **Version Control**: A system that records and manages changes so you can revisit or collaborate on different versions of your work.  
+- **Git**: A version control system that tracks changes made to files over time.  
+- **GitHub**: A cloud-based, online platform that hosts Git-tracked projects. 
 - **Git Repository**: (repo) A folder that contains your project files and the history of all changes made to them.
+- **GitHub Repository**: An online or remote version of a Git repository that is hosted on GitHub's servers.
 - **Branch**: A separate workspace where you can make changes without affecting the main project.
 
 
@@ -417,14 +418,14 @@ What a *workflow* using **GitHub** can look like:
 ![](images/00_GitHub_Workflow.png){fig-align="center"}
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">I wonder if for this slide you could add a pedagogical activity / tool along the lines of "one minute paper" or something similar for students to explain to each other? To the instructor notes I mean? </span>
+<span style="color:red;">I wonder if for this slide you could add a pedagogical activity / tool along the lines of "one minute paper" or something similar for students to explain to each other? To the instructor notes I mean? </span> Beth: 
 </div>
 
 ::: {.notes}
 **Speaker Notes**: Here’s what a typical workflow using GitHub looks like: <br> 
 - Start with a central repository that contains the shared project files. <br>
 - Fork the repository to create your own copy on GitHub. <br>
-- Clone your fork to your local computer so you can work offline. <br> 
+- Clone your fork to your local computer so you can work offline. <br>
 - Make changes locally and commit them to track your progress. <br>  
 - Push your commits to your fork on GitHub without affecting anyone else’s work. <br>  
 - Pull updates from the main branch regularly to keep your copy up to date. <br>  
@@ -642,28 +643,45 @@ Before you **commit to a project**, you need to make some changes to the project
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/copy-params_tmpl.png)
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">which specified file? </span>
+<span style="color:red;">which specified file? </span> Beth: Are the learners using the same project files in the LMU OSC tutorial repo? I don't want to say the "params_tmpl.R" file and then they are using something else. I said "specified" so that the instructor would specify which file will be used but I see how this would not work for self-learners. Back to the idea to put the project files in a downloadable folder, I could specify that they select the "params_tmpl.R" then. 
 </div>
 
 - [ ] Select the specified file
 - [ ] Click `More`,  then `Copy...` to make a copy of this file
-- [ ] Enter a name for your copied file <div style="font-size: 0.7em;">
-<span style="color:red;">Maybe with an example? </span>
-</div>
 
 ::: {.notes}
-**Speaker Notes**: We're still in RStudio. Click on the drop-down arrow by "More" and click "Copy". You'll be prompted to give the copied file a name/title, use something identifiable like including your first name. 
+**Speaker Notes**: We're still in RStudio. Click on the drop-down arrow by "More" and click "Copy". 
 
-**Instructor Notes**: Copying the file and then editing the copied file is specific to this practice exercise. You do not always need to copy the file to then make changes to it, a project can require a contributor to make changes to the file directly. 
+**Instructor Notes**: Copying the file and then editing the copied file is specific to this practice exercise. You do not always need to copy the file to then make changes to it, a project can require a contributor to make changes to the file directly. It depends on the project. 
 :::
 
 ---
 
 ## Practical exercise 3: Commit
 
+- [ ] Enter a name for your copied file 
+
+![This is an example of a name for the copied file.](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/rename-copy.png)
+
+<div style="font-size: 0.7em;">
+<span style="color:red;">Maybe with an example? </span> Beth: added.
+</div>
+
 - [ ] Make changes to your copied file according to the instructions
-- [ ] Save your file <div style="font-size: 0.7em;">
-<span style="color:red;">more instructions on how to save or not needed? </span>
+
+::: {.notes}
+**Speaker Notes**: You'll be prompted to give the copied file a name/title, use something identifiable like including your first name. Then, open the copied file and follow the instructions to make the necessary changes. 
+
+**Instructor Notes**: Make sure the instructions for what to do in the file are clearly written. 
+:::
+
+---
+
+## Practical exercise 3: Commit
+
+- [ ] Save your file by going to `File` -> `Save` 
+<div style="font-size: 0.7em;">
+<span style="color:red;">more instructions on how to save or not needed? </span> Yes, added. 
 </div>
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/stage.png){fig-align="center"}
@@ -672,9 +690,7 @@ Before you **commit to a project**, you need to make some changes to the project
 - [ ] Click `Commit` 
 
 ::: {.notes}
-**Speaker Notes**: Now open your copied file and follow the instructions to make your changes. After this, save the file as normal and tick the checkbox next to it under the "Staged" column. Then click the "Commit" button. 
-
-**Instructor Notes**: It would be useful if there are clear instructions on what to do within the file itself.  
+**Speaker Notes**: After this, save the file as normal by going to "File" and then clicking "Save". In the Git tab on RStudio, click the checkbox next to your copied file under the "Staged" column. Then click the "Commit" button. 
 :::
 
 ---
@@ -683,8 +699,8 @@ Before you **commit to a project**, you need to make some changes to the project
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/commit.png){fig-align="center"}
 
-- [ ] Add a comment in the "Commit message" box briefly describing the changes you made <div style="font-size: 0.7em;">
-<span style="color:red;">Maybe an example here? </span>
+- [ ] Add a comment in the "Commit message" box briefly describing the changes you made (for example: "add Malika rocks parameters" <div style="font-size: 0.7em;">
+<span style="color:red;">Maybe an example here? </span> Yes, an example is in the image but I can also include it in the instruction. 
 </div>
 - [ ] Click `Commit`
 
@@ -697,7 +713,7 @@ Before you **commit to a project**, you need to make some changes to the project
 ## Push changes
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">I think I would find it useful there to have a brief recap + pedagogical activity in the instructor notes? What do you think? Or maybe after concluding this step? </span>
+<span style="color:red;">I think I would find it useful there to have a brief recap + pedagogical activity in the instructor notes? What do you think? Or maybe after concluding this step? </span> Beth: then I like the idea of the One-Minute Paper activity coming here to do a recap.  
 </div>
 
 To **push changes** means to upload your local commits from your local computer to the remote repository on GitHub.
@@ -732,8 +748,8 @@ If you successfully pushed your changes, you would see a pop up box like the one
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-github.png){fig-align="center"}
 
-You should see your new file in the GitHub repository when you refresh the page. <div style="font-size: 0.7em;">
-<span style="color:red;">mention the commit message as well? </span>
+You should see your new file and your commit message next to it in the GitHub repository when you refresh the page. <div style="font-size: 0.7em;">
+<span style="color:red;">mention the commit message as well? </span> Beth: added
 </div>
 
 ::: {.notes}
