@@ -204,7 +204,7 @@ LMU Open Science Center
 </div>
 </div>
 
-  <p class="date">24/10/2025</p>
+  <p class="date">29/10/2025</p>
 </section>
 <section id="licence" class="slide level2">
 <h2>Licence</h2>
@@ -347,12 +347,281 @@ LMU Open Science Center
           display:block!important;
       }</style></aside>
 </section>
+<section id="where-are-we-at" class="slide level2">
+<h2>Where are we at?</h2>
+<p><strong>Previously</strong>:</p>
+<ul>
+<li>Familiarization with the basics of R</li>
+<li>More advanced R skills: data manipulation, reshaping, functions, plotting</li>
+<li>Using R for your own scientific work</li>
+</ul>
+<div style="background-color: #f0f0f0;">
+<p><strong>Up next</strong>:</p>
+<ul>
+<li>Facing challenges in our workflow and how to solve them</li>
+<li>Enhancing reproducibility and our own accountability</li>
+<li>Facilitating collaboration</li>
+</ul>
+</div>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: In the previous two sessions, we have familiarized ourselves with R and RStudio. We have learned what we can use R for and we tested some features of R in RStudio, such as data manipulation, reshaping, functions, plotting etc. Next, what we want to use this session is once again use these skills within RStudio, but with a stronger focus on enhancing the reproducibility of our work. We also want to increase our own responsibility for the steps we are taking within the research process. We will start to learn about tools that can help us to facilitate collaboration across different parties and maybe even disciplines, and we will put a special focus on being transparent in every step so that our methods and decision making process is clear to others that come across our work.</p>
+<p><strong>Instructor Notes</strong>: <br></p>
+<ul>
+<li><p><strong>Aim</strong>: Place the topic of the current submodule within a broader context.</p></li>
+<li><p>Remind students what you are working towards and what the bigger picture is.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="learning-goals" class="slide level2">
+<h2>Learning goals</h2>
+<ul>
+<li><strong>Understand</strong> the problem that could be solved by version control</li>
+<li><strong>Install</strong> and <strong>configure</strong> Git</li>
+<li><strong>Set up</strong> the connection between your computer and GitHub</li>
+<li><strong>Create</strong> an RStudio Project under version control for a reproducible</li>
+<li><strong>Make</strong> changes within RStudio and <strong>commit</strong> changes locally</li>
+<li><strong>Connect</strong> local and remote repositories for your work</li>
+</ul>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: In this session, we will focus on the following elements. Do not worry if these terms sound unfamiliar to you at this point, we will go through each step one by one.</p>
+<p><strong>Instructor Notes</strong>:</p>
+<ul>
+<li><p><strong>Aim</strong>: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)</p></li>
+<li><p>Place an emphasis on the <strong>verbs</strong> of the learning goals and choose verbs that align with the skills you want to develop or assess.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="key-terms-and-definitions" class="slide level2">
+<h2>Key terms and definitions</h2>
+<ul>
+<li><strong>Reproducible workflows</strong>:</li>
+<li><strong>RStudio Project</strong>:<br>
+</li>
+<li><strong>Git</strong>:</li>
+<li><strong>GitHub</strong>:</li>
+<li><strong>Repositories</strong>:</li>
+</ul>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: These will be some key terms we will explore more today. Do not worry if some of them do not sound familiar to you yet. I want you to first write down in the next two minutes for yourselves what each of these concepts mean for you. Then, take 3 minutes to discuss with your neighbour what you have collected. Finally, let us discuss as a group.</p>
+<p><strong>Instructor Notes</strong>: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Use the think-pair-share paradigm: 1) THINK: students first write down for themselves what they understand by these concepts. 2) PAIR: form pairs among your students and have them discuss their current understanding of these concepts. 3) SHARE: Ask for volunteer pairs to share they conclusions and thought process. Re-examine the formation of new concepts at the end of the lesson.</p>
+<p><strong>Accessibility Tip</strong>: Note that this slide only works for a synchronous in-class setting.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="key-terms-and-definitions-1" class="slide level2">
+<h2>Key terms and definitions</h2>
+<ul>
+<li><strong>Reproducible workflows</strong>: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools</li>
+<li><strong>RStudio Project</strong>: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..)</li>
+<li><strong>Git</strong>: Version control system that tracks and manages changes to files and code</li>
+<li><strong>GitHub</strong>: Cloud-based version control platform for hosting Git repositories which includes collaboration features</li>
+<li><strong>Repositories</strong>: Git terminology for a storage space for all project files tracked by Git</li>
+</ul>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>:</p>
+<ul>
+<li><p><strong>Reproducible Workflows</strong>: A reproducible workflow refers to a structured process that ensures methods can be consistently replicated by others. This means that anyone who follows the same steps, using the same data and tools, should be able to achieve the same results. Reproducibility is essential in science and research because it helps verify findings, promotes transparency, and allows others to build on your work. By creating workflows that are transparent, well-documented, and accessible, you ensure that your research is both credible and trustworthy.</p></li>
+<li><p><strong>RStudio Project</strong>: An RStudio Project is a convenient way to organize all the files related to a specific R project in one centralized location. This includes not only your R scripts but also any data, workspace settings, history, and outputs. By creating a project in RStudio, you make it easier to maintain a consistent working environment, ensuring that everything you need is in one place. This organization is especially useful when sharing projects with collaborators or when you need to continue working on a project at a later time, as it simplifies managing dependencies and avoids issues related to missing files or incorrect paths.</p></li>
+<li><p><strong>Git</strong>: Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.</p></li>
+<li><p><strong>GitHub</strong>: GitHub is a cloud-based platform built on top of Git that facilitates version control and collaboration. It hosts Git repositories online, making it easy to share your code with others, contribute to open-source projects, and track issues or bugs. GitHub offers additional features like pull requests, which allow collaborators to propose changes to a project and review those changes before they are merged into the main codebase. It also provides tools for project management, documentation, and continuous integration, making it an essential tool for modern software development and collaboration.</p></li>
+</ul>
+<p><strong>Instructor Notes</strong>: ADD</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section>
+<section>
+<section id="realistic-challenges-in-our-work" class="title-slide slide level1 center">
+<h1>Realistic challenges in our work</h1>
+
+</section>
+<section id="challenge-1-data-and-file-management" class="slide level2">
+<h2>Challenge 1: Data and file management</h2>
+<p>Multiple versions of the same project floating around on your PC.</p>
+
+<img data-src="images/09_manuscript_version_mess.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%" alt="manuscript versions"><aside class="notes">
+<p><strong>Speaker Notes</strong>: So here we see our typical student — they’ve got 100 versions of the same file on their laptop. This might look funny, but we have all been there, whether it’s a paper draft, a dataset, or an analysis script. File and data management is hard, and we have to somehow juggle multiple versions of files, so it is easy to lose track of which version is the “right” one.</p>
+<p><strong>Instructor Notes</strong>: Adjust the example to tailor it to the main file type of your audience. Perhaps even show your own data organisation system from a project from many years ago to make students relate more.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="challenge-2-when-hardware-fails" class="slide level2">
+<h2>Challenge 2: When hardware fails</h2>
+<p>Laptop dies, files are accidentally deleted.</p>
+
+<img data-src="images/10_Coffee_Spill_gender_neutral.png" class="quarto-figure quarto-figure-center r-stretch" style="width:30.0%" alt="hardware fails"><aside class="notes">
+<p><strong>Speaker Notes</strong>: Here is once again our student, who is the victim of one of the most common threats to good science: hardware failure. It could be a coffee spill, a dropped laptop, a lost USB drive, or a hard disk crash, all different flavors of the same disaster and very realistic scenarios in student and researcher life.</p>
+<p><strong>Instructor Notes</strong>: Describe an example from your own research or student career and describe the impact it had at the time. This is another reason why version control systems like Git, especially when used with remote hosting services such as GitHub, are so powerful. They do not just track your changes; they back up your work in multiple locations, so even if your laptop meets an unfortunate end, your work does not.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="challenge-3-what-on-earth-did-i-do-again.." class="slide level2">
+<h2>Challenge 3: “What on earth did I do again..?”</h2>
+<p>Projects evolve, it is easy to forget what we last changed or did.</p>
+
+<img data-src="images/11_Confused.png" class="quarto-figure quarto-figure-center r-stretch" style="width:20.0%" alt="hardware fails"><aside class="notes">
+<p><strong>Speaker Notes</strong>: This might yet be another problem that could be familiar to some of you: You have a new assignment and it reminds you of an old assignment. You decide to copy that folder over but are now wondering what the last thing you did was and how you solved the assignment last time. Sometimes it takes months or years until you come back to your old project, and it is almost impossible to remember why we made certain changes, what data we used, or how the results were produced, especially if all we have are scattered files in random folder with no context.</p>
+<p><strong>Instructor Notes</strong>: We’ve all opened an old project and thought, “What was I even doing here?” Without clear records, it’s impossible to remember how results were produced or why changes were made. This is where Git comes in, because changes are tracked and years later, you see exactly what you did and why.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="challenge-4-but-i-just-wanted-to-try-to" class="slide level2">
+<h2>Challenge 4: “But I just wanted to try to …”</h2>
+<p>Especially with coding, trying new ideas can break your code</p>
+
+<img data-src="images/11_Confused.png" class="quarto-figure quarto-figure-center r-stretch" style="width:30.0%" alt="hardware fails"><aside class="notes">
+<p><strong>Speaker Notes</strong>: This is another situation that some of you may recognise: we are working on some code, we make a “small” change to try something new or to add a small new feature and suddenly nothing works anymore.</p>
+<p><strong>Instructor Notes</strong>: Without version control, it’s hard to get back to a working state or see what went wrong. Git makes this safe: you can experiment on a branch, and if it fails, simply return to the last working version.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="who-is-familiar-with-these-problems" class="slide level2">
+<h2>Who is familiar with these problems?</h2>
+
+<div style="display: flex; align-items: flex-start; gap: 0.5em;">
+
+  <!-- Left side: single image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/04_QR_Code_Problem_OS-M3-S4-Git.png" style="width: 100%;">
+  </div>
+  
+<!-- Right side: bullet points -->
+<div style="flex: 3;">
+<ol type="a">
+<li>Inconsistent data and file management aka <strong>I cannot find my files</strong></li>
+<li>Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka <strong>my work is lost</strong></li>
+<li>Extended periods of time between project actions aka <strong>I forgot what I was working on</strong></li>
+<li>Experimentation with new features aka <strong>I tried something and my laptop is now smoking</strong></li>
+<li>All of the above</li>
+<li>None of the above (are you <em>sure</em>?)</li>
+</ol>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Your turn: Scan the QR code and we can have a look who of you is familiar with one or more of these issues.</p>
+<p><strong>Instructor Notes</strong>: Select the problem survey when prompted.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="version-control-as-the-solution-to-these-challenges" class="slide level2">
+<h2>Version control as the solution to these challenges?</h2>
+<p>Version … <em>what?</em></p>
+<ul>
+<li><strong>Version control</strong> = system that <strong>records changes</strong> to files <strong>over time</strong></li>
+<li><strong>Tracks modifications</strong> and edits</li>
+<li>Helps you <strong>manage different versions</strong></li>
+<li>Allows you to <strong>recover previous versions</strong></li>
+<li>Facilitates <strong>collaboration</strong></li>
+</ul>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Version control is a system that records changes made to files over time. It enables you to track the history of modifications, making it easy to see who changed what, when, and why. This is particularly valuable when working on code or large projects, as it helps you manage different versions, collaborate with others, and recover previous versions if something goes wrong. With version control, you can safely experiment with new changes without fear of losing important work, as you can always revert to a stable version of the project.</p>
+<p><strong>Instructor Notes</strong>: Take your time with this section as it explains the WHY of version control. Students should recognize their own challenges and be curious about how exactly one could overcome these challenges.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="before-we-start-survey-time" class="slide level2">
 <h2>Before we start: Survey time!</h2>
 
 <img data-src="images/01_QR_Code_Start_OS-M3-S4-Git.png" class="r-stretch quarto-figure-center"><p class="caption">Select the starting survey option!</p><aside class="notes">
 <p><strong>Speaker Notes</strong>: First, I would like to find out more about how familiar you are with different concepts we will touch upon later. Please scan the QR code and select the starting survey when prompted.</p>
-<p><strong>Instructor Notes</strong>: <br> - <strong>Aim</strong>: The pre-submodule survey serves to examine students’ prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed.</p>
+<p><strong>Instructor Notes</strong>:</p>
+<ul>
+<li><strong>Aim</strong>: The pre-submodule survey serves to examine students’ prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed.</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -422,128 +691,6 @@ LMU Open Science Center
           display:block!important;
       }</style></aside>
 </section>
-<section id="where-are-we-at" class="slide level2">
-<h2>Where are we at?</h2>
-<p><strong>Previously</strong>:</p>
-<ul>
-<li>Familiarization with the basics of R</li>
-<li>More advanced R skills: data manipulation, reshaping, functions, plotting etc.</li>
-<li>Using R for your own scientific work</li>
-</ul>
-<div style="background-color: #f0f0f0;">
-<p><strong>Up next</strong>:</p>
-<ul>
-<li>Enhancing reproducibility and our own responsibility</li>
-<li>Facilitating collaboration</li>
-<li>Increasing transparency for validating and reproducing results</li>
-</ul>
-</div>
-<aside class="notes">
-<p><strong>Speaker Notes</strong>: In the previous two sessions, we have familiarised ourselves with R and RStudio. We have learned what we can use R for and we tested some features of R in RStudio, such as data manipulation, reshaping, functions, plotting etc. Next, what we want to use this session is once again use these skills within RStudio, but with a stronger focus on enhancing the reproducibility of our work. We also want to increase our own responsibility for the steps we are taking within the research process. We will start to learn about tools that can help us to facilitate collaboration across different parties and maybe even disciplines, and we will put a special focus on being transparent in every step so that our methods and decision making process is clear to others that come across our work.</p>
-<p><strong>Instructor Notes</strong>: <br></p>
-<ul>
-<li><p><strong>Aim</strong>: Place the topic of the current submodule within a broader context.</p></li>
-<li><p>Remind students what you are working towards and what the bigger picture is.</p></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="learning-goals" class="slide level2">
-<h2>Learning goals</h2>
-<ul>
-<li><strong>Install</strong> and <strong>configure</strong> Git</li>
-<li><strong>Set up</strong> the connection between your computer and GitHub</li>
-<li><strong>Create</strong> an RStudio Project under version control for a reproducible</li>
-<li><strong>Make</strong> changes within RStudio and <strong>commit</strong> changes locally</li>
-<li><strong>Connect</strong> local and remote repositories for your work</li>
-</ul>
-<aside class="notes">
-<p><strong>Speaker Notes</strong>: In this session, we will focus on the following elements. Do not worry if these terms sound unfamiliar to you at this point, we will go through each step one by one.</p>
-<p><strong>Instructor Notes</strong>:</p>
-<ul>
-<li><p><strong>Aim</strong>: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)</p></li>
-<li><p>Place an emphasis on the <strong>verbs</strong> of the learning goals and choose verbs that align with the skills you want to develop or assess.</p></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="key-terms-and-definitions" class="slide level2">
-<h2>Key terms and definitions</h2>
-<ul>
-<li><strong>Reproducible workflows</strong>:</li>
-<li><strong>RStudio Project</strong>:<br>
-</li>
-<li><strong>Version control</strong>:</li>
-<li><strong>Git</strong>:</li>
-<li><strong>GitHub</strong>:</li>
-<li><strong>Repositories</strong>:</li>
-</ul>
-<aside class="notes">
-<p><strong>Speaker Notes</strong>: These will be some key terms we will explore more today. Do not worry if some of them do not sound familiar to you yet. I want you to first write down in the next two minutes for yourselves what each of these concepts mean for you. Then, take 3 minutes to discuss with your neighbour what you have collected. Finally, let us discuss as a group.</p>
-<p><strong>Instructor Notes</strong>: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Use the think-pair-share paradigm: 1) THINK: students first write down for themselves what they understand by these concepts. 2) PAIR: form pairs among your students and have them discuss their current understanding of these concepts. 3) SHARE: Ask for volunteer pairs to share they conclusions and thought process. Re-examine the formation of new concepts at the end of the lesson.</p>
-<p><strong>Accessibility Tip</strong>: Note that this slide only works for a synchronous in-class setting.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="key-terms-and-definitions-1" class="slide level2">
-<h2>Key terms and definitions</h2>
-<ul>
-<li><strong>Reproducible workflows</strong>: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools</li>
-<li><strong>RStudio Project</strong>: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..)</li>
-<li><strong>Version control</strong>: System that records changes to files over time</li>
-<li><strong>Git</strong>: Version control system that tracks and manages changes to files and code</li>
-<li><strong>GitHub</strong>: Cloud-based version control platform for hosting Git repositories which includes collaboration features</li>
-<li><strong>Repositories</strong>: Git terminology for a storage space for all project files tracked by Git</li>
-</ul>
-<aside class="notes">
-<p><strong>Speaker Notes</strong>:</p>
-<ul>
-<li><p><strong>Reproducible Workflows</strong>: A reproducible workflow refers to a structured process that ensures methods can be consistently replicated by others. This means that anyone who follows the same steps, using the same data and tools, should be able to achieve the same results. Reproducibility is essential in science and research because it helps verify findings, promotes transparency, and allows others to build on your work. By creating workflows that are transparent, well-documented, and accessible, you ensure that your research is both credible and trustworthy.</p></li>
-<li><p><strong>RStudio Project</strong>: An RStudio Project is a convenient way to organize all the files related to a specific R project in one centralized location. This includes not only your R scripts but also any data, workspace settings, history, and outputs. By creating a project in RStudio, you make it easier to maintain a consistent working environment, ensuring that everything you need is in one place. This organization is especially useful when sharing projects with collaborators or when you need to continue working on a project at a later time, as it simplifies managing dependencies and avoids issues related to missing files or incorrect paths.</p></li>
-<li><p><strong>Version Control</strong>: Version control is a system that records changes made to files over time. It enables you to track the history of modifications, making it easy to see who changed what, when, and why. This is particularly valuable when working on code or large projects, as it helps you manage different versions, collaborate with others, and recover previous versions if something goes wrong. With version control, you can safely experiment with new changes without fear of losing important work, as you can always revert to a stable version of the project.</p></li>
-<li><p><strong>Git</strong>: Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.</p></li>
-<li><p><strong>GitHub</strong>: GitHub is a cloud-based platform built on top of Git that facilitates version control and collaboration. It hosts Git repositories online, making it easy to share your code with others, contribute to open-source projects, and track issues or bugs. GitHub offers additional features like pull requests, which allow collaborators to propose changes to a project and review those changes before they are merged into the main codebase. It also provides tools for project management, documentation, and continuous integration, making it an essential tool for modern software development and collaboration.</p></li>
-</ul>
-<p><strong>Instructor Notes</strong>:</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
 <section id="git-what-is-it" class="slide level2">
 <h2>Git: What is it?</h2>
 <p><strong>Git</strong> is a free and <strong>open source software</strong>. With Git, you can:</p>
@@ -553,7 +700,7 @@ LMU Open Science Center
 </ul>
 
 <img data-src="images/06_Git_logo.png" class="quarto-figure quarto-figure-center r-stretch" style="width:10.0%" alt="git logo"><aside class="notes">
-<p><strong>Speaker Notes</strong>: Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.</p>
+<p><strong>Speaker Notes</strong>: Diving into the solution to some of the chalenges with discussed earlier, Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.</p>
 <p><strong>Instructor Notes</strong>: Examine the conceptual understanding of this term before proceeding.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1409,7 +1556,7 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 </section>
 <section class="slide level2">
 
-</section>
+</section></section>
 <section>
 <section id="break-15-minutes" class="title-slide slide level1 center">
 <h1>Break! 15 minutes</h1>

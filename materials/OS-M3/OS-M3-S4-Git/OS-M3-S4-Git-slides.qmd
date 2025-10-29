@@ -114,6 +114,218 @@ Any remaining questions about the most recent content and/or practical exercises
 
 ---
 
+## Where are we at?
+
+**Previously**:
+
+-  Familiarization with the basics of R
+-  More advanced R skills: data manipulation, reshaping, functions, plotting
+-  Using R for your own scientific work
+
+<div style="background-color: #f0f0f0;">
+**Up next**:
+
+- Facing challenges in our workflow and how to solve them
+- Enhancing reproducibility and our own accountability
+- Facilitating collaboration
+</div>
+
+
+::: {.notes}
+**Speaker Notes**: In the previous two sessions, we have familiarized ourselves with R and RStudio. We have learned what we can use R for and we tested some features of R in RStudio, such as data manipulation, reshaping, functions, plotting etc. Next, what we want to use this session is once again use these skills within RStudio, but with a stronger focus on enhancing the reproducibility of our work. We also want to increase our own responsibility for the steps we are taking within the research process. We will start to learn about tools that can help us to facilitate collaboration across different parties and maybe even disciplines, and we will put a special focus on being transparent in every step so that our methods and decision making process is clear to others that come across our work. 
+
+**Instructor Notes**: <br>
+
+- **Aim**: Place the topic of the current submodule within a broader context.
+
+- Remind students what you are working towards and what the bigger picture is.
+:::
+
+---
+
+## Learning goals
+
+- **Understand** the problem that could be solved by version control
+- **Install** and **configure** Git 
+- **Set up** the connection between your computer and GitHub
+- **Create** an RStudio Project under version control for a reproducible
+- **Make** changes within RStudio and **commit** changes locally
+- **Connect** local and remote repositories for your work
+  
+::: {.notes}
+**Speaker Notes**: In this session, we will focus on the following elements. Do not worry if these terms sound unfamiliar to you at this point, we will go through each step one by one. 
+
+**Instructor Notes**:
+
+- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+
+- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
+
+:::
+
+---
+
+## Key terms and definitions
+
+- **Reproducible workflows**: 
+- **RStudio Project**:  
+- **Git**: 
+- **GitHub**: 
+- **Repositories**: 
+
+::: {.notes}
+**Speaker Notes**: These will be some key terms we will explore more today. Do not worry if some of them do not sound familiar to you yet. I want you to first write down in the next two minutes for yourselves what each of these concepts mean for you. Then, take 3 minutes to discuss with your neighbour what you have collected. Finally, let us discuss as a group.
+
+**Instructor Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Use the think-pair-share paradigm: 1) THINK: students first write down for themselves what they understand by these concepts. 2) PAIR: form pairs among your students and have them discuss their current understanding of these concepts. 3) SHARE: Ask for volunteer pairs to share they conclusions and thought process. Re-examine the formation of new concepts at the end of the lesson. 
+
+**Accessibility Tip**: Note that this slide only works for a synchronous in-class setting.
+:::
+
+---
+
+## Key terms and definitions
+
+- **Reproducible workflows**: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools
+- **RStudio Project**: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..) 
+- **Git**: Version control system that tracks and manages changes to files and code
+- **GitHub**: Cloud-based version control platform for hosting Git repositories which includes collaboration features
+- **Repositories**: Git terminology for a storage space for all project files tracked by Git
+
+::: {.notes}
+**Speaker Notes**:
+
+- **Reproducible Workflows**: A reproducible workflow refers to a structured process that ensures methods can be consistently replicated by others. This means that anyone who follows the same steps, using the same data and tools, should be able to achieve the same results. Reproducibility is essential in science and research because it helps verify findings, promotes transparency, and allows others to build on your work. By creating workflows that are transparent, well-documented, and accessible, you ensure that your research is both credible and trustworthy.
+
+- **RStudio Project**: An RStudio Project is a convenient way to organize all the files related to a specific R project in one centralized location. This includes not only your R scripts but also any data, workspace settings, history, and outputs. By creating a project in RStudio, you make it easier to maintain a consistent working environment, ensuring that everything you need is in one place. This organization is especially useful when sharing projects with collaborators or when you need to continue working on a project at a later time, as it simplifies managing dependencies and avoids issues related to missing files or incorrect paths.
+
+
+- **Git**: Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.
+
+- **GitHub**: GitHub is a cloud-based platform built on top of Git that facilitates version control and collaboration. It hosts Git repositories online, making it easy to share your code with others, contribute to open-source projects, and track issues or bugs. GitHub offers additional features like pull requests, which allow collaborators to propose changes to a project and review those changes before they are merged into the main codebase. It also provides tools for project management, documentation, and continuous integration, making it an essential tool for modern software development and collaboration.
+
+**Instructor  Notes**:  ADD
+:::
+
+---
+
+# Realistic challenges in our work
+
+---
+
+## Challenge 1: Data and file management
+
+Multiple versions of the same project floating around on your PC.
+
+![](images/09_manuscript_version_mess.png){fig-align=center width=50% fig-alt="manuscript versions"}
+
+::: {.notes}
+**Speaker Notes**: So here we see our typical student — they’ve got 100 versions of the same file on their laptop. This might look funny, but we have all been there, whether it’s a paper draft, a dataset, or an analysis script. File and data management is hard, and we have to somehow juggle multiple versions of files, so it is easy to lose track of which version is the “right” one.
+
+**Instructor  Notes**: Adjust the example to tailor it to the main file type of your audience. Perhaps even show your own data organisation system from a project from many years ago to make students relate more.
+:::
+
+---
+
+## Challenge 2: When hardware fails
+
+Laptop dies, files are accidentally deleted.
+
+![](images/10_Coffee_Spill_gender_neutral.png){fig-align=center width=30% fig-alt="hardware fails"}
+
+
+::: {.notes}
+**Speaker Notes**: Here is once again our student, who is the victim of one of the most common threats to good science: hardware failure. It could be a coffee spill, a dropped laptop, a lost USB drive, or a hard disk crash, all different flavors of the same disaster and very realistic scenarios in student and researcher life. 
+
+**Instructor  Notes**: Describe an example from your own research or student career and describe the impact it had at the time. This is another reason why version control systems like Git, especially when used with remote hosting services such as GitHub, are so powerful. They do not just track your changes; they back up your work in multiple locations, so even if your laptop meets an unfortunate end, your work does not.
+:::
+
+---
+
+## Challenge 3: "What on earth did I do again..?"
+
+Projects evolve, it is easy to forget what we last changed or did. 
+
+![](images/11_Confused.png){fig-align=center width=20% fig-alt="hardware fails"}
+
+::: {.notes}
+**Speaker Notes**: This might yet be another problem that could be familiar to some of you: You have a new assignment and it reminds you of an old assignment. You decide to copy that folder over but are now wondering what the last thing you did was and how you solved the assignment last time. Sometimes it takes months or years until you come back to your old project, and it is almost impossible to remember why we made certain changes, what data we used, or how the results were produced, especially if all we have are scattered files in random folder with no context.
+
+**Instructor  Notes**: We’ve all opened an old project and thought, “What was I even doing here?” Without clear records, it’s impossible to remember how results were produced or why changes were made. This is where Git comes in, because changes are tracked and years later, you see exactly what you did and why. 
+:::
+
+---
+
+## Challenge 4: "But I just wanted to try to ..."
+
+Especially with coding, trying new ideas can break your code
+
+![](images/11_Confused.png){fig-align=center width=30% fig-alt="hardware fails"}
+
+
+::: {.notes}
+**Speaker Notes**: This is another situation that some of you may recognise: we are working on some code, we make a "small" change to try something new or to add a small new feature and suddenly nothing works anymore.
+
+**Instructor  Notes**: Without version control, it’s hard to get back to a working state or see what went wrong.
+Git makes this safe: you can experiment on a branch, and if it fails, simply return to the last working version.
+:::
+
+---
+
+## Who is familiar with these problems?
+
+```{=html}
+
+<div style="display: flex; align-items: flex-start; gap: 0.5em;">
+
+  <!-- Left side: single image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/04_QR_Code_Problem_OS-M3-S4-Git.png" style="width: 100%;" />
+  </div>
+  
+```
+
+  <!-- Right side: bullet points -->
+  <div style="flex: 3;">
+
+  a. Inconsistent data and file management aka **I cannot find my files**
+  b. Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka **my work is lost**
+  c. Extended periods of time between project actions aka **I forgot what I was working on**
+  d. Experimentation with new features aka **I tried something and my laptop is now smoking**
+  e. All of the above
+  f. None of the above (are you *sure*?)
+
+  </div>
+
+</div>
+
+
+::: {.notes}
+**Speaker Notes**: Your turn: Scan the QR code and we can have a look who of you is familiar with one or more of these issues. 
+
+**Instructor  Notes**: Select the problem survey when prompted. 
+:::
+
+---
+
+## Version control as the solution to these challenges?
+
+Version ... *what?*
+
+- **Version control** = system that **records changes** to files **over time**
+- **Tracks modifications** and edits
+- Helps you **manage different versions**
+- Allows you to **recover previous versions**
+- Facilitates **collaboration**
+
+
+::: {.notes}
+**Speaker Notes**: Version control is a system that records changes made to files over time. It enables you to track the history of modifications, making it easy to see who changed what, when, and why. This is particularly valuable when working on code or large projects, as it helps you manage different versions, collaborate with others, and recover previous versions if something goes wrong. With version control, you can safely experiment with new changes without fear of losing important work, as you can always revert to a stable version of the project. 
+
+**Instructor  Notes**: Take your time with this section as it explains the WHY of version control. Students should recognize their own challenges and be curious about how exactly one could overcome these challenges.  
+:::
+
+---
+
 ## Before we start: Survey time!
 
 ![Select the starting survey option!](images/01_QR_Code_Start_OS-M3-S4-Git.png){fig-align=center}
@@ -121,8 +333,8 @@ Any remaining questions about the most recent content and/or practical exercises
 ::: {.notes}
 **Speaker Notes**: First, I would like to find out more about how familiar you are with different concepts we will touch upon later. Please scan the QR code and select the starting survey when prompted. 
 
+**Instructor Notes**: 
 
-**Instructor Notes**: <br>
 - **Aim**: The pre-submodule survey serves to examine students' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed. 
 :::
 
@@ -191,103 +403,6 @@ What do we see in the results?
 
 ---
 
-## Where are we at?
-
-**Previously**:
-
--  Familiarization with the basics of R
--  More advanced R skills: data manipulation, reshaping, functions, plotting etc.
--  Using R for your own scientific work
-
-<div style="background-color: #f0f0f0;">
-**Up next**:
-
-- Enhancing reproducibility and our own responsibility
-- Facilitating collaboration
-- Increasing transparency for validating and reproducing results
-</div>
-
-
-::: {.notes}
-**Speaker Notes**: In the previous two sessions, we have familiarised ourselves with R and RStudio. We have learned what we can use R for and we tested some features of R in RStudio, such as data manipulation, reshaping, functions, plotting etc. Next, what we want to use this session is once again use these skills within RStudio, but with a stronger focus on enhancing the reproducibility of our work. We also want to increase our own responsibility for the steps we are taking within the research process. We will start to learn about tools that can help us to facilitate collaboration across different parties and maybe even disciplines, and we will put a special focus on being transparent in every step so that our methods and decision making process is clear to others that come across our work. 
-
-**Instructor Notes**: <br>
-
-- **Aim**: Place the topic of the current submodule within a broader context.
-
-- Remind students what you are working towards and what the bigger picture is.
-:::
-
----
-
-## Learning goals
-
-- **Install** and **configure** Git 
-- **Set up** the connection between your computer and GitHub
-- **Create** an RStudio Project under version control for a reproducible
-- **Make** changes within RStudio and **commit** changes locally
-- **Connect** local and remote repositories for your work
-  
-::: {.notes}
-**Speaker Notes**: In this session, we will focus on the following elements. Do not worry if these terms sound unfamiliar to you at this point, we will go through each step one by one. 
-
-**Instructor Notes**:
-
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
-
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-
-:::
-
----
-
-## Key terms and definitions
-
-- **Reproducible workflows**: 
-- **RStudio Project**:  
-- **Version control**: 
-- **Git**: 
-- **GitHub**: 
-- **Repositories**: 
-
-::: {.notes}
-**Speaker Notes**: These will be some key terms we will explore more today. Do not worry if some of them do not sound familiar to you yet. I want you to first write down in the next two minutes for yourselves what each of these concepts mean for you. Then, take 3 minutes to discuss with your neighbour what you have collected. Finally, let us discuss as a group.
-
-**Instructor Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Use the think-pair-share paradigm: 1) THINK: students first write down for themselves what they understand by these concepts. 2) PAIR: form pairs among your students and have them discuss their current understanding of these concepts. 3) SHARE: Ask for volunteer pairs to share they conclusions and thought process. Re-examine the formation of new concepts at the end of the lesson. 
-
-**Accessibility Tip**: Note that this slide only works for a synchronous in-class setting.
-:::
-
----
-
-## Key terms and definitions
-
-- **Reproducible workflows**: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools
-- **RStudio Project**: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..) 
-- **Version control**: System that records changes to files over time
-- **Git**: Version control system that tracks and manages changes to files and code
-- **GitHub**: Cloud-based version control platform for hosting Git repositories which includes collaboration features
-- **Repositories**: Git terminology for a storage space for all project files tracked by Git
-
-::: {.notes}
-**Speaker Notes**:
-
-- **Reproducible Workflows**: A reproducible workflow refers to a structured process that ensures methods can be consistently replicated by others. This means that anyone who follows the same steps, using the same data and tools, should be able to achieve the same results. Reproducibility is essential in science and research because it helps verify findings, promotes transparency, and allows others to build on your work. By creating workflows that are transparent, well-documented, and accessible, you ensure that your research is both credible and trustworthy.
-
-- **RStudio Project**: An RStudio Project is a convenient way to organize all the files related to a specific R project in one centralized location. This includes not only your R scripts but also any data, workspace settings, history, and outputs. By creating a project in RStudio, you make it easier to maintain a consistent working environment, ensuring that everything you need is in one place. This organization is especially useful when sharing projects with collaborators or when you need to continue working on a project at a later time, as it simplifies managing dependencies and avoids issues related to missing files or incorrect paths.
-
-- **Version Control**: Version control is a system that records changes made to files over time. It enables you to track the history of modifications, making it easy to see who changed what, when, and why. This is particularly valuable when working on code or large projects, as it helps you manage different versions, collaborate with others, and recover previous versions if something goes wrong. With version control, you can safely experiment with new changes without fear of losing important work, as you can always revert to a stable version of the project.
-
-- **Git**: Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.
-
-- **GitHub**: GitHub is a cloud-based platform built on top of Git that facilitates version control and collaboration. It hosts Git repositories online, making it easy to share your code with others, contribute to open-source projects, and track issues or bugs. GitHub offers additional features like pull requests, which allow collaborators to propose changes to a project and review those changes before they are merged into the main codebase. It also provides tools for project management, documentation, and continuous integration, making it an essential tool for modern software development and collaboration.
-
-
-**Instructor  Notes**:  
-:::
-
----
-
 ## Git: What is it?
 
 **Git** is a free and **open source software**. With Git, you can: 
@@ -298,7 +413,7 @@ What do we see in the results?
 ![](images/06_Git_logo.png){fig-align=center width=10% fig-alt="git logo"}
 
 ::: {.notes}
-**Speaker Notes**: Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.
+**Speaker Notes**: Diving into the solution to some of the chalenges with discussed earlier, Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.
 
 **Instructor  Notes**: Examine the conceptual understanding of this term before proceeding.   
 :::
