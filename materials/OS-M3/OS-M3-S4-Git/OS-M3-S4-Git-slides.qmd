@@ -82,7 +82,6 @@ Before completing this submodule, please carefully read about the prerequisites.
 | R and RStudio installed | Latest versions of both R and RStudio |  [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/) |
 | Basic R skills | 3.2 Introduction to R - Part I | LINK |
 | Advanced R skills | 3.3 Introduction to R - Part II | LINK |
-| Basic Git | Git Introductory video | Watch video at [https://osf.io/dcqt9](https://osf.io/dcqt9) |
 | GitHub account | Free account for GitHub | Join at [https://github.com/join](https://github.com/join) |
 </div>
 
@@ -145,10 +144,10 @@ Any remaining questions about the most recent content and/or practical exercises
 
 ## Learning goals
 
-- **Understand** the problem that could be solved by version control
+- **Understand** the problem(s) that can be solved by version control
 - **Install** and **configure** Git 
 - **Set up** the connection between your computer and GitHub
-- **Create** an RStudio Project under version control for a reproducible
+- **Create** an RStudio Project under version control for a reproducible workflow
 - **Make** changes within RStudio and **commit** changes locally
 - **Connect** local and remote repositories for your work
   
@@ -174,7 +173,7 @@ Any remaining questions about the most recent content and/or practical exercises
 - **Repositories**: 
 
 ::: {.notes}
-**Speaker Notes**: These will be some key terms we will explore more today. Do not worry if some of them do not sound familiar to you yet. I want you to first write down in the next two minutes for yourselves what each of these concepts mean for you. Then, take 3 minutes to discuss with your neighbour what you have collected. Finally, let us discuss as a group.
+**Speaker Notes**: These will be some key terms we will explore more today. Do not worry if some of them do not sound familiar to you yet. I want you to first write down in the next two minutes for yourselves what each of these concepts means to you. Then, take 3 minutes to discuss with your neighbour what you have collected. Finally, let us discuss as a group. There are no right or wrong answers. 
 
 **Instructor Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Use the think-pair-share paradigm: 1) THINK: students first write down for themselves what they understand by these concepts. 2) PAIR: form pairs among your students and have them discuss their current understanding of these concepts. 3) SHARE: Ask for volunteer pairs to share they conclusions and thought process. Re-examine the formation of new concepts at the end of the lesson. 
 
@@ -185,23 +184,25 @@ Any remaining questions about the most recent content and/or practical exercises
 
 ## Key terms and definitions
 
-- **Reproducible workflows**: Structured process ensuring that the methods can be consistently replicated by others using the same approach, data and tools
-- **RStudio Project**: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..) 
+- **Reproducible workflows**: Structured process ensuring that the methods can be consistently repeated by others using the same approach, data and tools
+- **RStudio Project**: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..) via a so-called .Rproj file
 - **Git**: Version control system that tracks and manages changes to files and code
 - **GitHub**: Cloud-based version control platform for hosting Git repositories which includes collaboration features
-- **Repositories**: Git terminology for a storage space for all project files tracked by Git
+- **Repositories**: Git terminology for a folder where the contents of the folder are being tracked by Git
 
 ::: {.notes}
 **Speaker Notes**:
 
-- **Reproducible Workflows**: A reproducible workflow refers to a structured process that ensures methods can be consistently replicated by others. This means that anyone who follows the same steps, using the same data and tools, should be able to achieve the same results. Reproducibility is essential in science and research because it helps verify findings, promotes transparency, and allows others to build on your work. By creating workflows that are transparent, well-documented, and accessible, you ensure that your research is both credible and trustworthy.
+- **Reproducible Workflows**: A reproducible workflow refers to a structured process that ensures methods can be consistently repeated by others. This means that anyone who follows the same steps, using the same data and tools, should be able to achieve the same results. Reproducibility is essential in science and research because it helps verify findings, promotes transparency, and allows others to build on your work. By creating workflows that are transparent, well-documented, and accessible, you ensure that your research is both credible and trustworthy.
 
-- **RStudio Project**: An RStudio Project is a convenient way to organize all the files related to a specific R project in one centralized location. This includes not only your R scripts but also any data, workspace settings, history, and outputs. By creating a project in RStudio, you make it easier to maintain a consistent working environment, ensuring that everything you need is in one place. This organization is especially useful when sharing projects with collaborators or when you need to continue working on a project at a later time, as it simplifies managing dependencies and avoids issues related to missing files or incorrect paths.
+- **RStudio Project**: An RStudio Project is a convenient way to organize all the files related to a specific R project in one centralized location. This includes not only your R scripts but also any data, workspace settings, history, and outputs. By creating a project in RStudio and a corresponding .Rproj, you make it easier to maintain a consistent working environment, ensuring that everything you need is in one place. This organization is especially useful when sharing projects with collaborators or when you need to continue working on a project at a later time, as it simplifies managing dependencies and avoids issues related to missing files or incorrect paths.
 
 
-- **Git**: Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.
+- **Git**: Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, and roll back changes if needed. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.
 
 - **GitHub**: GitHub is a cloud-based platform built on top of Git that facilitates version control and collaboration. It hosts Git repositories online, making it easy to share your code with others, contribute to open-source projects, and track issues or bugs. GitHub offers additional features like pull requests, which allow collaborators to propose changes to a project and review those changes before they are merged into the main codebase. It also provides tools for project management, documentation, and continuous integration, making it an essential tool for modern software development and collaboration.
+
+- **Repositories**: Git terminology for a folder whose content is tracked by Git
 
 **Instructor  Notes**:  ADD
 :::
@@ -315,15 +316,14 @@ Git makes this safe: you can experiment on a branch, and if it fails, simply ret
 
 Version ... *what?*
 
-- **Version control** = system that **records changes** to files **over time**
+- **Version control** = system that **records changes** to files **over time** by recording the difference between two files
 - **Tracks modifications** and edits
 - Helps you **manage different versions**
 - Allows you to **recover previous versions**
-- Facilitates **collaboration**
 
 
 ::: {.notes}
-**Speaker Notes**: Version control is a system that records changes made to files over time. It enables you to track the history of modifications, making it easy to see who changed what, when, and why. This is particularly valuable when working on code or large projects, as it helps you manage different versions, collaborate with others, and recover previous versions if something goes wrong. With version control, you can safely experiment with new changes without fear of losing important work, as you can always revert to a stable version of the project. 
+**Speaker Notes**: Version control is a system that records changes made to files over time. Specifically, it saves the **difference** between two files It enables you to track the history of modifications, making it easy to see who changed what, when, and why. This is particularly valuable when working on code or large projects with many files, as it helps you manage different versions, and recover previous versions if something goes wrong. With version control, you can safely experiment with new changes without fear of losing important work, as you can always revert to a stable version of the project. 
 
 **Instructor  Notes**: Take your time with this section as it explains the WHY of version control. Students should recognize their own challenges and be curious about how exactly one could overcome these challenges.  
 :::
@@ -411,8 +411,8 @@ What do we see in the results?
 
 **Git** is a free and **open source software**. With Git, you can: 
 
-- **Track changes** to files across directories over time, seeing what was changed, when and by whom
-- **Collaborate** efficiently within a team as multiple people can work on the same directories
+- **Track changes** to files across folders over time, seeing what was changed, when and by whom
+- **Collaborate** efficiently within a team as multiple people can work on the same folders and files
 
 ![](images/06_Git_logo.png){fig-align=center width=10% fig-alt="git logo"}
 
@@ -426,7 +426,7 @@ What do we see in the results?
 
 ## GitHub: What is it?
 
-**GitHub** is a **cloud-based version control platform** that uses Git to track changes an hosts Git repositories.
+**GitHub** is a **cloud-based version control platform** that uses Git to track changes and hosts Git repositories.
 
 - Allows multiple people to **collaborate** on the same project
 - Collaborators can **share** repositories, code etc. and ask for **feedback**, initiate discussions and point out bugs and issues
@@ -1138,7 +1138,7 @@ What do we see in the results?
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/project_screen3.png){fig-align="center" width=700 fig-alt="Create new repo"}
 
 ::: {.callout-note}
-RStudio will create a new folder containing an empty project and set R’s working directory to within it.
+RStudio will create a new folder containing an empty project and set it as the new R working directory.
 :::
 
 
@@ -1358,7 +1358,7 @@ plot(mydata$xdata,mydata$ydata,col='red') and run this code by pressing Ctrl + E
 
 ## Making changes: Optional Exercise
 
-**Step 3**(optional): Create another R file with `File` > `New File` > `R script`. Save as *myscript_version2.R*. Then add and run the code below in the new R script: 
+**Step 3**(optional): Create another R file with `File` > `New File` > `R script`. Save as *simulation_script.R*. Then add and run the code below in the new R script: 
 
 ```{r simulate}
 #Simulate some data
@@ -1398,7 +1398,7 @@ Click on the `git` tab in the top right corner. Two files appeared, the script w
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_diff.png){fig-align="center" width=600 fig-alt="git difference"}
 
 ::: {.callout-important}
-Lines that have been added are green. Lines that have been removed are red.
+Remember that Git track *differences* between two files. Lines that have been added are green. Lines that have been removed are red.
 :::
 
 ::: {.notes}
@@ -1564,7 +1564,7 @@ A README file is a short document that explains what your R project is about and
 
 ## Adding a README to your RStudio Project
 
-**Step 1**: In RStudio, click on `File` > `New File` > `Text File`. Add the following text to the file and save it as **Readme.md**:
+**Step 1**: In RStudio, click on `File` > `New File` > `Text File`. Add the following text to the file and save it as **README.md**:
 
 ```{text}
 # My Example Repo
@@ -1573,8 +1573,8 @@ This repo is used to demonstrate GitHub to users of R and R Studio.
 ```
 
 ::: {.notes}
-**Speaker Notes**: As a next step, we want to add a Readme file. In RStudio, go to *File > New File > Text File*. This will open a blank text file.
-Next, add the given text to the file and save the file.  
+**Speaker Notes**: As a next step, we want to add a README file. In RStudio, go to *File > New File > Text File*. This will open a blank text file.
+Next, add the given text to the file and save the file as README (in capital letters by default).  
 
 **Instructor  Notes**: Highlight that students need to save the file.  
 :::
