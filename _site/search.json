@@ -663,5 +663,362 @@
     "title": "Introduction to version control with Git in RStudio",
     "section": "Version control",
     "text": "Version control\nVersion … what?\n\nVersion control = system that records changes to files over time by recording the difference between two files\nTracks modifications and edits\nHelps you manage different versions\nAllows you to recover previous versions\n\n\nSpeaker Notes: Version control is a system that records changes made to files over time. Specifically, it saves the difference between two files It enables you to track the history of modifications, making it easy to see who changed what, when, and why. This is particularly valuable when working on code or large projects with many files, as it helps you manage different versions, and recover previous versions if something goes wrong. With version control, you can safely experiment with new changes without fear of losing important work, as you can always revert to a stable version of the project.\nInstructor Notes: Take your time with this section as it explains the WHY of version control. Students should recognize their own challenges and be curious about how exactly one could overcome these challenges."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#licence",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#licence",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Licence",
+    "text": "Licence\n\n\n\n\n\nThis work was originally created by Felix Schoenbrodt under a CC-BY 4.0 Creative Commons Attribution 4.0 International License. This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schoenbrodt is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.\nHowever, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#contribution-statement",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#contribution-statement",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Contribution statement",
+    "text": "Contribution statement\n\nCreator: Von Grebmer zu Wolfsthurn, Sarah (0000-0002-6413-3895)\nReviewer: Ihle, Malika (0000-0002-3242-5981)\nConsultant: Schönbrodt, Felix (0000-0002-8282-3910)\n\nSpeaker Notes: These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes: There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#prerequisites",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#prerequisites",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this submodule, please carefully read about the prerequisites.\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nUNESCO Recommendations on Open Science\nRecommended reading pages 6-19\nDownload Link\n\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#before-we-start---survey-time",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#before-we-start---survey-time",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Before we start - survey time",
+    "text": "Before we start - survey time\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: The pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. - Use free survey software such as particify or formR to establish the following questions (shown on separate slides)."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#discussion-of-survey-results",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#discussion-of-survey-results",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\n\nWhat do we see in the results?\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim”: Briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#where-are-we-at",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#where-are-we-at",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Where are we at?",
+    "text": "Where are we at?\nPreviously:\n\nPoint 1\nPoint 2\n\n\nUp next:\n\nPoint 1\nPoint 2\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Place the topic of the current submodule within a broader context. - Remind students what you are working towards and what the bigger picture is."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#covered-in-this-session",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#covered-in-this-session",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Covered in this session",
+    "text": "Covered in this session\n\nAim: This slides serves as an overview of the topics that are discussed, presented as bullet point:\nTopic 1\nTopic 2\nTopic 3\n\n\nSpeaker Notes: Script for the slide here."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#learning-goals",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#learning-goals",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nStudents will describe the process of photosynthesis or\nStudents will construct a diagram illustrating the process of photosynthesis\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956) - Place an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess. - Examples: - Students will describe the process of photosynthesis or - Students will construct a diagram illustrating the process of photosynthesis"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#key-terms-and-definitions",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#key-terms-and-definitions",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Key terms and definitions",
+    "text": "Key terms and definitions\n\nAim: Introduce key terms and definitions that students will come across throughout the session. \nKey Term 1: Definition\nKey Term 2: Definition\nKey Term 3: Definition\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#why-should-we-trust-researchers",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#why-should-we-trust-researchers",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Why should we trust researchers?",
+    "text": "Why should we trust researchers?\n\n\nSpeaker notes: Add script for the slide here. Instructor Notes:  - Aim: Core theoretical introduction of submodule topic. - For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break). - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980). - Use multiple slides for this part."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#quality-rigor-and-integrity",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#quality-rigor-and-integrity",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Quality, rigor and integrity",
+    "text": "Quality, rigor and integrity\nThe smartest heads in the world immerse themselves into a research topic for years. In that process, they become the experts – nobody knows more about that topic. The boundaries of knowledge have been pushed forward. When the scientist are confident in their findings, they publish them in the best scientific journals, with the highest standards of quality, rigor, and integrity.\n\n\n\n\n\n\nImportant\n\n\nHow much of that literature is true do you think?\n\n\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes: Add."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#how-to-become-a-professor",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#how-to-become-a-professor",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "How to become a Professor?",
+    "text": "How to become a Professor?\n\n\n\n\nRelevance in professorship hiring committees\nRank\n\n\n\n\nNumber of peer-reviewed publications\n1\n\n\nFit of research profile to the hiring department\n2\n\n\nQuality of research talks\n3\n\n\nNumber of publications\n4\n\n\nVolume of acquired third-party funding\n5\n\n\nNumber of first authorships\n6\n\n\n\n\nN = 1453 psychology researchers, 66% were actually members of a professorship hiring committee (Abele-Brehm & Bühner, 2016)\nAbele-Brehm, A. E., & Bühner, M. (2016). Wer soll die Professur bekommen? Psychologische Rundschau, 67(4), 250–261. http://doi.org/10.1026/0033-3042/a000335"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#how-do-i-get-lots-of-publications",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#how-do-i-get-lots-of-publications",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "How do I get lots of publications?",
+    "text": "How do I get lots of publications?\n\nFanelli, D. (2010). “Positive” Results Increase Down the Hierarchy of the Sciences. PLOS ONE, 5, e10068. doi:10.1371/journal.pone.0010068"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tips-on-how-to-p-hack-like-the-pros",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tips-on-how-to-p-hack-like-the-pros",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Tips on how to p-hack (like the pros)",
+    "text": "Tips on how to p-hack (like the pros)\n“P-hack… What now?”"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#p--what-now",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#p--what-now",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "“P-… What now?”",
+    "text": "“P-… What now?”"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-1-switch-the-outcome",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-1-switch-the-outcome",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Tip 1: Switch the outcome",
+    "text": "Tip 1: Switch the outcome\n\nFor two outcome variables: False positive rate increases from 5% to 9.5%\n\nFor five outcome variables: False positive rate increases from 5% to 41%"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-2-experiment-with-many-conditions-but-report-only-those-that-worked",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-2-experiment-with-many-conditions-but-report-only-those-that-worked",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Tip 2: Experiment with many conditions, but report only those that worked",
+    "text": "Tip 2: Experiment with many conditions, but report only those that worked\n\n\n\n  \n  \n    \n  \n  \n\n\n\nTransforming a thesis into a ground-breaking publication\nThe „Chrysalis effect“ (O’Boyle et al, 2017): 142 dissertations that were subsequently published in a refereed journal (149 field studies and 26 experiments)\n\n\n\nO’Boyle, E. H., Banks, G. C., & Gonzalez-Mulé, E. (2017). The Chrysalis Effect: How Ugly Initial Results Metamorphosize Into Beautiful Articles. Journal of Management, 43(2), 376–399. https://doi.org/10.1177/0149206314527133 https://twitter.com/JoeHilgard/status/699693258386051072"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#practical-exercise-1",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#practical-exercise-1",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Practical exercise 1",
+    "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Design more practical exercises for students to apply the new skills in practice. - Depending on the topic, the exercises should be in accordance with the learning objective(s). - Add a description of the task, as well as a checklist as an overview of that your students need to be doing."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#pre-break-survey",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#pre-break-survey",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Pre-break survey",
+    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides)\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule - Use free survey software such as particify or formR to establish the following questions (shown on separate slides)"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#post-break-survey-discussion",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#post-break-survey-discussion",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Post-break survey discussion",
+    "text": "Post-break survey discussion\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: To clarify concepts and aspects that are not yet understood - Highlight specific answers given during the survey"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#practical-exercise-2",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#practical-exercise-2",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Practical exercise 2",
+    "text": "Practical exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: Design more practical exercises for students to apply the new skills in practice. - Depending on the topic, the exercises should be in accordance with the learning objective(s). - Add a description of the task, as well as a checklist as an overview of that your students need to be doing."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#relevance-and-implications",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#relevance-and-implications",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Relevance and implications",
+    "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: To work out the relevance of the topic to your students. - In an interactive setting, discuss how the new skills could be applied in practise with specific examples. - Examine downfalls and practical obstacles."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#assignment",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#assignment",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Assignment",
+    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\nSpeaker Notes: Script for the presentation here. Instructor Notes:  - Aim: Explain the homework assignment and the rationale behind the homework. - Examine whether/how it will be assessed - Mention scoring rubrics, if applicable - Design a peer-review system for assignments to place students in role of reviewer and author"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#take-home-message",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#take-home-message",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Take-home message",
+    "text": "Take-home message\n\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message.\n\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: End lesson on clear take-home message that are interactively compiled by students."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#to-conclude-survey-time",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#to-conclude-survey-time",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "To conclude: Survey time!",
+    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides)\nUse identical questions as in the pre-submodule survey to be able to directly compare\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic. - Use free survey software such as particify or formR to establish the following questions (shown on separate slides) - Use identical questions as in the pre-submodule survey to be able to directly compare"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#discussion-of-survey-results-1",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#discussion-of-survey-results-1",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\nSpeaker Notes: Script for the slide here. Instructer Notes:  - Aim: Briefly examine the answers given to each question interactively with the group. - Compare and highlight specific differences in answers between pre- and post-survey answers"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#references",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#references",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "References",
+    "text": "References\n\n\nAbele-Brehm, A. E., & Bühner, M. (2016). Wer soll die Professur bekommen? Psychologische Rundschau, 67(4), 250–261. https://doi.org/10.1026/0033-3042/a000335"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#pedagogical-add-on-tools-for-instructors",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#pedagogical-add-on-tools-for-instructors",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Pedagogical add-on tools for instructors",
+    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#additional-literature-for-instructors",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#additional-literature-for-instructors",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Additional literature for instructors",
+    "text": "Additional literature for instructors\n\nReferences for content\nReferences for pedagogical add-on tools\n\nOther resources (videos etc.)"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#text-with-example-links",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#text-with-example-links",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Text with example links",
+    "text": "Text with example links\n\nQuarto Documentation\nReveal.js Documentation\nMarkdown Guide\nGitHub"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#basic-text-formatting",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#basic-text-formatting",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Basic text formatting",
+    "text": "Basic text formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\nBlockquote: &gt; Quote →\n“This is a quote”"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#figure-with-caption",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#figure-with-caption",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Figure with caption",
+    "text": "Figure with caption\n\nCentered image and caption below in italics\n\n\n\n\nThis is a Penguin."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#figure-with-bullet-points",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#figure-with-bullet-points",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Figure with bullet points",
+    "text": "Figure with bullet points\n\n\n\n  \n  \n    \n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#side-by-side-figures",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#side-by-side-figures",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Side-by-side figures",
+    "text": "Side-by-side figures\n\n\n  \n    \n    Figure 1: Penguin\n  \n\n  \n    \n    Figure 2: Seal"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#stacked-figures-with-text",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#stacked-figures-with-text",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Stacked figures with text",
+    "text": "Stacked figures with text\n\n\n\n  \n  \n\n    \n    \n\n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#two-column-text-slide",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#two-column-text-slide",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Two-column text slide",
+    "text": "Two-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\nCras venenatis euismod malesuada.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#three-column-text-slide",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#three-column-text-slide",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Three-column text slide",
+    "text": "Three-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\n\nColumn 3\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#simple-table",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#simple-table",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Simple table",
+    "text": "Simple table\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#complex-table",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#complex-table",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Complex table",
+    "text": "Complex table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#task-list",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#task-list",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Task list",
+    "text": "Task list\n\nDone\nTo do"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#embedding-videos",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#embedding-videos",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Embedding videos",
+    "text": "Embedding videos"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#code-blocks",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#code-blocks",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Code blocks",
+    "text": "Code blocks\n\n# A basic R code chunk\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5\n\n# A simple plot\nhist(rnorm(100), main = \"Histogram of Random Normals\")"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#license",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#license",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "License",
+    "text": "License\n\nThis slide should contain information about the license details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#credit-contribution-statement",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#credit-contribution-statement",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "CREDiT Contribution Statement",
+    "text": "CREDiT Contribution Statement\nPossible roles using the CRediT contribition system or the Zenodo Contribution System:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-3-stop-collecting-data-whenever-you-please",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-3-stop-collecting-data-whenever-you-please",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Tip 3: Stop collecting data whenever you please",
+    "text": "Tip 3: Stop collecting data whenever you please\n\nCollect an initial sample, analyze the results, add additional participants if not significant, stop when significance is found\nIncrease twice: α = 11%\nBut with enough looks can be pushed to 100%!"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#what-research-is-all-about",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#what-research-is-all-about",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "What research is all about",
+    "text": "What research is all about\nText"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#right",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#right",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": ".. right??",
+    "text": ".. right??"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-4-drop-participants-that-you-did-not-like",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-4-drop-participants-that-you-did-not-like",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Tip 4: Drop participants that you did not like",
+    "text": "Tip 4: Drop participants that you did not like\n\nSelective exclusion of data/outliers after seeing the results until the results are satisfying (aka until significance has been reached)"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-5-hark-ing-personal-favourite",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-5-hark-ing-personal-favourite",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Tip 5: HARK-ing (personal favourite)",
+    "text": "Tip 5: HARK-ing (personal favourite)\n\nHypothesizing After Results are Known = presenting an exploratory finding to match a hypothesis that was created only after analysing the results"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-6-run-as-many-different-comparisons-as-humanly-possible",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#tip-6-run-as-many-different-comparisons-as-humanly-possible",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "Tip 6: Run as many different comparisons as humanly possible",
+    "text": "Tip 6: Run as many different comparisons as humanly possible\n\nRun many different comparisons on different outcomes, subgroups, time windows, etc., and only report the comparison that produced p &lt; 0.05\n\nSPEAKER NOTES: Each time you try another independent test at α = 0.05 you have a 5% chance of a Type I error for that test. If you perform many uncorrected tests, the chance that at least one will be (falsely) significant rises quickly. For example, doing 20 independent tests at α = 0.05 gives a probability of at least one false positive of 1 − (1 − 0.05)²⁰ = 1 − 0.95²⁰ ≈ 0.6415 (≈64%)."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#how-to-spot-possible-p-hacking",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#how-to-spot-possible-p-hacking",
+    "title": "Repeat after me: Why replication (failure) matters more than ever",
+    "section": "How to spot possible p-hacking",
+    "text": "How to spot possible p-hacking\n\nLarge number of uncorrected comparisons with selective reporting\nMany p values bunching just below 0.05\nLack of pre registration or analysis plan when claims are confirmatory\nResults that disappear under slight analytic changes or when full data/code are provided."
   }
 ]
