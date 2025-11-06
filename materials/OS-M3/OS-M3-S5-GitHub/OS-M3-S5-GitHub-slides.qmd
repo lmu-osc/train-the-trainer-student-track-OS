@@ -444,7 +444,7 @@ Now you have all the materials from the LMU OSC Collaborative-RStudio-GitHub rep
 ::: {.notes}
 **Speaker Notes**: We need a main repository where we will combine or merge all our contributions into one project. To have all the materials needed to follow along and complete the practical activities, I will create the fork and use it as the main repository.
 
-**Instructor Notes**: The fork of the original repository will act as the main repository for this session. This means that students would then have to fork this fork in order to make their individual changes and contributions. It's advisable to do this before the session so that on the day of the lesson, you can easily give the students a link to access this main repository. 
+**Instructor Notes**: The fork of the original repository will act as the main repository for this session. This means that students would then have to fork this fork in order to make their individual changes and contributions. Doing this allows you to view the pull requests made to this fork and subsequently merge them (OSC has ownership of the original repo and so any pull requests to that repo would require their approval). It's advisable to do this before the session so that on the day of the lesson, you can easily give the students a link to access this main repository. Please note that this means what you and your students see on your screens during this session will not match with some of the images in the Practical exercises (for example, the owner of the repository will be you and not "lmu-osc"). 
 :::
 
 ---
@@ -500,7 +500,7 @@ How does this contribute towards collaboration? It enables multiple contributors
 ::: {.notes}
 **Speaker Notes**: Go to the main repository of the project we will be using for today (the fork of the LMU OSC Repository). Find the toolbar at the top that is next to the name of the repository and click "Fork". 
 
-**Instructor Notes**: Provide students with the name or link to the repo created for this session. 
+**Instructor Notes**: Remember the 'main repository' here will be the one that you forked from the original lmu-osc tutorial- the top should read instead 'your-account/Collaborative-RStudio-GitHub'. So, this is the first instance where what you and your students see on screen will not match identically with what this example image shows. Provide students with the name or link to the repo created for this session. 
 :::
 
 ---
@@ -509,10 +509,11 @@ How does this contribute towards collaboration? It enables multiple contributors
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/create-fork.png){width="70%" fig-alt="An image showing the next steps after clicking 'Fork' including specifying the owner of the repository, the repository name, adding an optional description and a 'Create fork' button."}
 
+- [ ] Choose your GitHub account as the "`owner`" 
 - [ ] Click on the green "`Create fork`" button at the bottom-right of the screen
 
 ::: {.notes}
-**Speaker Notes**: It takes you to a new page where we will leave the default settings and just click the green "Create fork" button at the bottom. 
+**Speaker Notes**: It takes you to a new page where you will change the 'owner' to your GitHub account, leave the repository name as is and then click the green "Create fork" button at the bottom. 
 
 **Instructor Notes**: The only thing that should look different for each student is the "Owner" field- it should reflect each individual's GitHub account name.
 :::
@@ -545,7 +546,7 @@ When you **fork** the repo, a copy is made on your *remote GitHub account*. When
 :::
 
 ::: {.notes}
-**Speaker Notes**: To work on your copy or version of the project, clone it to your personal device. When you clone the repo, it takes the project from GitHub and downloads it onto your personal device so now you would have an offline version of the project to work on. <br>
+**Speaker Notes**: To work on your copy or version of the project, clone it to your personal device. When you clone the repo, it takes the project from GitHub and downloads it onto your personal device so now you have an offline version of the project to work on. <br>
 How does this contribute towards collaboration? You can now have a copy of the project files on your local device that's still connected to the online repository and it makes it easy to sync updates between contributors.
 
 **Instructor Notes**: Both forking and cloning involve making copies of the repo but to different locations, so make this distinction clear. If there is any confusion, you can go back to the first diagram of the workflow to visualize the difference. 
@@ -574,7 +575,7 @@ How does this contribute towards collaboration? You can now have a copy of the p
 - [ ] In **RStudio**, click "`File`" -> "`New Project`" to open a new project
 
 ::: {.notes}
-**Speaker Notes**: Now let's switch to RStudio because when you clone the files, you will put them in a new project on your device. Open RStudio and create a new project by selecting "New Project" under the 'File' menu. 
+**Speaker Notes**: Now let's switch to RStudio. When you clone the files, you will put them in a new project on your device. Open RStudio and create a new project by selecting "New Project" under the 'File' menu. 
 :::
 
 ---
@@ -621,7 +622,7 @@ How does this contribute towards collaboration? You can now have a copy of the p
 
 - [ ] Paste the URL of the GitHub repository under "`Repository URL:`"
 - [ ] Click "`Create Project`"
-- [ ] Click "`Browse...`" to place the project in a new folder
+- [ ] Click "`Browse...`" to place the project in a new folder on your device
 
 :::
 ::::::
@@ -629,7 +630,7 @@ How does this contribute towards collaboration? You can now have a copy of the p
 ::: callout-important
 ## Putting this project in a new folder
 
-Make a new folder somewhere on your device. Then, you can change the path under "Create project as subdirectroy of:" to locate this Git repository in that new folder. It is advisable that each folder has its own Git database.
+Make a new folder on your device. Then, you can change the path under "Create project as subdirectroy of:" to locate this Git repository in that new folder. We are making a new folder because it is advisable that each folder has its own Git database.
 :::
 
 ::: {.notes}
@@ -644,12 +645,12 @@ Make a new folder somewhere on your device. Then, you can change the path under 
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/files-tab.png){fig-alt="An image of the 'Files' tab in RStudio displaying the files of the cloned GitHub repository."}
 
-Now, when you click on the "`Files`" tab in **RStudio**, you should see all the files from the main repository that you cloned. 
+Now, when you click on the "`Files`" tab in **RStudio**, you should see all the files from the main repository. 
 
 ::: {.notes}
-**Speaker Notes**: And that's it! You should now have the files from the main repository on your local device. Check this by clicking on the "Files" tab in RStudio and check that all the files from the main repository are now appearing. 
+**Speaker Notes**: And that's it! You should now have the files from the main repository on your local device. Check this by clicking on the "Files" tab in RStudio and check that all the files from the main repository are now appearing. Compare what you have on your RStudio project to what is in your fork on GitHub.  
 
-**Instructor Notes**: It may be helpful to point out the "params" sub-folder as one of the files here in the cloned repository. This is the sub-folder containing the R file that students will need to copy in the next exercise. 
+**Instructor Notes**: It would be helpful at this stage to point out the "params" sub-folder as one of the files here in the cloned repository. This is the sub-folder containing the R file that students will need to copy in the next exercise. 
 :::
 
 ---
@@ -690,7 +691,7 @@ Before you **commit to a project**, you need to make some changes to the project
 - [ ] Click "`More`" then "`Copy...`" to make a copy of this file
 
 ::: {.notes}
-**Speaker Notes**: We're still in RStudio. In the 'Files' tab, find the 'params' sub-folder and open it. Now within this sub-folder, find an R file called 'params_templ' and click the tickbox next to it to select it. Then click on the drop-down arrow by "More" and click "Copy". 
+**Speaker Notes**: We're still in RStudio. In the 'Files' tab, find the 'params' sub-folder and open it. Now within this sub-folder, find an R file called 'params_templ' and click the tickbox next to it to select it. This is what where we will be making our changes to the project. Then click on the drop-down arrow by "More" and click "Copy". 
 
 **Instructor Notes**: Copying the file and then editing the copied file is specific to this practice exercise. You do not always need to copy the file to then make changes to it, a project can require a contributor to make changes to the file directly. It depends on the project. 
 :::
@@ -712,7 +713,7 @@ Before you **commit to a project**, you need to make some changes to the project
 <span style="color:red;">Maybe with an example? </span> Beth: added.
 </div>
 
-- [ ] Open your copy of the file to make your changes. In this case, you will be making a new parameter
+- [ ] Open your copy of the file to make your changes (in this case, you will be making a new parameter)
 
 ::: {.notes}
 **Speaker Notes**: You'll be prompted to give the copied file a name/title, use something identifiable like including your first name.
@@ -729,9 +730,9 @@ Before you **commit to a project**, you need to make some changes to the project
 - [ ] For color: type the hex code of a color with quotation marks (for example, the color red is "#FFFFFF"). 
 
 ::: {.notes}
-**Speaker Notes**: In this exercise, each person will edit their own parameter file to practice making a commit. Update these three values: a numeric for "sig2", a character name for "species.name", and a hex color code for "color".
+**Speaker Notes**: In this exercise, each person will edit their own parameter file to practice making a commit. Update these three values: a numeric for "sig2", a character name for "species.name", and a hex color code for "color". You can install the package "colourpicker" which would create an Addin called "Colour Picker" to help find a hex code for a desired color. The "Addins" drop-down menu is found on a toolbar at the top of the RStudio workspace.
 
-**Instructor Notes**: You can install the package "colourpicker" which would create an Addin called "Colour Picker" to help find a hex code for a desired color. The "Addins" drop-down menu is found on a toolbar at the top of the RStudio workspace.
+**Instructor Notes**: Make sure students do NOT put additional information (more than what's required) as this can result in the code breaking. 
 :::
 
 ---
@@ -765,14 +766,14 @@ Before you **commit to a project**, you need to make some changes to the project
 - [ ] Click "`Commit`" under the "`Commit message`" textbox
 
 ::: {.notes}
-**Speaker Notes**: You should leave a message for your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Then, Click the "Commit" button. 
+**Speaker Notes**: You should leave a message to accompany your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Then, Click the "Commit" button. 
 :::
 
 ---
 
 ## You made a contribution!
 
-Great, now you've made changes. You added a file with your parameters on a shared project and committed it. Let's take a minute (literally) and recap what you did to achieve that. 
+Great, now you've made changes. You added a file with your parameters on a shared project and committed it. Let's take a minute (*literally*) and recap what you did to achieve that. 
 
 <div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
 
@@ -784,7 +785,7 @@ Great, now you've made changes. You added a file with your parameters on a share
 </div>
 
 ::: {.notes}
-**Speaker Notes**: You've successfully made a contribution by making some changes to a file in the shared project. This is how collaboration on GitHub happens- by each contributor having their own copies of the project and making their individual changes. Before we go further, let's take a minute to recap what steps we took to get here with this activity. <br>
+**Speaker Notes**: You've successfully made a contribution by copying a file and making some changes to it in the shared project. This is how collaboration on GitHub happens- by each contributor having their own copies of the project and making their individual changes. Before we go further, let's take a minute to recap what steps we took to get here with this activity. <br>
 You have 60 seconds to write down these steps. Think of the names of the actions, in which order you did them, and how can this be beneficial to you as a collaborator.
 
 **Instructor Notes**: This one-minute paper activity is to give the instructor an idea of how the learners are progressing with the steps of collaborative coding so far and if they are understanding how the steps fit into a workflow using GitHub. It also doubly acts as a way to reinforce the concepts discussed in this session. If you want to make the activity a bit easier, you can provide them with the terms: repo, fork, clone, commit.
@@ -819,7 +820,7 @@ How does this contribute towards collaboration? It keeps the online version of t
 - [ ] Enter your password when prompted
 
 ::: {.notes}
-**Speaker Notes**: To send the changes you just made to the file on your local device to your online fork on GitHub, you need to click the "Push" button in the Git tab. You'll then need to enter your password again. 
+**Speaker Notes**: The changes you made are just on your local device and committing it means you just recorded it in the project history. But it is not et on your remote fork on GitHub. To send the changes you just made to the file on your local device to your online fork on GitHub, you need to click the "Push" button in the Git tab. You'll then need to enter your password again. 
 :::
 
 ---
@@ -830,14 +831,31 @@ If you successfully pushed your changes, you would see a pop up box like the one
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-github.png){fig-align="center" fig-alt="An screenshot showing the message one would receive if the push action was successfully completed."}
 
-You should see your new file with the commit message next to it in your forked repository on GitHub when you refresh the page. 
-
 <div style="font-size: 0.7em;">
 <span style="color:red;">mention the commit message as well? </span> Beth: added
 </div>
 
 ::: {.notes}
 **Speaker Notes**: If all went well, you will see a pop up box with a message like this one to let you know the changes were successfully pushed to the remote repository. An additional way to make sure your changes were pushed, refresh your GitHub repository webpage and check to see if the file you copied is now appearing. The commit message should also appear next to it on GitHub. 
+:::
+
+---
+
+## Push changes
+
+<br>
+<br>
+
+::: callout-important
+## Refresh the page
+
+Refresh the page of your forked repository on GitHub and you should see your new file with the commit message next to it. Refreshing the page is an important step to update your forked repository with the new file you added. 
+:::
+
+::: {.notes}
+**Speaker Notes**: Now go back to your forked repository on GitHub and refresh the page. This is an important step to confirm that the file together with the commit message are appearing and to update your fork with the changes you made.
+
+**Instructor Notes**: If a student does not refresh the page, this can cause problems during when merging. If they do not refresh the page and simply make a pull request, an empty 'params_tmpl.R' file comes up when the owner views the request.
 :::
 
 ---
@@ -1014,6 +1032,8 @@ How does this contribute towards collaboration? The changes can be reviewed and 
 
 ::: {.notes}
 **Speaker Notes**: Check the settings to ensure the "base repository" is the main repository that you initially forked and the "head repository" is your forked repository. You should see a message in green saying "Able to merge" and this means that the request to merge does not create any conflict.
+
+**Instructor Notes**: The 'base repository' should automatically be the one the students forked (the main repository used in this session), but it's important to double-check it as it will, again, not match identically with what's shown in the example image (because you are not using the lmu-osc original repo for this activity). 
 :::
 
 ---
@@ -1200,7 +1220,9 @@ Now let's see what that looks like for this project with a **live demonstration*
 ::: {.notes}
 **Speaker Notes**: Now that we know what to do, let's see it in action with a live demonstration! We will merge changes in one or more forks with the main repository project files via the pull requests. 
 
-**Instructor Notes**: Do a live demonstration of merging some changes- depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student.
+**Instructor Notes**: Do a live demonstration of merging some changes- depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student. <br>
+- For this particular project, the things you want to check for during your review is that each new file has the 3 elements in the correct format: 'sig2' is a numerical value between 1-5 with no quotation marks; 'species.name' has quotation marks; 'color' is a hex code starting with a # followed by 6 characters and is in quotation marks. Errors here can break the code. <br>
+- When you open the "plot-trait-evolution.Rmd" file, you would have to install and load the necessary packages before hitting 'Knit'- the packages are detailed in the file itself. 
 :::
 
 ---
@@ -1222,7 +1244,7 @@ How does this contribute towards collaboration? It keeps your local copy updated
 
 ## Practical exercise 6: Pull 
 
-- [ ] In **RStudio**, go to the `Terminal` tab
+- [ ] In **RStudio**, go to the "`Terminal`" tab
 - [ ] Enter the following command: 
 
 ```text
@@ -1246,7 +1268,7 @@ To do this, we go back into RStudio and go to the "Terminal" tab and enter the g
 
 ## Practical exercise 6: Pull 
 
-- [ ] In the RStudio **Terminal**, enter the command to pull the original repo and branch following this format:
+- [ ] In the **RStudio** "`Terminal`", enter the command to pull the original repo and branch following this format:
 
 ```text 
 git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
@@ -1343,7 +1365,7 @@ git push
 
 Remember this illustration?
 
-![](images/03_Recap_Activity.png){fig-align="center"}
+![](images/04_Recap_Activity.png){fig-align="center"}
 
 *Fill in the missing words with the actions we learned today!*
 
@@ -1364,7 +1386,7 @@ Remember this illustration?
 <br>
 
 <div style="text-align: center;">
-  <a href="images/00_GitHub_Workflow.png" download 
+  <a href="images/03_GitHub_Workflow.png" download 
      style="background-color:#007ACC; color:white; padding:10px 16px; border-radius:6px; 
             text-decoration:none; font-weight:600;">
     Download the completed diagram
