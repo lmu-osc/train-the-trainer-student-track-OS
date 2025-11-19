@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.7.34">
 
   <meta name="author" content="LMU Open Science Center">
-  <title>Train the Trainer: Student Track: OS Content – Repeat after me: Why replication (failure) matters more than ever</title>
+  <title>Train the Trainer: Student Track: OS Content – Replication failure, reproducibility crisis and other threats to credible science: How Open Research can change the game</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,27 +28,73 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for citations */
-    div.csl-bib-body { }
-    div.csl-entry {
-      clear: both;
-      margin-bottom: 0em;
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
     }
-    .hanging-indent div.csl-entry {
-      margin-left:2em;
-      text-indent:-2em;
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
     }
-    div.csl-left-margin {
-      min-width:2em;
-      float:left;
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
     }
-    div.csl-right-inline {
-      margin-left:2em;
-      padding-left:1em;
-    }
-    div.csl-indent {
-      margin-left: 2em;
-    }  </style>
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
   <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
   <link rel="stylesheet" href="../../../slides-custom.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -148,7 +194,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Repeat after me: Why replication (failure) matters more than ever</h1>
+  <h1 class="title">Replication failure, reproducibility crisis and other threats to credible science: How Open Research can change the game</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -158,7 +204,7 @@ LMU Open Science Center
 </div>
 </div>
 
-  <p class="date">30/10/2025</p>
+  <p class="date">19/11/2025</p>
 </section>
 <section id="licence" class="slide level2">
 <h2>Licence</h2>
@@ -419,14 +465,561 @@ LMU Open Science Center
 
 </section>
 <section>
-<section id="the-challenges-in-research" class="title-slide slide level1 center">
-<h1>The challenges in research</h1>
+<section id="the-research-process" class="title-slide slide level1 center">
+<h1>The research process</h1>
 
 </section>
+<section id="the-research-cycle" class="slide level2">
+<h2>The research cycle</h2>
+<p><img src="images/00_scientific_method.png" alt="A  diagram illustrating the scientific, with six stages arranged clockwise: Observation/Question, Research topic area, Hypothesis, Test with experiment, Analyze data, and Report Conclusions connected by arrows to show the ongoing, iterative research process." style="display:block; margin:0 auto; width:50%; height:50%;"></p>
+<div style="font-size: 0.55em; color: #777;">
+<p><a href="www.phdcomics.com">www.phdcomics.com</a></p>
+</div>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Add script for slide here. <strong>Instructor Notes</strong>: Add.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-research-cycle-1" class="slide level2">
+<h2>The research cycle</h2>
+<p><img src="images/00_research_cycle.png" alt="A circular diagram illustrating the design-based research cycle, with four stages arranged horizontally: Observation, formulation hypothesis, test hypothesis with experiment, establish theory based on repeated validation of results connected by arrows to show the ongoing, iterative research process." style="display:block; margin:0 auto; width:50%; height:50%;"></p>
+<div style="font-size: 0.55em; color: #777;">
+<p>DBR English greyscaler (Design-based research cycle)” by Sarah Zloklikovits, licensed under CC BY 4.0 — Wikimedia Commons.</p>
+</div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="can-we-trust-research" class="title-slide slide level1 center">
+<h1>Can we trust research?</h1>
+
+</section>
+<section id="replicability-and-reproducibility" class="slide level2">
+<h2>Replicability and reproducibility</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 35%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th><strong>Replicability</strong></th>
+<th><strong>Reproducibility</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Definition</td>
+<td>Ability to <strong>repeat an experiment</strong> using the <strong>same methods</strong> and obtain the same results</td>
+<td>Ability to <strong>obtain consistent results</strong> using the <strong>original data and code</strong></td>
+</tr>
+<tr class="even">
+<td>Focus</td>
+<td><em>aka</em> repeating the experiment in practice</td>
+<td><em>aka</em> re-analyzing the original data</td>
+</tr>
+<tr class="odd">
+<td>Materials</td>
+<td>Same experiment setup, protocols, conditions etc.</td>
+<td>Original data, analysis scripts, code etc.</td>
+</tr>
+<tr class="even">
+<td>Example</td>
+<td>Running the same psychological experiment with new participants</td>
+<td>Running the published statistical analysis on the shared dataset</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="practical-exercise-1" class="slide level2">
+<h2>Practical exercise 1</h2>
+<p>Decide whether each scenario in the following slides is an example of <strong>reproducibility</strong> or <strong>replicability</strong>. Write down your answers.</p>
+<p>instructor notes: think pair share</p>
+</section>
+<section id="scenario-1" class="slide level2">
+<h2>Scenario 1</h2>
+<p><br> <br></p>
+<p><strong>A computational neuroscientist reruns a published fMRI analysis using the original dataset and Python scripts to verify the reported brain activation patterns.</strong></p>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Add script for slide here. <strong>Instructor Notes</strong>: Correct answer: Reproducibility</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="scenario-2" class="slide level2">
+<h2>Scenario 2</h2>
+<p><br> <br></p>
+<p><strong>An environmental scientist repeats a field experiment on soil nutrient levels using the same sampling protocol at a different site.</strong></p>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Add script for slide here. <strong>Instructor Notes</strong>: Correct answer: Replicability</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="scenario-3" class="slide level2">
+<h2>Scenario 3</h2>
+<p><br> <br></p>
+<p><strong>A linguist reanalyzes a corpus of historical texts using the same annotation guidelines and code to verify reported patterns of syntactic structures.</strong></p>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Add script for slide here. <strong>Instructor Notes</strong>: Correct answer: Reproducibility</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="scenario-4" class="slide level2">
+<h2>Scenario 4</h2>
+<p><br> <br></p>
+<p><strong>A psychology lab replicates a social behavior experiment using new participants from a different cultural background.</strong></p>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Add script for slide here. <strong>Instructor Notes</strong>: Correct answer: Replicability</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="interactive-slide" class="title-slide slide level1 center">
+<h1>Interactive slide</h1>
+
+</section>
+<section class="slide level2">
+
+<section>
+<h2 style="font-size:1.5em;">
+Practical Exercise 1
+</h2>
+<p style="font-size:0.85em;">
+Decide whether each scenario is an example of <strong>reproducibility</strong> or <strong>replicability</strong>.
+</p>
+<ol style="font-size:0.8em;">
+<li class="fragment">
+A computational neuroscientist reruns a published fMRI analysis using the original dataset and Python scripts to verify the reported brain activation patterns.
+<div style="color:#555; font-size:0.75em;">
+<strong>Answer:</strong> Reproducibility
+</div>
+</li>
+<li class="fragment">
+An environmental scientist repeats a field experiment on soil nutrient levels using the same sampling protocol at a different site.
+<div style="color:#555; font-size:0.75em;">
+<strong>Answer:</strong> Replicability
+</div>
+</li>
+<li class="fragment">
+A psychology lab replicates a social behavior experiment using new participants from a different cultural background.
+<div style="color:#555; font-size:0.75em;">
+<strong>Answer:</strong> Replicability
+</div>
+</li>
+<li class="fragment">
+A linguist reanalyzes a corpus of historical texts using the same annotation guidelines and code to verify reported patterns of syntactic structures.
+<div style="color:#555; font-size:0.75em;">
+<strong>Answer:</strong> Reproducibility
+</div>
+</li>
+</ol>
+</section>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Add script for slide here. <strong>Instructor Notes</strong>: Correct answer: Replicability</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-published-research-can-be-replicatedreproduced" class="slide level2">
+<h2>What published research can be replicated/reproduced?</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 64%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Success</th>
+<th>Failure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>OSC (2015) – Psychology</td>
+<td>36%</td>
+<td>64%</td>
+</tr>
+<tr class="even">
+<td>Chang &amp; Li (2015) – Economics (67 papers, 29 papers replicated)</td>
+<td>43%</td>
+<td>57%</td>
+</tr>
+<tr class="odd">
+<td>Camerer 2016 – Econ laboratory</td>
+<td>61%</td>
+<td>39%</td>
+</tr>
+<tr class="even">
+<td>Camerer combined Social Sci</td>
+<td>62%</td>
+<td>38%</td>
+</tr>
+<tr class="odd">
+<td>Begley &amp; Ellis (2012) – Cancer Research</td>
+<td>11%</td>
+<td>89%</td>
+</tr>
+<tr class="even">
+<td>Prinz et al.&nbsp;(2011) – Pharmaceutical research</td>
+<td>35%</td>
+<td>65%</td>
+</tr>
+<tr class="odd">
+<td>Cova et al.&nbsp;(2018) – x-philosophy</td>
+<td>70%</td>
+<td>30%</td>
+</tr>
+<tr class="even">
+<td>Protzko et al.&nbsp;(2023) – Social</td>
+<td>86%</td>
+<td>14%</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-reproducibility-project-2015" class="slide level2">
+<h2>The Reproducibility Project (2015)</h2>
+<ul>
+<li>Large-scale replication project:
+<ul>
+<li>100 studies from 3 different journals</li>
+<li>Close/exact replications</li>
+<li>Contacted original study authors</li>
+<li>Open materials and data</li>
+</ul></li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>How many studies do you think replicated?</strong></p>
+</div>
+</div>
+</div>
+<div style="font-size: 0.3em; color: #777;">
+<p>Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716.</p>
+</div>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: The Reproducibility Project by the Open Science Collaboration (2015) involved a large-scale, collaborative effort by over 270 researchers. They selected 100 experimental studies published between 2008 and 2012 in three top psychology journals: Psychological Science, Journal of Personality and Social Psychology, and Journal of Experimental Psychology: Learning, Memory, and Cognition. For each study, they carefully reviewed the original materials, methods, and analyses, and often contacted the original authors for clarification or access to materials and protocols. Each replication aimed to match the original study’s sample size, experimental design, and analysis plan as closely as possible, while making only minimal changes when exact materials were unavailable. The replications were preregistered to specify hypotheses, design, and analysis before data collection, reducing bias and “researcher degrees of freedom.” Data collection was conducted independently from the original research teams, often in multiple labs to ensure rigor. After data collection, they analyzed the results using the same statistical methods as the original studies to determine whether the findings could be reproduced. The project also evaluated effect sizes, not just statistical significance, to compare the magnitude of the original and replicated effects.</p>
+<p><strong>Only 39% of the replications produced statistically significant results, and the median effect size in replications was about half that of the original studies, highlighting the reproducibility challenges in psychology</strong>.</p>
+<p><strong>Instructor Notes</strong>:</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="replicability-and-reproducibility-across-disciplines" class="slide level2">
+<h2>Replicability and reproducibility across disciplines</h2>
+
+<img data-src="OS-M1-S1-Replicability-slides_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"><div style="font-size: 0.3em; color: #777;">
+<p>Open Science Collaboration (2015); Social Science: Combined sample of systematically sampled projects (RPP, SSRP, EERP); Chang &amp; Li (2015); Camerer et al (2016); Begley, C. G., &amp; Ellis, L. M. (2012). Prinz, F., Schlange, T., &amp; Asadullah, K. (2011); Cova et al.&nbsp;(2018); Protzko et al., 2023)</p>
+</div>
+</section>
+<section id="which-studies-replicate-in-psychology" class="slide level2">
+<h2>Which studies replicate (in psychology)?</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Description</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Psychology</td>
+<td>Replication database</td>
+<td><a href="https://forrt-replications.shinyapps.io/fred_explorer/">https://forrt-replications.shinyapps.io/fred_explorer/</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="not-a-recent-issue" class="slide level2">
+<h2>Not a recent issue</h2>
+<p><img src="images/reproducibility_literature.png" alt="An image with te titles of journal articles reporting about the replicability and reproducibility crisis across difference disciplines." style="display:block; margin:0 auto; width:50%; height:50%;"></p>
+<div style="font-size: 0.3em; color: #777;">
+<p><a href="https://osf.io/u3znx">Adapted from Dr.&nbsp;Malika Ihlehttps: https://osf.io/u3znx</a></p>
+</div>
+</section>
+<section id="a-romantisiced-idea-of-research" class="slide level2">
+<h2>A romantisiced idea of research ?</h2>
+<p><img src="images/this-is-research.png" alt="An image describing a romantic view of research: The smartest heads in the world immerse themselves into a research topic for years.In that process, they become the experts – nobody knows more about that topic.The boundaries of knowledge have been pushed forward. When the researchers are confident in their findings, they publish them in the best scientific journals, with the highest standards of quality, rigor, and integrity." style="display:block; margin:0 auto; width:50%; height:50%;"></p>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="why-did-not-more-studies-replicate" class="title-slide slide level1 center">
+<h1>Why did not more studies replicate?</h1>
+
+</section>
+<section id="published-work-is-important-for" class="slide level2">
+<h2>Published work is important for …</h2>
+<ul>
+<li>Getting a job</li>
+<li>Being awarded grants</li>
+<li>Being visible in the respective research field</li>
+</ul>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Warning</strong></p>
+</div>
+<div class="callout-content">
+<p>The consequence is a “rat race” culture: Researchers try to publish as much as we can.</p>
+</div>
+</div>
+</div>
+<p>Ideal scenario: Balancing the desire to stay truthful to research with the necessity to publish?</p>
+</section>
 <section id="right" class="slide level2">
-<h2>.. right??</h2>
+<h2>…right?</h2>
 
 <img data-src="images/07_holy_grail.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%" alt="chasing significance"></section>
+<section id="relevance-of-publishing-for-career" class="slide level2">
+<h2>Relevance of publishing for career</h2>
+<div class="line-block">Actual (not desired) relevance in professorship hiring committees | Rank |</div>
+<p>|————-|——| | <strong>Number</strong> of peer-reviewed publications | 1 | | Fit of research profile to the hiring department | 2 | | Quality of research talks | 3 | | <strong>Number</strong> of publications | 4 | | Volume of acquired third party funding | 5 | | <strong>Number</strong> of first authorships | 6 | | … | … |</p>
+<p>N = 1453 psychology researchers, 66% were actually members of a professorship hiring committee.</p>
+<p><br></p>
+<div style="font-size: 0.3em; color: #777;">
+<p>Abele-Brehm, A. E., &amp; Bühner, M. (2016). Wer soll die Professur bekommen? Psychologische Rundschau, 67(4), 250–261. http://doi.org/10.1026/0033-3042/a000335</p>
+</div>
+</section>
+<section id="how-do-i-get-lots-of-publications" class="slide level2">
+<h2>How do I get lots of publications?</h2>
+
+<img data-src="images/02_significant_results_discipline_92.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%" alt="significant results"><p>Fanelli, D. (2010). “Positive” Results Increase Down the Hierarchy of the Sciences. PLOS ONE, 5, e10068. doi:10.1371/journal.pone.0010068</p>
+</section>
+<section id="publication-bias" class="slide level2">
+<h2>Publication bias</h2>
+<p><strong>“If it works, I can publish it; if it does not, let me put it into my file drawer.”</strong></p>
+
+<div style="display: flex; align-items: flex-start; gap: 2em;">
+
+  <!-- Left side: single image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/file-drawer.png" style="width: 100%;">
+  </div>
+  
+<!-- Right side: bullet points -->
+<div style="flex: 1;">
+<strong>Publication bias</strong> happens when studies with positive or significant results are much more likely to be published than studies with negative or non-significant results.
+</div>
+</div>
+</section>
+<section id="example-publication-bias" class="slide level2">
+<h2>Example publication bias</h2>
+<p>Turner et al 2008</p>
+</section>
+<section id="more-than-publication-bias" class="slide level2">
+<h2>More than publication bias</h2>
+<p>De vries et al study</p>
+</section>
+<section id="cognitive-biases" class="slide level2">
+<h2>Cognitive biases</h2>
+</section>
+<section id="confirmation-bias" class="slide level2">
+<h2>Confirmation bias</h2>
+</section>
+<section id="accidental-p-hacking" class="slide level2">
+<h2>Accidental p-hacking</h2>
+<p><strong>“P-hack… What now?”</strong></p>
+
+<img data-src="images/04_QRPs.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%" alt="p-hacking and questionble research practises"></section>
+<section id="null-hypothesis-testing" class="slide level2">
+<h2>Null-Hypothesis-Testing</h2>
+<p><strong>Example</strong>: Does this new drug work better to decrease flu-symptoms compared to an existing drug?</p>
+<ul>
+<li>The null hypothesis (H₀) is the idea that nothing special is happening—for example, “the new drug is no better than the existing one.”</li>
+<li>You then collect data from experiments and perform a statistical analysis to see if the evidence is strong enough to reject the null hypothesis.</li>
+<li>The <strong>p-value</strong> tells you how likely it is to see the results you got <strong>if the null hypothesis is actually true</strong>.</li>
+<li>A p-value of 0.05 means: “There’s a 5% chance of seeing these results (or more extreme) if the null hypothesis is true.”</li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>A p-value of 0.05 means that we accept a 5% chance that our results came about by pure luck (if the results were accidental, we would speak of a false positive result)</p>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="increasing-your-false-positive-rates-can-happen-in-the-blink-of-an-eye" class="title-slide slide level1 center">
+<h1>Increasing your false positive rates can happen in the blink of an eye!</h1>
+
+</section>
+<section id="have-you-ever" class="slide level2">
+<h2>Have you ever …?</h2>
+<ul>
+<li>Neglected to blind data collection?</li>
+<li>Added more outcome variables in the analysis process and reported only the outcome variables that produced a significant effect?</li>
+<li>Ran many different comparisons on different subsets/groups etc.?</li>
+<li>Stopped data collection when you obtained the result you were looking for?</li>
+<li>Continued sampling after finding a null result?</li>
+<li>Reformulated your hypotheses based on what you found?</li>
+<li>Excluded outliers based on the significance of your results</li>
+<li>Tested excluding, including, or transforming covariates, but only reported the final model?</li>
+<li>Neglected to report all the dependent measures you tested?</li>
+</ul>
+</section>
+<section id="tip-1-report-only-outcome-variables-you-like-andor-silently-add-other-outcomes" class="slide level2">
+<h2>Tip 1: Report only outcome variables you “like” and/or silently add other outcomes</h2>
+<ul>
+<li><p>For <strong>two outcome variables</strong>: False positive rate increases from 5% to <strong>9.5%</strong></p></li>
+<li><p>For <strong>five outcome variables</strong>: False positive rate increases from 5% to <strong>41%</strong></p></li>
+</ul>
+
+<img data-src="images/05_Outcome_Switching.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%" alt="p-hacking and questionble research practises"></section>
+<section id="tip-1-cont.-report-only-outcome-variables-you-like-andor-silently-add-other-outcomes" class="slide level2">
+<h2>Tip 1 (cont.): Report only outcome variables you like and/or silently add other outcomes</h2>
+
+<img data-src="images/06_Silent_Outcomes.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%" alt="p hacking and questionable research practises"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>http://compare-trials.org/  http://blogs.discovermagazine.com/neuroskeptic/2015/07/23/social-priming-money-for-nothing/#.VuKRSRi5KJM</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="tip-2-experiment-with-many-conditions-but-report-only-those-that-worked" class="slide level2">
+<h2>Tip 2: Experiment with many conditions, but report only those that worked</h2>
+
+<div style="display: flex; align-items: flex-start; gap: 2em;">
+
+  <!-- Left side: single image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/06_Reporting_Conditions.png" style="width: 100%;">
+  </div>
+  
+<!-- Right side: bullet points -->
+<div style="flex: 1;">
+<ul>
+<li>Transforming a thesis into a ground-breaking publication</li>
+<li>The „Chrysalis effect“ (O’Boyle et al, 2017): 142 dissertations that were subsequently published in a refereed journal (149 field studies and 26 experiments)</li>
+</ul>
+</div>
+</div>
+<p>O’Boyle, E. H., Banks, G. C., &amp; Gonzalez-Mulé, E. (2017). The Chrysalis Effect: How Ugly Initial Results Metamorphosize Into Beautiful Articles. Journal of Management, 43(2), 376–399. https://doi.org/10.1177/0149206314527133 https://twitter.com/JoeHilgard/status/699693258386051072</p>
+</section>
+<section id="tip-3-stop-collecting-data-whenever-you-feel-like-it" class="slide level2">
+<h2>Tip 3: Stop collecting data whenever you feel like it</h2>
+<ul>
+<li><p>Collect an initial sample, analyze the results, add additional participants if not significant, stop when significance is found</p></li>
+<li><p>Increase twice: α = 11%</p></li>
+<li><p>But with enough looks can be pushed to 100%!</p></li>
+</ul>
+</section>
+<section id="tip-4-drop-participants-that-you-did-not-like" class="slide level2">
+<h2>Tip 4: Drop participants that you did not like</h2>
+<ul>
+<li>Selective exclusion of data/outliers after seeing the results until the results are satisfying (aka until significance has been reached)</li>
+</ul>
+
+<img data-src="images/08_Selective_Exclusion.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%" alt="selective exclusion"></section>
+<section id="tip-5-hark-ing-personal-favourite" class="slide level2">
+<h2>Tip 5: HARK-ing (personal favourite)</h2>
+<ul>
+<li><strong>H</strong>ypothesizing <strong>A</strong>fter <strong>R</strong>esults are <strong>K</strong>nown = presenting an exploratory finding to match a hypothesis that was created only after analysing the results</li>
+</ul>
+</section>
+<section id="tip-6-run-as-many-different-comparisons-as-humanly-possible" class="slide level2">
+<h2>Tip 6: Run as many different comparisons as humanly possible</h2>
+<ul>
+<li>Run many different comparisons on different outcomes, subgroups, time windows, etc., and only report the comparison that produced p &lt; 0.05</li>
+</ul>
+<p>SPEAKER NOTES: Each time you try another independent test at α = 0.05 you have a 5% chance of a Type I error for that test. If you perform many uncorrected tests, the chance that at least one will be (falsely) significant rises quickly. For example, doing 20 independent tests at α = 0.05 gives a probability of at least one false positive of 1 − (1 − 0.05)²⁰ = 1 − 0.95²⁰ ≈ 0.6415 (≈64%).</p>
+</section>
+<section id="human-errors" class="slide level2">
+<h2>Human errors</h2>
+</section>
+<section id="statistical-errors" class="slide level2">
+<h2>Statistical errors</h2>
+</section>
+<section id="ai-and-the-promotion-of-untrustworthy-research" class="slide level2">
+<h2>AI and the promotion of untrustworthy research</h2>
+</section>
+<section class="slide level2">
+
+</section>
 <section id="quality-rigor-and-integrity" class="slide level2">
 <h2>Quality, rigor and integrity</h2>
 <p><em>The smartest heads in the world immerse themselves into a research topic for years. In that process, they become the experts – nobody knows more about that topic. The boundaries of knowledge have been pushed forward. When the scientist are confident in their findings, they publish them in the best scientific journals, with the highest standards of quality, rigor, and integrity.</em></p>
@@ -487,64 +1080,8 @@ LMU Open Science Center
 <h1>How to be successful in academia (or: How to hack your way to scientific glory)</h1>
 
 </section>
-<section id="how-to-become-a-professor" class="slide level2">
-<h2>How to become a Professor?</h2>
-<div style="font-size: 0.8em; height: 1cm;">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Relevance in professorship hiring committees</th>
-<th>Rank</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Number</strong> of peer-reviewed publications</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>Fit of research profile to the hiring department</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>Quality of research talks</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td><strong>Number</strong> of publications</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>Volume of acquired third-party funding</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td><strong>Number</strong> of first authorships</td>
-<td>6</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>N = 1453 psychology researchers, 66% were actually members of a professorship hiring committee <span class="citation" data-cites="abele-brehmWerSollProfessur2016">(<a href="#/references" role="doc-biblioref" onclick="">Abele-Brehm &amp; Bühner, 2016</a>)</span></p>
-<p>Abele-Brehm, A. E., &amp; Bühner, M. (2016). Wer soll die Professur bekommen? <em>Psychologische Rundschau</em>, <em>67</em>(4), 250–261. <a href="http://doi.org/10.1026/0033-3042/a000335">http://doi.org/10.1026/0033-3042/a000335</a></p>
-</section>
-<section id="how-do-i-get-lots-of-publications" class="slide level2">
-<h2>How do I get lots of publications?</h2>
-
-<img data-src="images/02_significant_results_discipline_92.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%" alt="significant results"><p>Fanelli, D. (2010). “Positive” Results Increase Down the Hierarchy of the Sciences. PLOS ONE, 5, e10068. doi:10.1371/journal.pone.0010068</p>
-</section>
 <section id="tips-on-how-to-p-hack-like-the-pros" class="slide level2">
 <h2>Tips on how to p-hack (like the pros)</h2>
-<p><strong>“P-hack… What now?”</strong></p>
-
-<img data-src="images/04_QRPs.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%" alt="p-hacking and questionble research practises"></section>
-<section id="references" class="slide level2 smaller scrollable">
-<h2>References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-abele-brehmWerSollProfessur2016" class="csl-entry" role="listitem">
-Abele-Brehm, A. E., &amp; Bühner, M. (2016). Wer soll die <span>Professur</span> bekommen? <em>Psychologische Rundschau</em>, <em>67</em>(4), 250–261. <a href="https://doi.org/10.1026/0033-3042/a000335">https://doi.org/10.1026/0033-3042/a000335</a>
-</div>
-</div>
 </section>
 <section class="slide level2">
 

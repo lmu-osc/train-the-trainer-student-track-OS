@@ -1,0 +1,1027 @@
+---
+title: "Replication failure, reproducibility crisis and other threats to credible science: How Open Research can change the game"
+author: "LMU Open Science Center"
+date: "today"
+date-format: "DD/MM/YYYY"
+format: 
+  revealjs:
+    css: ../../../slides-custom.css # looks for css file in root
+    footer: LMU Open Science Center
+    slide-number: true
+    logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+  pptx: 
+    css: ../../../slides-custom.css # looks for css file in root
+
+bibliography: ../../../assets/references.bib
+csl: ../../../assets/apa.csl
+
+execute:
+  echo: true
+  eval: true
+  engine: knitr
+---
+
+## Licence
+
+<br>
+
+<p style="text-align:center;">
+  <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Felix Schoenbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schoenbrodt is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+</div>
+
+::: {.notes}
+**Speaker Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
+
+However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
+:::
+
+---
+
+## Contribution statement
+
+<br>
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Reviewer**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+**Consultant**: Schönbrodt, Felix (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+::: {.notes}
+**Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+
+**Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
+:::
+
+---
+
+## Prerequisites
+
+::: {.callout-important}
+Before completing this submodule, please carefully read about the prerequisites.
+:::
+
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| UNESCO Recommendations on Open Science | Recommended reading pages 6-19 | [Download Link](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead. 
+:::
+
+---
+
+## Before we start - survey time
+
+
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
+- Use free survey software such as particify or formR to establish the following questions (shown on separate slides).
+:::
+
+---
+
+**What is your level of familiarity with Open Research practices in general (e.g., basic concepts, terminology, or tools)?**
+
+a. I am unfamiliar with the concept of Open Research practices.
+
+b. I have heard of them but I would not know how they applies to my work.
+
+c. I have basic understanding and experience with Open Research practices in my own work. 
+
+d. I am very familiar with Open Research practises and routinely apply them in my daily research routines.
+
+---
+
+**In your research, when do you think about research quality and integrity?**
+
+a. I do not think these principles are relevant for my research. 
+
+b. In the planning process
+
+c. Concept 3
+
+d. Throughout the entire research process
+
+---
+
+**On a scale from 1 to 5, how trusting are you of published results in the field of psychology? (1 = not trusting any of the results, 2 = trusting only some results, 3 = trusting about half of the results, 4 = trusting the majority of the results,  5 =  trusting all results)**
+
+a. 1
+
+b. 2
+
+c. 3
+
+d. 4
+
+e. 5
+
+---
+
+## Discussion of survey results
+
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim"**: Briefly examine the answers given to each question interactively with the group.
+- Use visuals from the survey to highlight specific answers.
+:::
+
+---
+
+## Where are we at?
+
+**Previously**:
+
+- Point 1
+- Point 2
+
+<div style="background-color: #f0f0f0;">
+**Up next**:
+
+- Point 1
+- Point 2
+</div>
+
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: Place the topic of the current submodule within a broader context.
+- Remind students what you are working towards and what the bigger picture is.
+:::
+
+---
+
+## Covered in this session
+
+- **Aim**: This slides serves as an overview of the topics that are discussed, presented as bullet point:
+- Topic 1
+- Topic 2
+- Topic 3
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+:::
+
+---
+
+## Learning goals
+
+- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+
+- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
+- Examples: 
+  - Students will **describe** the process of photosynthesis or
+  - Students will **construct** a diagram illustrating the process of photosynthesis
+  
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
+- Examples: 
+  - Students will **describe** the process of photosynthesis or
+  - Students will **construct** a diagram illustrating the process of photosynthesis
+  
+:::
+
+---
+
+## Key terms and definitions
+
+- **Aim**: Introduce key terms and definitions that students will come across throughout the session.
+<br>
+
+- **Key Term 1**: Definition
+- **Key Term 2**: Definition
+- **Key Term 3**: Definition
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
+:::
+
+---
+
+
+# The research process
+
+
+---
+
+
+## The research cycle
+
+![](images/00_research_cycle.png){fig-align=center width=50% fig-alt="A circular diagram illustrating the design-based research cycle, with six stages arranged clockwise: “Observation/Question,” “Research topic area,” “Hypothesis,” and “Test with experiment,” "Analyze data," and "Report Conclusions" connected by arrows to show the ongoing, iterative research process."}
+
+
+<div style="font-size: 0.55em; color: #777;">
+
+DBR English greyscaler (Design-based research cycle)” by Sarah Zloklikovits, licensed under CC BY 4.0 — Wikimedia Commons.
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# The challenges in research
+
+---
+
+## .. right??
+
+![](images/07_holy_grail.png){fig-align=center width=50% fig-alt="chasing significance"}
+
+---
+
+## Quality, rigor and integrity
+
+*The smartest heads in the world immerse themselves into a research topic for years. In that process, they become the experts – nobody knows more about that topic. 
+The boundaries of knowledge have been pushed forward. When the scientist are confident in their findings, they publish them in the best scientific journals, with the highest standards of quality, rigor, and integrity.*
+
+::: {.callout-important}
+How much of that literature is true do you think?
+:::
+
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+
+**Instructor Notes**: Add. 
+:::
+
+---
+
+## Why should we trust researchers?
+
+![](images/01_snakesman_researcher.png){fig-align=center width=100% fig-alt="snakesman analogy"}
+
+::: {.notes}
+**Speaker notes**: Add script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: Core theoretical introduction of submodule topic.
+- For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
+- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
+- Use multiple slides for this part.
+:::
+
+---
+
+## What research is all about
+
+Text
+
+---
+
+# How to be successful in academia (or: How to hack your way to scientific glory)
+
+---
+
+## How to become a Professor?
+
+<div style="font-size: 0.8em; height: 1cm;">
+  
+| Relevance in professorship hiring committees | Rank |
+|---------------------------------------------|------|
+| **Number** of peer-reviewed publications    | 1    |
+| Fit of research profile to the hiring department | 2 |
+| Quality of research talks                    | 3    |
+| **Number** of publications                  | 4    |
+| Volume of acquired third-party funding      | 5    |
+| **Number** of first authorships             | 6    |
+
+</div>
+
+
+
+N = 1453 psychology researchers, 66% were actually members of a professorship hiring committee [@abele-brehmWerSollProfessur2016]
+
+
+Abele-Brehm, A. E., & Bühner, M. (2016). Wer soll die Professur bekommen? *Psychologische Rundschau*, *67*(4), 250–261. [http://doi.org/10.1026/0033-3042/a000335](http://doi.org/10.1026/0033-3042/a000335)
+
+---
+
+## How do I get lots of publications?
+
+![](images/02_significant_results_discipline_92.png){fig-align=center width=100% fig-alt="significant results"}
+
+Fanelli, D. (2010). “Positive” Results Increase Down the Hierarchy of the Sciences. PLOS ONE, 5, e10068. doi:10.1371/journal.pone.0010068
+
+
+---
+
+## Tips on how to p-hack (like the pros)
+
+
+**"P-hack... What now?"**
+
+
+![](images/04_QRPs.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
+
+---
+
+## References {.smaller}
+
+::: {#refs}
+:::
+
+
+
+---
+
+## How bad can it be?
+
+![](images/09_QRPs_Psychology.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
+
+---
+
+## .. and across fields?
+
+- Survey among 6,813 academic researchers in The Netherlands: Self-reported prevalence of fabrication and falsification in the last 3 years
+
+
+![](images/10_Self_Reported_blank.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
+
+REFERENCE: Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter, L. M. (2022). Prevalence of questionable research practices, research misconduct and their potential explanatory factors: A survey among academic researchers in The Netherlands. PLOS ONE, 17(2), e0263023. https://doi.org/10.1371/journal.pone.0263023
+
+---
+
+## .. and across fields?
+
+- Survey among 6,813 academic researchers in The Netherlands: Self-reported prevalence of fabrication and falsification in the last 3 years
+
+
+![](images/11_Self_Reported_QRP.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
+
+REFERENCE: Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter, L. M. (2022). Prevalence of questionable research practices, research misconduct and their potential explanatory factors: A survey among academic researchers in The Netherlands. PLOS ONE, 17(2), e0263023. https://doi.org/10.1371/journal.pone.0263023
+
+
+---
+
+## (Un)Intentional? 
+
+
+Evil researcher who only cares about his/her career and not at all about truth-seeking?
+„We urge the social science community to redefine p-hacking as a series of deceptive research practices rather than ones that are merely questionable.“ (Craig et al., 2020)
+Unintentional?
+Wrong education?
+Wrong/uncritical standards of the field?
+Pushed by supervisors, reviewers, or editors? ➙ http://bulliedintobadscience.org/
+ Distorting effects on the published record are probably comparable, but the ethical evaluations differs strongly.
+
+
+
+
+---
+
+## How to spot possible p-hacking
+
+- Large number of uncorrected comparisons with selective reporting
+
+- Many p values bunching just below 0.05
+
+- Lack of pre registration or analysis plan when claims are confirmatory
+
+- Results that disappear under slight analytic changes or when full data/code are provided.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Practical exercise 1
+
+- **Aim**: Design more practical exercises for students to apply the new skills in practice.
+- Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+
+- [x] Step 1
+- [ ] Step 2
+- [ ] Step 3
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: Design more practical exercises for students to apply the new skills in practice.
+- Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+:::
+
+---
+
+## Pre-break survey
+
+- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
+- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides)
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here.
+**Instructor Notes**: <br>
+- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
+- Use free survey software such as particify or formR to establish the following questions (shown on separate slides)
+:::
+
+---
+
+**Which species is the largest type of penguin**?
+
+a. Chinstrap Penguin
+
+b. Emperor Penguin ✅
+
+c. Adélie Penguin
+
+d. King Penguin
+
+---
+
+**What is the key biological feature that helps penguins swim efficiently?**
+
+a. Hollow bones for buoyancy
+
+b. Webbed feet for paddling
+
+c. Waterproof feathers and flipper-like wings ✅
+
+d. Gills to breathe underwater
+
+---
+
+# Break! 15 minutes
+
+---
+
+## Post-break survey discussion
+
+- **Aim**: To clarify concepts and aspects that are not yet understood
+- Highlight specific answers given during the survey
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: To clarify concepts and aspects that are not yet understood
+- Highlight specific answers given during the survey
+:::
+
+---
+
+## Practical exercise 2
+
+- **Aim**: Design more practical exercises for students to apply the new skills in practice.
+- Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+
+- [x] Step 1
+- [ ] Step 2
+- [ ] Step 3
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: Design more practical exercises for students to apply the new skills in practice.
+- Depending on the topic, the exercises should be in accordance with the learning objective(s).
+- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+:::
+
+---
+
+## Relevance and implications
+
+- **Aim**: To work out the relevance of the topic to your students.
+- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
+- Examine downfalls and practical obstacles.
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: To work out the relevance of the topic to your students.
+- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
+- Examine downfalls and practical obstacles.
+:::
+
+---
+
+## Assignment
+
+- **Aim**: Explain the homework assignment and the rationale behind the homework.
+- Examine whether/how it will be assessed
+- Mention scoring rubrics, if applicable
+- Design a peer-review system for assignments to place students in role of reviewer and author
+
+::: {.notes}
+**Speaker Notes**: Script for the presentation here. 
+**Instructor Notes**: <br>
+- **Aim**: Explain the homework assignment and the rationale behind the homework.
+- Examine whether/how it will be assessed
+- Mention scoring rubrics, if applicable
+- Design a peer-review system for assignments to place students in role of reviewer and author
+:::
+
+---
+
+## Take-home message
+
+- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
+
+::: {.callout-tip}
+## Tip with Title
+Add one practical tips or take-home message.
+:::
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
+:::
+
+---
+
+## To conclude: Survey time!
+
+- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
+- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
+- Use identical questions as in the pre-submodule survey to be able to directly compare
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+**Instructor Notes**: <br>
+- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
+- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
+- Use identical questions as in the pre-submodule survey to be able to directly compare
+:::
+
+---
+
+**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+
+a. I have never heard of it before.
+
+b. I have heard of it but have never worked with it.
+
+c. I have basic understanding and experience with it.
+
+d. I am very familiar and have worked with it extensively.
+
+---
+
+**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
+
+a. Concept 1
+
+b. Concept 2
+
+c. Concept 3
+
+d. Concept 4
+
+e. I am not sure about any of these concepts.
+
+---
+
+**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)**
+
+a. 1
+
+b. 2
+
+c. 3
+
+d. 4
+
+e. 5
+
+---
+
+## Discussion of survey results
+
+- **Aim**: Briefly examine the answers given to each question interactively with the group.
+- Compare and highlight specific differences in answers between pre- and post-survey answers
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here.
+**Instructer Notes**: <br>
+- **Aim**: Briefly examine the answers given to each question interactively with the group.
+- Compare and highlight specific differences in answers between pre- and post-survey answers
+:::
+
+---
+
+## References
+
+
+---
+
+# Thanks! <br>
+See you next class :)
+
+---
+
+## Pedagogical add-on tools for instructors
+
+- This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
+  - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
+  - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
+  - Extra exercises for faster students.	
+
+---
+
+## Additional literature for instructors
+
+- References for content
+- References for pedagogical add-on tools	
+- Other resources (videos etc.)	
+
+---
+
+# Formatting elements for instructors
+
+- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. 
+
+---
+
+## Text with example links
+
+- [Quarto Documentation](https://quarto.org/docs/)
+- [Reveal.js Documentation](https://revealjs.com/)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [GitHub](https://github.com/)
+
+---
+
+## Basic text formatting
+
+- **Bold:** `**bold**` → **bold**
+- *Italic:* `*italic*` → *italic*
+- ~~Strikethrough:~~ `~~text~~` → ~~text~~
+- `Inline code:` `` `code` `` → `code`
+- > Blockquote: `> Quote` →  
+  > "This is a quote"
+  
+---
+
+## Figure with caption
+
+- Centered image and caption below in italics
+
+<div style="text-align: center;">
+  <img src="images/penguin.png" style="width:50%;" />
+  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>This is a Penguin.</em></div>
+</div>
+
+---
+
+## Figure with bullet points
+
+```{=html}
+
+<div style="display: flex; align-items: flex-start; gap: 2em;">
+
+  <!-- Left side: single image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/penguin.png" style="width: 100%;" />
+  </div>
+  
+```
+
+  <!-- Right side: bullet points -->
+  <div style="flex: 1;">
+
+  - First bullet point
+  - Second bullet point
+  - Third bullet point
+
+  </div>
+
+</div>
+
+---
+
+## Side-by-side figures
+
+```{=html}
+<div style="display: flex; justify-content: center; gap: 2em; align-items: flex-start;">
+
+  <div style="text-align: center; width: 45%;">
+    <img src="images/penguin.png" style="width: 100%;" />
+    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 1: Penguin</em></div>
+  </div>
+
+  <div style="text-align: center; width: 45%;">
+    <img src="images/seal.png" style="width: 100%;" />
+    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 2: Seal</em></div>
+  </div>
+
+</div>
+
+```
+
+---
+
+## Stacked figures with text
+
+```{=html}
+
+<div style="display: flex; align-items: flex-start; gap: 0.5em;">
+
+  <!-- Left side: two images stacked vertically -->
+  <div style="flex: 1; display: flex; flex-direction: column; gap: 0.5em;">
+
+    <img src="images/penguin.png" style="width: 60%;" />
+    <img src="images/seal.png" style="width: 60%;" />
+
+  </div>
+  
+```
+
+  <!-- Right side: bullet points -->
+  <div style="flex: 1;">
+
+  - First bullet point
+  - Second bullet point
+  - Third bullet point
+
+  </div>
+
+</div>
+
+---
+
+## Two-column text slide
+
+<div style="display: flex; gap: 2em;">
+
+  <div style="flex: 1;">
+  **Column 1**
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+  Vivamus lacinia odio vitae vestibulum vestibulum.  
+  Cras venenatis euismod malesuada.
+  </div>
+
+  <div style="flex: 1;">
+  **Column 2**
+
+  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+  </div>
+
+</div>
+
+---
+
+## Three-column text slide
+
+<div style="display: flex; gap: 1em;">
+
+  <div style="flex: 1;">
+  **Column 1**
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+  Vivamus lacinia odio vitae vestibulum vestibulum.
+  </div>
+
+  <div style="flex: 1;">
+  **Column 2**
+
+  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+  </div>
+
+  <div style="flex: 1;">
+  **Column 3**
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </div>
+
+</div>
+
+---
+
+## Simple table
+
+<div style="height: 2cm;">
+
+
+| Column 1   | Column 2   | Column 3   |
+|------------|------------|------------|
+| Row 1 Cell | Row 1 Cell | Row 1 Cell |
+| Row 2 Cell | Row 2 Cell | Row 2 Cell |
+| Row 3 Cell | Row 3 Cell | Row 3 Cell |
+| Row 4 Cell | Row 4 Cell | Row 4 Cell |
+
+</div>
+
+---
+
+## Complex table
+
+<div style="height: 2cm;"></div>
+
+```{=html}
+
+<table style="border-collapse: collapse; width: 100%;">
+
+  <thead>
+    <tr style="background-color: #093; color: white; font-weight: bold;">
+      <th style="border: 1px solid #ccc; padding: 8px;">Column 1</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Column 2</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Column 3</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr style="background-color: white; color: black;">
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
+    </tr>
+    <tr style="background-color: #f0fff0; color: black;"> <!-- very light green -->
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
+    </tr>
+    <tr style="background-color: white; color: black;">
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
+    </tr>
+    <tr style="background-color: #f0fff0; color: black;">
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
+    </tr>
+  </tbody>
+
+</table>
+
+```
+---
+
+## Task list
+- [x] Done
+- [ ] To do
+
+---
+
+## Embedding videos
+
+<div style="text-align: center;">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/q3uXXh1sHcI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+---
+
+## Code blocks
+
+```{r}
+# A basic R code chunk
+x <- 1:10
+mean(x)
+
+
+# A simple plot
+hist(rnorm(100), main = "Histogram of Random Normals")
+
+```
+
+---
+
+## License 
+
+- This slide should contain information about the license details of this current set of slides. 
+
+- The default for the created materials is [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/)
+  - = Creative Commons license that allows others to **share, adapt, and build upon** the original work
+  - **only** if they attribute the creator and also share their new work under the **same terms**
+  - allows for both **commercial and non-commercial** use of the licensed material
+
+- Components of attributions: 
+  - `Title`
+  - `Author`
+  - `Source`
+  - `License`
+
+---
+
+## CREDiT Contribution Statement
+
+Possible roles using the CRediT contribition system or the Zenodo Contribution System: 
+
+**Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
+
+---
