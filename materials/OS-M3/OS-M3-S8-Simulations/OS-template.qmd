@@ -1,0 +1,56 @@
+---
+title: "Welcome to the Test Submodule"
+---
+
+> Something nice here
+
+## About
+
+Welcome! This workshop is for XX audience. Its purpose is to XXX. The main objective of this workshop is to
+
+
+## Contributors
+
+This site was authored by XXX. XX was a reviewer. 
+
+## Prerequisites
+Add prerequisites here (make sure it matches with the slides)
+
+
+[Full Screen](OS-template-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="OS-template-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
+# Download files
+
+## Practical exercises - solutions
+
+Download the solutions for the practical exercises here: 
+
+{{< downloadthis assets/mtcars.csv dname="carz.csv" label="Download">}}
+
+## Helpfiles
+
+Download the csv file for the mtcars data: 
+
+{{< downloadthis assets/mtcars.csv dname="carz.csv" label="Download">}}
+
+ <!-- https://github.com/shafayetShafee/downloadthis -->
+<!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
+
+# Export slides
+
+You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
+
+{{< downloadthis OS-template-slides.pptx dname="OS-template-slides" label="Download slides as PPTX">}}
+
+ <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
+ 
+ ## Licenses
+The overall project is licensed under the CC BY-SA 4.0 license. 
+
+## Notes
+This tutorial was primarily written to XXX.
