@@ -1,6 +1,6 @@
 ---
-title: "Replication failure, reproducibility crisis and other threats to credible science: How Open Research can change the game"
-author: "LMU Open Science Center"
+title: "Threats to credible research: How Open Research can change the game"
+author: "Sarah von Grebmer zu Wolfsthurn"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
@@ -300,11 +300,14 @@ DBR English greyscaler (Design-based research cycle)” by Sarah Zloklikovits, l
 
 ---
 
-## What even is "trust" in research (general public perspective)?
+## What is "trust" in research (general public perspective)?
 
-- Society trusts that scientific **research results** are an **honest and accurate reflection** of a researcher’s work (Committee on Science, Engineering and Public Policy 2009: ix).
 
-- The public must be able to **trust the science and scientific process** informing public policy decisions (Obama 2009).
+- "*Society trusts that scientific research results are an honest and accurate reflection of a researcher’s work.*" <div style="display: flex; font-size: 0.55em; color: #777;">(Committee on Science, Engineering and Public Policy 2009: ix)</div>
+
+
+- "*The public must be able to trust the science and scientific process informing public policy decisions.*" <div style="display: flex; font-size: 0.55em; color: #777;">(Obama 2009)</div>
+
 
 <div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
 Resnik, D. B. (2011). Scientific research and the public trust. *Science and engineering ethics, 17*(3), 399-409.
@@ -317,10 +320,10 @@ Resnik, D. B. (2011). Scientific research and the public trust. *Science and eng
 
 ---
 
-## What even is "trust" in research?
+## What is "trust" in research?
 
 - No consensus on definition from the perspective fo researchers but:
-  - Trust is essential for effective collaboration among researchers (includes) co-authorship, peer review, data sharing, replication, teaching, mentoring etc.)
+  - Trust is essential for **effective collaboration** among researchers (includes co-authorship, peer review, data sharing, replication, teaching, mentoring etc.)
   - Authors submitting papers or grant proposals rely on reviewers to evaluate their work competently, fairly, and confidentially
   - Scientists reading published research trust that the **work was conducted as described**, that **all relevant methodological details** are **disclosed**, and that the data have *not been fabricated or falsified*
 
@@ -338,25 +341,28 @@ Resnik, D. B. (2011). Scientific research and the public trust. *Science and eng
 
 ## Replicability and reproducibility
 
+
+<div style="font-size: 0.8em;">
 | Feature | **Replicability**| **Reproducibility** |
 |------------|------------------|---------------------|
 | Definition | Ability to **repeat an experiment** using the **same methods** and obtain the same results | Ability to **obtain consistent results** using the **original data and code** |
 | Focus                 | *aka* repeating the experiment in practice  | *aka* re-analyzing the original data|
 | Materials | Same experiment setup, protocols, conditions etc. | Original data, analysis scripts, code etc.|
 | Example  | Running the same psychological experiment with new participants | Running the published statistical analysis on the shared dataset |
+</div>
 
-::: {.notes}
-**Speaker Notes**: Add script for slide here. 
-**Instructor  Notes**: Add.
-:::
+
 
 ---
 
-## Practical exercise 1
+## Practical exercise 2
 
-Decide whether each scenario in the following slides is an example of **reproducibility** or **replicability**. Write down your answers. 
+Decide whether each scenario in the following slides is an example of **reproducibility** or **replicability**. 
 
-instructor notes: think pair share
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Think pair share. 
+:::
 
 ---
 
@@ -451,8 +457,9 @@ instructor notes: think pair share
 
 ---
 
-## What published research can be replicated/reproduced?
+## What published research can be replicated/reproduced? REMOVE
 
+<div style="font-size: 0.5em;">
 | Field                          | Success | Failure |
 |--------------------------------|---------|---------|
 | OSC (2015) – Psychology         | 36%     | 64%     |
@@ -463,6 +470,7 @@ instructor notes: think pair share
 | Prinz et al. (2011) – Pharmaceutical research      | 35%     | 65%     |
 | Cova et al. (2018) – x-philosophy       | 70%     | 30%     |
 | Protzko et al. (2023) – Social   | 86%     | 14%     |
+</div>
 
 
 ---
@@ -480,19 +488,17 @@ instructor notes: think pair share
 **How many studies do you think replicated?**
 :::
 
-<div style="font-size: 0.3em; color: #777;">
-Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716.
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science, 349*(6251), aac4716.
 </div>
-
 
 ::: {.notes}
 **Speaker Notes**: The Reproducibility Project by the Open Science Collaboration (2015) involved a large-scale, collaborative effort by over 270 researchers. They selected 100 experimental studies published between 2008 and 2012 in three top psychology journals: Psychological Science, Journal of Personality and Social Psychology, and Journal of Experimental Psychology: Learning, Memory, and Cognition.
-For each study, they carefully reviewed the original materials, methods, and analyses, and often contacted the original authors for clarification or access to materials and protocols. Each replication aimed to match the original study’s sample size, experimental design, and analysis plan as closely as possible, while making only minimal changes when exact materials were unavailable. The replications were preregistered to specify hypotheses, design, and analysis before data collection, reducing bias and “researcher degrees of freedom." Data collection was conducted independently from the original research teams, often in multiple labs to ensure rigor. After data collection, they analyzed the results using the same statistical methods as the original studies to determine whether the findings could be reproduced. The project also evaluated effect sizes, not just statistical significance, to compare the magnitude of the original and replicated effects.
-
-**Only 39% of the replications produced statistically significant results, and the median effect size in replications was about half that of the original studies, highlighting the reproducibility challenges in psychology**.
+For each study, they carefully reviewed the original materials, methods, and analyses, and often contacted the original authors for clarification or access to materials and protocols. Each replication aimed to match the original study’s sample size, experimental design, and analysis plan as closely as possible, while making only minimal changes when exact materials were unavailable. The replications were preregistered to specify hypotheses, design, and analysis before data collection, reducing bias and “researcher degrees of freedom." Data collection was conducted independently from the original research teams, often in multiple labs to ensure rigor. After data collection, they analyzed the results using the same statistical methods as the original studies to determine whether the findings could be reproduced. The project also evaluated effect sizes, not just statistical significance, to compare the magnitude of the original and replicated effects. **Only 39% of the replications produced statistically significant results, and the median effect size in replications was about half that of the original studies, highlighting the reproducibility challenges in psychology**.
 
 **Instructor  Notes**:
 :::
+
 ---
 
 ## Replicability and reproducibility across disciplines
@@ -502,12 +508,12 @@ library(ggplot2)
 library(tidyverse)
 
 # Sample data
-df <- data.frame(Category = rep(c("Psychology", 
-                                  "Cancer Research", 
-                                  "Pharmaceutical Research",
-                                  "Economics", 
-                                  "Experimental Economics",
-                                  "Experimental Philosophy"), 
+df <- data.frame(Category = rep(c("Psychology (n = 97)", 
+                                  "Cancer Research (n = 53)", 
+                                  "Pharmaceutical Research (n = 67)",
+                                  "Economics (n = 67)", 
+                                  "Experimental Economics (n = 16)",
+                                  "Experimental Philosophy (n = 40)"), 
                                 each = 2),
                  Result = rep(c("successfully replicated",
                                 "unsuccessfully replicated"), 
@@ -518,12 +524,12 @@ df <- data.frame(Category = rep(c("Psychology",
 # Preserve order of bars on x-axis
 df$Category <- factor(
   df$Category,
-  levels = c("Psychology", 
-             "Cancer Research", 
-             "Pharmaceutical Research", 
-             "Economics", 
-             "Experimental Economics", 
-             "Experimental Philosophy")
+  levels = c("Psychology (n = 97)", 
+             "Cancer Research (n = 53)", 
+             "Pharmaceutical Research (n = 67)",
+             "Economics (n = 67)", 
+             "Experimental Economics (n = 16)",
+             "Experimental Philosophy (n = 40)")
 )
 
 # Make stacking order explicit by setting factor levels for Series.
@@ -545,7 +551,7 @@ ggplot(df, aes(x = Category, y = Value, fill = Result)) +
                                "unsuccessfully replicated" = "darkred"),
                     labels = function(x) str_wrap(x, width = 12)) + # wrap legend names
   theme_minimal() +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 12)) + # to wrap text
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) + # to wrap text
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 14),
         axis.text.y = element_text(size = 14),
         axis.title.x = element_text(size = 14),
@@ -557,11 +563,15 @@ ggplot(df, aes(x = Category, y = Value, fill = Result)) +
 
 
 <div style="font-size: 0.3em; color: #777;">
-Open Science Collaboration (2015); Social Science: Combined sample of systematically sampled projects (RPP, SSRP, EERP); Chang & Li (2015); Camerer et al (2016); Begley, C. G., & Ellis, L. M. (2012). Prinz, F., Schlange, T., & Asadullah, K. (2011); Cova et al. (2018); Protzko et al., 2023)
+Begley, C. G., & Ellis, L. M. (2012); Camerer et al (2016); Chang & Li (2015); Cova et al. (2018); Open Science Collaboration (2015); Social Science: Combined sample of systematically sampled projects (RPP, SSRP, EERP); Prinz, F., Schlange, T., & Asadullah, K. (2011); Protzko et al. (2023)
 </div>
 
----
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add. 
+:::
 
+---
 
 ## Which studies replicate (in psychology)?
 
@@ -569,24 +579,40 @@ Open Science Collaboration (2015); Social Science: Combined sample of systematic
 |--------------------------------|---------|---------|
 | Psychology| Replication database | [https://forrt-replications.shinyapps.io/fred_explorer/](https://forrt-replications.shinyapps.io/fred_explorer/)    |
 
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Correct answer: Replicability
+:::
+
 ---
 
 
 ## Not a recent issue
 
-<img src="images/reproducibility_literature.png" alt="An image with te titles of journal articles reporting about the replicability and reproducibility crisis across difference disciplines." style="display:block; margin:0 auto; width:50%; height:50%;">
+<img src="images/reproducibility_literature.png" alt="An image with te titles of journal articles reporting about the replicability and reproducibility crisis across difference disciplines." style="display:block; margin:0 auto; width:100%; height:100%;">
 
 
-<div style="font-size: 0.3em; color: #777;">
-[Adapted from Dr. Malika Ihlehttps: https://osf.io/u3znx](https://osf.io/u3znx)
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+[Adapted from Dr. Malika Ihle: https: https://osf.io/u3znx](https://osf.io/u3znx)
 </div>
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add. 
+:::
 
 ---
 
 
-## A romantisiced idea of research ?
+## A romantisiced idea of research?
 
-<img src="images/this-is-research.png" alt="An image describing a romantic view of research: The smartest heads in the world immerse themselves into a research topic for years.In that process, they become the experts – nobody knows more about that topic.The boundaries of knowledge have been pushed forward. When the researchers are confident in their findings, they publish them in the best scientific journals, with the highest standards of quality, rigor, and integrity." style="display:block; margin:0 auto; width:50%; height:50%;">
+<img src="images/this-is-research.png" alt="An image describing a romantic view of research: The smartest heads in the world immerse themselves into a research topic for years.In that process, they become the experts – nobody knows more about that topic.The boundaries of knowledge have been pushed forward. When the researchers are confident in their findings, they publish them in the best scientific journals, with the highest standards of quality, rigor, and integrity." style="display:block; margin:0 auto; width:100%; height:100%;">
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add. 
+:::
 
 ---
 
@@ -595,22 +621,33 @@ Open Science Collaboration (2015); Social Science: Combined sample of systematic
 ---
 
 
-## Published work is important for ...
+## Value of published papers?
+
+In the current system, published papers are critical for:
 
 - Getting a job
+
 - Being awarded grants
+
 - Being visible in the respective research field
 
 
 ::: {.callout-warning}
-The consequence is a "rat race" culture: Researchers try to publish as much as we can.
+The consequence is a "rat race" culture: Researchers try to publish as much as they can. ADD REFERENCE
 :::
 
-Ideal scenario: Balancing the desire to stay truthful to research with the necessity to publish?
+<br>
+
+**Ideal scenario: Balancing the desire to stay truthful to research with the necessity to publish?**
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add. 
+:::
 
 ---
 
-## ...right?
+## ...right? MOVE
 
 ![](images/07_holy_grail.png){fig-align=center width=50% fig-alt="chasing significance"}
 
@@ -618,24 +655,29 @@ Ideal scenario: Balancing the desire to stay truthful to research with the neces
 
 ## Relevance of publishing for career
 
-| Actual (not desired) relevance in professorship hiring committees
-       | Rank |
-|-------------|------|
+
+- N = 1453 psychology researchers, 66% were actually members of a professorship hiring committee
+
+<div style="font-size: 0.7em;">
+| **Actual (not desired) relevance in professorship hiring committees** | **Rank** |
+|------------------------------------------------------------------|------|
 | **Number** of peer-reviewed publications | 1 |
 | Fit of research profile to the hiring department | 2 |
 | Quality of research talks | 3 |
 | **Number** of publications | 4 |
 | Volume of acquired third party funding | 5 |
 | **Number** of first authorships | 6 |
-| ... | ... |
-
-N = 1453 psychology researchers, 66% were actually members of a professorship hiring committee.
-
-<br> 
-
-<div style="font-size: 0.3em; color: #777;">
-Abele-Brehm, A. E., & Bühner, M. (2016). Wer soll die Professur bekommen? Psychologische Rundschau, 67(4), 250–261. http://doi.org/10.1026/0033-3042/a000335
 </div>
+
+
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Abele-Brehm, A. E., & Bühner, M. (2016). Wer soll die Professur bekommen? *Psychologische Rundschau, 67*(4), 250–261. [http://doi.org/10.1026/0033-3042/a000335](http://doi.org/10.1026/0033-3042/a000335)
+</div>
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add. 
+:::
 
 ---
 
@@ -643,7 +685,11 @@ Abele-Brehm, A. E., & Bühner, M. (2016). Wer soll die Professur bekommen? Psych
 
 ![](images/02_significant_results_discipline_92.png){fig-align=center width=100% fig-alt="significant results"}
 
-Fanelli, D. (2010). “Positive” Results Increase Down the Hierarchy of the Sciences. PLOS ONE, 5, e10068. doi:10.1371/journal.pone.0010068
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Fanelli, D. (2010). “Positive” Results Increase Down the Hierarchy of the Sciences. *PLOS ONE, 5*, e10068. [https://doi.org/10.1371/journal.pone.0010068](https://doi.org/10.1371/journal.pone.0010068)
+</div>
+
+
 
 ---
 
