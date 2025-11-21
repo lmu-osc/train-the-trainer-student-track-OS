@@ -16,29 +16,46 @@ format:
   pptx: 
     css: ../../../slides-custom.css # looks for css file in root
 
+bibliography: ../../../assets/references.bib
+csl: ../../../assets/apa.csl
+
 execute:
   echo: true
   eval: true
   engine: knitr
 ---
 
-## Contribution statement and licence
+## Licence
 
 <br>
 
-**Creator**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
+<p style="text-align:center;">
+  <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
+</p>
 
-**Reviewer**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
-
-**Acknowledgments**: Name, first name (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) orcid)
-
-
-<br>
-<br>
-
-<div style="font-size: 0.6em;">
-This work by XXXX XXXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
 </div>
+
+::: {.notes}
+**Speaker Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
+
+However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
+:::
+
+---
+
+## Contribution statement
+
+<br>
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Reviewer**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+**Consultant**: Middleton, Sara (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029))
 
 ::: {.notes}
 **Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
@@ -145,14 +162,23 @@ e. 5
 
 ## Discussion of survey results
 
-- **Aim"**: Briefly examine the answers given to each question interactively with the group.
-- Use visuals from the survey to highlight specific answers.
+
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
-- **Aim"**: Briefly examine the answers given to each question interactively with the group.
-- Use visuals from the survey to highlight specific answers.
+**Speaker Notes**: Let us have a look at these results. 
+
+**Instructor Notes**:
+
+- **Aim**: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers.
+
+**Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
 :::
 
 ---
@@ -165,7 +191,7 @@ e. 5
 - Point 2
 
 <div style="background-color: #f0f0f0;">
-**Next**:
+**Up next**:
 
 - Point 1
 - Point 2
@@ -173,7 +199,8 @@ e. 5
 
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
+**Speaker Notes**: Script for the slide here.
+
 **Instructor Notes**: <br>
 - **Aim**: Place the topic of the current submodule within a broader context.
 - Remind students what you are working towards and what the bigger picture is.
@@ -204,10 +231,14 @@ e. 5
   - Students will **construct** a diagram illustrating the process of photosynthesis
   
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
+**Speaker Notes**: Script for the slide here.
+
 **Instructor Notes**: <br>
+
 - **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+
 - Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
+
 - Examples: 
   - Students will **describe** the process of photosynthesis or
   - Students will **construct** a diagram illustrating the process of photosynthesis
@@ -226,7 +257,8 @@ e. 5
 - **Key Term 3**: Definition
 
 ::: {.notes}
-**Speaker Notes**: Add script for slide here. 
+**Speaker Notes**: Add script for slide here.
+
 **Instructor  Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
 :::
 
@@ -240,10 +272,14 @@ e. 5
 
 ::: {.notes}
 **Speaker notes**: Add script for the slide here. 
+
 **Instructor Notes**: <br>
 - **Aim**: Core theoretical introduction of submodule topic.
+
 - For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
+
 - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
+
 - Use multiple slides for this part.
 :::
 
@@ -283,10 +319,14 @@ This is an example of a callout box to give important tips.
 - [ ] Step 3
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
+**Speaker Notes**: Script for the slide here.
+
+**Instructor Notes**:
+
 - **Aim**: Design more practical exercises for students to apply the new skills in practice.
+
 - Depending on the topic, the exercises should be in accordance with the learning objective(s).
+
 - Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
 :::
 
@@ -299,9 +339,14 @@ This is an example of a callout box to give important tips.
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here.
-**Instructor Notes**: <br>
-- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
-- Use free survey software such as particify or formR to establish the following questions (shown on separate slides)
+
+**Instructor Notes**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule. Guidance on interpreting the results:
+
+- If more than 80% of the students select the correct response option, show which one it is and move on.
+
+- If less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).
+
+- If more than 30% select a specific distractor answer, discuss it in class.
 :::
 
 ---
@@ -340,9 +385,12 @@ d. Gills to breathe underwater
 - Highlight specific answers given during the survey
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
+**Speaker Notes**: Script for the slide here.
+
+**Instructor Notes**:
+
 - **Aim**: To clarify concepts and aspects that are not yet understood
+
 - Highlight specific answers given during the survey
 :::
 
@@ -359,10 +407,14 @@ d. Gills to breathe underwater
 - [ ] Step 3
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
+**Speaker Notes**: Script for the slide here.
+
+**Instructor Notes**:
+
 - **Aim**: Design more practical exercises for students to apply the new skills in practice.
+
 - Depending on the topic, the exercises should be in accordance with the learning objective(s).
+
 - Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
 :::
 
@@ -376,9 +428,13 @@ d. Gills to breathe underwater
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
+
+**Instructor Notes**:
+
 - **Aim**: To work out the relevance of the topic to your students.
+
 - In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
+
 - Examine downfalls and practical obstacles.
 :::
 
@@ -393,10 +449,15 @@ d. Gills to breathe underwater
 
 ::: {.notes}
 **Speaker Notes**: Script for the presentation here. 
-**Instructor Notes**: <br>
+
+**Instructor Notes**:
+
 - **Aim**: Explain the homework assignment and the rationale behind the homework.
+
 - Examine whether/how it will be assessed
+
 - Mention scoring rubrics, if applicable
+
 - Design a peer-review system for assignments to place students in role of reviewer and author
 :::
 
@@ -413,7 +474,9 @@ Add one practical tips or take-home message.
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
+
+**Instructor Notes**:
+
 - **Aim**: End lesson on clear take-home message that are interactively compiled by students.
 :::
 
@@ -427,9 +490,13 @@ Add one practical tips or take-home message.
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
+
+**Instructor Notes**:
+
 - **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
+
 - Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
+
 - Use identical questions as in the pre-submodule survey to be able to directly compare
 :::
 
@@ -482,19 +549,23 @@ e. 5
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here.
-**Instructer Notes**: <br>
+
+**Instructer Notes**:
 - **Aim**: Briefly examine the answers given to each question interactively with the group.
+
 - Compare and highlight specific differences in answers between pre- and post-survey answers
 :::
 
 ---
 
-## References
+## References {.smaller}
 
-- Provide literature you refer to throughout this lesson.
+::: {#refs}
+:::
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
+
 **Instructor Notes**: Highlight particularly relevant reading for your students in bold. 
 :::
 
@@ -558,6 +629,19 @@ See you next class :)
 </div>
 
 ---
+
+## Figure with specific width and height
+
+<img src="imagname.png" alt="sometext." style="display:block; margin:0 auto; width:50%; height:50%;">
+
+- display:block; margin:0 auto; centers the image on the slide.
+
+- width:50%; height:50%; sets the image size relative to the slide.
+
+- alt="..." ensures accessibility.
+
+---
+
 
 ## Figure with bullet points
 
@@ -776,6 +860,29 @@ mean(x)
 hist(rnorm(100), main = "Histogram of Random Normals")
 
 ```
+
+---
+
+## Interactive slide with questions + answers
+
+<section>
+  <h2 style="font-size:1.5em;">Practical Exercise 1</h2>
+  <p style="font-size:0.85em;">Decide whether each scenario is an example of <strong>reproducibility</strong> or <strong>replicability</strong>.</p>
+  <ol style="font-size:0.8em;">
+    <li class="fragment">
+      A computational neuroscientist reruns a published fMRI analysis using the original dataset and Python scripts to verify the reported brain activation patterns.
+      <div style="color:#555; font-size:0.75em;"><strong>Answer:</strong> Reproducibility</div>
+    </li>
+    <li class="fragment">
+      An environmental scientist repeats a field experiment on soil nutrient levels using the same sampling protocol at a different site.
+      <div style="color:#555; font-size:0.75em;"><strong>Answer:</strong> Replicability</div>
+    </li>
+    <li class="fragment">
+      A linguist reanalyzes a corpus of historical texts using the same annotation guidelines and code to verify reported patterns of syntactic structures.
+      <div style="color:#555; font-size:0.75em;"><strong>Answer:</strong> Reproducibility</div>
+    </li>
+  </ol>
+</section>
 
 ---
 
