@@ -1,6 +1,6 @@
 ---
-title: "Master Template Slides: Title of submodule"
-author: "LMU Open Science Center"
+title: "Running Simulations and Power Analysis in R"
+author: "Tejaswini Sharma"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
@@ -75,12 +75,17 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| Topic Name | Basic intro to X | Module + Submodule |
-| Software Name | Configuring the environment | [Download Link](https://quarto.org) |
+| Have R and RStudio installed | If you don’t, follow these instructions: | https://posit.co/download/rstudio-desktop/ |
+| Know some R basics | e.g. how to select a value in a data frame, how to create a vector | [Download Link](https://lmu-osc.github.io/introduction-to-R/) |
+| Basic statistical concepts | Like descriptive statistics, data analysis, statistical reasoning | [Download Link](to be updated) |
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead. 
+**Speaker Notes**: Before we begin this submodule, please take a moment to review the prerequisites listed here.
+First, you should already have R and RStudio installed. If not, the link on the slide will guide you through the installation.
+Next, you’ll need some basic familiarity with R — for example, how to select values in a data frame or how to create simple vectors. There’s a tutorial by OSC linked here in case you’d like to refresh those skills.
+Finally, you should be comfortable with basic statistical concepts, such as descriptive statistics and fundamental data analysis ideas. There is a link to a cheatsheet on these concepts provided here.
+If any of these areas feel unfamiliar, I encourage you to explore the resources before moving forward, so the rest of the tutorial is smooth and accessible. 
+**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. With a show of hands, you can know how many students would want to work through these resources provided; if the majority do, then a bit of time can be provided here, till they are comfortable to move forward.  
 :::
 
 
@@ -107,56 +112,88 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 ## Before we start: Survey time!
 
-- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
-- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides).
+- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about simulations and power analysis, and familiarity with R.
+- (QR code to be added soon)
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
 **Instructor Notes**: <br>
-- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
-- Use free survey software such as particify or formR to establish the following questions (shown on separate slides).
+- .
 :::
 
 ---
 
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+**How confident are you in defining what a “simulation” is in the context of scientific research?**
 
-a. I have never heard of it before.
+a. Not confident.
 
-b. I have heard of it but have never worked with it.
+b. Somewhat confident.
 
-c. I have basic understanding and experience with it.
+c. Confident.
 
-d. I am very familiar and have worked with it extensively.
-
----
-
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
+d. Very confident
 
 ---
 
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]?
-(1 = Not comfortable at all, 5 = Very comfortable)**
+**Simulations are often used in research to… *(Select all you think apply)* **
 
-a. 1
+a. Generate artificial data
 
-b. 2
+b. Visualize complex statistical concepts
 
-c. 3
+c. Replace all statistical analysis
 
-d. 4
+d. Test how models perform under different scenarios
 
-e. 5
+::: {.notes}
+**Instructor Notes**: Correct Answer(s): a. Generate artificial data <br>
+b. Visualize complex statistical concepts <br>
+d. Test how models perform under different scenarios
+- .
+:::
+
+---
+
+**How familiar are you with the concept of “power” in statistics?**
+
+a. I’ve never heard of it 
+
+b. I know the term 
+
+c. I understand the basics 
+
+d. I’m comfortable with calculating power
+
+---
+
+**Power analysis is important for research because… *(Select all you think apply)* **
+
+a. It helps determine how many samples you need
+
+b. It ensures studies always find significant results
+
+c. It helps you design more reliable studies
+
+d. It explains all statistical results
+
+::: {.notes}
+**Instructor Notes**: Correct Answer(s): a. It helps determine how many samples you need <br>
+c. It helps you design more reliable studies
+- .
+:::
+---
+
+**How comfortable are you with running basic R code and performing simple statistical analyses in R?**
+
+a. Very uncomfortable
+
+b. Somewhat uncomfortable 
+
+c. Neutral
+
+d. Somewhat comfortable
+
+e. Very comfortable)
 
 ---
 
@@ -210,38 +247,31 @@ What do we see in the results?
 
 ## Covered in this session
 
-- **Aim**: This slides serves as an overview of the topics that are discussed, presented as bullet point:
-- Topic 1
-- Topic 2
-- Topic 3
+- **Aim**: To understand the theoretical reasoning behind simulations and power analysis in R and the process of running these simulations.
+- **Topics Covered**:
+ - Simulations in research and basic process in R.
+ - Power analysis and using simulations for it.
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
+**Speaker Notes**: In this session, we’ll focus on the core ideas behind simulations and power analysis in R. First, we’ll look at what simulations are and the basic steps for running them. Then we’ll connect this to power analysis and see how simulations can support it. 
 :::
 
 ---
 
 ## Learning goals
 
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+- Students will define the meaning of simulations and where they are used.
+- Students will explain the need for simulations in research.
+- Students will analyse the process of running a simulation in R, and apply the process to an example.
+- Students will recall the concept of power analysis and its importance.
+- Students will differentiate between traditional and simulation-based methods.
+- Students will analyse the simulation process for power analyse.
 
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-- Examples: 
-  - Students will **describe** the process of photosynthesis or
-  - Students will **construct** a diagram illustrating the process of photosynthesis
   
 ::: {.notes}
-**Speaker Notes**: Script for the slide here.
+**Speaker Notes**: In this session, we’ll work toward several learning goals, which reflect various sub-sections on the topic. These goals will be repeated after each sub-section so you can check your understanding, raise questions, and keep track of your progress.
 
-**Instructor Notes**: <br>
-
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
-
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-
-- Examples: 
-  - Students will **describe** the process of photosynthesis or
-  - Students will **construct** a diagram illustrating the process of photosynthesis
+**Instructor Notes**: Use this time to discuss any doubts the students may have on the learning goals and their assessment.
   
 :::
 
@@ -249,12 +279,9 @@ What do we see in the results?
 
 ## Key terms and definitions
 
-- **Aim**: Introduce key terms and definitions that students will come across throughout the session.
-<br>
-
-- **Key Term 1**: Definition
-- **Key Term 2**: Definition
-- **Key Term 3**: Definition
+- **Simulations**: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions (Morris et al., 2019).
+- **Power Analysis**: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis. 
+- **Effect Size**: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here.
