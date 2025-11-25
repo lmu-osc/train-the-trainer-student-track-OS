@@ -280,213 +280,194 @@ What do we see in the results?
 ## Key terms and definitions
 
 - **Simulations**: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions (Morris et al., 2019).
-- **Power Analysis**: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis. 
-- **Effect Size**: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables
+- **Power Analysis**: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis (Steidl et al., 1997). 
+- **Effect Size**: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables (Lorah, 2018).
 
 ::: {.notes}
-**Speaker Notes**: Add script for slide here.
+**Speaker Notes**: Here are a few key terms that will appear throughout the session.
+We’ll use the word simulations to talk about computer-generated data created through pseudo-random sampling.
+Power analysis refers to estimating the probability of detecting a true effect.
+And effect size tells us how large or meaningful that effect is.
+You don’t need to memorise these right now — this is just a quick introduction. We’ll return to these definitions later as we apply them, so for now simply get familiar with the terms.
 
-**Instructor  Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
+**Instructor  Notes**: Introduce the terms briefly to activate students’ prior conceptions. Keep the slide short 
 :::
 
 ---
 
-## Introduction of submodule topic
+## 1.1 What are Simulations?
 
-- **Aim**: Core theoretical introduction of submodule topic.
-- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
-- Use multiple slides for this part.
+**Let'S flip a coin** <br>
+- Imagine you want to flip a coin *100 times*, and see the results.
+- ~~Actually flipping the coin~~ -> Pretend to flip in mind...
+ - And write down the results each time.
+- This pretending is called a **simulation**.
 
 ::: {.notes}
-**Speaker notes**: Add script for the slide here. 
+**Speaker notes**: Imagine you want to find out how many times you might get heads if you flip a coin 100 times. Instead of flipping the coin for real, you can pretend to flip the coin many times in your mind or on paper and write down the results each time. This pretending is called a simulation.
 
-**Instructor Notes**: <br>
-- **Aim**: Core theoretical introduction of submodule topic.
-
-- For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
-
-- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
-
-- Use multiple slides for this part.
+**Instructor Notes**: Use this basic coin example to set the ground for 'simulations'. Encourage the students to ponder upon this example as a real experiment for a short bit, to understand how they can 'simulate' the data in their minds.
 :::
-
 ---
 
-## Submodule content slide
+## 1.1 What are Simulations?
+#### contd...
 
-- **Aim**: Present relevant content
-- Highlight particularly important aspects with Quarto call-out boxes, for example: 
-
-::: {.callout-important}
-## Important with Title
-
-This is an example of a callout box to highlight particularly important information.
-:::
+- In a simulation, you make up data that acts like what you expect in the real world. 
+- You do this again and again to see what kind of results you can get.
 
 ::: {.callout-tip}
-## Tip with Title
-
-This is an example of a callout box to give important tips. 
+## Try This Yourself
+Run a **mental simulation** of flipping a coin a *100 times*. Make a note of how many times would you get heads and how many tails.
 :::
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
+**Speaker notes**: In this part, we’re looking at what simulations really are. A simulation basically means creating data that behaves the way we expect real-world data to behave. We repeat this process many times to see the range of outcomes we might get.
+To get an intuitive feel for it, there’s a quick activity: imagine flipping a coin a hundred times. Think about how many heads and tails you’d expect. This mental experiment reflects the same logic behind running simulations in R.
+
+**Instructor Notes**: Keep the explanation simple and intuitive. The goal here is to form an initial understanding before diving into technical detail.
 :::
 
 ---
 
-## Practical exercise 1
+## 1.2 Why are Simulations Used in Research?
 
-- **Aim**: Design more practical exercises for students to apply the new skills in practice.
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
-
-- [x] Step 1
-- [ ] Step 2
-- [ ] Step 3
+#### Before we begin...<br>
+::: {.callout-tip}
+## Create a Hypothesis
+Get together in a pair, and create a hypothesis about the **coin flips**. For example, *When I flip the coin 100 times, the number of heads will be greater than tails.*
+:::
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here.
+**Speaker Notes**: Before we explore why simulations are important in research, we’ll start with a quick exercise: Pair up and create a simple hypothesis about the coin-flip scenario from earlier. For example: When I flip a coin 100 times, I’ll get more heads than tails.
+This 'experiment' shall help you connect each point to your own hypothesis.
 
-**Instructor Notes**:
-
-- **Aim**: Design more practical exercises for students to apply the new skills in practice.
-
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+**Instructor Notes**: Give the students 2 minutes to develop their hypothesis; welcome creativity here.
 :::
 
 ---
 
-## Pre-break survey
+## 1.2 Why are Simulations Used in Research? *contd*
 
-- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides)
+1. **To build statistical intuition**: Simulations let you see how data behaves—for example, why sometimes results are different even if you do the same experiment. <br>
+2. **To understand sampling and probability**: Simulations help you picture what’s likely to happen and what’s unusual.  <br>
+3. **To perform power analysis**: Scientists use simulations to check how likely their experiments are to find real effects.  <br>
+4. **To support pre-Analysis planning**: Before running a real experiment, researchers simulate what they expect might happen. <br>
+5. **To enable bootstrapping and flexible inference**: Simulations can reuse existing data to estimate any uncertainty without many strict assumptions. <br>
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here.
-
-**Instructor Notes**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule. Guidance on interpreting the results:
-
-- If more than 80% of the students select the correct response option, show which one it is and move on.
-
-- If less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).
-
-- If more than 30% select a specific distractor answer, discuss it in class.
+**Speaker Notes**: •	Build Statistical Intuition: Simulations let you see how data behaves, helping you grasp concepts like variability and sampling—things that formulas alone can’t easily show. This makes abstract ideas more concrete and understandable. <br>
+•	Understand Sampling and Probability: By simulating repeated samples, you can visualize sampling distributions and understand why statistics like standard errors vary from sample to sample.<br>
+•	Perform Power Analysis and Plan Studies: They help estimate the chance your study will detect a true effect (power), especially when study designs are complicated and formulas don’t work well.<br>
+•	Support Pre-Analysis Planning: Researchers can simulate expected results before collecting real data, which helps catch problems early and improve research plans.<br>
+•	Enable Bootstrapping and Flexible Inference: Simulations resample data to estimate confidence intervals without relying on strict assumptions, making analyses more robust.
 :::
 
 ---
 
-**Which species is the largest type of penguin**?
+## 1.2 Why are Simulations Used in Research? *contd*
 
-a. Chinstrap Penguin
+Most importantly, simulations promote **transparency** and **reproducibility**.
 
-b. Emperor Penguin ✅
-
-c. Adélie Penguin
-
-d. King Penguin
-
----
-
-**What is the key biological feature that helps penguins swim efficiently?**
-
-a. Hollow bones for buoyancy
-
-b. Webbed feet for paddling
-
-c. Waterproof feathers and flipper-like wings ✅
-
-d. Gills to breathe underwater
-
----
-
-# Break! 15 minutes
-
----
-
-## Post-break survey discussion
-
-- **Aim**: To clarify concepts and aspects that are not yet understood
-- Highlight specific answers given during the survey
+:::{.callout-tip}
+## Relate it to your Hypothesis
+Get together in your pair, and discuss how simulating your data for your experiment is useful, using any one of the pointers above.
+:::
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here.
+**Speaker Notes**: And its connection with open science? Simulations promote transparency and reproducibility since the code and data can be shared openly, allowing others to validate and extend the work. Open tools and tutorials make advanced statistical methods more accessible, democratizing research and education.
 
-**Instructor Notes**:
+**Instructor Notes**: After discussing the pointers, let the students brainstorm and justify the simulation of data in their experiment, and share it in class.
 
-- **Aim**: To clarify concepts and aspects that are not yet understood
+---
 
-- Highlight specific answers given during the survey
+## 1.3 Basic Simulation Process in R
+
+<div style="text-align: center;">
+  <img src="images/g (1).png" style="width:50%;" />
+</div>
+
+:::{.callout-tip}
+## Relate it to your Hypothesis
+Get together in your pair, and discuss how you would simulate your data according to this process.
+:::
+
+::: {.notes}
+**Speaker Notes**: Here’s the basic process behind running a simulation.
+First, decide how many data points (sample size) you want — for example, simulating a 100 coin flips. Thus, n = 100.
+Next, generate the fake data using a random method that mimics the real outcome, such as randomly assigning ‘heads’ or ‘tails’ with equal probability.
+Then analyse this simulated dataset just as you would analyse real data — you might count how many heads you got or calculate a simple summary.
+After that, repeat the simulation many times to see how the results vary from run to run.
+Finally, bring everything together by summarising the outcomes across all repetitions.
+This gives you a clear picture of the variation you can expect if the experiment were done in real life.”
+
+**Instructor Notes**: After discussing the pointers, let the students brainstorm and justify the simulation of data in their experiment, and share it in class.
+
+---
+
+## Learning Goals Check-In
+
+[x] To define the meaning of simulations and where they are used. <br>
+[x] To explain the need for simulations in research. <br>
+[x] To analyse the process of running a simulation in R, and apply the process to an example.
+
+
+::: {.notes}
+**Speaker Notes**: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.<br>
+If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.
 :::
 
 ---
 
-## Practical exercise 2
+## 2.1 What is Power Analysis and its Importance?
 
-- **Aim**: Design more practical exercises for students to apply the new skills in practice.
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+**Let's flip the coin again, *but how many times?* ** <br>
+- **Power analysis** is like figuring out how many times you need to flip a coin -> to be pretty sure you can tell if the coin is fair or not. <br>
+- **Power** = your chance of catching the coin's true nature if it really is biased. <br>
+ - If power = 80% -> you have an 80% chance of spotting a bias if it's really there. <br>
 
-- [x] Step 1
-- [ ] Step 2
-- [ ] Step 3
+-Power depends on <br>
+ - the effect size (*how biased the coin might be*) <br>
+ - the sample size (*how many times you flip the coin*) <br>
+ - the significance level (*how sure you want to be*)
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here.
+**Speaker Notes**: In this section, we’re looking at what power analysis means and why it matters.
+Think back to our coin example — the question now is: How many times should we flip the coin to confidently decide whether it’s fair?
+Power analysis helps us figure that out.
+Power is simply the chance of detecting a real effect if it truly exists.
+So if the power is 80 percent, that means we have an 80 percent chance of noticing a bias when the coin is actually biased. <br>
+Power depends on three things: the effect size — or how strong the bias might be, the sample size — how many flips we collect, and the significance level — how strict we want our decision rule to be.
+Keep your earlier hypothesis in mind as we talk through these ideas.
 
-**Instructor Notes**:
-
-- **Aim**: Design more practical exercises for students to apply the new skills in practice.
-
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
+**Instructor Notes**: This is the moment to clear out any confusion regarding the neighbouring concepts of effect size and significance level. If the students seem comfortable with the concepts, you can opt for a higher-level explanation reflecting the 'correctly rejecting a false null hypothesis' notion.
 :::
 
 ---
 
-## Relevance and implications
+## 2.1 What is Power Analysis and its Importance? *contd*
 
-- **Aim**: To work out the relevance of the topic to your students.
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-- Examine downfalls and practical obstacles.
+1. **Prevents Underpowered Studies**: It makes sure you don’t do an experiment that’s too small and miss something real. <br>
+2. **Optimizes Resource Use**: helps you figure out the smallest number of times you need to do your experiment to have a good chance. This way, you don’t waste time or resources. <br>
+3. **Required for Transparency and Publication**: a proof that your plan is strong enough. <br>
 
-::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-
-**Instructor Notes**:
-
-- **Aim**: To work out the relevance of the topic to your students.
-
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-
-- Examine downfalls and practical obstacles.
+:::{.callout-tip}
+## Relate it to your Hypothesis
+Get together in your pair, and discuss how conducting power analysis for your experiment is useful, using any one of the pointers above.
 :::
 
+::: {.notes}
+**Speaker Notes**: Prevents Underpowered Studies: Low power increases the risk of missing true effects, leading to inconclusive or misleading results. <br>
+Optimizes Resource Use: Power analysis helps determine the minimum sample size needed, balancing scientific rigor with practical constraints. <br>
+Required for Funding and Publication: Many funding agencies and journals require power analysis to justify sample size and study feasibility.
+:::
 ---
 
-## Assignment
+## 2.2 Why Simulations are better for Power Analysis?
 
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-- Examine whether/how it will be assessed
-- Mention scoring rubrics, if applicable
-- Design a peer-review system for assignments to place students in role of reviewer and author
+- **Quick formula method**: Imagine a simple math formula that tells you how many times to do something, like flipping a coin, to be pretty sure of your results. This method works fast and is good when the experiment is simple.
 
-::: {.notes}
-**Speaker Notes**: Script for the presentation here. 
-
-**Instructor Notes**:
-
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-
-- Examine whether/how it will be assessed
-
-- Mention scoring rubrics, if applicable
-
-- Design a peer-review system for assignments to place students in role of reviewer and author
-:::
+Simulation method: This is like pretending to do the experiment many times on a computer before actually doing it. You create fake results based on what you think will happen. This way is better when the experiment is tricky or has many parts that are hard to predict.
 
 ---
 
@@ -528,45 +509,7 @@ Add one practical tips or take-home message.
 :::
 
 ---
-
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
-
-a. I have never heard of it before.
-
-b. I have heard of it but have never worked with it.
-
-c. I have basic understanding and experience with it.
-
-d. I am very familiar and have worked with it extensively.
-
----
-
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
-
----
-
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)**
-
-a. 1
-
-b. 2
-
-c. 3
-
-d. 4
-
-e. 5
-
+##Qs
 ---
 
 ## Discussion of survey results
@@ -600,316 +543,6 @@ e. 5
 
 # Thanks! <br>
 See you next class :)
-
----
-
-## Pedagogical add-on tools for instructors
-
-- This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
-  - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
-  - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
-  - Extra exercises for faster students.	
-
----
-
-## Additional literature for instructors
-
-- References for content
-- References for pedagogical add-on tools	
-- Other resources (videos etc.)	
-
----
-
-# Formatting elements for instructors
-
-- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. 
-
----
-
-## Text with example links
-
-- [Quarto Documentation](https://quarto.org/docs/)
-- [Reveal.js Documentation](https://revealjs.com/)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [GitHub](https://github.com/)
-
----
-
-## Basic text formatting
-
-- **Bold:** `**bold**` → **bold**
-- *Italic:* `*italic*` → *italic*
-- ~~Strikethrough:~~ `~~text~~` → ~~text~~
-- `Inline code:` `` `code` `` → `code`
-- > Blockquote: `> Quote` →  
-  > "This is a quote"
-  
----
-
-## Figure with caption
-
-- Centered image and caption below in italics
-
-<div style="text-align: center;">
-  <img src="images/penguin.png" style="width:50%;" />
-  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>This is a Penguin.</em></div>
-</div>
-
----
-
-## Figure with specific width and height
-
-<img src="imagname.png" alt="sometext." style="display:block; margin:0 auto; width:50%; height:50%;">
-
-- display:block; margin:0 auto; centers the image on the slide.
-
-- width:50%; height:50%; sets the image size relative to the slide.
-
-- alt="..." ensures accessibility.
-
----
-
-
-## Figure with bullet points
-
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-
-  <!-- Left side: single image -->
-  <div style="flex: 1; text-align: center;">
-    <img src="images/penguin.png" style="width: 100%;" />
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
-
-</div>
-
----
-
-## Side-by-side figures
-
-```{=html}
-<div style="display: flex; justify-content: center; gap: 2em; align-items: flex-start;">
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/penguin.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 1: Penguin</em></div>
-  </div>
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/seal.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 2: Seal</em></div>
-  </div>
-
-</div>
-
-```
-
----
-
-## Stacked figures with text
-
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 0.5em;">
-
-  <!-- Left side: two images stacked vertically -->
-  <div style="flex: 1; display: flex; flex-direction: column; gap: 0.5em;">
-
-    <img src="images/penguin.png" style="width: 60%;" />
-    <img src="images/seal.png" style="width: 60%;" />
-
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
-
-</div>
-
----
-
-## Two-column text slide
-
-<div style="display: flex; gap: 2em;">
-
-  <div style="flex: 1;">
-  **Column 1**
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-  Vivamus lacinia odio vitae vestibulum vestibulum.  
-  Cras venenatis euismod malesuada.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 2**
-
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-  </div>
-
-</div>
-
----
-
-## Three-column text slide
-
-<div style="display: flex; gap: 1em;">
-
-  <div style="flex: 1;">
-  **Column 1**
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-  Vivamus lacinia odio vitae vestibulum vestibulum.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 2**
-
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 3**
-
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  </div>
-
-</div>
-
----
-
-## Simple table
-
-<div style="height: 2cm;"></div>
-
-
-| Column 1   | Column 2   | Column 3   |
-|------------|------------|------------|
-| Row 1 Cell | Row 1 Cell | Row 1 Cell |
-| Row 2 Cell | Row 2 Cell | Row 2 Cell |
-| Row 3 Cell | Row 3 Cell | Row 3 Cell |
-| Row 4 Cell | Row 4 Cell | Row 4 Cell |
-
----
-
-## Complex table
-
-<div style="height: 2cm;"></div>
-
-```{=html}
-
-<table style="border-collapse: collapse; width: 100%;">
-
-  <thead>
-    <tr style="background-color: #093; color: white; font-weight: bold;">
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 1</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 2</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 3</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr style="background-color: white; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-    </tr>
-    <tr style="background-color: #f0fff0; color: black;"> <!-- very light green -->
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-    </tr>
-    <tr style="background-color: white; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-    </tr>
-    <tr style="background-color: #f0fff0; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-    </tr>
-  </tbody>
-
-</table>
-
-```
----
-
-## Task list
-- [x] Done
-- [ ] To do
-
----
-
-## Embedding videos
-
-<div style="text-align: center;">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/q3uXXh1sHcI"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
-
----
-
-## Code blocks
-
-```{r}
-# A basic R code chunk
-x <- 1:10
-mean(x)
-
-
-# A simple plot
-hist(rnorm(100), main = "Histogram of Random Normals")
-
-```
-
----
-
-## Interactive slide with questions + answers
-
-<section>
-  <h2 style="font-size:1.5em;">Practical Exercise 1</h2>
-  <p style="font-size:0.85em;">Decide whether each scenario is an example of <strong>reproducibility</strong> or <strong>replicability</strong>.</p>
-  <ol style="font-size:0.8em;">
-    <li class="fragment">
-      A computational neuroscientist reruns a published fMRI analysis using the original dataset and Python scripts to verify the reported brain activation patterns.
-      <div style="color:#555; font-size:0.75em;"><strong>Answer:</strong> Reproducibility</div>
-    </li>
-    <li class="fragment">
-      An environmental scientist repeats a field experiment on soil nutrient levels using the same sampling protocol at a different site.
-      <div style="color:#555; font-size:0.75em;"><strong>Answer:</strong> Replicability</div>
-    </li>
-    <li class="fragment">
-      A linguist reanalyzes a corpus of historical texts using the same annotation guidelines and code to verify reported patterns of syntactic structures.
-      <div style="color:#555; font-size:0.75em;"><strong>Answer:</strong> Reproducibility</div>
-    </li>
-  </ol>
-</section>
 
 ---
 
