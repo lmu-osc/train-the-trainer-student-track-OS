@@ -6,11 +6,10 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Elizabeth Waterfield">
-  <meta name="dcterms.date" content="2025-07-11">
   <title>Train the Trainer: Student Track: OS Content – Introduction to Collaborative Coding with GitHub</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -96,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link rel="stylesheet" href="../../../slides-custom.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -205,20 +204,15 @@ Elizabeth Waterfield
 </div>
 </div>
 
-  <p class="date">07/11/2025</p>
+  <p class="date">27/11/2025</p>
 </section>
 <section id="general-feedback---delete-slide" class="slide level2">
 <h2>General feedback - delete slide</h2>
 <div style="font-size: 0.7em;">
 <p><span style="color:red;">Here are my general feedback points/ things I edited: </span></p>
 <ul>
-<li>Made a separate slide for the licence statement because it was quite a larger slide and placed it as the first slide of the slide deck (beth: okay great)</li>
-<li>As for your question about licensing: I will ask Malika, but my understanding is that if there is an existing MIT license, the original author can re-licence it as CC BY 4.0. People using the content but not owning it can also only reshare it with MIT licence. If the MIT licenced content is part of a larger blob of content with the rest being CC BY 4.0, then it needs to be specified what content is which license. (Beth: so we can leave it stating both the original and CC BY 4.0 then)</li>
-<li>As for the GitHub repo, lets discuss how we can make this sustainable for self-learners, students and instructors? (Beth: I put a “Setting up” slide to let the instructor or self learner first make a fork of the LMU OSC repo… but, the instructions aren’t explained in detail because I don’t want to just repeat what will come for making a fork in Practical Exercise 1…)</li>
-<li>QR codes and self - learners: shall we take them out by default? Thoughts? (Beth: Yes adding the QR code would be good and external instructors can just use it for inspo to make their own? I’m thinking about whether they’d have access to the results if they use the survey on the osc account)</li>
-<li>**Consistently add Alt Text to your figures, there is a special option when you insert code for images in Quarto (Beth: will do)</li>
-<li>I think we need to brainstorm how we design the Github repo PR activity both for instructors and students in class as well as self learners? For the merge changes, for instance - better for a live demo right? Maybe we can make slides for two paths, one for instructors in class and one for self learners making a PR for their own repo? Thoughts? (Beth: Yes, that was my idea with having the steps on how to merge changes first and then it’s followed by a live demonstration. But I’ll try to distinguish it more maybe in the instructor notes)</li>
-<li>{markdown} is replaced by ```text (Beth: okay)</li>
+<li><p>QR codes and self - learners: shall we take them out by default? Thoughts? (Beth: Yes adding the QR code would be good and external instructors can just use it for inspo to make their own? I’m thinking about whether they’d have access to the results if they use the survey on the osc account)</p></li>
+<li><p>I think we need to brainstorm how we design the Github repo PR activity both for instructors and students in class as well as self learners? For the merge changes, for instance - better for a live demo right? Maybe we can make slides for two paths, one for instructors in class and one for self learners making a PR for their own repo? Thoughts? (Beth: Yes, that was my idea with having the steps on how to merge changes first and then it’s followed by a live demonstration. But I’ll try to distinguish it more maybe in the instructor notes)</p></li>
 </ul>
 </div>
 </section>
@@ -322,9 +316,6 @@ Elizabeth Waterfield
 </tbody>
 </table>
 </div>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">So you did not make a new repo..? Or how are we organising this? Are there instructions for the instructor? And what about self learners..? Hmmm </span> Beth: We’ll try Malika’s suggestion to just make a fork of the LMU repo and have that as the lecturer’s or self-learner’s main repo.</p>
-</div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this submodule and complete the exercises.</p>
 <p><strong>Instructor Notes</strong>: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiarity with Git and that the audience has also completed that submodule. We also assume that, through the previous workshops, participants have downloaded and installed R and RStudio on their local machines. Lastly, the instructor should create a fork of the LMU OSC Collaborative-RStudio-GitHub repository. This will be the main repository for the class session and activities (that is, this forked repository is the repository that the students will fork and it is where the contributions will merged into).</p>
@@ -370,12 +361,22 @@ Elizabeth Waterfield
 <section id="before-we-start-survey-time" class="slide level2">
 <h2>Before we start: Survey time!</h2>
 
-<img data-src="images/00_Particify_Survey_Rooms.png" class="quarto-figure quarto-figure-center r-stretch" alt="An image of a QR code that leads to a survey."><div style="font-size: 0.7em;">
-<p><span style="color:red;">Add QR code here with note for which survey from the room to pick and probably also that the QR should not be scanned by self learners? </span> Beth: added!</p>
+<img data-src="images/00_Particify_Survey_Rooms.png" class="quarto-figure quarto-figure-center r-stretch" alt="An image of a QR code that leads to a survey."><div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Starting Survey</strong></p>
+</div>
+<div class="callout-content">
+<p>Please complete survey labeled “OS-M3-S5-GitHub-starting_survey”.</p>
+</div>
+</div>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Let’s start the session by gauging where our Quarto skills are at this point. Scan the QR code and go to the “starting survey” question series. Please answer honestly and don’t worry about having little to no prior knowledge about Quarto. This lesson is for beginners.</p>
-<p><strong>Instructor Notes</strong>: - Scanning the QR code would take them to a room on Particify with multiple question series. Direct the students to take the one labeled “OS-M3-S5-GitHub-starting_survey.” <br> - Aim: the pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. <br> - Use free survey software such as particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides.</p>
+<p><strong>Instructor Notes</strong>: - Scanning the QR code would take them to a room on Particify with multiple question series. Direct the students to take the one labeled “OS-M3-S5-GitHub-starting_survey”. <br> - Aim: the pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. <br> - Use free survey software such as particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -479,9 +480,6 @@ Elizabeth Waterfield
 <li>Tracking changes of each contributor on GitHub</li>
 </ul>
 </div>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">Unsure if the why github should be here if you also have a slide with that title later?</span> Beth: yea the title is repetitive, I’ll change it, but this callout is about how using GitHub can facilitate Open Science practices</p>
-</div>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -565,9 +563,6 @@ Elizabeth Waterfield
 </section>
 <section id="key-terms-and-definitions" class="slide level2">
 <h2>Key terms and definitions</h2>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">Hm here, to make it more focused, I would put GitHub back in but remove Git and version control? Perhaps also in the quiz before we can have a quiz question about pushing and pulling since that featured before and students would need to know those two as well before starting with this slide deck? Thoughts? </span> Beth: I included “version control” into the definition of git but I would leave it in as a tiny recap of what git is.</p>
-</div>
 <ul>
 <li><strong>Git</strong>: A version control system that tracks changes made to files over time.<br>
 </li>
@@ -709,11 +704,11 @@ Elizabeth Waterfield
           display:block!important;
       }</style></aside>
 </section>
-<section id="for-instructors-only-setting-up-a-practise-repo" class="slide level2">
-<h2>For instructors only: Setting up a practise repo</h2>
+<section id="instructors-only-practice-repo" class="slide level2">
+<h2>Instructors only: Practice repo</h2>
 <p>Before we collaborate, we need to <strong>set up a practise repository</strong>.</p>
 <ul>
-<li>Follow this link to LMU OSC’s Collaborative-RStudio-GitHub repository: <a href="https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main">https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main</a></li>
+<li><a href="https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main">Click here to go to LMU OSC’s Collaborative-RStudio-GitHub repository</a></li>
 <li>Create a fork by clicking on “<code>Fork</code>”</li>
 <li>Make sure you are set as the owner of the new repository and do not change the name of the forked repository</li>
 <li>Hit “<code>Create fork</code>”</li>
@@ -724,10 +719,10 @@ Elizabeth Waterfield
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Important</strong></p>
+<p><strong>Now you have your practice repository!</strong></p>
 </div>
 <div class="callout-content">
-<p>Now you have copied all the materials from the LMU OSC Collaborative-RStudio-GitHub repository needed to do the activities in this session to your <strong>own GitHub account</strong>. This fork will be referred to as the <strong>main repository</strong> from here on and is the repository your <strong>students</strong> will work on!</p>
+<p>You have copied all the materials from the LMU OSC Collaborative-RStudio-GitHub repository needed to do this session’s activities with your <strong>own GitHub account</strong>. This fork will be referred to as the <strong>main repository</strong> from here on and is the repository your <strong>students</strong> will work on.</p>
 </div>
 </div>
 </div>
@@ -781,16 +776,16 @@ Elizabeth Waterfield
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Important</strong></p>
+<p><strong>What is meant by “<strong>repo</strong>”</strong></p>
 </div>
 <div class="callout-content">
-<p>By <strong>repo on GitHub</strong> we mean one of two things: 1) the repository your instructor created on their own remote GitHub account for you to work on, or 2) an existing repo for practise <a href="https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main">https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main</a>. Go to the repo that is available to you. Note, <strong>the screenshot may not match exactly</strong> because you may be forking from your instructor’s GitHub instead of from the practice repo.</p>
+<p>By <strong>repo on GitHub</strong> we mean one of two things: 1) the repository your instructor created on their own remote GitHub account for you to work on, or 2) an existing repo for practice <a href="https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main">https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main</a>. Go to the repo that is available to you. Note, <strong>the screenshot may not match exactly</strong> because you may be forking from your instructor’s GitHub instead of from the practice repo.</p>
 </div>
 </div>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Go to the main repository of the project we will be using for today (the fork of the LMU OSC Repository). Find the toolbar at the top that is next to the name of the repository and click “Fork”.</p>
-<p><strong>Instructor Notes</strong>: Remember the ‘main repository’ here will be the one that you forked from the original lmu-osc tutorial and was subsequently copied to your own remote GitHub account. In essence, your students are now creating a fork of your fork. This is also the first instance where what you and your students see on screen may not match identically with what this example image shows. Provide students with the name or link to your forked repo created for this session, or provide them with a link to the LMU OSC repo as in the example.</p>
+<p><strong>Instructor Notes</strong>: Remember: the ‘main repository’ here will be the one that you forked from the original lmu-osc tutorial and was subsequently copied to your own remote GitHub account. In essence, your students are now creating a fork of your fork. This is also the first instance where what you and your students see on screen may not match identically with what this example image shows. Provide students with the name or link to your forked repo created for this session, or provide them with a link to the LMU OSC repo as in the example.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -971,7 +966,7 @@ Elizabeth Waterfield
 <p><strong>Putting this project in a new folder</strong></p>
 </div>
 <div class="callout-content">
-<p>Make a new folder on your device. Then, you can change the path under “Create project as subdirectroy of:” to locate this Git repository in that new folder. We are making a new folder because it is advisable that each folder has its own Git database.</p>
+<p>First, make a new folder on your device. Then, you can change the path under “<code>Create project as subdirectroy of:</code>” to locate this Git repository in that new folder. We are making a new folder because it is advisable that each folder has its own Git database.</p>
 </div>
 </div>
 </div>
@@ -1048,10 +1043,7 @@ Elizabeth Waterfield
 <h2>Practical exercise 3: Commit</h2>
 <p>Before you <strong>commit to a project</strong>, you need to make some changes to the project.</p>
 
-<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/copy-params_tmpl.png" alt="An image of the 'Files' tab in RStudio highlighting the 'Copy' button under the 'More' options on the toolbar within the tab." class="r-stretch"><div style="font-size: 0.7em;">
-<p><span style="color:red;">which specified file? </span> Beth: I didn’t put the file name because we were still working out what repository they would use for the lesson but I can specify it now with the files from the OSC tut.</p>
-</div>
-<ul class="task-list">
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/copy-params_tmpl.png" alt="An image of the 'Files' tab in RStudio highlighting the 'Copy' button under the 'More' options on the toolbar within the tab." class="r-stretch"><ul class="task-list">
 <li><label><input type="checkbox">Go into the “<code>params</code>” sub-folder by clicking it in <strong>RStudio</strong></label></li>
 <li><label><input type="checkbox">Select the “<code>params_templ.R</code>” file</label></li>
 <li><label><input type="checkbox">Click “<code>More</code>” then “<code>Copy...</code>” to make a copy of this file</label></li>
@@ -1079,9 +1071,6 @@ Elizabeth Waterfield
 <div style="text-align: center;">
 <p><img src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/rename-copy.png" width="50%" alt="Screenshot with an example of a name for a copied file of a project in the RStudio GitHub integration."></p>
 </div>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">Maybe with an example? </span> Beth: added.</p>
-</div>
 <ul class="task-list">
 <li><label><input type="checkbox">Open your copy of the file to make your changes (in this case, you will be making a new parameter)</label></li>
 </ul>
@@ -1103,9 +1092,9 @@ Elizabeth Waterfield
 <h2>Practical exercise 3: Commit</h2>
 
 <img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/edit-file.png" class="quarto-figure quarto-figure-center r-stretch" alt="Screenshot of an R script defining parameters for sig2, species.name, and color with the value #311DB3."><ul class="task-list">
-<li><label><input type="checkbox">For sig2: type in a numeric value greater than 0 but smaller than 5 with NO quotation marks around it.</label></li>
-<li><label><input type="checkbox">For species.name: type a character string with quotation marks (for example, “anas_krystallinus”). Try making a species name out of your name!</label></li>
-<li><label><input type="checkbox">For color: type the hex code of a color with quotation marks (for example, the color red is “#FFFFFF”).</label></li>
+<li><label><input type="checkbox">For <code>sig2</code>: type in a numeric value greater than 0 but smaller than 5 with NO quotation marks around it.</label></li>
+<li><label><input type="checkbox">For <code>species.name</code>: type a character string with quotation marks (for example, “anas_krystallinus”). Try making a species name out of your name!</label></li>
+<li><label><input type="checkbox">For <code>color</code>: type the hex code of a color with quotation marks (for example, the color red is “#FFFFFF”).</label></li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: In this exercise, each person will edit their own parameter file to practice making a commit. Update these three values: a numeric for “sig2”, a character name for “species.name”, and a hex color code for “color”. You can install the package “colourpicker” which would create an Addin called “Colour Picker” to help find a hex code for a desired color. The “Addins” drop-down menu is found on a toolbar at the top of the RStudio workspace.</p>
@@ -1125,15 +1114,9 @@ Elizabeth Waterfield
 <section id="practical-exercise-3-commit-3" class="slide level2">
 <h2>Practical exercise 3: Commit</h2>
 <ul class="task-list">
-<li><label><input type="checkbox">Save your file by going to the top toolbar and clicking “<code>File</code>” -&gt; then “<code>Save</code>”</label>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">more instructions on how to save or not needed? </span> Yes, added.</p>
-</div></li>
-</ul>
-
-<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/stage.png" class="quarto-figure quarto-figure-center r-stretch" alt="An image of the 'Git' tab in RStudio where the copied file is selected."><ul class="task-list">
-<li><label><input type="checkbox">In the “<code>Git</code>” tab, tick the checkbox next to <em>your copied file</em>. This will <strong>stage</strong> your file</label></li>
-<li><label><input type="checkbox">Click “<code>Commit</code>”</label></li>
+<li><p><label><input type="checkbox">Save your file by going to the top toolbar and clicking “<code>File</code>” -&gt; then “<code>Save</code>” <img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/stage.png" class="quarto-figure quarto-figure-center" alt="An image of the 'Git' tab in RStudio where the copied file is selected."></label></p></li>
+<li><p><label><input type="checkbox">In the “<code>Git</code>” tab, tick the checkbox next to <em>your copied file</em>. This will <strong>stage</strong> your file</label></p></li>
+<li><p><label><input type="checkbox">Click “<code>Commit</code>”</label></p></li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: After this, save the file as normal by going to “File” and then clicking “Save”. In the Git tab on RStudio, tick the checkbox next to your copied file under the “Staged” column. Staging a commit means you’re selecting which specific changes you want to include in your next commit. Then click the “Commit” button.</p>
@@ -1153,10 +1136,7 @@ Elizabeth Waterfield
 <h2>Practical exercise 3: Commit</h2>
 
 <img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/commit.png" class="quarto-figure quarto-figure-center r-stretch" alt="An image showing the selected file on the left and a text box on the right for a Commit message describing the changes made to the file."><ul class="task-list">
-<li><label><input type="checkbox">Add a comment in the “<code>Commit message</code>” box briefly describing the changes you made (for example: “add Malika rocks parameters”)</label>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">Maybe an example here? </span> Yes, an example is in the image but I can also include it in the instruction.</p>
-</div></li>
+<li><label><input type="checkbox">Add a comment in the “<code>Commit message</code>” box briefly describing the changes you made (for example: “add Malika rocks parameters”)</label></li>
 <li><label><input type="checkbox">Click “<code>Commit</code>” under the “<code>Commit message</code>” textbox</label></li>
 </ul>
 <aside class="notes">
@@ -1200,9 +1180,6 @@ Elizabeth Waterfield
 </section>
 <section id="push-changes" class="slide level2">
 <h2>Push changes</h2>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">I think I would find it useful there to have a brief recap + pedagogical activity in the instructor notes? What do you think? Or maybe after concluding this step? </span> Beth: then I like the idea of the One-Minute Paper activity coming in the slide before as a recap activity.</p>
-</div>
 <p>To <strong>push changes</strong> means to upload your local commits from your local computer to the remote repository on GitHub.</p>
 <ul>
 <li>Keeps the online version of the project up to date.</li>
@@ -1227,7 +1204,7 @@ Elizabeth Waterfield
 <h2>Practical exercise 4: Push</h2>
 
 <img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-rstudio.png" class="quarto-figure quarto-figure-center r-stretch" alt="A screenshot of the 'Git' tab in RStudio highlighting the button 'Push' on the toolbar to push the changes to GitHub."><ul class="task-list">
-<li><label><input type="checkbox">In the “<code>Git</code>” tab, click “<code>Push</code>” to send your changes to GitHub</label></li>
+<li><label><input type="checkbox">In the <code>Git</code> tab, click “<code>Push</code>” to send your changes to GitHub</label></li>
 <li><label><input type="checkbox">Enter your password when prompted</label></li>
 </ul>
 <aside class="notes">
@@ -1248,10 +1225,7 @@ Elizabeth Waterfield
 <h2>Push changes</h2>
 <p>If you successfully pushed your changes, you would see a pop up box like the one below:</p>
 
-<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-github.png" class="quarto-figure quarto-figure-center r-stretch" alt="An screenshot showing the message one would receive if the push action was successfully completed."><div style="font-size: 0.7em;">
-<p><span style="color:red;">mention the commit message as well? </span> Beth: added</p>
-</div>
-<aside class="notes">
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-github.png" class="quarto-figure quarto-figure-center r-stretch" alt="An screenshot showing the message one would receive if the push action was successfully completed."><aside class="notes">
 <p><strong>Speaker Notes</strong>: If all went well, you will see a pop up box with a message like this one to let you know the changes were successfully pushed to the remote repository. An additional way to make sure your changes were pushed, refresh your GitHub repository webpage and check to see if the file you copied is now appearing. The commit message should also appear next to it on GitHub.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1274,7 +1248,7 @@ Elizabeth Waterfield
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Refresh the page</strong></p>
+<p><strong>Important step: refresh the page</strong></p>
 </div>
 <div class="callout-content">
 <p>Refresh the page of your forked repository on GitHub and you should see your new file with the commit message next to it. Refreshing the page is an important step to update your forked repository with the new file you added.</p>
@@ -1302,7 +1276,20 @@ Elizabeth Waterfield
 <p><span style="color:red;"> Beth: Is it okay that i changed “survey” to “quiz”? </span></p>
 </div>
 
-<img data-src="images/00_Particify_Survey_Rooms.png" class="quarto-figure quarto-figure-center r-stretch" alt="An image of a QR code that leads to a survey."><aside class="notes">
+<img data-src="images/00_Particify_Survey_Rooms.png" class="quarto-figure quarto-figure-center r-stretch" alt="An image of a QR code that leads to a survey."><div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Pre-break quiz</strong></p>
+</div>
+<div class="callout-content">
+<p>Please complete survey labeled “OS-M3-S5-GitHub-prebreak_quiz”.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
 <p><strong>Speaker Notes</strong>: Before the break, let’s take a moment to review the things we covered in the first part of this lesson. Scan the QR code again and find the quiz titled “Os-M3-S5-Github-prebreak_quiz”. This quiz has a few simple recap questions about what we’ve learned so far about using GitHub for collaboration on projects. The goal isn’t to test you, but to help you reflect on what you’ve learned and to see if anything needs a bit more clarification.</p>
 <p><strong>Instructor Notes</strong>: It’s important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson. <br> - Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule. <br> - Use free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides)</p>
 <style type="text/css">
@@ -1320,9 +1307,6 @@ Elizabeth Waterfield
 <section class="slide level2">
 
 <p><strong>What is GitHub mainly used for by a team working on the same project?</strong></p>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">Eliminate the green tick and descrbie the correct answer in the instructor notes? </span> Beth: done, I also changed the answers a bit.</p>
-</div>
 <ol type="a">
 <li><p>Editing photos online</p></li>
 <li><p>Hosting and collaborating on code or research projects</p></li>
@@ -1346,9 +1330,6 @@ Elizabeth Waterfield
 <section class="slide level2">
 
 <p><strong>On GitHub, why would you fork a repository?</strong></p>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">rephrased the questions a little - thoughts? </span> Beth: I rephrased them too to be more specific</p>
-</div>
 <ol type="a">
 <li><p>To delete the original repository and start a new one</p></li>
 <li><p>To download a copy of the remote repository to your local computer</p></li>
@@ -1470,9 +1451,6 @@ Elizabeth Waterfield
 <section id="pull-request" class="slide level2">
 <h2>Pull request</h2>
 <p>To make a <strong>pull request</strong> means asking the repository’s owner to review the changes you made (from your fork or branch) and merge them into the main repository on GitHub.</p>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">I am unsure about the working of main project here - what do you think? </span> Beth: I tried to clarify it a bit</p>
-</div>
 <ul>
 <li>Creates a space for discussion and code review before incorporating changes.</li>
 <li>Encourages feedback and peer learning</li>
@@ -1593,9 +1571,6 @@ Elizabeth Waterfield
 <li>Ensures that the parameters were inputted correctly so as to not break down their code down the line</li>
 </ul>
 </div></div>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">maybe emphasise here or with a call out box what is being merged into what in this specific example?</span> Beth: yes, I’ll add the callout box</p>
-</div>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -1801,7 +1776,7 @@ Elizabeth Waterfield
 <li><label><input type="checkbox">In <strong>RStudio</strong>, go to the “<code>Terminal</code>” tab</label></li>
 <li><label><input type="checkbox">Enter the following command:</label></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>git checkout main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>git checkout main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><br></p>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -1835,7 +1810,7 @@ Elizabeth Waterfield
 <ul class="task-list">
 <li><label><input type="checkbox">In the <strong>RStudio</strong> “<code>Terminal</code>”, enter the command to pull the original repo and branch following this format:</label></li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>git pull git@github.com:ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><br></p>
 <div class="callout callout-warning callout-titled callout-style-default">
 <div class="callout-body">
@@ -1849,9 +1824,6 @@ Elizabeth Waterfield
 <p>Replace the “<code>ORIGINAL_OWNER</code>” with the name of the GitHub account that owns the main repository. Replace “<code>ORIGINAL_REPOSITORY</code>” with the name of the main repository that has the original project files.</p>
 </div>
 </div>
-</div>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">with? I maybe see potential for difficulties here? </span> Beth: I added a callout box to clarify</p>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Next, we type this command to pull the original repository and branch we wish to obtain locally. Follow the format but replace “ORIGINAL_OWNER” and “ORIGINAL_REPOSITORY”. Here’s an example of what it looks like when these two commands are executed successfully.</p>
@@ -1894,20 +1866,11 @@ Elizabeth Waterfield
 <ul class="task-list">
 <li><label><input type="checkbox">In <strong>RStudio</strong>, check the “<code>Files</code>” tab and open the “<code>params</code>” sub-folder</label></li>
 <li><label><input type="checkbox">In the “<code>params</code>” sub-folder, check that the new R files with the parameter contributions are appearing (the ones that were merged)</label></li>
+<li><label><input type="checkbox">To push these new parameter contributions into your remote fork on <strong>GitHub</strong>, you can also do so by entering the following command into the terminal</label></li>
 </ul>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;"> which ones (here I think it is worth being very specific?) </span> Beth: yea again, I wasn’t specific because I was still working out what repo they’d use but we know now</p>
-</div>
-<ul class="task-list">
-<li><label><input type="checkbox">To push these new parameter contributions</label>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">which? </span> Beth: specified</p>
-</div>
-into your remote fork on <strong>GitHub</strong>, you can also do so by entering the following command into the terminal (like in the example):</li>
-</ul>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a></a>git push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a></a>git push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
-<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/final-push.png" alt="A screenshot of an RStudio terminal showing the command ‘git push’ with a successful push to the GitHub repository." class="r-stretch"><aside class="notes">
+<img data-src="https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/final-push.png" alt="A screenshot of an RStudio terminal showing the command ‘git push’ with a successful push to the GitHub repository." class="r-stretch quarto-figure-center"><p class="caption">This is an example</p><aside class="notes">
 <p><strong>Speaker Notes</strong>: Earlier we merged some new R files containing unique parameters into the main repository. After pulling upstream, these files should now be showing up in your “File” tab in RStudio, this means that they are now on your local copy. To also have them appear on your fork on GitHub you can push them using a simple Git command: git push. Enter this into the terminal to execute it. Then check your fork on GitHub to make sure the new files are also appearing in the “params” sub-folder there.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1974,9 +1937,6 @@ into your remote fork on <strong>GitHub</strong>, you can also do so by entering
 <p>Remember this illustration?</p>
 
 <img data-src="images/04_Recap_Activity.png" class="quarto-figure quarto-figure-center r-stretch"><p><em>Fill in the missing words with the actions we learned today!</em></p>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">Nice! Is there a downloadable solution? </span> Beth: yes I’ll add it on the next slide</p>
-</div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Let’s revist this diagram we saw at the beginning of the lesson. See if you can fill in the missing words with the actions we used to collaborate on the project today using GitHub.</p>
 <style type="text/css">
@@ -2083,6 +2043,29 @@ into your remote fork on <strong>GitHub</strong>, you can also do so by entering
 </section>
 <section id="assignment" class="slide level2">
 <h2>Assignment</h2>
+<p><strong>Git commands</strong></p>
+<ul>
+<li>Several actions in collaborative coding on GitHub can also be performed directly using <strong>Git commands in a Terminal</strong>.</li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>What is a <strong>terminal</strong>?</strong></p>
+</div>
+<div class="callout-content">
+<p>It’s a text-based tool where you can type commands to run programs such as Git.</p>
+</div>
+</div>
+</div>
+<p>Here is an activity sheet to learn and practice Git commands:</p>
+<p><br></p>
+<div style="text-align: center;">
+<p><a href="assets/OS-M3-S5-GitHub-activity_sheet.pdf" download="" style="background-color:#007ACC; color:white; padding:10px 16px; border-radius:6px; 
+            text-decoration:none; font-weight:600;"> Download the Git Hub activity sheet </a></p>
+</div>
 <aside class="notes">
 <p><strong>Instructor Notes</strong>: Design a take home assignment that students can complete to strengthen or build on the skills learned in this session. Make sure to explain the homework assignment and the rationale behind the homework. <br> - Examine whether/how it will be assessed <br> - Mention scoring rubrics, if applicable <br> - Design a peer-review system for assignments to place students in role of reviewer and author <br></p>
 <p>A suggestion is to design an assignment giving students the opportunity to learn how and practice using Git commands in Git Bash to communicate with GitHub for actions like cloning, committing, pushing, and pulling.</p>
@@ -2101,7 +2084,20 @@ into your remote fork on <strong>GitHub</strong>, you can also do so by entering
 <section id="to-conclude-survey-time" class="slide level2">
 <h2>To conclude: Survey time!</h2>
 
-<img data-src="images/00_Particify_Survey_Rooms.png" class="quarto-figure quarto-figure-center r-stretch" alt="An image of a QR code that leads to a survey."><aside class="notes">
+<img data-src="images/00_Particify_Survey_Rooms.png" class="quarto-figure quarto-figure-center r-stretch" alt="An image of a QR code that leads to a survey."><div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Final survey</strong></p>
+</div>
+<div class="callout-content">
+<p>Please complete survey labeled “OS-M3-S5-GitHub-finishing_survey”.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
 <p><strong>Speaker Notes</strong>: To end this lesson, let’s use this survey to see where we stand in our understanding of using GitHub and what we can focus on more moving forward to become more proficient in using it for collaborative work. Scan the QR code once more and go to the OS-M3-S5-GitHub-finishing_survey.</p>
 <p><em>Instructor Notes</em> <br> - Aim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic. <br> - Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):</p>
 <style type="text/css">
@@ -2190,9 +2186,6 @@ into your remote fork on <strong>GitHub</strong>, you can also do so by entering
 <li>The contents are adapted from the <a href="https://lmu-osc.github.io/Collaborative-RStudio-GitHub/">LMU OSC’s Collaborative coding with GitHub and RStudio tutorial</a>.</li>
 <li>One-Minute Paper is a quick reflective activity where students spend about a minute writing brief responses to summarize what they learned. Check out the <a href="https://www.rochester.edu/college/teaching/teaching-guidance/one-minute-paper.html">University of Rochester’s Teaching Center Page</a> to learn more about it.</li>
 </ul>
-<div style="font-size: 0.7em;">
-<p><span style="color:red;">This could use a little more elaboration perhaps? </span></p>
-</div>
 </section>
 <section id="additional-related-content" class="slide level2">
 <h2>Additional related content</h2>
@@ -2416,7 +2409,7 @@ into your remote fork on <strong>GitHub</strong>, you can also do so by entering
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -2566,13 +2559,14 @@ into your remote fork on <strong>GitHub</strong>, you can also do so by entering
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
