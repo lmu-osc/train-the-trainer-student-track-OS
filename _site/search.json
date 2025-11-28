@@ -1166,7 +1166,7 @@
     "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#example-publication-bias",
     "title": "Threats to credible research: How Open Research can change the game",
     "section": "Example publication bias",
-    "text": "Example publication bias\nTurner et al 2008"
+    "text": "Example publication bias\nDe vries et al study\n\n\n\n  \n  \n    \n  \n  \n\n\n\nStudy publication bias: non-publication of an entire study\nOutcome reporting bias: non-publication of negative outcomes within a published article or switching the status of (non-significant) primary and (significant) secondary outcomes\nSpin: authors conclude that the treatment is effective despite non-significant results on the primary outcome\nCitation bias: Studies with positive results receive more citations than negative studies\n\n\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add."
   },
   {
     "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#more-than-publication-bias",
@@ -1271,7 +1271,7 @@
     "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#what-does-research-even-mean",
     "title": "Threats to credible research: How Open Research can change the game",
     "section": "What does “research” even mean?",
-    "text": "What does “research” even mean?\n\nMaking observations in one’s surroundings\nAsking meaningful questions about phenomena, problems, or ideas\nGathering information or evidence in a deliberate, organized way\nAnalyzing and interpreting that evidence to discover patterns, relationships, or insights\nDrawing conclusions that extend understanding, challenge assumptions, or propose new possibilities\nCommunicating findings so they can be examined, tested, or built upon by others"
+    "text": "What does “research” even mean?\n“Research refers to a careful, well-defined (or redefined), objective, and systematic method of search for knowledge, or formulation of a theory that is driven by inquisitiveness for that which is unknown and useful on a particular aspect so as to make an original contribution to expand the existing knowledge base. Research involves the formulation of hypothesis or proposition of solutions, data analysis, and deductions; and ascertaining whether the conclusions fit the hypothesis. Research is a process of creating, or formulating knowledge that does not yet exist.”\n\nDeb, D., Dey, R., & Balas, V. E. (2018). Introduction: What is research?. In Engineering Research Methodology: A Practical Insight for Researchers (pp. 1-7). Singapore: Springer Singapore."
   },
   {
     "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#what-even-is-trust-in-research",
@@ -1335,5 +1335,334 @@
     "title": "Threats to credible research: How Open Research can change the game",
     "section": "…right? MOVE",
     "text": "…right? MOVE"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#credit-statement-and-licence",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#credit-statement-and-licence",
+    "title": "Template Slides: Title of submodule",
+    "section": "Credit statement and licence",
+    "text": "Credit statement and licence\nPossible roles using the CRediT contribition system:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.\n \n\nThis work by YYY XXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#prerequisites",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#prerequisites",
+    "title": "Template Slides: Title of submodule",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nModule + Submodule\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#questions-from-previous-submodule",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#questions-from-previous-submodule",
+    "title": "Template Slides: Title of submodule",
+    "section": "Questions from previous submodule",
+    "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#before-we-start-survey-time",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#before-we-start-survey-time",
+    "title": "Template Slides: Title of submodule",
+    "section": "Before we start: Survey time!",
+    "text": "Before we start: Survey time!\n\nAim: The pre-submodule survey serves to examine students’ prior knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides).\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results",
+    "title": "Template Slides: Title of submodule",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim”: Briefly examine the answers given to each question interactively with the group.\nUse visuals from the survey to highlight specific answers.\n\n\nSpeaker Notes Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#where-are-we-at",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#where-are-we-at",
+    "title": "Template Slides: Title of submodule",
+    "section": "Where are we at?",
+    "text": "Where are we at?\n\nAim: Place the topic of the current submodule within a broader context.\nRemind students what you are working towards and what the bigger picture is.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#learning-goals",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#learning-goals",
+    "title": "Template Slides: Title of submodule",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nStudents will describe the process of photosynthesis or\nStudents will construct a diagram illustrating the process of photosynthesis\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#key-terms-and-definitions",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#key-terms-and-definitions",
+    "title": "Template Slides: Title of submodule",
+    "section": "Key terms and definitions",
+    "text": "Key terms and definitions\n\nAim: Introduce key terms and definitions that students will come across throughout the session. \nKey Term 1: Definition\nKey Term 2: Definition\nKey Term 3: Definition\n\n\nSpeaker notes Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#introduction-of-submodule-topic",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#introduction-of-submodule-topic",
+    "title": "Template Slides: Title of submodule",
+    "section": "Introduction of submodule topic",
+    "text": "Introduction of submodule topic\n\nAim: Core theoretical introduction of submodule topic.\nPair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\nUse multiple slides for this part.\n\n\nSpeaker notes For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#submodule-content-slide",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#submodule-content-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Submodule content slide",
+    "text": "Submodule content slide\n\nAim: Present relevant content\nHighlight particularly important aspects with Quarto call-out boxes, for example:\n\n\n\n\n\n\n\nImportant with Title\n\n\nThis is an example of a callout box to highlight particularly important information.\n\n\n\n\n\n\n\n\n\nTip with Title\n\n\nThis is an example of a callout box to give important tips.\n\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1",
+    "title": "Template Slides: Title of submodule",
+    "section": "Practical exercise 1",
+    "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pre-break-survey",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pre-break-survey",
+    "title": "Template Slides: Title of submodule",
+    "section": "Pre-break survey",
+    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#post-break-survey-discussion",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#post-break-survey-discussion",
+    "title": "Template Slides: Title of submodule",
+    "section": "Post-break survey discussion",
+    "text": "Post-break survey discussion\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2",
+    "title": "Template Slides: Title of submodule",
+    "section": "Practical exercise 2",
+    "text": "Practical exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker notes For students who advance faster: Prepare extra exercises."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#relevance-and-implications",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#relevance-and-implications",
+    "title": "Template Slides: Title of submodule",
+    "section": "Relevance and implications",
+    "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#take-home-message",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#take-home-message",
+    "title": "Template Slides: Title of submodule",
+    "section": "Take-home message",
+    "text": "Take-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message.\n\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#assignment",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#assignment",
+    "title": "Template Slides: Title of submodule",
+    "section": "Assignment",
+    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#to-conclude-survey-time",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#to-conclude-survey-time",
+    "title": "Template Slides: Title of submodule",
+    "section": "To conclude: Survey time!",
+    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results-1",
+    "title": "Template Slides: Title of submodule",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#references",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#references",
+    "title": "Template Slides: Title of submodule",
+    "section": "References",
+    "text": "References\n\nProvide literature you refer to throughout this lesson.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pedagogical-add-on-tools-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pedagogical-add-on-tools-for-instructors",
+    "title": "Template Slides: Title of submodule",
+    "section": "Pedagogical add-on tools for instructors",
+    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#additional-literature-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#additional-literature-for-instructors",
+    "title": "Template Slides: Title of submodule",
+    "section": "Additional literature for instructors",
+    "text": "Additional literature for instructors\n\nReferences for content\nReferences for pedagogical add-on tools\n\nOther resources (videos etc.)"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#text-with-example-links",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#text-with-example-links",
+    "title": "Template Slides: Title of submodule",
+    "section": "Text with example links",
+    "text": "Text with example links\n\nQuarto Documentation\nReveal.js Documentation\nMarkdown Guide\nGitHub"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#basic-text-formatting",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#basic-text-formatting",
+    "title": "Template Slides: Title of submodule",
+    "section": "Basic text formatting",
+    "text": "Basic text formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\nBlockquote: &gt; Quote →\n“This is a quote”"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#figure-with-caption",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#figure-with-caption",
+    "title": "Template Slides: Title of submodule",
+    "section": "Figure with caption",
+    "text": "Figure with caption\n\nCentered image and caption below in italics\n\n\n\n\nThis is a Penguin."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#figure-with-bullet-points",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#figure-with-bullet-points",
+    "title": "Template Slides: Title of submodule",
+    "section": "Figure with bullet points",
+    "text": "Figure with bullet points\n\n\n\n  \n  \n    \n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#side-by-side-figures",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#side-by-side-figures",
+    "title": "Template Slides: Title of submodule",
+    "section": "Side-by-side figures",
+    "text": "Side-by-side figures\n\n\n  \n    \n    Figure 1: Penguin\n  \n\n  \n    \n    Figure 2: Seal"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#stacked-figures-with-text",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#stacked-figures-with-text",
+    "title": "Template Slides: Title of submodule",
+    "section": "Stacked figures with text",
+    "text": "Stacked figures with text\n\n\n\n  \n  \n\n    \n    \n\n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#two-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#two-column-text-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Two-column text slide",
+    "text": "Two-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\nCras venenatis euismod malesuada.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#three-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#three-column-text-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Three-column text slide",
+    "text": "Three-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\n\nColumn 3\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#simple-table",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#simple-table",
+    "title": "Template Slides: Title of submodule",
+    "section": "Simple table",
+    "text": "Simple table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#complex-table",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#complex-table",
+    "title": "Template Slides: Title of submodule",
+    "section": "Complex table",
+    "text": "Complex table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#task-list",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#task-list",
+    "title": "Template Slides: Title of submodule",
+    "section": "Task list",
+    "text": "Task list\n\nDone\nTo do"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#embedding-videos",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#embedding-videos",
+    "title": "Template Slides: Title of submodule",
+    "section": "Embedding videos",
+    "text": "Embedding videos"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#code-blocks",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#code-blocks",
+    "title": "Template Slides: Title of submodule",
+    "section": "Code blocks",
+    "text": "Code blocks\n\n# A basic R code chunk\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5\n\n# A simple plot\nhist(rnorm(100), main = \"Histogram of Random Normals\")"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#attribution-and-license-details",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#attribution-and-license-details",
+    "title": "Template Slides: Title of submodule",
+    "section": "Attribution and license details",
+    "text": "Attribution and license details\n\nThis slide should contain information about the license and attribution details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#example-attribution-for-previous-slide",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#example-attribution-for-previous-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Example attribution (for previous slide)",
+    "text": "Example attribution (for previous slide)\n“Tutorial template for student track” by Sarah von Grebmer is licensed under CC-BY-SA 4.0."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#a-romanticised-idea-of-research",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#a-romanticised-idea-of-research",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "A romanticised idea of research?",
+    "text": "A romanticised idea of research?\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#what-published-papers-are-useful-for",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#what-published-papers-are-useful-for",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "What published papers are useful for",
+    "text": "What published papers are useful for\n\nGetting a job\nBeing awarded grants\nBeing visible in the respective research field\n…\n\n\n\n\n\n\n\nWarning\n\n\nThe consequence is a “rat race” culture: Researchers try to publish as much as they can. ADD REFERENCE\n\n\n\n\nIdeal scenario: Balancing the desire to stay truthful to research with the necessity to publish?\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#getting-a-job",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#getting-a-job",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "Getting a job",
+    "text": "Getting a job\n\nN = 1453 psychology researchers, 66% were actually members of a professorship hiring committee\n\n\n\n\n\n\n\n\n\nActual (not desired) relevance in professorship hiring committees\nRank\n\n\n\n\nNumber of peer-reviewed publications\n1\n\n\nFit of research profile to the hiring department\n2\n\n\nQuality of research talks\n3\n\n\nNumber of publications\n4\n\n\nVolume of acquired third party funding\n5\n\n\nNumber of first authorships\n6\n\n\n\n\n\nAbele-Brehm, A. E., & Bühner, M. (2016). Wer soll die Professur bekommen? Psychologische Rundschau, 67(4), 250–261. http://doi.org/10.1026/0033-3042/a000335\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#career-relevance-of-publishing",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#career-relevance-of-publishing",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "Career relevance of publishing",
+    "text": "Career relevance of publishing\n\nN = 1453 psychology researchers, 66% were actually members of a professorship hiring committee\n\n\n\n\n\n\n\n\n\nActual (not desired) relevance in professorship hiring committees\nRank\n\n\n\n\nNumber of peer-reviewed publications\n1\n\n\nFit of research profile to the hiring department\n2\n\n\nQuality of research talks\n3\n\n\nNumber of publications\n4\n\n\nVolume of acquired third party funding\n5\n\n\nNumber of first authorships\n6\n\n\n\n\n\nAbele-Brehm, A. E., & Bühner, M. (2016). Wer soll die Professur bekommen? Psychologische Rundschau, 67(4), 250–261. http://doi.org/10.1026/0033-3042/a000335\n\n\nSpeaker Notes: Add script for slide here. Instructor Notes: Add."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#example-publication-bias-1",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#example-publication-bias-1",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "Example publication bias",
+    "text": "Example publication bias\nTurner et al 2008"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#cognitive-bias",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#cognitive-bias",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "Cognitive bias",
+    "text": "Cognitive bias"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#hack-1-adding-lots-of-outcome-variables",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#hack-1-adding-lots-of-outcome-variables",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "Hack 1: Adding lots of outcome variables",
+    "text": "Hack 1: Adding lots of outcome variables\n\nFor two outcome variables: False positive rate increases from 5% to 9.5%\nFor five outcome variables: False positive rate increases from 5% to 41%"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#hack-2-run-as-many-comparisons-as-possible",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#hack-2-run-as-many-comparisons-as-possible",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "Hack 2: Run as many comparisons as possible",
+    "text": "Hack 2: Run as many comparisons as possible\n\n\n\n  \n  \n    \n  \n  \n\n\n\nRun as many different comparisons on different outcomes, subgroups, time windows etc. as you can\nOnly report the comparisons that produced a statistically significant result\n\n\n\n\nADD REFERENCE"
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#hack-3-stop-collecting-data-whenever-you-found-what-you-were-looking-for",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#hack-3-stop-collecting-data-whenever-you-found-what-you-were-looking-for",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "Hack 3: Stop collecting data whenever you found what you were looking for",
+    "text": "Hack 3: Stop collecting data whenever you found what you were looking for\n\n\n\n  \n  \n    \n  \n  \n\n\n\nCollect an initial sample, analyze the results, add participants if the results are not significant\nStop when significance is found\n\nOne analysis: α = 5%\nTwo analyses: α = 11%\nBut with enough “just looking” can be pushed to 100%!\n\n\n\n\n\nArmitage, P., McPherson, C. K., & Rowe, B. C. (1969). Repeated significance tests on accumulating data. Journal of the Royal Statistical Society. Series A (General), 132, 235–244."
+  },
+  {
+    "objectID": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#hack-4-drop-participants-you-do-not-like",
+    "href": "materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html#hack-4-drop-participants-you-do-not-like",
+    "title": "Threats to credible research: How Open Research can change the game",
+    "section": "Hack 4: Drop participants you do not like",
+    "text": "Hack 4: Drop participants you do not like\n\n\n\n  \n  \n    \n  \n  \n\n\n\nSelectively exclude data/ outliers after seeing the results until the results are satisfying (aka until significance has been reached)"
   }
 ]
