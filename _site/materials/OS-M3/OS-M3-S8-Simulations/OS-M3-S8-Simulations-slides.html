@@ -6,11 +6,11 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
-  <meta name="author" content="LMU Open Science Center">
-  <title>Train the Trainer: Student Track: OS Content – Master Template Slides: Title of submodule</title>
+  <meta name="author" content="Tejaswini Sharma">
+  <title>Train the Trainer: Student Track: OS Content – Running Simulations and Power Analysis in R</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,72 +28,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    html { -webkit-text-size-adjust: 100%; }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
@@ -114,7 +48,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link rel="stylesheet" href="../../../slides-custom.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -213,17 +147,17 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Master Template Slides: Title of submodule</h1>
+  <h1 class="title">Running Simulations and Power Analysis in R</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-LMU Open Science Center 
+Tejaswini Sharma 
 </div>
 </div>
 </div>
 
-  <p class="date">21/11/2025</p>
+  <p class="date">28/11/2025</p>
 </section>
 <section id="licence" class="slide level2">
 <h2>Licence</h2>
@@ -296,19 +230,24 @@ LMU Open Science Center
 </thead>
 <tbody>
 <tr class="odd">
-<td>Topic Name</td>
-<td>Basic intro to X</td>
-<td>Module + Submodule</td>
+<td>Have R and RStudio installed</td>
+<td>If you don’t, follow these instructions:</td>
+<td>https://posit.co/download/rstudio-desktop/</td>
 </tr>
 <tr class="even">
-<td>Software Name</td>
-<td>Configuring the environment</td>
-<td><a href="https://quarto.org">Download Link</a></td>
+<td>Know some R basics</td>
+<td>e.g.&nbsp;how to select a value in a data frame, how to create a vector</td>
+<td><a href="https://lmu-osc.github.io/introduction-to-R/">Download Link</a></td>
+</tr>
+<tr class="odd">
+<td>Basic statistical concepts</td>
+<td>Like descriptive statistics, data analysis, statistical reasoning</td>
+<td><a href="to be updated">Download Link</a></td>
 </tr>
 </tbody>
 </table>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here. <strong>Instructor Notes</strong>: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead.</p>
+<p><strong>Speaker Notes</strong>: Before we begin this submodule, please take a moment to review the prerequisites listed here. First, you should already have R and RStudio installed. If not, the link on the slide will guide you through the installation. Next, you’ll need some basic familiarity with R — for example, how to select values in a data frame or how to create simple vectors. There’s a tutorial by OSC linked here in case you’d like to refresh those skills. Finally, you should be comfortable with basic statistical concepts, such as descriptive statistics and fundamental data analysis ideas. There is a link to a cheatsheet on these concepts provided here. If any of these areas feel unfamiliar, I encourage you to explore the resources before moving forward, so the rest of the tutorial is smooth and accessible. <strong>Instructor Notes</strong>: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. With a show of hands, you can know how many students would want to work through these resources provided; if the majority do, then a bit of time can be provided here, till they are comfortable to move forward.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -346,11 +285,11 @@ LMU Open Science Center
 <section id="before-we-start-survey-time" class="slide level2">
 <h2>Before we start: Survey time!</h2>
 <ul>
-<li><strong>Aim</strong>: The pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic.</li>
-<li>Use free survey software such as particify or formR to establish the following questions (shown on separate slides).</li>
+<li><strong>Aim</strong>: The pre-submodule survey serves to examine students’ prior knowledge about simulations and power analysis, and familiarity with R.</li>
+<li>(QR code to be added soon)</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here. <strong>Instructor Notes</strong>: <br> - <strong>Aim</strong>: The pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. - Use free survey software such as particify or formR to establish the following questions (shown on separate slides).</p>
+<p><strong>Speaker Notes</strong>: Script for the slide here. <strong>Instructor Notes</strong>: <br> - .</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -365,34 +304,79 @@ LMU Open Science Center
 </section>
 <section class="slide level2">
 
-<p><strong>What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?</strong></p>
+<p><strong>How confident are you in defining what a “simulation” is in the context of scientific research?</strong></p>
 <ol type="a">
-<li><p>I have never heard of it before.</p></li>
-<li><p>I have heard of it but have never worked with it.</p></li>
-<li><p>I have basic understanding and experience with it.</p></li>
-<li><p>I am very familiar and have worked with it extensively.</p></li>
+<li><p>Not confident.</p></li>
+<li><p>Somewhat confident.</p></li>
+<li><p>Confident.</p></li>
+<li><p>Very confident</p></li>
 </ol>
 </section>
 <section class="slide level2">
 
-<p><strong>Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)</strong></p>
+<p><strong>Simulations are often used in research to… <em>(Select all you think apply)</em> </strong></p>
 <ol type="a">
-<li><p>Concept 1</p></li>
-<li><p>Concept 2</p></li>
-<li><p>Concept 3</p></li>
-<li><p>Concept 4</p></li>
-<li><p>I am not sure about any of these concepts.</p></li>
+<li><p>Generate artificial data</p></li>
+<li><p>Visualize complex statistical concepts</p></li>
+<li><p>Replace all statistical analysis</p></li>
+<li><p>Test how models perform under different scenarios</p></li>
+</ol>
+<aside class="notes">
+<p><strong>Instructor Notes</strong>: Correct Answer(s): a. Generate artificial data <br> b. Visualize complex statistical concepts <br> d.&nbsp;Test how models perform under different scenarios - .</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>How familiar are you with the concept of “power” in statistics?</strong></p>
+<ol type="a">
+<li><p>I’ve never heard of it</p></li>
+<li><p>I know the term</p></li>
+<li><p>I understand the basics</p></li>
+<li><p>I’m comfortable with calculating power</p></li>
 </ol>
 </section>
 <section class="slide level2">
 
-<p><strong>On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)</strong></p>
+<p><strong>Power analysis is important for research because… <em>(Select all you think apply)</em> </strong></p>
 <ol type="a">
-<li><p>1</p></li>
-<li><p>2</p></li>
-<li><p>3</p></li>
-<li><p>4</p></li>
-<li><p>5</p></li>
+<li><p>It helps determine how many samples you need</p></li>
+<li><p>It ensures studies always find significant results</p></li>
+<li><p>It helps you design more reliable studies</p></li>
+<li><p>It explains all statistical results</p></li>
+</ol>
+<aside class="notes">
+<p><strong>Instructor Notes</strong>: Correct Answer(s): a. It helps determine how many samples you need <br> c.&nbsp;It helps you design more reliable studies - .</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>How comfortable are you with running basic R code and performing simple statistical analyses in R?</strong></p>
+<ol type="a">
+<li><p>Very uncomfortable</p></li>
+<li><p>Somewhat uncomfortable</p></li>
+<li><p>Neutral</p></li>
+<li><p>Somewhat comfortable</p></li>
+<li><p>Very comfortable)</p></li>
 </ol>
 </section>
 <section id="discussion-of-survey-results" class="slide level2">
@@ -452,13 +436,13 @@ LMU Open Science Center
 <section id="covered-in-this-session" class="slide level2">
 <h2>Covered in this session</h2>
 <ul>
-<li><strong>Aim</strong>: This slides serves as an overview of the topics that are discussed, presented as bullet point:</li>
-<li>Topic 1</li>
-<li>Topic 2</li>
-<li>Topic 3</li>
+<li><strong>Aim</strong>: To understand the theoretical reasoning behind simulations and power analysis in R and the process of running these simulations.</li>
+<li><strong>Topics Covered</strong>:</li>
+<li>Simulations in research and basic process in R.</li>
+<li>Power analysis and using simulations for it.</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
+<p><strong>Speaker Notes</strong>: In this session, we’ll focus on the core ideas behind simulations and power analysis in R. First, we’ll look at what simulations are and the basic steps for running them. Then we’ll connect this to power analysis and see how simulations can support it.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -474,26 +458,16 @@ LMU Open Science Center
 <section id="learning-goals" class="slide level2">
 <h2>Learning goals</h2>
 <ul>
-<li><p><strong>Aim</strong>: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)</p></li>
-<li><p>Place an emphasis on the <strong>verbs</strong> of the learning goals and choose verbs that align with the skills you want to develop or assess.</p></li>
-<li><p>Examples:</p>
-<ul>
-<li>Students will <strong>describe</strong> the process of photosynthesis or</li>
-<li>Students will <strong>construct</strong> a diagram illustrating the process of photosynthesis</li>
-</ul></li>
+<li>Students will define the meaning of simulations and where they are used.</li>
+<li>Students will explain the need for simulations in research.</li>
+<li>Students will analyse the process of running a simulation in R, and apply the process to an example.</li>
+<li>Students will recall the concept of power analysis and its importance.</li>
+<li>Students will differentiate between traditional and simulation-based methods.</li>
+<li>Students will analyse the simulation process for power analyse.</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
-<p><strong>Instructor Notes</strong>: <br></p>
-<ul>
-<li><p><strong>Aim</strong>: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)</p></li>
-<li><p>Place an emphasis on the <strong>verbs</strong> of the learning goals and choose verbs that align with the skills you want to develop or assess.</p></li>
-<li><p>Examples:</p>
-<ul>
-<li>Students will <strong>describe</strong> the process of photosynthesis or</li>
-<li>Students will <strong>construct</strong> a diagram illustrating the process of photosynthesis</li>
-</ul></li>
-</ul>
+<p><strong>Speaker Notes</strong>: In this session, we’ll work toward several learning goals, which reflect various sub-sections on the topic. These goals will be repeated after each sub-section so you can check your understanding, raise questions, and keep track of your progress.</p>
+<p><strong>Instructor Notes</strong>: Use this time to discuss any doubts the students may have on the learning goals and their assessment.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -509,14 +483,13 @@ LMU Open Science Center
 <section id="key-terms-and-definitions" class="slide level2">
 <h2>Key terms and definitions</h2>
 <ul>
-<li><p><strong>Aim</strong>: Introduce key terms and definitions that students will come across throughout the session. <br></p></li>
-<li><p><strong>Key Term 1</strong>: Definition</p></li>
-<li><p><strong>Key Term 2</strong>: Definition</p></li>
-<li><p><strong>Key Term 3</strong>: Definition</p></li>
+<li><strong>Simulations</strong>: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions (Morris et al., 2019).</li>
+<li><strong>Power Analysis</strong>: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis (Steidl et al., 1997).</li>
+<li><strong>Effect Size</strong>: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables (Lorah, 2018).</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Add script for slide here.</p>
-<p><strong>Instructor Notes</strong>: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson.</p>
+<p><strong>Speaker Notes</strong>: Here are a few key terms that will appear throughout the session. We’ll use the word simulations to talk about computer-generated data created through pseudo-random sampling. Power analysis refers to estimating the probability of detecting a true effect. And effect size tells us how large or meaningful that effect is. You don’t need to memorise these right now — this is just a quick introduction. We’ll return to these definitions later as we apply them, so for now simply get familiar with the terms.</p>
+<p><strong>Instructor Notes</strong>: Introduce the terms briefly to activate students’ prior conceptions. Keep the slide short</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -529,21 +502,12 @@ LMU Open Science Center
           display:block!important;
       }</style></aside>
 </section>
-<section id="introduction-of-submodule-topic" class="slide level2">
-<h2>Introduction of submodule topic</h2>
-<ul>
-<li><strong>Aim</strong>: Core theoretical introduction of submodule topic.</li>
-<li>Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).</li>
-<li>Use multiple slides for this part.</li>
-</ul>
+<section id="what-are-simulations" class="slide level2">
+<h2>1.1 What are Simulations?</h2>
+<p><strong>Let’S flip a coin</strong> <br> - Imagine you want to flip a coin <em>100 times</em>, and see the results. - <del>Actually flipping the coin</del> -&gt; Pretend to flip in mind… - And write down the results each time. - This pretending is called a <strong>simulation</strong>.</p>
 <aside class="notes">
-<p><strong>Speaker notes</strong>: Add script for the slide here.</p>
-<p><strong>Instructor Notes</strong>: <br> - <strong>Aim</strong>: Core theoretical introduction of submodule topic.</p>
-<ul>
-<li><p>For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).</p></li>
-<li><p>Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).</p></li>
-<li><p>Use multiple slides for this part.</p></li>
-</ul>
+<p><strong>Speaker notes</strong>: Imagine you want to find out how many times you might get heads if you flip a coin 100 times. Instead of flipping the coin for real, you can pretend to flip the coin many times in your mind or on paper and write down the results each time. This pretending is called a simulation.</p>
+<p><strong>Instructor Notes</strong>: Use this basic coin example to set the ground for ‘simulations’. Encourage the students to ponder upon this example as a real experiment for a short bit, to understand how they can ‘simulate’ the data in their minds.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -556,24 +520,119 @@ LMU Open Science Center
           display:block!important;
       }</style></aside>
 </section>
-<section id="submodule-content-slide" class="slide level2">
-<h2>Submodule content slide</h2>
+<section id="what-are-simulations-1" class="slide level2">
+<h2>1.1 What are Simulations?</h2>
+<h4 id="contd">contd…</h4>
 <ul>
-<li><strong>Aim</strong>: Present relevant content</li>
-<li>Highlight particularly important aspects with Quarto call-out boxes, for example:</li>
+<li>In a simulation, you make up data that acts like what you expect in the real world.</li>
+<li>You do this again and again to see what kind of results you can get.</li>
 </ul>
-<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Important with Title</strong></p>
+<p><strong>Try This Yourself</strong></p>
 </div>
 <div class="callout-content">
-<p>This is an example of a callout box to highlight particularly important information.</p>
+<p>Run a <strong>mental simulation</strong> of flipping a coin a <em>100 times</em>. Make a note of how many times would you get heads and how many tails.</p>
 </div>
 </div>
+</div>
+<aside class="notes">
+<p><strong>Speaker notes</strong>: In this part, we’re looking at what simulations really are. A simulation basically means creating data that behaves the way we expect real-world data to behave. We repeat this process many times to see the range of outcomes we might get. To get an intuitive feel for it, there’s a quick activity: imagine flipping a coin a hundred times. Think about how many heads and tails you’d expect. This mental experiment reflects the same logic behind running simulations in R.</p>
+<p><strong>Instructor Notes</strong>: Keep the explanation simple and intuitive. The goal here is to form an initial understanding before diving into technical detail.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="why-are-simulations-used-in-research" class="slide level2">
+<h2>1.2 Why are Simulations Used in Research?</h2>
+<h4 id="before-we-begin">Before we begin…<br></h4>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Create a Hypothesis</strong></p>
+</div>
+<div class="callout-content">
+<p>Get together in a pair, and create a hypothesis about the <strong>coin flips</strong>. For example, <em>When I flip the coin 100 times, the number of heads will be greater than tails.</em></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Before we explore why simulations are important in research, we’ll start with a quick exercise: Pair up and create a simple hypothesis about the coin-flip scenario from earlier. For example: When I flip a coin 100 times, I’ll get more heads than tails. This ‘experiment’ shall help you connect each point to your own hypothesis.</p>
+<p><strong>Instructor Notes</strong>: Give the students 2 minutes to develop their hypothesis; welcome creativity here.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="why-are-simulations-used-in-research-contd" class="slide level2">
+<h2>1.2 Why are Simulations Used in Research? <em>contd</em></h2>
+<ol type="1">
+<li><strong>To build statistical intuition</strong>: Simulations let you see how data behaves—for example, why sometimes results are different even if you do the same experiment. <br></li>
+<li><strong>To understand sampling and probability</strong>: Simulations help you picture what’s likely to happen and what’s unusual. <br></li>
+<li><strong>To perform power analysis</strong>: Scientists use simulations to check how likely their experiments are to find real effects. <br></li>
+<li><strong>To support pre-Analysis planning</strong>: Before running a real experiment, researchers simulate what they expect might happen. <br></li>
+<li><strong>To enable bootstrapping and flexible inference</strong>: Simulations can reuse existing data to estimate any uncertainty without many strict assumptions. <br></li>
+</ol>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: • Build Statistical Intuition: Simulations let you see how data behaves, helping you grasp concepts like variability and sampling—things that formulas alone can’t easily show. This makes abstract ideas more concrete and understandable. <br> • Understand Sampling and Probability: By simulating repeated samples, you can visualize sampling distributions and understand why statistics like standard errors vary from sample to sample.<br> • Perform Power Analysis and Plan Studies: They help estimate the chance your study will detect a true effect (power), especially when study designs are complicated and formulas don’t work well.<br> • Support Pre-Analysis Planning: Researchers can simulate expected results before collecting real data, which helps catch problems early and improve research plans.<br> • Enable Bootstrapping and Flexible Inference: Simulations resample data to estimate confidence intervals without relying on strict assumptions, making analyses more robust.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="why-are-simulations-used-in-research-contd-1" class="slide level2">
+<h2>1.2 Why are Simulations Used in Research? <em>contd</em></h2>
+<p>Most importantly, simulations promote <strong>transparency</strong> and <strong>reproducibility</strong>.</p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Relate it to your Hypothesis</strong></p>
+</div>
+<div class="callout-content">
+<p>Get together in your pair, and discuss how simulating your data for your experiment is useful, using any one of the pointers above.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: And its connection with open science? Simulations promote transparency and reproducibility since the code and data can be shared openly, allowing others to validate and extend the work. Open tools and tutorials make advanced statistical methods more accessible, democratizing research and education.</p>
+<p><strong>Instructor Notes</strong>: After discussing the pointers, let the students brainstorm and justify the simulation of data in their experiment, and share it in class.</p>
+<hr>
+<section id="basic-simulation-process-in-r" class="slide level2">
+<h2>1.3 Basic Simulation Process in R</h2>
+<div style="text-align: center;">
+<p><img src="images/g (1).png" style="width:50%;"></p>
 </div>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
@@ -581,15 +640,22 @@ LMU Open Science Center
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Tip with Title</strong></p>
+<p><strong>Relate it to your Hypothesis</strong></p>
 </div>
 <div class="callout-content">
-<p>This is an example of a callout box to give important tips.</p>
+<p>Get together in your pair, and discuss how you would simulate your data according to this process.</p>
 </div>
 </div>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
+<p><strong>Speaker Notes</strong>: Here’s the basic process behind running a simulation. First, decide how many data points (sample size) you want — for example, simulating a 100 coin flips. Thus, n = 100. Next, generate the fake data using a random method that mimics the real outcome, such as randomly assigning ‘heads’ or ‘tails’ with equal probability. Then analyse this simulated dataset just as you would analyse real data — you might count how many heads you got or calculate a simple summary. After that, repeat the simulation many times to see how the results vary from run to run. Finally, bring everything together by summarising the outcomes across all repetitions. This gives you a clear picture of the variation you can expect if the experiment were done in real life.”</p>
+<p><strong>Instructor Notes</strong>: After discussing the pointers, let the students brainstorm and justify the simulation of data in their experiment, and share it in class.</p>
+<hr>
+<section id="learning-goals-check-in" class="slide level2">
+<h2>Learning Goals Check-In</h2>
+<p>[x] To define the meaning of simulations and where they are used. <br> [x] To explain the need for simulations in research. <br> [x] To analyse the process of running a simulation in R, and apply the process to an example.</p>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.<br> If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -601,25 +667,15 @@ LMU Open Science Center
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<hr>
 </section>
-<section id="practical-exercise-1" class="slide level2">
-<h2>Practical exercise 1</h2>
-<ul>
-<li><p><strong>Aim</strong>: Design more practical exercises for students to apply the new skills in practice.</p></li>
-<li><p>Depending on the topic, the exercises should be in accordance with the learning objective(s).</p></li>
-<li><p>Add a description of the task, as well as a checklist as an overview of that your students need to be doing.</p></li>
-<li><p><label><input type="checkbox" checked="">Step 1</label></p></li>
-<li><p><label><input type="checkbox">Step 2</label></p></li>
-<li><p><label><input type="checkbox">Step 3</label></p></li>
-</ul>
+<section id="what-is-power-analysis-and-its-importance" class="slide level2">
+<h2>2.1 What is Power Analysis and its Importance?</h2>
+<p><strong>Let’s flip the coin again, <em>but how many times?</em> </strong> <br> - <strong>Power analysis</strong> is like figuring out how many times you need to flip a coin -&gt; to be pretty sure you can tell if the coin is fair or not. <br> - <strong>Power</strong> = your chance of catching the coin’s true nature if it really is biased. <br> - If power = 80% -&gt; you have an 80% chance of spotting a bias if it’s really there. <br></p>
+<p>-Power depends on <br> - the effect size (<em>how biased the coin might be</em>) <br> - the sample size (<em>how many times you flip the coin</em>) <br> - the significance level (<em>how sure you want to be</em>)</p>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
-<p><strong>Instructor Notes</strong>:</p>
-<ul>
-<li><p><strong>Aim</strong>: Design more practical exercises for students to apply the new skills in practice.</p></li>
-<li><p>Depending on the topic, the exercises should be in accordance with the learning objective(s).</p></li>
-<li><p>Add a description of the task, as well as a checklist as an overview of that your students need to be doing.</p></li>
-</ul>
+<p><strong>Speaker Notes</strong>: In this section, we’re looking at what power analysis means and why it matters. Think back to our coin example — the question now is: How many times should we flip the coin to confidently decide whether it’s fair? Power analysis helps us figure that out. Power is simply the chance of detecting a real effect if it truly exists. So if the power is 80 percent, that means we have an 80 percent chance of noticing a bias when the coin is actually biased. <br> Power depends on three things: the effect size — or how strong the bias might be, the sample size — how many flips we collect, and the significance level — how strict we want our decision rule to be. Keep your earlier hypothesis in mind as we talk through these ideas.</p>
+<p><strong>Instructor Notes</strong>: This is the moment to clear out any confusion regarding the neighbouring concepts of effect size and significance level. If the students seem comfortable with the concepts, you can opt for a higher-level explanation reflecting the ‘correctly rejecting a false null hypothesis’ notion.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -631,74 +687,30 @@ LMU Open Science Center
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<hr>
 </section>
-<section id="pre-break-survey" class="slide level2">
-<h2>Pre-break survey</h2>
-<ul>
-<li><strong>Aim</strong>: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule</li>
-<li>Use free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides)</li>
-</ul>
-<aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
-<p><strong>Instructor Notes</strong>: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule. Guidance on interpreting the results:</p>
-<ul>
-<li><p>If more than 80% of the students select the correct response option, show which one it is and move on.</p></li>
-<li><p>If less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).</p></li>
-<li><p>If more than 30% select a specific distractor answer, discuss it in class.</p></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<p><strong>Which species is the largest type of penguin</strong>?</p>
-<ol type="a">
-<li><p>Chinstrap Penguin</p></li>
-<li><p>Emperor Penguin ✅</p></li>
-<li><p>Adélie Penguin</p></li>
-<li><p>King Penguin</p></li>
+<section id="what-is-power-analysis-and-its-importance-contd" class="slide level2">
+<h2>2.1 What is Power Analysis and its Importance? <em>contd</em></h2>
+<ol type="1">
+<li><strong>Prevents Underpowered Studies</strong>: It makes sure you don’t do an experiment that’s too small and miss something real. <br></li>
+<li><strong>Optimizes Resource Use</strong>: helps you figure out the smallest number of times you need to do your experiment to have a good chance. This way, you don’t waste time or resources. <br></li>
+<li><strong>Required for Transparency and Publication</strong>: a proof that your plan is strong enough. <br></li>
 </ol>
-</section>
-<section class="slide level2">
-
-<p><strong>What is the key biological feature that helps penguins swim efficiently?</strong></p>
-<ol type="a">
-<li><p>Hollow bones for buoyancy</p></li>
-<li><p>Webbed feet for paddling</p></li>
-<li><p>Waterproof feathers and flipper-like wings ✅</p></li>
-<li><p>Gills to breathe underwater</p></li>
-</ol>
-</section>
-<section class="slide level2">
-
-</section>
-<section>
-<section id="break-15-minutes" class="title-slide slide level1 center">
-<h1>Break! 15 minutes</h1>
-
-</section>
-<section id="post-break-survey-discussion" class="slide level2">
-<h2>Post-break survey discussion</h2>
-<ul>
-<li><strong>Aim</strong>: To clarify concepts and aspects that are not yet understood</li>
-<li>Highlight specific answers given during the survey</li>
-</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Relate it to your Hypothesis</strong></p>
+</div>
+<div class="callout-content">
+<p>Get together in your pair, and discuss how conducting power analysis for your experiment is useful, using any one of the pointers above.</p>
+</div>
+</div>
+</div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
-<p><strong>Instructor Notes</strong>:</p>
-<ul>
-<li><p><strong>Aim</strong>: To clarify concepts and aspects that are not yet understood</p></li>
-<li><p>Highlight specific answers given during the survey</p></li>
-</ul>
+<p><strong>Speaker Notes</strong>: Prevents Underpowered Studies: Low power increases the risk of missing true effects, leading to inconclusive or misleading results. <br> Optimizes Resource Use: Power analysis helps determine the minimum sample size needed, balancing scientific rigor with practical constraints. <br> Required for Funding and Publication: Many funding agencies and journals require power analysis to justify sample size and study feasibility.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -710,25 +722,36 @@ LMU Open Science Center
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<hr>
 </section>
-<section id="practical-exercise-2" class="slide level2">
-<h2>Practical exercise 2</h2>
+<section id="why-simulations-are-better-for-power-analysis" class="slide level2">
+<h2>2.2 Why Simulations are better for Power Analysis?</h2>
 <ul>
-<li><p><strong>Aim</strong>: Design more practical exercises for students to apply the new skills in practice.</p></li>
-<li><p>Depending on the topic, the exercises should be in accordance with the learning objective(s).</p></li>
-<li><p>Add a description of the task, as well as a checklist as an overview of that your students need to be doing.</p></li>
-<li><p><label><input type="checkbox" checked="">Step 1</label></p></li>
-<li><p><label><input type="checkbox">Step 2</label></p></li>
-<li><p><label><input type="checkbox">Step 3</label></p></li>
+<li><strong>Quick formula method</strong>: Imagine a simple math formula that tells you how many times to do something, like flipping a coin, to be pretty sure of your results. This method works fast and is good when the experiment is simple.</li>
 </ul>
+<p>-<strong>Simulation method</strong>: This is like pretending to do the experiment many times on a computer before actually doing it. You create fake results based on what you think will happen. This way is better when the experiment is tricky or has many parts that are hard to predict.</p>
+<hr>
+</section>
+<section id="basic-simulation-process-for-power-analysis-in-r" class="slide level2">
+<h2>2.3 Basic Simulation Process for Power Analysis in R</h2>
+<div style="text-align: center;">
+<p><img src="Power Analysis.png" style="width:50%;"></p>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Relate it to your Hypothesis</strong></p>
+</div>
+<div class="callout-content">
+<p>Get together in your pair, and discuss how you would simulate your data according to this process.</p>
+</div>
+</div>
+</div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
-<p><strong>Instructor Notes</strong>:</p>
-<ul>
-<li><p><strong>Aim</strong>: Design more practical exercises for students to apply the new skills in practice.</p></li>
-<li><p>Depending on the topic, the exercises should be in accordance with the learning objective(s).</p></li>
-<li><p>Add a description of the task, as well as a checklist as an overview of that your students need to be doing.</p></li>
-</ul>
+<p><strong>Speaker Notes</strong>: 1. Set up your model and data: Decide what variables you have and how they behave (e.g., normal, binomial). Choose sample size and any parameters (means, variances, effect size). <br> 2. Simulate one dataset: Generate random data that follow your chosen distributions.<br> Optionally “add” an effect (e.g., a difference between two groups).<br> 3. Analyse the simulated data: Run the planned statistical test (e.g., t-test, regression). Record the key result (e.g., p-value, estimate).<br> 4. Repeat the experiment many times: Loop over steps 2–3 a large number of times. Collect all test results into a single dataset.<br> 5. Summarise and interpret: Compute the proportion of simulations with a significant result (this is the estimated power).</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -740,22 +763,13 @@ LMU Open Science Center
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<hr>
 </section>
-<section id="relevance-and-implications" class="slide level2">
-<h2>Relevance and implications</h2>
-<ul>
-<li><strong>Aim</strong>: To work out the relevance of the topic to your students.</li>
-<li>In an interactive setting, discuss how the new skills could be applied in practise with specific examples.</li>
-<li>Examine downfalls and practical obstacles.</li>
-</ul>
+<section id="learning-goals-check-in-1" class="slide level2">
+<h2>Learning Goals Check-In</h2>
+<p>[x] To recall the concept of power analysis and its importance. <br> [x] To differentiate between traditional and simulation-based methods. <br> [x] To analyse the simulation process for power analyse.</p>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
-<p><strong>Instructor Notes</strong>:</p>
-<ul>
-<li><p><strong>Aim</strong>: To work out the relevance of the topic to your students.</p></li>
-<li><p>In an interactive setting, discuss how the new skills could be applied in practise with specific examples.</p></li>
-<li><p>Examine downfalls and practical obstacles.</p></li>
-</ul>
+<p><strong>Speaker Notes</strong>: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.<br> If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -767,35 +781,7 @@ LMU Open Science Center
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section>
-<section id="assignment" class="slide level2">
-<h2>Assignment</h2>
-<ul>
-<li><strong>Aim</strong>: Explain the homework assignment and the rationale behind the homework.</li>
-<li>Examine whether/how it will be assessed</li>
-<li>Mention scoring rubrics, if applicable</li>
-<li>Design a peer-review system for assignments to place students in role of reviewer and author</li>
-</ul>
-<aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the presentation here.</p>
-<p><strong>Instructor Notes</strong>:</p>
-<ul>
-<li><p><strong>Aim</strong>: Explain the homework assignment and the rationale behind the homework.</p></li>
-<li><p>Examine whether/how it will be assessed</p></li>
-<li><p>Mention scoring rubrics, if applicable</p></li>
-<li><p>Design a peer-review system for assignments to place students in role of reviewer and author</p></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<hr>
 </section>
 <section id="take-home-message" class="slide level2">
 <h2>Take-home message</h2>
@@ -832,6 +818,7 @@ LMU Open Science Center
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<hr>
 </section>
 <section id="to-conclude-survey-time" class="slide level2">
 <h2>To conclude: Survey time!</h2>
@@ -860,38 +847,6 @@ LMU Open Science Center
           display:block!important;
       }</style></aside>
 </section>
-<section class="slide level2">
-
-<p><strong>What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?</strong></p>
-<ol type="a">
-<li><p>I have never heard of it before.</p></li>
-<li><p>I have heard of it but have never worked with it.</p></li>
-<li><p>I have basic understanding and experience with it.</p></li>
-<li><p>I am very familiar and have worked with it extensively.</p></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<p><strong>Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)</strong></p>
-<ol type="a">
-<li><p>Concept 1</p></li>
-<li><p>Concept 2</p></li>
-<li><p>Concept 3</p></li>
-<li><p>Concept 4</p></li>
-<li><p>I am not sure about any of these concepts.</p></li>
-</ol>
-</section>
-<section class="slide level2">
-
-<p><strong>On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)</strong></p>
-<ol type="a">
-<li><p>1</p></li>
-<li><p>2</p></li>
-<li><p>3</p></li>
-<li><p>4</p></li>
-<li><p>5</p></li>
-</ol>
-</section>
 <section id="discussion-of-survey-results-1" class="slide level2">
 <h2>Discussion of survey results</h2>
 <ul>
@@ -915,6 +870,7 @@ LMU Open Science Center
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<hr>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
@@ -935,314 +891,12 @@ LMU Open Science Center
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<hr>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
 <section id="thanks" class="title-slide slide level1 center">
 <h1>Thanks! <br></h1>
 <p>See you next class :)</p>
-</section>
-<section id="pedagogical-add-on-tools-for-instructors" class="slide level2">
-<h2>Pedagogical add-on tools for instructors</h2>
-<ul>
-<li>This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
-<ul>
-<li>Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.</li>
-<li>Discussion/reflection on how tools can be incorporated into the teaching for this particular content.</li>
-<li>Extra exercises for faster students.</li>
-</ul></li>
-</ul>
-</section>
-<section id="additional-literature-for-instructors" class="slide level2">
-<h2>Additional literature for instructors</h2>
-<ul>
-<li>References for content</li>
-<li>References for pedagogical add-on tools<br>
-</li>
-<li>Other resources (videos etc.)</li>
-</ul>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="formatting-elements-for-instructors" class="title-slide slide level1 center">
-<h1>Formatting elements for instructors</h1>
-<ul>
-<li><strong>Aim</strong>: This section contains templates for different formatting elements, which can be modified and adapted for the instructor’s individual purposes.</li>
-</ul>
-</section>
-<section id="text-with-example-links" class="slide level2">
-<h2>Text with example links</h2>
-<ul>
-<li><a href="https://quarto.org/docs/">Quarto Documentation</a></li>
-<li><a href="https://revealjs.com/">Reveal.js Documentation</a></li>
-<li><a href="https://www.markdownguide.org/">Markdown Guide</a></li>
-<li><a href="https://github.com/">GitHub</a></li>
-</ul>
-</section>
-<section id="basic-text-formatting" class="slide level2">
-<h2>Basic text formatting</h2>
-<ul>
-<li><strong>Bold:</strong> <code>**bold**</code> → <strong>bold</strong></li>
-<li><em>Italic:</em> <code>*italic*</code> → <em>italic</em></li>
-<li><del>Strikethrough:</del> <code>~~text~~</code> → <del>text</del></li>
-<li><code>Inline code:</code> <code>`code`</code> → <code>code</code></li>
-<li><blockquote>
-<p>Blockquote: <code>&gt; Quote</code> →<br>
-“This is a quote”</p>
-</blockquote></li>
-</ul>
-</section>
-<section id="figure-with-caption" class="slide level2">
-<h2>Figure with caption</h2>
-<ul>
-<li>Centered image and caption below in italics</li>
-</ul>
-<div style="text-align: center;">
-<img src="images/penguin.png" style="width:50%;">
-<div style="font-size: 0.6em; margin-top: 0.5em;">
-<em>This is a Penguin.</em>
-</div>
-</div>
-</section>
-<section id="figure-with-specific-width-and-height" class="slide level2">
-<h2>Figure with specific width and height</h2>
-<p><img src="imagname.png" alt="sometext." style="display:block; margin:0 auto; width:50%; height:50%;"></p>
-<ul>
-<li><p>display:block; margin:0 auto; centers the image on the slide.</p></li>
-<li><p>width:50%; height:50%; sets the image size relative to the slide.</p></li>
-<li><p>alt=“…” ensures accessibility.</p></li>
-</ul>
-</section>
-<section id="figure-with-bullet-points" class="slide level2">
-<h2>Figure with bullet points</h2>
-
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-
-  <!-- Left side: single image -->
-  <div style="flex: 1; text-align: center;">
-    <img src="images/penguin.png" style="width: 100%;">
-  </div>
-  
-<!-- Right side: bullet points -->
-<div style="flex: 1;">
-<ul>
-<li>First bullet point</li>
-<li>Second bullet point</li>
-<li>Third bullet point</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="side-by-side-figures" class="slide level2">
-<h2>Side-by-side figures</h2>
-<div style="display: flex; justify-content: center; gap: 2em; align-items: flex-start;">
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/penguin.png" style="width: 100%;">
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 1: Penguin</em></div>
-  </div>
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/seal.png" style="width: 100%;">
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 2: Seal</em></div>
-  </div>
-
-</div>
-
-</section>
-<section id="stacked-figures-with-text" class="slide level2">
-<h2>Stacked figures with text</h2>
-
-<div style="display: flex; align-items: flex-start; gap: 0.5em;">
-
-  <!-- Left side: two images stacked vertically -->
-  <div style="flex: 1; display: flex; flex-direction: column; gap: 0.5em;">
-
-    <img src="images/penguin.png" style="width: 60%;">
-    <img src="images/seal.png" style="width: 60%;">
-
-  </div>
-  
-<!-- Right side: bullet points -->
-<div style="flex: 1;">
-<ul>
-<li>First bullet point</li>
-<li>Second bullet point</li>
-<li>Third bullet point</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="two-column-text-slide" class="slide level2">
-<h2>Two-column text slide</h2>
-<div style="display: flex; gap: 2em;">
-<div style="flex: 1;">
-<p><strong>Column 1</strong></p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-Vivamus lacinia odio vitae vestibulum vestibulum.<br>
-Cras venenatis euismod malesuada.
-</div>
-<div style="flex: 1;">
-<p><strong>Column 2</strong></p>
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-</div>
-</div>
-</section>
-<section id="three-column-text-slide" class="slide level2">
-<h2>Three-column text slide</h2>
-<div style="display: flex; gap: 1em;">
-<div style="flex: 1;">
-<p><strong>Column 1</strong></p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-Vivamus lacinia odio vitae vestibulum vestibulum.
-</div>
-<div style="flex: 1;">
-<p><strong>Column 2</strong></p>
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-</div>
-<div style="flex: 1;">
-<p><strong>Column 3</strong></p>
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</div>
-</div>
-</section>
-<section id="simple-table" class="slide level2">
-<h2>Simple table</h2>
-<div style="height: 2cm;">
-
-</div>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Column 1</th>
-<th>Column 2</th>
-<th>Column 3</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Row 1 Cell</td>
-<td>Row 1 Cell</td>
-<td>Row 1 Cell</td>
-</tr>
-<tr class="even">
-<td>Row 2 Cell</td>
-<td>Row 2 Cell</td>
-<td>Row 2 Cell</td>
-</tr>
-<tr class="odd">
-<td>Row 3 Cell</td>
-<td>Row 3 Cell</td>
-<td>Row 3 Cell</td>
-</tr>
-<tr class="even">
-<td>Row 4 Cell</td>
-<td>Row 4 Cell</td>
-<td>Row 4 Cell</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="complex-table" class="slide level2">
-<h2>Complex table</h2>
-<div style="height: 2cm;">
-
-</div>
-<table class="caption-top" data-quarto-postprocess="true" style="border-collapse: collapse; width: 100%;">
-<thead>
-<tr class="header" style="background-color: #093; color: white; font-weight: bold;">
-<th data-quarto-table-cell-role="th" style="border: 1px solid #ccc; padding: 8px">Column 1</th>
-<th data-quarto-table-cell-role="th" style="border: 1px solid #ccc; padding: 8px">Column 2</th>
-<th data-quarto-table-cell-role="th" style="border: 1px solid #ccc; padding: 8px">Column 3</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd" style="background-color: white; color: black;">
-<td style="border: 1px solid #ccc; padding: 8px">Row 1 Cell</td>
-<td style="border: 1px solid #ccc; padding: 8px">Row 1 Cell</td>
-<td style="border: 1px solid #ccc; padding: 8px">Row 1 Cell</td>
-</tr>
-<tr class="even" style="background-color: #f0fff0; color: black;">
-<td style="border: 1px solid #ccc; padding: 8px">Row 2 Cell</td>
-<td style="border: 1px solid #ccc; padding: 8px">Row 2 Cell</td>
-<td style="border: 1px solid #ccc; padding: 8px">Row 2 Cell</td>
-</tr>
-<tr class="odd" style="background-color: white; color: black;">
-<td style="border: 1px solid #ccc; padding: 8px">Row 3 Cell</td>
-<td style="border: 1px solid #ccc; padding: 8px">Row 3 Cell</td>
-<td style="border: 1px solid #ccc; padding: 8px">Row 3 Cell</td>
-</tr>
-<tr class="even" style="background-color: #f0fff0; color: black;">
-<td style="border: 1px solid #ccc; padding: 8px">Row 4 Cell</td>
-<td style="border: 1px solid #ccc; padding: 8px">Row 4 Cell</td>
-<td style="border: 1px solid #ccc; padding: 8px">Row 4 Cell</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="task-list" class="slide level2">
-<h2>Task list</h2>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">Done</label></li>
-<li><label><input type="checkbox">To do</label></li>
-</ul>
-</section>
-<section id="embedding-videos" class="slide level2">
-<h2>Embedding videos</h2>
-<div style="text-align: center;">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/q3uXXh1sHcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></p>
-</div>
-</section>
-<section id="code-blocks" class="slide level2">
-<h2>Code blocks</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># A basic R code chunk</span></span>
-<span id="cb1-2"><a></a>x <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
-<span id="cb1-3"><a></a><span class="fu">mean</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 5.5</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="co"># A simple plot</span></span>
-<span id="cb3-2"><a></a><span class="fu">hist</span>(<span class="fu">rnorm</span>(<span class="dv">100</span>), <span class="at">main =</span> <span class="st">"Histogram of Random Normals"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-
-</div>
-<img data-src="OS-M3-S8-Simulations-slides_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section>
-<section id="interactive-slide-with-questions-answers" class="slide level2">
-<h2>Interactive slide with questions + answers</h2>
-<section>
-<h2 style="font-size:1.5em;">
-Practical Exercise 1
-</h2>
-<p style="font-size:0.85em;">
-Decide whether each scenario is an example of <strong>reproducibility</strong> or <strong>replicability</strong>.
-</p>
-<ol style="font-size:0.8em;">
-<li class="fragment">
-A computational neuroscientist reruns a published fMRI analysis using the original dataset and Python scripts to verify the reported brain activation patterns.
-<div style="color:#555; font-size:0.75em;">
-<strong>Answer:</strong> Reproducibility
-</div>
-</li>
-<li class="fragment">
-An environmental scientist repeats a field experiment on soil nutrient levels using the same sampling protocol at a different site.
-<div style="color:#555; font-size:0.75em;">
-<strong>Answer:</strong> Replicability
-</div>
-</li>
-<li class="fragment">
-A linguist reanalyzes a corpus of historical texts using the same annotation guidelines and code to verify reported patterns of syntactic structures.
-<div style="color:#555; font-size:0.75em;">
-<strong>Answer:</strong> Reproducibility
-</div>
-</li>
-</ol>
-</section>
+<hr>
 </section>
 <section id="license" class="slide level2">
 <h2>License</h2>
@@ -1262,17 +916,41 @@ A linguist reanalyzes a corpus of historical texts using the same annotation gui
 <li><code>License</code></li>
 </ul></li>
 </ul>
+<hr>
 </section>
 <section id="credit-contribution-statement" class="slide level2">
 <h2>CREDiT Contribution Statement</h2>
 <p>Possible roles using the CRediT contribition system or the Zenodo Contribution System:</p>
 <p><strong>Name main content creator</strong>: Conceptualization, Software, Writing - Original Draft, Visualization. <strong>Sara Lil Middleton</strong>: Writing - Review &amp; Editing, Supervision. <strong>Sarah von Grebmer zu Wolfsthurn</strong>: Conceptualisation, Writing - Review &amp; Editing, Supervision, Project Administration, Validation.</p>
+<hr>
+
+
 </section>
-<section class="slide level2">
 
-
-
-</section></section>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../../OSC_FORRT_Logo.png" class="slide-logo"></p>
@@ -1463,7 +1141,7 @@ A linguist reanalyzes a corpus of historical texts using the same annotation gui
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1613,13 +1291,14 @@ A linguist reanalyzes a corpus of historical texts using the same annotation gui
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

@@ -2524,288 +2524,379 @@
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#licence",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#licence",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Licence",
     "text": "Licence\n\n\n\n\n\nThis work was originally created by Mike Croucher under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International License. It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.\nHowever, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#contribution-statement",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#contribution-statement",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Contribution statement",
     "text": "Contribution statement\n\nCreator: Von Grebmer zu Wolfsthurn, Sarah (0000-0002-6413-3895)\nReviewer: Ihle, Malika (0000-0002-3242-5981)\nConsultant: Middleton, Sara (0000-0001-5307-8029)\n\nSpeaker Notes: These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes: There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.\nAcessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#prerequisites",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#prerequisites",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Prerequisites",
-    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this submodule, please carefully read about the prerequisites.\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nModule + Submodule\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead."
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this submodule, please carefully read about the prerequisites.\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nHave R and RStudio installed\nIf you don’t, follow these instructions:\nhttps://posit.co/download/rstudio-desktop/\n\n\nKnow some R basics\ne.g. how to select a value in a data frame, how to create a vector\nDownload Link\n\n\nBasic statistical concepts\nLike descriptive statistics, data analysis, statistical reasoning\nDownload Link\n\n\n\n\nSpeaker Notes: Before we begin this submodule, please take a moment to review the prerequisites listed here. First, you should already have R and RStudio installed. If not, the link on the slide will guide you through the installation. Next, you’ll need some basic familiarity with R — for example, how to select values in a data frame or how to create simple vectors. There’s a tutorial by OSC linked here in case you’d like to refresh those skills. Finally, you should be comfortable with basic statistical concepts, such as descriptive statistics and fundamental data analysis ideas. There is a link to a cheatsheet on these concepts provided here. If any of these areas feel unfamiliar, I encourage you to explore the resources before moving forward, so the rest of the tutorial is smooth and accessible. Instructor Notes: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. With a show of hands, you can know how many students would want to work through these resources provided; if the majority do, then a bit of time can be provided here, till they are comfortable to move forward."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#questions-from-previous-submodule",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#questions-from-previous-submodule",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Questions from previous submodule",
     "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module.\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. - Additional slides may need to be added depending on the nature of the homework assignments. - Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. - Not applicable if this set of slides corresponds to the first submodule of a new module."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#before-we-start-survey-time",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#before-we-start-survey-time",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Before we start: Survey time!",
-    "text": "Before we start: Survey time!\n\nAim: The pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides).\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - Aim: The pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. - Use free survey software such as particify or formR to establish the following questions (shown on separate slides)."
+    "text": "Before we start: Survey time!\n\nAim: The pre-submodule survey serves to examine students’ prior knowledge about simulations and power analysis, and familiarity with R.\n(QR code to be added soon)\n\n\nSpeaker Notes: Script for the slide here. Instructor Notes:  - ."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#discussion-of-survey-results",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#discussion-of-survey-results",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Discussion of survey results",
     "text": "Discussion of survey results\n\n\nWhat do we see in the results?\n\n\nSpeaker Notes: Let us have a look at these results.\nInstructor Notes:\n\nAim: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers.\n\nAccessibility Tip: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#where-are-we-at",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#where-are-we-at",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Where are we at?",
     "text": "Where are we at?\nPreviously:\n\nPoint 1\nPoint 2\n\n\nUp next:\n\nPoint 1\nPoint 2\n\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:  - Aim: Place the topic of the current submodule within a broader context. - Remind students what you are working towards and what the bigger picture is."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#covered-in-this-session",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#covered-in-this-session",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Covered in this session",
-    "text": "Covered in this session\n\nAim: This slides serves as an overview of the topics that are discussed, presented as bullet point:\nTopic 1\nTopic 2\nTopic 3\n\n\nSpeaker Notes: Script for the slide here."
+    "text": "Covered in this session\n\nAim: To understand the theoretical reasoning behind simulations and power analysis in R and the process of running these simulations.\nTopics Covered:\nSimulations in research and basic process in R.\nPower analysis and using simulations for it.\n\n\nSpeaker Notes: In this session, we’ll focus on the core ideas behind simulations and power analysis in R. First, we’ll look at what simulations are and the basic steps for running them. Then we’ll connect this to power analysis and see how simulations can support it."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#learning-goals",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#learning-goals",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Learning goals",
-    "text": "Learning goals\n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nStudents will describe the process of photosynthesis or\nStudents will construct a diagram illustrating the process of photosynthesis\n\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes: \n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nStudents will describe the process of photosynthesis or\nStudents will construct a diagram illustrating the process of photosynthesis"
+    "text": "Learning goals\n\nStudents will define the meaning of simulations and where they are used.\nStudents will explain the need for simulations in research.\nStudents will analyse the process of running a simulation in R, and apply the process to an example.\nStudents will recall the concept of power analysis and its importance.\nStudents will differentiate between traditional and simulation-based methods.\nStudents will analyse the simulation process for power analyse.\n\n\nSpeaker Notes: In this session, we’ll work toward several learning goals, which reflect various sub-sections on the topic. These goals will be repeated after each sub-section so you can check your understanding, raise questions, and keep track of your progress.\nInstructor Notes: Use this time to discuss any doubts the students may have on the learning goals and their assessment."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#key-terms-and-definitions",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#key-terms-and-definitions",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Key terms and definitions",
-    "text": "Key terms and definitions\n\nAim: Introduce key terms and definitions that students will come across throughout the session. \nKey Term 1: Definition\nKey Term 2: Definition\nKey Term 3: Definition\n\n\nSpeaker Notes: Add script for slide here.\nInstructor Notes: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson."
+    "text": "Key terms and definitions\n\nSimulations: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions (Morris et al., 2019).\nPower Analysis: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis (Steidl et al., 1997).\nEffect Size: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables (Lorah, 2018).\n\n\nSpeaker Notes: Here are a few key terms that will appear throughout the session. We’ll use the word simulations to talk about computer-generated data created through pseudo-random sampling. Power analysis refers to estimating the probability of detecting a true effect. And effect size tells us how large or meaningful that effect is. You don’t need to memorise these right now — this is just a quick introduction. We’ll return to these definitions later as we apply them, so for now simply get familiar with the terms.\nInstructor Notes: Introduce the terms briefly to activate students’ prior conceptions. Keep the slide short"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#introduction-of-submodule-topic",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#introduction-of-submodule-topic",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Introduction of submodule topic",
     "text": "Introduction of submodule topic\n\nAim: Core theoretical introduction of submodule topic.\nPair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\nUse multiple slides for this part.\n\n\nSpeaker notes: Add script for the slide here.\nInstructor Notes:  - Aim: Core theoretical introduction of submodule topic.\n\nFor a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).\nPair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\nUse multiple slides for this part."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#submodule-content-slide",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#submodule-content-slide",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Submodule content slide",
     "text": "Submodule content slide\n\nAim: Present relevant content\nHighlight particularly important aspects with Quarto call-out boxes, for example:\n\n\n\n\n\n\n\nImportant with Title\n\n\nThis is an example of a callout box to highlight particularly important information.\n\n\n\n\n\n\n\n\n\nTip with Title\n\n\nThis is an example of a callout box to give important tips.\n\n\n\n\nSpeaker Notes: Script for the slide here."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#practical-exercise-1",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#practical-exercise-1",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Practical exercise 1",
     "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: Design more practical exercises for students to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#pre-break-survey",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#pre-break-survey",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Pre-break survey",
-    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides)\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule. Guidance on interpreting the results:\n\nIf more than 80% of the students select the correct response option, show which one it is and move on.\nIf less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).\nIf more than 30% select a specific distractor answer, discuss it in class."
+    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides)\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule. Guidance on interpreting the results:\n\nIf more than 80% of the students select the correct response option, show which one it is and move on.\nIf less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).\nIf more than 30% select a specific distractor answer, discuss it in class.\n\n\n\nWhich species is the largest type of penguin?\n\nChinstrap Penguin\nEmperor Penguin ✅\nAdélie Penguin\nKing Penguin\n\n\nWhat is the key biological feature that helps penguins swim efficiently?\n\nHollow bones for buoyancy\nWebbed feet for paddling\nWaterproof feathers and flipper-like wings ✅\nGills to breathe underwater"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#post-break-survey-discussion",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#post-break-survey-discussion",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Post-break survey discussion",
     "text": "Post-break survey discussion\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#practical-exercise-2",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#practical-exercise-2",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Practical exercise 2",
     "text": "Practical exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: Design more practical exercises for students to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#relevance-and-implications",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#relevance-and-implications",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Relevance and implications",
     "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#assignment",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#assignment",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Assignment",
     "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\nSpeaker Notes: Script for the presentation here.\nInstructor Notes:\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#take-home-message",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#take-home-message",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Take-home message",
     "text": "Take-home message\n\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message.\n\n\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: End lesson on clear take-home message that are interactively compiled by students."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#to-conclude-survey-time",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#to-conclude-survey-time",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "To conclude: Survey time!",
     "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides)\nUse identical questions as in the pre-submodule survey to be able to directly compare\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides)\nUse identical questions as in the pre-submodule survey to be able to directly compare"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#discussion-of-survey-results-1",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#discussion-of-survey-results-1",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Discussion of survey results",
     "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\nSpeaker Notes: Script for the slide here.\nInstructer Notes: - Aim: Briefly examine the answers given to each question interactively with the group.\n\nCompare and highlight specific differences in answers between pre- and post-survey answers"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#references",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#references",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "References",
     "text": "References\n\n\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes: Highlight particularly relevant reading for your students in bold."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#pedagogical-add-on-tools-for-instructors",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#pedagogical-add-on-tools-for-instructors",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Pedagogical add-on tools for instructors",
     "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#additional-literature-for-instructors",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#additional-literature-for-instructors",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Additional literature for instructors",
     "text": "Additional literature for instructors\n\nReferences for content\nReferences for pedagogical add-on tools\n\nOther resources (videos etc.)"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#text-with-example-links",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#text-with-example-links",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Text with example links",
     "text": "Text with example links\n\nQuarto Documentation\nReveal.js Documentation\nMarkdown Guide\nGitHub"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#basic-text-formatting",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#basic-text-formatting",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Basic text formatting",
     "text": "Basic text formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\nBlockquote: &gt; Quote →\n“This is a quote”"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#figure-with-caption",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#figure-with-caption",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Figure with caption",
     "text": "Figure with caption\n\nCentered image and caption below in italics\n\n\n\n\nThis is a Penguin."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#figure-with-specific-width-and-height",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#figure-with-specific-width-and-height",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Figure with specific width and height",
     "text": "Figure with specific width and height\n\n\ndisplay:block; margin:0 auto; centers the image on the slide.\nwidth:50%; height:50%; sets the image size relative to the slide.\nalt=“…” ensures accessibility."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#figure-with-bullet-points",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#figure-with-bullet-points",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Figure with bullet points",
     "text": "Figure with bullet points\n\n\n\n  \n  \n    \n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#side-by-side-figures",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#side-by-side-figures",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Side-by-side figures",
     "text": "Side-by-side figures\n\n\n  \n    \n    Figure 1: Penguin\n  \n\n  \n    \n    Figure 2: Seal"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#stacked-figures-with-text",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#stacked-figures-with-text",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Stacked figures with text",
     "text": "Stacked figures with text\n\n\n\n  \n  \n\n    \n    \n\n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#two-column-text-slide",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#two-column-text-slide",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Two-column text slide",
     "text": "Two-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\nCras venenatis euismod malesuada.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#three-column-text-slide",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#three-column-text-slide",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Three-column text slide",
     "text": "Three-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\n\nColumn 3\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#simple-table",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#simple-table",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Simple table",
     "text": "Simple table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#complex-table",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#complex-table",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Complex table",
     "text": "Complex table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#task-list",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#task-list",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Task list",
     "text": "Task list\n\nDone\nTo do"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#embedding-videos",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#embedding-videos",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Embedding videos",
     "text": "Embedding videos"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#code-blocks",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#code-blocks",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Code blocks",
     "text": "Code blocks\n\n# A basic R code chunk\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5\n\n# A simple plot\nhist(rnorm(100), main = \"Histogram of Random Normals\")"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#interactive-slide-with-questions-answers",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#interactive-slide-with-questions-answers",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "Interactive slide with questions + answers",
     "text": "Interactive slide with questions + answers\n\n\nPractical Exercise 1\n\n\nDecide whether each scenario is an example of reproducibility or replicability.\n\n\n\nA computational neuroscientist reruns a published fMRI analysis using the original dataset and Python scripts to verify the reported brain activation patterns.\n\nAnswer: Reproducibility\n\n\n\nAn environmental scientist repeats a field experiment on soil nutrient levels using the same sampling protocol at a different site.\n\nAnswer: Replicability\n\n\n\nA linguist reanalyzes a corpus of historical texts using the same annotation guidelines and code to verify reported patterns of syntactic structures.\n\nAnswer: Reproducibility"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#license",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#license",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "License",
     "text": "License\n\nThis slide should contain information about the license details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#credit-contribution-statement",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#credit-contribution-statement",
-    "title": "Master Template Slides: Title of submodule",
+    "title": "Running Simulations and Power Analysis in R",
     "section": "CREDiT Contribution Statement",
     "text": "CREDiT Contribution Statement\nPossible roles using the CRediT contribition system or the Zenodo Contribution System:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#what-are-simulations",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#what-are-simulations",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "1.1 What are Simulations?",
+    "text": "1.1 What are Simulations?\nLet’S flip a coin  - Imagine you want to flip a coin 100 times, and see the results. - Actually flipping the coin -&gt; Pretend to flip in mind… - And write down the results each time. - This pretending is called a simulation.\n\nSpeaker notes: Imagine you want to find out how many times you might get heads if you flip a coin 100 times. Instead of flipping the coin for real, you can pretend to flip the coin many times in your mind or on paper and write down the results each time. This pretending is called a simulation.\nInstructor Notes: Use this basic coin example to set the ground for ‘simulations’. Encourage the students to ponder upon this example as a real experiment for a short bit, to understand how they can ‘simulate’ the data in their minds."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#what-are-simulations-1",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#what-are-simulations-1",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "1.1 What are Simulations?",
+    "text": "1.1 What are Simulations?\ncontd…\n\nIn a simulation, you make up data that acts like what you expect in the real world.\nYou do this again and again to see what kind of results you can get.\n\n\n\n\n\n\n\nTry This Yourself\n\n\nRun a mental simulation of flipping a coin a 100 times. Make a note of how many times would you get heads and how many tails.\n\n\n\n\nSpeaker notes: In this part, we’re looking at what simulations really are. A simulation basically means creating data that behaves the way we expect real-world data to behave. We repeat this process many times to see the range of outcomes we might get. To get an intuitive feel for it, there’s a quick activity: imagine flipping a coin a hundred times. Think about how many heads and tails you’d expect. This mental experiment reflects the same logic behind running simulations in R.\nInstructor Notes: Keep the explanation simple and intuitive. The goal here is to form an initial understanding before diving into technical detail."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#try-this-yourself",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#try-this-yourself",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "Try This Yourself",
+    "text": "Try This Yourself\nRun a mental simulation of flipping a coin a 100 times. Make a note of how many times would you get heads and how many tails."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#why-are-simulations-used-in-research",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#why-are-simulations-used-in-research",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "1.2 Why are Simulations Used in Research?",
+    "text": "1.2 Why are Simulations Used in Research?\nBefore we begin…\n\n\n\n\n\n\nCreate a Hypothesis\n\n\nGet together in a pair, and create a hypothesis about the coin flips. For example, When I flip the coin 100 times, the number of heads will be greater than tails.\n\n\n\n\nSpeaker Notes: Before we explore why simulations are important in research, we’ll start with a quick exercise: Pair up and create a simple hypothesis about the coin-flip scenario from earlier. For example: When I flip a coin 100 times, I’ll get more heads than tails. This ‘experiment’ shall help you connect each point to your own hypothesis.\nInstructor Notes: Give the students 2 minutes to develop their hypothesis; welcome creativity here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#why-are-simulations-used-in-research-contd",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#why-are-simulations-used-in-research-contd",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "1.2 Why are Simulations Used in Research? contd",
+    "text": "1.2 Why are Simulations Used in Research? contd\n\nTo build statistical intuition: Simulations let you see how data behaves—for example, why sometimes results are different even if you do the same experiment. \nTo understand sampling and probability: Simulations help you picture what’s likely to happen and what’s unusual. \nTo perform power analysis: Scientists use simulations to check how likely their experiments are to find real effects. \nTo support pre-Analysis planning: Before running a real experiment, researchers simulate what they expect might happen. \nTo enable bootstrapping and flexible inference: Simulations can reuse existing data to estimate any uncertainty without many strict assumptions. \n\n\nSpeaker Notes: • Build Statistical Intuition: Simulations let you see how data behaves, helping you grasp concepts like variability and sampling—things that formulas alone can’t easily show. This makes abstract ideas more concrete and understandable.  • Understand Sampling and Probability: By simulating repeated samples, you can visualize sampling distributions and understand why statistics like standard errors vary from sample to sample. • Perform Power Analysis and Plan Studies: They help estimate the chance your study will detect a true effect (power), especially when study designs are complicated and formulas don’t work well. • Support Pre-Analysis Planning: Researchers can simulate expected results before collecting real data, which helps catch problems early and improve research plans. • Enable Bootstrapping and Flexible Inference: Simulations resample data to estimate confidence intervals without relying on strict assumptions, making analyses more robust."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#why-are-simulations-used-in-research-contd-1",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#why-are-simulations-used-in-research-contd-1",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "1.2 Why are Simulations Used in Research? contd",
+    "text": "1.2 Why are Simulations Used in Research? contd\nMost importantly, simulations promote transparency and reproducibility.\n\n\n\n\n\n\nRelate it to your Hypothesis\n\n\nGet together in your pair, and discuss how simulating your data for your experiment is useful, using any one of the pointers above.\n\n\n\n\nSpeaker Notes: And its connection with open science? Simulations promote transparency and reproducibility since the code and data can be shared openly, allowing others to validate and extend the work. Open tools and tutorials make advanced statistical methods more accessible, democratizing research and education.\nInstructor Notes: After discussing the pointers, let the students brainstorm and justify the simulation of data in their experiment, and share it in class.\n\n\n1.3 Basic Simulation Process in R\n\n\n\n\n\n\n\n\n\nRelate it to your Hypothesis\n\n\nGet together in your pair, and discuss how you would simulate your data according to this process.\n\n\n\n\nSpeaker Notes: Here’s the basic process behind running a simulation. First, decide how many data points (sample size) you want — for example, simulating a 100 coin flips. Thus, n = 100. Next, generate the fake data using a random method that mimics the real outcome, such as randomly assigning ‘heads’ or ‘tails’ with equal probability. Then analyse this simulated dataset just as you would analyse real data — you might count how many heads you got or calculate a simple summary. After that, repeat the simulation many times to see how the results vary from run to run. Finally, bring everything together by summarising the outcomes across all repetitions. This gives you a clear picture of the variation you can expect if the experiment were done in real life.”\nInstructor Notes: After discussing the pointers, let the students brainstorm and justify the simulation of data in their experiment, and share it in class.\n\n\nLearning Goals Check-In\n[x] To define the meaning of simulations and where they are used.  [x] To explain the need for simulations in research.  [x] To analyse the process of running a simulation in R, and apply the process to an example.\n\nSpeaker Notes: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.\n\n\n\n\n2.1 What is Power Analysis and its Importance?\nLet’s flip the coin again, but how many times?   - Power analysis is like figuring out how many times you need to flip a coin -&gt; to be pretty sure you can tell if the coin is fair or not.  - Power = your chance of catching the coin’s true nature if it really is biased.  - If power = 80% -&gt; you have an 80% chance of spotting a bias if it’s really there. \n-Power depends on  - the effect size (how biased the coin might be)  - the sample size (how many times you flip the coin)  - the significance level (how sure you want to be)\n\nSpeaker Notes: In this section, we’re looking at what power analysis means and why it matters. Think back to our coin example — the question now is: How many times should we flip the coin to confidently decide whether it’s fair? Power analysis helps us figure that out. Power is simply the chance of detecting a real effect if it truly exists. So if the power is 80 percent, that means we have an 80 percent chance of noticing a bias when the coin is actually biased.  Power depends on three things: the effect size — or how strong the bias might be, the sample size — how many flips we collect, and the significance level — how strict we want our decision rule to be. Keep your earlier hypothesis in mind as we talk through these ideas.\nInstructor Notes: This is the moment to clear out any confusion regarding the neighbouring concepts of effect size and significance level. If the students seem comfortable with the concepts, you can opt for a higher-level explanation reflecting the ‘correctly rejecting a false null hypothesis’ notion.\n\n\n\n\n2.1 What is Power Analysis and its Importance? contd\n\nPrevents Underpowered Studies: It makes sure you don’t do an experiment that’s too small and miss something real. \nOptimizes Resource Use: helps you figure out the smallest number of times you need to do your experiment to have a good chance. This way, you don’t waste time or resources. \nRequired for Transparency and Publication: a proof that your plan is strong enough. \n\n\n\n\n\n\n\nRelate it to your Hypothesis\n\n\nGet together in your pair, and discuss how conducting power analysis for your experiment is useful, using any one of the pointers above.\n\n\n\n\nSpeaker Notes: Prevents Underpowered Studies: Low power increases the risk of missing true effects, leading to inconclusive or misleading results.  Optimizes Resource Use: Power analysis helps determine the minimum sample size needed, balancing scientific rigor with practical constraints.  Required for Funding and Publication: Many funding agencies and journals require power analysis to justify sample size and study feasibility.\n\n\n\n\n2.2 Why Simulations are better for Power Analysis?\n\nQuick formula method: Imagine a simple math formula that tells you how many times to do something, like flipping a coin, to be pretty sure of your results. This method works fast and is good when the experiment is simple.\n\n-Simulation method: This is like pretending to do the experiment many times on a computer before actually doing it. You create fake results based on what you think will happen. This way is better when the experiment is tricky or has many parts that are hard to predict.\n\n\n\n2.3 Basic Simulation Process for Power Analysis in R\n\n\n\n\n\n\n\n\n\nRelate it to your Hypothesis\n\n\nGet together in your pair, and discuss how you would simulate your data according to this process.\n\n\n\n\nSpeaker Notes: 1. Set up your model and data: Decide what variables you have and how they behave (e.g., normal, binomial). Choose sample size and any parameters (means, variances, effect size).  2. Simulate one dataset: Generate random data that follow your chosen distributions. Optionally “add” an effect (e.g., a difference between two groups). 3. Analyse the simulated data: Run the planned statistical test (e.g., t-test, regression). Record the key result (e.g., p-value, estimate). 4. Repeat the experiment many times: Loop over steps 2–3 a large number of times. Collect all test results into a single dataset. 5. Summarise and interpret: Compute the proportion of simulations with a significant result (this is the estimated power).\n\n\n\n\nLearning Goals Check-In\n[x] To recall the concept of power analysis and its importance.  [x] To differentiate between traditional and simulation-based methods.  [x] To analyse the simulation process for power analyse.\n\nSpeaker Notes: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.\n\n\n\n\nTake-home message\n\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message.\n\n\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\nTo conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides)\nUse identical questions as in the pre-submodule survey to be able to directly compare\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides)\nUse identical questions as in the pre-submodule survey to be able to directly compare\n\n\n\n\nDiscussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\nSpeaker Notes: Script for the slide here.\nInstructer Notes: - Aim: Briefly examine the answers given to each question interactively with the group.\n\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\n\n\n\nReferences\n\n\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes: Highlight particularly relevant reading for your students in bold.\n\n\n\n\nThanks! \nSee you next class :)\n\n\n\nLicense\n\nThis slide should contain information about the license details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense\n\n\n\n\n\nCREDiT Contribution Statement\nPossible roles using the CRediT contribition system or the Zenodo Contribution System:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#basic-simulation-process-in-r",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#basic-simulation-process-in-r",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "1.3 Basic Simulation Process in R",
+    "text": "1.3 Basic Simulation Process in R\n\n\n\n\n\n\n\n\n\nRelate it to your Hypothesis\n\n\nGet together in your pair, and discuss how you would simulate your data according to this process.\n\n\n\n\nSpeaker Notes: Here’s the basic process behind running a simulation. First, decide how many data points (sample size) you want — for example, simulating a 100 coin flips. Thus, n = 100. Next, generate the fake data using a random method that mimics the real outcome, such as randomly assigning ‘heads’ or ‘tails’ with equal probability. Then analyse this simulated dataset just as you would analyse real data — you might count how many heads you got or calculate a simple summary. After that, repeat the simulation many times to see how the results vary from run to run. Finally, bring everything together by summarising the outcomes across all repetitions. This gives you a clear picture of the variation you can expect if the experiment were done in real life.”\nInstructor Notes: After discussing the pointers, let the students brainstorm and justify the simulation of data in their experiment, and share it in class.\n\n\nLearning Goals Check-In\n[x] To define the meaning of simulations and where they are used.  [x] To explain the need for simulations in research.  [x] To analyse the process of running a simulation in R, and apply the process to an example.\n\nSpeaker Notes: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.\n\n\n\n\n2.1 What is Power Analysis and its Importance?\nLet’s flip the coin again, but how many times?   - Power analysis is like figuring out how many times you need to flip a coin -&gt; to be pretty sure you can tell if the coin is fair or not.  - Power = your chance of catching the coin’s true nature if it really is biased.  - If power = 80% -&gt; you have an 80% chance of spotting a bias if it’s really there. \n-Power depends on  - the effect size (how biased the coin might be)  - the sample size (how many times you flip the coin)  - the significance level (how sure you want to be)\n\nSpeaker Notes: In this section, we’re looking at what power analysis means and why it matters. Think back to our coin example — the question now is: How many times should we flip the coin to confidently decide whether it’s fair? Power analysis helps us figure that out. Power is simply the chance of detecting a real effect if it truly exists. So if the power is 80 percent, that means we have an 80 percent chance of noticing a bias when the coin is actually biased.  Power depends on three things: the effect size — or how strong the bias might be, the sample size — how many flips we collect, and the significance level — how strict we want our decision rule to be. Keep your earlier hypothesis in mind as we talk through these ideas.\nInstructor Notes: This is the moment to clear out any confusion regarding the neighbouring concepts of effect size and significance level. If the students seem comfortable with the concepts, you can opt for a higher-level explanation reflecting the ‘correctly rejecting a false null hypothesis’ notion.\n\n\n\n\n2.1 What is Power Analysis and its Importance? contd\n\nPrevents Underpowered Studies: It makes sure you don’t do an experiment that’s too small and miss something real. \nOptimizes Resource Use: helps you figure out the smallest number of times you need to do your experiment to have a good chance. This way, you don’t waste time or resources. \nRequired for Transparency and Publication: a proof that your plan is strong enough. \n\n\n\n\n\n\n\nRelate it to your Hypothesis\n\n\nGet together in your pair, and discuss how conducting power analysis for your experiment is useful, using any one of the pointers above.\n\n\n\n\nSpeaker Notes: Prevents Underpowered Studies: Low power increases the risk of missing true effects, leading to inconclusive or misleading results.  Optimizes Resource Use: Power analysis helps determine the minimum sample size needed, balancing scientific rigor with practical constraints.  Required for Funding and Publication: Many funding agencies and journals require power analysis to justify sample size and study feasibility.\n\n\n\n\n2.2 Why Simulations are better for Power Analysis?\n\nQuick formula method: Imagine a simple math formula that tells you how many times to do something, like flipping a coin, to be pretty sure of your results. This method works fast and is good when the experiment is simple.\n\n-Simulation method: This is like pretending to do the experiment many times on a computer before actually doing it. You create fake results based on what you think will happen. This way is better when the experiment is tricky or has many parts that are hard to predict.\n\n\n\n2.3 Basic Simulation Process for Power Analysis in R\n\n\n\n\n\n\n\n\n\nRelate it to your Hypothesis\n\n\nGet together in your pair, and discuss how you would simulate your data according to this process.\n\n\n\n\nSpeaker Notes: 1. Set up your model and data: Decide what variables you have and how they behave (e.g., normal, binomial). Choose sample size and any parameters (means, variances, effect size).  2. Simulate one dataset: Generate random data that follow your chosen distributions. Optionally “add” an effect (e.g., a difference between two groups). 3. Analyse the simulated data: Run the planned statistical test (e.g., t-test, regression). Record the key result (e.g., p-value, estimate). 4. Repeat the experiment many times: Loop over steps 2–3 a large number of times. Collect all test results into a single dataset. 5. Summarise and interpret: Compute the proportion of simulations with a significant result (this is the estimated power).\n\n\n\n\nLearning Goals Check-In\n[x] To recall the concept of power analysis and its importance.  [x] To differentiate between traditional and simulation-based methods.  [x] To analyse the simulation process for power analyse.\n\nSpeaker Notes: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.\n\n\n\n\nTake-home message\n\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message.\n\n\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\nTo conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides)\nUse identical questions as in the pre-submodule survey to be able to directly compare\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes:\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides)\nUse identical questions as in the pre-submodule survey to be able to directly compare\n\n\n\n\nDiscussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\nSpeaker Notes: Script for the slide here.\nInstructer Notes: - Aim: Briefly examine the answers given to each question interactively with the group.\n\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\n\n\n\nReferences\n\n\n\n\nSpeaker Notes: Script for the slide here.\nInstructor Notes: Highlight particularly relevant reading for your students in bold.\n\n\n\n\nThanks! \nSee you next class :)\n\n\n\nLicense\n\nThis slide should contain information about the license details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense\n\n\n\n\n\nCREDiT Contribution Statement\nPossible roles using the CRediT contribition system or the Zenodo Contribution System:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#learning-goals-check-in",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#learning-goals-check-in",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "Learning Goals Check-In",
+    "text": "Learning Goals Check-In\n[x] To define the meaning of simulations and where they are used.  [x] To explain the need for simulations in research.  [x] To analyse the process of running a simulation in R, and apply the process to an example.\n\nSpeaker Notes: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#what-is-power-analysis-and-its-importance",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#what-is-power-analysis-and-its-importance",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "2.1 What is Power Analysis and its Importance?",
+    "text": "2.1 What is Power Analysis and its Importance?\nLet’s flip the coin again, but how many times?   - Power analysis is like figuring out how many times you need to flip a coin -&gt; to be pretty sure you can tell if the coin is fair or not.  - Power = your chance of catching the coin’s true nature if it really is biased.  - If power = 80% -&gt; you have an 80% chance of spotting a bias if it’s really there. \n-Power depends on  - the effect size (how biased the coin might be)  - the sample size (how many times you flip the coin)  - the significance level (how sure you want to be)\n\nSpeaker Notes: In this section, we’re looking at what power analysis means and why it matters. Think back to our coin example — the question now is: How many times should we flip the coin to confidently decide whether it’s fair? Power analysis helps us figure that out. Power is simply the chance of detecting a real effect if it truly exists. So if the power is 80 percent, that means we have an 80 percent chance of noticing a bias when the coin is actually biased.  Power depends on three things: the effect size — or how strong the bias might be, the sample size — how many flips we collect, and the significance level — how strict we want our decision rule to be. Keep your earlier hypothesis in mind as we talk through these ideas.\nInstructor Notes: This is the moment to clear out any confusion regarding the neighbouring concepts of effect size and significance level. If the students seem comfortable with the concepts, you can opt for a higher-level explanation reflecting the ‘correctly rejecting a false null hypothesis’ notion."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#what-is-power-analysis-and-its-importance-contd",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#what-is-power-analysis-and-its-importance-contd",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "2.1 What is Power Analysis and its Importance? contd",
+    "text": "2.1 What is Power Analysis and its Importance? contd\n\nPrevents Underpowered Studies: It makes sure you don’t do an experiment that’s too small and miss something real. \nOptimizes Resource Use: helps you figure out the smallest number of times you need to do your experiment to have a good chance. This way, you don’t waste time or resources. \nRequired for Transparency and Publication: a proof that your plan is strong enough. \n\n\n\n\n\n\n\nRelate it to your Hypothesis\n\n\nGet together in your pair, and discuss how conducting power analysis for your experiment is useful, using any one of the pointers above.\n\n\n\n\nSpeaker Notes: Prevents Underpowered Studies: Low power increases the risk of missing true effects, leading to inconclusive or misleading results.  Optimizes Resource Use: Power analysis helps determine the minimum sample size needed, balancing scientific rigor with practical constraints.  Required for Funding and Publication: Many funding agencies and journals require power analysis to justify sample size and study feasibility."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#why-simulations-are-better-for-power-analysis",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#why-simulations-are-better-for-power-analysis",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "2.2 Why Simulations are better for Power Analysis?",
+    "text": "2.2 Why Simulations are better for Power Analysis?\n\nQuick formula method: Imagine a simple math formula that tells you how many times to do something, like flipping a coin, to be pretty sure of your results. This method works fast and is good when the experiment is simple.\n\n-Simulation method: This is like pretending to do the experiment many times on a computer before actually doing it. You create fake results based on what you think will happen. This way is better when the experiment is tricky or has many parts that are hard to predict."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#basic-simulation-process-for-power-analysis-in-r",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#basic-simulation-process-for-power-analysis-in-r",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "2.3 Basic Simulation Process for Power Analysis in R",
+    "text": "2.3 Basic Simulation Process for Power Analysis in R\n\n\n\n\n\n\n\n\n\nRelate it to your Hypothesis\n\n\nGet together in your pair, and discuss how you would simulate your data according to this process.\n\n\n\n\nSpeaker Notes: 1. Set up your model and data: Decide what variables you have and how they behave (e.g., normal, binomial). Choose sample size and any parameters (means, variances, effect size).  2. Simulate one dataset: Generate random data that follow your chosen distributions. Optionally “add” an effect (e.g., a difference between two groups). 3. Analyse the simulated data: Run the planned statistical test (e.g., t-test, regression). Record the key result (e.g., p-value, estimate). 4. Repeat the experiment many times: Loop over steps 2–3 a large number of times. Collect all test results into a single dataset. 5. Summarise and interpret: Compute the proportion of simulations with a significant result (this is the estimated power)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#learning-goals-check-in-1",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#learning-goals-check-in-1",
+    "title": "Running Simulations and Power Analysis in R",
+    "section": "Learning Goals Check-In",
+    "text": "Learning Goals Check-In\n[x] To recall the concept of power analysis and its importance.  [x] To differentiate between traditional and simulation-based methods.  [x] To analyse the simulation process for power analyse.\n\nSpeaker Notes: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on."
   }
 ]
