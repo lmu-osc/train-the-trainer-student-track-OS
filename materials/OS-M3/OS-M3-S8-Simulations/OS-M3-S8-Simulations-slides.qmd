@@ -102,7 +102,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| Have R and RStudio installed | If you don’t, follow these instructions: | https://posit.co/download/rstudio-desktop/ |
+| Have R and RStudio installed | If you don’t, follow these instructions: | https://posit.co/download/rstudio-desktop/ | 
 | Know some R basics | e.g. how to select a value in a data frame, how to create a vector | [Download Link](https://lmu-osc.github.io/introduction-to-R/) |
 | Basic statistical concepts | Like descriptive statistics, data analysis, statistical reasoning | [Download Link](to be updated) |
 
@@ -576,7 +576,7 @@ Required for Funding and Publication: Many funding agencies and journals require
 ## 2.3 Basic Simulation Process for Power Analysis in R
 
 <div style="text-align: center;">
-  <img src="Power Analysis Process.png" style="width:50%;" />
+  <img src="images/Power Analysis Process.png" style="width:50%;" />
 </div>
 
 :::{.callout-tip}
