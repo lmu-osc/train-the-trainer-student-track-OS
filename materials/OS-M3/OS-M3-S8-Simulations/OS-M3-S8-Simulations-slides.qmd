@@ -102,7 +102,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| Have R and RStudio installed | If you don’t, follow these instructions: | https://posit.co/download/rstudio-desktop/ |
+| Have R and RStudio installed | If you don’t, follow these instructions: | https://posit.co/download/rstudio-desktop/ | 
 | Know some R basics | e.g. how to select a value in a data frame, how to create a vector | [Download Link](https://lmu-osc.github.io/introduction-to-R/) |
 | Basic statistical concepts | Like descriptive statistics, data analysis, statistical reasoning | [Download Link](to be updated) |
 
@@ -569,7 +569,51 @@ Required for Funding and Publication: Many funding agencies and journals require
 
 - **Quick formula method**: Imagine a simple math formula that tells you how many times to do something, like flipping a coin, to be pretty sure of your results. This method works fast and is good when the experiment is simple.
 
-Simulation method: This is like pretending to do the experiment many times on a computer before actually doing it. You create fake results based on what you think will happen. This way is better when the experiment is tricky or has many parts that are hard to predict.
+- **Simulation method**: This is like pretending to do the experiment many times on a computer before actually doing it. You create fake results based on what you think will happen. This way is better when the experiment is tricky or has many parts that are hard to predict.
+
+---
+
+## 2.3 Basic Simulation Process for Power Analysis in R
+
+<div style="text-align: center;">
+  <img src="images/Power Analysis Process.png" style="width:50%;" />
+</div>
+
+:::{.callout-tip}
+## Relate it to your Hypothesis
+Get together in your pair, and discuss how you would simulate your data according to this process.
+:::
+
+::: {.notes}
+**Speaker Notes**: 1. Set up your model and data:
+Decide what variables you have and how they behave (e.g., normal, binomial).
+Choose sample size and any parameters (means, variances, effect size). <br>
+2. Simulate one dataset:
+Generate random data that follow your chosen distributions.<br>
+Optionally “add” an effect (e.g., a difference between two groups).<br>
+3. Analyse the simulated data:
+Run the planned statistical test (e.g., t-test, regression).
+Record the key result (e.g., p-value, estimate).<br>
+4. Repeat the experiment many times:
+Loop over steps 2–3 a large number of times.
+Collect all test results into a single dataset.<br>
+5. Summarise and interpret:
+Compute the proportion of simulations with a significant result (this is the estimated power).
+:::
+
+---
+
+## Learning Goals Check-In
+
+[x] To recall the concept of power analysis and its importance. <br>
+[x] To differentiate between traditional and simulation-based methods.  <br>
+[x] To analyse the simulation process for power analyse.
+
+
+::: {.notes}
+**Speaker Notes**: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.<br>
+If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.
+:::
 
 <div style="font-size: 0.5em; color: red;">
 Speaker notes missing here? And I think this is a very important point that might need multiple slides? Thoughts?
