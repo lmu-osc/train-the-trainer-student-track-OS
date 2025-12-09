@@ -36,7 +36,7 @@ execute:
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Felix Schoenbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schoenbrodt is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+This work was originally created by [Felix Schoenbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schoenbrodt is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
 </div>
 
 ::: {.notes}
@@ -295,7 +295,7 @@ DBR English greyscaler (Design-based research cycle)” by Sarah Zloklikovits, l
 
 ## What is "trust" in research (general public perspective)?
 
-
+::: incremental
 - "*Society trusts that scientific research results are an honest and accurate reflection of a researcher’s work.*" <div style="display: flex; font-size: 0.55em; color: #777;">(Committee on Science, Engineering and Public Policy 2009: ix)</div>
 
 
@@ -305,6 +305,7 @@ DBR English greyscaler (Design-based research cycle)” by Sarah Zloklikovits, l
 <div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
 Resnik, D. B. (2011). Scientific research and the public trust. *Science and engineering ethics, 17*(3), 399-409.
 </div>
+:::
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -315,6 +316,7 @@ Resnik, D. B. (2011). Scientific research and the public trust. *Science and eng
 
 ## What is "trust" in research?
 
+::: incremental
 - No consensus on definition from the perspective fo researchers but:
   - Trust is essential for **effective collaboration** among researchers (includes co-authorship, peer review, data sharing, replication, teaching, mentoring etc.)
   - Authors submitting papers or grant proposals rely on reviewers to evaluate their work competently, fairly, and confidentially
@@ -324,6 +326,8 @@ Resnik, D. B. (2011). Scientific research and the public trust. *Science and eng
 <div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
 Resnik, D. B. (2011). Scientific research and the public trust. *Science and engineering ethics, 17*(3), 399-409.
 </div>
+
+:::
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -468,32 +472,6 @@ Decide whether each scenario in the following slides is an example of **reproduc
 
 ---
 
-## The Reproducibility Project (2015)
-
-- Large-scale replication project:
-  - 100 studies from 3 different journals
-  - Close/exact replications
-  - Contacted original study authors
-  - Open materials and data
-
-
-::: {.callout-important}
-**How many studies do you think replicated?**
-:::
-
-<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
-Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science, 349*(6251), aac4716.
-</div>
-
-::: {.notes}
-**Speaker Notes**: The Reproducibility Project by the Open Science Collaboration (2015) involved a large-scale, collaborative effort by over 270 researchers. They selected 100 experimental studies published between 2008 and 2012 in three top psychology journals: Psychological Science, Journal of Personality and Social Psychology, and Journal of Experimental Psychology: Learning, Memory, and Cognition.
-For each study, they carefully reviewed the original materials, methods, and analyses, and often contacted the original authors for clarification or access to materials and protocols. Each replication aimed to match the original study’s sample size, experimental design, and analysis plan as closely as possible, while making only minimal changes when exact materials were unavailable. The replications were preregistered to specify hypotheses, design, and analysis before data collection, reducing bias and “researcher degrees of freedom." Data collection was conducted independently from the original research teams, often in multiple labs to ensure rigor. After data collection, they analyzed the results using the same statistical methods as the original studies to determine whether the findings could be reproduced. The project also evaluated effect sizes, not just statistical significance, to compare the magnitude of the original and replicated effects. **Only 39% of the replications produced statistically significant results, and the median effect size in replications was about half that of the original studies, highlighting the reproducibility challenges in psychology**.
-
-**Instructor  Notes**:
-:::
-
----
-
 ## Replicability and reproducibility across disciplines
 
 ```{r, echo = F}
@@ -566,19 +544,63 @@ Begley, C. G., & Ellis, L. M. (2012); Camerer et al (2016); Chang & Li (2015); C
 
 ---
 
-## Which studies replicate (in psychology)?
+## Psychology: The Reproducibility Project (2015)
 
-| Field                          | Description | Link |
-|--------------------------------|---------|---------|
-| Psychology| Replication database | [https://forrt-replications.shinyapps.io/fred_explorer/](https://forrt-replications.shinyapps.io/fred_explorer/)    |
+- Large-scale replication project:
+  - Close/exact replications of 100 experimental and correlational studies from 3 different psychological journals
+  - Reproducibility evaluated based on effect sizes, p-values, subjective assessment of replication teams
+  - Contacted original study authors when necessary
+
+::: {.callout-important}
+**What did they find?**
+
+*Large portion of replications produced weaker evidence for the original findings despite using materials provided by the original authors.*
+:::
+
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science, 349*(6251), aac4716.
+</div>
 
 ::: {.notes}
-**Speaker Notes**: Add script for slide here. 
-**Instructor  Notes**: Correct answer: Replicability
+**Speaker Notes**: The Reproducibility Project by the Open Science Collaboration (2015) involved a large-scale, collaborative effort by over 270 researchers. They selected 100 experimental studies published between 2008 and 2012 in three top psychology journals: Psychological Science, Journal of Personality and Social Psychology, and Journal of Experimental Psychology: Learning, Memory, and Cognition.
+For each study, they carefully reviewed the original materials, methods, and analyses, and often contacted the original authors for clarification or access to materials and protocols. Each replication aimed to match the original study’s sample size, experimental design, and analysis plan as closely as possible, while making only minimal changes when exact materials were unavailable. The replications were preregistered to specify hypotheses, design, and analysis before data collection, reducing bias and “researcher degrees of freedom." Data collection was conducted independently from the original research teams, often in multiple labs to ensure rigor. After data collection, they analyzed the results using the same statistical methods as the original studies to determine whether the findings could be reproduced. The project also evaluated effect sizes, not just statistical significance, to compare the magnitude of the original and replicated effects. **Only 39% of the replications produced statistically significant results, and the median effect size in replications was about half that of the original studies, highlighting the reproducibility challenges in psychology**.
+
+**Instructor  Notes**:
 :::
 
 ---
 
+## Psychology: The Replication Database by FORRT
+
+- Collects replication results across different psychological fields
+- Provide detailed overview of the original findings and the replication outcomes
+
+![](images/FORRT_Replication_Database.png){fig-align=center width=100% fig-alt="An image of the landing page of the FORRT Replication database"}
+
+
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+**FORRT Replication Database** ([https://forrt-replications.shinyapps.io/fred_explorer/](https://forrt-replications.shinyapps.io/fred_explorer/))
+</div>
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add.
+:::
+
+---
+
+## What does this mean for research? 
+
+- Published findings across fields to be viewed with **caution**?
+- "We know" --> "We *think* we know"?
+- More research to verify existing "truths"?
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add.
+:::
+
+---
 
 ## Not a recent issue
 
@@ -586,7 +608,7 @@ Begley, C. G., & Ellis, L. M. (2012); Camerer et al (2016); Chang & Li (2015); C
 
 
 <div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
-[Adapted from Dr. Malika Ihle: https: https://osf.io/u3znx](https://osf.io/u3znx)
+Adapted from Dr. Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx)
 </div>
 
 
@@ -597,10 +619,9 @@ Begley, C. G., & Ellis, L. M. (2012); Camerer et al (2016); Chang & Li (2015); C
 
 ---
 
-
 ## A romanticised idea of research?
 
-<img src="images/this-is-research.png" alt="An image describing a romantic view of research: The smartest heads in the world immerse themselves into a research topic for years.In that process, they become the experts – nobody knows more about that topic.The boundaries of knowledge have been pushed forward. When the researchers are confident in their findings, they publish them in the best scientific journals, with the highest standards of quality, rigor, and integrity." style="display:block; margin:0 auto; width:100%; height:100%;">
+<img src="images/this-is-research.png" alt="An image describing a romantic view of research: The smartest heads in the world immerse themselves into a research topic for years. In that process, they become the experts, nobody knows more about that topic.The boundaries of knowledge have been pushed forward. When the researchers are confident in their findings, they publish them in the best scientific journals, with the highest standards of quality, rigor, and integrity." style="display:block; margin:0 auto; width:100%; height:100%;">
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -613,24 +634,34 @@ Begley, C. G., & Ellis, L. M. (2012); Camerer et al (2016); Chang & Li (2015); C
 
 ---
 
+## Why published papers are useful
 
-## What published papers are useful for
+::: incremental
+- Getting a **job**
 
-- Getting a job
+- Being awarded **grants**
 
-- Being awarded grants
+- Being **visible** in the respective research field
 
-- Being visible in the respective research field
+- ...
+:::
+
+---
+
+## Why published papers are useful
+
+- Getting a **job**
+
+- Being awarded **grants**
+
+- Being **visible** in the respective research field
 
 - ...
 
 ::: {.callout-warning}
-The consequence is a "rat race" culture: Researchers try to publish as much as they can. ADD REFERENCE
+The consequence can be a "*rat race*" culture: Researchers try to publish as much as they can (Schmidt et al., 2021)
 :::
 
-<br>
-
-**Ideal scenario: Balancing the desire to stay truthful to research with the necessity to publish?**
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -641,7 +672,7 @@ The consequence is a "rat race" culture: Researchers try to publish as much as t
 
 ## Career relevance of publishing
 
-- N = 1453 psychology researchers, 66% were actually members of a professorship hiring committee
+- Survey among N = 1453 psychology researchers, 66% were actually members of a professorship hiring committee
 
 <div style="font-size: 0.7em;">
 | **Actual (not desired) relevance in professorship hiring committees** | **Rank** |
@@ -678,7 +709,7 @@ Fanelli, D. (2010). “Positive” Results Increase Down the Hierarchy of the Sc
 
 ## Publication bias
 
-**"If it works, I can publish it; if it does not, let me put it into my file drawer."**
+"If my study *works*, I can publish it. *If it does not, let's hide it the drawer.*"
 
 ```{=html}
 
@@ -693,21 +724,45 @@ Fanelli, D. (2010). “Positive” Results Increase Down the Hierarchy of the Sc
 
   <!-- Right side: bullet points -->
   <div style="flex: 1;">
-**Publication bias** happens when studies with positive or significant results are much more likely to be published than studies with negative or non-significant results.
+**Publication bias** happens when studies with *positive* or *significant* results are much more likely to be published than studies with negative or non-significant results.
   </div>
 
 </div>
 
----
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Song, F., Hooper, L., & Loke, Y. K. (2013). Publication bias: what is it? How do we measure it? How do we avoid it?. *Open Access Journal of Clinical Trials*, 71-81. [https://doi.org/10.2147/OAJCT.S34419](https://doi.org/10.2147/OAJCT.S34419)
+</div>
 
+---
 
 ## Example publication bias
 
-De vries et al study
+![](images/Turner_Study_Publication_Bias.png){fig-align=center width=100% fig-alt="Turner study"}
+
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Turner, E. H., Matthews, A. M., Linardatos, E., Tell, R. A., & Rosenthal, R. (2008). Selective publication of antidepressant trials and its influence on apparent efficacy. *New England Journal of Medicine, 358*(3), 252-260. [https://doi.org/10.1056/NEJMsa065779](https://doi.org/10.1056/NEJMsa065779)
+</div>
+
+::: {.notes}
+**Speaker Notes**: In this study, the authors obtained the archive of clinical trials for 12 antidepressant drugs submitted the the US Food and Drug Administration (FDA). In total, the trials involved more than 12000 patients. They performed a systematic search to identify which of these trials had been published in the literature. For those that were published, the compared the published versions and results with the versions and results in the FDA documentation. There were 74 FDA-registered trials. Of those, 38 trials showed postive effects of antidepressant drugs, 36 showed negative effects of antidepressant drugs. This is a 51% - 49% split of results: about half of the FDA-registered trials showed a positive effect of antidepressant drugs, the other half showed a negative effect of antidepressant drugs. 
+37 of the 38 trials that showed positive effects were published in the literature, basically all of them except 1 trial. However, of the 36 trials that showed negative or no effects of antidepressant drugs, only 3 were published that included those exact findings. 22 of the 36 trials were not published at all, and the remaining 11 trials were published with the outcomes reframed in a more positive way. In the literature, in the end, we ended up with a total of 51 trials being published, 48 of which showed positive effects of antidepressant drugs on depression. That is 94% of this sample of papers. Only 6% (3 papers) showed a negative effect of antidepressant drugs on depression. As a consequence, those of us searching the literature for these papers, will get a distorted via of the effectiveness of antidepressants. Therefore, the authors were able to show a substantial publication bias in the antidepressant trial literature. 
+**Instructor  Notes**: Add. 
+:::
+
+
+---
+
+## More than just publication bias
+
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+de Vries, Y. A., Roest, A. M., de Jonge, P., Cuijpers, P., Munafò, M. R., & Bastiaansen, J. A. (2018). The cumulative effect of reporting and citation biases on the apparent efficacy of treatments: the case of depression. *Psychological Medicine, 48*(15), 2453–2455. [https://doi.org/10.1017/S0033291718001873](https://doi.org/10.1017/S0033291718001873)
+</div>
+
+::: incremental
 
 ```{=html}
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
+<div style="display: flex; align-items: flex-start; gap: 0.5em;">
 
   <!-- Left side: single image -->
   <div style="flex: 1; text-align: center;">
@@ -717,52 +772,65 @@ De vries et al study
 ```
 
   <!-- Right side: bullet points -->
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size:0.8em;">
 
-  - Study publication bias: non-publication of an entire study
-  - Outcome reporting bias: non-publication of negative outcomes within a published article or switching the status of (non-significant) primary and (significant) secondary outcomes
-  - Spin: authors conclude that the treatment is effective despite non-significant results on the primary outcome
-  - Citation bias: Studies with positive results receive more citations than negative studies
+  (a) All conducted studies
+  (b) **Study publication bias**: non-publication of an entire study
+  (c) **Outcome reporting bias**: non-publication of negative outcomes within a published article or switching the status of (non-significant) primary and (significant) secondary outcomes
+  (d) **Spin**: authors conclude that the treatment is effective despite non-significant results on the primary outcome
+  (e) **Citation bias**: Studies with positive results receive more citations than negative studies
 
 
   </div>
 
 </div>
 
+:::
+
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
 **Instructor  Notes**: Add. 
 :::
 
-
 ---
 
-## Example publication bias
-
-Turner et al 2008
-
----
-
-
-## Confirmation bias
+## "Thought so already" bias
 
 ![](images/14_cognitive_bias.png){fig-align=center width=100% fig-alt="confirming your own beliefs"}
 
 ---
 
-## Cognitive bias
+## "I knew it" bias
 
+![](images/hindsight-bias.png){fig-align=center width=700% fig-alt="confirming your own beliefs"}
 
-![](images/hindsight-bias.png){fig-align=center width=100% fig-alt="confirming your own beliefs"}
 
 ---
 
-## ...right? MOVE
+## Practical exercise 2
 
-![](images/07_holy_grail.png){fig-align=center width=50% fig-alt="chasing significance"}
+**Task**: Match the bias to its description.
+
+<div style="font-size:0.6em;">
+
+| **Bias** | **Description** |
+|------------|-----------------|
+| 1. Confirmation bias | A. Non-publication of negative outcomes within a paper, or switching non-significant primary outcomes with significant secondary ones.  |
+| 2. Spin | B. Studies with positive results receive more citations than negative studies.  |
+| 3. Study publication bias | C. After learning the outcome, believing “I knew it all along.” |
+| 4. Hindsight bias | D. Non-publication of an entire study (e.g., trials with null results never submitted). |
+| 5. Outcome reporting bias | E. Tendency to seek or interpret information in ways that confirm existing beliefs. |
+| 6. Citation bias | F. Authors conclude the treatment is effective despite non-significant primary outcomes.|
+
+</div>
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Solutions: 1E, 2F, 3D, 4C, 5A, 6B.  
+:::
 
 ---
-
 
 ## Accidental p-hacking
 
@@ -772,27 +840,33 @@ Turner et al 2008
 
 ---
 
-## Null-Hypothesis-Testing
+## Excursus: Null-Hypothesis-Significance Testing
 
 **Example**: Does this new drug work better to decrease flu-symptoms compared to an existing drug?
 
-- The null hypothesis (H₀) is the idea that nothing special is happening—for example, “the new drug is no better than the existing one.”
-- You then collect data from experiments and perform a statistical analysis to see if the evidence is strong enough to reject the null hypothesis.
-- The **p-value** tells you how likely it is to see the results you got **if the null hypothesis is actually true**.
+::: incremental
+- H₀ = “the new drug is not better than the existing one.”
+- Collect data from experiments and perform a statistical analysis to see if the evidence is strong enough to reject H₀
+- **P-value** = how likely it is to see the results you got **if H₀ is true**.
 - A p-value of 0.05 means: “There’s a 5% chance of seeing these results (or more extreme) if the null hypothesis is true.”
-
+:::
 
 ::: {.callout-important}
-A p-value of 0.05 means that we accept a 5% chance that our results came about by pure luck (if the results were accidental, we would speak of a false positive result)
+A *p*-value of 0.05 means that we accept a 5% chance that our results came about by pure luck (if the results were accidental, we would speak of a false positive result)
 :::
 
 ---
 
-# Increasing your false positive rates can happen in the blink of an eye!
+## Increasing your false positive rates can happen in the blink of an eye!
 
-::: {.callout-warning}
-Do **not** try at home.
+::: {.callout-caution}
+Do **not** try the following at home.
 :::
+
+---
+
+# Continue from here
+
 
 ---
 
@@ -919,11 +993,6 @@ Armitage, P., McPherson, C. K., & Rowe, B. C. (1969). Repeated significance test
 # Continze from here
 
 ---
-
-
-
-
-
 
 
 ## Tip 2: Experiment with many conditions, but report only those that worked
@@ -1057,5 +1126,24 @@ Text
 ---
 
 ## Tips on how to p-hack (like the pros)
+
+---
+
+## Refs
+
+Schmidt, R., Curry, S., & Hatch, A. (2021). Creating SPACE to evolve academic assessment. Elife, 10, e70929.
+
+---
+
+## ...right? MOVE
+
+![](images/07_holy_grail.png){fig-align=center width=50% fig-alt="chasing significance"}
+
+---
+
+## Decide where to add
+
+**Ideal scenario: Balancing the desire to stay truthful to research with the necessity to publish?**
+
 
 ---
