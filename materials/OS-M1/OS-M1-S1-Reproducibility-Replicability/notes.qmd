@@ -406,60 +406,19 @@ Fanelli, D. (2010). “Positive” Results Increase Down the Hierarchy of the Sc
 
 ---
 
-## How bad can it be?
-
-![](images/09_QRPs_Psychology.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
-
----
-
-## .. and across fields?
-
-- Survey among 6,813 academic researchers in The Netherlands: Self-reported prevalence of fabrication and falsification in the last 3 years
-
-
-![](images/10_Self_Reported_blank.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
-
-REFERENCE: Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter, L. M. (2022). Prevalence of questionable research practices, research misconduct and their potential explanatory factors: A survey among academic researchers in The Netherlands. PLOS ONE, 17(2), e0263023. https://doi.org/10.1371/journal.pone.0263023
-
----
-
-## .. and across fields?
-
-- Survey among 6,813 academic researchers in The Netherlands: Self-reported prevalence of fabrication and falsification in the last 3 years
-
-
-![](images/11_Self_Reported_QRP.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
-
-REFERENCE: Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter, L. M. (2022). Prevalence of questionable research practices, research misconduct and their potential explanatory factors: A survey among academic researchers in The Netherlands. PLOS ONE, 17(2), e0263023. https://doi.org/10.1371/journal.pone.0263023
-
-
----
-
-## (Un)Intentional? 
-
-
-Evil researcher who only cares about his/her career and not at all about truth-seeking?
-„We urge the social science community to redefine p-hacking as a series of deceptive research practices rather than ones that are merely questionable.“ (Craig et al., 2020)
-Unintentional?
-Wrong education?
-Wrong/uncritical standards of the field?
-Pushed by supervisors, reviewers, or editors? ➙ http://bulliedintobadscience.org/
- Distorting effects on the published record are probably comparable, but the ethical evaluations differs strongly.
 
 
 
 
----
 
-## How to spot possible p-hacking
 
-- Large number of uncorrected comparisons with selective reporting
 
-- Many p values bunching just below 0.05
 
-- Lack of pre registration or analysis plan when claims are confirmatory
 
-- Results that disappear under slight analytic changes or when full data/code are provided.
+
+
+
+
 
 ---
 
@@ -516,61 +475,6 @@ Pushed by supervisors, reviewers, or editors? ➙ http://bulliedintobadscience.o
 - Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
 :::
 
----
-
-## Pre-break survey
-
-- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides)
-
-::: {.notes}
-**Speaker Notes**: Script for the slide here.
-**Instructor Notes**: <br>
-- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
-- Use free survey software such as particify or formR to establish the following questions (shown on separate slides)
-:::
-
----
-
-**Which species is the largest type of penguin**?
-
-a. Chinstrap Penguin
-
-b. Emperor Penguin ✅
-
-c. Adélie Penguin
-
-d. King Penguin
-
----
-
-**What is the key biological feature that helps penguins swim efficiently?**
-
-a. Hollow bones for buoyancy
-
-b. Webbed feet for paddling
-
-c. Waterproof feathers and flipper-like wings ✅
-
-d. Gills to breathe underwater
-
----
-
-# Break! 15 minutes
-
----
-
-## Post-break survey discussion
-
-- **Aim**: To clarify concepts and aspects that are not yet understood
-- Highlight specific answers given during the survey
-
-::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
-- **Aim**: To clarify concepts and aspects that are not yet understood
-- Highlight specific answers given during the survey
-:::
 
 ---
 
@@ -594,153 +498,6 @@ d. Gills to breathe underwater
 
 ---
 
-## Relevance and implications
-
-- **Aim**: To work out the relevance of the topic to your students.
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-- Examine downfalls and practical obstacles.
-
-::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
-- **Aim**: To work out the relevance of the topic to your students.
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-- Examine downfalls and practical obstacles.
-:::
-
----
-
-## Assignment
-
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-- Examine whether/how it will be assessed
-- Mention scoring rubrics, if applicable
-- Design a peer-review system for assignments to place students in role of reviewer and author
-
-::: {.notes}
-**Speaker Notes**: Script for the presentation here. 
-**Instructor Notes**: <br>
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-- Examine whether/how it will be assessed
-- Mention scoring rubrics, if applicable
-- Design a peer-review system for assignments to place students in role of reviewer and author
-:::
-
----
-
-## Take-home message
-
-- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
-
-::: {.callout-tip}
-## Tip with Title
-Add one practical tips or take-home message.
-:::
-
-::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
-- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
-:::
-
----
-
-## To conclude: Survey time!
-
-- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
-- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
-- Use identical questions as in the pre-submodule survey to be able to directly compare
-
-::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
-- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
-- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
-- Use identical questions as in the pre-submodule survey to be able to directly compare
-:::
-
----
-
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
-
-a. I have never heard of it before.
-
-b. I have heard of it but have never worked with it.
-
-c. I have basic understanding and experience with it.
-
-d. I am very familiar and have worked with it extensively.
-
----
-
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
-
----
-
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)**
-
-a. 1
-
-b. 2
-
-c. 3
-
-d. 4
-
-e. 5
-
----
-
-## Discussion of survey results
-
-- **Aim**: Briefly examine the answers given to each question interactively with the group.
-- Compare and highlight specific differences in answers between pre- and post-survey answers
-
-::: {.notes}
-**Speaker Notes**: Script for the slide here.
-**Instructer Notes**: <br>
-- **Aim**: Briefly examine the answers given to each question interactively with the group.
-- Compare and highlight specific differences in answers between pre- and post-survey answers
-:::
-
----
-
-## References
-
-
----
-
-# Thanks! <br>
-See you next class :)
-
----
-
-## Pedagogical add-on tools for instructors
-
-- This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
-  - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
-  - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
-  - Extra exercises for faster students.	
-
----
-
-## Additional literature for instructors
-
-- References for content
-- References for pedagogical add-on tools	
-- Other resources (videos etc.)	
-
----
 
 # Formatting elements for instructors
 
