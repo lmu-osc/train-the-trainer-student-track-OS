@@ -22,20 +22,6 @@ execute:
   engine: knitr
 ---
 
-## General feedback - delete slide 
-
-<div style="font-size: 0.7em;">
-<span style="color:red;">Here are my general feedback points/ things I edited: </span>
-
-- QR codes and self - learners: shall we take them out by default? Thoughts? (Beth: Yes adding the QR code would be good and external instructors can just use it for inspo to make their own? I'm thinking about whether they'd have access to the results if they use the survey on the osc account)
-
-- I think we need to brainstorm how we design the Github repo PR activity both for instructors and students in class as well as self learners? For the merge changes, for instance - better for a live demo right? Maybe we can make slides for two paths, one for instructors in class and one for self learners making a PR for their own repo? Thoughts? (Beth: Yes, that was my idea with having the steps on how to merge changes first and then it's followed by a live demonstration. But I'll try to distinguish it more maybe in the instructor notes)
-
-
-</div>
-
----
-
 ## Licence
 
 <br>
@@ -47,7 +33,7 @@ execute:
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Sara Lil Middleton is licensed under a CC BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Malika Ihle is licensed under a CC BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
 </div>
 
 ::: {.notes}
@@ -64,7 +50,7 @@ However, there are some important conditions you must follow. You are required t
 
 **Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Consultant**: Middleton, Sara Lil (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0001-5307-8029 ](https://orcid.org/0000-0001-5307-8029))
+**Consultant**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 ::: {.notes}
 **Speaker Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
@@ -94,17 +80,41 @@ Before completing this submodule, please carefully read about the necessary prer
 | Advanced R skills | 3.3. Introduction to R - Part II |  Module 3.3. |
 | Basic Git skills | 3.4. Introduction version control (Git) with RStudio |  Module 3.4. |
 | GitHub Account | Create a personal account on GitHub | [github.com](github.com) |
+| A Practice Repo | Fork the [LMU OSC Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) to set up a practice repository for the exercises in this lesson | See next slide
 
 </div>
 
-<div style="font-size: 0.7em;">
-<span style="color:red;">Did you want to add a line for the instructors only about having to fork the repo..? And have the Instructors only: Practise repo slide right after here at the beginning?
+<div style="color:red; font-size:50%;">
+Beth: added the last pre-req
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this submodule and complete the exercises. 
+**Speaker Notes**: Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this submodule and complete the exercises. Usually, the instructor will set up the practice repository, but learners completing this lesson independently may also create it themselves.
 
-**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiarity with Git and that the audience has also completed that submodule. We also assume that, through the previous workshops, participants have downloaded and installed R and RStudio on their local machines. Lastly, the instructor should create a fork of the LMU OSC Collaborative-RStudio-GitHub repository. This will be the main repository for the class session and activities (that is, this forked repository is the repository that the students will fork and it is where the contributions will merged into).
+**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiarity with Git and that the audience has also completed that submodule. We also assume that, through the previous workshops, participants have downloaded and installed R and RStudio on their local machines. Lastly, the instructor should create a fork of the LMU OSC Collaborative-RStudio-GitHub repository. This will be the main repository for the class session and activities (that is, this forked repository is the repository that the students will fork and where the contributions will go when merged).
+:::
+
+---
+
+## Instructors only: Practice repo
+
+Before we collaborate, we need to **set up a practise repository**. 
+
+- Log into your own *GitHub account*
+- [Click here to go to LMU OSC's Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main)
+- Create a fork by clicking on "`Fork`"
+- Make sure you are set as the owner of the new repository and do not change the name of the forked repository then hit "`Create fork`"
+
+::: callout-important
+## Now you have your practice repository!
+
+You have copied all the materials from the LMU OSC Collaborative-RStudio-GitHub repository needed to do this session's activities with your **own GitHub account**. This fork will be referred to as the **main repository** from here on and is the repository your **students** will work on.
+:::
+
+::: {.notes}
+**Speaker Notes**: We need a main repository where we will combine or merge all our contributions into one project. To have all the materials needed to follow along and complete the practical activities, I will create the fork and use it as the main repository.
+
+**Instructor Notes**: The fork of the original repository will act as the main repository for this session. This means that students would then have to fork this fork in order to make their individual changes and contributions. Doing this allows you as the instructor to view the pull requests made to this fork and subsequently merge them (OSC has ownership of the original repo and so any pull requests to that repo would require their approval). It is advisable to do this *before* the session so that on the day of the lesson, you can easily give the students a link to access this main repository. Please note that this means what you and your students see on your screens during this session will not match with some of the images in the Practical exercises (for example, the owner of the repository will be you and not "lmu-osc"). 
 :::
 
 ---
@@ -124,7 +134,6 @@ Any remaining questions about the most recent content and/or practical exercises
 **Speaker Notes**: Are there any questions from what was discussed during the last session? Are there any remaining thoughts or discussion points?
 
 **Instructor  Notes**:
-
 - Aim: clarify questions from the previous submodule and/or to discuss assignments. <br>
 - Additional slides may need to be added depending on the nature of the homework assignments. <br>
 - It is critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. <br>
@@ -209,11 +218,6 @@ b. I have heard about these concepts before, but do not remember the exact detai
 c. I have a conceptual understanding of these concepts, but have not actively integrated them into my workflow. 
 
 d. I have a conceptual understanding of both concepts and actively integrate them into my workflow.  
-
-
-<div style="font-size: 0.7em;">
-<span style="color:red;">Maybe replace with question to check understanding of pushing and pulling? Thoughts?</span> Beth: Yes I like that idea, but would it be better to check understanding or experience using it?  SvG: made some adjustments here - thoughts?
-</div>
 
 ---
 
@@ -325,10 +329,6 @@ At the end of this session, you should be able to:
 - **GitHub Repository**:
 - **Branch**: 
 
-<div style="font-size: 0.7em;">
-<span style="color:red;">Added this slide + speaker and instructor notes - thoughts?
-</div>
-
 ::: {.notes}
 **Speaker Notes**: These are some of the key terms that will come up throughout this lesson. What are your associations with each of these concepts? Which one have you come across before? What could these concepts refer to? What is new to you?
   
@@ -346,10 +346,10 @@ At the end of this session, you should be able to:
 - **Branch**: A separate workspace where you can make changes without affecting the main project.
 
 ::: {.notes}
-**Speaker Notes**: Let's define the key terms, even if for now they are a little abstract. <br>
-- Think of **Git** is like a time machine for your project as it keeps track of every edit so you can go back to earlier versions or see who changed what. Git runs locally on your computer but connects easily with platforms like GitHub for sharing. <br>
+**Speaker Notes**: Now let's define these key terms, even if for now they are a little abstract. <br>
+- Think of **Git** like a time machine for your project as it keeps track of every edit so you can go back to earlier versions or see who changed what. Git runs locally on your computer but connects easily with platforms like GitHub for sharing. <br>
 - **GitHub** is an online platform that lets researchers store, share, and collaborate on code and projects using version control. <br>
-- A **Git repository** is a folder that contains your project files and is tracked by Git so you can see the full history of changes. This folder can live locally on your computer or online, for example, a **GitHub repository** is a one that's hosted on GitHub. <br>
+- A **Git repository** is a folder that contains your project files and is tracked by Git so you can see the full history of changes. This folder can live locally on your computer or online, for example, a **GitHub repository** is a one that's hosted online on GitHub. <br>
 - A **branch** is a copy of your project where you can test changes without affecting the main version. The Main Branch is the stable, official version of your project. You can work on a branch, then merge your updates back into the main branch once they’re reviewed or ready.  
 
 **Instructor Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
@@ -363,7 +363,7 @@ Researchers can face many challenges when working collaboratively or in a team. 
 
 - Poor communication
 - Disconnected collaboration
-- Limited transparency of research code
+- Limited transparency of project materials
 
 ::: callout-tip
 ## Sound familiar?
@@ -371,7 +371,7 @@ Think about your past experience working collaboratively in a team. Did you face
 :::
 
 ::: {.notes}
-**Speaker Notes**: For many projects, researchers working collaboratively or in teams can encounter several challenges that affect progress. Poor communication is one such challenge where relying on tools like emails or messaging apps can become confusing or cause important information to be lost. Researchers who work from different institutions, locations, or time zones can find it difficult to update code or review the work of the other contributors. Limited transparency and visibility of things like analysis scripts or data processing steps can also be a barrier for collaborators or reviewers to see how results were produced. Reflect on your own experience working in a team - were any of these problems issues for you too?
+**Speaker Notes**: For many projects, researchers working collaboratively or in teams can encounter several challenges that affect progress. Poor communication is one such challenge where relying on tools like emails or messaging apps can become confusing or cause important information to be lost. Researchers who work from different institutions, locations, or time zones can find it difficult to update code or review the work of the other contributors. Limited transparency and visibility of things like analysis scripts or data processing steps can also be a barrier for collaborators or reviewers to see how results were produced. Reflect on your own experience working in a team... were any of these problems issues for you too?
 
 **Instructor Notes**: Bring the lesson to life by making it relatable. Ask students to think about times they have experienced these or similar challenges. This way the solutions to these problems that GitHub provides will not seem too abstract and students can begin thinking about how they would incorporate working on GitHub in their projects. Select a few challenges and discuss with your students.
 :::
@@ -394,15 +394,17 @@ Think about your past experience working collaboratively in a team. Did you face
 ::::::
 
 - Better communication with messages describing changes made, inline commenting, and code reviewing.
-- The code used in the project is hosted and shared publicly or privately to support transparent collaboration.
+- The research and analysis materials used in the project are hosted and shared publicly or privately to support transparent collaboration.
 - By hosting the repositories online, teams can work from anywhere, contribute asynchronously, and review each other's work.
 
 <div style="font-size: 0.7em;">
-<span style="color:red;">your second point is about code only - can we make this more general? Thoughts?
+<span style="color:red;">your second point is about code only - can we make this more general? Thoughts?  
+</div> 
+<div style="font-size: 0.7em;"> Beth: I agree, I also changed the word "code" from the previous slide to "project materials" 
 </div>
 
 ::: {.notes}
-**Speaker Notes**: GitHub is a collaborative hub for open and transparent research. Using it for a collaborative project can solve the challenges we just looked at. GitHub improves communication with features like commit messages that describe the changes made and the option to have discussions alongside the code. By allowing teams to host and share repositories online, everyone can contribute from anywhere. This connects all the contributors on a shared online workspace without overwriting each other's work. This also includes hosting and sharing code so that it can be visible by the public or only accessible by the team so that people can see the evolution of the research and how analyses were done. Ultimately, GitHub supports the core principles of Open Science: openness, transparency, and reproducibility.
+**Speaker Notes**: GitHub is a collaborative hub for open and transparent research. Using it for a collaborative project can solve the challenges we just looked at. GitHub improves communication with features like commit messages that describe the changes made and the option to have discussions alongside the code. By allowing teams to host and share repositories online, everyone can contribute from anywhere. This connects all the contributors on a shared online workspace without overwriting each other's work. This also includes hosting and sharing project materials like the code used and anlysis scripts so that they can be visible by the public or only accessible by the team. By doing this, people can see the evolution of the research and how analyses were done. Ultimately, GitHub supports the core principles of Open Science: openness, transparency, and reproducibility.
 
 **Instructor Notes**: <br>
 - Aim: Core theoretical introduction of submodule topic and how it can provide solutions to real problems that researchers face.
@@ -412,7 +414,8 @@ Think about your past experience working collaboratively in a team. Did you face
 
 ## What is collaborative coding? 
 
-**Collaborative coding** is the process of working together on the same code or project where everyone can contribute, review, and improve the work collectively.
+- **Collaborative coding** is just one of the ways a team or group can work together on a single project. 
+- It involves multiple developers working on the same codebase, allowing everyone to collectively contribute, review, and make improvements. 
 
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 0.5;"}
@@ -433,6 +436,7 @@ With **collaborative coding**:
 
 <div style="font-size: 0.7em;">
 <span style="color:red;">Trying to take the student perspective: do you think sollaborative coding is too strict in the sense? You mention working on the same project, would that be a more concrete framework and have collaborating on code as an extra? What applies more to students? I am aware this is how the tutorial is called etc., but do you think this name still fits for our student audience? Thoughts?
+</div> <div style="font-size: 0.7em;"> Beth: seeing that the activity itself is a coding project and they're working with R, I would say keep the name but I def agree that it limits the idea of collaboration on github to *just* coding... I'll add something in. Thoughts? 
 </div>
 
 ::: {.notes}
@@ -467,34 +471,6 @@ What a *workflow* using **GitHub** can look like:
 
 ---
 
-## Instructors only: Practice repo
-
-Before we collaborate, we need to **set up a practise repository**. 
-
-- Log into your own *GitHub account*
-- [Click here to go to LMU OSC's Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main)
-- Create a fork by clicking on "`Fork`"
-- Make sure you are set as the owner of the new repository and do not change the name of the forked repository
-- Hit "`Create fork`"
-
-::: callout-important
-## Now you have your practice repository!
-
-You have copied all the materials from the LMU OSC Collaborative-RStudio-GitHub repository needed to do this session's activities with your **own GitHub account**. This fork will be referred to as the **main repository** from here on and is the repository your **students** will work on.
-:::
-
-<div style="font-size: 0.7em;">
-<span style="color:red;">My thought was to push this one to the beginning after the prerequisites? What do you think?
-</div>
-
-::: {.notes}
-**Speaker Notes**: We need a main repository where we will combine or merge all our contributions into one project. To have all the materials needed to follow along and complete the practical activities, I will create the fork and use it as the main repository.
-
-**Instructor Notes**: The fork of the original repository will act as the main repository for this session. This means that students would then have to fork this fork in order to make their individual changes and contributions. Doing this allows you as the instructor to view the pull requests made to this fork and subsequently merge them (OSC has ownership of the original repo and so any pull requests to that repo would require their approval). It is advisable to do this *before* the session so that on the day of the lesson, you can easily give the students a link to access this main repository. Please note that this means what you and your students see on your screens during this session will not match with some of the images in the Practical exercises (for example, the owner of the repository will be you and not "lmu-osc"). 
-:::
-
----
-
 ## Fork a repo
 
 To **fork a repo** means to copy a collaborator’s repo to your own remote *GitHub account*.
@@ -506,6 +482,30 @@ To **fork a repo** means to copy a collaborator’s repo to your own remote *Git
 ::: {.notes}
 **Speaker Notes**: Now let us go through each of the steps in the workflow and practice them. The first step is to make your own copy of the project repository to your GitHub account. To do this, you need to fork the repo, which means to copy it so that you have your own version where you can host your changes to send it with changes back to the main repository later. <br>
 How does this contribute towards collaboration? It enables multiple contributors to work on the project at the same time. The changes you make on your copy won't affect the original project, so it becomes your personal workspace where you can freely test ideas ideas.
+
+**Instructor Notes**: This is where the practice repo you had set up comes in. The students will make a fork of the one you previously forked from the OSC GitHub account.
+:::
+
+---
+
+## Practical exercise 1: Fork a repo
+
+Here's a link to the main repository: [insert a title of the link here](insert the link to the practice reposiory here)
+
+- [ ] Go to the **repo on GitHub**
+
+::: callout-important
+## What is meant by "**repo**" here?
+
+By **repo on GitHub** we mean one of two things: <br>
+1) the repository your instructor created on their own remote GitHub account for you to work on, **or** <br>
+2) an existing repo for practice e.g.,  [https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main). Go to the repo that is available to you *now*.  
+:::
+
+::: {.notes}
+**Speaker Notes**: Go to the main repository of the project we will be using for today, e,g., the repository that I provided you with today. Click the link to be redirected to the repository on GitHub.
+
+**Instructor Notes**: Provide students with the name or link to your forked repo created for this session. Replace the information in the first line with the practice repository. Make a title for the link (for e.g., "Practice Repository for Collaborative Coding") in the square brackets and then copy and paste the url link to the practice repository in the brackets. This way, the students can easy navigate to the practice repository they must then fork in the next slide. 
 :::
 
 ---
@@ -514,24 +514,23 @@ How does this contribute towards collaboration? It enables multiple contributors
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/fork-button.png){fig-align="center" fig-alt="An image highlighting the Fork button on the toolbar in a GitHub repository."}
 
-- [ ] Go to the **repo on GitHub**
 - [ ] Click on "`Fork`" in the top-right toolbar
 
-<div style="font-size: 0.7em;">
-<span style="color:red;">Can you make a slide (maybe before this practical bit) with either the link to our LMU OSC practise repo or a placeholder for the instructor to add their link to the repo?
-</div>
-
-
 ::: callout-important
-## What is meant by "**repo**" here?
+## Something does not look the same?
 
-By **repo on GitHub** we mean one of two things: 1) the repository your instructor created on their own remote GitHub account for you to work on, **or** 2) an existing repo for practice e.g.,  [https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main). Go to the repo that is available to you *now*. Note, **the screenshot may not match exactly** because you may be forking from your instructor's GitHub instead of from the practice repo. 
+Note, **the screenshot may not match exactly** because you may be forking from your instructor's GitHub instead of from the practice repo from 'lmu-osc'.
 :::
 
-::: {.notes}
-**Speaker Notes**: Go to the main repository of the project we will be using for today, e,g., the repository that I provided you with today. Find the toolbar at the top that is next to the name of the repository and click "Fork". 
+<div style="font-size: 0.7em;">
+<span style="color:red;">Can you make a slide (maybe before this practical bit) with either the link to our LMU OSC practise repo or a placeholder for the instructor to add their link to the repo? 
+</div> <div style="font-size: 0.7em;"> Beth: I like this idea
+</div>
 
-**Instructor Notes**: Remember: the 'main repository' here will be the one that you forked from the original lmu-osc tutorial and was subsequently copied to your own remote GitHub account. In essence, your students are now creating a fork of your fork. This is also the first instance where what you and your students see on screen may not match identically with what this example image shows. Provide students with the name or link to your forked repo created for this session, or provide them with a link to the LMU OSC repo as in the example. 
+::: {.notes}
+**Speaker Notes**: On the repository, find the toolbar at the top that is next to the name of the repository and click "Fork". 
+
+**Instructor Notes**: The 'main repository' here will be the one that you forked from the original lmu-osc tutorial and was subsequently copied to your own remote GitHub account. In essence, your students are now creating a fork of your fork. This is also the first instance where what you and your students see on screen may not match identically with what this example image shows. 
 :::
 
 ---
@@ -606,10 +605,15 @@ How does this contribute towards collaboration? You can now have a copy of the p
 
 <div style="color:red; font-size:50%;">
 Maybe add speaker notes or a note on why now we are switching to R?
+</div> <div style="font-size:50%;"> Will do 
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Now let's switch to RStudio. When you clone the files, you will put them in a new project on your device. Open RStudio and create a new project by selecting "New Project" under the 'File' menu. 
+**Speaker Notes**: <br>
+- Now let's switch to RStudio where we can use the built-in functions for Git. This way we can make our changes and manage our workflow in one place. <br>
+- When you clone the files, you will put them in a new project on your device. To do this: open RStudio and go to 'File' then create a new project by selecting "New Project".
+
+**Instructor Notes**: RStudio provides a simple point-and-click interface to perform some of the actions in the GitHub workflow, however, there are other ways to communicate with GitHub using your local device. 
 :::
 
 ---
@@ -642,10 +646,14 @@ Maybe add speaker notes or a note on why now we are switching to R?
 
 <div style="color:red; font-size:50%;">
 No instructor notes here?
-</div>
+</div> <div style="font-size:50%;">
+Beth: Added :)
+</div> 
 
 ::: {.notes}
 **Speaker Notes**: We need to select "Version Control" to connect RStudio directly to the GitHub repository and work with version-tracked code. Then, we select "Git" to clone the project directly from the GitHub repository. 
+
+**Instructor Notes**: The "Git" option appears if Git is correctly installed on your device. If it does not appear, check if Git has been installed and restart RStudio. 
 :::
 
 ---
@@ -769,19 +777,15 @@ Before you **commit to a project**, you need to make some changes to the project
 
 ## Practical exercise 3: Commit
 
-- [ ] Save your file by going to the top toolbar and clicking "`File`" -> then "`Save`" 
+- [ ] Save your file by going to the top toolbar and clicking "`File`" -> then "`Save`"
+
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/stage.png){fig-align="center" fig-alt="An image of the 'Git' tab in RStudio where the copied file is selected."}
 
 - [ ] In the "`Git`" tab, tick the checkbox next to *your copied file*. This will **stage** your file
 - [ ] Click "`Commit`" 
 
-<div style="color:red; font-size:50%;">
-Here I think the image was shifted?
-</div>
-
-
 ::: {.notes}
-**Speaker Notes**: After this, save the file as normal by going to "File" and then clicking "Save". In the Git tab on RStudio, tick the checkbox next to your copied file under the "Staged" column. Staging a commit means you’re selecting which specific changes you want to include in your next commit. Then click the "Commit" button. 
+**Speaker Notes**: After this, save the file as normal by going to "File" and then clicking "Save". In the Git tab on RStudio, tick the checkbox next to your copied file under the "Staged" column. Staging a commit means you’re selecting which specific changes you want to include in your next commit. Then click the "Commit" button.
 :::
 
 ---
@@ -795,6 +799,8 @@ Here I think the image was shifted?
 
 ::: {.notes}
 **Speaker Notes**: You should leave a message to accompany your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Then, Click the "Commit" button. 
+
+**Instructor Notes**: You can remind students that this does not mean their changes will show up on GitHub, that requires an additional step. But this does mean their activity and changes were recorded in the project history. 
 :::
 
 ---
@@ -1146,13 +1152,15 @@ If everything looks fine, the owner will:
 :::
 ::: column
 
-- The owner of the main repository will pull the new contributed files from GitHub into their local repository using the "`Pull`" button in **RStudio**. 
+- The **owner of the main repository** will pull the new contributed files from GitHub into their local repository using the "`Pull`" button in **RStudio**. 
 
 :::
 ::::::
 
 <div style="color:red; font-size:50%;">
 Maybe add instructor notes here that this is now up to the instructor to handle?
+</div> <div style="font-size:50%;">
+Beth: added & made that part on the slide bold too
 </div>
 
 ::: callout-note 
@@ -1163,8 +1171,9 @@ All the contributions that were merged into this repository should show up in th
 
 ::: {.notes}
 **Speaker Notes**: Let's see how all the contributions are integrated into a single document. First, the owner of the main repository needs to pull all the files that were pushed by the other contributors so that all the new files will be on the local copy of the repository. 
-:::
 
+**Instructor Notes**: The instructor (that is, the owner of the main repository) will perform this task to pull the changes made by the students into the main repo. 
+:::
 
 ---
 
@@ -1247,10 +1256,14 @@ To **pull upstream** means to update your local or forked repository with the la
 ::: {.notes}
 **Speaker Notes**: Even after you pushed your changes and it was merged into the main branch, the project may still be ongoing or your local and remote copied repositories may not have the contributions from the other collaborators. This is why you should pull upstream to update your local or forked repository with the latest changes from the original repo. <br>
 How does this contribute towards collaboration? It keeps your local copy updated with the changes in the main project, prevents outdated or conflicting edits, and synchronizes work across each contributor.
+
+**Instructor Notes**: Back to the students! Here the students will perform this task as they must now pull the changes that the instructor merged into the main repository. This means they will incorporate the changes into their individual copies of the project, emphasize that this is a process to keep all their copies up to date with the changes and contributions made. 
 :::
 
 <div style="color:red; font-size:50%;">
 Maybe add instructor notes here?
+</div> <div style="font-size:50%;">
+Beth: Yes, i added one that clarifies this next exercise is for the students to do and why.
 </div>
 ---
 
@@ -1410,12 +1423,6 @@ Now that you have all gained some experience working collaboratively using GitHu
 
 **2. What potential problems could still arise using this workflow?**
 
-</div>
-
-<div style="color:red; font-size:50%;">
-This slide and the ones before are really nice!
-</div>
-
 ::: {.notes}
 **Speaker Notes**: So, you have seen the full workflow in action and practiced collaborative coding facilitated by GitHub. Let's reflect further on this experience, how could this be useful? Think about how this kind of collaborative coding can support your own research and projects. 
 
@@ -1463,10 +1470,12 @@ Consider the following question:
 
 **Git commands**
 
-- Several actions in collaborative coding on GitHub can also be performed directly using **Git commands in a Terminal**. 
+- Several actions in collaborative coding on GitHub can also be performed directly using **Git commands in a Terminal** instead of using the functions in RStudio. 
 
 <div style="color:red; font-size:50%;">
 Add instead of xx to that student see the difference.
+</div> <div style="font-size:50%;">
+added :)
 </div>
 
 ::: callout-tip
