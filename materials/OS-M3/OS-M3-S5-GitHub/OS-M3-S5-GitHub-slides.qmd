@@ -79,14 +79,11 @@ Before completing this submodule, please carefully read about the necessary prer
 | Basic R skills | 3.2. Introduction to R - Part I |  Module 3.2. |
 | Advanced R skills | 3.3. Introduction to R - Part II |  Module 3.3. |
 | Basic Git skills | 3.4. Introduction version control (Git) with RStudio |  Module 3.4. |
-| GitHub Account | Create a personal account on GitHub | [github.com](github.com) |
-| A Practice Repo | Fork the [LMU OSC Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) to set up a practice repository for the exercises in this lesson | See next slide
+| GitHub account | Create a personal account on GitHub | [github.com](github.com) |
+| Practice GitHub repo | Fork the [LMU OSC Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) to set up a practice repository for the exercises in this lesson | See next slide
 
 </div>
 
-<div style="color:red; font-size:50%;">
-Beth: added the last pre-req
-</div>
 
 ::: {.notes}
 **Speaker Notes**: Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this submodule and complete the exercises. Usually, the instructor will set up the practice repository, but learners completing this lesson independently may also create it themselves.
@@ -100,8 +97,8 @@ Beth: added the last pre-req
 
 Before we collaborate, we need to **set up a practise repository**. 
 
-- Log into your own *GitHub account*
-- [Click here to go to LMU OSC's Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main)
+- **Log** into your own **GitHub account**
+- Go to the [LMU OSC's Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) (see also https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main)
 - Create a fork by clicking on "`Fork`"
 - Make sure you are set as the owner of the new repository and do not change the name of the forked repository then hit "`Create fork`"
 
@@ -209,9 +206,7 @@ e. 5
 
 **Which statement best describes your experience with *pushing* and *pulling* in the context of working collaboratively on GitHub?**
 
-
-
-a, I have never heard about either of these concepts. 
+a. I have never heard about either of these concepts. 
 
 b. I have heard about these concepts before, but do not remember the exact details.
 
@@ -263,7 +258,7 @@ What do we see in the results?
 ::: callout-note
 ## GitHub and Open Science
 
-**GitHub** offers a platform that enables transparent sharing, version control, and reproducible workflows. These are the core pillars of Open Science.
+**GitHub** offers a platform that enables transparent sharing, version control, and reproducible workflows. These are some of the core **pillars of Open Science**.
 :::
 
 ::: {.notes}
@@ -283,10 +278,10 @@ At the end of this session, you should be able to:
 - **Navigate** GitHub to collaborate on shared projects.
 - **Fork** and **clone** repositories to work locally without altering the main branch.
 - **Commit**, **push**, and **pull** changes to keep your project tracked and synchronized.
-- **Design** a collaborative workflow that enhances the openness and reproducibility of your research.
+- **Design** a collaborative workflow that enhances the openness and reproducibility of your own projects.
 
 ::: {.notes}
-**Speaker Notes**: By the end of this session, you should feel confident navigating GitHub and using it for collaboration. You will learn how to fork and clone repositories to create local copies, commit and push your work, and pull updates from others to stay in sync. Finally, you will see how these actions build a workflow that supports open, transparent, and reproducible research.
+**Speaker Notes**: By the end of this session, you should feel confident navigating GitHub and using it for collaboration. You will learn how to fork and clone repositories to create local copies, commit and push your work, and pull updates from others to stay in sync. Finally, you will see how these actions build a workflow that supports open, transparent, and reproducible research or projects.
 
 **Instructor Notes**: <br>
 - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956) <br>
@@ -299,14 +294,14 @@ At the end of this session, you should be able to:
 
 <div style="font-size: 1.2em;">
 
-- **GitHub Workflow**
-- **Fork a Repo**
-- **Clone a Repo**
-- **Commit to a Project**
-- **Push Changes**
-- **Pull Request**
-- **Merge Changes**
-- **Pull Upstream**
+- **GitHub workflow**
+- **Fork a repo**
+- **Clone a repo**
+- **Commit to a project**
+- **Push changes**
+- **Pull request**
+- **Merge changes**
+- **Pull upstream**
 
 </div>
 
@@ -325,12 +320,12 @@ At the end of this session, you should be able to:
 
 - **Git**:   
 - **GitHub**: 
-- **Git Repository**:
-- **GitHub Repository**:
+- **Git repository**:
+- **GitHub repository**:
 - **Branch**: 
 
 ::: {.notes}
-**Speaker Notes**: These are some of the key terms that will come up throughout this lesson. What are your associations with each of these concepts? Which one have you come across before? What could these concepts refer to? What is new to you?
+**Speaker Notes**: These are some of the key terms that will come up throughout this lesson. What are your associations with each of these concepts? Which ones have you come across before? What could these concepts refer to? What is new to you?
   
 **Instructor Notes**: Use the think-pair-share paradigm to examine existing concepts and definitions. Students think for themselves what they associate with each term, discuss collaboratively in pairs and then share their thoughts with the group. 
 :::
@@ -341,12 +336,12 @@ At the end of this session, you should be able to:
 
 - **Git**: A version control system that tracks changes made to files over time.  
 - **GitHub**: A cloud-based, online platform that hosts Git-tracked projects. 
-- **Git Repository**: (also known as *repo*) A folder that contains your project files and the history of all changes made to them.
-- **GitHub Repository**: An online or remote version of a Git repository that is hosted on GitHub's servers.
+- **Git repository**: (also known as *repo*) A folder that contains your project files and the history of all changes made to them.
+- **GitHub repository**: An online or remote version of a Git repository that is hosted on GitHub's servers.
 - **Branch**: A separate workspace where you can make changes without affecting the main project.
 
 ::: {.notes}
-**Speaker Notes**: Now let's define these key terms, even if for now they are a little abstract. <br>
+**Speaker Notes**: Now let us define these key terms, even if for now they are a little abstract. <br>
 - Think of **Git** like a time machine for your project as it keeps track of every edit so you can go back to earlier versions or see who changed what. Git runs locally on your computer but connects easily with platforms like GitHub for sharing. <br>
 - **GitHub** is an online platform that lets researchers store, share, and collaborate on code and projects using version control. <br>
 - A **Git repository** is a folder that contains your project files and is tracked by Git so you can see the full history of changes. This folder can live locally on your computer or online, for example, a **GitHub repository** is a one that's hosted online on GitHub. <br>
@@ -359,7 +354,7 @@ At the end of this session, you should be able to:
 
 ## Collaboration challenges
 
-Researchers can face many challenges when working collaboratively or in a team. Some of these are: 
+Researchers can face many **challenges** when working collaboratively in a team with other researchers or in multi-organisational projects. Some of these are: 
 
 - Poor communication
 - Disconnected collaboration
@@ -367,7 +362,7 @@ Researchers can face many challenges when working collaboratively or in a team. 
 
 ::: callout-tip
 ## Sound familiar?
-Think about your past experience working collaboratively in a team. Did you face these challenges? Did other or similar challenges arise? 
+Think about your past experience working collaboratively in a team. Did you face these challenges? Did similar or other challenges arise? 
 :::
 
 ::: {.notes}
@@ -393,15 +388,9 @@ Think about your past experience working collaboratively in a team. Did you face
 :::
 ::::::
 
-- Better communication with messages describing changes made, inline commenting, and code reviewing.
-- The research and analysis materials used in the project are hosted and shared publicly or privately to support transparent collaboration.
-- By hosting the repositories online, teams can work from anywhere, contribute asynchronously, and review each other's work.
-
-<div style="font-size: 0.7em;">
-<span style="color:red;">your second point is about code only - can we make this more general? Thoughts?  
-</div> 
-<div style="font-size: 0.7em;"> Beth: I agree, I also changed the word "code" from the previous slide to "project materials" 
-</div>
+- **Better communication** with messages describing changes made, inline commenting, and code reviewing.
+- The project materials are hosted and shared publicly or privately to **support transparent collaboration**.
+- By hosting the materials on online repositories, teams can work from **anywhere**, **contribute** asynchronously, and **review** each other's work.
 
 ::: {.notes}
 **Speaker Notes**: GitHub is a collaborative hub for open and transparent research. Using it for a collaborative project can solve the challenges we just looked at. GitHub improves communication with features like commit messages that describe the changes made and the option to have discussions alongside the code. By allowing teams to host and share repositories online, everyone can contribute from anywhere. This connects all the contributors on a shared online workspace without overwriting each other's work. This also includes hosting and sharing project materials like the code used and anlysis scripts so that they can be visible by the public or only accessible by the team. By doing this, people can see the evolution of the research and how analyses were done. Ultimately, GitHub supports the core principles of Open Science: openness, transparency, and reproducibility.
@@ -414,9 +403,6 @@ Think about your past experience working collaboratively in a team. Did you face
 
 ## What is collaborative coding? 
 
-- **Collaborative coding** is just one of the ways a team or group can work together on a single project. 
-- It involves multiple developers working on the same codebase, allowing everyone to collectively contribute, review, and make improvements. 
-
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 0.5;"}
 
@@ -427,17 +413,18 @@ Think about your past experience working collaboratively in a team. Did you face
 
 With **collaborative coding**:
 
-- Multiple people can work on different parts of the same project at once.
-- Git and GitHub keep everyone’s work organized, merged, and tracked.
-- There's more transparency and reproducibility in research projects. 
+- Multiple people can **work and contribute** on different parts of the same project at once.
+- Using Git and GitHub keep everyone’s work **organized, merged, and tracked**.
+- There's more **transparency and reproducibility** in research projects. 
+- The project/materials are **reviewed and improved** collaboratively.
 
 :::
 ::::::
 
-<div style="font-size: 0.7em;">
-<span style="color:red;">Trying to take the student perspective: do you think sollaborative coding is too strict in the sense? You mention working on the same project, would that be a more concrete framework and have collaborating on code as an extra? What applies more to students? I am aware this is how the tutorial is called etc., but do you think this name still fits for our student audience? Thoughts?
-</div> <div style="font-size: 0.7em;"> Beth: seeing that the activity itself is a coding project and they're working with R, I would say keep the name but I def agree that it limits the idea of collaboration on github to *just* coding... I'll add something in. Thoughts? 
-</div>
+
+::: callout-note
+Collaborative coding is only **one way** a team or a research group can work together on a single project. GitHub supports collaborative coding, but more generally collaboration on many different types of materials/projects, not *just* code. 
+:::
 
 ::: {.notes}
 **Speaker Notes**: Collaborative coding means that a whole team can contribute to the same project in real time where everyone can edit, review, and improve the same code without overwriting each other’s work. Git and GitHub make this possible by keeping track of every change, merging updates smoothly, and maintaining transparency. This approach makes teamwork easier and strengthens openness and reproducibility in research. <br>
@@ -490,9 +477,9 @@ How does this contribute towards collaboration? It enables multiple contributors
 
 ## Practical exercise 1: Fork a repo
 
-Here's a link to the main repository: [insert a title of the link here](insert the link to the practice reposiory here)
+Here's a link to the main repository: 
 
-- [ ] Go to the **repo on GitHub**
+- [ ] Go to the **repository ( = "repo") on GitHub**: [insert a title of the link here](insert the link to the practice reposiory here)
 
 ::: callout-important
 ## What is meant by "**repo**" here?
@@ -519,13 +506,8 @@ By **repo on GitHub** we mean one of two things: <br>
 ::: callout-important
 ## Something does not look the same?
 
-Note, **the screenshot may not match exactly** because you may be forking from your instructor's GitHub instead of from the practice repo from 'lmu-osc'.
+Note that **the screenshot may not match exactly** because it depends which repo you *forked from*: You may be forking from your instructor's GitHub instead of from the practice repo from 'lmu-osc'.
 :::
-
-<div style="font-size: 0.7em;">
-<span style="color:red;">Can you make a slide (maybe before this practical bit) with either the link to our LMU OSC practise repo or a placeholder for the instructor to add their link to the repo? 
-</div> <div style="font-size: 0.7em;"> Beth: I like this idea
-</div>
 
 ::: {.notes}
 **Speaker Notes**: On the repository, find the toolbar at the top that is next to the name of the repository and click "Fork". 
@@ -552,7 +534,7 @@ Note, **the screenshot may not match exactly** because you may be forking from y
 
 ## Fork a repo
 
-You will see the fork of the repository on your GitHub account:
+You will see the fork of the repository on **your** GitHub account:
 
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/fork-process.png){fig-alt="An image showing what the fork of the repository would look on the GitHub account including the name of the repository, where it was forked from, the status of the branch, and a 'Code' button."}
 
@@ -570,7 +552,7 @@ To **clone a repo** means to copy the project files onto your *local device*, su
 - Makes it easy to sync updates between contributors.
 
 ::: callout-important
-## Important Difference
+## Important difference: Forking vs. cloning
 When you **fork** the repo, a copy is made on your *remote GitHub account*. When you **clone** a repo, a copy is downloaded from GitHub onto your *local device*.
 :::
 
@@ -602,11 +584,6 @@ How does this contribute towards collaboration? You can now have a copy of the p
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/new-project.png){width="70%" fig-align="center" fig-alt="An image of an empty RStudio workspace where a user is selecting 'File' then 'New Project...' on the top toolbar to create a new project."}
 
 - [ ] In **RStudio**, click "`File`" -> "`New Project`" to open a new project
-
-<div style="color:red; font-size:50%;">
-Maybe add speaker notes or a note on why now we are switching to R?
-</div> <div style="font-size:50%;"> Will do 
-</div>
 
 ::: {.notes}
 **Speaker Notes**: <br>
@@ -644,12 +621,6 @@ Maybe add speaker notes or a note on why now we are switching to R?
 ::::::
 
 
-<div style="color:red; font-size:50%;">
-No instructor notes here?
-</div> <div style="font-size:50%;">
-Beth: Added :)
-</div> 
-
 ::: {.notes}
 **Speaker Notes**: We need to select "Version Control" to connect RStudio directly to the GitHub repository and work with version-tracked code. Then, we select "Git" to clone the project directly from the GitHub repository. 
 
@@ -675,9 +646,9 @@ Beth: Added :)
 ::::::
 
 ::: callout-important
-## Putting this project in a new folder
+## Placing this project in a new folder
 
-First, make a new folder on your device. Then, you can change the path under "`Create project as subdirectroy of:`" to locate this Git repository in that new folder. We are making a new folder because it is advisable that each folder has its own Git database.
+First, make a new folder on your device. Then, you can change the path under "`Create project as subdirectroy of:`" to place this Git repository in that new folder. We are making a new folder because it is advisable that each folder has its own Git database.
 :::
 
 ::: {.notes}
@@ -711,8 +682,8 @@ To **commit to a project** means to save the file with the changes you made loca
 - Makes it possible to revert or review changes if there are bugs
 
 ::: callout-tip
-## Avoiding conflicts
-Commits help with resolving conflicts because they create clear checkpoints in your project’s history. GitHub also offers [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) as a communication tool to resolve conflicts. 
+## Avoiding merge conflicts
+**Merge conflicts** happen when Git canot automatically combine changes because the same part of a file was edited differently by two collaborators. Frequent commits help with resolving conflicts because they create clear checkpoints in your project’s history. GitHub also offers [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) as a communication tool to resolve conflicts. 
 :::
 
 ::: {.notes}
@@ -809,12 +780,15 @@ Before you **commit to a project**, you need to make some changes to the project
 
 Great, now you have made changes! You added a file with your parameters on a shared project and committed it. Let's take a minute (*literally*) and recap what you did to achieve that. 
 
+<br>
+
+
 <div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
 
 **Activity: one-minute paper!**
 
-- You have 60 seconds to write down what steps you took to collaborate on this project. 
-- Think of the names of the actions, in which order you did them, and how can this be beneficial to you as a collaborator. 
+- You have 60 seconds to write down **what steps you took** to collaborate on this project *so far*. 
+- Think of the **names of the actions**, in which **order** you did them, and **how can this be beneficial** to you as a collaborator. 
 
 </div>
 
@@ -824,6 +798,11 @@ You have 60 seconds to write down these steps. Think of the names of the actions
 
 **Instructor Notes**: This one-minute paper activity is to give the instructor an idea of how the learners are progressing with the steps of collaborative coding so far and if they are understanding how the steps fit into a workflow using GitHub. It also doubly acts as a way to reinforce the concepts discussed in this session. If you want to make the activity a bit easier, you can provide them with the terms: **repo, fork, clone, commit**.
 :::
+
+---
+
+continue from here!!!
+
 
 ---
 
