@@ -41,7 +41,6 @@ This work was originally created by [Felix Schoenbrodt](https://www.nicebread.de
 
 ::: {.notes}
 **Speaker Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
-
 However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
 :::
 
@@ -82,7 +81,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead. 
+**Instructor Notes**: Since this is the introductory submodule of this module, there are no formal prerequisites. However, to get a small kick-start into the topic, learners are adviced to have skimmed the UNESCO Recommendations on Open Science, particularly pages 6-19. 
 :::
 
 ---
@@ -195,7 +194,7 @@ What do we see in the results?
 
 ## Learning goals
 
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy  [@andersonTaxonomyLearningTeaching2001; @bloom1955NormativeStudy1956]
 
 - Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
 - Examples: 
@@ -236,13 +235,16 @@ What do we see in the results?
 **What does "research" mean to you?**
 
 ::: {.notes}
-**Speaker Notes**: Add script for slide here. 
+**Speaker Notes**: Let's start from the beginning! What does research mean to you? What concepts to you connect with it? How would you describe it? Think about this for yourself for a few minutes, write down some notes. Then form pairs and discuss with your partner what they linked to this term. We will then share our ideas in the group.
+
 **Instructor  Notes**: Use the think-pair-share method: Students write down for themselves for a minute what a definition of research could be, then pair with a neighbour to compare answers. Final answers are then discussed in the plenum. 
 :::
 
 ---
 
 ## What is "research"?
+
+<br>
 
 <div style="background-color: #f0f0f0; font-size: 0.8em;">
 "Research refers to a careful, well-defined (or redefined), objective, and **systematic method** of **search for knowledge**, or **formulation** of a theory that is driven by inquisitiveness for that which is unknown and useful on a particular aspect so as to make an original contribution to expand the existing knowledge base. Research involves the **formulation of hypothesis** or **proposition of solutions**, data analysis, and deductions; and ascertaining whether the conclusions fit the hypothesis. Research is a **process of creating, or formulating knowledge that does not yet exist.**"
@@ -256,7 +258,10 @@ Deb, D., Dey, R., & Balas, V. E. (2018). Introduction: What is research? In *Eng
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Add script for slide here. 
+**Speaker Notes**: As was also evident from our discussions from the previous exercise, research can take many forms, therefore finding an all-encompassing description can be tricky. The work by Deb and colleauges (2018) describes research in the following way: Research is a careful, well-defined, objective, and systematic process rather than a random or unstructured activity. It involves a deliberate search for knowledge or the formulation of theories that aim to explain aspects of reality that are not yet fully understood. This process is driven by inquisitiveness and a desire to explore what is unknown, unresolved, or potentially useful, with the ultimate goal of making an original contribution that expands the existing body of knowledge. Research does not simply repeat what is already known; instead, it seeks to refine, extend, or generate new understanding.
+
+Central to the research process is the formulation of hypotheses or the proposition of possible solutions to identified problems. These guide the direction of inquiry and determine the type of data that must be collected. Through systematic data analysis and logical deduction, researchers evaluate evidence to determine whether their conclusions support or contradict the initial hypotheses. This evaluative step is essential, as it ensures that findings are grounded in evidence and coherent reasoning. Ultimately, research is a creative and constructive endeavor that results in the creation or formulation of knowledge that did not previously exist, thereby contributing meaningfully to scholarly and scientific advancement. 
+
 **Instructor  Notes**: Add.
 :::
 
@@ -273,22 +278,20 @@ Deb, D., Dey, R., & Balas, V. E. (2018). Introduction: What is research? In *Eng
 
 
 ::: {.notes}
-**Speaker Notes**: Let us walk through this diagram of the scientific process. This is basically a visual representation of what research can mean. As you can see, the stages are arranged in a clockwise cycle, emphasizing that science is continuous and iterative. We begin with Observation or the question. This is where something in the world prompts us to ask why or how it works, or we made an observation and wonder about a particular feature or consequence. Next, we move into researching the topic area. Here we gather existing knowledge, review what others have discovered, and refine our understanding of the problem.
+**Speaker Notes**: Let us walk through this diagram of the scientific process. This is basically a visual representation of what research can mean. As you can see, the stages are arranged in a clockwise cycle, emphasizing that science is continuous and iterative. We begin with Observation or the question. This is where something in the world prompts us to ask why or how it works, or we made an observation and wonder about a particular feature or consequence. Next, we move into researching the topic area. Here we gather existing knowledge, review what others have discovered, and refine our understanding of the problem. 
 
 Based on what we learn, we develop a hypothesis. This is a testable explanation or prediction that we can investigate. Importantly, a testable hypothesis is a precise statement, derived from your original question. 
 
-Then comes Testing with an Experiment. This is where we design procedures to measure, observe, and collect data in a controlled, systematic way.
+Then comes testing with an experiment. This is where we design procedures to measure, observe, and collect data in a controlled, systematic way.
 
-After the experiment, we Analyze the Data. We look for patterns, compare results to our predictions, and determine whether the hypothesis holds up.
+After the experiment, we analyze the data. We look for patterns, compare results to our predictions, and determine whether the hypothesis holds up.
 
-Finally, we Report Conclusions. This could be through a written paper, a presentation, or sharing findings with a research team. Importantly, these conclusions often lead to new questions, sending us back to the first stage and continuing the cycle of discovery.
+Finally, we report our fundings and conclusions, together with our approach. This could be through a written paper, a presentation, or sharing findings with a research team. Importantly, these conclusions often lead to new questions, sending us back to the first stage and continuing the cycle of discovery.
 
-This diagram highlights that the scientific method isn’t a straight line—it’s an ongoing loop that helps us refine ideas, correct errors, and deepen our understanding of the world.” 
 **Instructor  Notes**: Add.
 :::
 
 ---
-
 
 ## The research cycle
 
@@ -300,7 +303,7 @@ DBR English greyscaler (Design-based research cycle)” by Sarah Zloklikovits, l
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Add script for slide here. 
+**Speaker Notes**: This is a similar diagram to the previous slide, but captures the cyclical nature of research much better. When we have written up our conclusions, we are likely left with more questions and additional observations we made in the process, leading to the start of a whole new research cycle. 
 **Instructor  Notes**: Add.
 :::
 
@@ -308,24 +311,29 @@ DBR English greyscaler (Design-based research cycle)” by Sarah Zloklikovits, l
 
 ## Practical exercise 2
 
-For the following "observation", broadly define the individual steps of the research cycle: <br>
+**Task**: For the following "observation", map out the individual steps of the research cycle: <br>
 
 <br> 
 
-**I wonder what happens to my pasta when I cook it in unsalted water?** 
+**"I wonder what happens to my pasta when I cook it in unsalted water?"** 
 
 ::: {.notes}
-**Speaker Notes**: Add script for slide here. 
-**Instructor  Notes**:
+**Speaker Notes**: I want you to think about these different stages and steps of the research cycle with reference to a concrete example. Let us imagine that you had the impression that on some days, your pasta cooks much faster compared to other days. You wonder why this is. You believe that the most likely explanation for this observation could be the quantity of salt. You formulate your observation in the following way: I wonder what happens to my pasta when I cook it in unsalted water? Your task is to map out the individual steps of a hypothetical approach where you try to answer this question in a systematic way. Use the research cycle as your framework of reference.
 
-- Plausible working example:
+**Instructor  Notes**: A plausible working example:
   - Observation: I notice that pasta seems to cook faster when the water is salted. 
-  - Define the question: Does pasta cook faster in salted water?
-  - Research the topic area: What has been done before?
-  - Define hypothesis: Pasta will cook faster in salted water than in unsalted water. My outcome variable is cooking time in seconds. 
-  - Test with experiment: Define the amount of pasta, amount of water, amount of salt, average heat and the pot to cook the pasta in. Measure cooking time with a watch. Repeat the experiment many times.
-  - Analyze data: Examine the data you collected and compare the cooking times between pasta cooked in salted vs. unsalted water. Define potential confounding factors. 
-  - Write up your statistical conclusion and answer your original question.
+  
+- Define the question: Does pasta cook faster in salted water?
+  
+- Research the topic area: What has been done before?
+  
+- Define hypothesis: Pasta will cook faster in salted water than in unsalted water. My outcome variable is cooking time in seconds.
+  
+- Test with experiment: Define the amount of pasta, amount of water, amount of salt, average heat and the pot to cook the pasta in. Measure cooking time with a watch. Repeat the experiment many times.
+  
+- Analyze data: Examine the data you collected and compare the cooking times between pasta cooked in salted vs. unsalted water. Define potential confounding factors. 
+  
+- Write up your statistical conclusion and answer your original question.
   
 :::
 
@@ -493,7 +501,7 @@ ggplot(df, aes(x = Category, y = Value, fill = Result)) +
 ```
 
 
-<div style="font-size: 0.3em; color: #777;">
+<div style="font-size: 0.55em; color: #777;">
 Begley, C. G., & Ellis, L. M. (2012); Camerer et al (2016); Chang & Li (2015); Cova et al. (2018); Open Science Collaboration (2015); Social Science: Combined sample of systematically sampled projects (RPP, SSRP, EERP); Prinz, F., Schlange, T., & Asadullah, K. (2011); Protzko et al. (2023)
 </div>
 
@@ -513,10 +521,15 @@ Protzko et al. (2023): Original studies were preregistered, used large samples, 
 
 ## Psychology: The Reproducibility Project (2015)
 
+:::incremental
+
 - Large-scale replication project:
   - Close/exact replications of 100 experimental and correlational studies from 3 different psychological journals
   - Reproducibility evaluated based on effect sizes, p-values, subjective assessment of replication teams
   - Contacted original study authors when necessary
+
+:::
+
 
 ::: {.callout-important}
 **What did they find?**
@@ -621,9 +634,8 @@ Adapted from Dr. Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx
 - ...
 
 ::: {.callout-warning}
-The consequence can be a "*rat race*" culture: Researchers try to publish as much as they can (Schmidt et al., 2021)
+The consequence can be a "*rat race*" culture: Researchers try to publish as much as they can [@schmidtCreatingSPACEEvolve2021]
 :::
-
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -870,7 +882,7 @@ d. Gills to breathe underwater
 - H₀ = “the new drug is not better than the existing one.”
 - Collect data from experiments and perform a statistical analysis to see if the evidence is strong enough to reject H₀
 - **P-value** = how likely it is to see the results you got **if H₀ is true**.
-- A p-value of 0.05 means: “There’s a 5% chance of seeing these results (or more extreme) if the null hypothesis is true.”
+  - A p-value of 0.05 means: “*There’s a 5% chance of seeing these results (or more extreme) if the null hypothesis is true.*”
 :::
 
 ::: {.callout-important}
@@ -1070,10 +1082,16 @@ The so-called "hacks" on the past few slides represent **questionable research p
 
 ## Practical exercise 5
 
-**Scenario**: You are reviewing a study examining whether drinking white tea improves short-term memory. The researchers report: <br>
+:::incremental
+
+**Scenario**: You are reviewing a study examining whether drinking white tea improves short-term memory, where the researchers report:
+
   - Hypothesis: *White tea improves memory test scores.*
+  
   - Sample size: 28 participants per group
+  
   - Memory test score difference: *p* = 0.048
+  
   - Results: 
     - Effect was “stronger in women” (*p* = 0.049)
     - Effect “even stronger when excluding two outliers” (*p* = 0.044)
@@ -1082,8 +1100,8 @@ The so-called "hacks" on the past few slides represent **questionable research p
   
   - Conclusion: *The results show that white tea reliably improves cognitive performance.*
 
-**Which potential p-hacking strategies can you spot?**
-
+**Which potential p-hacking strategies are at play here?**
+:::
 
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -1100,26 +1118,42 @@ The so-called "hacks" on the past few slides represent **questionable research p
 
 ---
 
----
-
 ## Practical exercise 5
 
-**Scenario**: You are reviewing a study examining whether drinking white tea improves short-term memory. The researchers report:
+**Scenario**: You are reviewing a study examining whether drinking white tea improves short-term memory, where the researchers report:
+
 - Hypothesis: *White tea improves memory test scores.*
+
 - Sample size: 28 participants per group
+
 - Memory test score difference: *p* = **0.048**
+
 - Results: 
-  - Effect was “stronger in women” (*p* = **0.049**)
+  - Effect was “stronger in **women**” (*p* = **0.049**)
   - Effect “even stronger when excluding two outliers” (*p* = **0.044**)
-  - No effect in men (*p* = 0.31)
+  - No effect in **men** (*p* = 0.31)
   - **Reaction time** difference significant (*p* = **0.046**)
+  
 - Conclusion: The results show that white tea reliably improves **cognitive performance**.
+
+---
+
+## The "real" scientific method
+
+![](images/00_real_scientific_method.png){fig-align=center width=10% fig-alt="diagram of the real scientific method by phdcomics.com to illustrate the QRPs and biased nature inherent to the research cycle."}
+
+
+::: {.notes}
+**Speaker Notes**: Add script for slide here. 
+**Instructor  Notes**: Add.  
+:::
+
 
 ---
 
 ## Does this *actually* happen in real life?
 
-Come on now. Surely..? 
+Come on now. Surely not..? 
 
 ![](images/09_QRPs_Psychology.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
 
@@ -1172,14 +1206,15 @@ Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter,
 
 ## (Un)Intentional? 
 
-- "Evil researcher" who only cares about his/her career and not at all about truth-seeking?
-  - „*We urge the social science community to redefine p-hacking as a series of deceptive research practices rather than ones that are merely questionable.*“ (Craig et al., 2020)
+- Intentional?
+  - "Evil researcher" who only cares about his/her career and not at all about truth-seeking?
+  - „*We urge the social science community to redefine p-hacking as a series of deceptive research practices rather than ones that are merely questionable.*“ [@craigUsingRetractedJournal2020]
 
 - **Unintentional?**
   - Lack of education/knowledge?
   - Wrong/uncritical standards of the field?
   - Pushed by supervisors, reviewers, or editors? ➙ [http://bulliedintobadscience.org/](http://bulliedintobadscience.org/)
-  - *By simply being human?*
+  - **Simply being human?**
   
 ::: {.notes}
 **Speaker Notes**: Add script for slide here. 
@@ -1285,10 +1320,12 @@ Based on these experiences, this article presents a set of guidelines for author
 
 ![](images/statcheck.png){fig-align=center width=10% fig-alt="QRPs in psychology"}
 
-- 16,695 scanned papers with statcheck tool (Nuijten et al., 2015)
-- 50% of papers contain statistical inconsistencies
-- 13% contained strong errors (i.e., where the statistical conclusion changes). 
-- Numerical results of less than 30% of papers can be reproduced (Crüwell et al., 2022)
+:::incremental
+- 16,695 scanned papers with **statcheck tool** (Nuijten et al., 2015)
+- **50%** of papers contain **statistical inconsistencies**
+- 13% contained **strong errors** (i.e., where the statistical conclusion changes). 
+- Numerical results of less than 30% of papers can be **reproduced** [@cruwellWhatsBadgeComputational2022]
+:::
 
 <div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
 Nuijten, M. B., Hartgerink, C. H., Van Assen, M. A., Epskamp, S., & Wicherts, J. M. (2016). The prevalence of statistical reporting errors in psychology (1985–2013). *Behavior research methods, 48*(4), 1205-1226. [https://doi.org/10.3758/s13428-015-0664-2](https://doi.org/10.3758/s13428-015-0664-2)
@@ -1383,75 +1420,96 @@ Nuijten, M. B., Hartgerink, C. H., Van Assen, M. A., Epskamp, S., & Wicherts, J.
   <img src="images/overtrusting_AI.png" class="img3">
 </div>
 
-<div style="display: flex; font-size: 0.4em; color: #777; justify-content: center;">
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
 Emsley, R. (2023). ChatGPT: these are not hallucinations–they’re fabrications and falsifications. *Schizophrenia, 9*(1), 52. <br>
 Lautrup, A. D., Hyrup, T., Schneider-Kamp, A., Dahl, M., Lindholt, J. S., & Schneider-Kamp, P. (2023). Heart-to-heart with ChatGPT: the impact of patients consulting AI for cardiovascular health advice. *Open Heart, 10*(2).
 Shekar, S., Pataranutaporn, P., Sarabu, C., Cecchi, G. A., & Maes, P. (2025). People Overtrust AI-Generated Medical Advice despite Low Accuracy. *NEJM AI, 2*(6), AIoa2300015.
 </div>
 
+---
+
+## Now what?
+
+![](images/crossroads.png){fig-align=center width=100% fig-alt="crossroads"}
+
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+This image was taken from the Geograph project collection. The copyright on this image is owned by Chris Martin and is licensed for reuse under the Creative Commons Attribution-ShareAlike 2.0 license.
+</div>
 
 ---
 
-## References {.smaller}
+## A new way of doing research
 
-::: {#refs}
+<br>
+
+<p style="text-align: center; font-size: 1.5em;">
+**Open Research** <br>
+*aka* <br>
+**A scientific framework for the 21. century**
+</p>
+
+---
+
+
+# To be continued ...
+
+
+---
+
+## Where are we at?
+
+:::incremental
+**Today**:
+
+- The research cycle
+- Trust in research
+- Replicability and reproducibility
+- Challenges in research:
+  - Biases
+  - Questionble research practises/fabrication/falsificaton
+  - Human errors and statistical errors
+- **Towards a new approach to research**
+
+<div style="background-color: #f0f0f0;">
+**Up next**:
+
+- **How Open Research can change the game** and *why*
+</div>
+
 :::
 
 ---
 
-## Refs
+## Reflection activity
 
-Schmidt, R., Curry, S., & Hatch, A. (2021). Creating SPACE to evolve academic assessment. Elife, 10, e70929.
+<br>
+<br>
 
----
+<div style="background-color: #f0f0f0;">
+**One-minute paper**: Imagine you would have to explain the current challenges in research you heard about today to a friend. Write down what you would say to them.
+</div>
 
-## Relevance and implications
-
-- **Aim**: To work out the relevance of the topic to your students.
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-- Examine downfalls and practical obstacles.
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
-- **Aim**: To work out the relevance of the topic to your students.
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-- Examine downfalls and practical obstacles.
+**Instructor Notes**: Add.
 :::
 
 ---
 
-## Assignment
-
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-- Examine whether/how it will be assessed
-- Mention scoring rubrics, if applicable
-- Design a peer-review system for assignments to place students in role of reviewer and author
-
-::: {.notes}
-**Speaker Notes**: Script for the presentation here. 
-**Instructor Notes**: <br>
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-- Examine whether/how it will be assessed
-- Mention scoring rubrics, if applicable
-- Design a peer-review system for assignments to place students in role of reviewer and author
-:::
-
----
 
 ## Take-home message
 
-- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
+**What are you taking away from today?**
 
 ::: {.callout-tip}
-## Tip with Title
-Add one practical tips or take-home message.
+## Remember: There are solutions!
+Research is not "doomed" - on the contrary. More on this in the next session!
 :::
 
 ::: {.notes}
 **Speaker Notes**: Script for the slide here. 
-**Instructor Notes**: <br>
-- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
+**Instructor Notes**: Add.
 :::
 
 ---
@@ -1523,11 +1581,6 @@ e. 5
 - **Aim**: Briefly examine the answers given to each question interactively with the group.
 - Compare and highlight specific differences in answers between pre- and post-survey answers
 :::
-
----
-
-## References
-
 
 ---
 
@@ -1728,5 +1781,12 @@ Decide whether each scenario in the following slides is an example of **reproduc
 - Excluded outliers based on the significance of your results
 - Tested excluding, including, or transforming covariates, but only reported the final model?
 - Neglected to report all the dependent measures you tested?
+
+---
+
+## References {.smaller}
+
+::: {#refs}
+:::
 
 ---
