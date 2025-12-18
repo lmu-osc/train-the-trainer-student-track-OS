@@ -16,8 +16,8 @@ format:
   pptx: 
     css: ../../../slides-custom.css # looks for css file in root
 
-bibliography: ../../../assets/references.bib
-csl: ../../../assets/apa.csl
+bibliography: assets/references.bib
+#csl: assets/apa.csl
 
 execute:
   echo: true
@@ -273,9 +273,9 @@ I'm thinking of deleting this slide, since it is not important to discuss the pr
 
 ## Key terms and definitions
 
-- **Simulations**: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions (Morris et al., 2019).
-- **Power Analysis**: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis (Steidl et al., 1997). 
-- **Effect Size**: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables (Lorah, 2018).
+- **Simulations**: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions (Morris et al., 2019) (@morris_using_2019).
+- **Power Analysis**: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis (Steidl et al., 1997) (@lorah_effect_2018). 
+- **Effect Size**: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables (Lorah, 2018) (@steidl_statistical_1997).
 
 <div style="font-size: 0.5em; color: red;">
 ~~For this slide, perhaps a think-pair share expercise could work? For the integration of old and new concepts?~~ <br> the goal of this slide is *briefly* introduce the key technical terms, so that they can always come back to this and understand it *technically*, along with a reference (for further reading). i believe an exercise here may take up more timne, since the following slides are already quite time-consuming with the exercises.
@@ -443,7 +443,7 @@ This gives you a clear picture of the variation you can expect if the experiment
 
 - To define the meaning of simulations and where they are used. <br>
 - To explain the need for simulations in research. <br>
-- To analyse the process of running a simulation in R, and apply the process to an example.
+- To analyse the process of running a simulation, and apply the process to an example.
 
 <div style="font-size: 0.5em; color: red;">
 ~~I think the green ticks here dont come out like you wanted them? And also, the third learning goal was not touched upon yet?~~
@@ -465,7 +465,7 @@ If you notice any gaps, this is the right moment to bring them up — feel free 
  - If power = 80% -> you have an 80% chance of spotting a bias if it's really there. <br>
  
  <div style="font-size: 0.5em; color: red;">
-This slide is super full and the reader struggles to understand what is the main message here, perhaps a visualisation can help somehow? Or more like a graphic illustration with some of the text in the speaker notes? The first bullet point I think I also dont fully understand?
+~~This slide is super full and the reader struggles to understand what is the main message here, perhaps a visualisation can help somehow? Or more like a graphic illustration with some of the text in the speaker notes? The first bullet point I think I also dont fully understand?~~
 </div>
 
 ::: {.notes}
@@ -482,10 +482,11 @@ So if the power is 80 percent, that means we have an 80 percent chance of notici
 
 ## What is power analysis and its importance?
 
+
 -Power depends on <br>
- - the effect size (*how biased the coin might be*) <br>
- - the sample size (*how many times you flip the coin*) <br>
- - the significance level (*how sure you want to be*)
+ - the **effect size** (*how biased the coin might be*) <br>
+ - the **sample size** (*how many times you flip the coin*) <br>
+ - the **significance level** (*how sure you want to be*)
 
 ::: {.notes}
 **Speaker Notes**: Power depends on three things: the effect size — or how strong the bias might be, the sample size — how many flips we collect, and the significance level — how strict we want our decision rule to be. Keep your earlier hypothesis in mind as we talk through these ideas.
@@ -496,7 +497,7 @@ So if the power is 80 percent, that means we have an 80 percent chance of notici
 ## What is power analysis and its importance? 
 
 1. **Prevents Underpowered Studies**: It makes sure you don’t do an experiment that’s too small and miss something real. <br>
-2. **Optimizes Resource Use**: helps you figure out the smallest number of times you need to do your experiment to have a good chance. This way, you don’t waste time or resources. <br>
+2. **Saves Time and Effort**: helps you figure out the smallest number of times you need to do your experiment to have a good chance. This way, you don’t waste time or resources. <br>
 3. **Required for Transparency and Publication**: a proof that your plan is strong enough.
 
 <div style="font-size: 0.5em; color: red;">
@@ -516,7 +517,7 @@ Required for Funding and Publication: Many funding agencies and journals require
 
 ---
 
-## 2.2 Why Simulations are better for Power Analysis?
+## Why Simulations are better for power analysis?
 
 - **Quick formula method**: Imagine a simple math formula that tells you how many times to do something, like flipping a coin, to be pretty sure of your results. This method works fast and is good when the experiment is simple.
 
@@ -524,10 +525,10 @@ Required for Funding and Publication: Many funding agencies and journals require
 
 ---
 
-## 2.3 Basic Simulation Process for Power Analysis in R
+## Basic simulation process for power analysis
 
 <div style="text-align: center;">
-  <img src="images/Power Analysis Process.png" style="width:50%;" />
+  <img src="images/Power Analysis Process.png" style="width:90%;" />
 </div>
 
 :::{.callout-tip}
@@ -556,9 +557,9 @@ Compute the proportion of simulations with a significant result (this is the est
 
 ## Learning Goals Check-In
 
-[x] To recall the concept of power analysis and its importance. <br>
-[x] To differentiate between traditional and simulation-based methods.  <br>
-[x] To analyse the simulation process for power analyse.
+- To recall the concept of power analysis and its importance. <br>
+- To differentiate between traditional and simulation-based methods.  <br>
+- To analyse the simulation process for power analyse.
 
 
 ::: {.notes}
@@ -567,51 +568,141 @@ If you notice any gaps, this is the right moment to bring them up — feel free 
 :::
 
 <div style="font-size: 0.5em; color: red;">
-Speaker notes missing here? And I think this is a very important point that might need multiple slides? Thoughts?
+~~Speaker notes missing here?~~ And I think this is a very important point that might need multiple slides? Thoughts?
 </div>
 
 ---
 
 ## Take-home message
 
-- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
+- **Simulations = safe playground**: <br> You try your study many times with pretend data, so you learn how your stats behave before touching real data. <br>
+- **Power analysis = trial period**: <br> You find the "just right" study size— not too small to miss real effects, not too big to waste resources.
+- Together they’re your **research rehearsal**: first you imagine the experiment (*simulate*), then you check if the plan is strong enough (*power*), and only then you go on stage with real data.
 
-::: {.callout-tip}
-## Tip with Title
-Add one practical tips or take-home message.
+::: {.notes}
+**Speaker Notes**: To wrap up, here’s the main takeaway.
+Simulations act like a safe playground, where you can run your study many times using pretend data and see how your statistics behave before working with real data.
+Power analysis works like a trial period, helping you decide on a study size that’s large enough to detect real effects, but not larger than necessary.
+Together, simulations and power analysis form a kind of research rehearsal — you first imagine and test the experiment, then check whether the plan is strong enough, and only after that move on to collecting real data. <br>
+**Instructor Notes**: This is a good moment to make sure that the students feel the need for simulations and power analysis on a ground level. The metaphor can make it easier to remember the reasoning.
+:::
+
+---
+
+## On to the tutorias
+
+
+Now, we shall work individually on two **self-paced tutorials** on Simulations and Power Analysis:
+
+<div style="font-size: 0.8em;">
+| Introduction to Simulations in R |  Simulations for Advanced Power Analyses |
+|------------|------------|
+| [Link to tutorial](https://lmu-osc.github.io/Introduction-Simulations-in-R/) |  [Link to tutorial](https://lmu-osc.github.io/Simulations-for-Advanced-Power-Analyses/) |
+</div>
+
+
+:::{.callout-tip}
+## Tip
+Since these are self-paced tutorials, *take your time* on navigating them; and they can be finished at home as well.
 :::
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
-
-**Instructor Notes**:
-
-- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
+**Speaker Notes**: Now we’ll move on to the tutorial part of the session.
+You’ll work individually through two self-paced tutorials — one focusing on simulations in R, and the other on using simulations for more advanced power analysis.
+Take your time as you go through them, and work at a pace that feels comfortable.
+There’s no expectation to finish everything right now, and you’re welcome to continue working on them at home.
+Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorials. <br>
+**Instructor Notes:** Clearly signal the shift from guided instruction to independent work. Remind students that the tutorials are self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Emphasise that the goal is understanding, not completion within the session. Do walk around the room to check up on the progress of the students. 
 :::
 
 ---
 
 ## To conclude: Survey time!
 
-- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
-- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
-- Use identical questions as in the pre-submodule survey to be able to directly compare
+- **Aim**: This post-submodule survey serves to examine students' current knowledge about simulations and power analysis, and familiarity with R.
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here. 
+**Speaker Notes**: To conclude, we’ll take a short survey.
+This post-session survey helps us understand your current level of knowledge about simulations, power analysis, and working in R after completing the submodule.
+Please answer honestly based on how confident you feel now. 
 
-**Instructor Notes**:
-
-- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
-
-- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
-
-- Use identical questions as in the pre-submodule survey to be able to directly compare
+**Instructor Notes**:The purpose is to compare pre- and post-submodule responses to evaluate learning progress and the effectiveness of the tutorial. At this stage, the correct answers can be discussed. Encourage the students to share in class, in case they answered wrongly and navigate them to the correct answer. Use this space to answer doubts, and provide learning or practice tips if the students still feel under-confident in these areas.
 :::
 
 ---
 
-##Qs
+**How confident are you in defining what a “simulation” is in the context of scientific research?**
+
+a. Not confident.
+
+b. Somewhat confident.
+
+c. Confident.
+
+d. Very confident
+
+---
+
+**Simulations are often used in research to… *(Select all you think apply)* **
+
+a. Generate artificial data
+
+b. Visualize complex statistical concepts
+
+c. Replace all statistical analysis
+
+d. Test how models perform under different scenarios
+
+::: {.notes}
+**Instructor Notes**: Correct Answer(s): a. Generate artificial data <br>
+b. Visualize complex statistical concepts <br>
+d. Test how models perform under different scenarios
+- .
+:::
+
+---
+
+**How familiar are you with the concept of “power” in statistics?**
+
+1. I’ve never heard of it 
+
+2. I know the term 
+
+3. I understand the basics 
+
+4. I’m comfortable with calculating power
+
+---
+
+**Power analysis is important for research because… *(Select all you think apply)* **
+
+a. It helps determine how many samples you need
+
+b. It ensures studies always find significant results
+
+c. It helps you design more reliable studies
+
+d. It explains all statistical results
+
+::: {.notes}
+**Instructor Notes**: Correct Answer(s): a. It helps determine how many samples you need <br>
+c. It helps you design more reliable studies
+- .
+:::
+
+---
+
+**How comfortable are you with running basic R code and performing simulation / power analysis in R?**
+
+a. Very uncomfortable
+
+b. Somewhat uncomfortable 
+
+c. Neutral
+
+d. Somewhat comfortable
+
+e. Very comfortable
 
 ---
 
@@ -631,15 +722,23 @@ Add one practical tips or take-home message.
 
 ---
 
-## References {.smaller}
+## References and Additional Resources{.smaller}
 
 ::: {#refs}
 :::
 
-::: {.notes}
-**Speaker Notes**: Script for the slide here. 
 
-**Instructor Notes**: Highlight particularly relevant reading for your students in bold. 
+**Additional Resources:** <br>
+- Hallgren, K. A. (2013). Conducting Simulation Studies in the R Programming Environment. Tutorials in Quantitative Methods for Psychology, 9(2), 43–60. https://doi.org/10.20982/tqmp.09.2.p043 <br>
+- Mullendore, G. L., Mayernik, M. S., & Schuster, D. C. (2021). Open Science Expectations for Simulation-Based Research. Frontiers in Climate, 3. https://doi.org/10.3389/fclim.2021.763420 <br>
+- Wassertheil, S., & Cohen, J. (1970). Statistical Power Analysis for the Behavioral Sciences. Biometrics, 26(3), 588. https://doi.org/10.2307/2529115 <br>
+- [Introduction to Power Analysis by Courtney K. Soderberg](https://osf.io/7wfed/files/asf53)
+
+::: {.notes}
+**Speaker Notes**: This slide lists the key references and additional resources used throughout the session.
+You don’t need to go through these right now.
+They’re here so you can revisit the concepts in more depth later, explore practical examples, or follow up on topics that interested you during the tutorial.
+Feel free to use these resources at your own pace.
 :::
 
 ---
@@ -672,4 +771,4 @@ Possible roles using the CRediT contribition system or the Zenodo Contribution S
 
 **Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
----
+--- 

@@ -32,6 +32,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -157,7 +158,7 @@ Tejaswini Sharma
 </div>
 </div>
 
-  <p class="date">16/12/2025</p>
+  <p class="date">18/12/2025</p>
 </section>
 <section id="general-feedback---delete-slide-later" class="slide level2">
 <h2>General feedback - delete slide later</h2>
@@ -448,9 +449,9 @@ Tejaswini Sharma
 <section id="key-terms-and-definitions" class="slide level2">
 <h2>Key terms and definitions</h2>
 <ul>
-<li><strong>Simulations</strong>: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions (Morris et al., 2019).</li>
-<li><strong>Power Analysis</strong>: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis (Steidl et al., 1997).</li>
-<li><strong>Effect Size</strong>: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables (Lorah, 2018).</li>
+<li><strong>Simulations</strong>: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions (Morris et al., 2019) (<span class="citation" data-cites="morris_using_2019">Morris, White, and Crowther (<a href="#/references-and-additional-resources" role="doc-biblioref" onclick="">2019</a>)</span>).</li>
+<li><strong>Power Analysis</strong>: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis (Steidl et al., 1997) (<span class="citation" data-cites="lorah_effect_2018">Lorah (<a href="#/references-and-additional-resources" role="doc-biblioref" onclick="">2018</a>)</span>).</li>
+<li><strong>Effect Size</strong>: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables (Lorah, 2018) (<span class="citation" data-cites="steidl_statistical_1997">Steidl, Hayes, and Schauber (<a href="#/references-and-additional-resources" role="doc-biblioref" onclick="">1997</a>)</span>).</li>
 </ul>
 <div style="font-size: 0.5em; color: red;">
 <p><del>For this slide, perhaps a think-pair share expercise could work? For the integration of old and new concepts?</del> <br> the goal of this slide is <em>briefly</em> introduce the key technical terms, so that they can always come back to this and understand it <em>technically</em>, along with a reference (for further reading). i believe an exercise here may take up more timne, since the following slides are already quite time-consuming with the exercises.</p>
@@ -656,7 +657,7 @@ Tejaswini Sharma
 <ul>
 <li>To define the meaning of simulations and where they are used. <br></li>
 <li>To explain the need for simulations in research. <br></li>
-<li>To analyse the process of running a simulation in R, and apply the process to an example.</li>
+<li>To analyse the process of running a simulation, and apply the process to an example.</li>
 </ul>
 <div style="font-size: 0.5em; color: red;">
 <p><del>I think the green ticks here dont come out like you wanted them? And also, the third learning goal was not touched upon yet?</del></p>
@@ -679,7 +680,7 @@ Tejaswini Sharma
 <h2>What is power analysis and its importance?</h2>
 <p><strong>Let’s flip the coin again, <em>but how many times?</em> </strong> <br> - <strong>Power analysis</strong> is like figuring out how many times you need to flip a coin -&gt; to be pretty sure you can tell if the coin is fair or not. <br> - <strong>Power</strong> = your chance of catching the coin’s true nature if it really is biased. <br> - If power = 80% -&gt; you have an 80% chance of spotting a bias if it’s really there. <br></p>
 <div style="font-size: 0.5em; color: red;">
-<p>This slide is super full and the reader struggles to understand what is the main message here, perhaps a visualisation can help somehow? Or more like a graphic illustration with some of the text in the speaker notes? The first bullet point I think I also dont fully understand?</p>
+<p><del>This slide is super full and the reader struggles to understand what is the main message here, perhaps a visualisation can help somehow? Or more like a graphic illustration with some of the text in the speaker notes? The first bullet point I think I also dont fully understand?</del></p>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: In this section, we’re looking at what power analysis means and why it matters. Think back to our coin example — the question now is: How many times should we flip the coin to confidently decide whether it’s fair? Power analysis helps us figure that out. Power is simply the chance of detecting a real effect if it truly exists. So if the power is 80 percent, that means we have an 80 percent chance of noticing a bias when the coin is actually biased. <br></p>
@@ -698,7 +699,7 @@ Tejaswini Sharma
 </section>
 <section id="what-is-power-analysis-and-its-importance-1" class="slide level2">
 <h2>What is power analysis and its importance?</h2>
-<p>-Power depends on <br> - the effect size (<em>how biased the coin might be</em>) <br> - the sample size (<em>how many times you flip the coin</em>) <br> - the significance level (<em>how sure you want to be</em>)</p>
+<p>-Power depends on <br> - the <strong>effect size</strong> (<em>how biased the coin might be</em>) <br> - the <strong>sample size</strong> (<em>how many times you flip the coin</em>) <br> - the <strong>significance level</strong> (<em>how sure you want to be</em>)</p>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Power depends on three things: the effect size — or how strong the bias might be, the sample size — how many flips we collect, and the significance level — how strict we want our decision rule to be. Keep your earlier hypothesis in mind as we talk through these ideas.</p>
 <style type="text/css">
@@ -717,7 +718,7 @@ Tejaswini Sharma
 <h2>What is power analysis and its importance?</h2>
 <ol type="1">
 <li><strong>Prevents Underpowered Studies</strong>: It makes sure you don’t do an experiment that’s too small and miss something real. <br></li>
-<li><strong>Optimizes Resource Use</strong>: helps you figure out the smallest number of times you need to do your experiment to have a good chance. This way, you don’t waste time or resources. <br></li>
+<li><strong>Saves Time and Effort</strong>: helps you figure out the smallest number of times you need to do your experiment to have a good chance. This way, you don’t waste time or resources. <br></li>
 <li><strong>Required for Transparency and Publication</strong>: a proof that your plan is strong enough.</li>
 </ol>
 <div style="font-size: 0.5em; color: red;">
@@ -751,16 +752,16 @@ Tejaswini Sharma
       }</style></aside>
 </section>
 <section id="why-simulations-are-better-for-power-analysis" class="slide level2">
-<h2>2.2 Why Simulations are better for Power Analysis?</h2>
+<h2>Why Simulations are better for power analysis?</h2>
 <ul>
 <li><p><strong>Quick formula method</strong>: Imagine a simple math formula that tells you how many times to do something, like flipping a coin, to be pretty sure of your results. This method works fast and is good when the experiment is simple.</p></li>
 <li><p><strong>Simulation method</strong>: This is like pretending to do the experiment many times on a computer before actually doing it. You create fake results based on what you think will happen. This way is better when the experiment is tricky or has many parts that are hard to predict.</p></li>
 </ul>
 </section>
-<section id="basic-simulation-process-for-power-analysis-in-r" class="slide level2">
-<h2>2.3 Basic Simulation Process for Power Analysis in R</h2>
+<section id="basic-simulation-process-for-power-analysis" class="slide level2">
+<h2>Basic simulation process for power analysis</h2>
 <div style="text-align: center;">
-<p><img src="images/Power Analysis Process.png" style="width:50%;"></p>
+<p><img src="images/Power Analysis Process.png" style="width:90%;"></p>
 </div>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
@@ -791,7 +792,11 @@ Tejaswini Sharma
 </section>
 <section id="learning-goals-check-in-1" class="slide level2">
 <h2>Learning Goals Check-In</h2>
-<p>[x] To recall the concept of power analysis and its importance. <br> [x] To differentiate between traditional and simulation-based methods. <br> [x] To analyse the simulation process for power analyse.</p>
+<ul>
+<li>To recall the concept of power analysis and its importance. <br></li>
+<li>To differentiate between traditional and simulation-based methods. <br></li>
+<li>To analyse the simulation process for power analyse.</li>
+</ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.<br> If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.</p>
 <style type="text/css">
@@ -806,33 +811,64 @@ Tejaswini Sharma
           display:block!important;
       }</style></aside>
 <div style="font-size: 0.5em; color: red;">
-<p>Speaker notes missing here? And I think this is a very important point that might need multiple slides? Thoughts?</p>
+<p><del>Speaker notes missing here?</del> And I think this is a very important point that might need multiple slides? Thoughts?</p>
 </div>
 </section>
 <section id="take-home-message" class="slide level2">
 <h2>Take-home message</h2>
 <ul>
-<li><strong>Aim</strong>: End lesson on clear take-home message that are interactively compiled by students.</li>
+<li><strong>Simulations = safe playground</strong>: <br> You try your study many times with pretend data, so you learn how your stats behave before touching real data. <br></li>
+<li><strong>Power analysis = trial period</strong>: <br> You find the “just right” study size— not too small to miss real effects, not too big to waste resources.</li>
+<li>Together they’re your <strong>research rehearsal</strong>: first you imagine the experiment (<em>simulate</em>), then you check if the plan is strong enough (<em>power</em>), and only then you go on stage with real data.</li>
 </ul>
+<aside class="notes">
+<p><strong>Speaker Notes</strong>: To wrap up, here’s the main takeaway. Simulations act like a safe playground, where you can run your study many times using pretend data and see how your statistics behave before working with real data. Power analysis works like a trial period, helping you decide on a study size that’s large enough to detect real effects, but not larger than necessary. Together, simulations and power analysis form a kind of research rehearsal — you first imagine and test the experiment, then check whether the plan is strong enough, and only after that move on to collecting real data. <br> <strong>Instructor Notes</strong>: This is a good moment to make sure that the students feel the need for simulations and power analysis on a ground level. The metaphor can make it easier to remember the reasoning.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="on-to-the-tutorias" class="slide level2">
+<h2>On to the tutorias</h2>
+<p>Now, we shall work individually on two <strong>self-paced tutorials</strong> on Simulations and Power Analysis:</p>
+<div style="font-size: 0.8em;">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Introduction to Simulations in R</th>
+<th>Simulations for Advanced Power Analyses</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://lmu-osc.github.io/Introduction-Simulations-in-R/">Link to tutorial</a></td>
+<td><a href="https://lmu-osc.github.io/Simulations-for-Advanced-Power-Analyses/">Link to tutorial</a></td>
+</tr>
+</tbody>
+</table>
+</div>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Tip with Title</strong></p>
+<p><strong>Tip</strong></p>
 </div>
 <div class="callout-content">
-<p>Add one practical tips or take-home message.</p>
+<p>Since these are self-paced tutorials, <em>take your time</em> on navigating them; and they can be finished at home as well.</p>
 </div>
 </div>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
-<p><strong>Instructor Notes</strong>:</p>
-<ul>
-<li><strong>Aim</strong>: End lesson on clear take-home message that are interactively compiled by students.</li>
-</ul>
+<p><strong>Speaker Notes</strong>: Now we’ll move on to the tutorial part of the session. You’ll work individually through two self-paced tutorials — one focusing on simulations in R, and the other on using simulations for more advanced power analysis. Take your time as you go through them, and work at a pace that feels comfortable. There’s no expectation to finish everything right now, and you’re welcome to continue working on them at home. Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorials. <br> <strong>Instructor Notes:</strong> Clearly signal the shift from guided instruction to independent work. Remind students that the tutorials are self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Emphasise that the goal is understanding, not completion within the session. Do walk around the room to check up on the progress of the students.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -848,18 +884,11 @@ Tejaswini Sharma
 <section id="to-conclude-survey-time" class="slide level2">
 <h2>To conclude: Survey time!</h2>
 <ul>
-<li><strong>Aim</strong>: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.</li>
-<li>Use free survey software such as particify or formR to establish the following questions (shown on separate slides)</li>
-<li>Use identical questions as in the pre-submodule survey to be able to directly compare</li>
+<li><strong>Aim</strong>: This post-submodule survey serves to examine students’ current knowledge about simulations and power analysis, and familiarity with R.</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
-<p><strong>Instructor Notes</strong>:</p>
-<ul>
-<li><p><strong>Aim</strong>: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.</p></li>
-<li><p>Use free survey software such as particify or formR to establish the following questions (shown on separate slides)</p></li>
-<li><p>Use identical questions as in the pre-submodule survey to be able to directly compare</p></li>
-</ul>
+<p><strong>Speaker Notes</strong>: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge about simulations, power analysis, and working in R after completing the submodule. Please answer honestly based on how confident you feel now.</p>
+<p><strong>Instructor Notes</strong>:The purpose is to compare pre- and post-submodule responses to evaluate learning progress and the effectiveness of the tutorial. At this stage, the correct answers can be discussed. Encourage the students to share in class, in case they answered wrongly and navigate them to the correct answer. Use this space to answer doubts, and provide learning or practice tips if the students still feel under-confident in these areas.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -874,7 +903,80 @@ Tejaswini Sharma
 </section>
 <section class="slide level2">
 
-<p>##Qs</p>
+<p><strong>How confident are you in defining what a “simulation” is in the context of scientific research?</strong></p>
+<ol type="a">
+<li><p>Not confident.</p></li>
+<li><p>Somewhat confident.</p></li>
+<li><p>Confident.</p></li>
+<li><p>Very confident</p></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>Simulations are often used in research to… <em>(Select all you think apply)</em> </strong></p>
+<ol type="a">
+<li><p>Generate artificial data</p></li>
+<li><p>Visualize complex statistical concepts</p></li>
+<li><p>Replace all statistical analysis</p></li>
+<li><p>Test how models perform under different scenarios</p></li>
+</ol>
+<aside class="notes">
+<p><strong>Instructor Notes</strong>: Correct Answer(s): a. Generate artificial data <br> b. Visualize complex statistical concepts <br> d.&nbsp;Test how models perform under different scenarios - .</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>How familiar are you with the concept of “power” in statistics?</strong></p>
+<ol type="1">
+<li><p>I’ve never heard of it</p></li>
+<li><p>I know the term</p></li>
+<li><p>I understand the basics</p></li>
+<li><p>I’m comfortable with calculating power</p></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>Power analysis is important for research because… <em>(Select all you think apply)</em> </strong></p>
+<ol type="a">
+<li><p>It helps determine how many samples you need</p></li>
+<li><p>It ensures studies always find significant results</p></li>
+<li><p>It helps you design more reliable studies</p></li>
+<li><p>It explains all statistical results</p></li>
+</ol>
+<aside class="notes">
+<p><strong>Instructor Notes</strong>: Correct Answer(s): a. It helps determine how many samples you need <br> c.&nbsp;It helps you design more reliable studies - .</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>How comfortable are you with running basic R code and performing simulation / power analysis in R?</strong></p>
+<ol type="a">
+<li><p>Very uncomfortable</p></li>
+<li><p>Somewhat uncomfortable</p></li>
+<li><p>Neutral</p></li>
+<li><p>Somewhat comfortable</p></li>
+<li><p>Very comfortable</p></li>
+</ol>
 </section>
 <section id="discussion-of-survey-results-1" class="slide level2">
 <h2>Discussion of survey results</h2>
@@ -900,14 +1002,22 @@ Tejaswini Sharma
           display:block!important;
       }</style></aside>
 </section>
-<section id="references" class="slide level2 smaller scrollable">
-<h2>References</h2>
-<div id="refs" role="list">
-
+<section id="references-and-additional-resources" class="slide level2 smaller scrollable">
+<h2>References and Additional Resources</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-lorah_effect_2018" class="csl-entry" role="listitem">
+Lorah, Julie. 2018. <span>“Effect Size Measures for Multilevel Models: Definition, Interpretation, and <span>TIMSS</span> Example.”</span> <em>Large-Scale Assessments in Education</em> 6 (1): 8. <a href="https://doi.org/10.1186/s40536-018-0061-2">https://doi.org/10.1186/s40536-018-0061-2</a>.
 </div>
+<div id="ref-morris_using_2019" class="csl-entry" role="listitem">
+Morris, Tim P., Ian R. White, and Michael J. Crowther. 2019. <span>“Using Simulation Studies to Evaluate Statistical Methods.”</span> <em>Statistics in Medicine</em> 38 (11): 2074–2102. <a href="https://doi.org/10.1002/sim.8086">https://doi.org/10.1002/sim.8086</a>.
+</div>
+<div id="ref-steidl_statistical_1997" class="csl-entry" role="listitem">
+Steidl, Robert J., John P. Hayes, and Eric Schauber. 1997. <span>“Statistical <span>Power</span> <span>Analysis</span> in <span>Wildlife</span> <span>Research</span>.”</span> <em>The Journal of Wildlife Management</em> 61 (2): 270. <a href="https://doi.org/10.2307/3802582">https://doi.org/10.2307/3802582</a>.
+</div>
+</div>
+<p><strong>Additional Resources:</strong> <br> - Hallgren, K. A. (2013). Conducting Simulation Studies in the R Programming Environment. Tutorials in Quantitative Methods for Psychology, 9(2), 43–60. https://doi.org/10.20982/tqmp.09.2.p043 <br> - Mullendore, G. L., Mayernik, M. S., &amp; Schuster, D. C. (2021). Open Science Expectations for Simulation-Based Research. Frontiers in Climate, 3. https://doi.org/10.3389/fclim.2021.763420 <br> - Wassertheil, S., &amp; Cohen, J. (1970). Statistical Power Analysis for the Behavioral Sciences. Biometrics, 26(3), 588. https://doi.org/10.2307/2529115 <br> - <a href="https://osf.io/7wfed/files/asf53">Introduction to Power Analysis by Courtney K. Soderberg</a></p>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Script for the slide here.</p>
-<p><strong>Instructor Notes</strong>: Highlight particularly relevant reading for your students in bold.</p>
+<p><strong>Speaker Notes</strong>: This slide lists the key references and additional resources used throughout the session. You don’t need to go through these right now. They’re here so you can revisit the concepts in more depth later, explore practical examples, or follow up on topics that interested you during the tutorial. Feel free to use these resources at your own pace.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
