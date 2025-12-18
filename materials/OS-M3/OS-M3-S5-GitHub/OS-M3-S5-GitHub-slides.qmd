@@ -33,7 +33,7 @@ execute:
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Malika Ihle is licensed under a CC BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Malika Ihle is licensed under a CC BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). Users are free to share and adapt the material for any purpose, even commercially, as long as they give appropriate credit to the original authors and indicate if changes were made.
 </div>
 
 ::: {.notes}
@@ -264,8 +264,10 @@ What do we see in the results?
 ::: {.notes}
 **Speaker Notes**: So far, you have built up your R skills from basic data handling to visualizations and learned the fundamentals of version control with Git. Next, we are moving into how these tools come together for collaboration such as: working on projects remotely and tracking changes from multiple contributors.
 
-**Instructor Notes**: <br>
-- Aim: Place the topic of the current submodule within a broader context. <br>
+**Instructor Notes**:
+
+- Aim: Place the topic of the current submodule within a broader context.
+
 - Consider GitHub as a solution to some existing challenges in Open Research to remind students what they are working towards and what the bigger picture is.
 :::
 
@@ -283,9 +285,11 @@ At the end of this session, you should be able to:
 ::: {.notes}
 **Speaker Notes**: By the end of this session, you should feel confident navigating GitHub and using it for collaboration. You will learn how to fork and clone repositories to create local copies, commit and push your work, and pull updates from others to stay in sync. Finally, you will see how these actions build a workflow that supports open, transparent, and reproducible research or projects.
 
-**Instructor Notes**: <br>
-- Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956) <br>
-- Emphasis is placed on the VERBS of the learning goals that align with the skills you want to develop or assess.
+**Instructor Notes**:
+
+- Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+
+- Emphasis is placed on the **verbs** of the learning goals that align with the skills you want to develop or assess.
 :::
 
 ---
@@ -308,9 +312,11 @@ At the end of this session, you should be able to:
 ::: {.notes}
 **Speaker Notes**: This session will be an introduction on how to navigate GitHub and the language (coding) used to communicate with GitHub using your RStudio terminal. What follows are essentially commands you can use to collaborate with others on projects by accessing the files, making changes without affecting anyone else's progress, keeping your work updated, and more. 
 
-**Instructor Notes**: <br>
-- Aim: To establish the core theoretical introduction of submodule topics. <br>
-- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).  <br>
+**Instructor Notes**:
+- Aim: To establish the core theoretical introduction of submodule topics.
+
+- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
+
 - For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
 :::
 
@@ -334,11 +340,13 @@ At the end of this session, you should be able to:
 
 ## Key terms and definitions
 
+::: incremental
 - **Git**: A version control system that tracks changes made to files over time.  
 - **GitHub**: A cloud-based, online platform that hosts Git-tracked projects. 
 - **Git repository**: (also known as *repo*) A folder that contains your project files and the history of all changes made to them.
 - **GitHub repository**: An online or remote version of a Git repository that is hosted on GitHub's servers.
 - **Branch**: A separate workspace where you can make changes without affecting the main project.
+:::
 
 ::: {.notes}
 **Speaker Notes**: Now let us define these key terms, even if for now they are a little abstract. <br>
@@ -354,11 +362,13 @@ At the end of this session, you should be able to:
 
 ## Collaboration challenges
 
+::: incremental
 Researchers can face many **challenges** when working collaboratively in a team with other researchers or in multi-organisational projects. Some of these are: 
 
 - Poor communication
 - Disconnected collaboration
 - Limited transparency of project materials
+:::
 
 ::: callout-tip
 ## Sound familiar?
@@ -403,13 +413,13 @@ Think about your past experience working collaboratively in a team. Did you face
 
 ## What is collaborative coding? 
 
-:::::: {style="display: flex; gap: 1em;"}
+:::::: {style="display: flex; gap: 0.5em;"}
 ::: {style="flex: 0.5;"}
 
 ![](images/02_Collab_Code.png){fig-alt="A drawing with lines connecting several persons to indicate collaboration."}
 
 :::
-::: {style="flex: 1.5;"}
+::: {style="flex: 2.5;"}
 
 With **collaborative coding**:
 
@@ -421,14 +431,17 @@ With **collaborative coding**:
 :::
 ::::::
 
-
-::: callout-note
-Collaborative coding is only **one way** a team or a research group can work together on a single project. GitHub supports collaborative coding, but more generally collaboration on many different types of materials/projects, not *just* code. 
-:::
-
 ::: {.notes}
 **Speaker Notes**: Collaborative coding means that a whole team can contribute to the same project in real time where everyone can edit, review, and improve the same code without overwriting each other’s work. Git and GitHub make this possible by keeping track of every change, merging updates smoothly, and maintaining transparency. This approach makes teamwork easier and strengthens openness and reproducibility in research. <br>
 As we go through the different actions you can do with your project files on GitHub, we'll also discuss how it contributes towards a collaborative workflow.
+:::
+
+---
+
+## Zooming out: GitHub collaborations
+
+::: callout-note
+Collaborative coding is only **one way** a team or a research group can work together on a single project. GitHub supports collaborative coding, but more generally collaboration on many different types of materials/projects, not *just* code. 
 :::
 
 ---
@@ -460,11 +473,13 @@ What a *workflow* using **GitHub** can look like:
 
 ## Fork a repo
 
+::: incremental
 To **fork a repo** means to copy a collaborator’s repo to your own remote *GitHub account*.
 
 - Enables multiple contributors to work in parallel.
 - Make changes without affecting the original project.
 - Provides a personal workspace to test ideas.
+:::
 
 ::: {.notes}
 **Speaker Notes**: Now let us go through each of the steps in the workflow and practice them. The first step is to make your own copy of the project repository to your GitHub account. To do this, you need to fork the repo, which means to copy it so that you have your own version where you can host your changes to send it with changes back to the main repository later. <br>
@@ -546,10 +561,12 @@ You will see the fork of the repository on **your** GitHub account:
 
 ## Clone a repo
 
+::: incremental
 To **clone a repo** means to copy the project files onto your *local device*, such as your personal computer.
 
 - Connects your local work directly to the team’s online repository.
 - Makes it easy to sync updates between contributors.
+:::
 
 ::: callout-important
 ## Important difference: Forking vs. cloning
@@ -675,15 +692,17 @@ Now, when you click on the "`Files`" tab in **RStudio**, you should see all the 
 
 ## Commit to a project
 
+::: incremental
 To **commit to a project** means to save the file with the changes you made locally in your version control system.
 
 - Records progress in small and trackable steps
 - Lets others see exactly what was changed
 - Makes it possible to revert or review changes if there are bugs
+:::
 
 ::: callout-tip
 ## Avoiding merge conflicts
-**Merge conflicts** happen when Git canot automatically combine changes because the same part of a file was edited differently by two collaborators. Frequent commits help with resolving conflicts because they create clear checkpoints in your project’s history. GitHub also offers [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) as a communication tool to resolve conflicts. 
+**Merge conflicts** happen when Git cannot automatically combine changes because the same part of a file was edited differently by two collaborators. Frequent commits help with resolving conflicts because they create clear checkpoints in your project’s history. GitHub also offers [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues) as a communication tool to resolve conflicts. 
 :::
 
 ::: {.notes}
@@ -801,18 +820,15 @@ You have 60 seconds to write down these steps. Think of the names of the actions
 
 ---
 
-continue from here!!!
-
-
----
-
 ## Push changes
 
+::: incremental
 To **push changes** means to upload your local commits from your local computer to the remote repository on GitHub.
 
 - Keeps the online version of the project up to date.
 - Makes your work visible to all contributors in real time.
 - Enables others to pull your latest edits and build on them.
+:::
 
 ::: {.notes}
 **Speaker Notes**: The next step after making your changes and committing them is to push the changes you made from your local device onto the remote forked repository that is on your GitHub account. <br>
@@ -854,7 +870,7 @@ If you successfully pushed your changes, you would see a pop up box like the one
 ::: callout-important
 ## Important step: refresh the page
 
-Refresh the page of your forked repository on GitHub and you should see your new file with the commit message next to it. Refreshing the page is an important step to update your forked repository with the new file you added. 
+Refresh the page of your forked repository on GitHub and you should see your new file with the commit message next to it. **Refreshing the page** is an important step to update your forked repository with the new file you added. 
 :::
 
 ::: {.notes}
@@ -896,7 +912,7 @@ c. Sending emails and important messages to team members
 d. Backing up personal files only
 
 ::: {.notes}
-**Instructor Notes**: The correct answer is B.
+**Instructor Notes**: The correct answer is b.
 :::
 
 ---
@@ -992,11 +1008,13 @@ What do we see in the results?
 
 ## Pull request
 
+::: incremental
 To make a **pull request** means asking the repository's owner to review the changes you made (from your fork or branch) and merge them into the main repository on GitHub.
 
 - Creates a space for discussion and code review before incorporating changes.
 - Encourages feedback and peer learning.
 - Maintains project quality and consistency.
+:::
 
 ::: {.notes}
 **Speaker Notes**: After pushing your changes to the remote repository, it is just on your forked copy for now and not in the main repository that has the original project files. You then need to make a **pull request**. This is a request on GitHub for the owner of the main repository to review your changes and then incorporate or merge them into the main repository. This can either add to or change the original project files. <br>
@@ -1050,11 +1068,13 @@ How does this contribute towards collaboration? The changes can be reviewed and 
 
 ## Merge changes
 
+::: incremental
 To **merge changes** means to combine updates from different branches or contributors into one unified version of the project.
 
 - Brings everyone’s contributions together.
 - Ensures new work integrates smoothly with the main branch.
 - Helps resolve overlapping edits or conflicts between files.
+:::
 
 ::: {.notes}
 **Speaker Notes**: Now that the changes have been made and you opened a pull request, the next step is for those changes to be reviewed and incorporated into the main branch. This is what is meant by "merge" because the contributions from the different collaborators are merged into the one project that everyone is working on. <br>
@@ -1136,12 +1156,6 @@ If everything looks fine, the owner will:
 :::
 ::::::
 
-<div style="color:red; font-size:50%;">
-Maybe add instructor notes here that this is now up to the instructor to handle?
-</div> <div style="font-size:50%;">
-Beth: added & made that part on the slide bold too
-</div>
-
 ::: callout-note 
 ## What should I see?
 
@@ -1149,7 +1163,7 @@ All the contributions that were merged into this repository should show up in th
 :::
 
 ::: {.notes}
-**Speaker Notes**: Let's see how all the contributions are integrated into a single document. First, the owner of the main repository needs to pull all the files that were pushed by the other contributors so that all the new files will be on the local copy of the repository. 
+**Speaker Notes**: Let us see how all the contributions are integrated into a single document. First, the owner of the main repository needs to pull all the files that were pushed by the other contributors so that all the new files will be on the local copy of the repository. 
 
 **Instructor Notes**: The instructor (that is, the owner of the main repository) will perform this task to pull the changes made by the students into the main repo. 
 :::
@@ -1191,7 +1205,7 @@ All the contributions that were merged into this repository should show up in th
 :::
 ::::::
 
-- An html document will appear that shows the contributions plotted altogether on a line graph and images of skulls under the names of the species. 
+- An **html document** will appear that shows the contributions plotted altogether on a line graph and images of skulls under the names of the species. 
 
 **You did it! You collaborated on GitHub!**
 
@@ -1216,7 +1230,7 @@ Now let's see what that looks like for this project with a **live demonstration*
 ::: {.notes}
 **Speaker Notes**: Now that we know what to do, let's see it in action with a live demonstration! We will merge changes in one or more forks with the main repository project files via the pull requests. 
 
-**Instructor Notes**: Do a live demonstration of merging some changes- depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student. <br>
+**Instructor Notes**: Do a live demonstration of merging some changes. Depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual student. <br>
 - For this particular project, the things you want to check for during your review is that each new file has the 3 elements in the correct format: 'sig2' is a numerical value between 1-5 with no quotation marks; 'species.name' has quotation marks; 'color' is a hex code starting with a # followed by 6 characters and is in quotation marks. Errors here can break the code. <br>
 - When you open the "plot-trait-evolution.Rmd" file, you would have to install and load the necessary packages before hitting 'Knit'- the packages are detailed in the file itself. 
 - Note this demo is only suitable for a class-room setting.
@@ -1226,11 +1240,13 @@ Now let's see what that looks like for this project with a **live demonstration*
 
 ## Pull upstream
 
+::: incremental
 To **pull upstream** means to update your local or forked repository with the latest changes from the original (upstream) repository.
 
 - Keeps your local copy aligned with the main project’s progress.
 - Prevents outdated or conflicting edits when working in teams.
 - Encourages synchronization across all contributors.
+:::
 
 ::: {.notes}
 **Speaker Notes**: Even after you pushed your changes and it was merged into the main branch, the project may still be ongoing or your local and remote copied repositories may not have the contributions from the other collaborators. This is why you should pull upstream to update your local or forked repository with the latest changes from the original repo. <br>
@@ -1239,11 +1255,6 @@ How does this contribute towards collaboration? It keeps your local copy updated
 **Instructor Notes**: Back to the students! Here the students will perform this task as they must now pull the changes that the instructor merged into the main repository. This means they will incorporate the changes into their individual copies of the project, emphasize that this is a process to keep all their copies up to date with the changes and contributions made. 
 :::
 
-<div style="color:red; font-size:50%;">
-Maybe add instructor notes here?
-</div> <div style="font-size:50%;">
-Beth: Yes, i added one that clarifies this next exercise is for the students to do and why.
-</div>
 ---
 
 ## Practical exercise 6: Pull 
@@ -1314,7 +1325,7 @@ Replace the "`ORIGINAL_OWNER`" with the name of the GitHub account that owns the
 git push
 ```
 
-![This is an example.](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/final-push.png){fig-alt="A screenshot of an RStudio terminal showing the command ‘git push’ with a successful push to the GitHub repository."}
+![This is an example.](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/final-push.png){fig-align="center" fig-alt="A screenshot of an RStudio terminal showing the command ‘git push’ with a successful push to the GitHub repository."}
 
 ::: {.notes}
 **Speaker Notes**: Earlier we merged some new R files containing unique parameters into the main repository. After pulling upstream, these files should now be showing up in your "File" tab in RStudio, this means that they are now on your local copy. To also have them appear on your fork on GitHub you can push them using a simple Git command: git push. Enter this into the terminal to execute it. Then check your fork on GitHub to make sure the new files are also appearing in the "params" sub-folder there. 
@@ -1326,12 +1337,14 @@ git push
 
 **You just completed the entire workflow!** 
 
+::: incremental
 - You **started with making a fork** of the main repository with the project files to make your changes without affecting anyone else's work. 
 - Then you **pushed** and had these **changes merged** into the main repository.
 - Lastly, you **pulled these changes** so that your copies (remote and local) can stay updated with the changes made. 
+:::
 
 ::: {.notes}
-**Speaker Noes**: Great job, you have completed a full GitHub collaboration cycle. You forked the main repository, made and committed your own changes, pushed them for review, and finally pulled the merged updates back into your local copy. This is the same workflow used in real research collaborations.
+**Speaker Notes**: Great job, you have completed a full GitHub collaboration cycle. You forked the main repository, made and committed your own changes, pushed them for review, and finally pulled the merged updates back into your local copy. This is the same workflow used in real research collaborations.
 :::
 
 ---
@@ -1340,6 +1353,7 @@ git push
 
 **What actions did we learn in today's lesson?**
 
+::: incremental
 - **Fork a repo**: make your own copy on GitHub
 - **Clone the repo**: bring it to your local computer
 - **Commit**: make changes locally
@@ -1347,9 +1361,10 @@ git push
 - **Pull request**: propose those changes to the main/original repo
 - **Merge**: the project owner merges your pull request into the main branch
 - **Pull upstream**: after the merge, you pull the updated main branch from the original repo to sync your local copy
+:::
 
 ::: {.notes}
-**Speaker Notes**: Here’s a quick recap of the full GitHub workflow we practiced today. You learned how to fork a repository, clone it to your local device, make and commit changes, push them to your fork on GitHub, open a pull request, and finally merge and pull updates. These are the core steps you can use for collaborative coding in research.
+**Speaker Notes**: Here is a quick recap of the full GitHub workflow we practiced today. You learned how to fork a repository, clone it to your local device, make and commit changes, push them to your fork on GitHub, open a pull request, and finally merge and pull updates. These are the core steps you can use for collaborative coding in research.
 :::
 
 ---
@@ -1391,7 +1406,6 @@ Remember this illustration?
 ## Collaborative coding with GitHub
 
 Now that you have all gained some experience working collaboratively using GitHub, let us reflect with some questions: 
-
 <br>
 
 <div style="background-color: #f0f0f0;">
@@ -1402,28 +1416,28 @@ Now that you have all gained some experience working collaboratively using GitHu
 
 **2. What potential problems could still arise using this workflow?**
 
+</div>
+
 ::: {.notes}
 **Speaker Notes**: So, you have seen the full workflow in action and practiced collaborative coding facilitated by GitHub. Let's reflect further on this experience, how could this be useful? Think about how this kind of collaborative coding can support your own research and projects. 
 
 **Instructor Notes**: The aim of this slide is to work out the relevance of the topic to your students. In an interactive setting, discuss how the new skills could be applied in practise with specific examples. Examine downfalls and practical obstacles. Invite the students to relate the practice from today's session to their own experiences. This gives them a chance to think about how they may apply their new-found skills in collaborative coding with GitHub to their existing or upcoming projects. Then, ask students to share or discuss in groups what they've come up with.
-:::
-
----
-
-## Collaborative coding with GitHub
-
-Some ways collaborative coding with GitHub is useful:
-
-- Track changes, isolate mistakes, and review project history with **version control**.
-- Multiple contributors can **collaborate** on a project without conflicts.
-- Have a local copy of the project so it remains **accessible** from anywhere.
-- Shared repositories ensure that analyses, code, and results are **reproducible** and **transparent**.
-
-::: {.notes}
-**Speaker Notes**: Some of the ways collaborative coding using GitHub is useful. <br>
+Possible answers:
 - Version control means every change is tracked, so mistakes can be undone easily. <br>
 - It allows multiple people to work on the same project at once, even from different locations, without overwriting each other’s work.<br>
 - By sharing code through repositories, others can reproduce your analyses and see exactly how results were produced. This strengthens both collaboration and scientific transparency.
+<br>
+
+Some potential issues:
+
+- Merge conflicts: When two people edit the same part of a file, Git cannot automatically merge the changes, leading to so-called merge conflicts.
+
+- Unclear commit messages: Inconsistent or unclear commit messages or too many small commits can make it hard to track changes.
+
+- Pull request overload: Too many open pull requests can slow down reviews and lead to bottlenecks.
+
+- Communication issues: Lack of communication about who is working on what can lead to duplicated effort or conflicts.
+
 :::
 
 ---
@@ -1445,25 +1459,22 @@ Consider the following question:
 
 ---
 
-## Assignment
+## Git from the terminal
 
-**Git commands**
-
-- Several actions in collaborative coding on GitHub can also be performed directly using **Git commands in a Terminal** instead of using the functions in RStudio. 
-
-<div style="color:red; font-size:50%;">
-Add instead of xx to that student see the difference.
-</div> <div style="font-size:50%;">
-added :)
-</div>
+- Several actions in collaborative coding on GitHub can also be performed directly using **Git commands in a so-called terminal** instead of using the functions in RStudio. 
 
 ::: callout-tip
 ## What is a **terminal**? 
 
-It's a text-based tool where you can type commands to run programs such as Git.
+It is a text-based tool where you can type commands to run programs such as Git. If you downloaded Git for **Windows**, you can right-click in a folder *> Show more Options > Git Bash here* to open Git Bash. On **MacOS**, you can use the built-in Terminal by going to *Finder > Applications > Utilities > Terminal*.
 :::
 
-Here is an activity sheet to learn and practice Git commands:
+
+---
+
+## Assignment
+
+Here is an activity sheet to learn and practice Git commands **in the terminal**:
 
 <br>
 
@@ -1471,7 +1482,7 @@ Here is an activity sheet to learn and practice Git commands:
   <a href="assets/OS-M3-S5-GitHub-activity_sheet.pdf" download 
      style="background-color:#007ACC; color:white; padding:10px 16px; border-radius:6px; 
             text-decoration:none; font-weight:600;">
-    Download the Git Hub activity sheet
+    Download the GitHub activity sheet
   </a>
 </div>
 
@@ -1538,11 +1549,11 @@ e. 5
 
 **When you worked collaboratively on this GitHub project, what aspect did you find most challenging?**
 
-a. Understanding Git commands (commit, push, pull).
+a. Understanding Git commands (commit, push, pull)
 
-b. Remembering all the steps.
+b. Remembering all the steps
 
-c. Navigating the GitHub interface.
+c. Navigating the GitHub interface
 
 d. Other
 
