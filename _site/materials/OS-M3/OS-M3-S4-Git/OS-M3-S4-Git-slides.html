@@ -10,7 +10,6 @@
   <meta name="generator" content="quarto-1.7.34">
 
   <meta name="author" content="LMU Open Science Center">
-  <meta name="dcterms.date" content="2025-07-11">
   <title>Train the Trainer: Student Track: OS Content – Introduction to version control with Git in RStudio</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -205,7 +204,7 @@ LMU Open Science Center
 </div>
 </div>
 
-  <p class="date">07/11/2025</p>
+  <p class="date">18/12/2025</p>
 </section>
 <section id="licence" class="slide level2">
 <h2>Licence</h2>
@@ -214,7 +213,7 @@ LMU Open Science Center
 <img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="CC BY 4.0" style="height:50px;">
 </p>
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-<p>This work was originally created by <a href="https://github.com/mikecroucher">Mike Croucher</a> under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. It was subsequently adapted by <a href="https://www.osc.uni-muenchen.de/about_us/coordinator/index.html">Malika Ihle</a> during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>.</p>
+<p>This work was originally created by <a href="https://github.com/mikecroucher">Mike Croucher</a> under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. It was subsequently adapted by <a href="https://www.osc.uni-muenchen.de/about_us/coordinator/index.html">Malika Ihle</a> during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. This licence permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.</p>
@@ -391,12 +390,12 @@ LMU Open Science Center
 <section id="learning-goals" class="slide level2">
 <h2>Learning goals</h2>
 <ul>
-<li><strong>Understand</strong> the problem(s) that can be solved by version control</li>
-<li><strong>Install</strong> and <strong>configure</strong> Git</li>
-<li><strong>Set up</strong> the connection between your computer and GitHub</li>
-<li><strong>Create</strong> an RStudio Project under version control for a reproducible workflow</li>
-<li><strong>Make</strong> changes within RStudio and <strong>commit</strong> changes locally</li>
-<li><strong>Connect</strong> local and remote repositories for your work</li>
+<li class="fragment"><strong>Understand</strong> the problem(s) that can be solved by version control</li>
+<li class="fragment"><strong>Install</strong> and <strong>configure</strong> Git</li>
+<li class="fragment"><strong>Set up</strong> the connection between your computer and GitHub</li>
+<li class="fragment"><strong>Create</strong> an RStudio Project under version control for a reproducible workflow</li>
+<li class="fragment"><strong>Make</strong> changes within RStudio and <strong>commit</strong> changes locally</li>
+<li class="fragment"><strong>Connect</strong> local and remote repositories for your work</li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: In this session, we will focus on the following elements. Do not worry if these terms sound unfamiliar to you at this point, we will go through each step one by one.</p>
@@ -446,11 +445,11 @@ LMU Open Science Center
 <section id="key-terms-and-definitions-1" class="slide level2">
 <h2>Key terms and definitions</h2>
 <ul>
-<li><strong>Reproducible workflows</strong>: Structured process ensuring that the methods can be consistently repeated by others using the same approach, data and tools</li>
-<li><strong>RStudio Project</strong>: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..) via a so-called .Rproj file</li>
-<li><strong>Git</strong>: Version control system that tracks and manages changes to files and code</li>
-<li><strong>GitHub</strong>: Cloud-based version control platform for hosting Git repositories which includes collaboration features</li>
-<li><strong>Repositories</strong>: Git terminology for a folder where the contents of the folder are being tracked by Git</li>
+<li class="fragment"><strong>Reproducible workflows</strong>: Structured process ensuring that the methods can be consistently repeated by others using the same approach, data and tools</li>
+<li class="fragment"><strong>RStudio Project</strong>: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..) via a so-called .Rproj file</li>
+<li class="fragment"><strong>Git</strong>: Version control system that tracks and manages changes to files and code</li>
+<li class="fragment"><strong>GitHub</strong>: Cloud-based version control platform for hosting Git repositories which includes collaboration features</li>
+<li class="fragment"><strong>Repositories</strong>: Git terminology for a folder where the contents of the folder are being tracked by Git</li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>:</p>
@@ -482,11 +481,37 @@ LMU Open Science Center
 <h1>Some realistic challenges in our (work)lives …</h1>
 
 </section>
-<section id="challenge-1-data-and-file-management" class="slide level2">
-<h2>Challenge 1: Data and file management</h2>
-<p>Multiple versions of the same project floating around on your PC.</p>
+<section id="challenge-1-document-and-project-management" class="slide level2">
+<h2>Challenge 1: Document and project management</h2>
 
-<img data-src="images/09_manuscript_version_mess.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%" alt="manuscript versions"><aside class="notes">
+<div style="display: flex; align-items: flex-start; gap: 0.5em;">
+
+  <!-- Left side: single image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/09_manuscript_version_mess.png" style="width: 100%;">
+  </div>
+  
+<!-- Right side: bullet points -->
+<div style="flex: 1;">
+<p><br> <br></p>
+<p><strong>Multiple versions</strong> of the same project/document “floating” around on your PC.</p>
+<p><br></p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Sound familiar?</strong></p>
+</div>
+<div class="callout-content">
+<p>What is your current <strong>document naming and management</strong> strategy?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
 <p><strong>Speaker Notes</strong>: So here we see our typical student — they’ve got 100 versions of the same file on their laptop. This might look funny, but we have all been there, whether it’s a paper draft, a dataset, or an analysis script. File and data management is hard, and we have to somehow juggle multiple versions of files, so it is easy to lose track of which version is the “right” one.</p>
 <p><strong>Instructor Notes</strong>: Adjust the example to tailor it to the main file type of your audience. Perhaps even show your own data organisation system from a project from many years ago to make students relate more.</p>
 <style type="text/css">
@@ -505,7 +530,20 @@ LMU Open Science Center
 <h2>Challenge 2: When hardware fails</h2>
 <p>Laptop dies, files are accidentally deleted.</p>
 
-<img data-src="images/10_Coffee_Spill_gender_neutral.png" class="quarto-figure quarto-figure-center r-stretch" style="width:30.0%" alt="hardware fails"><aside class="notes">
+<img data-src="images/10_Coffee_Spill_gender_neutral.png" class="quarto-figure quarto-figure-center r-stretch" style="width:30.0%" alt="hardware fails"><div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Mentally raise your hand if this happened to you before.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
 <p><strong>Speaker Notes</strong>: Here is once again our student, who is the victim of one of the most common threats to good science: hardware failure. It could be a coffee spill, a dropped laptop, a lost USB drive, or a hard disk crash, all different flavors of the same disaster and very realistic scenarios in student and researcher life.</p>
 <p><strong>Instructor Notes</strong>: Describe an example from your own research or student career and describe the impact it had at the time. This is another reason why version control systems like Git, especially when used with remote hosting services such as GitHub, are so powerful. They do not just track your changes; they back up your work in multiple locations, so even if your laptop meets an unfortunate end, your work does not.</p>
 <style type="text/css">
@@ -522,7 +560,7 @@ LMU Open Science Center
 </section>
 <section id="challenge-3-what-on-earth-did-i-do-again.." class="slide level2">
 <h2>Challenge 3: “What on earth did I do again..?”</h2>
-<p>Projects evolve, it is easy to forget what we last changed or did.</p>
+<p>Projects evolve, it is easy to <strong>forget</strong> what we last changed or did on the project.</p>
 
 <img data-src="images/11_Confused.png" class="quarto-figure quarto-figure-center r-stretch" style="width:20.0%" alt="hardware fails"><aside class="notes">
 <p><strong>Speaker Notes</strong>: This might yet be another problem that could be familiar to some of you: You have a new assignment and it reminds you of an old assignment. You decide to copy that folder over but are now wondering what the last thing you did was and how you solved the assignment last time. Sometimes it takes months or years until you come back to your old project, and it is almost impossible to remember why we made certain changes, what data we used, or how the results were produced, especially if all we have are scattered files in random folder with no context.</p>
@@ -541,7 +579,7 @@ LMU Open Science Center
 </section>
 <section id="challenge-4-but-i-just-wanted-to-try-to" class="slide level2">
 <h2>Challenge 4: “But I just wanted to try to …”</h2>
-<p>Especially with coding, trying new ideas can break your code.</p>
+<p>Especially with coding, trying new ideas can <strong>break</strong> your code.</p>
 
 <img data-src="images/12_crashed_PC.png" class="quarto-figure quarto-figure-center r-stretch" style="width:30.0%" alt="burning PC"><aside class="notes">
 <p><strong>Speaker Notes</strong>: This is another situation that some of you may recognise: we are working on some code, we make a “small” change to try something new or to add a small new feature and suddenly nothing works anymore.</p>
@@ -605,12 +643,12 @@ LMU Open Science Center
 </section>
 <section id="version-control" class="slide level2">
 <h2>Version control</h2>
-<p>Version … <em>what?</em></p>
+<p>“Version … <em>what?</em>”</p>
 <ul>
-<li><strong>Version control</strong> = system that <strong>records changes</strong> to files <strong>over time</strong> by recording the difference between two files</li>
-<li><strong>Tracks modifications</strong> and edits</li>
-<li>Helps you <strong>manage different versions</strong></li>
-<li>Allows you to <strong>recover previous versions</strong></li>
+<li class="fragment"><strong>Version control</strong> = system that <strong>records changes</strong> to files <strong>over time</strong> by recording the difference between two files</li>
+<li class="fragment"><strong>Tracks modifications</strong> and edits</li>
+<li class="fragment">Helps you <strong>manage different versions</strong></li>
+<li class="fragment">Allows you to <strong>recover previous versions</strong></li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Version control is a system that records changes made to files over time. Specifically, it saves the <strong>difference</strong> between two files It enables you to track the history of modifications, making it easy to see who changed what, when, and why. This is particularly valuable when working on code or large projects with many files, as it helps you manage different versions, and recover previous versions if something goes wrong. With version control, you can safely experiment with new changes without fear of losing important work, as you can always revert to a stable version of the project.</p>
@@ -709,8 +747,8 @@ LMU Open Science Center
 <h2>Git: What is it?</h2>
 <p><strong>Git</strong> is a free and <strong>open source software</strong>. With Git, you can:</p>
 <ul>
-<li><strong>Track changes</strong> to files across folders over time, seeing what was changed, when and by whom</li>
-<li><strong>Collaborate</strong> efficiently within a team as multiple people can work on the same folders and files</li>
+<li class="fragment"><strong>Track changes</strong> to files across folders over time, seeing what was changed, when and by whom</li>
+<li class="fragment"><strong>Collaborate</strong> efficiently within a team as multiple people can work on the same folders and files</li>
 </ul>
 
 <img data-src="images/06_Git_logo.png" class="quarto-figure quarto-figure-center r-stretch" style="width:10.0%" alt="git logo"><aside class="notes">
@@ -732,9 +770,9 @@ LMU Open Science Center
 <h2>GitHub: What is it?</h2>
 <p><strong>GitHub</strong> is a <strong>cloud-based version control platform</strong> that uses Git to track changes and hosts Git repositories.</p>
 <ul>
-<li>Allows multiple people to <strong>collaborate</strong> on the same project</li>
-<li>Collaborators can <strong>share</strong> repositories, code etc. and ask for <strong>feedback</strong>, initiate discussions and point out bugs and issues</li>
-<li>GitHub <strong>stores</strong> all files remotely, making it accessible from anywhere</li>
+<li class="fragment">Allows multiple people to <strong>collaborate</strong> on the same project</li>
+<li class="fragment">Collaborators can <strong>share</strong> repositories, code etc. and ask for <strong>feedback</strong>, initiate discussions and point out bugs and issues</li>
+<li class="fragment">GitHub <strong>stores</strong> all files remotely, making it accessible from anywhere</li>
 </ul>
 
 <img data-src="images/05_GitHub_logo.png" class="quarto-figure quarto-figure-center r-stretch" style="width:30.0%" alt="github logo"><aside class="notes">
@@ -802,6 +840,14 @@ LMU Open Science Center
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="how-to-use-git-lets-get-started" class="title-slide slide level1 center">
+<h1>How to use Git: Let’s get started!</h1>
+
 </section>
 <section id="installing-git-windows" class="slide level2">
 <h2>Installing Git: Windows</h2>
@@ -1013,6 +1059,7 @@ LMU Open Science Center
 <section id="checking-for-existing-ssh-key-pair-2" class="slide level2">
 <h2>Checking for existing SSH key pair</h2>
 <p><strong>Step 3</strong>: If there are existing ssh keys, they are named one of the following:</p>
+<p><br></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>id_rsa.pub</span>
 <span id="cb4-2"><a></a>id_ecdsa.pub</span>
@@ -1050,6 +1097,7 @@ LMU Open Science Center
 <section id="generating-a-new-ssh-key-pair" class="slide level2">
 <h2>Generating a new SSH key pair</h2>
 <p><strong>Step 1</strong>: In the command line, type the following (replacing the email here with your <em>own</em> email) to create a new SSH key pair with your email as a label:</p>
+<p><br></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a></a>ssh-keygen -t ed25519 -C "your_email@email.com"</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -1085,6 +1133,7 @@ LMU Open Science Center
 <section id="generating-a-new-ssh-key-pair-1" class="slide level2">
 <h2>Generating a new SSH key pair</h2>
 <p><strong>Step 2</strong>: When prompted to <em>Enter a file in which to save key</em>, press ENTER to accept the default file location. That should give you this prompt:</p>
+<p><br></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>Generating public/private ed25519 key pair.  </span>
 <span id="cb6-2"><a></a>Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1113,6 +1162,7 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a></a>Enter passphrase (empty for no passphrase):  </span>
 <span id="cb7-2"><a></a>Enter same passphrase again:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p><br></p>
 <div class="callout callout-warning callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -1122,7 +1172,7 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <p><strong>Warning</strong></p>
 </div>
 <div class="callout-content">
-<p>When you type passwords in the command line, <strong>nothing</strong> is displayed, you are however still typing in the background. This is <strong>normal behaviour</strong> by the command line and nothing to be concerned about.</p>
+<p>When you type passwords in the command line, <strong>nothing</strong> is displayed, you are however still typing in the background. This is <strong>normal behaviour</strong> by the command line and <em>nothing</em> to be concerned about.</p>
 </div>
 </div>
 </div>
@@ -1314,8 +1364,10 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <h2>Adding the SSH key to GitHub account</h2>
 <p><strong>Step 4</strong>:</p>
 <ul>
-<li>In the <code>Title</code> field, add a descriptive label for the new key, e.g.&nbsp;something that would identify the device you just connected</li>
+<li>In the <code>Title</code> field, add a descriptive label for the new key, e.g.&nbsp;something that would identify the device you just connected
+<ul>
 <li>For example, if you’re using a personal laptop, you might call this key “Personal MacBook Air”.</li>
+</ul></li>
 <li>Paste the contents of your clipboard into the Key text box</li>
 <li>Hit the green <code>Add key</code> button to save. Enter your GitHub password if prompted.</li>
 </ul>
@@ -1456,10 +1508,10 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Important</strong></p>
+<p><strong><strong>This is it!</strong></strong></p>
 </div>
 <div class="callout-content">
-<p>This is it! You have set up a new SSH key pair and successfully let GitHub know your identity to connect your computer to your GitHub account. These steps will only have to be repeated when you change computers. Let the fun begin!</p>
+<p>You have set up a new SSH key pair and successfully let GitHub know your identity to connect your computer to your GitHub account. These steps will only have to be repeated when you change computers. Let the fun begin!</p>
 </div>
 </div>
 </div>
@@ -1482,19 +1534,19 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <h2>RECAP: Setting up Git</h2>
 <p><strong>What have we done so far?</strong></p>
 <ul>
-<li>Installed Git ✅</li>
-<li>Configured Git ✅</li>
-<li>Secureed a connection between PC and GitHub via SSH key pair ✅</li>
-<li>Added SSH key pair to GitHub account ✅</li>
-<li>Tested the connection between your machine and GitHub ✅</li>
+<li class="fragment">Installed Git ✅</li>
+<li class="fragment">Configured Git ✅</li>
+<li class="fragment">Secureed a connection between PC and GitHub via SSH key pair ✅</li>
+<li class="fragment">Added SSH key pair to GitHub account ✅</li>
+<li class="fragment">Tested the connection between your machine and GitHub ✅</li>
 </ul>
-<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Important</strong></p>
+<p><strong>Ready!</strong></p>
 </div>
 <div class="callout-content">
 <p>Your Git and GitHub setup is now secure and ready to use!</p>
@@ -1631,8 +1683,8 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <h2>RStudio Project: What is it?</h2>
 <p><strong>Local folder</strong> used to organize your work within a self-contained R storage.</p>
 <ul>
-<li><p>Contains all files related to project: R scripts, source files, location of the R working directory, RStudio workspace …</p></li>
-<li><p>Includes shortcut to open the project directly in RStudio</p></li>
+<li class="fragment"><p>Contains all files related to project: R scripts, source files, location of the R working directory, RStudio workspace …</p></li>
+<li class="fragment"><p>Includes shortcut to open the project directly in RStudio</p></li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker notes</strong>:</p>
@@ -2352,12 +2404,12 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <h2>RECAP: Version control in RStudio with Git</h2>
 <p><strong>What have we done so far?</strong></p>
 <ul>
-<li>Created an RStudio Project in a local repository ✅</li>
-<li>Created files for the project (code, downloaded data etc.) ✅</li>
-<li>Added version control to our project in the local repository ✅</li>
-<li>Made changes and commit these changes locally ✅</li>
-<li>Connected the local repository with a remote repository ✅</li>
-<li>Synchronised ( = <em>pushed</em> ) the local changes to the remote repository ✅</li>
+<li class="fragment">Created an RStudio Project in a local repository ✅</li>
+<li class="fragment">Created files for the project (code, downloaded data etc.) ✅</li>
+<li class="fragment">Added version control to our project in the local repository ✅</li>
+<li class="fragment">Made changes and commit these changes locally ✅</li>
+<li class="fragment">Connected the local repository with a remote repository ✅</li>
+<li class="fragment">Synchronised ( = <em>pushed</em> ) the local changes to the remote repository ✅</li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Congratulations! We have successfully completed the following steps to set up and manage our project with Git:</p>
@@ -2385,14 +2437,13 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 </section>
 <section id="overview-the-gitgithub-workflow" class="slide level2">
 <h2>OVERVIEW: The Git/GitHub workflow</h2>
-<p>Once you have brought your local repository under version control and connected the remote repository, you will find yourself repeating the same steps over and over:</p>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Important</strong></p>
+<p><strong>What do I need to do?</strong></p>
 </div>
 <div class="callout-content">
 <ol type="1">
@@ -2404,6 +2455,8 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 </div>
 </div>
 </div>
+<p><br></p>
+<p>Once you have brought your local repository under version control and connected the remote repository, you will find yourself <strong>repeating the same steps</strong> above <strong>over and over</strong>.</p>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Once your local repository is under version control and connected to a remote repository on GitHub, you will follow a repeated workflow to keep everything updated. By following this workflow, you ensure that your project remains organized, and all changes are properly tracked both locally and on GitHub. Here is the process:</p>
 <ul>
@@ -2424,12 +2477,15 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
           display:block!important;
       }</style></aside>
 </section>
-<section id="why-is-version-control-important-and-useful" class="slide level2">
-<h2>Why is version control important and useful?</h2>
-<p>Think for yourselves for 2 minutes, then go into pairs for 3 minutes and then we will discuss in the group.</p>
+<section id="activity-one-minute-paper" class="slide level2">
+<h2>Activity: One-Minute Paper!</h2>
+<p><br> <br> <br></p>
+<div style="background-color: #f0f0f0;">
+<p><strong>Why is version control important and useful?</strong> <em>Take one minute to write down your thoughts on some paper.</em></p>
+</div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: To conclude this class, a question for you: Why is version control important and useful? Think for yourselves for 2 minutes, then go into pairs for 3 minutes and then we will discuss in the group.</p>
-<p><strong>Instructor Notes</strong>: Use the think-pair-share paradigm. 1) THINK: students first write down for themselves what they think version control is useful for 2) PAIR: form pairs among your students and have them discuss their the importance and usefulness of version control. 3) SHARE: Ask for volunteer pairs to share they conclusions and thought process.</p>
+<p><strong>Speaker Notes</strong>: To conclude this class, a question for you: Why is version control important and useful? Think for yourselves for a few moments, then write down your thoughts. You have one minute for this.</p>
+<p><strong>Instructor Notes</strong>: Use the one-minute paper activity for this task. You will get immediate insight into whether students understood the broad lines of the usefulness of Git and GitHub.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2442,14 +2498,14 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
           display:block!important;
       }</style></aside>
 </section>
-<section id="why-is-version-control-important-and-useful-1" class="slide level2">
+<section id="why-is-version-control-important-and-useful" class="slide level2">
 <h2>Why is version control important and useful?</h2>
 <p><strong>Some thoughts …</strong></p>
 <ul>
-<li><p><strong>Tracks</strong> every change in your R project and acts as a “time machine” for your code/files</p></li>
-<li><p><strong>Makes mistakes easy to fix</strong> because you can revert to earlier versions anytime</p></li>
-<li><p><strong>Improves reproducibility</strong> by seeing what changed, when, and why</p></li>
-<li><p><strong>Provides a backup via GitHub</strong> for easy sharing and access anywhere</p></li>
+<li class="fragment"><p><strong>Tracks</strong> every change in your R project and acts as a “time machine” for your code/files</p></li>
+<li class="fragment"><p><strong>Makes mistakes easy to fix</strong> because you can revert to earlier versions anytime</p></li>
+<li class="fragment"><p><strong>Improves reproducibility</strong> by seeing <em>what</em> changed, <em>when</em>, and <em>why</em> it changed</p></li>
+<li class="fragment"><p><strong>Provides a backup via GitHub</strong> for easy sharing and access anywhere</p></li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Using Git with your R project offers several key benefits:</p>
@@ -2570,17 +2626,21 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 </section>
 <section id="take-home-message" class="slide level2">
 <h2>Take-home message</h2>
+<p><br> <br></p>
+<div style="background-color: #f0f0f0;">
 <p><strong>What are you taking away from today?</strong></p>
+</div>
+<p><br> <br></p>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Tip with Title</strong></p>
+<p><strong>Keep practising!</strong></p>
 </div>
 <div class="callout-content">
-<p>It is all about practise until you develop a routine - keep practising!</p>
+<p>It is all about practise until you develop a routine.</p>
 </div>
 </div>
 </div>
@@ -2677,11 +2737,11 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <h2>Help and support</h2>
 <p>If you get stuck, there is plently of help available:</p>
 <ul>
-<li><a href="https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html">Using Git with RStudio</a> for an introductory overview</li>
-<li><a href="https://github.com/git-guides/git-commit">Git Guides on staging and committing</a> for an overview of the workflow</li>
-<li><a href="https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources">Git and GitHub learning resources</a> for free interactive courses built in GitHub</li>
-<li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet</a> featuring tips on installation, setup, staging, committing and pushing</li>
-<li><a href="https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/updates.html">The LMU OSC RStudio/Git tutorial</a> for similar exercises and advanced materials</li>
+<li class="fragment"><a href="https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html">Using Git with RStudio</a> for an introductory overview</li>
+<li class="fragment"><a href="https://github.com/git-guides/git-commit">Git Guides on staging and committing</a> for an overview of the workflow</li>
+<li class="fragment"><a href="https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources">Git and GitHub learning resources</a> for free interactive courses built in GitHub</li>
+<li class="fragment"><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet</a> featuring tips on installation, setup, staging, committing and pushing</li>
+<li class="fragment"><a href="https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/updates.html">The LMU OSC RStudio/Git tutorial</a> for similar exercises and advanced materials</li>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: There is always help out there! Here are some resources where you can get and find help.</p>

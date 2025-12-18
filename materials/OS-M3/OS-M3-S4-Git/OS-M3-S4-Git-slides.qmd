@@ -35,7 +35,7 @@ execute:
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This licence permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
 </div>
 
 ::: {.notes}
@@ -167,12 +167,14 @@ Any remaining questions about the most recent content and/or practical exercises
 
 ## Learning goals
 
+::: incremental
 - **Understand** the problem(s) that can be solved by version control
 - **Install** and **configure** Git 
 - **Set up** the connection between your computer and GitHub
 - **Create** an RStudio Project under version control for a reproducible workflow
 - **Make** changes within RStudio and **commit** changes locally
 - **Connect** local and remote repositories for your work
+:::
   
 ::: {.notes}
 **Speaker Notes**: In this session, we will focus on the following elements. Do not worry if these terms sound unfamiliar to you at this point, we will go through each step one by one. 
@@ -207,11 +209,13 @@ Any remaining questions about the most recent content and/or practical exercises
 
 ## Key terms and definitions
 
+:::incremental
 - **Reproducible workflows**: Structured process ensuring that the methods can be consistently repeated by others using the same approach, data and tools
 - **RStudio Project**: A way to store all files related to one R project in one place (R scripts, files, workspace, history ..) via a so-called .Rproj file
 - **Git**: Version control system that tracks and manages changes to files and code
 - **GitHub**: Cloud-based version control platform for hosting Git repositories which includes collaboration features
 - **Repositories**: Git terminology for a folder where the contents of the folder are being tracked by Git
+:::
 
 ::: {.notes}
 **Speaker Notes**:
@@ -236,11 +240,38 @@ Any remaining questions about the most recent content and/or practical exercises
 
 ---
 
-## Challenge 1: Data and file management
+## Challenge 1: Document and project management
 
-Multiple versions of the same project floating around on your PC.
+```{=html}
 
-![](images/09_manuscript_version_mess.png){fig-align=center width=100% fig-alt="manuscript versions"}
+<div style="display: flex; align-items: flex-start; gap: 0.5em;">
+
+  <!-- Left side: single image -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/09_manuscript_version_mess.png" style="width: 100%;" />
+  </div>
+  
+```
+
+  <!-- Right side: bullet points -->
+  <div style="flex: 1;">
+
+<br>
+<br>
+
+**Multiple versions** of the same project/document "floating" around on your PC.
+
+<br>
+
+::: {.callout-note}
+## Sound familiar?
+What is your current **document naming and management** strategy?
+:::
+
+  </div>
+
+</div>
+
 
 ::: {.notes}
 **Speaker Notes**: So here we see our typical student — they’ve got 100 versions of the same file on their laptop. This might look funny, but we have all been there, whether it’s a paper draft, a dataset, or an analysis script. File and data management is hard, and we have to somehow juggle multiple versions of files, so it is easy to lose track of which version is the “right” one.
@@ -256,6 +287,9 @@ Laptop dies, files are accidentally deleted.
 
 ![](images/10_Coffee_Spill_gender_neutral.png){fig-align=center width=30% fig-alt="hardware fails"}
 
+::: {.callout-note}
+Mentally raise your hand if this happened to you before.
+:::
 
 ::: {.notes}
 **Speaker Notes**: Here is once again our student, who is the victim of one of the most common threats to good science: hardware failure. It could be a coffee spill, a dropped laptop, a lost USB drive, or a hard disk crash, all different flavors of the same disaster and very realistic scenarios in student and researcher life. 
@@ -267,7 +301,7 @@ Laptop dies, files are accidentally deleted.
 
 ## Challenge 3: "What on earth did I do again..?"
 
-Projects evolve, it is easy to forget what we last changed or did. 
+Projects evolve, it is easy to **forget** what we last changed or did on the project. 
 
 ![](images/11_Confused.png){fig-align=center width=20% fig-alt="hardware fails"}
 
@@ -281,7 +315,7 @@ Projects evolve, it is easy to forget what we last changed or did.
 
 ## Challenge 4: "But I just wanted to try to ..."
 
-Especially with coding, trying new ideas can break your code.
+Especially with coding, trying new ideas can **break** your code.
 
 ![](images/12_crashed_PC.png){fig-align=center width=30% fig-alt="burning PC"}
 
@@ -336,12 +370,14 @@ Especially with coding, trying new ideas can break your code.
 
 ## Version control
 
-Version ... *what?*
+:::incremental
+"Version ... *what?*"
 
 - **Version control** = system that **records changes** to files **over time** by recording the difference between two files
 - **Tracks modifications** and edits
 - Helps you **manage different versions**
 - Allows you to **recover previous versions**
+:::
 
 
 ::: {.notes}
@@ -431,10 +467,14 @@ What do we see in the results?
 
 ## Git: What is it?
 
+:::incremental
+
 **Git** is a free and **open source software**. With Git, you can: 
 
 - **Track changes** to files across folders over time, seeing what was changed, when and by whom
 - **Collaborate** efficiently within a team as multiple people can work on the same folders and files
+:::
+
 
 ![](images/06_Git_logo.png){fig-align=center width=10% fig-alt="git logo"}
 
@@ -448,11 +488,13 @@ What do we see in the results?
 
 ## GitHub: What is it?
 
+:::incremental
 **GitHub** is a **cloud-based version control platform** that uses Git to track changes and hosts Git repositories.
 
 - Allows multiple people to **collaborate** on the same project
 - Collaborators can **share** repositories, code etc. and ask for **feedback**, initiate discussions and point out bugs and issues
 - GitHub **stores** all files remotely, making it accessible from anywhere
+:::
 
 ![](images/05_GitHub_logo.png){fig-align=center width=30% fig-alt="github logo"}
 
@@ -508,6 +550,9 @@ In pairs, explain the Git - GitHub workflow to your partner. What is the differe
 **Instructor Notes**: Use this as an informal assessment moment to gauge if the general concepts of pulling and pushing are clear. Ask for one or two volunteer pairs who would explain the workflow in their own words to the rest of the audience. Then, make a transition into the practical aspect of this class. 
 :::
 
+---
+
+# How to use Git: Let's get started!
 
 ---
 
@@ -538,8 +583,7 @@ To install Git on MacOS:
 - Accept the prompts appearing the terminal
 
 ::: {.notes}
-**Speaker Notes**: To install Git on macOS, begin by visiting http://git-scm.com/downloads
- and downloading the latest version of Git. On the download page, select the first option that suggests installing Git via Homebrew, which is a package manager for macOS.
+**Speaker Notes**: To install Git on macOS, begin by visiting http://git-scm.com/downloads and downloading the latest version of Git. On the download page, select the first option that suggests installing Git via Homebrew, which is a package manager for macOS.
  
 **Instructor  Notes**: Work alongslide your students from a new laptop that does not have Git installed yet and leave enough time for students to follow along. Check in regularly to detect issues.  
 :::
@@ -669,7 +713,9 @@ To do this, open your terminal (or Git Bash on Windows) and enter the following 
 
 ## Checking for existing SSH key pair
 
-**Step 3**: If there are existing ssh keys, they are named one of the following: 
+**Step 3**: If there are existing ssh keys, they are named one of the following:
+
+<br>
 
 ```{text}
 id_rsa.pub
@@ -695,6 +741,8 @@ However, if you do not have an existing public and private key pair (which is to
 
 **Step 1**: In the command line, type the following (replacing the email here with your *own* email) to create a new SSH key pair with your email as a label:
 
+<br>
+
 ```{text}
 ssh-keygen -t ed25519 -C "your_email@email.com"
 ```
@@ -717,6 +765,8 @@ Pay close attention to spacing and capital letters while typing.
 ## Generating a new SSH key pair
 
 **Step 2**: When prompted to *Enter a file in which to save key*, press ENTER to accept the default file location. That should give you this prompt:
+
+<br>
 
 ```{text}
 Generating public/private ed25519 key pair.  
@@ -745,8 +795,11 @@ Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
 ```
 
+
+<br>
+
 ::: {.callout-warning}
-When you type passwords in the command line, **nothing** is displayed, you are however still typing in the background. This is **normal behaviour** by the command line and nothing to be concerned about.
+When you type passwords in the command line, **nothing** is displayed, you are however still typing in the background. This is **normal behaviour** by the command line and *nothing* to be concerned about.
 :::
 
 ::: {.notes}
@@ -889,7 +942,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm
 **Step 4**: 
 
 - In the `Title` field, add a descriptive label for the new key, e.g. something that would identify the device you just connected
-- For example, if you’re using a personal laptop, you might call this key “Personal MacBook Air”. 
+  - For example, if you’re using a personal laptop, you might call this key “Personal MacBook Air”. 
 - Paste the contents of your clipboard into the Key text box
 - Hit the green `Add key` button to save. Enter your GitHub password if prompted.
 
@@ -999,7 +1052,8 @@ ssh -T git@github.com
 <br>
 
 ::: {.callout-important}
-This is it! You have set up a new SSH key pair and successfully let GitHub know your identity to connect your computer to your GitHub account. These steps will only have to be repeated when you change computers. Let the fun begin!
+## **This is it!**
+You have set up a new SSH key pair and successfully let GitHub know your identity to connect your computer to your GitHub account. These steps will only have to be repeated when you change computers. Let the fun begin!
 :::
 
 ::: {.notes}
@@ -1014,16 +1068,18 @@ This is it! You have set up a new SSH key pair and successfully let GitHub know 
 
 **What have we done so far?**
 
+::: incremental
 - Installed Git ✅
 - Configured Git ✅
 - Secureed a connection between PC and GitHub via SSH key pair ✅
 - Added SSH key pair to GitHub account ✅
 - Tested the connection between your machine and GitHub ✅
-
-::: {.callout-important}
-Your Git and GitHub setup is now secure and ready to use!
 :::
 
+::: {.callout-note}
+## Ready!
+Your Git and GitHub setup is now secure and ready to use!
+:::
 
 ::: {.notes}
 **Speaker Notes**: Looking back, we have successfully completed the following steps:
@@ -1131,11 +1187,14 @@ What do we see in the results?
 
 ## RStudio Project: What is it?
 
+:::incremental
+
 **Local folder** used to organize your work within a self-contained R storage.
 
 - Contains all files related to project: R scripts, source files, location of the R working directory, RStudio workspace ...
 
 - Includes shortcut to open the project directly in RStudio
+:::
 
 ::: {.notes}
 **Speaker notes**:
@@ -1685,6 +1744,7 @@ Next, add the given text to the file and save the file as README (in capital let
 
 ## RECAP: Version control in RStudio with Git
 
+:::incremental
 **What have we done so far?**
 
 - Created an RStudio Project in a local repository ✅
@@ -1693,6 +1753,7 @@ Next, add the given text to the file and save the file as README (in capital let
 - Made changes and commit these changes locally ✅
 - Connected the local repository with a remote repository ✅
 - Synchronised ( = *pushed* ) the local changes to the remote repository ✅
+:::
 
 ::: {.notes}
 **Speaker Notes**: Congratulations! We have successfully completed the following steps to set up and manage our project with Git:
@@ -1718,15 +1779,18 @@ Next, add the given text to the file and save the file as README (in capital let
 
 ## OVERVIEW: The Git/GitHub workflow
 
-Once you have brought your local repository under version control and connected the remote repository, you will find yourself repeating the same steps over and over: 
-
-
 ::: {.callout-important}
+## What do I need to do?
+
 1. Make changes locally
 2. Stage changes locally
 3. Commit changes locally with a commit message
 4. Push local changes to the remote repository on GitHub
 :::
+
+<br>
+
+Once you have brought your local repository under version control and connected the remote repository, you will find yourself **repeating the same steps** above **over and over**.
 
 ::: {.notes}
 **Speaker Notes**: Once your local repository is under version control and connected to a remote repository on GitHub, you will follow a repeated workflow to keep everything updated. By following this workflow, you ensure that your project remains organized, and all changes are properly tracked both locally and on GitHub. Here is the process:
@@ -1743,20 +1807,30 @@ Once you have brought your local repository under version control and connected 
 
 ---
 
-## Why is version control important and useful?
+## Activity: One-Minute Paper!
 
-Think for yourselves for 2 minutes, then go into pairs for 3 minutes and then we will discuss in the group. 
+<br>
+<br>
+<br>
+
+<div style="background-color: #f0f0f0;">
+**Why is version control important and useful?** *Take one minute to write down your thoughts on some paper.*
+</div>
+
+
 
 ::: {.notes}
-**Speaker Notes**: To conclude this class, a question for you: Why is version control important and useful? Think for yourselves for 2 minutes, then go into pairs for 3 minutes and then we will discuss in the group. 
+**Speaker Notes**: To conclude this class, a question for you: Why is version control important and useful? Think for yourselves for a few moments, then write down your thoughts. You have one minute for this. 
 
-**Instructor Notes**: Use the think-pair-share paradigm. 1) THINK: students first write down for themselves what they think version control is useful for 2) PAIR: form pairs among your students and have them discuss their the importance and usefulness of version control. 3) SHARE: Ask for volunteer pairs to share they conclusions and thought process.
-
+**Instructor Notes**: Use the one-minute paper activity for this task. 
+You will get immediate insight into whether students understood the broad lines of the usefulness of Git and GitHub. 
 :::
 
 ---
 
 ## Why is version control important and useful?
+
+:::incremental
 
 **Some thoughts ...**
 
@@ -1764,9 +1838,10 @@ Think for yourselves for 2 minutes, then go into pairs for 3 minutes and then we
 
 - **Makes mistakes easy to fix** because you can revert to earlier versions anytime
 
-- **Improves reproducibility** by seeing what changed, when, and why
+- **Improves reproducibility** by seeing *what* changed, *when*, and *why* it changed
 
 - **Provides a backup via GitHub** for easy sharing and access anywhere
+:::
 
 ::: {.notes}
 **Speaker Notes**: Using Git with your R project offers several key benefits:
@@ -1880,11 +1955,21 @@ plot(data$xdata, data$ydata,
 
 ## Take-home message
 
+<br>
+<br>
+
+<div style="background-color: #f0f0f0;">
 **What are you taking away from today?**
+</div>
+
+
+
+<br>
+<br>
 
 ::: {.callout-tip}
-## Tip with Title
-It is all about practise until you develop a routine - keep practising!
+## Keep practising!
+It is all about practise until you develop a routine.
 :::
 
 ::: {.notes}
@@ -1969,6 +2054,8 @@ What do we see in the results and how do they compare to the previous ratings?
 
 ## Help and support
 
+:::incremental
+
 If you get stuck, there is plently of help available:
 
 - [Using Git with RStudio](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html) for an introductory overview
@@ -1976,6 +2063,7 @@ If you get stuck, there is plently of help available:
 - [Git and GitHub learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources) for free interactive courses built in GitHub
 - [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) featuring tips on installation, setup, staging, committing and pushing
 - [The LMU OSC RStudio/Git tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/updates.html) for similar exercises and advanced materials
+:::
 
 ::: {.notes}
 **Speaker Notes**: There is always help out there! Here are some resources where you can get and find help. 
