@@ -86,7 +86,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 </div>
 
 ::: {.notes}
-**Speaker Notes**: The basic requirements to follow these slides are a laptop or desktop with admin rights to download and install software, and the latest installations of R and RStudio. Basic knowledge on R and RStudio, ideally as demonstrated through the completion of the two previous submodules R Part I and Part II is also a prerequisite. Finally, for this submodule, students will need their own GitHub account, which is free to create on github.com.
+**Speaker Notes**: The basic requirements to follow these slides are a laptop or desktop with admin rights to download and install software, and the latest installations of R and RStudio. Basic knowledge on R and RStudio, ideally as demonstrated through the completion of the two previous submodules R Part I and Part II is also a prerequisite. Specifically, learners are expected to have an intermediate familiarity with R, for example with data wrangling, reshaping, subsetting, plotting and creating basic R functions. Finally, for this submodule, students will need their own GitHub account, which is free to create on github.com.
 
 
 **Instructor Notes**: Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. **Additional important tip**: If you are planning to deliver these slides synchronously in class, here is a proposed lesson plan (90 minutes + homework assignment):
@@ -458,7 +458,7 @@ What do we see in the results?
 
 **Instructor Notes**:
 
-- **Aim**: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers.
+- **Aim**: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers. If *everyone* selects Git and GitHub in the question concerned with the familiarity with these concepts, keep your explanations and definitions short: “okay, you have heard about X, so I will only briefly revisit this”. If the majority of learners state that they are currently extremely uncomfortable with using Git, provide reassurance that they are in the right spot. If many people are extremely comfortable with all concepts, ask them if they would prefer going through the slides and tasks by themselves.
 
 **Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
 :::
@@ -1864,6 +1864,24 @@ You will get immediate insight into whether students understood the broad lines 
 
 ---
 
+## Reflection
+
+<br>
+<br>
+<br>
+
+<div style="background-color: #f0f0f0;">
+Take 10 minutes now to reflect upon where in your **own current or future research** you could use Git. Write then the steps you will need to implement what you have learned here in that project and which barriers you may face” (e.g., technical, project partners/supervisors, etc.)
+</div>
+
+::: {.notes}
+**Speaker Notes**: Let's do a briefl reflection question to conclude this session. Take 10 minutes now to reflect upon where in your **own current or future research** you could use Git. Write then the steps you will need to implement what you have learned here in that project and which barriers you may face” (e.g., technical, project partners/supervisors, etc.).
+
+**Instructor Notes**: By this point, we touched upon long term sustainability, and this reflection task may help a bit preparing for that. This task gets learners thinking about applying it to their own research projects, even if they are only hypothetical at this point. 
+:::
+
+---
+
 ## Assignment: Practising the workflow
 
 - [ ]  In a new local folder, create a new RStudio Project named **git_practice**.
@@ -1896,7 +1914,7 @@ When creating the new RStudio project, make sure to check `Create a git reposito
 
 - Mention scoring rubrics, if applicable
 
-- Design a peer-review system for assignments to place students in role of reviewer and author
+- Design a peer-review system for assignments to place learners in the role of reviewer and author
 :::
 
 ---
@@ -1918,7 +1936,7 @@ For the plot, use geom_line() to plot the number of athletes at the Summer Olymp
 
 ::: {.notes}
  
-**Instructor Notes**: Students should demonstrate: 
+**Instructor Notes**: Learners should demonstrate: 
 - A working Git-enabled RStudio project
 
 - A clear commit history showing each logical step
@@ -1977,7 +1995,7 @@ It is all about practise until you develop a routine.
 
 **Instructor Notes**:
 
-- **Aim**: End lesson on clear take-home message that are interactively compiled by students.
+- **Aim**: End lesson on clear take-home message that are interactively compiled by learners.
 :::
 
 ---
@@ -1991,7 +2009,7 @@ It is all about practise until you develop a routine.
  
 **Instructor Notes**:
 
-- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
+- **Aim**: This post-submodule survey serves to examine learners' current knowledge about the sumodule's topic.
 
 - Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
 
@@ -2068,7 +2086,7 @@ If you get stuck, there is plently of help available:
 ::: {.notes}
 **Speaker Notes**: There is always help out there! Here are some resources where you can get and find help. 
 
-**Instructor Notes**: Highlight particularly relevant resources for your students. 
+**Instructor Notes**: Highlight particularly relevant resources for your learners. 
 :::
 
 ---
