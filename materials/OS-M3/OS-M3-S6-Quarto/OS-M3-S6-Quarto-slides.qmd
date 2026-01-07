@@ -318,62 +318,83 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 
 ## So, why Quarto?
 
-1. **Readability**: 
+1. **Readability**: Research is more effective when results, explanations, and code are presented in a way that is easy to read and understand.
 
-<div style="font-size: .6em;">
+<div style="font-size: .7em;">
+Which side is easier to read?
+</div>
 
-Which side is easier to read? 
-
+<div style="font-size: 0.6em;">
 ::: columns
 ::: {.column width="50%"}
 *Side A*
 
 `````{markdown}
-With **Quarto**, one can combine the following 
-into *one single document*:
+With **Quarto**, combine into *one single document*:
 
 - text 
-- code
 - media
+- code
+
+For example, easily calculate and display the difference between two sets:
 
 ```r
-1 + 1
-2 + 2
+set1 <- c(6.8, 7.0, 6.9)
+set2 <- c(7.6, 7.9, 7.8)
+
+mean(set2) - mean(set1)
 ```
 `````
 :::
 ::: {.column width="50%"}
 *Side B*
 
-With **Quarto**, one can combine the following into *one single document*:
+With **Quarto**, combine into *one single document*:
 
 - text 
-- code
 - media
+- code
 
+For example, easily calculate and display the difference between two sets:
 
 ```{r}
-1 + 1
-2 + 2
+set1 <- c(6.8, 7.0, 6.9)
+set2 <- c(7.6, 7.9, 7.8)
+
+mean(set2) - mean(set1)
 ```
 :::
 ::::::
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let's first answer the question, "How can using Quarto solve common challenges in research?" Research can be messy and scattered sometimes, especially when you want to use different elements like text, code, and media. This is where Quarto comes in! It brings these elements together where we can type, run code, embed media, and cite literature all in one place. 
+**Speaker Notes**: Let's first answer the question, "How can using Quarto solve common challenges in research?" Research can be messy and scattered sometimes, especially when you want to use different elements like text, code, and media. This is where Quarto comes in! It brings these elements together where we can type, run code, embed media, and cite literature all in one place. On the left, we see the raw source with markup and code mixed in, which is harder to scan. On the right, Quarto renders the same content into readable text and a clear result, making it much easier to understand at a glance.
 
-**Instructor Notes**: 
+**Instructor Notes**: Frame Quarto as the solution to the problem of hard-to-read papers and bodies of work that attempt to integrate text, code, and media with no standard format. This slide demonstrates how Quarto separates source from presentation. The left side shows what the author writes, while the right side shows what the reader sees.
 :::
 
 ---
 
 ## So, why Quarto?
 
-**Reproducibility**:
+2. **Reproducibility**: Research is more reliable when others can clearly see how results were produced and reproduce them from the original code and data.
+
+<div style="font-size: 0.9em;">
+**Challenges:**
+
+- Research outputs are often separated from the code that generated them  
+- Results can become outdated as analyses change  
+- Sharing workflows clearly with others is difficult  
+
+**How Quarto can help:**
+
+- Keeps text, code, and results in a single, executable document  
+- Ensures results are regenerated directly from the underlying code  
+- Supports transparent and shareable research workflows
+</div>
 
 ::: {.notes}
-**Speaker Notes**: This can also be an obstacle when sharing and ensuring your work is reproducible. It also allows for different ways to share and ensure our research is transparent and reproducible. So this lesson is just part of a bigger journey in integrating Open Research practices in our work. 
+**Speaker Notes**: This can also be an obstacle when sharing and ensuring your work is reproducible. One of the main challenges in research is that results are often disconnected from the code and data that produced them. As analyses evolve, it’s easy for reported results to become outdated or inconsistent. Quarto helps address this by keeping text, code, and results together, so outputs are always generated from the same analysis and are easier to share and reproduce.
 :::
 
 ---
@@ -471,7 +492,7 @@ These are the steps to open a Quarto Document in RStudio:
 -   [ ] Repeat the steps in the previous slides to create a new Quarto Document
 -   [ ] Set the title as "Chicken Weights"
 -   [ ] Use your name for the author
--   [ ] Select 'File' → 'Save As...' and save this Quarto Document in the folder you created 
+-   [ ] Select "`File`" → "`Save As...`" and save this Quarto Document in the folder you created 
 
 ::: callout-tip
 ## Why make a New Folder?
@@ -492,7 +513,6 @@ Creating a folder on your device helps you stay organized! Keeping all the files
 What is **authoring**? 
 
 - The process of writing and structuring the Quarto document.
-
 - Consider it as a formula: **Authoring = YAML Header + Markdown**
 
 To practice authoring in Quarto, let's start with setting the YAML header and adding markdown text in **Source mode**.
@@ -542,11 +562,8 @@ Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" targ
 **Basic Markdown Text Formatting**
 
 -   **Bold:** `**bold**` → **bold**
-
 -   *Italic:* `*italic*` → *italic*
-
 -   ~~Strikethrough:~~ `~~text~~` → ~~text~~
-
 -   `Inline code:` `` `code` `` → `code`
 
 ::: callout-note
@@ -915,7 +932,6 @@ Quarto offers additional **authoring features** that make it more versatile and 
 
 - Adding **links** and **hyperlinking** text
 - Embedding **media**
-- Creating **multi-column layouts** and more.
 
 ::: callout-note
 ## Commonly used authoring features
@@ -924,7 +940,7 @@ Here is a <a href="https://quarto.org/docs/authoring/markdown-basics.html">link 
 :::
 
 ::: {.notes}
-**Speaker Notes**: Beyond writing plain text, Quarto also incorporates additional features like hyperlinked text, inserting images or videos, and multi-column layouts. These improve how our document communicates. Hyperlinks let us connect to sources or other sections; media like images and video help explain complex ideas more clearly; and multi-column layouts make the content easier to read and more visually appealing. Using these features thoughtfully improves both the usability and the overall look of the document.
+**Speaker Notes**: Beyond writing plain text, Quarto also incorporates additional features like hyperlinked text and inserting images or videos. These improve how our document communicates. Hyperlinks let us connect to sources or other sections; and media like images and video help explain complex ideas more clearly. Using these features thoughtfully improves both the usability and the overall look of the document.
 :::
 
 ---
@@ -1025,11 +1041,11 @@ What is **Zotero**? A free reference management tool to collect, organize, cite,
 
 To insert a citation:
 
--   Switch to the "Visual Editor" mode
+-   Switch to the "`Visual Editor`" mode
 
 -   → Add `bibliography: references.bib` in the YAML header
 
--   → Press the "Insert" button in the toolbar and select "Citation"
+-   → Press the "`Insert`" button in the toolbar and select "`Citation`"
 
 A reference list or bibliography is automatically generated at the end of the document with all the citations used.
 
@@ -1085,10 +1101,10 @@ Diet affects chick body weight. In this study, low-energy feed made fast-growing
 
 ## Practical exercise 8
 
-- [ ] In **Visual Mode**, click "Insert" and find the article in the Zotero Library
-- [ ] Click "Insert" to add the citation
+- [ ] In **Visual Mode**, click "`Insert`" and find the article in the Zotero Library
+- [ ] Click "`Insert`" to add the citation
 
-![When you find the article in the Zotero Library folder here, select it, then click Insert](images/09_Zotero_Insert.png){fig-alt="An image showing the citation key "pauwels2015" and a red rectangle highlighting the 'Insert' option."}
+![When you find the article in the Zotero Library folder here, select it, then click Insert](images/09_Zotero_Insert.png){fig-alt="An image showing the citation key 'pauwels2015' and a red rectangle highlighting the 'Insert' option."}
 
 ::: {.notes}
 **Speaker Notes**: Follow these steps to add the citation to the end of the text. It is possible to add citations in Source mode, but it is easier and more efficient to do it in Visual mode. This is also a good opportunity to see all the work you've done so far in the Quarto document but now in Visual mode. 
@@ -1118,12 +1134,12 @@ Let's practice adding **in-text** citations:
 
 ## Practical exercise 9
 
-- [ ] Click "Insert" and find the article in the Zotero Library
-- [ ] Check the box next to "In-text"
+- [ ] Click "`Insert`" and find the article in the Zotero Library
+- [ ] Check the box next to "`In-text`"
 
-![](images/10_Zotero_InText.png){fig-alt="An image showing the citation key "li2016" and a red rectangle highlighting the ticked 'In-text' checkbox."}
+![](images/10_Zotero_InText.png){fig-alt="An image showing the citation key 'li2016' and a red rectangle highlighting the ticked In-text checkbox."}
 
-- [ ] Click "Insert" to add the citation
+- [ ] Click "`Insert`" to add the citation
 
 ::: {.notes}
 **Speaker Notes**: The steps to add an in-text citation is almost identical to adding a regular citation with the only difference being checking the "In-text" box before inserting the citation. 
@@ -1202,7 +1218,6 @@ When sharing your work, it's important to follow established **rules and standar
   - Established best practices to make sure our research remains  credible and reusable.
   
 **Instructor Notes**: Aim: To inform students that open science involves thoughtful practices. In this case, sharing should be done with legality, licenses, and reusability in mind. We will not practice this in the session but it is good to know moving forward.
-
 :::
 
 ---
@@ -1212,9 +1227,7 @@ When sharing your work, it's important to follow established **rules and standar
 A great option to share your document is **publishing to GitHub**.
 
 - **GitHub** is a platform for hosting and sharing code and projects online
-
 - An advantage of GitHub is it allows for **version control**- the ability to track and manage changes over time
-
 - A free and widely used way to publish your Quarto document to GitHub is by using **GitHub Pages**
 
 ::: {.notes}
@@ -1259,119 +1272,109 @@ Let's publish our document using the first method:
 
 Work directly from the **Terminal** in RStudio. 
 
-- To connect with **Git Bash**, click Terminal → Terminal Options and set it to open with Git Bash 
+- For Mac and Linux users, simply open a new Terminal by clicking "`Terminal`" → then "`New Terminal`"
+- Windows users can connect to **Git Bash** with "`Terminal`" → "`Terminal Options...`", set it to open with Git Bash then open a new terminal. 
 
 :::::: columns
 ::: column
-![](images/12_GitBash_Terminal.png){fig-alt="The 'Terminal Options...' option is highlighted with a red rectangle under the Terminal in RStudio."}
+![](images/12_GitBash_Terminal.png){fig-alt="The 'Terminal Options...' selection is highlighted with a red rectangle under the options in Terminal within RStudio."}
 :::
 ::: column
-
 ![](images/13_GitBash_Terminal.png){fig-alt="A screenshot displaying the 'Git Bash' option being selected from the dropdown menu under 'New terminals open with:'."}
 :::
 ::::::
 
-- then, click Terminal → New Terminal to begin working with Git Bash
-
 ::: {.notes}
-**Speaker Notes**: When publishing to GitHub, we’ll often use Git Bash, which is a command-line tool for running Git commands. Fortunately, you don’t have to leave RStudio to use it by opening Git Bash directly inside RStudio’s Terminal tab. <br>
-- To do this, go to Terminal then Terminal Options, and under ‘New terminals open with,’ select Git Bash. Then, when you click Terminal then click New Terminal, it will open Git Bash automatically, ready for you to start working. <br>
-- This setup keeps everything in one place so you don’t need to switch between RStudio and an external terminal. 
+**Speaker Notes**: When publishing to GitHub, we’ll often work directly in the Terminal in RStudio. TO
+use Git Bash, which is a command-line tool for running Git commands typically on Windows devices, directly inside RStudio: go to "Terminal" then "Terminal Options", and under "New terminals open with", select Git Bash. Then, when you click "Terminal" then click "New Terminal", it will open Git Bash automatically, ready for you to start working. This setup keeps everything in one place so you don’t need to switch between RStudio and an external terminal. <br>
+- On macOS and Linux, RStudio already opens a compatible terminal, so Git works without any additional setup.
 
-**Instructor Notes**: <br>
-- Git Bash needs to be installed on the student's device for this to work. <br>
-- When you click the drop-down arrow by Terminal, the options may look different than what's in the image in this slide, but the "Terminal Options..." will be at the end (you may have to scroll a bit). <br>
-- The last step (open a new Terminal) is important because the current Terminal does not automatically change to Git Bash.
+**Instructor Notes**: Git Bash needs to be installed on the student's device for this to work. When you click the drop-down arrow by Terminal, the options may look different than what's in the image in this slide, but the "Terminal Options..." will be at the end (you may have to scroll a bit). The last step (open a new Terminal) is important because the current Terminal does not automatically change to Git Bash.
 :::
 
 --- 
 
-## Practical exercise 11
+## Practical exercise 10
 
-- [ ] In your Quarto Document, edit YAML and add:
+- [ ] In your Quarto Document, edit YAML and add the following:
 
 ```mardown
 project:
   type: website
   output-dir: docs
 ```
-- [ ] Set Terminal to open with Git Bash and open new Terminal
-- [ ] Change directory to the path of the main folder with the Quarto files using `cd`
+- [ ] Open a new Terminal (for Windows users, first set to open with Git Bash)
+- [ ] Change directory to the path of the main folder with the Quarto files using the `cd` command
 
+Here is an example of setting the directory using `cd`: 
+![](images/14_Terminal_cd_Command.png){width="50%" fig-alt="Screenshot of the Terminal with the 'cd' command setting the directory to 'Quarto'."}
 
 ::: {.notes}
-**Speaker Notes**: <br>
-- In this exercise, we’re preparing our Quarto document so it can be published on GitHub Pages. First, edit the YAML header of your Quarto document to define it as a website project and set the output to the docs folder. This tells Quarto where to place the rendered files that GitHub Pages will serve. <br>
-- Next, set up your terminal in RStudio to use Git Bash by following the steps in the previous slide. <br>
-- From this new Git Bash-Terminal, use the `cd` command to change into the main folder where your Quarto files are stored. This step makes sure any Git commands you run apply to the right project folder. 
+**Speaker Notes**: In this exercise, we are preparing our Quarto document so it can be published on GitHub Pages. First, edit the YAML header of your Quarto document to define it as a website project and set the output to the docs folder. This tells Quarto where to place the rendered files that GitHub Pages will serve. Next, set up your terminal in RStudio to use Git Bash by following the steps in the previous slide. From this new Git-compatible Terminal, use the `cd` command to change the directory to the main folder where your Quarto files are stored. This step makes sure any Git commands you run apply to the right project folder. 
 
-**Instructor Notes**: <br>
-- Some level of Git knowledge is assumed but here are some common issues that the students can run into: <br>
-  - Problems with copying and pasting- copying and pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. <br>
-  - Setting the directory can be tricky. Backslashes (`\`) need to be changes to forward slashes (`/`). If you're pasting the exact path of the folder, wrap it in quotation marks (`"..."`) OR an easy way to change the directory is by typing `cd` then selecting and dragging the folder directly into Git Bash. This puts the folder path after the `cd` <br>
-  - Sometimes in Git Bash-Terminal, just copying and pasting will run the command, but sometimes you need to hit Enter.
-
+**Instructor Notes**: Some level of Git and Git Hub knowledge is assumed but here are some common issues that the students can run into: <br>
+  - Problems with copying and pasting- copying and pasting with keyboard shortcuts do not work the same in the Terminal. Right-clicking and selecting "Paste" is an easy option. <br>
+  - Setting the directory can be tricky. Backslashes (`\`) need to be changed to forward slashes (`/`); If you are pasting the exact path of the folder, wrap it in quotation marks (`"..."`); An easy way to change the directory is by typing `cd` then clicking and dragging the folder directly into the Terminal- this puts the folder path after the `cd` <br>
+  - Sometimes in the Terminal, just copying and pasting will run the command, but you often need to hit "Enter".
+  
 :::
 
 ---
 
-## Practical exercise 11
+## Practical exercise 10
+
+- [ ] Make a simple `_quarto.yml` file by copying and pasting the following in the Terminal:
 
 ```markdown
 echo "project:
   type: website
   output-dir: docs" > _quarto.yml
 ```
-- [ ] Make a simple `_quarto.yml` file by copying and pasting the above in the Terminal
+- [ ] Copy and paste the following into the Terminal to add a `.nojekyll` file:
 
 ```markdown
 touch .nojekyll
 ```
-- [ ] Copy and paste the above into the Terminal to add a `.nojekyll` file
 
 :::callout-note
 ## Why we add `.nojekyll`
 
 Adding a `.nojekyll` file to the root of your repository tells GitHub Pages not to do additional processing of your published site using Jekyll
-
 :::
 
 ::: {.notes}
-**Speaker Notes**: <br>
-- Here, we’re setting up the basic project files GitHub Pages needs in order to publish our Quarto website. <br>
-- First, we’ll create a `_quarto.yml` file using the Terminal. This file tells Quarto that the project is a website and that the rendered output should go into the docs folder. <br>
-- Next, we’ll add a special file called `.nojekyll`. By default, GitHub Pages uses Jekyll to process websites, but that can interfere with Quarto’s output. Adding a `.nojekyll` file tells GitHub Pages to leave our site exactly as Quarto created it.
+**Speaker Notes**: Here, we’re setting up the basic project files GitHub Pages needs in order to publish our Quarto website. First, we’ll create a `_quarto.yml` file using the Terminal. This file tells Quarto that the project is a website and that the rendered output should go into the docs folder. Next, we’ll add a special file called `.nojekyll`. By default, GitHub Pages uses Jekyll to process websites, but that can interfere with Quarto’s output. Adding a `.nojekyll` file tells GitHub Pages to leave our site exactly as Quarto created it.
 :::
 
 ---
 
-## Practical exercise 11
+## Practical exercise 10
+
+- [ ] Copy and paste the following into Terminal to generate HTML in the `docs/` folder:
 
 ```markdown
 quarto render
-``` 
-- [ ] Copy and paste the above into Terminal to generate HTML in the `docs/` folder
+```
+- [ ] Copy and paste the following into Terminal- this initializes Git and renames "master" to "main":
 
 ```markdown
 git init
 git branch -M main  
 ```
-- [ ] Copy and paste the above into Terminal to initialize Git and rename "master" to "main"
 
 ::: {.notes}
-**Speaker Notes**: <br>
-- Running `quarto render` in the Terminal takes your Quarto project and produces the HTML files in the docs folder. These are the files GitHub Pages will serve as your website. <br>
-- Next, we need to initialize Git in the project folder so we can connect it to GitHub. The command `git init` sets up Git tracking, and `git branch -M main` renames the default branch from "master" to "main," which is the standard branch name used in this session.
+**Speaker Notes**: Running `quarto render` in the Terminal takes your Quarto project and produces the HTML files in the docs folder. These are the files GitHub Pages will serve as your website. Next, we need to initialize Git in the project folder so we can connect it to GitHub. The command `git init` sets up Git tracking, and `git branch -M main` renames the default branch from "master" to "main," which is the standard branch name used in this session.
 
-**Instructor Notes**: You will see a warning about "`references.bib not found in resource path`" which usually happens because Quarto looks for the file in the project’s root or resource path, but Git Bash is case-sensitive and strict with paths. So, you will see in your completed Git Pages web page that the citations look strange but we will leave it like that for now. Extra steps are needed to correct this that won't be covered in this lesson but can be explored further independently. 
+**Instructor Notes**: You will see a warning about "`references.bib not found in resource path`" which usually happens because Quarto looks for the file in the project’s root or resource path, but the Terminal is case-sensitive and strict with paths. So, you will see in your completed Git Pages web page that the citations look strange but we will leave it like that for now. Extra steps are needed to correct this that won't be covered in this lesson but can be explored further independently. 
 :::
 
 ---
 
-## Practical exercise 11
+## Practical exercise 10
 
 - [ ] Go to [GitHub](github.com) and create a new repository
-- [ ] In Terminal, connect to local project by using "`git remote add origin`" + the repo's HTTPS URL (for example, "`git remote add origin https://github.com/yourname/chickweight-exercise.git`")
+- [ ] In the Terminal, connect to a local project by using "`git remote add origin`" followed by the repo's HTTPS URL (for example, "`git remote add origin https://github.com/yourname/chickweight-exercise.git`")
+- [ ] Copy and paste the following into Terminal to render your site and push it to GitHub:
 
 ```markdown
 quarto render
@@ -1379,51 +1382,45 @@ git add docs
 git commit -m "Publish site to docs/"
 git push -u origin main
 ```
-- [ ] Copy and paste the above into Terminal to render your site and push it to GitHub
+
 - [ ] In your repo on [GitHub](github.com), go to Settings 
-- [ ] Click "Pages" to configure GitHub Pages
+- [ ] Click "`Pages`" to configure GitHub Pages
 
 ::: {.notes}
-**Speaker Notes**: Now to put everything together. We need to create a new, public repository on GitHub which is where our project files will be held. Then, we connect our local project to GitHub using `git remote add origin` followed by the repository’s HTTPS link (found on the GitHub website). This tells Git where to send the files when we push them with `git push -u origin main`.
+**Speaker Notes**: Now to put everything together. We need to create a new, public repository on GitHub which is where our project files will be held. Then, we connect our local project to GitHub using `git remote add origin` followed by the repository’s HTTPS link (found on the GitHub website). This tells Git where to send the files when we push them with `git push -u origin main`. Then, go to the settings in your newly created repository and click "Pages" to configure GitHub Pages.
 
 **Instructor Notes**: For this to work, it's important that the repository created is set to Public. 
 :::
 
 ---
 
-## Practical exercise 11
+## Practical exercise 10
 
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 1;"}
 
-- [ ] Change "none" to "main"
+- [ ] Change "`none`" to "`main`"
 
 :::
 ::: {style="flex: .65;"}
-
-![](images/15_GitPages_Settings.png)
-
+![](images/15_GitPages_Settings.png){fig-alt="A screenshot of the settings on a GitHub repository where the action of changing 'None' to 'main' branch is highlighted with red rectangles."}
 :::
 ::::::
 
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 1;"}
-
-- [ ] Change "/root" to "/docs" 
-- [ ] Click Save
-
+- [ ] Change "`/root`" to "`/docs`" 
+- [ ] Click "`Save`"
 :::
 ::: {style="flex: .65;"}
-
-![](images/16_GitPages_Settings.png)
-
+![](images/16_GitPages_Settings.png){fig-alt="A screenshot of the settings on a GitHub repository where the action of changing '/root' to '/docs' is highlighted with red rectangles."}
 :::
 ::::::
 
 - After 1-2 minutes, you will see that your site will be **live**! 
 
 ::: {.notes}
-**Speaker Notes**: The final steps to make the site public is to configure the GitHub repository settings under "Pages." Change None" to "main," this switches us to the branch we are working on. Then change "/(root)" to "/docs" which will switch the folder where Quarto rendered the website files. After clicking Save, your site will be live after a minute or two. 
+**Speaker Notes**: The final steps to make the site public is to configure the GitHub repository settings under "Pages." Change "None" to "main"- this switches us to the branch we are working on. Then change "/(root)" to "/docs" which will switch the folder where Quarto rendered the website files. After clicking Save, your site will be live after a minute or two. 
 
 **Instructor Notes**: Reminder that the citations will not be complete because configuring to include the bibliography was not done. That's an additional step.
 :::
@@ -1432,50 +1429,27 @@ git push -u origin main
 
 ## Recap 
 
-**About Quarto**
+- **Quarto** is a powerful tool that combines text, code, and media to make documents more transparent, reproducible, and accessible.
+- Within a **.qmd file**:
+  - The **YAML header** controls the document settings, such as how code chunks are displayed.
+  - **Code chunks** run code and show results. 
+  - **Markdown text** creates the main content and can be formatted using keyboard shortcuts.
+- Use Quarto directly with **Zotero** for inserting and managing references.
+- Make your work accessible and reproducible by publishing on platforms, such as **Quarto Pub**, **GitHub Pages**, or your own **website**.
 
-- Quarto is a powerful tool that combines text, code, and media to make documents which are transparent, reproducible, and accessible.
-- In a **.qmd file**:
-  - The **YAML header** controls the document settings
-  - **Code chunks** run code and show results
-  - **Markdown text** creates the main content
-- You can use simple formatting and keyboard shortcuts for styling text.
-  - `**bold**` → **bold**
-  - `*italic*` → *italic*
-  
-::: {.notes}
-**Speaker Note**: <br>
-- Here are some of the key things covered in the lesson that give a general overview of Quarto and what it contains. <br>
-- Quarto is more than just a tool to write documents, it’s designed to bring together text, code, and media in one .qmd file that ensures transparency and reproducibility. <br>
-- Quarto supports simple formatting, like bold and italics, which makes writing cleaner and more efficient without the need for complex styling tools.
-
-**Instructor Note**: The idea of this slide is to give a recap of important elements aobut Quarto covered in the lesson.
-:::
-
---- 
-
-## Recap 
-
-**Features and Sharing**
-
-- Code chunks can be customized in the YAML header (for example, `code-fold: true` makes code collapsible).
-- You can add **links, images, media, and layout features** (like columns) to improve presentation and usability.
-- **Zotero** helps manage references, allowing you to cite while you write and automatically builds a bibliography.
-- **Publishing** makes your work accessible and reproducible.
-  - Options for publishing include **Quarto Pub**, **GitHub Pages**, or your own **website**.
-  
-For a summary of what we learned and applied using Quarto, <a href="assets/OS-M3-S6-Quarto-Cheatsheet.pdf" download>click here to download a cheatsheet</a>.
-
+<div style="text-align: center;">
+  <a href="assets/OS-M3-S6-Quarto-Cheatsheet.pdf" download 
+     style="background-color:#007ACC; color:white; padding:8px 14px; border-radius:4px; 
+            text-decoration:none; font-weight:500;">
+    Download the Quarto cheatsheet
+  </a>
+</div>
 
 ::: {.notes}
-**Speaker Note**: <br>
-- Here are some of the features for customization and improved usability that were discussed and applied in the lesson to create the Quarto document. We then shared it using GitHub Pages. <br>
-- Zotero integration streamlines citation management and bibliography building, which is essential for academic and research writing. <br>
-- Quarto enables sharing work through platforms like Quarto Pub or GitHub Pages, which makes research accessible and reproducible. <br>
+**Speaker Note**: Here are some of the key things covered in the lesson that give a general overview of Quarto and what it contains. Quarto is more than just a tool to write documents, it’s designed to bring together text, code, and media in one .qmd file that ensures transparency and reproducibility. It makes writing cleaner and more efficient without the need for complex styling tools. Zotero integration streamlines citation management and bibliography building, which is essential for academic and research writing. Quarto enables sharing work through platforms like Quarto Pub or GitHub Pages, which makes research accessible and reproducible. <br>
 - For quick reference, a downloadable cheatsheet is provided with this lesson. It offers beginner-friendly instructions summarizing the key terms, features, and functions of Quarto. 
 
-**Instructor Note**: <br>
-- The aim of this slide is to give a recap of things you can do to edit the Quarto document and then make it shareable. <br>  
+**Instructor Note**: The idea of this slide is to give a recap of important elements about Quarto covered in the lesson, things you can do to edit the Quarto document, and then how to make it shareable. <br>
 - A downloadable cheatsheet is included for students to have a summary of information and features that were covered in this session.
 :::
 
@@ -1489,13 +1463,9 @@ For a summary of what we learned and applied using Quarto, <a href="assets/OS-M3
 
 Let's discuss how useful **Quarto** can be for **open research**. Consider the following questions:
 
-- How can using Quarto improve transparency and reproducibility in your work?
-
-- In what ways does Quarto make sharing code and data with collaborators easier?
-
-- Do you see advantages in using Quarto compared to traditional tools like Word or PowerPoint?
-
-- What challenges might you face in adopting Quarto in your current 
+1. How can using Quarto improve transparency and reproducibility in your work?
+2. Do you see advantages in using Quarto compared to traditional tools like Word or PowerPoint?
+3. What challenges might you face in adopting Quarto in your current 
 
 ::: {.notes}
 **Speaker Note**: Let's discuss how these new skills could be applied in practice with specific examples. Go through the questions on the slide to add to the discussion. 
@@ -1509,13 +1479,16 @@ Let's discuss how useful **Quarto** can be for **open research**. Consider the f
 
 Let’s wrap up by identifying the **key takeaway** from today’s session together.
 
+<br>
+
+<div style="background-color: #f0f0f0;">
 Ask yourself: *"If you had to explain to a colleague in one sentence why learning Quarto matters for research and teaching, what would you say?"*
+</div>
 
 ::: {.notes}
 **Speaker Notes**: Think about the question on the slide and either answer it or use it to share a one-sentence take-home message. 
 
-**Instructor Notes**: <br>
-- Aim: End lesson on clear take-home message that are interactively compiled by students. <br>
+**Instructor Notes**: Aim: End lesson on clear take-home message that are interactively compiled by students. <br>
 - You can collect them verbally or in a shared doc/board. <br>
 - If you choose to contribute to the discussion, reinforce that Quarto is not just a tool, but a mindset shift toward openness and collaboration.
 :::
@@ -1530,18 +1503,21 @@ After learning about Quarto in today's lesson, use this homework assignment to:
 - Explore what more can be added to your documents
 - Build confidence in editing YAML header, adding code chunks, and customizing the layout
 
-For the assignment, <a href="assets/OS-M3-S6-Quarto-Homework Assignment.pdf" download>click here to download the homework sheet</a>.
+<div style="text-align: center;">
+  <a href="assets/OS-M3-S6-Quarto-Homework_Assignment.pdf" download 
+     style="background-color:#007ACC; color:white; padding:8px 14px; border-radius:4px; 
+            text-decoration:none; font-weight:500;">
+    Download the Quarto Homework Assignment
+  </a>
+</div>
 
 ::: {.notes}
 **Speaker Notes**: This homework activity builds on the document created during this lesson to add more to the content and layout. It contains activities that take what we practiced today one step further. Each item builds on the knowledge and exercises that were covered in this session. 
 
-**Instructor Note**: <br>
-- Aim: to reinforce what was learned in this session and to have an opportunity to apply the knowledge in a more challenging way. <br>
-- Use this homework sheet as it is or use it as an example to create your own based on the needs of the class or the specific requirements for future lessons. Consider the following: <br>
-  - Examine whether/how it will be assessed <br>
-  - Mention scoring rubrics, if applicable <br>
-  - Design a peer-review system for assignments to place students in role of reviewer and author
-  
+**Instructor Note**: Aim- to reinforce what was learned in this session and to have an opportunity to apply the knowledge in a more challenging way. Use this homework sheet as it is or use it as an example to create your own based on the needs of the class or the specific requirements for future lessons. Consider the following: <br>
+- Examine whether/how it will be assessed <br>
+- Mention scoring rubrics, if applicable <br>
+- Design a peer-review system for assignments to place students in role of reviewer and author
 :::
 
 ---
@@ -1550,11 +1526,21 @@ For the assignment, <a href="assets/OS-M3-S6-Quarto-Homework Assignment.pdf" dow
 
 Let's end this sesson with a short survey on topics covered in this lesson. 
 
+Click on the following link or scan the QR code to do one final review of this lesson:
+[Quarto Survey](https://partici.fi/06396725)
+
+![](images/00_particify.png){fig-align="center" width="20%" fig-alt="An image of a QR code that leads to a survey."}
+
+::: callout-note
+## Pre-break survey
+
+Please complete survey labeled "...".
+:::
+
 ::: {.notes}
 **Speaker Notes**: To end this lesson, let's use this survey to see where we stand in our knowledge of Quarto and what we can focus on more moving forward to become more proficient in literate programming with it. 
 
-*Instructor Notes* <br>
-- Aim: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic. <br>
+*Instructor Notes* Aim- This post-submodule survey serves to examine students' current knowledge about the sumodule's topic. <br>
 - Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):
 :::
 
@@ -1574,9 +1560,13 @@ e) I use it frequently
 **Which of the following best describes Quarto?**
 
 a) A programming language
-b) A publishing system for reproducible documents ✅
+b) A publishing system for reproducible documents 
 c) A code editor
 d) A type of version control system
+
+:::{.notes}
+Instructor Notes: The correct answer is b.
+:::
 
 ---
 
@@ -1585,7 +1575,11 @@ d) A type of version control system
 a) Only YAML
 b) Only Markdown
 c) Neither
-d) YAML and Markdown together ✅
+d) YAML and Markdown together 
+
+:::{.notes}
+Instructor Notes: The correct answer is d.
+:::
 
 ---
 
@@ -1593,8 +1587,12 @@ d) YAML and Markdown together ✅
 
 a) Source mode
 b) Visual mode
-c) Both ✅
+c) Both 
 d) Neither
+
+:::{.notes}
+Instructor Notes: The correct answer is c.
+:::
 
 ---
 
@@ -1604,46 +1602,66 @@ d) Neither
 
 **Which of these are examples of Markdown text formatting? (Select all that apply)**
 
-a) Bold text ✅
-b) Italic text ✅
+a) Bold text 
+b) Italic text 
 c) Adding code chunks
-d) Adding hyperlinks ✅
+d) Adding hyperlinks 
+
+:::{.notes}
+Instructor Notes: The correct answers are a., b., and d.
+:::
 
 ---
 
 **Why should you use text formatting in Quarto documents?**
 
 a) For aesthetics only
-b) To improve clarity and emphasis ✅
+b) To improve clarity and emphasis 
 c) To make the file larger
 d) To change the coding language
+
+:::{.notes}
+Instructor Notes: The correct answer is b.
+:::
 
 ---
 
 **When would you consider using multi-column layouts?**
 
 a) To shorten the document
-b) To make information more visually organized ✅
+b) To make information more visually organized 
 c) To add footnotes only
 d) To increase file size
+
+:::{.notes}
+Instructor Notes: The correct answer is b.
+:::
 
 ---
 
 **What is the purpose of code chunks in Quarto documents?**
 
-a) To include executable code and results within the document ✅
+a) To include executable code and results within the document 
 b) To store references
 c) To format text
 d) To hide metadata
+
+:::{.notes}
+Instructor Notes: The correct answer is a.
+:::
 
 ---
 
 **Which YAML options relate to how code chunks are displayed?**
 
-a) echo: true ✅
-b) code-fold: false ✅
-c) title: "My Document"
-d) format: html
+a) echo: true 
+b) code-fold: false 
+c) cold: fold
+d) echo: code
+
+:::{.notes}
+Instructor Notes: The correct answers are a. and b.
+:::
 
 ---
 
@@ -1652,16 +1670,24 @@ d) format: html
 a) To make the document more difficult to read
 b) To ensure only the author can reproduce results
 c) To replace data collection
-d) To make research reproducible and transparent ✅
+d) To make research reproducible and transparent 
+
+:::{.notes}
+Instructor Notes: The correct answer is d.
+:::
 
 ---
 
 **Which of the following are common publishing options for Quarto projects? (Select all that apply)**
 
-a) GitHub Pages ✅
-b) Quarto Pub ✅
+a) GitHub Pages 
+b) Quarto Pub 
 c) Social media platforms
-d) Personal websites ✅
+d) Personal websites 
+
+:::{.notes}
+Instructor Notes: The correct answers are a., b., and d.
+:::
 
 ---
 
@@ -1669,8 +1695,12 @@ d) Personal websites ✅
 
 a) They make your computer run faster
 b) They allow offline editing only 
-c) They become accessible to others for sharing and collaboration ✅
+c) They become accessible to others for sharing and collaboration 
 d) They automatically write the code for you
+
+:::{.notes}
+Instructor Notes: The correct answer is c.
+:::
 
 ---
 
@@ -1692,6 +1722,8 @@ d) They automatically write the code for you
 
 - Forehand, M. (2010). Bloom’s taxonomy. *Emerging perspectives on learning, teaching, and technology*, 41(4), 47-56.
 
+- Tierney, N. (2025). Quarto for scientists. https://qmd4sci.njtierney.com/
+
 <div style="font-size: 0.6em;">
 <span style="color:red">From SvG: Add references here</span> Beth: should I cite the Quarto Website?
 </div> 
@@ -1708,7 +1740,7 @@ See you next class :)
 
 - Relevant practical exercises follow each section to encourage students to learn-by-doing
 - <a href="assets/OS-M3-S6-Quarto-Cheatsheet.pdf" download>Downloadable cheatsheet as a PDF</a> for a compact summary of all the topics covered in the session 
-- <a href="assets/OS-M3-S6-Quarto-Homework Assignment.pdf" download>Downloadable homework assignment sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently. 
+- <a href="assets/OS-M3-S6-Quarto-Homework_Assignment.pdf" download>Downloadable homework assignment sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently. 
 - [Link to advanced Quarto activities](https://lmu-osc.github.io/introduction-to-Quarto/quarto_exercises.html) for faster learners who want to gain deeper knowledge on Quarto and its possibilities
     
 <div style="font-size: 0.6em;">
