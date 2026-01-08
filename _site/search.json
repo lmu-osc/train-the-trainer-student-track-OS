@@ -712,5 +712,1721 @@
     "title": "Introduction to version control with Git in RStudio",
     "section": "Reflection",
     "text": "Reflection\n  \n\nTake 10 minutes now to reflect upon where in your own current or future research you could use Git. Write then the steps you will need to implement what you have learned here in that project and which barriers you may face” (e.g., technical, project partners/supervisors, etc.)\n\n\nSpeaker Notes: Let’s do a brief reflection question to conclude this session. Take 10 minutes now to reflect upon where in your own current or future research you could use Git. Write then the steps you will need to implement what you have learned here in that project and which barriers you may face” (e.g., technical, project partners/supervisors, etc.).\nInstructor Notes: By this point, we touched upon long term sustainability, and this reflection task may help a bit preparing for that. This task gets learners thinking about applying it to their own research projects, even if they are only hypothetical at this point."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html",
+    "title": "3.4. Introduction to version control with Git in RStudio",
+    "section": "",
+    "text": "Something nice here"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#about-these-materials",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#about-these-materials",
+    "title": "3.4. Introduction to version control with Git in RStudio",
+    "section": "About these materials",
+    "text": "About these materials\nWelcome!\nThis workshop is for XX audience. Its purpose is to XXX. The main objective of this workshop is to"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#prerequisites",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#prerequisites",
+    "title": "3.4. Introduction to version control with Git in RStudio",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nLaptop/PC with internet access\nAdmin rights for download/install\n-\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nhttps://posit.co/download/rstudio-desktop/\n\n\nBasic R skills\n3.2 Introduction to R - Part I\nLINK\n\n\nAdvanced R skills\n3.3 Introduction to R - Part II\nLINK\n\n\nGitHub account\nFree account for GitHub\nJoin at https://github.com/join"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#learning-objectives",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#learning-objectives",
+    "title": "3.4. Introduction to version control with Git in RStudio",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nUnderstand the problem(s) that can be solved by version control\nInstall and configure Git\nSet up the connection between your computer and GitHub\nCreate an RStudio Project under version control for a reproducible workflow\nMake changes within RStudio and commit changes locally\nConnect local and remote repositories for your work"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#materials",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#materials",
+    "title": "3.4. Introduction to version control with Git in RStudio",
+    "section": "Materials",
+    "text": "Materials\nFull Screen"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#practical-exercises---solutions",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#practical-exercises---solutions",
+    "title": "3.4. Introduction to version control with Git in RStudio",
+    "section": "Practical exercises - solutions",
+    "text": "Practical exercises - solutions\nDownload the solutions for the practical exercises here:\n Download"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#helpfiles",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#helpfiles",
+    "title": "3.4. Introduction to version control with Git in RStudio",
+    "section": "Helpfiles",
+    "text": "Helpfiles\nDownload the csv file for the example data:\n Download"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#contributors-and-licence-details",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#contributors-and-licence-details",
+    "title": "3.4. Introduction to version control with Git in RStudio",
+    "section": "Contributors and licence details",
+    "text": "Contributors and licence details\nCreator: Von Grebmer zu Wolfsthurn, Sarah (0000-0002-6413-3895)\nReviewer: Ihle, Malika (0000-0002-3242-5981)\nConsultant: Edelsbrunner, Peter (0000-0001-9102-1090)\n\n\n\n\n\nThis work was originally created by Mike Croucher under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International License. It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License. This licence permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html",
+    "title": "3.6. Introduction to Quarto",
+    "section": "",
+    "text": "Something nice here\n\nFull Screen\n\n\nOverview\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nDownload files\nDownload the csv file for the mtcars data:\n Download \n \n\n\nExport slides\nYou can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export.",
+    "crumbs": [
+      "Home",
+      "Module 3: Open Research Software Tools",
+      "3.6. Introduction to Quarto"
+    ]
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub.html",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub.html",
+    "title": "3.5. Introduction to collaborative coding with GitHub",
+    "section": "",
+    "text": "Something nice here\n\nFull Screen\n\n\nOverview\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nDownload files\nDownload the csv file for the mtcars data:\n Download \n \n\n\nExport slides\nYou can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html",
+    "title": "Introduction to version control with Git in RStudio",
+    "section": "",
+    "text": "This work was originally created by Mike Croucher under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International License. It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License. This licence permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.\n\n\nSpeaker Notes: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.\nHowever, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.\nInstructor Notes: You are free to edit, modify and add/delete slides to tailor the content to your learners. However, make sure to give appropriate credit to the original creators of this content as described in the licence agreement."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html",
+    "title": "Introduction to R: Part II",
+    "section": "",
+    "text": "Possible roles using the CRediT contribition system:\n\nConceptualization: Ideas; formulation or evolution of overarching research goals and aims\nMethodology: Development or design of methodology; creation of models\nSoftware : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components\nValidation: Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs\nFormal analysis: Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data\nInvestigation: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection\nResources: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools\nData Curation: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse\nWriting - Original Draft: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)\nWriting - Review & Editing: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages\nVisualization: Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation\nSupervision: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team\nProject administration: Management and coordination responsibility for the research activity planning and execution\nFunding acquisition: Acquisition of the financial support for the project leading to this publication\n\n\n\n\n\n\n\n\n\n\nPrerequisites\n\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nModule + Submodule\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\nThese are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nThere are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#credit-statement-and-licence",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#credit-statement-and-licence",
+    "title": "Introduction to R: Part II",
+    "section": "",
+    "text": "Possible roles using the CRediT contribition system:\n\nConceptualization: Ideas; formulation or evolution of overarching research goals and aims\nMethodology: Development or design of methodology; creation of models\nSoftware : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components\nValidation: Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs\nFormal analysis: Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data\nInvestigation: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection\nResources: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools\nData Curation: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse\nWriting - Original Draft: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)\nWriting - Review & Editing: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages\nVisualization: Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation\nSupervision: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team\nProject administration: Management and coordination responsibility for the research activity planning and execution\nFunding acquisition: Acquisition of the financial support for the project leading to this publication\n\n\n\n\n\n\n\n\n\n\nPrerequisites\n\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nModule + Submodule\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\nThese are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nThere are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#questions-from-previous-submodule",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#questions-from-previous-submodule",
+    "title": "Introduction to R: Part II",
+    "section": "Questions from previous submodule",
+    "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#before-we-start-survey-time",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#before-we-start-survey-time",
+    "title": "Introduction to R: Part II",
+    "section": "Before we start: Survey time!",
+    "text": "Before we start: Survey time!\n\nAim: The pre-submodule survey serves to examine students’ prior knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#discussion-of-survey-results",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#discussion-of-survey-results",
+    "title": "Introduction to R: Part II",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim”: Briefly examine the answers given to each question interactively with the group.\nUse visuals from the survey to highlight specific answers.\n\n\nMake it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#where-are-we-at",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#where-are-we-at",
+    "title": "Introduction to R: Part II",
+    "section": "Where are we at?",
+    "text": "Where are we at?\n\nAim: Place the topic of the current submodule within a broader context.\nRemind students what you are working towards and what the bigger picture is."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#recap",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#recap",
+    "title": "Introduction to R: Part II",
+    "section": "Recap",
+    "text": "Recap"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#the-working-directory",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#the-working-directory",
+    "title": "Introduction to R: Part II",
+    "section": "The Working Directory",
+    "text": "The Working Directory"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#functions",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#functions",
+    "title": "Introduction to R: Part II",
+    "section": "Functions",
+    "text": "Functions"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#help-function",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#help-function",
+    "title": "Introduction to R: Part II",
+    "section": "Help Function",
+    "text": "Help Function"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#packages",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#packages",
+    "title": "Introduction to R: Part II",
+    "section": "Packages",
+    "text": "Packages"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#prep-for-working-with-data",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#prep-for-working-with-data",
+    "title": "Introduction to R: Part II",
+    "section": "Prep for working with data",
+    "text": "Prep for working with data"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#time-for-a-break",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#time-for-a-break",
+    "title": "Introduction to R: Part II",
+    "section": "Time for a break!",
+    "text": "Time for a break!"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#reading-in-data",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#reading-in-data",
+    "title": "Introduction to R: Part II",
+    "section": "Reading in Data",
+    "text": "Reading in Data"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#inspecting-data-structures",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#inspecting-data-structures",
+    "title": "Introduction to R: Part II",
+    "section": "Inspecting Data Structures",
+    "text": "Inspecting Data Structures"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#accessing-and-subsetting-columns",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#accessing-and-subsetting-columns",
+    "title": "Introduction to R: Part II",
+    "section": "Accessing and Subsetting Columns",
+    "text": "Accessing and Subsetting Columns"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#summary-functions",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#summary-functions",
+    "title": "Introduction to R: Part II",
+    "section": "Summary Functions",
+    "text": "Summary Functions"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#common-mistakes-and-troubleshooting",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#common-mistakes-and-troubleshooting",
+    "title": "Introduction to R: Part II",
+    "section": "Common Mistakes and Troubleshooting",
+    "text": "Common Mistakes and Troubleshooting"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#the-bigger-picture",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#the-bigger-picture",
+    "title": "Introduction to R: Part II",
+    "section": "The Bigger Picture",
+    "text": "The Bigger Picture"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#learning-goals",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#learning-goals",
+    "title": "Introduction to R: Part II",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nStudents will describe the process of photosynthesis or\nStudents will construct a diagram illustrating the process of photosynthesis\n\n\n\n\nCovered in in this session\n\nAim: This slides serves as an overview of the topics that are discussed, presented as bullet point:\nTopic 1\nTopic 2\nTopic 3"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#key-terms-and-definitions",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#key-terms-and-definitions",
+    "title": "Introduction to R: Part II",
+    "section": "Key terms and definitions",
+    "text": "Key terms and definitions\n\nAim: Introduce key terms and definitions that students will come across throughout the session. \nKey Term 1: Definition\nKey Term 2: Definition\nKey Term 3: Definition\n\n\nBase yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#introduction-of-submodule-topic",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#introduction-of-submodule-topic",
+    "title": "Introduction to R: Part II",
+    "section": "Introduction of submodule topic",
+    "text": "Introduction of submodule topic\n\nAim: Core theoretical introduction of submodule topic.\nPair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\nUse multiple slides for this part.\n\n\nFor a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#submodule-content-slide",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#submodule-content-slide",
+    "title": "Introduction to R: Part II",
+    "section": "Submodule content slide",
+    "text": "Submodule content slide\n\nAim: Present relevant content\nHighlight particularly important aspects with Quarto call-out boxes, for example:\n\n\n\n\n\n\n\nImportant with Title\n\n\n\nThis is an example of a callout box to highlight particularly important information.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout box to give important tips."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#practical-exercise-1",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#practical-exercise-1",
+    "title": "Introduction to R: Part II",
+    "section": "Practical exercise 1",
+    "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#pre-break-survey",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#pre-break-survey",
+    "title": "Introduction to R: Part II",
+    "section": "Pre-break survey",
+    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\nWhich species is the largest type of penguin?\n\nChinstrap Penguin\nEmperor Penguin ✅\nAdélie Penguin\nKing Penguin\n\n\nWhat is the key biological feature that helps penguins swim efficiently?\n\nHollow bones for buoyancy\nWebbed feet for paddling\nWaterproof feathers and flipper-like wings ✅\nGills to breathe underwater"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#post-break-survey-discussion",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#post-break-survey-discussion",
+    "title": "Introduction to R: Part II",
+    "section": "Post-break survey discussion",
+    "text": "Post-break survey discussion\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#practical-exercise-2",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#practical-exercise-2",
+    "title": "Introduction to R: Part II",
+    "section": "Practical Exercise 2",
+    "text": "Practical Exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nFor students who advance faster: Prepare extra exercises."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#relevance-and-implications",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#relevance-and-implications",
+    "title": "Introduction to R: Part II",
+    "section": "Relevance and implications",
+    "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#take-home-message",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#take-home-message",
+    "title": "Introduction to R: Part II",
+    "section": "Take-home message",
+    "text": "Take-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\n\nAdd one practical tips or take-home message."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#assignment",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#assignment",
+    "title": "Introduction to R: Part II",
+    "section": "Assignment",
+    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#to-conclude-survey-time",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#to-conclude-survey-time",
+    "title": "Introduction to R: Part II",
+    "section": "To conclude: Survey time!",
+    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#discussion-of-survey-results-1",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#discussion-of-survey-results-1",
+    "title": "Introduction to R: Part II",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#references",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#references",
+    "title": "Introduction to R: Part II",
+    "section": "References",
+    "text": "References\n\nProvide literature you refer to throughout this lesson."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#pedagogical-add-on-tools-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#pedagogical-add-on-tools-for-instructors",
+    "title": "Introduction to R: Part II",
+    "section": "Pedagogical add-on tools for instructors",
+    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#additional-literature-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#additional-literature-for-instructors",
+    "title": "Introduction to R: Part II",
+    "section": "Additional literature for instructors",
+    "text": "Additional literature for instructors\n\nReferences for content\nReferences for pedagogical add-on tools\n\nOther resources (videos etc.)"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#text-with-example-links",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#text-with-example-links",
+    "title": "Introduction to R: Part II",
+    "section": "Text with example links",
+    "text": "Text with example links\n\nQuarto Documentation\nReveal.js Documentation\nMarkdown Guide\nGitHub"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#basic-text-formatting",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#basic-text-formatting",
+    "title": "Introduction to R: Part II",
+    "section": "Basic text formatting",
+    "text": "Basic text formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\nBlockquote: &gt; Quote →\n“This is a quote”"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#figure-with-caption",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#figure-with-caption",
+    "title": "Introduction to R: Part II",
+    "section": "Figure with caption",
+    "text": "Figure with caption\n\nCentered image and caption below in italics\n\n\n\n\nThis is a Penguin."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#figure-with-bullet-points",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#figure-with-bullet-points",
+    "title": "Introduction to R: Part II",
+    "section": "Figure with bullet points",
+    "text": "Figure with bullet points\n\n\n\n  \n  \n    \n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#side-by-side-figures",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#side-by-side-figures",
+    "title": "Introduction to R: Part II",
+    "section": "Side-by-side figures",
+    "text": "Side-by-side figures\n\n\n  \n    \n    Figure 1: Penguin\n  \n\n  \n    \n    Figure 2: Seal"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#stacked-figures-with-text",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#stacked-figures-with-text",
+    "title": "Introduction to R: Part II",
+    "section": "Stacked figures with text",
+    "text": "Stacked figures with text\n\n\n\n  \n  \n\n    \n    \n\n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#two-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#two-column-text-slide",
+    "title": "Introduction to R: Part II",
+    "section": "Two-column text slide",
+    "text": "Two-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\nCras venenatis euismod malesuada.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#three-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#three-column-text-slide",
+    "title": "Introduction to R: Part II",
+    "section": "Three-column text slide",
+    "text": "Three-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\n\nColumn 3\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#simple-table",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#simple-table",
+    "title": "Introduction to R: Part II",
+    "section": "Simple table",
+    "text": "Simple table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#complex-table",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#complex-table",
+    "title": "Introduction to R: Part II",
+    "section": "Complex table",
+    "text": "Complex table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#task-list",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#task-list",
+    "title": "Introduction to R: Part II",
+    "section": "Task list",
+    "text": "Task list\n\nDone\nTo do"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#embedding-videos",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#embedding-videos",
+    "title": "Introduction to R: Part II",
+    "section": "Embedding videos",
+    "text": "Embedding videos"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#code-blocks",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#code-blocks",
+    "title": "Introduction to R: Part II",
+    "section": "Code blocks",
+    "text": "Code blocks\n\n# A basic R code chunk\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5\n\n# A simple plot\nhist(rnorm(100), main = \"Histogram of Random Normals\")"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#attribution-and-license-details",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#attribution-and-license-details",
+    "title": "Introduction to R: Part II",
+    "section": "Attribution and license details",
+    "text": "Attribution and license details\n\nThis slide should contain information about the license and attribution details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#example-attribution-for-previous-slide",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II-slides.html#example-attribution-for-previous-slide",
+    "title": "Introduction to R: Part II",
+    "section": "Example attribution (for previous slide)",
+    "text": "Example attribution (for previous slide)\n“Tutorial template for student track” by Sarah von Grebmer is licensed under CC-BY-SA 4.0."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html",
+    "title": "Introduction to R: Part I",
+    "section": "",
+    "text": "Possible roles using the CRediT contribition system:\n\nConceptualization: Ideas; formulation or evolution of overarching research goals and aims\nMethodology: Development or design of methodology; creation of models\nSoftware : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components\nValidation: Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs\nFormal analysis: Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data\nInvestigation: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection\nResources: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools\nData Curation: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse\nWriting - Original Draft: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)\nWriting - Review & Editing: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages\nVisualization: Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation\nSupervision: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team\nProject administration: Management and coordination responsibility for the research activity planning and execution\nFunding acquisition: Acquisition of the financial support for the project leading to this publication\n\n\n\n\n\n\n\n\n\n\nPrerequisites\n\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nModule + Submodule\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\nThese are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nThere are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#credit-statement-and-licence",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#credit-statement-and-licence",
+    "title": "Introduction to R: Part I",
+    "section": "",
+    "text": "Possible roles using the CRediT contribition system:\n\nConceptualization: Ideas; formulation or evolution of overarching research goals and aims\nMethodology: Development or design of methodology; creation of models\nSoftware : Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components\nValidation: Verification, whether as a part of the activity or separate, of the overall replication/ reproducibility of results/experiments and other research outputs\nFormal analysis: Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data\nInvestigation: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection\nResources: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools\nData Curation: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later reuse\nWriting - Original Draft: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)\nWriting - Review & Editing: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre-or postpublication stages\nVisualization: Preparation, creation and/or presentation of the published work, specifically visualization/ data presentation\nSupervision: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team\nProject administration: Management and coordination responsibility for the research activity planning and execution\nFunding acquisition: Acquisition of the financial support for the project leading to this publication\n\n\n\n\n\n\n\n\n\n\nPrerequisites\n\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nModule + Submodule\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\nThese are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nThere are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#questions-from-previous-submodule",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#questions-from-previous-submodule",
+    "title": "Introduction to R: Part I",
+    "section": "Questions from previous submodule",
+    "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#welcomewhat-to-expect",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#welcomewhat-to-expect",
+    "title": "Introduction to R: Part I",
+    "section": "Welcome/What to Expect",
+    "text": "Welcome/What to Expect\n\nOverview of what will happen (make this slide in the end)\nmention they should already have R and RStudio installed\noutline the structure and general idea (hands-on, follow-along etc…)"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#what-is-r",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#what-is-r",
+    "title": "Introduction to R: Part I",
+    "section": "What is R?",
+    "text": "What is R?\n\nKnowledge of statistical software like R is crucial when conducting quantitative research\nR is free and open source\n\nlarge online community\nmany free to use resources\n\n\n\nLet’s start with the basics: What exactly is R?\nR is a programming language specifically designed for data analysis and statistics. That means it’s not just a tool — it’s a full language, built with researchers and data in mind.\nIt’s also free and open source, which means anyone can download and use it, and developers from all over the world contribute to improving it. This has resulted in a large online community — so if you ever run into a problem, chances are someone else has had the same issue and posted a solution online.\nAnd because of that community, there are also countless free learning resources: tutorials, blog posts, videos, books, and packages that extend R’s functionality.\nSo in short: R is powerful, flexible, and supported by a strong community — which is why it’s become such a widely used tool in quantitative research."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#the-rstudio-environment",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#the-rstudio-environment",
+    "title": "Introduction to R: Part I",
+    "section": "The RStudio Environment",
+    "text": "The RStudio Environment\n\n\n\n\nRStudio is the main program we’ll be using to interact with R throughout this course. It’s a free and open-source editor specifically designed for R, and it makes things much easier — both for writing code and for organizing your work.\nOn this slide, you can see the four main panes of the RStudio interface:\nThe top left pane is where your scripts or other files appear. This is where you’ll usually write and edit your code.\nThe top right is the Environment pane, which shows the objects you’ve created — like datasets or functions — so you can always check what’s currently in your workspace.\nThe bottom left is the Console, where R actually runs your commands. If you type directly into R instead of using a script, this is where it happens.\nAnd finally, the bottom right is for Help, Plots, and Packages. So if you ask for help on a function, create a plot, or install a new package, it’ll show up here.\nSo, RStudio combines everything in one interface to help you keep track of your code, your results, and your progress as you go."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-1",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-1",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 1",
+    "text": "Exercise 1\nOpen RStudio and check if you can see everything that’s on the slide (might be only three panes)\n\nInstructor notes: add potential troubleshooting tips for instructors to efficiently solve the problems at this stage."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#mathematical-operations",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#mathematical-operations",
+    "title": "Introduction to R: Part I",
+    "section": "Mathematical Operations",
+    "text": "Mathematical Operations\n\n\n\nSymbol\nOperation\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n^\nExponentiation\n\n\nsqrt()\nSquare Root\n\n\nlog()\n(Natural) Logarithm\n\n\n\n\nIn the bottom left pane of RStudio - the console - we can run commands. For example, we can use R to execute calculations. To do this, we use operators that correspond to mathematical symbols, such as the + and - sign.\nHere, you can see a table with the most important mathematical operators in R."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-2---mathematical-operations",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-2---mathematical-operations",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 2 - Mathematical Operations",
+    "text": "Exercise 2 - Mathematical Operations\nUse the table on the previous slide to run the following math operations directly in the console (bottom left).\n\n\\(12+17\\)\n\\(\\frac{218}{3}\\)\n\\(357^2\\)\n\nHint: You can run code from the console by pressing Enter.\n\nWe’ve already arrived at our second exercise. Use the console in RStudio to execute the mathematical operations you see on this slide.\noptional: live demonstration of what it looks like to run code from the console"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-2---solution",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-2---solution",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 2 - Solution",
+    "text": "Exercise 2 - Solution\n12+17\n218/3\n357^2\n\nGreat, now you have a first impression of what it’s like to use R!"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#logical-comparisons",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#logical-comparisons",
+    "title": "Introduction to R: Part I",
+    "section": "Logical Comparisons",
+    "text": "Logical Comparisons\n\nCheck if two numbers are equal or unequal\nCheck if a number is larger or smaller than another number\n\nExample:\n\n49 == 50\n\n[1] FALSE\n\n49 &lt; 50 \n\n[1] TRUE\n\n\n\nR returns a logical value:\n\nTRUE or\nFALSE\n\n\n\nHowever, R can of course do more than just calculate. One of its basic features, that is needed for many of its more complex functions are logical comparisons.\nWe can compare two numbers to determine if they are equal or unequal and check if a number is larger or smaller than another number. Comparisons like that are answered by R with either TRUE(yes) or FALSE (no). These comparisons are called logical comparisons. We can also combine logical comparisons using the logical AND, OR, and NOT to formulate longer statements."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#logical-comparisons---operators",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#logical-comparisons---operators",
+    "title": "Introduction to R: Part I",
+    "section": "Logical Comparisons - Operators",
+    "text": "Logical Comparisons - Operators\n\n\n\nSymbol\nOperation\n\n\n\n\n==\nEquals\n\n\n!=\nNot Equal\n\n\n&gt; and &lt;\nGreater and Lesser Than\n\n\n&gt;= and &lt;=\nGreater Than or Equal / Less Than or Equal\n\n\n&\nlogical AND\n\n\n|\nlogical OR\n\n\n!\nlogical NOT\n\n\n\n\nHere you can see an overview of logical operators. You can combine several single statements to longer statements using the logical AND, OR, and NOT."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-3-logical-comparisons",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-3-logical-comparisons",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 3: Logical Comparisons",
+    "text": "Exercise 3: Logical Comparisons\nTRUE or FALSE?\nExpress the following statements in words and evaluate whether they are correct or not. Check your answers by running the statements in the console.\n(36 + 5)&gt; 40\n(4 == 5) | (25 &gt; 17)\n(5 == (2 + 3)) & (7 &gt;= 8)\nTODO: decide whether there should be another exercise that involves writing code to express a written statement"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-3-solutions",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-3-solutions",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 3: Solutions",
+    "text": "Exercise 3: Solutions\n\n(36 + 5)&gt; 40\n\n[1] TRUE\n\n(4 == 5) | (25 &gt; 17)\n\n[1] TRUE\n\n(5 == (2 + 3)) & (7 &gt;= 8)\n\n[1] FALSE"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#important-data-types",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#important-data-types",
+    "title": "Introduction to R: Part I",
+    "section": "Important Data Types",
+    "text": "Important Data Types\n\n\n\n\nIn R, different data types exist. We have already got to know the logical values TRUEand FALSE. Data that are numbers can be further differentiated into numeric values, also known as double, and integers. Numeric variables have decimals, integers do not. Values that are words are normally either characters or factors. Characters have to be written in quotation marks. Factors have prespecified levels, such as brown, blonde, and black for a variable “hair color”.\nDepending on which type a variable has, different operations can be performed with it."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#data-types---operations",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#data-types---operations",
+    "title": "Introduction to R: Part I",
+    "section": "Data Types - Operations",
+    "text": "Data Types - Operations\nTwo numeric variables can be summed up:\n\n4 + 5 \n\n[1] 9\n\n\nA numeric and a character variable cannot be summed up:\n\n4 + \"five\"\n\nError in 4 + \"five\": non-numeric argument to binary operator"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#r-scripts",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#r-scripts",
+    "title": "Introduction to R: Part I",
+    "section": "R Scripts",
+    "text": "R Scripts\n\nEasy way to save and share code you wrote\nYou can run code from an R script by pressing Ctrl + Enter (Windows) or\nTo comment your code use #, for example:\n\n# sum up two numbers: \n4+5\n\n[1] 9\n\n\n\n\nUntil now, we’ve only worked in the console. However, once we close R, everything typed into the console will be lost. To make our work traceable and reproducible, it makes sense to save the code we used. One way of saving and sharing code are R scripts. To run code from an R script, put the cursor anywhere in the respective line of code or mark everything you want to execute. Then press Ctrl+Enter (Windows) or ⌘ + Enter (Mac).\nIf you want to take notes or write anything that is not code into an R script, type # and then type your text."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#creating-a-new-r-script",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#creating-a-new-r-script",
+    "title": "Introduction to R: Part I",
+    "section": "Creating a New R Script",
+    "text": "Creating a New R Script\n\n\n\n\nThis is how you create a new R script. Navigate to the File tab –&gt; New File –&gt; R Script or use the shortcut Ctrl + Shift + N. Then you can save it by navigating to File –&gt; Save or use the shortcut Ctrl + S."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-4",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#exercise-4",
+    "title": "Introduction to R: Part I",
+    "section": "Exercise 4",
+    "text": "Exercise 4\nCreate a new R Script with only a comment in the first line and save it in a fresh folder."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#objects-and-assignments",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#objects-and-assignments",
+    "title": "Introduction to R: Part I",
+    "section": "Objects and Assignments",
+    "text": "Objects and Assignments\n\n\n\nEverything in R is an object\nOftentimes, we want to work with an object repeatedly\nAssign a name to an object using the assignment arrow &lt;-\n\nFor Example:\n\nmy_number &lt;- 4\n\n\nThis saves the value 4 under the name my_numberin the environment of R Studio\n\n\n\n\nEverything in R is referred to as an object. For example, the result of a logical comparison, is an object of type logical. Oftentimes, we want to work with an object repeatedly. To do this, we can create objects and give them names. This is done via assignments.\n\nTODO:\nmaybe include instructions on a live demonstration? so that participants can see the object “my_number” appear in the environment pane.\n\n\nAssignments and Objects\n\nmy_number &lt;- 5\n\n\n\nVectors, Lists, and Data Frame\n\n\nIndexing\n\n\nRelevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\n\nTake-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\n\nAdd one practical tips or take-home message.\n\n\n\n\nAssignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\n\nTo conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5\n\n\n\nDiscussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\n\nReferences\n\nProvide literature you refer to throughout this lesson.\n\n\n\nThanks! \nSee you next class :)"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#todo",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#todo",
+    "title": "Introduction to R: Part I",
+    "section": "TODO:",
+    "text": "TODO:\nmaybe include instructions on a live demonstration? so that participants can see the object “my_number” appear in the environment pane."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#assignments-and-objects",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#assignments-and-objects",
+    "title": "Introduction to R: Part I",
+    "section": "Assignments and Objects",
+    "text": "Assignments and Objects\n\nmy_number &lt;- 5"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#vectors-lists-and-data-frame",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#vectors-lists-and-data-frame",
+    "title": "Introduction to R: Part I",
+    "section": "Vectors, Lists, and Data Frame",
+    "text": "Vectors, Lists, and Data Frame"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#indexing",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#indexing",
+    "title": "Introduction to R: Part I",
+    "section": "Indexing",
+    "text": "Indexing"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#relevance-and-implications",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#relevance-and-implications",
+    "title": "Introduction to R: Part I",
+    "section": "Relevance and implications",
+    "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#take-home-message",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#take-home-message",
+    "title": "Introduction to R: Part I",
+    "section": "Take-home message",
+    "text": "Take-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\n\nAdd one practical tips or take-home message."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#assignment",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#assignment",
+    "title": "Introduction to R: Part I",
+    "section": "Assignment",
+    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#to-conclude-survey-time",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#to-conclude-survey-time",
+    "title": "Introduction to R: Part I",
+    "section": "To conclude: Survey time!",
+    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#discussion-of-survey-results",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#discussion-of-survey-results",
+    "title": "Introduction to R: Part I",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#references",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#references",
+    "title": "Introduction to R: Part I",
+    "section": "References",
+    "text": "References\n\nProvide literature you refer to throughout this lesson."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html",
+    "title": "Template Slides: Title of submodule",
+    "section": "",
+    "text": "Possible roles using the CRediT contribition system:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.\n \n\nThis work by YYY XXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#credit-statement-and-licence",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#credit-statement-and-licence",
+    "title": "Template Slides: Title of submodule",
+    "section": "",
+    "text": "Possible roles using the CRediT contribition system:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.\n \n\nThis work by YYY XXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#prerequisites",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#prerequisites",
+    "title": "Template Slides: Title of submodule",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nModule + Submodule\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#questions-from-previous-submodule",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#questions-from-previous-submodule",
+    "title": "Template Slides: Title of submodule",
+    "section": "Questions from previous submodule",
+    "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#before-we-start-survey-time",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#before-we-start-survey-time",
+    "title": "Template Slides: Title of submodule",
+    "section": "Before we start: Survey time!",
+    "text": "Before we start: Survey time!\n\nAim: The pre-submodule survey serves to examine students’ prior knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides).\n\n\nSpeaker Notes Script for the presentation here.\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#discussion-of-survey-results",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#discussion-of-survey-results",
+    "title": "Template Slides: Title of submodule",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim”: Briefly examine the answers given to each question interactively with the group.\nUse visuals from the survey to highlight specific answers.\n\n\nSpeaker Notes Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#where-are-we-at",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#where-are-we-at",
+    "title": "Template Slides: Title of submodule",
+    "section": "Where are we at?",
+    "text": "Where are we at?\n\nAim: Place the topic of the current submodule within a broader context.\nRemind students what you are working towards and what the bigger picture is.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#learning-goals",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#learning-goals",
+    "title": "Template Slides: Title of submodule",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nStudents will describe the process of photosynthesis or\nStudents will construct a diagram illustrating the process of photosynthesis\n\n\n\nSpeaker Notes Script for the presentation here.\n\n\n\nCovered in in this session\n\nAim: This slides serves as an overview of the topics that are discussed, presented as bullet point:\nTopic 1\nTopic 2\nTopic 3\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#key-terms-and-definitions",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#key-terms-and-definitions",
+    "title": "Template Slides: Title of submodule",
+    "section": "Key terms and definitions",
+    "text": "Key terms and definitions\n\nAim: Introduce key terms and definitions that students will come across throughout the session. \nKey Term 1: Definition\nKey Term 2: Definition\nKey Term 3: Definition\n\n\nSpeaker notes Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#introduction-of-submodule-topic",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#introduction-of-submodule-topic",
+    "title": "Template Slides: Title of submodule",
+    "section": "Introduction of submodule topic",
+    "text": "Introduction of submodule topic\n\nAim: Core theoretical introduction of submodule topic.\nPair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\nUse multiple slides for this part.\n\n\nSpeaker notes For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#submodule-content-slide",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#submodule-content-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Submodule content slide",
+    "text": "Submodule content slide\n\nAim: Present relevant content\nHighlight particularly important aspects with Quarto call-out boxes, for example:\n\n\n\n\n\n\n\nImportant with Title\n\n\n\nThis is an example of a callout box to highlight particularly important information.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout box to give important tips.\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#practical-exercise-1",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#practical-exercise-1",
+    "title": "Template Slides: Title of submodule",
+    "section": "Practical exercise 1",
+    "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#pre-break-survey",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#pre-break-survey",
+    "title": "Template Slides: Title of submodule",
+    "section": "Pre-break survey",
+    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nSpeaker Notes Script for the presentation here.\n\n\nWhich species is the largest type of penguin?\n\nChinstrap Penguin\nEmperor Penguin ✅\nAdélie Penguin\nKing Penguin\n\n\nWhat is the key biological feature that helps penguins swim efficiently?\n\nHollow bones for buoyancy\nWebbed feet for paddling\nWaterproof feathers and flipper-like wings ✅\nGills to breathe underwater"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#post-break-survey-discussion",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#post-break-survey-discussion",
+    "title": "Template Slides: Title of submodule",
+    "section": "Post-break survey discussion",
+    "text": "Post-break survey discussion\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#practical-exercise-2",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#practical-exercise-2",
+    "title": "Template Slides: Title of submodule",
+    "section": "Practical exercise 2",
+    "text": "Practical exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker notes For students who advance faster: Prepare extra exercises."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#relevance-and-implications",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#relevance-and-implications",
+    "title": "Template Slides: Title of submodule",
+    "section": "Relevance and implications",
+    "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#take-home-message",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#take-home-message",
+    "title": "Template Slides: Title of submodule",
+    "section": "Take-home message",
+    "text": "Take-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\n\nAdd one practical tips or take-home message.\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#assignment",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#assignment",
+    "title": "Template Slides: Title of submodule",
+    "section": "Assignment",
+    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#to-conclude-survey-time",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#to-conclude-survey-time",
+    "title": "Template Slides: Title of submodule",
+    "section": "To conclude: Survey time!",
+    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nSpeaker Notes Script for the presentation here.\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#discussion-of-survey-results-1",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#discussion-of-survey-results-1",
+    "title": "Template Slides: Title of submodule",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#references",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#references",
+    "title": "Template Slides: Title of submodule",
+    "section": "References",
+    "text": "References\n\nProvide literature you refer to throughout this lesson.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#pedagogical-add-on-tools-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#pedagogical-add-on-tools-for-instructors",
+    "title": "Template Slides: Title of submodule",
+    "section": "Pedagogical add-on tools for instructors",
+    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#additional-literature-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#additional-literature-for-instructors",
+    "title": "Template Slides: Title of submodule",
+    "section": "Additional literature for instructors",
+    "text": "Additional literature for instructors\n\nReferences for content\nReferences for pedagogical add-on tools\n\nOther resources (videos etc.)"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#text-with-example-links",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#text-with-example-links",
+    "title": "Template Slides: Title of submodule",
+    "section": "Text with example links",
+    "text": "Text with example links\n\nQuarto Documentation\nReveal.js Documentation\nMarkdown Guide\nGitHub"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#basic-text-formatting",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#basic-text-formatting",
+    "title": "Template Slides: Title of submodule",
+    "section": "Basic text formatting",
+    "text": "Basic text formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\nBlockquote: &gt; Quote →\n“This is a quote”"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#figure-with-caption",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#figure-with-caption",
+    "title": "Template Slides: Title of submodule",
+    "section": "Figure with caption",
+    "text": "Figure with caption\n\nCentered image and caption below in italics\n\n\n\n\nThis is a Penguin."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#figure-with-bullet-points",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#figure-with-bullet-points",
+    "title": "Template Slides: Title of submodule",
+    "section": "Figure with bullet points",
+    "text": "Figure with bullet points\n\n\n\n  \n  \n    \n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#side-by-side-figures",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#side-by-side-figures",
+    "title": "Template Slides: Title of submodule",
+    "section": "Side-by-side figures",
+    "text": "Side-by-side figures\n\n\n  \n    \n    Figure 1: Penguin\n  \n\n  \n    \n    Figure 2: Seal"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#stacked-figures-with-text",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#stacked-figures-with-text",
+    "title": "Template Slides: Title of submodule",
+    "section": "Stacked figures with text",
+    "text": "Stacked figures with text\n\n\n\n  \n  \n\n    \n    \n\n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#two-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#two-column-text-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Two-column text slide",
+    "text": "Two-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\nCras venenatis euismod malesuada.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#three-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#three-column-text-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Three-column text slide",
+    "text": "Three-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\n\nColumn 3\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#simple-table",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#simple-table",
+    "title": "Template Slides: Title of submodule",
+    "section": "Simple table",
+    "text": "Simple table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#complex-table",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#complex-table",
+    "title": "Template Slides: Title of submodule",
+    "section": "Complex table",
+    "text": "Complex table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#task-list",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#task-list",
+    "title": "Template Slides: Title of submodule",
+    "section": "Task list",
+    "text": "Task list\n\nDone\nTo do"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#embedding-videos",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#embedding-videos",
+    "title": "Template Slides: Title of submodule",
+    "section": "Embedding videos",
+    "text": "Embedding videos"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#code-blocks",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#code-blocks",
+    "title": "Template Slides: Title of submodule",
+    "section": "Code blocks",
+    "text": "Code blocks\n\n# A basic R code chunk\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5\n\n# A simple plot\nhist(rnorm(100), main = \"Histogram of Random Normals\")"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#attribution-and-license-details",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#attribution-and-license-details",
+    "title": "Template Slides: Title of submodule",
+    "section": "Attribution and license details",
+    "text": "Attribution and license details\n\nThis slide should contain information about the license and attribution details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#example-attribution-for-previous-slide",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#example-attribution-for-previous-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Example attribution (for previous slide)",
+    "text": "Example attribution (for previous slide)\n“Tutorial template for student track” by Sarah von Grebmer is licensed under CC-BY-SA 4.0."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "help.html",
+    "href": "help.html",
+    "title": "Help and troubleshooting",
+    "section": "",
+    "text": "If you get stuck, remember to read the pre-requisites section for each module and submodule. This may give you an important hint of content that may be critical to the current submodule. If you are encountering a bug, please report this to XXXX."
+  },
+  {
+    "objectID": "help.html#i-am-stuck---what-do-i-do",
+    "href": "help.html#i-am-stuck---what-do-i-do",
+    "title": "Help and troubleshooting",
+    "section": "",
+    "text": "If you get stuck, remember to read the pre-requisites section for each module and submodule. This may give you an important hint of content that may be critical to the current submodule. If you are encountering a bug, please report this to XXXX."
+  },
+  {
+    "objectID": "help.html#faq",
+    "href": "help.html#faq",
+    "title": "Help and troubleshooting",
+    "section": "FAQ",
+    "text": "FAQ\n\nFAQ 1\n\n\nFAQ 2"
+  },
+  {
+    "objectID": "help.html#contact",
+    "href": "help.html#contact",
+    "title": "Help and troubleshooting",
+    "section": "Contact",
+    "text": "Contact\nFor any other questions, ideas, feedback or suggestions, please contact XXX."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html",
+    "title": "3.1. Introduction to Zotero",
+    "section": "",
+    "text": "Something nice here\n\nFull Screen\n\n\nOverview\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nDownload files\nDownload the csv file for the mtcars data:\n Download \n \n\n\nExport slides\nYou can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html",
+    "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html",
+    "title": "3.2. Introduction to R: Part I",
+    "section": "",
+    "text": "Something nice here\n\nFull Screen\n\n\nOverview\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nDownload files\nDownload the csv file for the mtcars data:\n Download \n \n\n\nExport slides\nYou can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export.",
+    "crumbs": [
+      "Home",
+      "Module 3: Open Research Software Tools",
+      "3.2. Introduction to R: Part I"
+    ]
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II.html",
+    "href": "materials/OS-M3/OS-M3-S3-R-Part-II/OS-M3-S3-R-Part-II.html",
+    "title": "3.3. Introduction to R: Part II",
+    "section": "",
+    "text": "Something nice here\n\nFull Screen\n\n\nOverview\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nDownload files\nDownload the csv file for the mtcars data:\n Download \n \n\n\nExport slides\nYou can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export.",
+    "crumbs": [
+      "Home",
+      "Module 3: Open Research Software Tools",
+      "3.3. Introduction to R: Part II"
+    ]
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html",
+    "title": "Template Slides: Title of submodule",
+    "section": "",
+    "text": "Possible roles using the CRediT contribition system:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.\n \n\nThis work by YYY XXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#credit-statement-and-licence",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#credit-statement-and-licence",
+    "title": "Template Slides: Title of submodule",
+    "section": "",
+    "text": "Possible roles using the CRediT contribition system:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.\n \n\nThis work by YYY XXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#prerequisites",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#prerequisites",
+    "title": "Template Slides: Title of submodule",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nModule + Submodule\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#questions-from-previous-submodule",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#questions-from-previous-submodule",
+    "title": "Template Slides: Title of submodule",
+    "section": "Questions from previous submodule",
+    "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#before-we-start-survey-time",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#before-we-start-survey-time",
+    "title": "Template Slides: Title of submodule",
+    "section": "Before we start: Survey time!",
+    "text": "Before we start: Survey time!\n\nAim: The pre-submodule survey serves to examine students’ prior knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides).\n\n\nSpeaker Notes Script for the presentation here.\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results",
+    "title": "Template Slides: Title of submodule",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim”: Briefly examine the answers given to each question interactively with the group.\nUse visuals from the survey to highlight specific answers.\n\n\nSpeaker Notes Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#where-are-we-at",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#where-are-we-at",
+    "title": "Template Slides: Title of submodule",
+    "section": "Where are we at?",
+    "text": "Where are we at?\n\nAim: Place the topic of the current submodule within a broader context.\nRemind students what you are working towards and what the bigger picture is.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#learning-goals",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#learning-goals",
+    "title": "Template Slides: Title of submodule",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nStudents will describe the process of photosynthesis or\nStudents will construct a diagram illustrating the process of photosynthesis\n\n\n\nSpeaker Notes Script for the presentation here.\n\n\n\nCovered in in this session\n\nAim: This slides serves as an overview of the topics that are discussed, presented as bullet point:\nTopic 1\nTopic 2\nTopic 3\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#key-terms-and-definitions",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#key-terms-and-definitions",
+    "title": "Template Slides: Title of submodule",
+    "section": "Key terms and definitions",
+    "text": "Key terms and definitions\n\nAim: Introduce key terms and definitions that students will come across throughout the session. \nKey Term 1: Definition\nKey Term 2: Definition\nKey Term 3: Definition\n\n\nSpeaker notes Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#introduction-of-submodule-topic",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#introduction-of-submodule-topic",
+    "title": "Template Slides: Title of submodule",
+    "section": "Introduction of submodule topic",
+    "text": "Introduction of submodule topic\n\nAim: Core theoretical introduction of submodule topic.\nPair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\nUse multiple slides for this part.\n\n\nSpeaker notes For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#submodule-content-slide",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#submodule-content-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Submodule content slide",
+    "text": "Submodule content slide\n\nAim: Present relevant content\nHighlight particularly important aspects with Quarto call-out boxes, for example:\n\n\n\n\n\n\n\nImportant with Title\n\n\n\nThis is an example of a callout box to highlight particularly important information.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout box to give important tips.\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-1",
+    "title": "Template Slides: Title of submodule",
+    "section": "Practical exercise 1",
+    "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pre-break-survey",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pre-break-survey",
+    "title": "Template Slides: Title of submodule",
+    "section": "Pre-break survey",
+    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nSpeaker Notes Script for the presentation here.\n\n\nWhich species is the largest type of penguin?\n\nChinstrap Penguin\nEmperor Penguin ✅\nAdélie Penguin\nKing Penguin\n\n\nWhat is the key biological feature that helps penguins swim efficiently?\n\nHollow bones for buoyancy\nWebbed feet for paddling\nWaterproof feathers and flipper-like wings ✅\nGills to breathe underwater"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#post-break-survey-discussion",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#post-break-survey-discussion",
+    "title": "Template Slides: Title of submodule",
+    "section": "Post-break survey discussion",
+    "text": "Post-break survey discussion\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#practical-exercise-2",
+    "title": "Template Slides: Title of submodule",
+    "section": "Practical exercise 2",
+    "text": "Practical exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker notes For students who advance faster: Prepare extra exercises."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#relevance-and-implications",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#relevance-and-implications",
+    "title": "Template Slides: Title of submodule",
+    "section": "Relevance and implications",
+    "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#take-home-message",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#take-home-message",
+    "title": "Template Slides: Title of submodule",
+    "section": "Take-home message",
+    "text": "Take-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\n\nAdd one practical tips or take-home message.\n\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#assignment",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#assignment",
+    "title": "Template Slides: Title of submodule",
+    "section": "Assignment",
+    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#to-conclude-survey-time",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#to-conclude-survey-time",
+    "title": "Template Slides: Title of submodule",
+    "section": "To conclude: Survey time!",
+    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nSpeaker Notes Script for the presentation here.\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results-1",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#discussion-of-survey-results-1",
+    "title": "Template Slides: Title of submodule",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#references",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#references",
+    "title": "Template Slides: Title of submodule",
+    "section": "References",
+    "text": "References\n\nProvide literature you refer to throughout this lesson.\n\n\nSpeaker Notes Script for the presentation here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pedagogical-add-on-tools-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#pedagogical-add-on-tools-for-instructors",
+    "title": "Template Slides: Title of submodule",
+    "section": "Pedagogical add-on tools for instructors",
+    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#additional-literature-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#additional-literature-for-instructors",
+    "title": "Template Slides: Title of submodule",
+    "section": "Additional literature for instructors",
+    "text": "Additional literature for instructors\n\nReferences for content\nReferences for pedagogical add-on tools\n\nOther resources (videos etc.)"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#text-with-example-links",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#text-with-example-links",
+    "title": "Template Slides: Title of submodule",
+    "section": "Text with example links",
+    "text": "Text with example links\n\nQuarto Documentation\nReveal.js Documentation\nMarkdown Guide\nGitHub"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#basic-text-formatting",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#basic-text-formatting",
+    "title": "Template Slides: Title of submodule",
+    "section": "Basic text formatting",
+    "text": "Basic text formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\nBlockquote: &gt; Quote →\n“This is a quote”"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#figure-with-caption",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#figure-with-caption",
+    "title": "Template Slides: Title of submodule",
+    "section": "Figure with caption",
+    "text": "Figure with caption\n\nCentered image and caption below in italics\n\n\n\n\nThis is a Penguin."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#figure-with-bullet-points",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#figure-with-bullet-points",
+    "title": "Template Slides: Title of submodule",
+    "section": "Figure with bullet points",
+    "text": "Figure with bullet points\n\n\n\n  \n  \n    \n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#side-by-side-figures",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#side-by-side-figures",
+    "title": "Template Slides: Title of submodule",
+    "section": "Side-by-side figures",
+    "text": "Side-by-side figures\n\n\n  \n    \n    Figure 1: Penguin\n  \n\n  \n    \n    Figure 2: Seal"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#stacked-figures-with-text",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#stacked-figures-with-text",
+    "title": "Template Slides: Title of submodule",
+    "section": "Stacked figures with text",
+    "text": "Stacked figures with text\n\n\n\n  \n  \n\n    \n    \n\n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#two-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#two-column-text-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Two-column text slide",
+    "text": "Two-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\nCras venenatis euismod malesuada.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#three-column-text-slide",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#three-column-text-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Three-column text slide",
+    "text": "Three-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\n\nColumn 3\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#simple-table",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#simple-table",
+    "title": "Template Slides: Title of submodule",
+    "section": "Simple table",
+    "text": "Simple table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#complex-table",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#complex-table",
+    "title": "Template Slides: Title of submodule",
+    "section": "Complex table",
+    "text": "Complex table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#task-list",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#task-list",
+    "title": "Template Slides: Title of submodule",
+    "section": "Task list",
+    "text": "Task list\n\nDone\nTo do"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#embedding-videos",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#embedding-videos",
+    "title": "Template Slides: Title of submodule",
+    "section": "Embedding videos",
+    "text": "Embedding videos"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#code-blocks",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#code-blocks",
+    "title": "Template Slides: Title of submodule",
+    "section": "Code blocks",
+    "text": "Code blocks\n\n# A basic R code chunk\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5\n\n# A simple plot\nhist(rnorm(100), main = \"Histogram of Random Normals\")"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#attribution-and-license-details",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#attribution-and-license-details",
+    "title": "Template Slides: Title of submodule",
+    "section": "Attribution and license details",
+    "text": "Attribution and license details\n\nThis slide should contain information about the license and attribution details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#example-attribution-for-previous-slide",
+    "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html#example-attribution-for-previous-slide",
+    "title": "Template Slides: Title of submodule",
+    "section": "Example attribution (for previous slide)",
+    "text": "Example attribution (for previous slide)\n“Tutorial template for student track” by Sarah von Grebmer is licensed under CC-BY-SA 4.0."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "",
+    "text": "Elizabeth Waterfield: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.\n \n\nThis work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nBasic R skills\n3.2. Introduction to R - Part I\nModule 3.2.\n\n\nAdvanced R skills\n3.3. Introduction to R - Part II\nModule 3.3.\n\n\nBasic Git skills\n3.4. Introduction version control (Git) with RStudio\nModule 3.4.\n\n\nCollaboration on GitHub\n3.5. Introduction to collaborative coding with GitHub\nModule 3.5.\n\n\nRStudio\nVersion 2025.05.1+513 or higher\nDownload Link\n\n\nR\nVersion 4.4.3 or higher\nDownload Link\n\n\n\n\n\nSpeaker Notes Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.\nInstructor Notes Instructor notes provide teaching support but are not intended to be spoken directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner’s needs as well as anticipate challenges."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#credit-statement-and-licence",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#credit-statement-and-licence",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "",
+    "text": "Elizabeth Waterfield: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.\n \n\nThis work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nBasic R skills\n3.2. Introduction to R - Part I\nModule 3.2.\n\n\nAdvanced R skills\n3.3. Introduction to R - Part II\nModule 3.3.\n\n\nBasic Git skills\n3.4. Introduction version control (Git) with RStudio\nModule 3.4.\n\n\nCollaboration on GitHub\n3.5. Introduction to collaborative coding with GitHub\nModule 3.5.\n\n\nRStudio\nVersion 2025.05.1+513 or higher\nDownload Link\n\n\nR\nVersion 4.4.3 or higher\nDownload Link\n\n\n\n\n\nSpeaker Notes Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.\nInstructor Notes Instructor notes provide teaching support but are not intended to be spoken directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner’s needs as well as anticipate challenges."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#questions-from-previous-submodule",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#questions-from-previous-submodule",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Questions from previous submodule?",
+    "text": "Questions from previous submodule?\n\nSpeaker Notes - Aim: clarify questions from the previous submodule and/or to discuss assignments. - Additional slides may need to be added depending on the nature of the homework assignments. - It is critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. - Not applicable if this set of slides corresponds to the first submodule of a new module."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#before-we-start-survey-time",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#before-we-start-survey-time",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Before we start: Survey time!",
+    "text": "Before we start: Survey time!\nWhere are we at?   Click on the following link or scan the QR code to test your prior Quarto knowledge: Quarto Survey\n\nFrom SvG: Add link from particify https://ars.particify.de/login instead - menti has a limit on how many people can participate - we should make an account with our OSC email address and add QR code - in class people may not be able to click\n\n\nSpeaker Notes - Aim: the pre-submodule survey serves to examine students’ prior knowledge about the submodule’s topic. - Use free survey software such as particify or formR) to establish this. You can use the example survey, edit it or create your own."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#discussion-of-survey-results",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#discussion-of-survey-results",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\nWhat can we take from this?\n\nSpeaker Notes - Aim: briefly examine the answers given to each question interactively with the group. - Use visuals from the survey to highlight specific answers. - Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#where-are-we-at",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#where-are-we-at",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Where are we at?",
+    "text": "Where are we at?\n\nFrom SvG: Add this when slides are final\n\n\nSpeaker Notes - Aim: Place the topic of the current submodule within a broader context. - Remind students what you are working towards and what the bigger picture is."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#what-is-quarto",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#what-is-quarto",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "What is Quarto?",
+    "text": "What is Quarto?\nQuarto makes it easy to analyze, share and reproduce.\n\nFrom SvG: Maybe add here analyse and reproduce what..? And also - for this slide - do you think this overlaps with the key terms and definitions slide below?\n\nIt’s a powerful tool for producing transparent, reproducible, and accessible work that can be freely shared, viewed, and reused by others.\n\nSpeaker Notes - From SvG: add speaker notes to this slide"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#covered-in-this-session",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#covered-in-this-session",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Covered in this Session",
+    "text": "Covered in this Session\n\nSetting up a Quarto Document\nAuthoring\nCode Chunks\nAdding Citations\nPublishing\n\n\nSpeaker Notes - Aim: Core theoretical introduction of submodule topic. - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\n\nFor a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).\n\nPractical exercises on topic - Aim: practical exercises for students to apply the new skills in practise. Each submodule topic will include corresponding Tasks- adopting a “learn by doing” approach. - Depending on the topic, the exercises should be in accordance with the learning objective(s). - It’s useful to have exercises directly after a topic is taught to reinforce what was learnt.\nFor students who advance faster: Prepare extra exercises."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#quarto-learning-goals",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#quarto-learning-goals",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Quarto learning goals",
+    "text": "Quarto learning goals\n\nYou will learn how to create, edit, and render Quarto documents\nYou will understand how to use key Quarto features (code chunks, YAML headers, citations, and output formatting)\nYou will gain confidence in preparing and teaching Quarto effectively to students\n\n\nFrom SvG: Unsure about the last learning goal - remember that these are ready-to-use materials for the classroom, so the last learning goal is not really relevant for students? What else are you trying to get across in this slide set?\n\n\nSpeaker Notes - Aim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956) - Emphasis is placed on the verbs of the learning goals- choose verbs that align with the skills you want to develop or assess. - Examples:\n-   Students will **describe** the process of photosynthesis or\n-   Students will **construct** a diagram illustrating the process of photosynthesis"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-i",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-i",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Key terms and definitions (I)",
+    "text": "Key terms and definitions (I)\nWhat is Quarto? An open-source scientific and publishing system that combines text, code and media to create easily shareable documents such as websites, slides, reports, and much more.\n\nFrom SvG: Did you want to add a hyperlink to their website here?\n\nWhat is Rendering? The process where Quarto runs the code, combines it with the text, and creates a final output.\nA Quarto Markdown document is saved as a .qmd file\n\nSpeaker Notes - Aim: Introduce key terms and definitions that students will come across throughout the session. - This first part of the lesson is useful to establish an understanding of important vocabulary- it can be helpful to remind students of the meaning of these terms as they appear in the upcoming sections."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-ii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#key-terms-and-definitions-ii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Key terms and definitions (II)",
+    "text": "Key terms and definitions (II)\nComponents of a .qmd file\n\nYAML header- the section at the top of the Quarto document that controls settings like the title, output format, and author.\ncode chunks- sections of the document that contains code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations\nQuarto Markdown- combines text, codes, and formatting to create the actual content of the document\n\nYou can write Quarto documents in Source mode or Visual mode in RStudio.\n\nSource mode - you write directly in plain text/Markdown Syntax, allowing for more control and it’s closer to raw code\nVisual mode - gives a WYSIWYM-style interface which easier for beginners, but sometimes hides syntax.\nThis is part of the authoring process, and it allows you to format the text, add code, and build your document.\n\n\nSpeaker Notes - Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. - Re-examine formation of new concepts at the end of the lesson. - WYSIWYM is an acronym for “What You Say is What You Mean” which means that whatever you see in your document will be what you see even when you save or render the document as PDF or as HTML. - Quarto documents can be created and edited in either Source mode or Visual mode. Both modes work with the same file, but they provide slightly different experiences. In this lesson, most of our tasks will be done in Source mode, but you’ll also have a chance to try Visual mode so you can compare how the same content looks and feels in each."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-a-quarto-document-using-rstudio",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-a-quarto-document-using-rstudio",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Setting up a Quarto Document using RStudio",
+    "text": "Setting up a Quarto Document using RStudio\n\n\n\n\n\nSelect File\n\n→ Select New File\n\n→ Select Quarto Document\n\n\n\n\nSpeaker Notes Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-a-quarto-document-using-rstudio-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#setting-up-a-quarto-document-using-rstudio-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Setting up a Quarto Document using RStudio",
+    "text": "Setting up a Quarto Document using RStudio\n\n\n\n\n\nThe default format is html\nThe output format can also be changed by editing the YAML header\n\n\n\n\nSpeaker Notes Add speaker notes"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Practical exercise 1",
+    "text": "Practical exercise 1\n\nRepeat the steps to create a new Quarto Document\n\n\nSpeaker Notes - Ensure students know where their Quarto project folder is located on their device. This will make it easier for them to find files in later tasks. Encourage them to save the document right after creating it, so they can intentionally choose the folder location (e.g., Desktop, a dedicated course folder, etc.)."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#rendering",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#rendering",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Rendering",
+    "text": "Rendering\nThere are two ways to render in Quarto:\n\nManual rendering: having to click on the “Render” each time you want to see the output\nRender on Save: Quarto will automatically re-render the document each time you click “Save”\n\n\n\n\nYou can find both Manual Render and Render on Save at the top of your workspace\n\n\n\nSpeaker Notes - Quarto documents can be rendered either manually or automatically when you save. - Manual rendering gives you control meaning you decide when to update the document, which is helpful if you’re making lots of edits and don’t want constant re-renders. - Render on Save automatically updates your document every time you hit Save, which is great for quick feedback and seeing your changes instantly. In this lesson, you can try both to see which workflow feels more comfortable for you."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-i",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-i",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Authoring (I)",
+    "text": "Authoring (I)\nThis is the process of writing and structuring the Quarto document.\nYAML Header + Markdown = Authoring\nTo practice authoring in Quarto, let’s start with setting the YAML header and adding text in Source mode.\n\nSpeaker Notes - The YAML header is the section at the very top, wrapped in three dashes (—). It holds the document’s settings, like the title, author, date, and output format. - Below that, we use Markdown to write the actual content which are things like headings, bullet points, bold or italic text. Instructor Notes - Reminding students on the meanings of YAML Header and Markdown will be helpful especially to those with very little prior knowledge for working with Quarto."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exericise-2",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exericise-2",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Practical exericise 2",
+    "text": "Practical exericise 2\n\nCopy & paste the following into the YAML Header of your document\n\n---\ntitle: \"ChickWeight Analysis\"\nauthor: \"Your Name\"\nformat:\n  html:\n    code-fold: false\n    toc: true\n---\n\n\n\n\n\n\noutput format\n\n\n\nYou can replace “html” to render the document to a different format.\nHere is a link to a list of the different output formats.\n\n\n\nSpeaker Note - Remember that the YAML Header goes at the top of the document in both Source and Visual Modes. - In the YAML header, the format field tells Quarto what kind of output to create. Here we’ve set it to html, which means the document will render as a web page. You could choose other formats like PDF or Word, but for this lesson we’ll stick with HTML so everyone has the same experience.\nInstructor Note - There is a small clipboard icon at the top-right of the text box. Let students know they can simply click the icon to copy all the text in that specific text box. This icon will appear for every text box moving forward so you can remind them of it the next few times a task requires them to copy the content of a text box."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-ii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-ii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Authoring (II)",
+    "text": "Authoring (II)\nBasic Markdown Text Formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\n\n\n\n\n\n\nmarkdown shortcuts\n\n\n\nHere is a link for the full list of markdown shortcuts for formatting!\n\n\n\nSpeaker Note - In Markdown, we can format text with very simple symbols. It works the same way in both Source and Visual mode with the only difference being how you see it while typing. - In Source mode you see the symbols, while in Visual mode it looks like regular bold or italic text right away."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-iii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-iii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Authoring (III)",
+    "text": "Authoring (III)\nHave you ever been curious about what affects a chick's weight? \nThis document explores the ChickWeight dataset using R.  \nThe goal is to compare chick weight across different diets and time points.  \nKey steps include:\n\n- Loading the dataset  \n- Visualizing growth trends  \n- Summarizing results\n\nSpeaker Note Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-3",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-3",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Practical exercise 3",
+    "text": "Practical exercise 3\n\nCopy the Markdown Text from the previous slide and paste it to your document\nBold the word “ChickWeight”\nItalicize the phrase “growth trends”\n\n\nSpeaker Note Add speaker notes and instructor notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-iv",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-iv",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Authoring (IV)",
+    "text": "Authoring (IV)\nHighlighting particularly important aspects with Quarto callout boxes\n\n\n\n\n\n\nImportant with Title\n\n\n\nThis is an example of a callout box to highlight particularly important information using callout-important\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout box to give important tips using callout-tip\n\n\n\n\n\n\n\n\nNote with Title\n\n\n\nThis is an example of a callout box to include an additional note using callout-note\n\n\n\nSpeaker Notes - Callout boxes are a way to highlight important information in your document. They stand out visually, so readers immediately notice them. You can use them to emphasize tips, warnings, examples, or key takeaways. Instructor Notes - These are just examples of callout boxes. How to actually create one will be covered in the next slide/task."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-v",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#authoring-v",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Authoring (V)",
+    "text": "Authoring (V)\nAdding a Callout Box\nHere is the markdown text for inserting a callout note box:\n::: callout-note\n## Based on Real Data\n\nThe ChickWeight dataset in R is based on real experimental data.\n:::\n\nSpeaker Note Add speaker notes and instructor notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-4",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-4",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Practical exercise 4",
+    "text": "Practical exercise 4\n\nCopy & paste this markdown text into your Quarto document to add this callout note box.\n\n\nSpeaker Note Add speaker notes and instructor notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-i",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-i",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting code chunks (I)",
+    "text": "Inserting code chunks (I)\nInserting Code\nTwo ways to insert code chunks:\n\nManually type 3 back ticks ``` then {r} to start a coding chunk, enter your code, then end it with 3 back ticks\n\nOR\n\nUse the keyboard shortcut Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac) to insert a code chunk\n\n\nSpeaker Notes - Code chunks are sections of a Quarto document where we can run code directly inside our file. They’re marked by three backticks followed by the language name, like {r} or {python}. - These let us write and execute code, and then display the results, such as tables, plots, or calculations, right in the document. Code chunks make it possible to combine text and analysis in one place, so the document stays reproducible and dynamic. Instructor Notes - using {r} to start the Code Chunk indicates that the coding language that we’re using is R. This is relevant for this lesson as students will be using R Studio and possession pof some background knowledge in R is assumed."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-ii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-ii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting code chunks (II)",
+    "text": "Inserting code chunks (II)\nInserting Code\nsummary(ChickWeight)\n\nlibrary(ggplot2)\nggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +\n  geom_line(aes(group = Chick)) +\n  labs(title = \"Chick Growth Over Time\")\n\nSpeaker Note Add speaker notes and instructor notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-5",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-5",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Practical exercise 5",
+    "text": "Practical exercise 5\n\nInsert the code in two separate code chunks\nRender the output and see what you get\n\n\nSpeaker Note Add speaker notes and instructor notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-ii-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-ii-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting code chunks (II)",
+    "text": "Inserting code chunks (II)\nAdjust how the code is portrayed by editing the YAML header:\n\n\n\n\n\n\ncode-fold: false - the code is visible and not collapsible (as seen here)\ncode-fold: true - collapses the code so the reader can expand it\n\n\n\n\nSpeaker Notes - Quarto gives us several options for controlling how code appears in our documents. For example, we can choose whether to show or hide the code itself, whether readers can fold code open and closed, or whether only the results are shown. - Currently in our YAML, we have it set to code-fold: false which means the code is displayed as in the image. - These settings don’t change the analysis, but just change how it’s displayed. This flexibility is helpful because sometimes we want to highlight the process by showing the code, and other times we want readers to focus on the results. - In open research, showing the underlying code isn’t just a technical choice, it’s important for building trust and reproducibility."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-iii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-iii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting code chunks (III)",
+    "text": "Inserting code chunks (III)\nAdjust how the code is portrayed by editing the YAML header:\n\n\n\n\n\n\ncode-tools: true - adds the functions “show code” at the top of the page and “copy” next to the chunks\necho: true - both the code and the output is visible\n\n\n\n\nSpeaker Notes - echo: true and code-fold: false both affect how code is shown, but in different ways. echo decides if the code prints at all, while code-fold lets readers toggle it open or closed, deciding whether the code can be hidden or expanded. Instructor Notes It’s easy to confuse echo and code-fold because they both deal with code visibility. Be clear on the difference"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-iv",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-code-chunks-iv",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting code chunks (IV)",
+    "text": "Inserting code chunks (IV)\nLet’s edit the YAML header to make the code chunks collapsible and add code tools.\nPractical exercise 6\n\nIn the YAML, change code-fold: false to code-fold: true\nAdd code-tools: true\nRender the document to see the changes\n\n\nSpeaker Note Add speaker notes and instructor notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pre-break-survey",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pre-break-survey",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Pre-break survey",
+    "text": "Pre-break survey\nWhat’s the name of Quarto Markdown document?\n\n.png file\n.qmd file ✅\n.doc file\n.mp3 file\n\n\nWhat is the YAML header?\n\nsummarizes the document into a single line\nthis is where you store notes and reminders\nit’s like the “settings” of the document ✅\njust the title of the document\n\n\nWhich of the following is used to format content (like paragraphs and bullet points)?\n\nCode chunks\nYAML header\nMarkdown text ✅\nAll of the above\n\n\nWhat are the 2 components of the Authoring process?\nHow to create a code chunk in a Quarto Document?\n\nInstructor Note - Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule - Use free survey software such as or other survey software (Menti, particify, formR) to establish the following questions."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#post-break-survey-discussion",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#post-break-survey-discussion",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Post-break survey discussion",
+    "text": "Post-break survey discussion\n\nSpeaker Notes - Aim: To clarify concepts and aspects that are not yet understood - Highlight specific answers given during the survey"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#additional-authoring-features",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#additional-authoring-features",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Additional authoring features",
+    "text": "Additional authoring features\nQuarto offers additional authoring features that make it more versatile and comprehensive. These include:\n\nadding links and hyperlinking text,\nembedding media,\ncreating multi-column layouts, and more.\n\n\n\n\n\n\n\ncommonly used authoring features\n\n\n\nHere is a link for commonly used markdown syntax for additional authoring features!\n\n\n\nSpeaker Notes - Beyond writing plain text, Quarto also allows us to add features like hyperlinks, images or videos, and multi-column layouts. These improve how our document communicates. - Hyperlinks let us connect to sources or other sections, media like images and video help explain complex ideas more clearly, and multi-column layouts make the content easier to read and more visually appealing. - Using these features thoughtfully improves both the usability and the overall look of the document."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-links",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-links",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting links",
+    "text": "Inserting links\nLink with title: [title] (link)\n\n[ Quarto Website ] ( https://quarto.org/ ) → Quarto Website\n[Reveal.js Documentation] (https://revealjs.com/) → Reveal.js Documentation\n\nlink without title: &lt; https:// link &gt;\n\n&lt; https://www.markdownguide.org/ &gt; → https://www.markdownguide.org/\n&lt; https://github.com/ &gt; → https://github.com/\n\n\nSpeaker Notes Insert speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-i",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-i",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting images (I)",
+    "text": "Inserting images (I)\n\nNo caption: ! [ ] ( path/image.png )\n\n\n\nSpeaker Notes - A benefit of using Quarto is the ability to easily add media, such as images, to your documents"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-ii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-ii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting images (II)",
+    "text": "Inserting images (II)\n\nWith caption: ! [ caption ] ( path/image.png )\n\n\n\n\nThis is a caption about three yellow chicks in the grass.\n\n\n\nSpeaker Notes Insert speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-iii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-iii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting images (III)",
+    "text": "Inserting images (III)\n\nwith link: [ ! [ caption ] ( path/image.png ) ] ( link )\n\n\n\n\nClick to see a study on broiler chicks\n\n\n\nSpeaker Notes Insert speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-iv",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#inserting-images-iv",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Inserting images (IV)",
+    "text": "Inserting images (IV)\n\n![No chicks were harmed in the making of this lesson.](images/chickpic1.png)\n\nPractical exercise 7\n\nClick this link to download the image\nSave the image to the main folder of the Quarto document files\nCopy & paste the markdown text to insert an image with a caption (edit path if needed)\n\n\nSpeaker Notes - Add speaker notes here. Instructor Notes - Setting the path can be tricky depending on where the files are located - It’s a good practice to save these files in the same main folder as your Quarto document files (ideally in a dedicated subfolder named “images” to keep paths organized and easy to manage). If students saved and placed their main folder earlier, then locating it should be easy. - in the Task above, the text says “images/chickpic1.png” assuming the picture is saved in a folder called “Images” in the main folder containing all the Quarto document files."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#creating-columns-on-the-slide",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#creating-columns-on-the-slide",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Creating columns on the slide",
+    "text": "Creating columns on the slide\nYou can change the layout of a section using columns:\n\nStart the column layout by writing “:::::: columns”\nBegin the first column with “::: column”\nAdd content and end it with “:::”\nBegin second coloumn with “::: column”\nAdd content and end it with “:::”\nEnd section with a final “::::::”\n\n\n\n\n\n\n\nlist of page layout options\n\n\n\nHere is a link for page layout options to author how content looks on your document!\n\n\n\nSpeaker Notes - Columns are useful when you want to organize content side by side instead of in a long vertical flow. For e.g., you might place an image in one column and an explanation in the other, or compare two code outputs directly next to each other like comparing two separate plots. - Columns help make information easier to scan and can improve the balance and readability of your slides or documents."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#side-by-side-image-and-bullet-points-with-columns",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#side-by-side-image-and-bullet-points-with-columns",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Side-by-side image and bullet points with columns",
+    "text": "Side-by-side image and bullet points with columns\nLet’s use columns to add bullet points next to an image.\nPractical exercise 8\n\nClick this link to download the image\nSave the image to the main folder of the Quarto document files\n\n\nSpeaker Notes Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-8",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#practical-exercise-8",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Practical exercise 8",
+    "text": "Practical exercise 8\n:::::: columns\n::: column\n\n![](images/chickpic2.png)\n\n:::\n::: column\n\n-   Monitor growth trends over time\n-   Compare diets and weight gain\n\n:::\n::::::\n\nCopy & paste the markdown text to add an image with bullet points using columns (edit path if needed)\n\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Adding citations with Zotero",
+    "text": "Adding citations with Zotero\nZotero is a free reference management tool to collect, organize, cite, and share research sources.\nYou can use Zotero in RStudio to easily insert citations into your Quarto document\n\nSpeaker Notes - Zotero is a reference manager that helps you collect and organize research articles, books, and other sources. When you connect Zotero to Quarto, you can easily insert citations while writing and then automatically generate a reference list at the end. This saves time and reduces errors compared to typing citations manually."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Adding citations with Zotero",
+    "text": "Adding citations with Zotero\n\nTo insert a citation:\n\nswitch to the “Visual Editor” mode,\nadd bibliography: references.bib in the YAML header,\npress the “Insert” button in the toolbar and select “Citation”\n\nA reference list or bibliography is automatically generated at the end of the document with all the citations used.\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-2",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-2",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Adding Citations with Zotero",
+    "text": "Adding Citations with Zotero\n\n\n\n\n\nYou can select citations straight from your library and folders in Zotero\nEach citation is assigned a short citation key based on the author and year (e.g., pauwels2015).\nYou can quickly cite it in your document by typing @ followed by the citation key.\n\n\n\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-3",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-3",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Adding citations with Zotero",
+    "text": "Adding citations with Zotero\nLet’s practice adding a citation:\nPractical exercise 9\n\nAdd bibliography: references.bib to your YAML header\nFollow this link to an article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\nDiet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more \n\nCopy the text above and place the cursor at the end of the sentence\n\n\nSpeaker Notes - Add speaker notes here. Instructor Note - There are several ways to add a citation to your Zotero library but an easy way is using the ‘magic wand’ (adding the item by its identifier). Here, you can just copy the DOI of the study, hit Enter, and it will be added to Zotero. The DOIs of the articles in these tasks will be clearly visible so this method is recommended."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-4",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-4",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Adding Citations with Zotero",
+    "text": "Adding Citations with Zotero\nPractical exercise 10\n\nIn Visual Mode, click “Insert” and find the article in the Zotero Library\nClick “Insert” to add the citation\n\n\n\n\nWhen you find the article in the Zotero Library folder here, select it and then click Insert\n\n\n\nSpeaker Notes - Add speaker notes here. Instructor Note - It is possible to add citations in Source mode, but it is easier and more efficient to do it in Visual mdoe. This is also a good opportunity for students to see all the work they’ve done so far in the Quarto document now in Visual mode."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-5",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-5",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Adding citations with Zotero",
+    "text": "Adding citations with Zotero\nLet’s add another citation to practice adding in-text citations:\nPractical exercise 11\n\nFollow this link to another article on diets and broiler chicks\nAdd the citation to your Zotero Library\n\n found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.\n\nCopy the text above and place the cursor at the beginning of the sentence\n\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-6",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-6",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Adding citations with Zotero",
+    "text": "Adding citations with Zotero\nPractical exercise 12\n\nClick “Insert” and find the article in the Zotero Library\nCheck the box next to “In-text”\n\n\n\nClick “Insert” to add the citation\n\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-7",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#adding-citations-with-zotero-7",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Adding citations with Zotero",
+    "text": "Adding citations with Zotero\n\n\nNow you should have\n\na citation,\nan in-text citation, and\na reference list (bibliography).\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nchanging the citation style You can change the citation style by using csl files directly from the Zotero website. For e.g., putting “csl: https://www.zotero.org/styles/apa” in your YAML changes the citation style to APA.\n\n\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing",
+    "text": "Publishing\nWhat is Publishing with Quarto? It’s the process of sharing the rendered documents or projects online so it can become accessible to others.\nYou can publish to:\n\nGitHub Pages\nQuarto Pub\npersonal website\n\n\n\n\n\n\n\nlist of publishing services\n\n\n\nHere is a link for a list of publishing services and more information!\n\n\n\nSpeaker Notes - Publishing in Quarto is all about making your work accessible to others. Once you’ve created and rendered your document, you can share it online so that collaborators, students, or the wider community can view it. Quarto supports multiple publishing options, including GitHub Pages, Quarto Pub, or even your own personal website.\nInstructor Notes - The key takeaway here is that publishing turns your local work into something that can be accessed from anywhere."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-i",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-i",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing to GitHub (I)",
+    "text": "Publishing to GitHub (I)\nA great option to share your document is publishing to GitHub.\n\nGitHub is a platform for hosting and sharing code and projects online\nAn advantage of GitHub is it allows for version control- the ability to track and manage changes over time\nA free and widely used way to publish your Quarto document to GitHub is by using GitHub Pages\n\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-ii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-ii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing to GitHub (II)",
+    "text": "Publishing to GitHub (II)\nGitHub Pages enables you to publish content based on source code managed within a GitHub repository.\n3 methods to publish a Quarto document to GitHub Pages:\n\nRender to the docs directory and checking it into your repository\nUse the quarto publish command\nUse GitHub Actions to auto-render and publish whenever you push changes\n\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-iii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-iii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing to GitHub (III)",
+    "text": "Publishing to GitHub (III)\nLet’s publish our document using the first method:\nRender to docs\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing to GitHub",
+    "text": "Publishing to GitHub\nWork with Git Bash directly from the Terminal in RStudio.\n\nclick Terminal → Terminal Options and set it to open with Git Bash\n\n\n\n\n\n\n\n\n\nthen, click Terminal → New Terminal to begin working with Git Bash\n\n\nSpeaker Notes - Add speaker notes here. Instructor Note - When you click the drop-down arrow by Terminal, the options may look different than what’s in the image in this slide but the “Terminal Options…” will be at the end (you may have to scroll a bit). - The last step (open a new Terminal) is important because the current Terminal does not automatically change to Git Bash."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-iv",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-iv",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing to GitHub (IV)",
+    "text": "Publishing to GitHub (IV)\nPractical exercise 13\n\nIn your Quarto Document, edit YAML and add:\n\nproject:\n  type: website\n  output-dir: docs\n\nSet Terminal to open with Git Bash and open new Terminal\nChange directory to the path of the main folder with the Quarto files using cd\n\n\nSpeaker Notes - Add speaker notes here. Instructor Note - Reminder that copying & pasting with keyboard shortcuts do not work the same in Git Bash. Right-clicking and selecting Paste is an easy option. - Sometimes in Git Bash/Terminal, just copying & pasting will run the command, but sometimes you need to hit Enter. - Setting the directory can be tricky. - Backslashes (\\) need to be changes to forward slashes (/). - If you’re pasting the exact path of the folder, wrap it in quotation marks (\"...\")"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-v",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-v",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing to GitHub (V)",
+    "text": "Publishing to GitHub (V)\nPractical exercise 14\necho \"project:\n  type: website\n  output-dir: docs\" &gt; _quarto.yml\n\nMake a simple _quarto.yml file by copying & pasting the above in the Terminal\n\ntouch .nojekyll\n\nCopy & paste the above into the Terminal to add a .nojekyll file\n\n\n\n\n\n\n\n.nojekyll\n\n\n\nAdding a .nojekyll file to the root of your repo tells GitHub Pages not to do additional processing of your published site using Jekyll\n\n\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing to GitHub",
+    "text": "Publishing to GitHub\nPractical exercise 14\nquarto render\n\nCopy & paste the above into Terminal to generate HTML in the docs/ folder\n\ngit init\ngit branch -M main  \n\nCopy & paste the above into Terminal to initialize Git and rename “master” to “main”\n\n\nSpeaker Notes - Add speaker notes here. Instructor Note - You will see a warning about references.bib not found in resource path which usually happens because Quarto looks for the file in the project’s root or resource path, but Git Bash is case-sensitive and strict with paths. - So, you will see in your completed Git Pages web page that the citations look strange but we will leave it like that for now. - Extra steps are needed to correct this that will be covered in the Advanced Intro to Quarto Activity PDF."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-vi",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-vi",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing to GitHub (VI)",
+    "text": "Publishing to GitHub (VI)\nPractical exercise 15\n\nIn GitHub, create a new repo\nIn Terminal, add remote by using “git remote add origin” + the repo’s HTTPS URL (e.g., “git remote add origin https://github.com/yourname/chickweight-exercise.git”)\n\nquarto render\ngit add docs\ngit commit -m \"Publish site to docs/\"\ngit push -u origin main\n\nCopy & paste the above into Terminal to render your site and push it to GitHub\n\n\nSpeaker Notes - Add speaker notes here. Instructor Notes - For this to work, the repo created must be set to Public"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-vii",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#publishing-to-github-vii",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Publishing to GitHub (VII)",
+    "text": "Publishing to GitHub (VII)\n\nIn your repo on GitHub, go to Settings\nClick “Pages” to configure GitHub Pages\n\n\n\n\n\nchange “none” to “main”\n\n\n\n\nChange “/root” to “/docs” and click Save\n\n\n\nAfter 1-2 minutes, you will see that your site is live!\n\nSpeaker Notes - Add speaker notes here. Instructor Note - Reminder that the citations will not be complete because configuring to include the bibliography was not done. That’s an additional step."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#recap",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#recap",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Recap",
+    "text": "Recap\n\nFrom SvG: Would this differ from the take home messages?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#relevance-and-implications",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#relevance-and-implications",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Relevance and implications",
+    "text": "Relevance and implications\nLet’s discuss how useful Quarto can be for open research. Consider the following questions:\n\nHow can using Quarto improve transparency and reproducibility in your work?\nIn what ways does Quarto make sharing code and data with collaborators easier?\nDo you see advantages in using Quarto compared to traditional tools like Word or PowerPoint?\nWhat challenges might you face in adopting Quarto in your current\n\n\nSpeaker Notes - Add speaker notes here. Instructor Note - Aim: To work out the relevance of the topic to your students. - In an interactive setting, discuss how the new skills could be applied in practise with specific examples. - Examine downfalls and practical obstacles."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#what-is-the-take-home-message",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#what-is-the-take-home-message",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "What is the take-home message?",
+    "text": "What is the take-home message?\nLet’s wrap up by identifying the key takeaway from today’s session together.\nAsk yourself: “If you had to explain to a colleague in one sentence why learning Quarto matters for research and teaching, what would you say?”\n\nSpeaker Notes - Add speaker notes here. Instructor Note - Aim: End lesson on clear take-home message that are interactively compiled by students. - Encourage students to share one sentence take-home messages. You can collect them verbally or in a shared doc/board. - Reinforce that Quarto is not just a tool, but a mindset shift toward openness and collaboration."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#assignment",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#assignment",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Assignment",
+    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\nSpeaker Notes - Add speaker notes here."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-conclude-survey-time",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-conclude-survey-time",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "To conclude: Survey time!",
+    "text": "To conclude: Survey time!\nWhat is your level of familiarity with Quarto before this lesson? a) I’ve never used it b) I’ve heard of it but never tried it c) I’ve experimented a little d) I use it occasionally e) I use it frequently\n\nWhich of the following best describes Quarto? a) A programming language b) A publishing system for reproducible documents ✅ c) A code editor d) A type of version control system\n\nWhich components are combined in the authoring process of Quarto documents? a) Only YAML b) Only Markdown c) Neither d) YAML and Markdown together ✅\n\nWhich of the following modes can be used to create a Quarto document? a) Source mode b) Visual mode c) Both ✅ d) Neither\n\nOn a scale of 1 to 5, how comfortable are you switching between Source and Visual modes?\nWhich of these are examples of Markdown text formatting? (Select all that apply) a) Bold text ✅ b) Italic text ✅ c) Adding code chunks d) Adding hyperlinks ✅\n\nWhy should you use text formatting in Quarto documents? a) For aesthetics only b) To improve clarity and emphasis ✅ c) To make the file larger d) To change the coding language\n\nWhen would you consider using multi-column layouts? a) To shorten the document b) To make information more visually organized ✅ c) To add footnotes only d) To increase file size\n\nWhat is the purpose of code chunks in Quarto documents? a) To include executable code and results within the document ✅ b) To store references c) To format text d) To hide metadata\n\nWhich YAML options relate to how code chunks are displayed? a) echo: true ✅ b) code-fold: false ✅ c) title: “My Document” d) format: html\n\nWhy is including code in research documents important? a) To make the document more difficult to read b) To ensure only the author can reproduce results c) To replace data collection d) To make research reproducible and transparent ✅\n\nWhich of the following are common publishing options for Quarto projects? (Select all that apply) a) GitHub Pages ✅ b) Quarto Pub ✅ c) Social media platforms d) Personal websites ✅\n\nWhat is the benefit of publishing your Quarto documents? a) They make your computer run faster b) They allow offline editing only c) They become accessible to others for sharing and collaboration ✅ d) They automatically write the code for you\n\nSpeaker Notes - Add speaker notes here. Instructor Notes - Aim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic. - Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#discussion-of-survey-results-1",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#discussion-of-survey-results-1",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\nSpeaker notes Add here. Instructor Note - Aim: Briefly examine the answers given to each question interactively with the group. - Compare and highlight specific differences in answers between pre- and post-survey answers"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#references",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#references",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "References",
+    "text": "References\n\nProvide literature you refer to throughout this lesson.\n\n\nFrom SvG: Add references here"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pedagogical-add-on-tools-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pedagogical-add-on-tools-for-instructors",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Pedagogical add-on tools for instructors",
+    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students.\n\n\n\nFrom SvG: Still to do right?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#additional-literature-for-instructors",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#additional-literature-for-instructors",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Additional literature for instructors",
+    "text": "Additional literature for instructors\n\nReferences for content\nReferences for pedagogical add-on tools\n\nOther resources (videos etc.)\n\n\nFrom SvG: Still to do right?"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#download-files",
+    "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html#download-files",
+    "title": "3.4. Introduction to version control with Git in RStudio",
+    "section": "Download files",
+    "text": "Download files\n\nPractical exercises - solutions\nDownload the solutions for the practical exercises here:\n Download \n\n\nHelpfiles\nDownload the csv file for the example data:\n Download"
   }
 ]
