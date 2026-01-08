@@ -23,12 +23,6 @@ execute:
 ---
 ## Feedback Slide - please DELETE at the end
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: <br>
-- Changed around the contribution and credit statement
-- Something to check: are the QR codes stable? Some generators do not allow for the QR code to be active for longer than X amount of time - so will the QR code link out to particify? On the other hand, particify rooms stay indefinitely, so that is nice! </span>
-</div>
-
 Changes made during final review
 
 - Updated format of the slides to match more recent slide decks
@@ -41,28 +35,43 @@ Changes made during final review
 
 ---
 
+## Licence
+
+<br>
+
+<p style="text-align:center;">
+  <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence](https://opensource.org/license/mit) (original repository). It was subsequently adapted by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of [Adam Kenny](https://github.com/Kennyanthro). The overview image is from [Dumitru Uzun](https://duzun.me/tips/git). The exercice is based on the research of [Jen Bright](https://x.com/MorphobeakGeek) who also kindly provided the gifs used in the exercice. It is now maintained by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895) at the [LMU Open Science Center](https://www.osc.uni-muenchen.de/index.html).  This current work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
+</div>
+
+::: {.notes}
+**Speaker Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
+
+However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
+:::
+
+---
+
 ## Contribution statement and licence
 
 **Creator**: Waterfield, Elizabeth (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730)
 
 **Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
 
-**Acknowledgments**: Middleton, Sara Lil (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029)
+**Acknowledgments**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981)
 
-
-<br>
-<br>
-
-<div style="font-size: 0.6em;">
-This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
-</div>
 
 ::: {.notes}
-**Speaker Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
+**Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
 
-**Instructor Notes**: Instructor notes provide teaching support but are not intended to be communicated to the students directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner's needs as well as anticipate challenges.
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
 
-**Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
+**Accessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
 :::
 
 ---
@@ -165,18 +174,20 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Looking at the results from this small survey, what can we take from this? 
+**Speaker Notes**: Let us have a look at these results. 
 
-**Instructor Notes**: <br>
-- Aim: briefly examine the answers given to each question interactively with the group. <br>
-- Use visuals from the survey to highlight specific answers. <br>
-- Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
+**Instructor Notes**:
+
+- **Aim**: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers.
+
+**Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
 :::
 
 ---
 
 ## Where are we at?
 
+:::incremental
 **Previously**:
 <div style="font-size: 0.9em;">
 
@@ -192,6 +203,7 @@ What do we see in the results?
 - Publishing the website on GitHub
 </div>
 </div>
+:::
 
 ::: callout-note
 ## Quarto and Open Science
@@ -202,12 +214,35 @@ What do we see in the results?
 ::: {.notes}
 **Speaker Notes**: Previously, you have gained skills and experience with R, RStudio, version control with Git, and collaborative work on GitHub. Next, we are moving to a new tool: Quarto. Here, you will learn about a platform that can combine text, code, and media all into one document. We will cover how to create a simple website using different functionalities that Quarto offers.
 
-**Instructor Notes**: Aim: Place the topic of the current submodule within a broader context. Consider Quarto as a solution to some existing challenges in Open Research to remind learners what they are working towards and what the bigger picture is.
+**Instructor Notes**: Place the topic of the current submodule within a broader context. Consider Quarto as a solution to some existing challenges in Open Research to remind learners what they are working towards and what the bigger picture is.
 :::
 
 ---
 
-## Session learning goals
+## Covered in this session
+
+:::incremental
+- **Key terms and definitions**: Understanding core concepts in Quarto
+- **Setting up Quarto**: Opening a Quarto document in RStudio
+- **Authoring**: Writing text and structuring content
+- **Code chunks**: Running and displaying code
+- **Additional authoring features**: Using images, links, and columns
+- **Citations**: Adding citations and bibliography with Zotero
+- **Publishing**: Sharing your Quarto document to GitHub
+:::
+
+::: {.notes}
+**Speaker Notes**: This session will cover some basics in how to use Quarto and then some ways it can work with other platforms to perform functions like referencing and publishing. We will first begin by setting up a Quarto document in RStudio, then we will look at important elements: text, code, media, links, and layout. Next, we will work with both Quarto and Zotero for quick and easy citations and, finally, we will look at sharing our work to GitHub. All of these are pertinent steps in learning how to use Quarto to facilitate Open Research practices
+
+**Instructor Notes**: Aim: To establish the core theoretical introduction of submodule topics. <br>
+- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980). <br>
+- For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, learners should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
+
+:::
+
+---
+
+## Learning goals
 
 At the end of this session, you should be able to:
 
@@ -221,33 +256,16 @@ At the end of this session, you should be able to:
 - We’ll practice inserting citations and generating bibliographies using Zotero, and finally, we’ll publish and share our work using GitHub Pages. <br>
 - Think of this as the full workflow: first is authoring the document, then comes proper referencing, and finally sharing your work openly.
 
-**Instructor Notes**: Aim- Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956) <br>
-- Emphasis is placed on the **verbs** of the learning goals- choose verbs that align with the skills you want to develop or assess.
-:::
+**Instructor Notes**: <br>
 
----
+- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
 
-## Covered in this session
+- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
 
-<div style="font-size: 1.2em;">
-
-- **Key Terms and Definitions**: Understanding core concepts in Quarto
-- **Setting up Quarto**: Opening a Quarto document in RStudio
-- **Authoring**: Writing text and structuring content
-- **Code Chunks**: Running and displaying code
-- **Additional Authoring Features**: Using images, links, and columns
-- **Citations**: Adding citations and bibliography with Zotero
-- **Publishing**: Sharing your Quarto document to GitHub
-
-</div>
-
-::: {.notes}
-**Speaker Notes**: This session will cover some basics in how to use Quarto and then some ways it can work with other platforms to perform functions like referencing and publishing. We will first begin by setting up a Quarto document in RStudio, then we will look at important elements: text, code, media, links, and layout. Next, we will work with both Quarto and Zotero for quick and easy citations and, finally, we will look at sharing our work to GitHub. All of these are pertinent steps in learning how to use Quarto to facilitate Open Research practices
-
-**Instructor Notes**: Aim: To establish the core theoretical introduction of submodule topics. <br>
-- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980). <br>
-- For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, learners should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
-
+- Examples: 
+  - Learners will **describe** the process of photosynthesis or
+  - Learners will **construct** a diagram illustrating the process of photosynthesis
+  
 :::
 
 ---
@@ -274,8 +292,12 @@ At the end of this session, you should be able to:
 - **YAML header**: The section at the top of the Quarto document that controls settings like the title, output format, and author.
 - **Code chunks**: The sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations.
 - **Quarto markdown text**: This combines text, codes, and formatting to create the actual content of the document.
-- The YAML header, code chunks, and markdown text are the *components of the .qmd file*.
 :::
+
+::: callout-note
+The **YAML header, code chunks, and markdown text** are the **components** of the *.qmd file*.
+:::
+
 
 ::: {.notes}
 **Speaker Notes**: A Quarto document or file gets the extension of .qmd. The YAML header is the section at the top of the Quarto document that controls settings like the title, output format, and author. The code chunks are the sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations. Then, the Quarto markdown text is the component that combines text, codes, and formatting to create the actual content of the document. These are different components within a Quarto document that are important for rendering.  
@@ -289,6 +311,7 @@ At the end of this session, you should be able to:
 
 ## What is Quarto?
 
+:::incremental
 An **open-source scientific and publishing system** that combines text, code and media to produce transparent and reproducible work that can be freely accessed by others.
 
 With Quarto, you can easily: 
@@ -296,6 +319,7 @@ With Quarto, you can easily:
 - **Analyze** data, text, or research content
 - **Share** results and outputs like reports, slides, or websites
 - **Reproduce** entire workflows
+:::
 
 :::callout-note
 ## Quarto Website
@@ -329,7 +353,7 @@ Which side is easier to read?
 ::: {.column width="50%"}
 *Side A*
 
-`````{markdown}
+`````{text}
 With **Quarto**, combine into *one single document*:
 
 - text 
@@ -399,7 +423,14 @@ mean(set2) - mean(set1)
 
 ---
 
+# continue revisions from here
+
+
+---
+
 ## "Rendering in Quarto"
+
+:::incremental
 
 What is **rendering**? The process where Quarto runs the code, combines it with the text, and creates a final output.
 
@@ -407,6 +438,8 @@ What is **rendering**? The process where Quarto runs the code, combines it with 
 
   - **Render on Save**: Quarto will automatically re-render the document each time you click "Save"
   - **Manual Rendering**: You have to click on the "Render" each time you want to see the output
+
+:::
 
 ![You can find both *Render on Save* and *Manual Render* at the top of your workspace](images/01_Render.png){fig-alt="A screenshot of a menu bar in an RStudio workspace with red rectangles highlighting the 'Render on Save' checkbox and 'Render' button."}
 
@@ -582,7 +615,7 @@ Here is a <a href="https://quarto.org/docs/visual-editor/options.html">link for 
 
 <br>
 
-``` markdown
+```text
 Have you ever wondered what affects a chick's weight? 
 This document explores the ChickWeight dataset using R.  
 The goal is to compare chick weight across different diets and time points.  
@@ -659,7 +692,7 @@ This is an example of a callout box to include additional information or context
 
 Here is the markdown text for inserting a **callout note** box:
 
-```{markdown}
+```text
 ::: callout-note
 ## Based on Real Data
 
@@ -727,13 +760,13 @@ The ChickWeight dataset in R is based on real experimental data.
 
 <br>
 
-``` markdown
+```text
 summary(ChickWeight)
 ```
 
 <br>
 
-``` markdown
+```text
 library(ggplot2)
 ggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +
   geom_line(aes(group = Chick)) +
@@ -921,7 +954,13 @@ d.  All of the above
 ::: {.notes}
 **Speaker Notes**: Let's discuss the survey answers and clarify any questions before moving on to the next section.
 
-**Instructor Notes**: The aim of this suvery is to clarify concepts and aspects that are not yet understood. Highlight specific answers given during the survey and also use this time to clarify any confusions or questions on specific topics students may have from the first part of the session.
+**Instructor Notes**: The aim of this suvery is to clarify concepts and aspects that are not yet understood. Highlight specific answers given during the survey and also use this time to clarify any confusions or questions on specific topics students may have from the first part of the session. Guidance on interpreting the results:
+
+- If more than 80% of the learners select the correct response option, show which one it is and move on.
+
+- If less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).
+
+- If more than 30% select a specific distractor answer, discuss it in class.
 :::
 
 ---
@@ -999,7 +1038,7 @@ You can even add a link to an image so that when you click anywhere on the image
 -   [ ] <a href="images/05_Chick_Pic.png" download>Click this link to download the image</a>
 -   [ ] Save the image to the main folder of the Quarto document files
 
-``` markdown
+```text
 ![No chicks were harmed in the making of this document.](images/05_Chick_Pic.png)
 ```
 -   [ ] Copy and paste the markdown text above to insert an image with a caption (edit path if needed)
@@ -1086,7 +1125,7 @@ Let's practice adding a citation using **Zotero**.
 - [ ] [Follow this link to an article on diets and broiler chicks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819) 
 - [ ] Add the citation to your Zotero Library
 
-```markdown
+```text
 Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more 
 ```
 
@@ -1119,7 +1158,7 @@ Let's practice adding **in-text** citations:
 - [ ] [Follow this link to another article on diets and broiler chicks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153859#:~:text=In%20conclusion%2C%20HDND%20improved%20the,diet%20adversely%20affected%20bone%20mineralization.) 
 - [ ] Add the citation to your Zotero Library
 
-```markdown
+```text
  found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.
 ```
 
@@ -1325,14 +1364,14 @@ Here is an example of setting the directory using `cd`:
 
 - [ ] Make a simple `_quarto.yml` file by copying and pasting the following in the Terminal:
 
-```markdown
+```text
 echo "project:
   type: website
   output-dir: docs" > _quarto.yml
 ```
 - [ ] Copy and paste the following into the Terminal to add a `.nojekyll` file:
 
-```markdown
+```text
 touch .nojekyll
 ```
 
@@ -1352,12 +1391,12 @@ Adding a `.nojekyll` file to the root of your repository tells GitHub Pages not 
 
 - [ ] Copy and paste the following into Terminal to generate HTML in the `docs/` folder:
 
-```markdown
+```text
 quarto render
 ```
 - [ ] Copy and paste the following into Terminal- this initializes Git and renames "master" to "main":
 
-```markdown
+```text
 git init
 git branch -M main  
 ```
@@ -1376,7 +1415,7 @@ git branch -M main
 - [ ] In the Terminal, connect to a local project by using "`git remote add origin`" followed by the repo's HTTPS URL (for example, "`git remote add origin https://github.com/yourname/chickweight-exercise.git`")
 - [ ] Copy and paste the following into Terminal to render your site and push it to GitHub:
 
-```markdown
+```text
 quarto render
 git add docs
 git commit -m "Publish site to docs/"
@@ -1765,16 +1804,8 @@ See you next class :)
 
 ---
 
-## License 
-
-<div style="font-size: 0.6em;">
-This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
-</div>
-
----
-
 ## CREDiT Contribution Statement
 
-**Elizabeth Waterfield**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
+**Elizabeth Waterfield**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Project Administration, Validation. **Malika Ihle**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
 ---
