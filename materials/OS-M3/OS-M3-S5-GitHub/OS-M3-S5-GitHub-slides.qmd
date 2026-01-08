@@ -10,7 +10,7 @@ format:
     slide-number: true
     logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
   pdf:
-    geometry: 
+    geometry:
       - top=30mm
       - left=30mm
   #pptx: 
@@ -27,9 +27,7 @@ execute:
 <br>
 
 <p style="text-align:center;">
-  <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
-       alt="CC BY 4.0"
-       style="height:50px;">
+  <strong>CC BY 4.0</strong>
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
@@ -46,11 +44,11 @@ However, there are some important conditions you must follow. You are required t
 
 ## Contribution statement
 
-**Creator**: Waterfield, Elizabeth (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730)
+**Creator**: Waterfield, Elizabeth ([ORCID: 0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
 
-**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah ([ORCID: 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Consultant**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png) [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Consultant**: Ihle, Malika ([ORCID: 0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 ::: {.notes}
 **Speaker Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
