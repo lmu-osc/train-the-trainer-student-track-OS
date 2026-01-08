@@ -181,18 +181,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
-  <li><a href="#contributors" id="toc-contributors" class="nav-link" data-scroll-target="#contributors">Contributors</a></li>
+  <li><a href="#about-these-materials" id="toc-about-these-materials" class="nav-link active" data-scroll-target="#about-these-materials">About these materials</a>
+  <ul class="collapse">
+  <li><a href="#who-are-these-materials-for" id="toc-who-are-these-materials-for" class="nav-link" data-scroll-target="#who-are-these-materials-for">Who are these materials for?</a></li>
   <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  </ul></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a>
+  <ul class="collapse">
   <li><a href="#download-files" id="toc-download-files" class="nav-link" data-scroll-target="#download-files">Download files</a>
   <ul class="collapse">
   <li><a href="#practical-exercises---solutions" id="toc-practical-exercises---solutions" class="nav-link" data-scroll-target="#practical-exercises---solutions">Practical exercises - solutions</a></li>
   <li><a href="#helpfiles" id="toc-helpfiles" class="nav-link" data-scroll-target="#helpfiles">Helpfiles</a></li>
   </ul></li>
-  <li><a href="#export-slides" id="toc-export-slides" class="nav-link" data-scroll-target="#export-slides">Export slides</a>
-  <ul class="collapse">
-  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
   </ul></li>
+  <li><a href="#export-slides" id="toc-export-slides" class="nav-link" data-scroll-target="#export-slides">Export slides</a></li>
+  <li><a href="#contributors-and-licence-details" id="toc-contributors-and-licence-details" class="nav-link" data-scroll-target="#contributors-and-licence-details">Contributors and licence details</a></li>
   </ul>
 </nav>
     </div>
@@ -221,26 +225,80 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>Something nice here</p>
 </blockquote>
-<section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
-<p>Welcome! This workshop is for XX audience. Its purpose is to XXX. The main objective of this workshop is to</p>
-</section>
-<section id="contributors" class="level2">
-<h2 class="anchored" data-anchor-id="contributors">Contributors</h2>
-<p>This site was authored by XXX. XX was a reviewer.</p>
+<section id="about-these-materials" class="level1">
+<h1>About these materials</h1>
+<p><strong>Welcome!</strong> This workshops is intended to provide learners with a deeper understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps and decision making process. We will also learn how to use tools to facilitate collaboration across different groups and people.</p>
+<section id="who-are-these-materials-for" class="level3">
+<h3 class="anchored" data-anchor-id="who-are-these-materials-for">Who are these materials for?</h3>
+<p>The target audience of this workshop is twofold:</p>
+<ul>
+<li><p><strong>Self-learners</strong> with no prior experience with version control, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. <em>Speakers notes</em> will help you to understand and reflect on the content of the materials. Note: Group exercises are <em>not</em> possible in this asynchronous setting.</p></li>
+<li><p><strong>Instructors</strong> in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with speaker and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors.</p></li>
+</ul>
 </section>
 <section id="prerequisites" class="level2">
 <h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>Add prerequisites here (make sure it matches with the slides)</p>
-<p><a href="../../../materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html">Full Screen</a></p>
+<div style="font-size: 0.8em;">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Prerequisite</th>
+<th>Description</th>
+<th>Link/Where to find it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Laptop/PC with internet access</td>
+<td>Admin rights for download/install</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>R and RStudio installed</td>
+<td>Latest versions of both R and RStudio</td>
+<td><a href="https://posit.co/download/rstudio-desktop/">https://posit.co/download/rstudio-desktop/</a></td>
+</tr>
+<tr class="odd">
+<td>Basic R skills</td>
+<td>3.2 Introduction to R - Part I</td>
+<td>LINK</td>
+</tr>
+<tr class="even">
+<td>Advanced R skills</td>
+<td>3.3 Introduction to R - Part II</td>
+<td>LINK</td>
+</tr>
+<tr class="odd">
+<td>GitHub account</td>
+<td>Free account for GitHub</td>
+<td>Join at <a href="https://github.com/join">https://github.com/join</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<ul>
+<li><strong>Understand</strong> the problem(s) that can be solved by version control</li>
+<li><strong>Install</strong> and <strong>configure</strong> Git</li>
+<li><strong>Set up</strong> the connection between your computer and GitHub</li>
+<li><strong>Create</strong> an RStudio Project under version control for a reproducible workflow</li>
+<li><strong>Make</strong> changes within RStudio and <strong>commit</strong> changes locally</li>
+<li><strong>Connect</strong> local and remote repositories for your work</li>
+</ul>
+</section>
+</section>
+<section id="materials" class="level1">
+<h1>Materials</h1>
+<p><a href="../../../materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html">Click here to see the materials in full Screen</a></p>
 <iframe class="slide-deck" src="OS-M3-S4-Git-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
-</section>
-<section id="download-files" class="level1">
-<h1>Download files</h1>
-<section id="practical-exercises---solutions" class="level2">
-<h2 class="anchored" data-anchor-id="practical-exercises---solutions">Practical exercises - solutions</h2>
+<section id="download-files" class="level2">
+<h2 class="anchored" data-anchor-id="download-files">Download files</h2>
+<section id="practical-exercises---solutions" class="level3">
+<h3 class="anchored" data-anchor-id="practical-exercises---solutions">Practical exercises - solutions</h3>
 <p>Download the solutions for the practical exercises here:</p>
-<p><a href="#dnldts64767" onclick="fetch('data:text/csv;base64,eGRhdGEseWRhdGENCi0yLDAuNjk5MzY5DQotMS42NCwwLjcwMDQ2Mg0KLTEuMzMsMC42OTUzNTQNCi0wLjcsMS4wMzkwNQ0KMCwxLjk3Mzg5DQowLjQ1LDIuNDExNDMNCjEuMiwxLjkxMDkxDQoxLjY0LDAuOTE5NTc2DQoyLjMyLC0wLjczMDk3NQ0KMi45LC0xLjQyMDAxDQo=').then(res => res.blob()).then(blob => {
+<p><a href="#dnldts1944" onclick="fetch('data:text/csv;base64,eGRhdGEseWRhdGENCi0yLDAuNjk5MzY5DQotMS42NCwwLjcwMDQ2Mg0KLTEuMzMsMC42OTUzNTQNCi0wLjcsMS4wMzkwNQ0KMCwxLjk3Mzg5DQowLjQ1LDIuNDExNDMNCjEuMiwxLjkxMDkxDQoxLjY0LDAuOTE5NTc2DQoyLjMyLC0wLjczMDk3NQ0KMi45LC0xLjQyMDAxDQo=').then(res => res.blob()).then(blob => {
       const downloadURL = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       document.body.appendChild(a);
@@ -248,12 +306,12 @@ ul.task-list li input[type="checkbox"] {
       a.download = 'example_data.csv.csv'; a.click();
       window.URL.revokeObjectURL(downloadURL);
       document.body.removeChild(a);
-        });"><button class="btn btn-default downloadthis  " id="dnldts64767"><i class="bi bi-download"></i> Download </button></a></p>
+        });"><button class="btn btn-default downloadthis  " id="dnldts1944"><i class="bi bi-download"></i> Download </button></a></p>
 </section>
-<section id="helpfiles" class="level2">
-<h2 class="anchored" data-anchor-id="helpfiles">Helpfiles</h2>
+<section id="helpfiles" class="level3">
+<h3 class="anchored" data-anchor-id="helpfiles">Helpfiles</h3>
 <p>Download the csv file for the example data:</p>
-<p><a href="#dnldts7640" onclick="fetch('data:text/csv;base64,eGRhdGEseWRhdGENCi0yLDAuNjk5MzY5DQotMS42NCwwLjcwMDQ2Mg0KLTEuMzMsMC42OTUzNTQNCi0wLjcsMS4wMzkwNQ0KMCwxLjk3Mzg5DQowLjQ1LDIuNDExNDMNCjEuMiwxLjkxMDkxDQoxLjY0LDAuOTE5NTc2DQoyLjMyLC0wLjczMDk3NQ0KMi45LC0xLjQyMDAxDQo=').then(res => res.blob()).then(blob => {
+<p><a href="#dnldts22639" onclick="fetch('data:text/csv;base64,eGRhdGEseWRhdGENCi0yLDAuNjk5MzY5DQotMS42NCwwLjcwMDQ2Mg0KLTEuMzMsMC42OTUzNTQNCi0wLjcsMS4wMzkwNQ0KMCwxLjk3Mzg5DQowLjQ1LDIuNDExNDMNCjEuMiwxLjkxMDkxDQoxLjY0LDAuOTE5NTc2DQoyLjMyLC0wLjczMDk3NQ0KMi45LC0xLjQyMDAxDQo=').then(res => res.blob()).then(blob => {
       const downloadURL = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       document.body.appendChild(a);
@@ -261,21 +319,30 @@ ul.task-list li input[type="checkbox"] {
       a.download = 'example_data.csv.csv'; a.click();
       window.URL.revokeObjectURL(downloadURL);
       document.body.removeChild(a);
-        });"><button class="btn btn-default downloadthis  " id="dnldts7640"><i class="bi bi-download"></i> Download </button></a></p>
+        });"><button class="btn btn-default downloadthis  " id="dnldts22639"><i class="bi bi-download"></i> Download </button></a></p>
 <p><!-- https://github.com/shafayetShafee/downloadthis --> <!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html --></p>
+</section>
 </section>
 </section>
 <section id="export-slides" class="level1">
 <h1>Export slides</h1>
 <p>You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export.</p>
 <p><!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates --></p>
-<p>## Licenses The overall project is licensed under the CC BY-SA 4.0 license.</p>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">Notes</h2>
-<p>This tutorial was primarily written to XXX.</p>
-
-
 </section>
+<section id="contributors-and-licence-details" class="level1">
+<h1>Contributors and licence details</h1>
+<p><strong>Creator</strong>: Von Grebmer zu Wolfsthurn, Sarah (<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="img-fluid" alt="ORCID Logo"><a href="https://orcid.org/0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
+<p><strong>Reviewer</strong>: Ihle, Malika (<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="img-fluid" alt="ORCID Logo"><a href="https://orcid.org/0000-0002-3242-5981">0000-0002-3242-5981</a>)</p>
+<p><strong>Consultant</strong>: Edelsbrunner, Peter (<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" class="img-fluid" alt="ORCID Logo"><a href="https://orcid.org/0000-0001-9102-1090">0000-0001-9102-1090</a>)</p>
+<p><br></p>
+<p style="text-align:center;">
+<img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="CC BY 4.0" style="height:50px;">
+</p>
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
+<p>This work was originally created by <a href="https://github.com/mikecroucher">Mike Croucher</a> under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. It was subsequently adapted by <a href="https://www.osc.uni-muenchen.de/about_us/coordinator/index.html">Malika Ihle</a> during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. This licence permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->
