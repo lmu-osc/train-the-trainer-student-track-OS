@@ -9,10 +9,10 @@ format:
     footer: LMU Open Science Center
     slide-number: true
     logo: ../../../OSC_FORRT_Logo.png
-  # pdf:
-  #   geometry: 
-  #     - top=30mm
-  #     - left=30mm
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
   #pptx:
     #incremental: true 
     #reference-doc: template.pptx
@@ -29,9 +29,7 @@ execute:
 <br>
 
 <p style="text-align:center;">
-  <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
-       alt="CC BY 4.0"
-       style="height:50px;">
+  <strong>CC BY 4.0</strong>
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
@@ -52,11 +50,11 @@ However, there are some important conditions you must follow. You are required t
 
 <br>
 
-**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah ([ORCID: 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Reviewer**: Ihle, Malika ([ORCID: 0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
-**Consultant**: Edelsbrunner, Peter (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
+**Consultant**: Edelsbrunner, Peter ([ORCID: 0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
 
 ::: {.notes}
 **Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
