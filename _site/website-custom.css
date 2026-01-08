@@ -1,0 +1,39 @@
+/* css styles */
+
+
+/* Style the top navbar */
+.navbar {
+  background-color: #009933;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: #388e3c;
+  color: white;
+}
+
+/* Style the left sidebar */
+.sidebar {
+  background-color: #f1f1f1;
+}
+
+/* Sidebar link colour when hovering */
+.sidebar nav a:hover {
+  background-color: #e0e0e0;
+    color: #000;
+}
+
+/* Sidebar link colour for active link */
+.sidebar nav .active {
+  background-color: #e0e0e0;
+    color: #006426; 
+}
+
+/* Global link styling */
+a {
+  color: #006426;        /* Default link color */
+      /*text-decoration: none;    Removes underline by default */
+}
