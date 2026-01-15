@@ -1,5 +1,5 @@
 ---
-title: "Running Simulations and Power Analysis in R"
+title: "Running simulations and power analysis in R"
 author: "Tejaswini Sharma"
 date: "today"
 date-format: "DD/MM/YYYY"
@@ -27,7 +27,7 @@ execute:
 
 ## General  feedback - delete slide later
 <div style="font-size: 0.5em; color: red;">
-Nice work Wini, here an overview (dont worry about the red font)
+Can you sort through these comments to see which ones you addressed? Thanks!
 
 - Instructor notes are missing from most slides, read up on the difference between the two and add instructor notes (and accessibility tips if applicable)
 - Include more practical activities where students need to first think about existing knowledge and how it fits with the presented concepts
@@ -41,6 +41,22 @@ Nice work Wini, here an overview (dont worry about the red font)
 - Check the formatting guidelines again for titles, bullet points etc. in the manual to make it consistent throughout
 
 </div>
+
+---
+
+## To Do - delete slide later
+
+- Slide 2: sort through comments and see which ones you already worked through and which you still have to address 
+- Slide 5: check the hyperlink to your orcid page
+- Slide 6: instead the text in the description box for R and RStudio, specify the version required and in the link column write installation link instead of download link
+- slide 8: fix the survey links, check out the content creation manual for instructions
+- slide 14: expand on the speaker notes
+- slide 126: fix the references
+- slide 16: see comment
+- slide 18 and 19: see comments
+- slide 19-21: see comment about introducing practical activity and cut down on the text on this slide, lots to process
+- slide 22: the figure pushes out the callout box, maybe you can try to fix that?
+- slide 23: see comments
 
 ---
 
@@ -70,7 +86,7 @@ This current work by Tejaswini Sharma, Sarah von Grebmer zu Wolfsthurn and Malik
 
 <br>
 
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0009-0000-0305 9751](https://orcid.org/0009-0000-0305 9751))
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
 
 **Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
@@ -85,7 +101,7 @@ For Wini: Add your ORCID here  and the link to your orcid page
 ::: {.notes}
 **Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
 
-**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
 
 **Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities.
 :::
@@ -196,14 +212,14 @@ d. It explains all statistical results
 e. No clue
 
 ::: {.notes}
-**Instructor Notes**: Correct Answer(s): a. It helps determine how many samples you need <br>
-c. It helps you design more reliable studies
-- .
+**Instructor Notes**: Correct Answer(s): 
+
+a. It helps determine how many samples you need & c. It helps you design more reliable studies.
 :::
 
 ---
 
-**How comfortable are you with running basic R code and performing simulation / power analysis in R?**
+**How comfortable are you with performing simulation / power analysis in R?**
 
 a. Very uncomfortable
 
@@ -213,7 +229,7 @@ c. Neutral
 
 d. Somewhat comfortable
 
-e. Very comfortable)
+e. Very comfortable
 
 ---
 
@@ -233,8 +249,6 @@ RE your thought of deleting this slide: I would rather keep it, it is a standard
 
 ::: {.notes}
 **Speaker Notes**: Let us have a look at these results. 
-
-**Instructor Notes**:
 
 **Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
 :::
