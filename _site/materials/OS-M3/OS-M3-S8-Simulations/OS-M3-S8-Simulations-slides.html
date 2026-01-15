@@ -10,7 +10,6 @@
   <meta name="generator" content="quarto-1.7.34">
 
   <meta name="author" content="Tejaswini Sharma">
-  <meta name="dcterms.date" content="2026-06-01">
   <title>Train the Trainer: Student Track: OS Content – Running Simulations and Power Analysis in R</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -159,7 +158,7 @@ Tejaswini Sharma
 </div>
 </div>
 
-  <p class="date">06/01/2026</p>
+  <p class="date">15/01/2026</p>
 </section>
 <section id="general-feedback---delete-slide-later" class="slide level2">
 <h2>General feedback - delete slide later</h2>
@@ -183,17 +182,13 @@ Tejaswini Sharma
 <h2>Licence</h2>
 <p><br></p>
 <p style="text-align:center;">
-<img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="CC BY 4.0" style="height:50px;">
+<img src="images/cc-by-licence-icon.png" alt="Creative Commons Attribution 4.0" style="width:160px;">
 </p>
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-<p>This work was originally created by <a href="https://github.com/mikecroucher">Mike Croucher</a> under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. It was subsequently adapted by <a href="https://www.osc.uni-muenchen.de/about_us/coordinator/index.html">Malika Ihle</a> during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>.</p>
-</div>
-<div style="font-size: 0.5em; color: red;">
-<p>Edit this slide when the rest is finished.</p>
+<p>This work was originally created by This tutorial was orignally created by <a href="https://www.osc.uni-muenchen.de/about_us/coordinator/index.html">Malika Ihle</a> based on materials from <a href="https://joelpick.github.io/">Joel Pick</a>, <a href="https://www.yumpu.com/en/document/view/19077330/simulation-hadley-wickham">Hadley Wickham</a>, and <a href="https://www.tqmp.org/RegularArticles/vol09-2/p043/">Kevin Hallgren</a>, with contributions from <a href="https://github.com/worcjamessmith">James Smith</a>. This current work by Tejaswini Sharma, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY 4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.</p>
-<p>However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.</p>
+<p><strong>Speaker Notes</strong>: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission. However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -209,11 +204,11 @@ Tejaswini Sharma
 <section id="contribution-statement" class="slide level2">
 <h2>Contribution statement</h2>
 <p><br></p>
-<p><strong>Creator</strong>: Von Grebmer zu Wolfsthurn, Sarah (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"><a href="https://orcid.org/0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
-<p><strong>Reviewer</strong>: Ihle, Malika (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"><a href="https://orcid.org/0000-0002-3242-5981">0000-0002-3242-5981</a>)</p>
-<p><strong>Consultant</strong>: Middleton, Sara (<img data-src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID Logo"><a href="https://orcid.org/0000-0001-5307-8029">0000-0001-5307-8029</a>)</p>
+<p><strong>Creator</strong>: Sharma, Tejaswini (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"><a href="https://orcid.org/0009-0000-0305%209751">0009-0000-0305 9751</a>)</p>
+<p><strong>Reviewer</strong>: Von Grebmer zu Wolfsthurn, Sarah (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"><a href="https://orcid.org/0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
+<p><strong>Consultant</strong>: Ihle, Malika (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"><a href="https://orcid.org/0000-0002-3242-5981">0000-0002-3242-5981</a>)</p>
 <div style="font-size: 0.5em; color: red;">
-<p>Edit this slide when the rest is finished.</p>
+<p>For Wini: Add your ORCID here and the link to your orcid page</p>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: These are the <strong>speaker notes</strong>. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.</p>
@@ -257,18 +252,18 @@ Tejaswini Sharma
 </thead>
 <tbody>
 <tr class="odd">
-<td>Have R and RStudio installed</td>
+<td>R and RStudio installed</td>
 <td>If you don’t, follow these instructions:</td>
 <td><a href="https://posit.co/download/rstudio-desktop/">Download Link</a></td>
 </tr>
 <tr class="even">
-<td>Know some R basics</td>
+<td>R basics</td>
 <td>e.g.&nbsp;how to select a value in a data frame, how to create a vector</td>
 <td><a href="https://lmu-osc.github.io/introduction-to-R/">Tutorial Link</a></td>
 </tr>
 <tr class="odd">
 <td>Basic statistical concepts</td>
-<td>Like descriptive statistics, data analysis, statistical reasoning</td>
+<td>For example, descriptive statistics, data analysis, statistical reasoning</td>
 <td><a href="assets/Cheatsheet.pdf">Cheatsheet Link</a></td>
 </tr>
 </tbody>
