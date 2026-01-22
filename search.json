@@ -1718,7 +1718,7 @@
     "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#data-types---operations",
     "title": "Introduction to R: Part I",
     "section": "Data Types - Operations",
-    "text": "Data Types - Operations\nTwo numeric variables can be summed up:\n\n4 + 5 \n\n[1] 9\n\n\nA numeric and a character variable cannot be summed up:\n\n4 + \"five\"\n\nError in 4 + \"five\": non-numeric argument to binary operator"
+    "text": "Data Types - Operations\nTwo numeric variables can be summed up:\n\n4 + 5 \n\n[1] 9\n\n\nA numeric and a character variable cannot be summed up:\n\n4 + \"five\"\n\nError in `4 + \"five\"`:\n! non-numeric argument to binary operator"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html#r-scripts",
