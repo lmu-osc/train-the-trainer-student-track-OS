@@ -204,21 +204,7 @@ Elizabeth Waterfield
 </div>
 </div>
 
-  <p class="date">23/01/2026</p>
-</section>
-<section id="feedback-slide---please-delete-at-the-end" class="slide level2">
-<h2>Feedback Slide - please DELETE at the end</h2>
-<p>**********- Added to the cheatsheet the functions introduced in the homework activity (headings, themes, tables, columns, computed values)</p>
-</section>
-<section id="to-do-slide---please-delete-at-the-end" class="slide level2">
-<h2>TO DO slide - please DELETE at the end</h2>
-<ul>
-<li><p>solve this warning message (pops up in background jobs when rendering the slides): Warning message: In get_engine(options<span class="math inline">\(engine) :
-Unknown language engine 'text' (must be registered via knit_engines\)</span>set()). pandoc</p></li>
-<li><p>Somewhere before slide 19 and slide 32 there is an issue with a div ::: (warning message when rendering), can you find it an fix it? Could be a missing blank line after the ending ::: or a space after ::: at the end or something like this? Maybe separate those slides from the rest with the yaml and run section by section?</p></li>
-<li><p>Slide 53: you say that a reference list is automatically created at the end of the document - is this just for the visual editor mode? Else you need to specifically set the reference section… Beth: no for me it automatically creates when I test out the practical exercises in a separate quarto doc 😬</p></li>
-<li><p>Slide 69: for the quarto render part, did you want to add some troubleshooting aspects in the instructor notes? An idea of what could go wrong in your experience?</p></li>
-</ul>
+  <p class="date">26/01/2026</p>
 </section>
 <section id="licence" class="slide level2">
 <h2>Licence</h2>
@@ -624,7 +610,7 @@ Unknown language engine 'text' (must be registered via knit_engines\)</span>set(
 <li><p>The code chunks are the sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations.</p></li>
 <li><p>Then, the Quarto markdown text is the component that combines text, codes, and formatting to create the actual content of the document. These are different components within a Quarto document that are important for rendering.</p></li>
 </ul>
-<p><strong>Instructor Notes</strong>: Aim: Introduce key terms and definitions that students will come across throughout the session.</p>
+<p><strong>Instructor Notes</strong>: - Aim: Introduce key terms and definitions that students will come across throughout the session.</p>
 <ul>
 <li><p>This first part of the lesson is useful to establish an understanding of important vocabulary- it can be helpful to remind students of the meaning of these terms as they appear in the upcoming sections.</p></li>
 <li><p>Move within the framework of the conceptual change theory (the process whereby learners restructure their existing ideas or concepts to make sense of the new information presented to them). Examine existing concepts in relation to some key terms- taking the prior meanings students may have and relating it specifically to new meanings connected to Quarto. Re-examine formation of new concepts at the end of the lesson.</p></li>
@@ -702,8 +688,7 @@ Unknown language engine 'text' (must be registered via knit_engines\)</span>set(
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><em>Side A</em></p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>With **Quarto**, combine into *one single document*:</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>With **Quarto**, combine into *one single document*:</span>
 <span id="cb1-2"><a></a></span>
 <span id="cb1-3"><a></a>- text </span>
 <span id="cb1-4"><a></a>- media</span>
@@ -717,7 +702,6 @@ Unknown language engine 'text' (must be registered via knit_engines\)</span>set(
 <span id="cb1-12"><a></a></span>
 <span id="cb1-13"><a></a>mean(set2) - mean(set1)</span>
 <span id="cb1-14"><a></a>```</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
 </div><div class="column" style="width:50%;">
 <p><em>Side B</em></p>
 <p>With <strong>Quarto</strong>, combine into <em>one single document</em>:</p>
@@ -904,7 +888,7 @@ Unknown language engine 'text' (must be registered via knit_engines\)</span>set(
 <ul>
 <li>You can set some of the YAML header details here:</li>
 <li>→ Put in the <code>title</code> of your document</li>
-<li>→ Choose an <code>output format</code> (the default format is HTML) <br></li>
+<li>→ Choose an <code>output format</code> (the default format is HTML)</li>
 <li>→ Hit “<code>Create</code>”</li>
 </ul>
 </div></div>
@@ -1015,8 +999,10 @@ Unknown language engine 'text' (must be registered via knit_engines\)</span>set(
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Remember that the YAML Header goes at the top of the document in both Source and Visual Modes. In the YAML header, the “format” field tells Quarto what kind of output to create. Here we have set it to HTML, which means the document will render as a web page. You could choose other formats like PDF or Word, but for this lesson we will stick with HTML so everyone has the same experience. After it is the <code>code-fold: false</code> which makes all code is visible by default and <code>toc: true</code> to enable a table of contents for easier navigation.</p>
-<p><strong>Instructor Notes</strong>: There is a small clipboard icon at the top-right of the text box. Let students know they can simply click the icon to copy all the text in that specific text box. This icon will appear for every text box moving forward so you can remind them of it the next few times a task requires them to copy the content of a text box.</p>
-<p>In Practical exercise 1, the learners have already set up some of the items in the YAML header (the title, author, and format). So, the extra items (<code>code-fold: false</code> and <code>toc: true</code>) can either be added OR the section from the slide can simply be copied and pasted to replace the entire YAML section (Note: the “Author” would have to be manually changed here after pasting).</p>
+<p><strong>Instructor Notes</strong>: - There is a small clipboard icon at the top-right of the text box. Let students know they can simply click the icon to copy all the text in that specific text box. This icon will appear for every text box moving forward so you can remind them of it the next few times a task requires them to copy the content of a text box.</p>
+<ul>
+<li>In Practical exercise 1, the learners have already set up some of the items in the YAML header (the title, author, and format). So, the extra items (<code>code-fold: false</code> and <code>toc: true</code>) can either be added OR the section from the slide can simply be copied and pasted to replace the entire YAML section (Note: the “Author” would have to be manually changed here after pasting).</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1202,7 +1188,7 @@ Key steps include:</p>
 <section id="authoring-inserting-a-callout-box" class="slide level2">
 <h2>Authoring: Inserting a callout box</h2>
 <p>Here is the markdown text for inserting a <strong>callout note</strong> box:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>::: callout-note</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>::: callout-note</span>
 <span id="cb6-2"><a></a>## Based on Real Data</span>
 <span id="cb6-3"><a></a></span>
 <span id="cb6-4"><a></a>The ChickWeight dataset in R is based on real experimental data.</span>
@@ -1306,9 +1292,9 @@ Key steps include:</p>
 <section id="inserting-code-chunks" class="slide level2">
 <h2>Inserting code chunks</h2>
 <p><br></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a></a>summary(ChickWeight)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a></a>summary(ChickWeight)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><br></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb8-1"><a></a>library(ggplot2)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb8-1"><a></a>library(ggplot2)</span>
 <span id="cb8-2"><a></a>ggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +</span>
 <span id="cb8-3"><a></a>  geom_line(aes(group = Chick)) +</span>
 <span id="cb8-4"><a></a>  labs(title = "Chick Growth Over Time")</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -1639,7 +1625,7 @@ Key steps include:</p>
 <li><label><input type="checkbox">Copy and paste the markdown text below to insert an image with a caption (edit path if needed):</label></li>
 </ul>
 <p><br></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a></a>![No chicks were harmed in the making of this website.](images/05_Chick_Pic.png)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a></a>![No chicks were harmed in the making of this website.](images/05_Chick_Pic.png)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: For this task, click the link and the image will automatically download. The text inside the square brackets is the caption, and the text inside the parentheses is the path to the image file. Reminder that the path tells Quarto where to look for the image on your deivce. If your image is saved directly in the same folder as your .qmd file, you only need the file name. If it’s in a subfolder, include the folder name in the path.</p>
 <p><strong>Instructor Notes</strong>: The aims are to reinforce how to add images, insert captions, and how paths work. Setting the path can be tricky depending on where the files are located. It’s a good practice to save these files in the same main folder as your Quarto document files (ideally in a dedicated subfolder named “images” to keep paths organized and easy to manage). If students saved and placed their main folder earlier, then locating it should be easy. In the Task above, the text says “images/chickpic1.png” - this assumes the picture is saved in a folder called “images” in a main folder containing all the Quarto document files.</p>
@@ -1747,7 +1733,7 @@ Key steps include:</p>
 <li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819">Follow this link to an article on diets and broiler chicks</a></label></li>
 <li><label><input type="checkbox">Add the citation to your Zotero Library</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb11-1"><a></a>Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb11-1"><a></a>Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy the text above</label></li>
 <li><label><input type="checkbox">In <strong>RStudio</strong>, paste it into the Quarto docuement and place the cursor at the end of the sentence. This where in the sentence you want to place the citation.</label></li>
@@ -1809,7 +1795,7 @@ Key steps include:</p>
 <li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153859#:~:text=In%20conclusion%2C%20HDND%20improved%20the,diet%20adversely%20affected%20bone%20mineralization.">Follow this link to another article on diets and broiler chicks</a></label></li>
 <li><label><input type="checkbox">Add the citation to your Zotero library</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb13-1"><a></a> found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb13-1"><a></a> found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy the text above</label></li>
 <li><label><input type="checkbox">In <strong>RStudio</strong>, paste the text then place your cursor at the beginning of the sentence</label></li>
@@ -2095,7 +2081,7 @@ Key steps include:</p>
 </ul>
 <p>Here is an example of setting the directory using <code>cd</code>: <img data-src="images/14_Terminal_cd_Command.png" style="width:50.0%" alt="Screenshot of the Terminal with the 'cd' command setting the directory to 'Quarto'."></p>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: In this exercise, we are preparing our Quarto document so it can be published on GitHub Pages. First, edit the YAML header of your Quarto document to define it as a website project and set the output to the docs folder. This tells Quarto where to place the rendered files that GitHub Pages will serve. Next, set up your terminal in RStudio to use Git Bash by following the steps in the previous slide. From this new Git-compatible Terminal, use the <code>cd</code> command to change the directory to the main folder where your Quarto files are stored. This step makes sure any Git commands you run apply to the right project folder.</p>
+<p><strong>Speaker Notes</strong>: In this exercise, we are preparing our Quarto document for it to be published on GitHub Pages. First, edit the YAML header of your Quarto document to define it as a ‘website project’ and set the output to the ‘docs’ folder. This tells Quarto where to place the rendered files that GitHub Pages will serve. If necessary, set up your terminal in RStudio to use Git Bash by following the steps in the previous slide (Windows users). From this new Git-compatible Terminal, use the <code>cd</code> command to change the directory to the main folder where your Quarto files are stored. This step makes sure any Git commands you run are applied in the right project folder.</p>
 <p><strong>Instructor Notes</strong>: The new YAML header will look like this:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb15-1"><a></a><span class="pp">---</span></span>
 <span id="cb15-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"ChickWeight Analysis"</span></span>
@@ -2112,10 +2098,10 @@ Key steps include:</p>
 <span id="cb15-13"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Some level of Git and Git Hub knowledge is assumed but here are some common issues that the students can run into:</p>
 <ul>
-<li>Problems with copying and pasting- copying and pasting with keyboard shortcuts do not work the same in the Terminal. Right-clicking and selecting “Paste” is an easy option.</li>
-<li>Setting the directory can be tricky. Backslashes (<code>\</code>) need to be changed to forward slashes (<code>/</code>); If you are pasting the exact path of the folder, wrap it in quotation marks (<code>"..."</code>); An easy way to change the directory is by typing <code>cd</code> then clicking and dragging the folder directly into the Terminal- this puts the folder path after the <code>cd</code> <br></li>
-<li>Sometimes in the Terminal, just copying and pasting will run the command, but you often need to hit “Enter”.</li>
+<li>A note on copying and pasting: copying and pasting with keyboard shortcuts do not work the same in the Terminal. Right-clicking and selecting “Paste” is an easy option.</li>
 </ul>
+<p>Setting the directory can be tricky - Backslashes (<code>\</code>) need to be changed to forward slashes (<code>/</code>) - If you are pasting the exact path of the folder, wrap it in quotation marks (<code>"..."</code>); An easy way to change the directory is by typing <code>cd</code> then clicking and dragging the folder directly into the Terminal- this puts the folder path after the <code>cd</code></p>
+<p>Sometimes in the Terminal, just copying and pasting will run the command, but you often need to hit “Enter”.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2133,13 +2119,13 @@ Key steps include:</p>
 <ul class="task-list">
 <li><label><input type="checkbox">Make a simple <code>_quarto.yml</code> file by copying and pasting the following in the Terminal:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb16-1"><a></a>echo "project:</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb16-1"><a></a>echo "project:</span>
 <span id="cb16-2"><a></a>  type: website</span>
 <span id="cb16-3"><a></a>  output-dir: docs" &gt; _quarto.yml</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the following into the Terminal to add a <code>.nojekyll</code> file:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb17-1"><a></a>touch .nojekyll</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb17-1"><a></a>touch .nojekyll</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -2172,15 +2158,16 @@ Key steps include:</p>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the following into Terminal to generate HTML in the <code>docs/</code> folder:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb18-1"><a></a>quarto render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb18-1"><a></a>quarto render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and paste the following into Terminal- this initializes Git and renames “master” to “main”:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb19-1"><a></a>git init</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb19-1"><a></a>git init</span>
 <span id="cb19-2"><a></a>git branch -M main  </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Running <code>quarto render</code> in the Terminal takes your Quarto project and produces the HTML files in the docs folder. These are the files GitHub Pages will serve as your website. Next, we need to initialize Git in the project folder so we can connect it to GitHub. The command <code>git init</code> sets up Git tracking, and <code>git branch -M main</code> renames the default branch from “master” to “main,” which is the standard branch name used in this session.</p>
-<p><strong>Instructor Notes</strong>: You will see a warning about “<code>references.bib not found in resource path</code>” which usually happens because Quarto looks for the file in the project’s root or resource path, but the Terminal is case-sensitive and strict with paths. So, you will see in your completed Git Pages web page that the citations look strange, but we will leave it like that for now. Extra steps are needed to correct this that will not be covered in this lesson but can be explored further independently.</p>
+<p><strong>Instructor Notes</strong>: Running <code>quarto render</code> here does not open or preview your website- It is building the website by generating HTML files and placing them in the docs/ folder.</p>
+<p>You may see a warning about “<code>references.bib not found in resource path</code>” which usually happens because Quarto looks for the file in the project’s root or resource path, but the Terminal is case-sensitive and strict with paths. So, you will see in your completed Git Pages web page that the citations look strange, but we will leave it like that for now. Extra steps are needed to correct this that will not be covered in this lesson but can be explored further independently.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2200,7 +2187,7 @@ Key steps include:</p>
 <li><label><input type="checkbox">In the Terminal, connect to a local project by using “<code>git remote add origin</code>” followed by the repo’s HTTPS URL (for example, “<code>git remote add origin https://github.com/yourname/chickweight-exercise.git</code>”)</label></li>
 <li><label><input type="checkbox">Copy and paste the following into Terminal to render your site and push it to GitHub:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb20-1"><a></a>quarto render</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb20-1"><a></a>quarto render</span>
 <span id="cb20-2"><a></a>git add docs</span>
 <span id="cb20-3"><a></a>git commit -m "Publish site to docs/"</span>
 <span id="cb20-4"><a></a>git push -u origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -2210,7 +2197,7 @@ Key steps include:</p>
 </ul>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Now to put everything together. We need to create a new, public repository on GitHub which is where our project files will be held. Then, we connect our local project to GitHub using <code>git remote add origin</code> followed by the repository’s HTTPS link (found on the GitHub website). This tells Git where to send the files when we push them with <code>git push -u origin main</code>. Then, go to the settings in your newly created repository and click “Pages” to configure GitHub Pages.</p>
-<p><strong>Instructor Notes</strong>: For this to work, it’s important that the repository created is set to Public.</p>
+<p><strong>Instructor Notes</strong>: For this to work, it is important that the repository created is set to ‘Public’.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2283,7 +2270,10 @@ Key steps include:</p>
 </div>
 <aside class="notes">
 <p><strong>Speaker Note</strong>: Here are some of the key things covered in the lesson that give a general overview of Quarto and what it contains. Quarto is more than just a tool to write documents, it’s designed to bring together text, code, and media in one .qmd file that ensures transparency and reproducibility. It makes writing cleaner and more efficient without the need for complex styling tools. Zotero integration streamlines citation management and bibliography building, which is essential for academic and research writing. Quarto enables sharing work through platforms like Quarto Pub or GitHub Pages, which makes research accessible and reproducible. <br> - For quick reference, a downloadable cheatsheet is provided with this lesson. It offers beginner-friendly instructions summarizing the key terms, features, and functions of Quarto.</p>
-<p><strong>Instructor Note</strong>: The idea of this slide is to give a recap of important elements about Quarto covered in the lesson, things you can do to edit the Quarto document, and then how to make it shareable. <br> - A downloadable cheatsheet is included for students to have a summary of information and features that were covered in this session.</p>
+<p><strong>Instructor Note</strong>: The idea of this slide is to give a recap of important elements about Quarto covered in the lesson, things you can do to edit the Quarto document, and then how to make it shareable.</p>
+<ul>
+<li>A downloadable cheatsheet is included for students to have a summary of information and features that were covered in this session.</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2328,7 +2318,7 @@ Key steps include:</p>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Think about the question on the slide and either answer it or use it to share a one-sentence take-home message.</p>
-<p><strong>Instructor Notes</strong>: Aim: End lesson on clear take-home message that are interactively compiled by students. <br> - You can collect them verbally or in a shared doc/board. <br> - If you choose to contribute to the discussion, reinforce that Quarto is not just a tool, but a mindset shift toward openness and collaboration.</p>
+<p><strong>Instructor Notes</strong>: - Aim: End lesson on clear take-home message that are interactively compiled by students. - You can collect them verbally or in a shared doc/board. - If you choose to contribute to the discussion, reinforce that Quarto is not just a tool, but a mindset shift toward openness and collaboration.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2355,7 +2345,12 @@ Key steps include:</p>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: This homework activity builds on the document created during this lesson to add more to the content and layout. It contains activities that take what we practiced today one step further. Each item builds on the knowledge and exercises that were covered in this session.</p>
-<p><strong>Instructor Note</strong>: Aim- to reinforce what was learned in this session and to have an opportunity to apply the knowledge in a more challenging way. Use this homework sheet as it is or use it as an example to create your own based on the needs of the class or the specific requirements for future lessons. Consider the following: <br> - Examine whether/how it will be assessed <br> - Mention scoring rubrics, if applicable <br> - Design a peer-review system for assignments to place students in role of reviewer and author</p>
+<p><strong>Instructor Note</strong>: - Aim- to reinforce what was learned in this session and to have an opportunity to apply the knowledge in a more challenging way. Use this homework sheet as it is or use it as an example to create your own based on the needs of the class or the specific requirements for future lessons. Consider the following:</p>
+<ul>
+<li><p>Examine whether/how it will be assessed</p></li>
+<li><p>Mention scoring rubrics, if applicable</p></li>
+<li><p>Design a peer-review system for assignments to place students in role of reviewer and author</p></li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

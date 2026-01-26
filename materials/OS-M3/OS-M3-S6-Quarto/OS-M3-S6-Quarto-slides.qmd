@@ -22,22 +22,6 @@ execute:
   engine: knitr
 ---
 
-
-## TO DO slide - please DELETE at the end
-
-- Slide 53: you say that a reference list is automatically created at the end of the document - is this just for the visual editor mode? Else you need to specifically set the reference section... Beth: no for me it automatically creates when I test out the practical exercises in a separate quarto doc 😬
-
-- solve this warning message (pops up in background jobs when rendering the slides): Warning message:
-In get_engine(options$engine) :
-  Unknown language engine 'text' (must be registered via knit_engines$set()).
-pandoc 
-
-- Somewhere before slide 19 and slide 32 there is an issue with a div ::: (warning message when rendering), can you find it an fix it? Could be a missing blank line after the ending ::: or a space after ::: at the end or something like this? Maybe separate those slides from the rest with the yaml and run section by section?
-
-- Add to the cheatsheet the functions introduced in the homework activity (headings, themes, tables, columns, computed values)
-
----
-
 ## Licence
 
 <br>
@@ -383,7 +367,7 @@ Which side is easier to read?
 ::: {.column width="50%"}
 *Side A*
 
-`````{text}
+`````{.textbox}
 With **Quarto**, combine into *one single document*:
 
 - text 
@@ -520,6 +504,7 @@ These are the steps to **create a Quarto Document** in RStudio:
 :::::: columns
 ::: column
 ![](images/02_Quarto_Setup.png){fig-alt="An image of the drop-down menu in RStudio's File tab highlighting the 'New File' option and then the selection of the 'Quarto Document' option."}
+
 :::
 ::: column
 -   Select "`File`"\
@@ -545,6 +530,7 @@ These are the steps to **create a Quarto Document** in RStudio:
 :::::: columns
 ::: column
 ![](images/03_Quarto_Setup.png){fig-alt="This image shows the setup screen when creating a New Quarto Document for actions such as setting the title, author, and output format."}
+
 :::
 ::: column
 
@@ -619,6 +605,7 @@ format:
     toc: true
 ---
 ```
+
 ::: callout-note
 ## Output format
 
@@ -757,7 +744,7 @@ This is an example of a callout box to include additional information or context
 
 Here is the markdown text for inserting a **callout note** box:
 
-```text
+```{.textbox}
 ::: callout-note
 ## Based on Real Data
 
@@ -848,13 +835,13 @@ The ChickWeight dataset in R is based on real experimental data.
 
 <br>
 
-```text
+```{.textbox}
 summary(ChickWeight)
 ```
 
 <br>
 
-```text
+```{.textbox}
 library(ggplot2)
 ggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +
   geom_line(aes(group = Chick)) +
@@ -896,6 +883,7 @@ Adjust how the code is portrayed by **editing the YAML header**:
 ::: {style="flex: 1;"}
 
 ![](images/04_Code_Display.png){fig-alt="A screenshot of a summary table displaying the weight, time, and diet information for chicks. Below the table is a line graph with multiple colorful lines. Red rectangles highlight the R code for both the summary table and graph."}
+
 :::
 ::: {style="flex: 1;"}
 
@@ -1101,7 +1089,7 @@ You can even add a link to an image so that when you click anywhere on the image
 
 <br>
 
-```text
+```{.textbox}
 ![No chicks were harmed in the making of this website.](images/05_Chick_Pic.png)
 ```
 
@@ -1167,6 +1155,7 @@ What you will notice:
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 0.5;"}
 ![](images/08_Zotero_Library.png){fig-alt="A screenshot of the dropdown menu under 'Insert' with a red rectangle around the 'Zotero/My Library' option."}
+
 :::
 ::: {style="flex: 1;"}
 - You can select citations straight from the folders in your **Zotero library**
@@ -1192,7 +1181,7 @@ Let's practice adding a citation using **Zotero**.
 - [ ] [Follow this link to an article on diets and broiler chicks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819) 
 - [ ] Add the citation to your Zotero Library
 
-```text
+```{.textbox}
 Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more 
 ```
 
@@ -1222,6 +1211,7 @@ format:
 bibliography: references.bib
 ---
 ```
+
 :::
 
 ---
@@ -1247,7 +1237,7 @@ Now, let's practice adding **in-text** citations!
 - [ ] [Follow this link to another article on diets and broiler chicks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153859#:~:text=In%20conclusion%2C%20HDND%20improved%20the,diet%20adversely%20affected%20bone%20mineralization.) 
 - [ ] Add the citation to your Zotero library
 
-```text
+```{.textbox}
  found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.
 ```
 - [ ] Copy the text above 
@@ -1289,6 +1279,7 @@ In your output, you should now have:
 :::
 ::: column
 ![](images/11_Zotero_Review.png){fig-alt="A screenshot showing two sentences about chick body weight including citations and a bibliography below."}
+
 :::
 ::::::
 
@@ -1428,9 +1419,11 @@ Work directly from the **Terminal** in RStudio.
 :::::: columns
 ::: column
 ![](images/12_GitBash_Terminal.png){fig-alt="The 'Terminal Options...' selection is highlighted with a red rectangle under the options in Terminal within RStudio."}
+
 :::
 ::: column
 ![](images/13_GitBash_Terminal.png){fig-alt="A screenshot displaying the 'Git Bash' option being selected from the dropdown menu under 'New terminals open with:'."}
+
 :::
 ::::::
 
@@ -1458,6 +1451,7 @@ project:
 
 Here is an example of setting the directory using `cd`: 
 ![](images/14_Terminal_cd_Command.png){width="50%" fig-alt="Screenshot of the Terminal with the 'cd' command setting the directory to 'Quarto'."}
+
 
 ::: {.notes}
 **Speaker Notes**: In this exercise, we are preparing our Quarto document for it to be published on GitHub Pages. First, edit the YAML header of your Quarto document to define it as a 'website project' and set the output to the 'docs' folder. This tells Quarto where to place the rendered files that GitHub Pages will serve. If necessary, set up your terminal in RStudio to use Git Bash by following the steps in the previous slide (Windows users). From this new Git-compatible Terminal, use the `cd` command to change the directory to the main folder where your Quarto files are stored. This step makes sure any Git commands you run are applied in the right project folder. 
@@ -1498,14 +1492,14 @@ Sometimes in the Terminal, just copying and pasting will run the command, but yo
 
 - [ ] Make a simple `_quarto.yml` file by copying and pasting the following in the Terminal:
 
-```text
+```{.textbox}
 echo "project:
   type: website
   output-dir: docs" > _quarto.yml
 ```
 - [ ] Copy and paste the following into the Terminal to add a `.nojekyll` file:
 
-```text
+```{.textbox}
 touch .nojekyll
 ```
 
@@ -1525,12 +1519,12 @@ Adding a `.nojekyll` file to the root of your repository tells GitHub Pages not 
 
 - [ ] Copy and paste the following into Terminal to generate HTML in the `docs/` folder:
 
-```text
+```{.textbox}
 quarto render
 ```
 - [ ] Copy and paste the following into Terminal- this initializes Git and renames "master" to "main":
 
-```text
+```{.textbox}
 git init
 git branch -M main  
 ```
@@ -1551,7 +1545,7 @@ You may see a warning about "`references.bib not found in resource path`" which 
 - [ ] In the Terminal, connect to a local project by using "`git remote add origin`" followed by the repo's HTTPS URL (for example, "`git remote add origin https://github.com/yourname/chickweight-exercise.git`")
 - [ ] Copy and paste the following into Terminal to render your site and push it to GitHub:
 
-```text
+```{.textbox}
 quarto render
 git add docs
 git commit -m "Publish site to docs/"
@@ -1579,6 +1573,7 @@ git push -u origin main
 :::
 ::: {style="flex: .65;"}
 ![](images/15_GitPages_Settings.png){fig-alt="A screenshot of the settings on a GitHub repository where the action of changing 'None' to 'main' branch is highlighted with red rectangles."}
+
 :::
 ::::::
 
@@ -1589,6 +1584,7 @@ git push -u origin main
 :::
 ::: {style="flex: .65;"}
 ![](images/16_GitPages_Settings.png){fig-alt="A screenshot of the settings on a GitHub repository where the action of changing '/root' to '/docs' is highlighted with red rectangles."}
+
 :::
 ::::::
 
