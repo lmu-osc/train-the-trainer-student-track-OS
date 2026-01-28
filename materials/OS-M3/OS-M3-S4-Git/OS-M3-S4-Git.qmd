@@ -1,0 +1,98 @@
+---
+title: "3.4. Introduction to version control with Git in RStudio"
+---
+
+> Something nice here
+
+# About these materials
+
+**Welcome!** This workshops is intended to provide learners with a deeper understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps  and decision making process. We will also learn how to use tools to facilitate collaboration across different groups and people. 
+
+
+### Who are these materials for?
+
+The target audience of this workshop is twofold:
+
+- **Self-learners** with no prior experience with version control, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Speakers notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
+
+- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with speaker and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
+
+
+
+## Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| Laptop/PC with internet access | Admin rights for download/install | - |
+| R and RStudio installed | Latest versions of both R and RStudio |  [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/) |
+| Basic R skills | 3.2 Introduction to R - Part I | LINK |
+| Advanced R skills | 3.3 Introduction to R - Part II | LINK |
+| GitHub account | Free account for GitHub | Join at [https://github.com/join](https://github.com/join) |
+</div>
+
+
+## Learning objectives
+
+- **Understand** the problem(s) that can be solved by version control
+- **Install** and **configure** Git 
+- **Set up** the connection between your computer and GitHub
+- **Create** an RStudio Project under version control for a reproducible workflow
+- **Make** changes within RStudio and **commit** changes locally
+- **Connect** local and remote repositories for your work
+
+
+# Materials
+
+[Click here to see the materials in full Screen](OS-M3-S4-Git-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="OS-M3-S4-Git-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
+## Download files
+
+### Practical exercises - solutions
+
+Download the solutions for the practical exercises here: 
+
+{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
+
+### Helpfiles
+
+Download the csv file for the example data: 
+
+{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
+
+ <!-- https://github.com/shafayetShafee/downloadthis -->
+<!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
+
+# Export slides
+
+You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
+
+{{< downloadthis OS-M3-S4-Git-slides.pptx dname="OS-M3-S4-Git-slides" label="Download slides as PPTX">}}
+
+ <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
+ 
+# Contributors and licence details
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Reviewer**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+**Consultant**: Edelsbrunner, Peter (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
+
+
+<br>
+
+<p style="text-align:center;">
+  <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
+This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This licence permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
+</div>
