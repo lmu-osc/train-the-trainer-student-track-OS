@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#feedback-slide---please-delete-at-the-end",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#feedback-slide---please-delete-at-the-end",
-    "title": "Introduction to literate programming with Quarto",
-    "section": "Feedback Slide - please DELETE at the end",
-    "text": "Feedback Slide - please DELETE at the end\n**********- Added to the cheatsheet the functions introduced in the homework activity (headings, themes, tables, columns, computed values)"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#changes-made-svg",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#changes-made-svg",
-    "title": "Introduction to literate programming with Quarto",
-    "section": "Changes made SvG",
-    "text": "Changes made SvG\n\nUpdated licence and orcid icons - Pat said there were issues with rendering them in pdf, also changed this in the template\nAdded incremental transitions for slides with many bullet points for readability\n\n** TO DO:**\nfinalise the survey slides\nsolve this warning message (pops up in background jobs when rendering the slides): Warning message: In get_engine(options\\(engine) :\nUnknown language engine 'text' (must be registered via knit_engines\\)set()). pandoc\nProvide reference for conceptual change theory and add to the instructor notes. Also briefly in once sentence give the context of this theory and why it is useful when examining the key terms and definitions.\nSlide 22: When you get to creating and setting up the Quarto Document, can you add if you want the learner to accept the YAML defaults in the interface and change the YAML in the doc later of if you want the learner to already input a title and author in the interface prior?\nSldie 25: Add explanation to speaker notes about format: html: code-fold: false toc: true when you talk about exercise 2\nSomewhere before slide 19 and slide 32 there is an issue with a div ::: (warning message when rendering), can you find it an fix it? Could be a missing blank line after the ending ::: or a space after ::: at the end or something like this? Maybe separate those slides from the rest with the yaml and run section by section?\nSlide 37: provide the solutions to Exercise 6 in the instructor notes or separately?\nSlide 38: insert a recap slide with the green ticks at the end to show people the process in terms of learning gooals?\nSlide 42: complete the slide\nslide 52: add screenshot with solution for the yaml header, since it is so sensitive to indents etc. Or add the solution for the instructors only?\nSlide 53: you say that a reference list is automatically created at the end of the document - is this just for the visual editor mode? Else you need to specifically set the reference section with ::: etc right?\nSlide 60: add what Quarto pub is to instructor notes\nSlide 69: for the quarto render part, did you want to add some troubleshooting aspects in the instructor notes? An idea of what could go wrong in your experience?\nHomework assignment and cheatsheet: use the latest OSC-FORRT logo where the two logos are the same size next to each other (like in the slides)"
-  },
-  {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#licence",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#licence",
     "title": "Introduction to literate programming with Quarto",
@@ -252,11 +238,18 @@
     "text": "Practical exercise 6\nIn the YAML header, under the html section:\n\nChange code-fold: false to code-fold: true\nAdd code-tools: true\n\n\nSpeaker Notes: Currently in our YAML header, we have it set to code-fold: false. This means the code is visible and not collapsible, but we can change that. Find it in the YAML under html and simply replace the word “false” with “true.” Then, add a new code setting by inserting “code-tools: true” right under it.\nInstructor Notes: Engage students by asking for possible reasons why one would want their code to be visible or not (optional).\nSolution: The new YAML header should look like this:\n---\ntitle: \"ChickWeight Analysis\"\nauthor: \"Your Name\"\nformat:\n  html:\n    code-fold: true\n    code-tools: true\n    toc: true\n---\nIt does not matter the order in which the new additions are placed once they are under the html."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pre-break-survey",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pre-break-survey",
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#what-have-we-learned-so-far",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#what-have-we-learned-so-far",
     "title": "Introduction to literate programming with Quarto",
-    "section": "Pre-break survey",
-    "text": "Pre-break survey\nClick on the following link or scan the QR code to review some items covered in this lesson so far: Quarto Survey\n\n\n\n\n\n\n\nPre-break survey\n\n\nPlease complete survey labeled “…”.\n\n\n\n\nSpeaker Notes: Before the break, let’s take a moment to review the things we covered in the first part of this lesson. This survey has a few simple recap questions about what we’ve learned so far about using Quarto. The goal isn’t to test you, but to help you reflect on what you’ve learned and for me to see if anything needs a bit more clarification.\nInstructor Notes: Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule  - Use free survey software such as or other survey software (Menti, particify, formR) to establish the following questions. It’s important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson."
+    "section": "What have we learned so far?",
+    "text": "What have we learned so far?\nHere’s a quick recap of what we have learned in this lesson so far:\n✅Create a new Quarto Document in RStudio\n✅Edit and render the Quarto Document as a website\n✅Use key Quarto features like code chunks, YAML headers, and output formatting"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pre-break-quiz",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pre-break-quiz",
+    "title": "Introduction to literate programming with Quarto",
+    "section": "Pre-break quiz",
+    "text": "Pre-break quiz\nClick on the following link or scan the QR code to review some items covered in this lesson so far: Quarto Survey\n\n\n\n\n\n\n\nPre-break quiz\n\n\nPlease complete quiz labeled “OS-M3-S6-Quarto_prebreak_quiz”.\n\n\n\n\nSpeaker Notes: Before the break, let’s take a moment to review the things we covered in the first part of this lesson. This survey has a few simple recap questions about what we’ve learned so far about using Quarto. The goal isn’t to test you, but to help you reflect on what you’ve learned and for me to see if anything needs a bit more clarification.\nInstructor Notes: Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule  - Use free survey software such as or other survey software (Menti, particify, formR) to establish the following questions. It’s important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#post-break-survey-discussion",
@@ -462,11 +455,11 @@
     "text": "Assignment\nAfter learning about Quarto in today’s lesson, use this homework assignment to:\n\nPractice your Quarto skills\nExplore what more can be added to your documents\nBuild confidence in editing YAML header, adding code chunks, and customizing the layout\n\n\n Download the Quarto Activity Sheet \n\n\nSpeaker Notes: This homework activity builds on the document created during this lesson to add more to the content and layout. It contains activities that take what we practiced today one step further. Each item builds on the knowledge and exercises that were covered in this session.\nInstructor Note: - Aim- to reinforce what was learned in this session and to have an opportunity to apply the knowledge in a more challenging way. Use this activity sheet for a homework assignment as it is or use it as an example to create your own based on the needs of the class or the specific requirements for future lessons. Consider the following:\n\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author"
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-conclude-survey-time",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-conclude-survey-time",
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-conclude-surveyquiz-time",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-conclude-surveyquiz-time",
     "title": "Introduction to literate programming with Quarto",
-    "section": "To conclude: Survey time!",
-    "text": "To conclude: Survey time!\nLet’s end this sesson with a short survey on topics covered in this lesson.\nClick on the following link or scan the QR code to do one final review of this lesson: Quarto Survey\n\n\n\n\n\n\n\nPre-break survey\n\n\nPlease complete survey labeled “…”.\n\n\n\n\nSpeaker Notes: To end this lesson, let’s use this survey to see where we stand in our knowledge of Quarto and what we can focus on more moving forward to become more proficient in literate programming with it.\nInstructor Notes Aim- This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.  - Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):"
+    "section": "To conclude: Survey/Quiz time!",
+    "text": "To conclude: Survey/Quiz time!\nLet’s end this session with a short quiz on topics covered in this lesson.\nClick on the following link or scan the QR code to do one final review of this lesson: Quarto Survey\n\n\n\n\n\n\n\nFinishing quiz\n\n\nPlease complete survey labeled “OS-M3-S6-Quarto_finishing_quiz”.\n\n\n\n\nSpeaker Notes: To end this lesson, let’s use this survey to see where we stand in our knowledge of Quarto and what we can focus on more moving forward to become more proficient in literate programming with it.\nInstructor Notes Aim- This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.  - Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#discussion-of-survey-results-1",
@@ -497,52 +490,10 @@
     "text": "Additional literature for instructors\n\nReferences for content\n\nhttps://quarto.org/docs/guide/\n\nReferences for pedagogical add-on tools\n\nhttps://quarto.org/docs/presentations/\nBloom’s Taxonomy\nInformation on conceptual change theory\n\nOther resources\n\nVideo on crafting presentations with R and Quarto"
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#credit-contribution-statement",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#credit-contribution-statement",
-    "title": "Introduction to literate programming with Quarto",
-    "section": "CREDiT Contribution Statement",
-    "text": "CREDiT Contribution Statement\nElizabeth Waterfield: Conceptualization, Software, Writing - Original Draft, Visualization. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Project Administration, Validation. Malika Ihle: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
-  },
-  {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#credit-contribution-statement---to-do",
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#credit-contribution-statement---to-do",
     "title": "Introduction to literate programming with Quarto",
     "section": "CREDiT Contribution Statement - TO DO",
     "text": "CREDiT Contribution Statement - TO DO\nElizabeth Waterfield: Conceptualization, Software, Writing - Original Draft, Visualization. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Project Administration, Validation. Malika Ihle: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-do",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-do",
-    "title": "Introduction to literate programming with Quarto",
-    "section": "TO DO",
-    "text": "TO DO\n\nfinalise the survey slides\nsolve this warning message (pops up in background jobs when rendering the slides): Warning message: In get_engine(options\\(engine) :\nUnknown language engine 'text' (must be registered via knit_engines\\)set()). pandoc\nProvide reference for conceptual change theory and add to the instructor notes. Also briefly in once sentence give the context of this theory and why it is useful when examining the key terms and definitions.\nSlide 22: When you get to creating and setting up the Quarto Document, can you add if you want the learner to accept the YAML defaults in the interface and change the YAML in the doc later of if you want the learner to already input a title and author in the interface prior?\nSldie 25: Add explanation to speaker notes about format: html: code-fold: false toc: true when you talk about exercise 2\nSomewhere before slide 19 and slide 32 there is an issue with a div ::: (warning message when rendering), can you find it an fix it? Could be a missing blank line after the ending ::: or a space after ::: at the end or something like this? Maybe separate those slides from the rest with the yaml and run section by section?\nSlide 37: provide the solutions to Exercise 6 in the instructor notes or separately?\nSlide 38: insert a recap slide with the green ticks at the end to show people the process in terms of learning gooals?\nSlide 42: complete the slide\nslide 52: add screenshot with solution for the yaml header, since it is so sensitive to indents etc. Or add the solution for the instructors only?\nSlide 53: you say that a reference list is automatically created at the end of the document - is this just for the visual editor mode? Else you need to specifically set the reference section with ::: etc right?\nSlide 60: add what Quarto pub is to instructor notes\nSlide 69: for the quarto render part, did you want to add some troubleshooting aspects in the instructor notes? An idea of what could go wrong in your experience?\nHomework assignment and cheatsheet: use the latest OSC-FORRT logo where the two logos are the same size next to each other (like in the slides)"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-do-slide---please-delete-at-the-end",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-do-slide---please-delete-at-the-end",
-    "title": "Introduction to literate programming with Quarto",
-    "section": "TO DO slide - please DELETE at the end",
-    "text": "TO DO slide - please DELETE at the end\n\nSlide 53: you say that a reference list is automatically created at the end of the document - is this just for the visual editor mode? Else you need to specifically set the reference section… Beth: no for me it automatically creates when I test out the practical exercises in a separate quarto doc 😬\nsolve this warning message (pops up in background jobs when rendering the slides): Warning message: In get_engine(options\\(engine) :\nUnknown language engine 'text' (must be registered via knit_engines\\)set()). pandoc\nSomewhere before slide 19 and slide 32 there is an issue with a div ::: (warning message when rendering), can you find it an fix it? Could be a missing blank line after the ending ::: or a space after ::: at the end or something like this? Maybe separate those slides from the rest with the yaml and run section by section?\nAdd to the cheatsheet the functions introduced in the homework activity (headings, themes, tables, columns, computed values)"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pre-break-quiz",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#pre-break-quiz",
-    "title": "Introduction to literate programming with Quarto",
-    "section": "Pre-break quiz",
-    "text": "Pre-break quiz\nClick on the following link or scan the QR code to review some items covered in this lesson so far: Quarto Survey\n\n\n\n\n\n\n\nPre-break quiz\n\n\nPlease complete quiz labeled “OS-M3-S6-Quarto_prebreak_quiz”.\n\n\n\n\nSpeaker Notes: Before the break, let’s take a moment to review the things we covered in the first part of this lesson. This survey has a few simple recap questions about what we’ve learned so far about using Quarto. The goal isn’t to test you, but to help you reflect on what you’ve learned and for me to see if anything needs a bit more clarification.\nInstructor Notes: Aim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule  - Use free survey software such as or other survey software (Menti, particify, formR) to establish the following questions. It’s important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson."
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-conclude-surveyquiz-time",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#to-conclude-surveyquiz-time",
-    "title": "Introduction to literate programming with Quarto",
-    "section": "To conclude: Survey/Quiz time!",
-    "text": "To conclude: Survey/Quiz time!\nLet’s end this session with a short quiz on topics covered in this lesson.\nClick on the following link or scan the QR code to do one final review of this lesson: Quarto Survey\n\n\n\n\n\n\n\nFinishing quiz\n\n\nPlease complete survey labeled “OS-M3-S6-Quarto_finishing_quiz”.\n\n\n\n\nSpeaker Notes: To end this lesson, let’s use this survey to see where we stand in our knowledge of Quarto and what we can focus on more moving forward to become more proficient in literate programming with it.\nInstructor Notes Aim- This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.  - Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#what-have-we-learned-so-far",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html#what-have-we-learned-so-far",
-    "title": "Introduction to literate programming with Quarto",
-    "section": "What have we learned so far?",
-    "text": "What have we learned so far?\nHere’s a quick recap of what we have learned in this lesson so far:\n✅Create a new Quarto Document in RStudio\n✅Edit and render the Quarto Document as a website\n✅Use key Quarto features like code chunks, YAML headers, and output formatting"
   }
 ]
