@@ -27,13 +27,13 @@ execute:
 <br>
 
 <p style="text-align:center;">
-  <img src="images/cc-by-licence-icon.png" 
+  <img src="images/cc-by-sa.png" 
   alt="Creative Commons Attribution 4.0"
   style="width:160px;" />
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence](https://opensource.org/license/mit) (original repository). It was subsequently adapted by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of [Adam Kenny](https://github.com/Kennyanthro). The overview image is from [Dumitru Uzun](https://duzun.me/tips/git). The exercice is based on the research of [Jen Bright](https://x.com/MorphobeakGeek) who also kindly provided the gifs used in the exercice. It is now maintained by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895) at the [LMU Open Science Center](https://www.osc.uni-muenchen.de/index.html).  This current work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA-4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
+This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence](https://opensource.org/license/mit) (original repository). It was subsequently adapted by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of [Adam Kenny](https://github.com/Kennyanthro). The overview image is from [Dumitru Uzun](https://duzun.me/tips/git). The exercice is based on the research of [Jen Bright](https://x.com/MorphobeakGeek) who also kindly provided the gifs used in the exercice. It is now maintained by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895) at the [LMU Open Science Center](https://www.osc.uni-muenchen.de/index.html).  This current work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA-4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) licence. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 </div>
 
 ::: {.notes}
@@ -217,15 +217,15 @@ What do we see in the results?
 :::incremental
 - **Key terms and definitions**: Understanding core concepts in Quarto
 - **Setting up Quarto**: Opening a Quarto document in RStudio
-- **Authoring**: Writing text and structuring content
-- **Code chunks**: Running and displaying code
-- **Additional authoring features**: Inserting images and links
-- **Citations**: Adding citations and bibliography with Zotero
-- **Publishing**: Sharing your Quarto document to GitHub
+- **Authoring**: Writing text and structuring content in Quarto
+- **Code chunks**: Running and displaying code in Quarto
+- **Additional authoring features**: Inserting images and links in Quarto
+- **Citations**: Adding citations and bibliography with Zotero in Quarto
+- **Publishing**: Sharing your Quarto document on GitHub
 :::
 
 ::: {.notes}
-**Speaker Notes**: This session will cover some basics in how to use Quarto and then some ways it can work with other platforms to perform functions like referencing and publishing. We will first begin by setting up a Quarto document in RStudio, then we will look at important elements: text, code, media, links, and layout. Next, we will work with both Quarto and Zotero for quick and easy citations and, finally, we will look at sharing our work to GitHub. All of these are pertinent steps in learning how to use Quarto to facilitate Open Research practices
+**Speaker Notes**: This session will cover some basics in how to use Quarto and then some ways it can work with other platforms to perform functions like referencing and publishing. We will first begin by setting up a Quarto document in RStudio, then we will look at important elements: text, code, media, links, and layout. Next, we will work with both Quarto and Zotero for quick and easy citations and, finally, we will look at sharing our work to GitHub. All of these are pertinent steps in learning how to use Quarto to facilitate Open Research practices.
 
 **Instructor Notes**: 
 
@@ -450,9 +450,11 @@ What is **rendering**? The process where Quarto runs the code, combines it with 
   - **Render on Save**: Quarto will automatically re-render the document each time you click "Save"
   - **Manual Rendering**: You have to click on the "Render" each time you want to see the output
 
-- ![You can find both *Render on Save* and *Manual Render* at the top of your workspace](images/01_Render.png){fig-alt="A screenshot of a menu bar in an RStudio workspace with red rectangles highlighting the 'Render on Save' checkbox and 'Render' button."}
-
 :::
+
+![You can find both *Render on Save* and *Manual Rendering* at the top of your workspace.](images/01_Render.png){fig-alt="A screenshot of a menu bar in an RStudio workspace with red rectangles highlighting the 'Render on Save' checkbox and 'Render' button."}
+
+
 
 ::: {.notes}
 **Speaker Notes**: Quarto documents can be rendered either manually or automatically when you save your work.
@@ -508,8 +510,8 @@ These are the steps to **create a Quarto Document** in RStudio:
 :::
 ::: column
 -   Select "`File`"\
--   → Select "`New File`"\
--   → Select "`Quarto Document`"
+-   Select "`New File`"\
+-   Select "`Quarto Document`"
 :::
 ::::::
 
@@ -535,9 +537,9 @@ These are the steps to **create a Quarto Document** in RStudio:
 ::: column
 
 - You can set some of the YAML header details here:
-- → Put in the `title` of your document 
-- → Choose an `output format` (the default format is HTML)
-- → Hit "`Create`"
+  - Put in the `title` of your document 
+  - Choose an `output format` (the default format is HTML)
+  - Hit "`Create`"
 
 :::
 ::::::
@@ -758,7 +760,7 @@ The ChickWeight dataset in R is based on real experimental data.
 
 Important elements:
 
-- Begins and ends with 3 colons `:::`
+- Begins and ends with three (!) colons `:::`
 - Specifies the style of the callout box with "`-note`"
 - The title of callout box is made by using `##`
 
@@ -814,11 +816,11 @@ The ChickWeight dataset in R is based on real experimental data.
 ## Code chunks
 
 :::incremental
-= **Sections of the document** where you can **write and execute** pieces of **code**.
+= **Sections of the document** where you can **write and execute** pieces of **code**
 
 - There are multiple ways to insert **code chunks**:
 
-  - Simply click the green Insert Code Chunk button on the toolbar ![](images/Code_Chunk.png){fig-alt="A screenshot of an RStudio toolbar with a red rectangle highlighting the 'Insert a new code chunk' action button which is a green square with a the letter C in its center and a green plus icon to its top-left."} 
+  - Simply click the green *Insert Code Chunk* button on the toolbar ![](images/Code_Chunk.png){fig-alt="A screenshot of an RStudio toolbar with a red rectangle highlighting the 'Insert a new code chunk' action button which is a green square with a the letter C in its center and a green plus icon to its top-left."} 
 
   - You can manually type 3 back ticks \`\`\` then {r} to start a coding chunk, enter your code, then end the chunk with 3 back ticks
 
@@ -986,7 +988,7 @@ Please complete quiz labeled "OS-M3-S6-Quarto_prebreak_quiz".
 
 ---
 
-# Break! 5 minutes
+# Break! 10 minutes
 
 ---
 
@@ -1020,13 +1022,13 @@ What do we see in the results?
 Quarto offers additional **authoring features** that make it more versatile and comprehensive. These include:
 
 - Adding **links** and **hyperlinking** text
-- Embedding **media**, for example: images
+- Embedding **media**, for example **images**
 :::
 
 ::: callout-note
 ## Commonly used authoring features
 
-If you want to learn more, click [here](https://quarto.org/docs/authoring/markdown-basics.html) for commonly used markdown syntax for additional authoring features.
+If you want to learn more about advanced authoring features, click [here](https://quarto.org/docs/authoring/markdown-basics.html) for commonly used markdown syntax for additional authoring features.
 :::
 
 ::: {.notes}
@@ -1078,7 +1080,7 @@ You can even add a link to an image so that when you click anywhere on the image
 
 -   Image with link: ```[![caption](path/image.png)](link)```
 
-[![Click on the image to see a study on broiler chicks](images/05_Chick_Pic.png){width="40%" fig-align="left" fig-alt="An image of 3 yellow chicks sitting in the grass."}](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819)
+[![Click on the image to access a published study on broiler chicks.](images/05_Chick_Pic.png){width="40%" fig-align="left" fig-alt="An image of 3 yellow chicks sitting in the grass."}](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819)
 
 ::: {.notes}
 **Speaker Notes**: Images can also be inserted with links embedded in them. This allows readers to click and explore more details (for example, linking a screenshot to a website or dataset). This helps keep documents concise while still offering extra resources for those who want them. Having a caption in this case is not necessary but recommended to provide context for what link is attached to the image. 
@@ -1754,21 +1756,23 @@ Please complete survey labeled "OS-M3-S6-Quarto_finishing_quiz".
 
 ## References
 
+::: {.small}
 - Allaire, J., Teague, C., Scheidegger, C., Xie, Y., Dervieux, C., & Woodhull, G. (2025). Quarto (Version 1.8) [Computer software]. https://doi.org/10.5281/zenodo.5960048
 
-- Bregendahl, K., Sell, J., & Zimmerman, D. (2002). Effect of low-protein diets on growth performance and body composition of broiler chicks. *Poultry Science*, 81(8), 1156–1167. https://doi.org/10.1093/ps/81.8.1156
+- Bregendahl, K., Sell, J., & Zimmerman, D. (2002). Effect of low-protein diets on growth performance and body composition of broiler chicks. *Poultry Science*, *81*(8), 1156–1167. [https://doi.org/10.1093/ps/81.8.1156](https://doi.org/10.1093/ps/81.8.1156)
 
-- Duit, R., & Treagust, D. F. (2003). Conceptual change: A powerful framework for improving science teaching and learning. *International Journal of Science Education*, 25(6), 671–688. https://doi.org/10.1080/09500690305016
+- Duit, R., & Treagust, D. F. (2003). Conceptual change: A powerful framework for improving science teaching and learning. *International Journal of Science Education*, *25*(6), 671–688. [https://doi.org/10.1080/09500690305016](https://doi.org/10.1080/09500690305016)
 
-- Forehand, M. (2010). Bloom’s taxonomy. *Emerging perspectives on learning, teaching, and technology*, 41(4), 47-56.
+- Forehand, M. (2010). Bloom’s taxonomy. *Emerging perspectives on learning, teaching, and technology*, *41*(4), 47-56.
 
-- Li, J., Yuan, J., Miao, Z., Song, Z., Yang, Y., Tian, W., & Guo, Y. (2016). Effect of Dietary Nutrient Density on Small Intestinal Phosphate Transport and Bone Mineralization of Broilers during the Growing Period. *PLOS ONE*, 11(4), e0153859. https://doi.org/10.1371/journal.pone.0153859
+- Li, J., Yuan, J., Miao, Z., Song, Z., Yang, Y., Tian, W., & Guo, Y. (2016). Effect of Dietary Nutrient Density on Small Intestinal Phosphate Transport and Bone Mineralization of Broilers during the Growing Period. *PLOS ONE*, *11*(4), e0153859. [https://doi.org/10.1371/journal.pone.0153859](https://doi.org/10.1371/journal.pone.0153859)
 
-- Pauwels, J., Coopman, F., Cools, A., Michiels, J., Fremaut, D., De Smet, S., & Janssens, G. P. J. (2015). Selection for Growth Performance in Broiler Chickens Associates with Less Diet Flexibility. *PLOS ONE*, 10(6), e0127819. https://doi.org/10.1371/journal.pone.0127819
+- Pauwels, J., Coopman, F., Cools, A., Michiels, J., Fremaut, D., De Smet, S., & Janssens, G. P. J. (2015). Selection for Growth Performance in Broiler Chickens Associates with Less Diet Flexibility. *PLOS ONE*, *10*(6), e0127819. [https://doi.org/10.1371/journal.pone.0127819](https://doi.org/10.1371/journal.pone.0127819)
 
-- Ryba, R., Doubleday, Z. A., Dry, M. J., Semmler, C., & Connell, S. D. (2021). Better Writing in Scientific Publications Builds Reader Confidence and Understanding. *Frontiers in Psychology*, 12, 714321. https://doi.org/10.3389/fpsyg.2021.714321
+- Ryba, R., Doubleday, Z. A., Dry, M. J., Semmler, C., & Connell, S. D. (2021). Better Writing in Scientific Publications Builds Reader Confidence and Understanding. *Frontiers in Psychology*, *12*, 714321. [https://doi.org/10.3389/fpsyg.2021.714321](https://doi.org/10.3389/fpsyg.2021.714321)
 
 - Tierney, N. (2025). Quarto for scientists. https://qmd4sci.njtierney.com/
+:::
 
 ---
 

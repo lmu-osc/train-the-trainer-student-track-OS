@@ -6,8 +6,8 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.24">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.34">
 
   <meta name="author" content="Elizabeth Waterfield">
   <title>Train the Trainer: Student Track Open Science Content – Introduction to literate programming with Quarto</title>
@@ -95,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
   <link rel="stylesheet" href="../../../slides-custom.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -210,10 +210,10 @@ Elizabeth Waterfield
 <h2>Licence</h2>
 <p><br></p>
 <p style="text-align:center;">
-<img src="images/cc-by-licence-icon.png" alt="Creative Commons Attribution 4.0" style="width:160px;">
+<img src="images/cc-by-sa.png" alt="Creative Commons Attribution 4.0" style="width:160px;">
 </p>
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-<p>This work was originally created by <a href="https://github.com/annakrystalli">Anna Krystalli</a> from <a href="https://github.com/RSE-Sheffield">RSE-Sheffield</a> under a <a href="https://opensource.org/license/mit">MIT licence</a> (original repository). It was subsequently adapted by <a href="https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html">Malika Ihle</a> during her time at <a href="https://ox.ukrn.org/">Reproducible Research Oxford</a>, with the contributions of <a href="https://github.com/Kennyanthro">Adam Kenny</a>. The overview image is from <a href="https://duzun.me/tips/git">Dumitru Uzun</a>. The exercice is based on the research of <a href="https://x.com/MorphobeakGeek">Jen Bright</a> who also kindly provided the gifs used in the exercice. It is now maintained by <a href="https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html">Malika Ihle</a> and <a href="https://orcid.org/my-orcid?orcid=0000-0002-6413-3895">Sarah von Grebmer zu Wolfsthurn</a> at the <a href="https://www.osc.uni-muenchen.de/index.html">LMU Open Science Center</a>. This current work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA-4.0 <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+<p>This work was originally created by <a href="https://github.com/annakrystalli">Anna Krystalli</a> from <a href="https://github.com/RSE-Sheffield">RSE-Sheffield</a> under a <a href="https://opensource.org/license/mit">MIT licence</a> (original repository). It was subsequently adapted by <a href="https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html">Malika Ihle</a> during her time at <a href="https://ox.ukrn.org/">Reproducible Research Oxford</a>, with the contributions of <a href="https://github.com/Kennyanthro">Adam Kenny</a>. The overview image is from <a href="https://duzun.me/tips/git">Dumitru Uzun</a>. The exercice is based on the research of <a href="https://x.com/MorphobeakGeek">Jen Bright</a> who also kindly provided the gifs used in the exercice. It is now maintained by <a href="https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html">Malika Ihle</a> and <a href="https://orcid.org/my-orcid?orcid=0000-0002-6413-3895">Sarah von Grebmer zu Wolfsthurn</a> at the <a href="https://www.osc.uni-muenchen.de/index.html">LMU Open Science Center</a>. This current work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA-4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International SA License</a> licence. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: The Creative Commons Attribution 4.0 International (CC-BY-SA-4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.</p>
@@ -494,14 +494,14 @@ Elizabeth Waterfield
 <ul>
 <li class="fragment"><strong>Key terms and definitions</strong>: Understanding core concepts in Quarto</li>
 <li class="fragment"><strong>Setting up Quarto</strong>: Opening a Quarto document in RStudio</li>
-<li class="fragment"><strong>Authoring</strong>: Writing text and structuring content</li>
-<li class="fragment"><strong>Code chunks</strong>: Running and displaying code</li>
-<li class="fragment"><strong>Additional authoring features</strong>: Inserting images and links</li>
-<li class="fragment"><strong>Citations</strong>: Adding citations and bibliography with Zotero</li>
-<li class="fragment"><strong>Publishing</strong>: Sharing your Quarto document to GitHub</li>
+<li class="fragment"><strong>Authoring</strong>: Writing text and structuring content in Quarto</li>
+<li class="fragment"><strong>Code chunks</strong>: Running and displaying code in Quarto</li>
+<li class="fragment"><strong>Additional authoring features</strong>: Inserting images and links in Quarto</li>
+<li class="fragment"><strong>Citations</strong>: Adding citations and bibliography with Zotero in Quarto</li>
+<li class="fragment"><strong>Publishing</strong>: Sharing your Quarto document on GitHub</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: This session will cover some basics in how to use Quarto and then some ways it can work with other platforms to perform functions like referencing and publishing. We will first begin by setting up a Quarto document in RStudio, then we will look at important elements: text, code, media, links, and layout. Next, we will work with both Quarto and Zotero for quick and easy citations and, finally, we will look at sharing our work to GitHub. All of these are pertinent steps in learning how to use Quarto to facilitate Open Research practices</p>
+<p><strong>Speaker Notes</strong>: This session will cover some basics in how to use Quarto and then some ways it can work with other platforms to perform functions like referencing and publishing. We will first begin by setting up a Quarto document in RStudio, then we will look at important elements: text, code, media, links, and layout. Next, we will work with both Quarto and Zotero for quick and easy citations and, finally, we will look at sharing our work to GitHub. All of these are pertinent steps in learning how to use Quarto to facilitate Open Research practices.</p>
 <p><strong>Instructor Notes</strong>:</p>
 <ul>
 <li><p><strong>Aim</strong>: To establish the core theoretical introduction of submodule topics.</p></li>
@@ -688,7 +688,7 @@ Elizabeth Waterfield
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><em>Side A</em></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>With **Quarto**, combine into *one single document*:</span>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>With **Quarto**, combine into *one single document*:</span>
 <span id="cb1-2"><a></a></span>
 <span id="cb1-3"><a></a>- text </span>
 <span id="cb1-4"><a></a>- media</span>
@@ -701,7 +701,7 @@ Elizabeth Waterfield
 <span id="cb1-11"><a></a>set2 &lt;- c(7.6, 7.9, 7.8)</span>
 <span id="cb1-12"><a></a></span>
 <span id="cb1-13"><a></a>mean(set2) - mean(set1)</span>
-<span id="cb1-14"><a></a>```</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-14"><a></a>```</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:50%;">
 <p><em>Side B</em></p>
 <p>With <strong>Quarto</strong>, combine into <em>one single document</em>:</p>
@@ -712,10 +712,10 @@ Elizabeth Waterfield
 </ul>
 <p>For example, easily calculate and display the difference between two sets:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>set1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">6.8</span>, <span class="fl">7.0</span>, <span class="fl">6.9</span>)</span>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>set1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">6.8</span>, <span class="fl">7.0</span>, <span class="fl">6.9</span>)</span>
 <span id="cb2-2"><a></a>set2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">7.6</span>, <span class="fl">7.9</span>, <span class="fl">7.8</span>)</span>
 <span id="cb2-3"><a></a></span>
-<span id="cb2-4"><a></a><span class="fu">mean</span>(set2) <span class="sc">-</span> <span class="fu">mean</span>(set1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-4"><a></a><span class="fu">mean</span>(set2) <span class="sc">-</span> <span class="fu">mean</span>(set1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.8666667</code></pre>
 </div>
@@ -783,14 +783,9 @@ Elizabeth Waterfield
 <li class="fragment"><strong>Render on Save</strong>: Quarto will automatically re-render the document each time you click “Save”</li>
 <li class="fragment"><strong>Manual Rendering</strong>: You have to click on the “Render” each time you want to see the output</li>
 </ul></li>
-<li class="fragment"><div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/01_Render.png" alt="A screenshot of a menu bar in an RStudio workspace with red rectangles highlighting the 'Render on Save' checkbox and 'Render' button."></p>
-<figcaption>You can find both <em>Render on Save</em> and <em>Manual Render</em> at the top of your workspace</figcaption>
-</figure>
-</div></li>
 </ul>
-<aside class="notes">
+
+<img data-src="images/01_Render.png" alt="A screenshot of a menu bar in an RStudio workspace with red rectangles highlighting the 'Render on Save' checkbox and 'Render' button." class="r-stretch quarto-figure-center"><p class="caption">You can find both <em>Render on Save</em> and <em>Manual Rendering</em> at the top of your workspace.</p><aside class="notes">
 <p><strong>Speaker Notes</strong>: Quarto documents can be rendered either manually or automatically when you save your work.</p>
 <ul>
 <li><p>Manual rendering gives you control meaning you decide when to update the document. This is helpful if you’re making lots of edits and do not want constant re-renders.</p></li>
@@ -860,9 +855,9 @@ Elizabeth Waterfield
 <ul>
 <li>Select “<code>File</code>”<br>
 </li>
-<li>→ Select “<code>New File</code>”<br>
+<li>Select “<code>New File</code>”<br>
 </li>
-<li>→ Select “<code>Quarto Document</code>”</li>
+<li>Select “<code>Quarto Document</code>”</li>
 </ul>
 </div></div>
 <aside class="notes">
@@ -891,10 +886,12 @@ Elizabeth Waterfield
 <p><img data-src="images/03_Quarto_Setup.png" alt="This image shows the setup screen when creating a New Quarto Document for actions such as setting the title, author, and output format."></p>
 </div><div class="column">
 <ul>
-<li>You can set some of the YAML header details here:</li>
-<li>→ Put in the <code>title</code> of your document</li>
-<li>→ Choose an <code>output format</code> (the default format is HTML)</li>
-<li>→ Hit “<code>Create</code>”</li>
+<li>You can set some of the YAML header details here:
+<ul>
+<li>Put in the <code>title</code> of your document</li>
+<li>Choose an <code>output format</code> (the default format is HTML)</li>
+<li>Hit “<code>Create</code>”</li>
+</ul></li>
 </ul>
 </div></div>
 <aside class="notes">
@@ -980,14 +977,14 @@ Elizabeth Waterfield
 <ul class="task-list">
 <li><label><input type="checkbox">In <strong>Source mode</strong>, copy and paste the following into the YAML Header of your document:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a></a><span class="pp">---</span></span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a></a><span class="pp">---</span></span>
 <span id="cb4-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"ChickWeight Analysis"</span></span>
 <span id="cb4-3"><a></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Name"</span></span>
 <span id="cb4-4"><a></a><span class="fu">format</span><span class="kw">:</span></span>
 <span id="cb4-5"><a></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
 <span id="cb4-6"><a></a><span class="at">    </span><span class="fu">code-fold</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
 <span id="cb4-7"><a></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb4-8"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb4-8"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -1061,14 +1058,14 @@ Elizabeth Waterfield
 <section id="authoring-markdown-text" class="slide level2">
 <h2>Authoring: Markdown text</h2>
 <p><br></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a></a>Have you ever wondered what affects a chick's weight? </span>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a></a>Have you ever wondered what affects a chick's weight? </span>
 <span id="cb5-2"><a></a>This document explores the ChickWeight dataset using R.  </span>
 <span id="cb5-3"><a></a>The goal is to compare chick weight across different diets and time points.  </span>
 <span id="cb5-4"><a></a>Key steps include:</span>
 <span id="cb5-5"><a></a></span>
 <span id="cb5-6"><a></a>- Loading the dataset  </span>
 <span id="cb5-7"><a></a>- Visualizing growth trends  </span>
-<span id="cb5-8"><a></a>- Summarizing results</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb5-8"><a></a>- Summarizing results</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 <p>This is an example of <strong>markdown text</strong>. Let’s use it to continue authoring and building our document.</p>
 <aside class="notes">
@@ -1195,14 +1192,14 @@ Key steps include:</p>
 <section id="authoring-inserting-a-callout-box" class="slide level2">
 <h2>Authoring: Inserting a callout box</h2>
 <p>Here is the markdown text for inserting a <strong>callout note</strong> box:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>::: callout-note</span>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>::: callout-note</span>
 <span id="cb6-2"><a></a>## Based on Real Data</span>
 <span id="cb6-3"><a></a></span>
 <span id="cb6-4"><a></a>The ChickWeight dataset in R is based on real experimental data.</span>
-<span id="cb6-5"><a></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb6-5"><a></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Important elements:</p>
 <ul>
-<li>Begins and ends with 3 colons <code>:::</code></li>
+<li>Begins and ends with three (!) colons <code>:::</code></li>
 <li>Specifies the style of the callout box with “<code>-note</code>”</li>
 <li>The title of callout box is made by using <code>##</code></li>
 </ul>
@@ -1272,11 +1269,11 @@ Key steps include:</p>
 </section>
 <section id="code-chunks" class="slide level2">
 <h2>Code chunks</h2>
-<p>= <strong>Sections of the document</strong> where you can <strong>write and execute</strong> pieces of <strong>code</strong>.</p>
+<p>= <strong>Sections of the document</strong> where you can <strong>write and execute</strong> pieces of <strong>code</strong></p>
 <ul>
 <li class="fragment"><p>There are multiple ways to insert <strong>code chunks</strong>:</p>
 <ul>
-<li class="fragment"><p>Simply click the green Insert Code Chunk button on the toolbar <img data-src="images/Code_Chunk.png" alt="A screenshot of an RStudio toolbar with a red rectangle highlighting the 'Insert a new code chunk' action button which is a green square with a the letter C in its center and a green plus icon to its top-left."></p></li>
+<li class="fragment"><p>Simply click the green <em>Insert Code Chunk</em> button on the toolbar <img data-src="images/Code_Chunk.png" alt="A screenshot of an RStudio toolbar with a red rectangle highlighting the 'Insert a new code chunk' action button which is a green square with a the letter C in its center and a green plus icon to its top-left."></p></li>
 <li class="fragment"><p>You can manually type 3 back ticks ``` then {r} to start a coding chunk, enter your code, then end the chunk with 3 back ticks</p></li>
 <li class="fragment"><p>You can use the keyboard shortcut Ctrl + Alt + I (Windows/Linux) or Cmd + Option + I (Mac) to insert a code chunk then simply enter your code</p></li>
 </ul></li>
@@ -1299,12 +1296,12 @@ Key steps include:</p>
 <section id="inserting-code-chunks" class="slide level2">
 <h2>Inserting code chunks</h2>
 <p><br></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a></a>summary(ChickWeight)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a></a>summary(ChickWeight)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb8-1"><a></a>library(ggplot2)</span>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb8-1"><a></a>library(ggplot2)</span>
 <span id="cb8-2"><a></a>ggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +</span>
 <span id="cb8-3"><a></a>  geom_line(aes(group = Chick)) +</span>
-<span id="cb8-4"><a></a>  labs(title = "Chick Growth Over Time")</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb8-4"><a></a>  labs(title = "Chick Growth Over Time")</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 <p>These are examples of <strong>R code chunks</strong>. Let’s use these to insert code chunks in our document.</p>
 <aside class="notes">
@@ -1406,7 +1403,7 @@ Key steps include:</p>
 <p><strong>Speaker Notes</strong>: Currently in our YAML header, we have it set to <code>code-fold: false</code>. This means the code is visible and not collapsible, but we can change that. Find it in the YAML under <code>html</code> and simply replace the word “false” with “true.” Then, add a new code setting by inserting “<code>code-tools: true</code>” right under it.</p>
 <p><strong>Instructor Notes</strong>: Engage students by asking for possible reasons why one would want their code to be visible or not (optional).</p>
 <p><strong>Solution</strong>: The new YAML header should look like this:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb9-1"><a></a><span class="pp">---</span></span>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb9-1"><a></a><span class="pp">---</span></span>
 <span id="cb9-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"ChickWeight Analysis"</span></span>
 <span id="cb9-3"><a></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Name"</span></span>
 <span id="cb9-4"><a></a><span class="fu">format</span><span class="kw">:</span></span>
@@ -1414,7 +1411,7 @@ Key steps include:</p>
 <span id="cb9-6"><a></a><span class="at">    </span><span class="fu">code-fold</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
 <span id="cb9-7"><a></a><span class="at">    </span><span class="fu">code-tools</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
 <span id="cb9-8"><a></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb9-9"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb9-9"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>It does not matter the order in which the new additions are placed once they are under the <code>html</code>.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1471,8 +1468,8 @@ Key steps include:</p>
 
 </section>
 <section>
-<section id="break-5-minutes" class="title-slide slide level1 center">
-<h1>Break! 5 minutes</h1>
+<section id="break-10-minutes" class="title-slide slide level1 center">
+<h1>Break! 10 minutes</h1>
 
 </section>
 <section id="post-break-survey-discussion" class="slide level2">
@@ -1506,7 +1503,7 @@ Key steps include:</p>
 <p>Quarto offers additional <strong>authoring features</strong> that make it more versatile and comprehensive. These include:</p>
 <ul>
 <li class="fragment">Adding <strong>links</strong> and <strong>hyperlinking</strong> text</li>
-<li class="fragment">Embedding <strong>media</strong>, for example: images</li>
+<li class="fragment">Embedding <strong>media</strong>, for example <strong>images</strong></li>
 </ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -1517,7 +1514,7 @@ Key steps include:</p>
 <p><strong>Commonly used authoring features</strong></p>
 </div>
 <div class="callout-content">
-<p>If you want to learn more, click <a href="https://quarto.org/docs/authoring/markdown-basics.html">here</a> for commonly used markdown syntax for additional authoring features.</p>
+<p>If you want to learn more about advanced authoring features, click <a href="https://quarto.org/docs/authoring/markdown-basics.html">here</a> for commonly used markdown syntax for additional authoring features.</p>
 </div>
 </div>
 </div>
@@ -1608,7 +1605,7 @@ Key steps include:</p>
 <p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819"><img data-src="images/05_Chick_Pic.png" class="quarto-figure quarto-figure-left" style="width:40.0%" alt="An image of 3 yellow chicks sitting in the grass."></a></p>
 </figure>
 </div>
-<figcaption>Click on the image to see a study on broiler chicks</figcaption>
+<figcaption>Click on the image to access a published study on broiler chicks.</figcaption>
 </figure>
 </div>
 <aside class="notes">
@@ -1633,7 +1630,7 @@ Key steps include:</p>
 <li><label><input type="checkbox">Copy and paste the markdown text below to insert an image with a caption (edit path if needed):</label></li>
 </ul>
 <p><br></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a></a>![No chicks were harmed in the making of this website.](images/05_Chick_Pic.png)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a></a>![No chicks were harmed in the making of this website.](images/05_Chick_Pic.png)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: For this task, click the link and the image will automatically download. The text inside the square brackets is the caption, and the text inside the parentheses is the path to the image file. Reminder that the path tells Quarto where to look for the image on your deivce. If your image is saved directly in the same folder as your .qmd file, you only need the file name. If it’s in a subfolder, include the folder name in the path.</p>
 <p><strong>Instructor Notes</strong>: The aims are to reinforce how to add images, insert captions, and how paths work. Setting the path can be tricky depending on where the files are located. It’s a good practice to save these files in the same main folder as your Quarto document files (ideally in a dedicated subfolder named “images” to keep paths organized and easy to manage). If students saved and placed their main folder earlier, then locating it should be easy. In the Task above, the text says “images/chickpic1.png” - this assumes the picture is saved in a folder called “images” in a main folder containing all the Quarto document files.</p>
@@ -1747,7 +1744,7 @@ Key steps include:</p>
 <li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819">Follow this link to an article on diets and broiler chicks</a></label></li>
 <li><label><input type="checkbox">Add the citation to your Zotero Library</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb11-1"><a></a>Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb11-1"><a></a>Diet affects chick body weight. In this study, low-energy feed made fast-growing chicks lighter, while slower-growing chicks compensated by eating more </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy the text above</label></li>
 <li><label><input type="checkbox">In <strong>RStudio</strong>, paste it into the Quarto docuement and place the cursor at the end of the sentence. This where in the sentence you want to place the citation.</label></li>
@@ -1758,7 +1755,7 @@ Key steps include:</p>
 <p>After adding the citation to your Library in Zotero, copy the text provided and place it in your Quarto document. Wherever the cursor is when you click “Insert” is where the citation will be placed. So, have the cursor at the end of the sentence.</p>
 <p><strong>Instructor Notes</strong>: The DOIs of the articles in these tasks will be clearly visible so the ‘magic wand’ method for adding citations in Zotero is recommended.</p>
 <p>With the addition of <code>bibliography: references.bib</code>, the new YAML header will look like this:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb12-1"><a></a><span class="pp">---</span></span>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb12-1"><a></a><span class="pp">---</span></span>
 <span id="cb12-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"ChickWeight Analysis"</span></span>
 <span id="cb12-3"><a></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Name"</span></span>
 <span id="cb12-4"><a></a><span class="fu">format</span><span class="kw">:</span></span>
@@ -1767,7 +1764,7 @@ Key steps include:</p>
 <span id="cb12-7"><a></a><span class="at">    </span><span class="fu">code-tools</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
 <span id="cb12-8"><a></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
 <span id="cb12-9"><a></a><span class="fu">bibliography</span><span class="kw">:</span><span class="at"> references.bib</span></span>
-<span id="cb12-10"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb12-10"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1809,7 +1806,7 @@ Key steps include:</p>
 <li><label><input type="checkbox"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0153859#:~:text=In%20conclusion%2C%20HDND%20improved%20the,diet%20adversely%20affected%20bone%20mineralization.">Follow this link to another article on diets and broiler chicks</a></label></li>
 <li><label><input type="checkbox">Add the citation to your Zotero library</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb13-1"><a></a> found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb13-1"><a></a> found that broiler chicks fed a higher nutrient-density diet gained more weight and did so more efficiently.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy the text above</label></li>
 <li><label><input type="checkbox">In <strong>RStudio</strong>, paste the text then place your cursor at the beginning of the sentence</label></li>
@@ -2084,9 +2081,9 @@ Key steps include:</p>
 <ul class="task-list">
 <li><label><input type="checkbox">In your Quarto Document, edit the YAML by adding the following:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode numberSource mardown number-lines code-with-copy"><code class="sourceCode"><span id="cb14-1"><a></a>project:</span>
+<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource mardown number-lines code-with-copy"><code class="sourceCode"><span id="cb14-1"><a></a>project:</span>
 <span id="cb14-2"><a></a>  type: website</span>
-<span id="cb14-3"><a></a>  output-dir: docs</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb14-3"><a></a>  output-dir: docs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Open a new Terminal (for Windows users, first set to open with Git Bash)</label></li>
 <li><label><input type="checkbox">Change the working directory of the Terminal to the folder containing your Quarto files: do this by entering <code>cd</code> followed by the file path on your device wrapped in quotations</label></li>
@@ -2095,7 +2092,7 @@ Key steps include:</p>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: In this exercise, we are preparing our Quarto document for it to be published on GitHub Pages. First, edit the YAML header of your Quarto document to define it as a ‘website project’ and set the output to the ‘docs’ folder. This tells Quarto where to place the rendered files that GitHub Pages will serve. If necessary, set up your terminal in RStudio to use Git Bash by following the steps in the previous slide (Windows users). From this new Git-compatible Terminal, use the <code>cd</code> command to change the directory to the main folder where your Quarto files are stored. This step makes sure any Git commands you run are applied in the right project folder.</p>
 <p><strong>Instructor Notes</strong>: The new YAML header will look like this:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb15-1"><a></a><span class="pp">---</span></span>
+<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb15-1"><a></a><span class="pp">---</span></span>
 <span id="cb15-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"ChickWeight Analysis"</span></span>
 <span id="cb15-3"><a></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Name"</span></span>
 <span id="cb15-4"><a></a><span class="fu">format</span><span class="kw">:</span></span>
@@ -2107,7 +2104,7 @@ Key steps include:</p>
 <span id="cb15-10"><a></a><span class="fu">project</span><span class="kw">:</span></span>
 <span id="cb15-11"><a></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
 <span id="cb15-12"><a></a><span class="at">  </span><span class="fu">output-dir</span><span class="kw">:</span><span class="at"> docs</span></span>
-<span id="cb15-13"><a></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb15-13"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Some level of Git and Git Hub knowledge is assumed but here are some common issues that the students can run into:</p>
 <ul>
 <li>A note on copying and pasting: copying and pasting with keyboard shortcuts do not work the same in the Terminal. Right-clicking and selecting “Paste” is an easy option.</li>
@@ -2131,13 +2128,13 @@ Key steps include:</p>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy the following and make a simple <code>_quarto.yml</code> file by running it in the Terminal:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb16-1"><a></a>echo "project:</span>
+<div class="sourceCode" id="cb16"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb16-1"><a></a>echo "project:</span>
 <span id="cb16-2"><a></a>  type: website</span>
-<span id="cb16-3"><a></a>  output-dir: docs" &gt; _quarto.yml</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb16-3"><a></a>  output-dir: docs" &gt; _quarto.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Next, copy the following and run it in the Terminal to add a <code>.nojekyll</code> file:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb17-1"><a></a>touch .nojekyll</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb17-1"><a></a>touch .nojekyll</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -2175,12 +2172,12 @@ Key steps include:</p>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy and run the following in Terminal to generate HTML in the <code>docs/</code> folder:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb18-1"><a></a>quarto render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb18-1"><a></a>quarto render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Copy into the terminal and run the following- this initializes Git and renames “master” to “main”:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb19-1"><a></a>git init</span>
-<span id="cb19-2"><a></a>git branch -M main  </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb19-1"><a></a>git init</span>
+<span id="cb19-2"><a></a>git branch -M main  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: Running <code>quarto render</code> in the Terminal takes your Quarto project and produces the HTML files in the docs folder. These are the files GitHub Pages will serve as your website. Next, we need to initialize Git in the project folder so we can connect it to GitHub. The command <code>git init</code> sets up Git tracking, and <code>git branch -M main</code> renames the default branch from “master” to “main,” which is the standard branch name used in this session.</p>
 <p><strong>Instructor Notes</strong>: Running <code>quarto render</code> here does not open or preview your website- It is building the website by generating HTML files and placing them in the docs/ folder.</p>
@@ -2204,10 +2201,10 @@ Key steps include:</p>
 <li><label><input type="checkbox">In the Terminal, connect to a local project by using “<code>git remote add origin</code>” followed by the repo’s HTTPS URL (for example, “<code>git remote add origin https://github.com/yourname/chickweight-exercise.git</code>”)</label></li>
 <li><label><input type="checkbox">Copy and run following into the Terminal to render your site and push it to GitHub:</label></li>
 </ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb20-1"><a></a>quarto render</span>
+<div class="sourceCode" id="cb20"><pre class="sourceCode numberSource textbox number-lines code-with-copy"><code class="sourceCode"><span id="cb20-1"><a></a>quarto render</span>
 <span id="cb20-2"><a></a>git add docs</span>
 <span id="cb20-3"><a></a>git commit -m "Publish site to docs/"</span>
-<span id="cb20-4"><a></a>git push -u origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb20-4"><a></a>git push -u origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul class="task-list">
 <li><label><input type="checkbox">In your repo on <a href="github.com">GitHub</a>, go to Settings</label></li>
 <li><label><input type="checkbox">Click “<code>Pages</code>” to configure GitHub Pages</label></li>
@@ -2357,12 +2354,12 @@ Key steps include:</p>
 <li><strong>Build confidence</strong> in editing YAML header, adding code chunks, and customizing the layout</li>
 </ul>
 <div style="text-align: center;">
-<p><a href="assets/OS-M3-S6-Quarto-Homework_Assignment.pdf" download="" style="background-color:#007ACC; color:white; padding:8px 14px; border-radius:4px; 
-            text-decoration:none; font-weight:500;"> Download the Quarto Homework Assignment </a></p>
+<p><a href="assets/OS-M3-S6-Quarto-Activity_Sheet.pdf" download="" style="background-color:#007ACC; color:white; padding:8px 14px; border-radius:4px; 
+            text-decoration:none; font-weight:500;"> Download the Quarto Activity Sheet </a></p>
 </div>
 <aside class="notes">
 <p><strong>Speaker Notes</strong>: This homework activity builds on the document created during this lesson to add more to the content and layout. It contains activities that take what we practiced today one step further. Each item builds on the knowledge and exercises that were covered in this session.</p>
-<p><strong>Instructor Note</strong>: - Aim- to reinforce what was learned in this session and to have an opportunity to apply the knowledge in a more challenging way. Use this homework sheet as it is or use it as an example to create your own based on the needs of the class or the specific requirements for future lessons. Consider the following:</p>
+<p><strong>Instructor Note</strong>: - Aim- to reinforce what was learned in this session and to have an opportunity to apply the knowledge in a more challenging way. Use this activity sheet for a homework assignment as it is or use it as an example to create your own based on the needs of the class or the specific requirements for future lessons. Consider the following:</p>
 <ul>
 <li><p>Examine whether/how it will be assessed</p></li>
 <li><p>Mention scoring rubrics, if applicable</p></li>
@@ -2432,16 +2429,18 @@ Key steps include:</p>
 </section>
 <section id="references" class="slide level2">
 <h2>References</h2>
+<div class="small">
 <ul>
 <li><p>Allaire, J., Teague, C., Scheidegger, C., Xie, Y., Dervieux, C., &amp; Woodhull, G. (2025). Quarto (Version 1.8) [Computer software]. https://doi.org/10.5281/zenodo.5960048</p></li>
-<li><p>Bregendahl, K., Sell, J., &amp; Zimmerman, D. (2002). Effect of low-protein diets on growth performance and body composition of broiler chicks. <em>Poultry Science</em>, 81(8), 1156–1167. https://doi.org/10.1093/ps/81.8.1156</p></li>
-<li><p>Duit, R., &amp; Treagust, D. F. (2003). Conceptual change: A powerful framework for improving science teaching and learning. <em>International Journal of Science Education</em>, 25(6), 671–688. https://doi.org/10.1080/09500690305016</p></li>
-<li><p>Forehand, M. (2010). Bloom’s taxonomy. <em>Emerging perspectives on learning, teaching, and technology</em>, 41(4), 47-56.</p></li>
-<li><p>Li, J., Yuan, J., Miao, Z., Song, Z., Yang, Y., Tian, W., &amp; Guo, Y. (2016). Effect of Dietary Nutrient Density on Small Intestinal Phosphate Transport and Bone Mineralization of Broilers during the Growing Period. <em>PLOS ONE</em>, 11(4), e0153859. https://doi.org/10.1371/journal.pone.0153859</p></li>
-<li><p>Pauwels, J., Coopman, F., Cools, A., Michiels, J., Fremaut, D., De Smet, S., &amp; Janssens, G. P. J. (2015). Selection for Growth Performance in Broiler Chickens Associates with Less Diet Flexibility. <em>PLOS ONE</em>, 10(6), e0127819. https://doi.org/10.1371/journal.pone.0127819</p></li>
-<li><p>Ryba, R., Doubleday, Z. A., Dry, M. J., Semmler, C., &amp; Connell, S. D. (2021). Better Writing in Scientific Publications Builds Reader Confidence and Understanding. <em>Frontiers in Psychology</em>, 12, 714321. https://doi.org/10.3389/fpsyg.2021.714321</p></li>
+<li><p>Bregendahl, K., Sell, J., &amp; Zimmerman, D. (2002). Effect of low-protein diets on growth performance and body composition of broiler chicks. <em>Poultry Science</em>, <em>81</em>(8), 1156–1167. <a href="https://doi.org/10.1093/ps/81.8.1156">https://doi.org/10.1093/ps/81.8.1156</a></p></li>
+<li><p>Duit, R., &amp; Treagust, D. F. (2003). Conceptual change: A powerful framework for improving science teaching and learning. <em>International Journal of Science Education</em>, <em>25</em>(6), 671–688. <a href="https://doi.org/10.1080/09500690305016">https://doi.org/10.1080/09500690305016</a></p></li>
+<li><p>Forehand, M. (2010). Bloom’s taxonomy. <em>Emerging perspectives on learning, teaching, and technology</em>, <em>41</em>(4), 47-56.</p></li>
+<li><p>Li, J., Yuan, J., Miao, Z., Song, Z., Yang, Y., Tian, W., &amp; Guo, Y. (2016). Effect of Dietary Nutrient Density on Small Intestinal Phosphate Transport and Bone Mineralization of Broilers during the Growing Period. <em>PLOS ONE</em>, <em>11</em>(4), e0153859. <a href="https://doi.org/10.1371/journal.pone.0153859">https://doi.org/10.1371/journal.pone.0153859</a></p></li>
+<li><p>Pauwels, J., Coopman, F., Cools, A., Michiels, J., Fremaut, D., De Smet, S., &amp; Janssens, G. P. J. (2015). Selection for Growth Performance in Broiler Chickens Associates with Less Diet Flexibility. <em>PLOS ONE</em>, <em>10</em>(6), e0127819. <a href="https://doi.org/10.1371/journal.pone.0127819">https://doi.org/10.1371/journal.pone.0127819</a></p></li>
+<li><p>Ryba, R., Doubleday, Z. A., Dry, M. J., Semmler, C., &amp; Connell, S. D. (2021). Better Writing in Scientific Publications Builds Reader Confidence and Understanding. <em>Frontiers in Psychology</em>, <em>12</em>, 714321. <a href="https://doi.org/10.3389/fpsyg.2021.714321">https://doi.org/10.3389/fpsyg.2021.714321</a></p></li>
 <li><p>Tierney, N. (2025). Quarto for scientists. https://qmd4sci.njtierney.com/</p></li>
 </ul>
+</div>
 </section>
 <section class="slide level2">
 
@@ -2456,7 +2455,7 @@ Key steps include:</p>
 <ul>
 <li>Relevant practical exercises follow each section to encourage students to learn-by-doing</li>
 <li><a href="assets/OS-M3-S6-Quarto-Cheatsheet.pdf" download="">Downloadable cheatsheet as a PDF</a> for a compact summary of all the topics covered in the session</li>
-<li><a href="assets/OS-M3-S6-Quarto-Homework_Assignment.pdf" download="">Downloadable homework assignment sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently.</li>
+<li><a href="assets/OS-M3-S6-Quarto-Activity_Sheet.pdf" download="">Downloadable activity sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently.</li>
 <li><a href="https://lmu-osc.github.io/introduction-to-Quarto/quarto_exercises.html">Link to advanced Quarto activities</a> for faster learners who want to gain deeper knowledge on Quarto and its possibilities</li>
 </ul>
 </section>
@@ -2678,7 +2677,7 @@ Key steps include:</p>
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -2828,14 +2827,13 @@ Key steps include:</p>
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-          const outerScaffold = trigger.parentElement.cloneNode(true);
-          const codeEl = outerScaffold.querySelector('code');
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
             }
-          }
-          return codeEl.innerText;
+            return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
