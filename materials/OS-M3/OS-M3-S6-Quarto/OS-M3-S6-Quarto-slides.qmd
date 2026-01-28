@@ -33,11 +33,11 @@ execute:
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence](https://opensource.org/license/mit) (original repository). It was subsequently adapted by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of [Adam Kenny](https://github.com/Kennyanthro). The overview image is from [Dumitru Uzun](https://duzun.me/tips/git). The exercice is based on the research of [Jen Bright](https://x.com/MorphobeakGeek) who also kindly provided the gifs used in the exercice. It is now maintained by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895) at the [LMU Open Science Center](https://www.osc.uni-muenchen.de/index.html).  This current work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
+This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence](https://opensource.org/license/mit) (original repository). It was subsequently adapted by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of [Adam Kenny](https://github.com/Kennyanthro). The overview image is from [Dumitru Uzun](https://duzun.me/tips/git). The exercice is based on the research of [Jen Bright](https://x.com/MorphobeakGeek) who also kindly provided the gifs used in the exercice. It is now maintained by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895) at the [LMU Open Science Center](https://www.osc.uni-muenchen.de/index.html).  This current work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA-4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
 </div>
 
 ::: {.notes}
-**Speaker Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
+**Speaker Notes**: The Creative Commons Attribution 4.0 International (CC-BY-SA-4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
 
 However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
 :::
@@ -102,7 +102,7 @@ During this session, we will be using Quarto from RStudio. To set up Quarto, fol
 </div>
 
 ::: {.callout-important}
-Make sure to have a recent version of [R](https://www.r-project.org/) (Version 4.4.3 or higher ) and [RStudio](https://posit.co/download/rstudio-desktop/) (Version 2025.05.1+513 or higher) installed before you install/update Quarto. For installing R and RStudio, see [here](https://posit.co/download/rstudio-desktop/).
+Make sure to have a recent version of [R](https://www.r-project.org/) (Version 4.4.3 or higher) and [RStudio](https://posit.co/download/rstudio-desktop/) (Version 2025.05.1+513 or higher) installed before you install/update Quarto. For installing R and RStudio, see [here](https://posit.co/download/rstudio-desktop/).
 :::
 
 ::: {.notes}
@@ -192,7 +192,7 @@ What do we see in the results?
 <div style="background-color: #f0f0f0;">
 **Up next**:
 <div style="font-size: 0.9em;">
-- Combining text, code, and media to create a simple website.
+- Combining text, code, and media to create a simple website
 - Publishing the website on GitHub
 </div>
 </div>
@@ -219,7 +219,7 @@ What do we see in the results?
 - **Setting up Quarto**: Opening a Quarto document in RStudio
 - **Authoring**: Writing text and structuring content
 - **Code chunks**: Running and displaying code
-- **Additional authoring features**: Using images, links, and columns
+- **Additional authoring features**: Inserting images and links
 - **Citations**: Adding citations and bibliography with Zotero
 - **Publishing**: Sharing your Quarto document to GitHub
 :::
@@ -291,7 +291,7 @@ At the end of this session, you should be able to:
 - **.qmd file**: The type of file the Quarto document is saved as. 
 - **YAML header**: The section at the top of the Quarto document that controls settings like the title, output format, and author.
 - **Code chunks**: The sections of the document that contain code (from R or Python, for example) that are used for showing results such as tables, plots, or calculations.
-- **Quarto markdown text**: This combines text, codes, and formatting to create the actual content of the document.
+- **Quarto markdown text**: Text written using Markdown syntax to structure and format the content of a document.
 :::
 
 ::: callout-note
@@ -359,7 +359,7 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 1. **Readability**: Research is more **accessible** when results, explanations, and code are presented in a way that is easy to read and understand.
 
 <div style="font-size: .7em;">
-Which side is easier to read?
+Take a look at these 2 examples. Which side is easier to read?
 </div>
 
 <div style="font-size: 0.6em;">
@@ -420,11 +420,11 @@ mean(set2) - mean(set1)
 2. **Reproducibility**: Research is more **reliable** when others can clearly see how results were produced and reproduce them from the original code and data.
 
 <div style="font-size: 0.9em;">
-**Challenges:**
+**Current challenges:**
 
 - Research outputs are often separated from the code that generated them  
 - Results can become outdated as analyses change  
-- Sharing workflows clearly with others is difficult  
+- It can be difficult to share workflows clearly with others
 
 **How Quarto can help:**
 
@@ -439,7 +439,7 @@ mean(set2) - mean(set1)
 
 ---
 
-## "Rendering in Quarto"
+## "Rendering" in Quarto
 
 :::incremental
 
@@ -450,9 +450,9 @@ What is **rendering**? The process where Quarto runs the code, combines it with 
   - **Render on Save**: Quarto will automatically re-render the document each time you click "Save"
   - **Manual Rendering**: You have to click on the "Render" each time you want to see the output
 
-:::
+- ![You can find both *Render on Save* and *Manual Render* at the top of your workspace](images/01_Render.png){fig-alt="A screenshot of a menu bar in an RStudio workspace with red rectangles highlighting the 'Render on Save' checkbox and 'Render' button."}
 
-![You can find both *Render on Save* and *Manual Render* at the top of your workspace](images/01_Render.png){fig-alt="A screenshot of a menu bar in an RStudio workspace with red rectangles highlighting the 'Render on Save' checkbox and 'Render' button."}
+:::
 
 ::: {.notes}
 **Speaker Notes**: Quarto documents can be rendered either manually or automatically when you save your work.
@@ -473,7 +473,7 @@ You can write Quarto documents in **Source mode** or **Visual mode** in RStudio.
 :::incremental
 - **Source mode** allows you write directly in plain text/Markdown Syntax, allowing for more control and it's closer to raw code
 
-- **Visual mode** gives a WYSIWYM-style interface which is easier for beginners, but sometimes hides syntax.
+- **Visual mode** gives a WYSIWYM-style interface which is easier for beginners, but sometimes hides syntax
 :::
 
 
@@ -557,9 +557,9 @@ These are the steps to **create a Quarto Document** in RStudio:
 -   [ ] Select "`File`" → "`Save As...`" and save this Quarto Document in the folder you created 
 
 ::: callout-tip
-## Why make a New Folder?
+## Why make a new folder?
 
-Creating a folder on your device helps you stay organized! Keeping all the files (such as Quarto documents and images) makes it easier for you to store and retrieve all materials related to the project or exercise. 
+Creating a folder on your device helps you stay organized! Keeping all the files (such as Quarto documents and images) in one designated folder makes it easier for you to store and retrieve all materials related to the project or exercise. 
 :::
 
 ::: {.notes}
@@ -629,6 +629,7 @@ Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" targ
 
 **Basic Markdown Text Formatting:**
 
+-   bullet point: `- bullet point`
 -   **Bold:** `**bold**` → **bold**
 -   *Italic:* `*italic*` → *italic*
 -   ~~Strikethrough:~~ `~~text~~` → ~~text~~
@@ -642,6 +643,8 @@ Here is a <a href="https://quarto.org/docs/visual-editor/options.html">link for 
 
 ::: {.notes}
 **Speaker Notes**: With Markdown text, we can format text with very simple symbols. It works the same way in both Source and Visual mode with the only difference being how you see it while typing. In Source mode you see the symbols, while in Visual mode it looks like regular bold or italic text right away.
+
+To make bullet points, add a single dash (`-`) before each point. Make sure there is a blank line before the first and after the last bullet points for it to render properly. To make a piece of text bold, wrap it in double asterisks (`**`). For italics, wrap the text in single asterisks (`*`). To strike through text, wrap it in double tildes (`~~`). For writing inline code or for text that you want to appear as written (that is, not computed), wrap it in single backticks (`). 
 :::
 
 ---
@@ -699,7 +702,7 @@ Key steps include:
 
 ## Authoring: The callout box
 
-**Quarto callout boxes** can be added to highlight particularly important aspects of your document or provide supplementary information.
+**Quarto callout boxes** can highlight important aspects of your document or provide supplementary information.
 
 <div style="font-size: .8em;">
 
@@ -775,11 +778,11 @@ Important elements:
 
 ## Practical exercise 4
 
--   [ ] Copy and paste the markdown text from the previous slide into your Quarto document to add this callout important box.
+-   [ ] Copy and paste the markdown text from the previous slide into your Quarto document to add this `callout-important` box.
 
 <br>
 
-<div style="font-size: .8em;">
+<div style="font-size: .6em;">
 When rendered, it should look like this:
 
 ::: callout-important
@@ -953,7 +956,9 @@ It does not matter the order in which the new additions are placed once they are
 
 Here's a quick recap of what we have learned in this lesson so far: 
 
-✅Create, edit, and render Quarto documents
+✅Create a new Quarto Document in RStudio
+
+✅Edit and render the Quarto Document as a website
 
 ✅Use key Quarto features like code chunks, YAML headers, and output formatting
 
@@ -1015,13 +1020,13 @@ What do we see in the results?
 Quarto offers additional **authoring features** that make it more versatile and comprehensive. These include:
 
 - Adding **links** and **hyperlinking** text
-- Embedding **media**, e.g., images or videos
+- Embedding **media**, for example: images
 :::
 
 ::: callout-note
 ## Commonly used authoring features
 
-If you want to know more, here is a <a href="https://quarto.org/docs/authoring/markdown-basics.html">link</a> (https://quarto.org/docs/authoring/markdown-basics.html) for commonly used markdown syntax for additional authoring features.
+If you want to learn more, click [here](https://quarto.org/docs/authoring/markdown-basics.html) for commonly used markdown syntax for additional authoring features.
 :::
 
 ::: {.notes}
@@ -1084,7 +1089,7 @@ You can even add a link to an image so that when you click anywhere on the image
 ## Practical exercise 7
 
 -   [ ] <a href="images/05_Chick_Pic.png" download>Click this link to download the image</a>
--   [ ] Save the image to the main folder of the Quarto document files
+-   [ ] Save the image to your main folder with the Quarto document files
 -   [ ] Copy and paste the markdown text below to insert an image with a caption (edit path if needed):
 
 <br>
@@ -1142,7 +1147,7 @@ What you will notice:
 
 - `bibliography: references.bib` will be added to the YAML header
 
-- After rendering, a **reference list** or bibliography will be **automatically generated at the end of the document** with the citations used.
+- After rendering, a **reference list or bibliography** will be *automatically generated at the end of the document* with the citations used.
 
 ::: {.notes}
 **Speaker Notes**: To add citations in Quarto, you’ll need Zotero installed on your device. Then, in RStudio, switch to the Visual Editor, which makes citation insertion easier. Simply go to the toolbar, click Insert → Citation, and you’ll be able to search your Zotero library directly. Once you add citations in the text, `bibliography: references.bib` will be added to the YAML header and Quarto will automatically generate a reference list or bibliography at the end of the document. This means that you do not have to format it manually.
@@ -1160,9 +1165,14 @@ What you will notice:
 ::: {style="flex: 1;"}
 - You can select citations straight from the folders in your **Zotero library**
 
-- Each citation is assigned a short citation key based on the author and year (for example, "pauwels2015").
+:::incremental
+- Each citation is assigned a short citation key based on the author and year (for example, "`pauwels2015`").
 
-- Quickly cite it in your document by typing @ followed by the citation key.
+- Quickly cite in your document's text using the citation key:
+  - For regular citation, type @ followed by the citation key, wrapped in square brackets (for example, `[@pauwels2015]`).
+  - For in-text citation, type @ followed by the citation key, for example `@li2016`. No square brackets.
+
+:::
 :::
 ::::::
 
@@ -1261,6 +1271,7 @@ Now, let's practice adding **in-text** citations!
 
 - [ ] Click "`Insert`" to add an in-text citation
 
+
 ::: {.notes}
 **Speaker Notes**: The steps to add an in-text citation is almost identical to adding a regular citation with an additional step of checking the "In-text" box before inserting the citation. 
 :::
@@ -1312,7 +1323,7 @@ You can change the citation style by using Citation Style Language (csl) files d
 ::: callout-note
 ## List of publishing services
 
-Here is a <a href="https://quarto.org/docs/publishing/index.html">link </a> (https://quarto.org/docs/publishing/index.html) for a list of publishing services and more information!
+Here is a [link for a list of publishing services and more information](https://quarto.org/docs/publishing/index.html)!
 :::
 
 ::: {.notes}
@@ -1338,7 +1349,7 @@ When sharing your work, it's important to follow established **rules and standar
 ::: callout-note
 ## List of publishing services
 
-<a href="https://lmu-osc.github.io/code-publishing/intro.html">Click here </a> (https://lmu-osc.github.io/code-publishing/intro.html) for the LMU OSC page on all you need to know about sharing, copyright, best practices and more.
+Check out [the LMU OSC page on sharing, copyright, best practices and more](https://lmu-osc.github.io/code-publishing/intro.html).
 :::
 
 ::: {.notes}
@@ -1362,7 +1373,7 @@ When sharing your work, it's important to follow established **rules and standar
 A great option to share your document is **publishing to GitHub**.
 
 - **GitHub** is a platform for hosting and sharing code and projects online
-- An advantage of GitHub is it allows for **version control**- the ability to track and manage changes over time
+- An advantage of GitHub is it allows for **version control**: the ability to track and manage changes over time
 - A free and widely used way to publish your Quarto document to GitHub is by using **GitHub Pages**
 :::
 
@@ -1379,10 +1390,14 @@ A great option to share your document is **publishing to GitHub**.
 
 **GitHub Pages** enables you to publish content based on source code managed within a GitHub repository.
 
-- **3 methods** to publish a Quarto document to GitHub Pages:
-  1. Rendering your output to the `docs` directory and checking it into your repository
-  2. Using the `quarto publish` command 
-  3. Using GitHub Actions to auto-render and publish whenever you push changes
+:::incremental
+**3 methods** to publish a Quarto document to GitHub Pages:
+
+1. Rendering your output to the `docs` directory and checking it into your repository
+2. Using the `quarto publish` command 
+3. Using `GitHub Actions` to auto-render and publish whenever you push changes
+
+:::
 
 ::: {.notes}
 **Speaker Notes**: GitHub Pages makes it possible to publish Quarto content as a live website, directly from your GitHub repository. There are three main ways to do this:
@@ -1414,7 +1429,7 @@ Let's publish our document using the first method:
 Work directly from the **Terminal** in RStudio. 
 
 - For Mac and Linux users, simply open a new Terminal by clicking "`Terminal`" → then "`New Terminal`"
-- Windows users can connect to **Git Bash** with "`Terminal`" → "`Terminal Options...`", set it to open with Git Bash then open a new terminal. 
+- Windows users can connect to **Git Bash** with "`Terminal`" → "`Terminal Options...`", set it to open with Git Bash, then open a new terminal. 
 
 :::::: columns
 ::: column
@@ -1447,7 +1462,7 @@ project:
   output-dir: docs
 ```
 - [ ] Open a new Terminal (for Windows users, first set to open with Git Bash)
-- [ ] Change the working directory of the Terminal to the folder containing your Quarto files. Do this by entering `cd` followed by the file path on your device wrapped in quotations
+- [ ] Change the working directory of the Terminal to the folder containing your Quarto files: do this by entering `cd` followed by the file path on your device wrapped in quotations
 
 Here is an example of setting the directory using `cd`: 
 ![](images/14_Terminal_cd_Command.png){width="50%" fig-alt="Screenshot of the Terminal with the 'cd' command setting the directory to 'Quarto'."}
@@ -1490,14 +1505,14 @@ Sometimes in the Terminal, just copying and pasting will run the command, but yo
 
 ## Practical exercise 10
 
-- [ ] Make a simple `_quarto.yml` file by copying and pasting the following in the Terminal:
+- [ ] Copy the following and make a simple `_quarto.yml` file by running it in the Terminal:
 
 ```{.textbox}
 echo "project:
   type: website
   output-dir: docs" > _quarto.yml
 ```
-- [ ] Copy and paste the following into the Terminal to add a `.nojekyll` file:
+- [ ] Next, copy the following and run it in the Terminal to add a `.nojekyll` file:
 
 ```{.textbox}
 touch .nojekyll
@@ -1511,18 +1526,23 @@ Adding a `.nojekyll` file to the root of your repository tells GitHub Pages not 
 
 ::: {.notes}
 **Speaker Notes**: Here, we’re setting up the basic project files GitHub Pages needs in order to publish our Quarto website. First, we’ll create a `_quarto.yml` file using the Terminal. This file tells Quarto that the project is a website and that the rendered output should go into the docs folder. Next, we’ll add a special file called `.nojekyll`. By default, GitHub Pages uses Jekyll to process websites, but that can interfere with Quarto’s output. Adding a `.nojekyll` file tells GitHub Pages to leave our site exactly as Quarto created it.
+
+**Instructor Notes**: By "run in the Terminal", it means to copy & paste the commands provided and run it in the Terminal. Keep in mind:
+
+- Pasting text in terminals may not work with keyboard shortcuts, safest option is to right-click and select "Paste"
+- Sometimes simply pasting the text runs the command and other times you need to hit Enter/Return on your keyboard to run the command
 :::
 
 ---
 
 ## Practical exercise 10
 
-- [ ] Copy and paste the following into Terminal to generate HTML in the `docs/` folder:
+- [ ] Copy and run the following in Terminal to generate HTML in the `docs/` folder:
 
 ```{.textbox}
 quarto render
 ```
-- [ ] Copy and paste the following into Terminal- this initializes Git and renames "master" to "main":
+- [ ] Copy into the terminal and run the following- this initializes Git and renames "master" to "main":
 
 ```{.textbox}
 git init
@@ -1543,7 +1563,7 @@ You may see a warning about "`references.bib not found in resource path`" which 
 
 - [ ] Go to [GitHub](github.com) and create a new repository
 - [ ] In the Terminal, connect to a local project by using "`git remote add origin`" followed by the repo's HTTPS URL (for example, "`git remote add origin https://github.com/yourname/chickweight-exercise.git`")
-- [ ] Copy and paste the following into Terminal to render your site and push it to GitHub:
+- [ ] Copy and run following into the Terminal to render your site and push it to GitHub:
 
 ```{.textbox}
 quarto render
@@ -1676,10 +1696,10 @@ After learning about Quarto in today's lesson, use this homework assignment to:
 - **Build confidence** in editing YAML header, adding code chunks, and customizing the layout
 
 <div style="text-align: center;">
-  <a href="assets/OS-M3-S6-Quarto-Homework_Assignment.pdf" download 
+  <a href="assets/OS-M3-S6-Quarto-Activity_Sheet.pdf" download 
      style="background-color:#007ACC; color:white; padding:8px 14px; border-radius:4px; 
             text-decoration:none; font-weight:500;">
-    Download the Quarto Homework Assignment
+    Download the Quarto Activity Sheet
   </a>
 </div>
 
@@ -1687,7 +1707,7 @@ After learning about Quarto in today's lesson, use this homework assignment to:
 **Speaker Notes**: This homework activity builds on the document created during this lesson to add more to the content and layout. It contains activities that take what we practiced today one step further. Each item builds on the knowledge and exercises that were covered in this session. 
 
 **Instructor Note**: 
-- Aim- to reinforce what was learned in this session and to have an opportunity to apply the knowledge in a more challenging way. Use this homework sheet as it is or use it as an example to create your own based on the needs of the class or the specific requirements for future lessons. Consider the following: 
+- Aim- to reinforce what was learned in this session and to have an opportunity to apply the knowledge in a more challenging way. Use this activity sheet for a homework assignment as it is or use it as an example to create your own based on the needs of the class or the specific requirements for future lessons. Consider the following: 
 
 - Examine whether/how it will be assessed 
 
@@ -1762,7 +1782,7 @@ See you next class :)
 
 - Relevant practical exercises follow each section to encourage students to learn-by-doing
 - <a href="assets/OS-M3-S6-Quarto-Cheatsheet.pdf" download>Downloadable cheatsheet as a PDF</a> for a compact summary of all the topics covered in the session 
-- <a href="assets/OS-M3-S6-Quarto-Homework_Assignment.pdf" download>Downloadable homework assignment sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently. 
+- <a href="assets/OS-M3-S6-Quarto-Activity_Sheet.pdf" download>Downloadable activity sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently. 
 - [Link to advanced Quarto activities](https://lmu-osc.github.io/introduction-to-Quarto/quarto_exercises.html) for faster learners who want to gain deeper knowledge on Quarto and its possibilities
 
 ---
