@@ -1,6 +1,6 @@
 ---
-title: "Template Slides: Title of submodule"
-author: "Author"
+title: "Introduction to Zotero"
+author: "Tejaswini Sharma"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
@@ -13,8 +13,11 @@ format:
     geometry: 
       - top=30mm
       - left=30mm
-  pptx: 
-    css: ../../../slides-custom.css # looks for css file in root
+  #pptx: 
+    #css: ../../slides-custom.css # looks for css file in root
+
+bibliography: assets/references.bib
+csl: assets/apa.csl
 
 execute:
   echo: true
@@ -22,74 +25,74 @@ execute:
   engine: knitr
 ---
 
-## Credit statement and licence
-
-Possible roles using the CRediT contribition system: 
-
-**Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
+## Licence
 
 <br>
-<br>
 
-<div style="font-size: 0.6em;">
-This work by YYY XXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by Pat Callahan and Dejana Damjanovic under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) and a CC0 1.0 [Creative Commons Universal](https://creativecommons.org/publicdomain/zero/1.0/) licence for code snippets. It was subsequently adapted and revised by [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895) during her time at Reproducible Research Oxford. This current work by Tejaswini Sharma and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
 </div>
 
 ::: {.notes}
-*Speaker Notes*
-These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
-
-*Instructor Notes*
-There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+**Speaker Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
 :::
+
+---
+
+## Contribution statement
+
+<br>
+
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0009-0000-0305 9751))
+
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
 ---
 
 ## Prerequisites
 
 ::: {.callout-important}
-Before completing this submodule, please carefully read about the necessary prerequisites.
+Before completing this submodule, please carefully read the following prerequisite.
 :::
 
-| Prerequisite   |  Description  | Link/Where to find it   |
-|------------|------------|------------|
-| Topic Name | Basic intro to X | Module + Submodule |
-| Software Name | Configuring the environment | [Download Link](https://quarto.org) |
-
-::: notes
-*Speaker Notes*
-Script for the presentation here. 
-:::
-
----
-
-## Questions from previous submodule
-
-- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
-- Additional slides may need to be added depending on the nature of the homework assignments. 
-- Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. 
-- Not applicable if this set of slides corresponds to the first submodule of a new module. 
+- [ ] Have a familiarity with the concept of **literature review**; how and where to access scientific papers, such as *Google Scholar*. 
+  
+<div style="text-align:center;">
+  <img src="images/GoogleScholar.png" style="width:60%;">
+</div>
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Before we begin this submodule, please take a moment to review the prerequisite listed here.
+You should already be familiar with the basic idea of a literature review, including how to search for and access scientific papers, on platforms such as like Google Scholar. Here is an image of the Google Scholar interface with some papers displayed. <br>
+**Instructor Notes**: Before proceeding, briefly confirm that students are comfortable with the concept of a literature review and know how to locate academic articles. If needed, give a detailed overview of the Google Scholar interface, or have them navigate it online by themselves.
 :::
 
 ---
 
 ## Before we start: Survey time!
 
-- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the sumodule's topic.
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides).
+- **Aim**: The pre-submodule survey serves to examine learners' prior knowledge about citing literature and using Zotero.
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Before we move on, we’ll take a short survey.
+The aim here is simply to understand your current familiarity. <br>
+In the next few slides, you’ll see some questions that invite you to reflect on where you’re starting from.
+This isn’t a test, and it’s not about getting the right answers.
+If you’re unsure, that’s completely fine — just respond based on what feels closest to your current understanding. <br> 
+**Instructor Notes**: Set a low-stakes, supportive tone before beginning the survey. Emphasise that uncertainty is expected and valuable for measuring learning progress.
 :::
 
 ---
 
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+**What is your level of familiarity with citing and referencing scientific papers?**
 
 a. I have never heard of it before.
 
@@ -101,22 +104,8 @@ d. I am very familiar and have worked with it extensively.
 
 ---
 
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
-
----
-
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]?
-(1 = Not comfortable at all, 5 = Very comfortable)**
+**How confident do you feel with the Zotero workflow of collection, organisation, and citing?** 
+*(1 = Not confident at all, 5 = Very confident)*
 
 a. 1
 
@@ -132,254 +121,344 @@ e. 5
 
 ## Discussion of survey results
 
-- **Aim"**: Briefly examine the answers given to each question interactively with the group.
-- Use visuals from the survey to highlight specific answers.
+
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
 
 ::: {.notes}
-*Speaker Notes*
-Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
-:::
-
----
-
-## Where are we at?
-
-- **Aim**: Place the topic of the current submodule within a broader context.
-- Remind students what you are working towards and what the bigger picture is.
-
-::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Let us have a look at these results. <br>
+**Instructor Notes:** The aim is to understand the group’s current standing in terms of knowledge and familiarity with citing literature and using Zotero. Emphasise explicitly that the survey is not about correct or incorrect answers. Avoid evaluating answers or revealing correct ones.
 :::
 
 ---
 
 ## Learning goals
 
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
-
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-- Examples: 
-  - Students will **describe** the process of photosynthesis or
-  - Students will **construct** a diagram illustrating the process of photosynthesis
+:::incremental
+- [ ] To understand the importance of citing scientific literature.
+- [ ] To understand how to create citations and bibliography.
+- [ ] To get a brief overview of a citation tool, Zotero.
+:::
   
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
-:::
-
----
-
-### Covered in in this session
-
-- **Aim**: This slides serves as an overview of the topics that are discussed, presented as bullet point:
-- Topic 1
-- Topic 2
-- Topic 3
-
-::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
-:::
-
----
-
-## Key terms and definitions
-
-- **Aim**: Introduce key terms and definitions that students will come across throughout the session.
+**Speaker Notes**: This slide outlines the learning goals for the session.
+At this stage, you’re not expected to fully understand or master all of these points.
+Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know.
+You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.
 <br>
-
-- **Key Term 1**: Definition
-- **Key Term 2**: Definition
-- **Key Term 3**: Definition
-
-::: {.notes}
-*Speaker notes*
-Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
+**Instructor Notes**: Use this slide to set expectations and reduce pressure. Emphasise that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials.
+<br>
+**Accessibility Tip:** Read the learning goals aloud and pause briefly between them to reduce cognitive load.
 :::
 
 ---
 
-## Introduction of submodule topic
+## What are Citations and References?
 
-- **Aim**: Core theoretical introduction of submodule topic.
-- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
-- Use multiple slides for this part.
+::: {.callout-tip title = "Imagine This" .fragment}
+Imagine reading various scientific papers to collect knowledge (**review of literature**).  
+And when you share this knowledge, you'd be asked: *"What is the source?"*
+:::
+
+<div class="fragment" style="text-align: center; margin-top: 1em;">
+  <img src="images/TrustMeBro.jfif" style="width:50%;" />
+</div>
+
+::: {.fragment}
+Thus, you need to **cite** the source of your knowledge; in this case, a scientific paper.
+:::
 
 ::: {.notes}
-*Speaker notes*
-For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
+**Speaker Notes**:  
+“Imagine reading various scientific papers to collect knowledge (review of literature).
+When you share this knowledge, you’d be asked: “What is the source?” Let’s imagine it bizarre: someone claims that eating aloe vera improves your dance skills. <br> 
+In everyday life, you might respond, ‘Trust me, bro!’ and leave it at that.  
+But in the science world, we need to provide evidence for every claim we make.  
+When you collect knowledge from scientific papers — your literature review — and share it, others will naturally ask, ‘Where did this information come from?’ <br> 
+This is why we cite sources: to show the origin of our knowledge and allow others to verify or follow up on it.”
+<br>
+**Instructor Notes**:  
+Use this humorous, relatable example to introduce the concept of citations and references (feel free to edit the example). Highlight the difference between casual claims and scientific claims to make the importance of referencing concrete. Encourage students to think of examples from their own fields where citing sources would be necessary.
 :::
 
 ---
 
-## Submodule content slide
+## What are Citations and References?
 
-- **Aim**: Present relevant content
-- Highlight particularly important aspects with Quarto call-out boxes, for example: 
+- **Citations** are the in‑text pointers to sources you use (e.g., Sharma, 2025). 
 
-::: {.callout-important}
-## Important with Title
+<div style="text-align: center; margin-top: 1em;">
+  <img src="images/Citation.jpg" style="width:50%;" />
+  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a citation.</em></div>
+</div>
 
-This is an example of a callout box to highlight particularly important information.
+- Whereas, **references** are the full bibliographic details listed at the end of a paper [@aksnes_citations_2019].
+
+<div style="text-align: center; margin-top: 1em;">
+  <img src="images/Reference.jpg" style="width:50%;" />
+  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a reference (list).</em></div>
+</div>
+
+::: {.notes}
+**Speaker Notes**:  
+This slide shows the difference between citations and references.  
+Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper. <br> 
+References, on the other hand, appear at the end of a paper and provide the full details needed to locate the source. This will allow you to access the 'source of the information' and see for yourself what the paper entails. 
+Together, citations and references make it possible for others to trace your claims back to the original research.
+<br>
+**Instructor Notes**:  
+Emphasise the functional distinction between citations and references rather than formatting details. Discuss the workflow of navigating citations and references while reading a research paper. Use the images as visual anchors to reinforce where each appears in a paper. Avoid going into citation styles here; the goal is conceptual clarity, not technical mastery.
+<br>
+**Accessibility Tips**:  
+Verbally describe what is shown in each image for students who may not be able to see them clearly. Allow a brief pause after each definition so students have time to connect the text explanation with the visual example.
 :::
+
+---
+
+## Why are they needed?
+
+- **Show what comes from others:** References show which ideas and words are yours and which are taken from other people, so you do not steal their work and they get credit.
+
+- **Back up what you say:** References point to earlier studies that support your claims, so readers can see where your ideas fit and how trustworthy they are.
+
+- **Let others double-check you:** Clear citations help others follow your steps, spot mistakes or misquotes, and use your work to do new studies.
+
+- **Connect ideas and track influence:** Citations link papers into a big web of knowledge and are often used (not perfectly) to see which work has had a big impact.
+
+[@aksnes_citations_2019]
+
+::: {.notes}
+**Speaker Notes**:  
+This slide explains why citations and references are needed in research. <br>
+They show which ideas come from other researchers, so credit goes where it’s due and we avoid presenting others’ work as our own.  
+They also help back up what we say by pointing readers to earlier studies that support our claims.  
+Citations make it possible for others to double-check our work, spot mistakes, or build on it in future research.  
+They also connect ideas across papers, creating a larger network of knowledge and helping us track how research influences later work.  
+And just to practice what we’re preaching: these points are taken from a paper by Aksnes and colleagues from 2019.  
+So now you know exactly where this knowledge comes from, and if you don’t believe me, you can always check from the reference at the end.
+<br>
+**Instructor Notes**:  
+Use this slide to reinforce both the practical and ethical reasons for citing sources. The humorous self-reference helps model good scholarly behaviour in action. Emphasise that citations are not about bureaucracy, but about trust, accountability, and connection within the scientific community.
+<br>
+:::
+
+---
+
+## How to cite and refer to a scientific paper?
+
+- **Citation**: In the text, you usually mention **author and year**. <br> 
+<div style="font-size: 0.8em;">  
+For example: “Recent results support this view (Miller & Rossi, 2021).”
+</div>
+
+- **Reference List**: Here, you provide the full **bibliographic information**: <br>
+<div style="font-size: 0.8em;">  
+  1. Author: all authors’ last names and initials. <br>
+  2. Date: When it was published (usually the year).
+  3. Title: What the article is called.
+  4. Source: Where it was published (journal name, volume, issue, page range, and DOI or URL if online). <br>
+For example: Miller, A. B., & Rossi, L. M. (2021). Title of the article. *Journal Name, 12(3)*, 45–60. https://doi.org/xx.xxx/yyyy. <br>
+*Note: Listed in an alphabetical order.* <br>
+</div>
+
+::: {.callout-note}
+The *exact formatting* depends on the citation format. 
+:::
+
+::: {.notes}
+**Speaker Notes**:  
+This slide shows the basic idea of how to cite and reference a scientific paper.  
+In the text, citations are usually short and include the author’s name and the year of publication.  
+At the end of a paper, the reference list contains the full details, such as the authors, year, title, and where the work was published.  
+These references are typically listed in alphabetical order. <br>  
+Do note: the exact formatting depends on the citation style, and we’ll briefly look at some common formats on the next slide. In the current example, the formatting used is APA.
+It’s also useful to find out which citation style your department or field expects you to use.
+<br>
+**Instructor Notes**:  
+Keep the focus on structure rather than memorising formatting rules. Reinforce that citation styles vary across disciplines and that students should always check departmental or journal guidelines. Use this slide as a bridge to the next one, where citation formats are introduced.
+<br>
+**Accessibility Tips**:  
+Read the example citation aloud and slow down when listing the reference components to reduce cognitive load. 
+:::
+
+---
+
+## Formats of Citations
+
+<div style="font-size: 0.6em;"> 
+| Style                  | Typical fields/usage                     | In‑text example           | Reference list example (journal article)                                                                                |
+| ---------------------- | ---------------------------------------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| APA                    | Social sciences, education               | (Smith & Lee, 2023)       | Smith, J., & Lee, K. (2023). Title of the article. Journal Name, 12(3), 123–145. https://doi.org/xx.xxx/yyyy ​ |
+| MLA                    | Humanities (literature, languages, etc.) | (Smith and Lee 123)       | Smith, John, and Karen Lee. “Title of the Article.” Journal Name, vol. 12, no. 3, 2023, pp. 123–145. ​         |
+| Chicago (Notes-Biblio) | History, arts (footnotes/endnotes)       | ¹ or (see note 1)         | Smith, John, and Karen Lee. “Title of the Article.” Journal Name 12, no. 3 (2023): 123–145. ​                  |
+| Chicago (Author‑Date)  | Some sciences, social sciences           | (Smith and Lee 2023, 123) | Smith, John, and Karen Lee. 2023. “Title of the Article.” Journal Name 12 (3): 123–145. ​                      |
+| Harvard                | Widely used “author‑date” in Europe/UK   | (Smith and Lee, 2023)     | Smith, J. and Lee, K. (2023) ‘Title of the article’, Journal Name, 12(3), pp. 123–145. ​                       |
+| IEEE                   | Engineering, computer science            | ​                | ​ J. Smith and K. Lee, “Title of the article,” Journal Name, vol. 12, no. 3, pp. 123–145, 2023.      |
+</div>
 
 ::: {.callout-tip}
-## Tip with Title
-
-This is an example of a callout box to give important tips. 
+## Short Exercise
+Use a minute to find out which citation format is used in your field. 
 :::
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
-:::
-
----
-
-## Practical exercise 1
-
-- **Aim**: Design more practical exercises for students to apply the new skills in practise.
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
-
-- [x] Step 1
-- [ ] Step 2
-- [ ] Step 3
-
-::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**:  
+This table shows some of the most common citation formats used across different disciplines.  
+You’re not expected to learn or memorise any of these.  
+Think of this slide as a reference point, showing that citation styles differ depending on the field. 
+Take a moment to scan the table and notice how the same information is organised slightly differently in each format. <br>
+The short exercise is simply to help you identify which citation style is commonly used in your own discipline.
+<br>
+**Instructor Notes**:  
+Keep this slide brief and exploratory. Avoid explaining each format in detail; the goal is awareness, not mastery. Encourage students to visually compare formats and notice recurring elements such as authors, year, title, and source. Use the exercise to prompt independent discovery and reinforce the idea that citation conventions are field-specific.
+<br>
 :::
 
 ---
 
-## Pre-break survey
+## What are Critations Tools
 
-- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
+**Citation tools (or reference managers)** are apps or websites that help you *collect, organize, and format citations* for school papers or research. Like, Zotero, Mendeley, Citavi.
+
+- **What they do?:** save bibliographic information *in one-click*; create in-text citation; add references *automatically*.
+- **Why are they useful?:** they are *accurate, consistent, and efficient*; can handle multiple citation formats.
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**:  
+Imagine working on an assignment where you’ve opened dozens — maybe even hundreds — of paper tabs in your browser.  
+You’re scrolling back and forth, trying to remember where a quote came from or which paper supported which idea, and things start to feel messy and overwhelming.  
+This is where citation tools come in. <br>  
+Citation tools, also called reference managers, are apps or websites like Zotero, Mendeley, or Citavi that help you collect, organise, and format your sources in one place.  
+They can save bibliographic information with one click, generate in-text citations, and automatically build your reference list.  <br>
+They improve accuracy and consistency by remembering all the important details — like the author, year, and title — and formatting every citation the same way, so you’re less likely to make mistakes.
+They also save a lot of time. Instead of typing citations and reference lists manually, the tool can generate them for you automatically.  
+Another big advantage is that they can handle multiple citation styles. If a course or journal asks for a different format, you can switch styles with just a few clicks, rather than rewriting everything from scratch.
+<br>
+**Instructor Notes**:  
+Reinforce the practical benefits of citation tools using everyday student experiences. Emphasise that these tools reduce errors, save time, and adapt easily to different citation requirements. Avoid framing them as shortcuts; instead, present them as good scholarly practice that supports accuracy and efficiency.
 :::
 
 ---
 
-**Which species is the largest type of penguin**?
+## Bried Overview of Zotero
 
-a. Chinstrap Penguin
+#### How Zotero Works? <br>
+<div style="font-size: 0.8em;">
+- **Collection**: One-click saving of metadata from literature databases, and websites. <br>
+- **Organization**: Items can be grouped into collections, tagged, and searched. <br>
+- **Citing and Referencing**: Plugins for Word, Quarto, and Google Docs generate in‑text citations and bibliographies automatically.
+</div>
 
-b. Emperor Penguin ✅
-
-c. Adélie Penguin
-
-d. King Penguin
-
----
-
-**What is the key biological feature that helps penguins swim efficiently?**
-
-a. Hollow bones for buoyancy
-
-b. Webbed feet for paddling
-
-c. Waterproof feathers and flipper-like wings ✅
-
-d. Gills to breathe underwater
-
----
-
-# Break! 15 minutes
-
----
-
-## Post-break survey discussion
-
-- **Aim**: To clarify concepts and aspects that are not yet understood
-- Highlight specific answers given during the survey
+<div style="text-align: center;">
+  <img src="images/Zotero.png" style="width:70%;" />
+  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Zotero Interface.</em></div>
+</div>
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**:  
+This slide gives a very brief overview of Zotero.  
+Zotero is a citation tool that helps you collect, organise, and cite your sources in one place.  
+You can save references with a single click from databases or websites, organise them into collections or with tags, and search through them easily.  
+Zotero also connects directly to tools like Word, Quarto, and Google Docs, where you insert citations and build your reference list automatically. <br>  
+The image shows the Zotero interface, with your saved items in the centre, collections on the left sidebar, and detailed information for each item on the right sidebar.  
+We’ll only briefly look into this, because you’ll move straight into a hands-on tutorial where you’ll learn how to use Zotero in practice.
+<br>
+**Instructor Notes**:  
+Keep this introduction surface-level and avoid demonstrating features in detail. The purpose is orientation, not instruction. Use the interface image to help students recognise Zotero when they open it themselves. Let them take a minute to see the interface image to build familiarity. Clearly signal the transition to the practical tutorial, where they will actively work with the tool.
+<br>
+**Accessibility Tips**:  
+Verbally describe the layout shown in the image for students who may have difficulty seeing it clearly. Reassure students that they will not need to remember details from this slide, as the upcoming tutorial will walk them through the steps at a comfortable pace.
 :::
 
 ---
 
-## Practical exercise 2
+## Learning Goals Check-In
 
-- **Aim**: Design more practical exercises for students to apply the new skills in practise.
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
 
-- [x] Step 1
-- [ ] Step 2
-- [ ] Step 3
+:::incremental
+- [ ] To understand the importance of citing scientific literature.
+- [ ] To understand how to create citations and bibliography.
+- [ ] To get a brief overview of a citation tool, Zotero.
+:::
 
 ::: {.notes}
-*Speaker notes*
-For students who advance faster: Prepare extra exercises. 
+**Speaker Notes**:  
+Let’s pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one.<br> If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.
+<br>
+**Instructor Notes**:  
+Use this slide to encourage self-reflection rather than evaluation. Emphasise that students are not expected to feel equally confident about all goals at this stage. Invite questions related to understanding the purpose of citations, the basics of creating citations and bibliographies, or the role of Zotero. Keep the discussion supportive and brief, focusing on clarifying concepts rather than introducing new material.
 :::
 
 ---
 
-## Relevance and implications
+## On to the tutorial
 
-- **Aim**: To work out the relevance of the topic to your students.
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-- Examine downfalls and practical obstacles.
+
+Now, we shall work individually on a *self-paced tutorial* on **Zotero**:
+
+<div style="font-size: 0.8em;">
+| Introduction to Zotero |
+|------------|------------|
+| [Link to tutorial](https://lmu-osc.github.io/introduction-to-zotero/background/zotero_basics.html) |
+</div>
+
+
+:::{.callout-tip}
+## Tip
+Since this is a self-paced tutorial, *take your time* on navigating it; and it can be finished at home as well.
+:::
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Now we’ll move on to the tutorial part of the session.
+You’ll work individually through a self-paced tutorial — focusing introducing Zotero, how to integrate with other platform, and practical exercises for you.
+Take your time as you go through them, and work at a pace that feels comfortable.
+There’s no expectation to finish everything right now, and you’re welcome to continue working on them at home.
+Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorials. <br>
+**Instructor Notes:** Clearly signal the shift from guided instruction to independent work. Remind students that the tutorial is self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Emphasise that the goal is understanding, not completion within the session. Do walk around the room to check up on the progress of the students. 
 :::
 
 ---
 
 ## Take-home message
 
-**Aim**: End lesson on clear take-home message that are interactively compiled by students.
+- Citations and references are how science says *“don’t just trust me—here’s where this comes from.”* 
+- They show which ideas are yours, which come from others, and let readers check the original papers. 
+- Citation tools like Zotero help you do this accurately and quickly, so you can focus more on understanding and explaining research than on formatting.
 
 ::: {.callout-tip}
-## Tip with Title
-
-Add one practical tips or take-home message.
+## Make Zotero a Habit
+Zotero can be your go-to tool for saving and citing studies, from assignments to thesis.
 :::
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
-:::
-
----
-
-## Assignment
-
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-- Examine whether/how it will be assessed
-- Mention scoring rubrics, if applicable
-- Design a peer-review system for assignments to place students in role of reviewer and author
-
-::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**:
+Wrap up by reinforcing the core idea: citations are about transparency and trust in science. Emphasise that citing is not just a formal requirement, but a way to show where ideas come from and to help others follow the research trail. Highlight that tools like Zotero reduce the technical burden, allowing students to spend more time thinking critically about the literature rather than worrying about formatting details.
+<br>
+**Instructor Notes**:
+This is a closing slide—keep the tone encouraging and confidence-building. Connect the take-home message back to earlier examples (e.g., many open tabs, managing sources). Encourage students to start using Zotero early and consistently, even for small assignments, to build good academic habits over time.
 :::
 
 ---
 
 ## To conclude: Survey time!
 
-- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
+- **Aim**: This post-submodule survey serves to examine learners' current knowledge about citing literature and using Zotero.
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: To conclude, we’ll take a short survey.
+This post-session survey helps us understand your current level of knowledge about citing literature and using Zotero after completing the submodule.
+Please answer honestly based on how confident you feel now. 
+**Instructor Notes**: The purpose is to compare pre- and post-submodule responses to evaluate learning progress and the effectiveness of the tutorial. Encourage the students to share in class. Use this space to answer doubts, and provide learning or practice tips if the students still feel under-confident in any areas.
 :::
 
 ---
 
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+**What is your level of familiarity with citing and referencing scientific papers?**
 
 a. I have never heard of it before.
 
@@ -391,22 +470,8 @@ d. I am very familiar and have worked with it extensively.
 
 ---
 
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
-
----
-
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]?
-(1 = Not comfortable at all, 5 = Very comfortable)**
+**How confident do you feel with the Zotero workflow of collection, organisation, and citing?** 
+*(1 = Not confident at all, 5 = Very confident)*
 
 a. 1
 
@@ -422,23 +487,28 @@ e. 5
 
 ## Discussion of survey results
 
-- **Aim**: Briefly examine the answers given to each question interactively with the group.
-- Compare and highlight specific differences in answers between pre- and post-survey answers
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
 
 ::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+**Speaker Notes**: Script for the slide here.
+
+**Instructer Notes**:
+- **Aim**: Briefly examine the answers given to each question interactively with the group.
+
+- Compare and highlight specific differences in answers between pre- and post-survey answers
 :::
 
 ---
 
-## References
+## References {.smaller}
 
-- Provide literature you refer to throughout this lesson.
-
-::: {.notes}
-*Speaker Notes*
-Script for the presentation here. 
+::: {#refs}
 :::
 
 ---
@@ -450,297 +520,14 @@ See you next class :)
 
 ## Pedagogical add-on tools for instructors
 
-- This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
-  - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
-  - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
-  - Extra exercises for faster students.	
+- (have an idea for this part; will add in soon)	
 
 ---
 
-## Additional literature for instructors
+## CREDiT Contribution Statement
 
-- References for content
-- References for pedagogical add-on tools	
-- Other resources (videos etc.)	
+Possible roles using the CRediT contribition system or the Zenodo Contribution System: 
 
----
-
-# Formatting elements for instructors
-
-- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. 
-
----
-
-## Text with example links
-
-- [Quarto Documentation](https://quarto.org/docs/)
-- [Reveal.js Documentation](https://revealjs.com/)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [GitHub](https://github.com/)
-
----
-
-## Basic text formatting
-
-- **Bold:** `**bold**` → **bold**
-- *Italic:* `*italic*` → *italic*
-- ~~Strikethrough:~~ `~~text~~` → ~~text~~
-- `Inline code:` `` `code` `` → `code`
-- > Blockquote: `> Quote` →  
-  > "This is a quote"
-  
----
-
-## Figure with caption
-
-- Centered image and caption below in italics
-
-<div style="text-align: center;">
-  <img src="images/penguin.png" style="width:50%;" />
-  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>This is a Penguin.</em></div>
-</div>
-
----
-
-## Figure with bullet points
-
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-
-  <!-- Left side: single image -->
-  <div style="flex: 1; text-align: center;">
-    <img src="images/penguin.png" style="width: 100%;" />
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
-
-</div>
-
----
-
-## Side-by-side figures
-
-```{=html}
-<div style="display: flex; justify-content: center; gap: 2em; align-items: flex-start;">
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/penguin.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 1: Penguin</em></div>
-  </div>
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/seal.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 2: Seal</em></div>
-  </div>
-
-</div>
-
-```
-
----
-
-## Stacked figures with text
-
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 0.5em;">
-
-  <!-- Left side: two images stacked vertically -->
-  <div style="flex: 1; display: flex; flex-direction: column; gap: 0.5em;">
-
-    <img src="images/penguin.png" style="width: 60%;" />
-    <img src="images/seal.png" style="width: 60%;" />
-
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
-
-</div>
-
----
-
-## Two-column text slide
-
-<div style="display: flex; gap: 2em;">
-
-  <div style="flex: 1;">
-  **Column 1**
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-  Vivamus lacinia odio vitae vestibulum vestibulum.  
-  Cras venenatis euismod malesuada.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 2**
-
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-  </div>
-
-</div>
-
----
-
-## Three-column text slide
-
-<div style="display: flex; gap: 1em;">
-
-  <div style="flex: 1;">
-  **Column 1**
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-  Vivamus lacinia odio vitae vestibulum vestibulum.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 2**
-
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 3**
-
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  </div>
-
-</div>
-
----
-
-## Simple table
-
-<div style="height: 2cm;"></div>
-
-
-| Column 1   | Column 2   | Column 3   |
-|------------|------------|------------|
-| Row 1 Cell | Row 1 Cell | Row 1 Cell |
-| Row 2 Cell | Row 2 Cell | Row 2 Cell |
-| Row 3 Cell | Row 3 Cell | Row 3 Cell |
-| Row 4 Cell | Row 4 Cell | Row 4 Cell |
-
----
-
-## Complex table
-
-<div style="height: 2cm;"></div>
-
-```{=html}
-
-<table style="border-collapse: collapse; width: 100%;">
-
-  <thead>
-    <tr style="background-color: #093; color: white; font-weight: bold;">
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 1</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 2</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 3</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr style="background-color: white; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-    </tr>
-    <tr style="background-color: #f0fff0; color: black;"> <!-- very light green -->
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-    </tr>
-    <tr style="background-color: white; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-    </tr>
-    <tr style="background-color: #f0fff0; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-    </tr>
-  </tbody>
-
-</table>
-
-```
----
-
-## Task list
-- [x] Done
-- [ ] To do
-
----
-
-## Embedding videos
-
-<div style="text-align: center;">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/q3uXXh1sHcI"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
-
----
-
-## Code blocks
-
-```{r}
-# A basic R code chunk
-x <- 1:10
-mean(x)
-
-
-# A simple plot
-hist(rnorm(100), main = "Histogram of Random Normals")
-
-```
-
----
-
-## Attribution and license details
-
-- This slide should contain information about the license and attribution details of this current set of slides. 
-
-- The default for the created materials is [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/)
-  - = Creative Commons license that allows others to **share, adapt, and build upon** the original work
-  - **only** if they attribute the creator and also share their new work under the **same terms**
-  - allows for both **commercial and non-commercial** use of the licensed material
-
-- Components of attributions: 
-  - `Title`
-  - `Author`
-  - `Source`
-  - `License`
-
----
-
-## Example attribution (for previous slide)
-
-"[Tutorial template for student track](https://github.com/SvonGrebmer/Template-Slides-Students)" by Sarah von Grebmer is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).
+**Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
 ---
