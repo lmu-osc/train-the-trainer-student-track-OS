@@ -25,6 +25,16 @@ execute:
   engine: knitr
 ---
 
+## Feedback slide - delete at the end
+<div style="color: red; font-size: 0.6em;">
+  - Revise your learning goals in terms of Blooms Taxonomy, levels 1 - 4
+  - Align your learning goals with the learning activities you are asking your learners to complete during the session
+</div>
+
+
+
+---
+
 ## Licence
 
 <br>
@@ -137,30 +147,71 @@ What do we see in the results?
 
 ---
 
-## Learning goals
+## Where are we at? - might not be applicable here since it is the first submodule?
 
-:::incremental
-- [ ] To understand the importance of citing scientific literature.
-- [ ] To understand how to create citations and bibliography.
-- [ ] To get a brief overview of a citation tool, Zotero.
-:::
-  
+**Previously**:
+
+- Point 1
+- Point 2
+
+<div style="background-color: #f0f0f0;">
+**Up next**:
+
+- Point 1
+- Point 2
+</div>
+
+
 ::: {.notes}
-**Speaker Notes**: This slide outlines the learning goals for the session.
-At this stage, you’re not expected to fully understand or master all of these points.
-Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know.
-You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.
-<br>
-**Instructor Notes**: Use this slide to set expectations and reduce pressure. Emphasise that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials.
-<br>
-**Accessibility Tip:** Read the learning goals aloud and pause briefly between them to reduce cognitive load.
+**Speaker Notes**: Script for the slide here.
+
+**Instructor Notes**: <br>
+- **Aim**: Place the topic of the current submodule within a broader context.
+- Remind learners what you are working towards and what the bigger picture is.
 :::
 
 ---
 
-## What are Citations and References?
+## Covered in this session
 
-::: {.callout-tip title = "Imagine This" .fragment}
+- **Aim**: This slides serves as an overview of the topics that are discussed, presented as bullet point:
+- Topic 1
+- Topic 2
+- Topic 3
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+:::
+
+---
+
+## Learning goals
+
+:::incremental
+- To **understand** the importance of citing scientific literature.
+- To **understand** how to create citations and bibliography.
+- *To get a brief overview of a citation tool, Zotero - rephrase*
+:::
+
+<div style="color: red; font-size: 0.6em;">
+ I think your learning goals should go beyond understanding (think about Blooms taxnomy, levels 1-4, this is what we would like to incorporate here). The session is quite practical, so learners will go beyond just understanding, right? Think about the activities that you have your learners complete in the course of this session, and then think about how to align your learning goals accordingly. 
+</div>
+
+  
+::: {.notes}
+**Speaker Notes**: This slide outlines the learning goals for the session.At this stage, you’re not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.
+
+**Instructor Notes**: Use this slide to set expectations and reduce pressure. Emphasise that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials.
+
+**Accessibility Tip:** Pause briefly between them to reduce cognitive load.
+:::
+
+---
+
+## What are citations and references?
+
+::: {.callout-tip}
+## Imagine this
 Imagine reading various scientific papers to collect knowledge (**review of literature**).  
 And when you share this knowledge, you'd be asked: *"What is the source?"*
 :::
@@ -169,6 +220,12 @@ And when you share this knowledge, you'd be asked: *"What is the source?"*
   <img src="images/TrustMeBro.jfif" style="width:50%;" />
 </div>
 
+
+<div style="color: red; font-size: 0.6em;">
+  The image quality could be sharper, perhaps download the image again and make smaller in size? And convert  jfif to png? Also check out the content creation manual again about image naming.
+</div>
+
+
 ::: {.fragment}
 Thus, you need to **cite** the source of your knowledge; in this case, a scientific paper.
 :::
@@ -176,20 +233,20 @@ Thus, you need to **cite** the source of your knowledge; in this case, a scienti
 ::: {.notes}
 **Speaker Notes**:  
 “Imagine reading various scientific papers to collect knowledge (review of literature).
-When you share this knowledge, you’d be asked: “What is the source?” Let’s imagine it bizarre: someone claims that eating aloe vera improves your dance skills. <br> 
+When you share this knowledge, you’d be asked: “What is the source?” Let’s imagine a bizarre example: someone claims that eating aloe vera improves your dance skills. <br> 
 In everyday life, you might respond, ‘Trust me, bro!’ and leave it at that.  
-But in the science world, we need to provide evidence for every claim we make.  
-When you collect knowledge from scientific papers — your literature review — and share it, others will naturally ask, ‘Where did this information come from?’ <br> 
+But in the scientific world, we need to provide evidence for every claim we make.  
+When you collect knowledge from scientific papers, e.g., your literature review, and share it, others will naturally ask, ‘Where did this information come from?’ <br> 
 This is why we cite sources: to show the origin of our knowledge and allow others to verify or follow up on it.”
-<br>
-**Instructor Notes**:  
-Use this humorous, relatable example to introduce the concept of citations and references (feel free to edit the example). Highlight the difference between casual claims and scientific claims to make the importance of referencing concrete. Encourage students to think of examples from their own fields where citing sources would be necessary.
+
+**Instructor Notes**:  Use this humorous, relatable example to introduce the concept of citations and references (feel free to edit the example). Highlight the difference between casual claims and scientific claims to make the importance of referencing concrete. Encourage students to think of examples from their own fields where citing sources would be necessary.
 :::
 
 ---
 
-## What are Citations and References?
+## What are citations and references?
 
+:::incremental
 - **Citations** are the in‑text pointers to sources you use (e.g., Sharma, 2025). 
 
 <div style="text-align: center; margin-top: 1em;">
@@ -204,16 +261,14 @@ Use this humorous, relatable example to introduce the concept of citations and r
   <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a reference (list).</em></div>
 </div>
 
+:::
+
 ::: {.notes}
-**Speaker Notes**:  
-This slide shows the difference between citations and references.  
-Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper. <br> 
-References, on the other hand, appear at the end of a paper and provide the full details needed to locate the source. This will allow you to access the 'source of the information' and see for yourself what the paper entails. 
-Together, citations and references make it possible for others to trace your claims back to the original research.
-<br>
-**Instructor Notes**:  
-Emphasise the functional distinction between citations and references rather than formatting details. Discuss the workflow of navigating citations and references while reading a research paper. Use the images as visual anchors to reinforce where each appears in a paper. Avoid going into citation styles here; the goal is conceptual clarity, not technical mastery.
-<br>
+**Speaker Notes**:   This slide shows the difference between citations and references.  Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper. <br> 
+References, on the other hand, appear at the end of a paper and provide the full details needed to locate the source. This will allow you to access the 'source of the information' and see for yourself what the paper entails.Together, citations and references make it possible for others to trace your claims back to the original research.
+
+**Instructor Notes**:  Emphasize the functional distinction between citations and references rather than formatting details. Discuss the workflow of navigating citations and references while reading a research paper. Use the images as visual anchors to reinforce where each appears in a paper. Avoid going into citation styles here; the goal is conceptual clarity, not technical mastery.
+
 **Accessibility Tips**:  
 Verbally describe what is shown in each image for students who may not be able to see them clearly. Allow a brief pause after each definition so students have time to connect the text explanation with the visual example.
 :::
@@ -222,6 +277,13 @@ Verbally describe what is shown in each image for students who may not be able t
 
 ## Why are they needed?
 
+<div style="color: red; font-size: 0.6em;">
+  I vaguely remember from your outline that you thought about a small think-pairshare activity here? Or did I mix it up? I think this would fit here quite well - now they know what citing is, activiate their thinking brain :)
+</div>
+
+
+
+:::incremental
 - **Show what comes from others:** References show which ideas and words are yours and which are taken from other people, so you do not steal their work and they get credit.
 
 - **Back up what you say:** References point to earlier studies that support your claims, so readers can see where your ideas fit and how trustworthy they are.
@@ -232,19 +294,18 @@ Verbally describe what is shown in each image for students who may not be able t
 
 [@aksnes_citations_2019]
 
+:::
+
 ::: {.notes}
-**Speaker Notes**:  
-This slide explains why citations and references are needed in research. <br>
+**Speaker Notes**:  This slide explains why citations and references are needed in research. <br>
 They show which ideas come from other researchers, so credit goes where it’s due and we avoid presenting others’ work as our own.  
 They also help back up what we say by pointing readers to earlier studies that support our claims.  
 Citations make it possible for others to double-check our work, spot mistakes, or build on it in future research.  
 They also connect ideas across papers, creating a larger network of knowledge and helping us track how research influences later work.  
 And just to practice what we’re preaching: these points are taken from a paper by Aksnes and colleagues from 2019.  
 So now you know exactly where this knowledge comes from, and if you don’t believe me, you can always check from the reference at the end.
-<br>
-**Instructor Notes**:  
-Use this slide to reinforce both the practical and ethical reasons for citing sources. The humorous self-reference helps model good scholarly behaviour in action. Emphasise that citations are not about bureaucracy, but about trust, accountability, and connection within the scientific community.
-<br>
+
+**Instructor Notes**:  Use this slide to reinforce both the practical and ethical reasons for citing sources. The humorous self-reference helps model good scholarly behaviour in action. Emphasise that citations are not about bureaucracy, but about trust, accountability, and connection within the scientific community.
 :::
 
 ---
@@ -255,6 +316,11 @@ Use this slide to reinforce both the practical and ethical reasons for citing so
 <div style="font-size: 0.8em;">  
 For example: “Recent results support this view (Miller & Rossi, 2021).”
 </div>
+
+<div style="color: red; font-size: 0.6em;">
+  I think here you need to perhaps mention first the different citation styles? As in, what you have on the next slide? Else I would say your first statement is more of a "it depends"?
+</div>
+
 
 - **Reference List**: Here, you provide the full **bibliographic information**: <br>
 <div style="font-size: 0.8em;">  
@@ -288,18 +354,32 @@ Read the example citation aloud and slow down when listing the reference compone
 
 ---
 
-## Formats of Citations
+## Citation styles
+
+<div style="color: red; font-size: 0.6em;">
+  This is nice, and a nice mix of fields! Check APA with the DOI usually as hyperlink, maybe you can make it bold since it becomes blue? And maybe cut out Harvard since no specific field is given? Give the examples in the style of APA where you had Social sciences (e.g., psych, education). Split table across two slides because it is a large table? Add in-text example for IEEE if applicable. 
+</div>
+
 
 <div style="font-size: 0.6em;"> 
 | Style                  | Typical fields/usage                     | In‑text example           | Reference list example (journal article)                                                                                |
 | ---------------------- | ---------------------------------------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| APA                    | Social sciences, education               | (Smith & Lee, 2023)       | Smith, J., & Lee, K. (2023). Title of the article. Journal Name, 12(3), 123–145. https://doi.org/xx.xxx/yyyy ​ |
-| MLA                    | Humanities (literature, languages, etc.) | (Smith and Lee 123)       | Smith, John, and Karen Lee. “Title of the Article.” Journal Name, vol. 12, no. 3, 2023, pp. 123–145. ​         |
+| APA                    | Social sciences (e.g., psychology, education)              | (Smith & Lee, 2023)       | Smith, J., & Lee, K. (2023). Title of the article. Journal Name, 12(3), 123–145. https://doi.org/xx.xxx/yyyy ​ |
+| MLA                    | Humanities (e.g., literature, languages) | (Smith and Lee 123)       | Smith, John, and Karen Lee. “Title of the Article.” Journal Name, vol. 12, no. 3, 2023, pp. 123–145. ​         |
 | Chicago (Notes-Biblio) | History, arts (footnotes/endnotes)       | ¹ or (see note 1)         | Smith, John, and Karen Lee. “Title of the Article.” Journal Name 12, no. 3 (2023): 123–145. ​                  |
 | Chicago (Author‑Date)  | Some sciences, social sciences           | (Smith and Lee 2023, 123) | Smith, John, and Karen Lee. 2023. “Title of the Article.” Journal Name 12 (3): 123–145. ​                      |
 | Harvard                | Widely used “author‑date” in Europe/UK   | (Smith and Lee, 2023)     | Smith, J. and Lee, K. (2023) ‘Title of the article’, Journal Name, 12(3), pp. 123–145. ​                       |
 | IEEE                   | Engineering, computer science            | ​                | ​ J. Smith and K. Lee, “Title of the article,” Journal Name, vol. 12, no. 3, pp. 123–145, 2023.      |
 </div>
+
+---
+
+## New slide for exercises
+
+<div style="color: red; font-size: 0.6em;">
+  Add speaker notes to previous slide and put the exercise on new slide.
+</div>
+
 
 ::: {.callout-tip}
 ## Short Exercise
@@ -307,26 +387,41 @@ Use a minute to find out which citation format is used in your field.
 :::
 
 ::: {.notes}
-**Speaker Notes**:  
-This table shows some of the most common citation formats used across different disciplines.  
+**Speaker Notes**: This table shows some of the most common citation formats used across different disciplines.  
 You’re not expected to learn or memorise any of these.  
 Think of this slide as a reference point, showing that citation styles differ depending on the field. 
 Take a moment to scan the table and notice how the same information is organised slightly differently in each format. <br>
 The short exercise is simply to help you identify which citation style is commonly used in your own discipline.
-<br>
-**Instructor Notes**:  
-Keep this slide brief and exploratory. Avoid explaining each format in detail; the goal is awareness, not mastery. Encourage students to visually compare formats and notice recurring elements such as authors, year, title, and source. Use the exercise to prompt independent discovery and reinforce the idea that citation conventions are field-specific.
+
+**Instructor Notes**: Keep this slide brief and exploratory. Avoid explaining each format in detail; the goal is awareness, not mastery. Encourage students to visually compare formats and notice recurring elements such as authors, year, title, and source. Use the exercise to prompt independent discovery and reinforce the idea that citation conventions are field-specific.
 <br>
 :::
 
 ---
 
-## What are Critations Tools
+## What are citation tools?
 
-**Citation tools (or reference managers)** are apps or websites that help you *collect, organize, and format citations* for school papers or research. Like, Zotero, Mendeley, Citavi.
+**Citation tools** (or **reference managers**) are apps or software that help you *collect, organize, and format citations* for school papers or research. Examples include
 
-- **What they do?:** save bibliographic information *in one-click*; create in-text citation; add references *automatically*.
+- Zotero
+- Mendeley
+- Citavi
+
+<div style="color: red; font-size: 0.6em;">
+  Add hyperlinks to website for these managers? And for school papers? What do you mean?
+</div>
+
+---
+
+## New slide
+
+- **What can they do?** Save bibliographic information *in one-click*; create in-text citation; add references *automatically*.
 - **Why are they useful?:** they are *accurate, consistent, and efficient*; can handle multiple citation formats.
+
+<div style="color: red; font-size: 0.6em;">
+  I think separate slides are a good idea here, add speaker notes to this slide and the previous slide. In the why are they useful section it feels like you have a point that could go into what can they do?
+</div>
+
 
 ::: {.notes}
 **Speaker Notes**:  
@@ -338,21 +433,33 @@ They can save bibliographic information with one click, generate in-text citatio
 They improve accuracy and consistency by remembering all the important details — like the author, year, and title — and formatting every citation the same way, so you’re less likely to make mistakes.
 They also save a lot of time. Instead of typing citations and reference lists manually, the tool can generate them for you automatically.  
 Another big advantage is that they can handle multiple citation styles. If a course or journal asks for a different format, you can switch styles with just a few clicks, rather than rewriting everything from scratch.
-<br>
+
 **Instructor Notes**:  
 Reinforce the practical benefits of citation tools using everyday student experiences. Emphasise that these tools reduce errors, save time, and adapt easily to different citation requirements. Avoid framing them as shortcuts; instead, present them as good scholarly practice that supports accuracy and efficiency.
 :::
 
 ---
 
-## Bried Overview of Zotero
+# Brief overview of Zotero
 
-#### How Zotero Works? <br>
-<div style="font-size: 0.8em;">
-- **Collection**: One-click saving of metadata from literature databases, and websites. <br>
-- **Organization**: Items can be grouped into collections, tagged, and searched. <br>
-- **Citing and Referencing**: Plugins for Word, Quarto, and Google Docs generate in‑text citations and bibliographies automatically.
+---
+
+## How does Zotero work?
+
+:::incremental
+- **Collecting**: One-click saving of metadata from literature databases, and websites.
+- **Organizing**: Items can be grouped into collections, tagged, and searched.
+- **Citing and referencing**: Plugins for Word, Quarto, and Google Docs generate in‑text citations and bibliographies automatically.
+:::
+
+---
+
+## New slide for screenshot?
+
+<div style="color: red; font-size: 0.6em;">
+  Maybe push image to new slide since it feels a little tight on the previous slide? Sort out speaker notes for both slides. 
 </div>
+
 
 <div style="text-align: center;">
   <img src="images/Zotero.png" style="width:70%;" />
@@ -377,8 +484,11 @@ Verbally describe the layout shown in the image for students who may have diffic
 
 ---
 
-## Learning Goals Check-In
+## Learning goals: Check-In - Move to the back
 
+<div style="color: red; font-size: 0.6em;">
+  Finalise learning goals at the beginning and then redo this slide - this should probably also go at the end because you want to include the tutorial right?
+</div>
 
 :::incremental
 - [ ] To understand the importance of citing scientific literature.
@@ -396,21 +506,19 @@ Use this slide to encourage self-reflection rather than evaluation. Emphasise th
 
 ---
 
-## On to the tutorial
+## Your turn!
 
+In this next part, you will familiarize yourself with **Zotero** through **hands-on exercices and activities**:
 
-Now, we shall work individually on a *self-paced tutorial* on **Zotero**:
+- [Zotero: Hands-on practical activities](https://lmu-osc.github.io/introduction-to-zotero/background/zotero_basics.html)
 
-<div style="font-size: 0.8em;">
-| Introduction to Zotero |
-|------------|------------|
-| [Link to tutorial](https://lmu-osc.github.io/introduction-to-zotero/background/zotero_basics.html) |
-</div>
+- Or follow: [https://lmu-osc.github.io/introduction-to-zotero/background/zotero_basics.html](https://lmu-osc.github.io/introduction-to-zotero/background/zotero_basics.html)
+
 
 
 :::{.callout-tip}
 ## Tip
-Since this is a self-paced tutorial, *take your time* on navigating it; and it can be finished at home as well.
+Since this is a self-paced tutorial, *take your time* on navigating it; and it can be finished at home as well. We will have a check-in moment at the end of this session. 
 :::
 
 ::: {.notes}
@@ -418,27 +526,86 @@ Since this is a self-paced tutorial, *take your time* on navigating it; and it c
 You’ll work individually through a self-paced tutorial — focusing introducing Zotero, how to integrate with other platform, and practical exercises for you.
 Take your time as you go through them, and work at a pace that feels comfortable.
 There’s no expectation to finish everything right now, and you’re welcome to continue working on them at home.
-Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorials. <br>
-**Instructor Notes:** Clearly signal the shift from guided instruction to independent work. Remind students that the tutorial is self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Emphasise that the goal is understanding, not completion within the session. Do walk around the room to check up on the progress of the students. 
+Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorials.
+
+**Instructor Notes:** Clearly signal the shift from guided instruction to independent work. Remind students that the tutorial is self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Do walk around the room to check up on the progress of the students. 
+:::
+
+---
+
+## Relevance and implications
+
+<div style="color: red; font-size: 0.6em;">
+  Added in this slide - small final activity on how your learners can and will apply this in their individual contexts and for their own work?
+</div>
+
+
+- **Aim**: To work out the relevance of the topic to your learners.
+- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
+- Examine downfalls and practical obstacles.
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+
+**Instructor Notes**:
+
+- **Aim**: To work out the relevance of the topic to your learners.
+
+- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
+
+- Examine downfalls and practical obstacles.
+:::
+
+---
+
+## Assignment - new slide
+
+<div style="color: red; font-size: 0.6em;">
+  Make sure that your learners complete the remaining tasks and exercises at home
+</div>
+
+
+- **Aim**: Explain the homework assignment and the rationale behind the homework.
+- Examine whether/how it will be assessed
+- Mention scoring rubrics, if applicable
+- Design a peer-review system for assignments to place learners in role of reviewer and author
+
+::: {.notes}
+**Speaker Notes**: Script for the presentation here. 
+
+**Instructor Notes**:
+
+- **Aim**: Explain the homework assignment and the rationale behind the homework.
+
+- Examine whether/how it will be assessed
+
+- Mention scoring rubrics, if applicable
+
+- Design a peer-review system for assignments to place learners in role of reviewer and author
 :::
 
 ---
 
 ## Take-home message
 
-- Citations and references are how science says *“don’t just trust me—here’s where this comes from.”* 
+- Citations and references are how science says *“don’t just trust me, here’s where we know this from.”* 
 - They show which ideas are yours, which come from others, and let readers check the original papers. 
 - Citation tools like Zotero help you do this accurately and quickly, so you can focus more on understanding and explaining research than on formatting.
 
+<div style="color: red; font-size: 0.6em;">
+  With your learning goals in mind, sharpen the formulation of these take-home messages.
+</div>
+
+
 ::: {.callout-tip}
-## Make Zotero a Habit
+## Make Zotero a habit
 Zotero can be your go-to tool for saving and citing studies, from assignments to thesis.
 :::
 
 ::: {.notes}
 **Speaker Notes**:
 Wrap up by reinforcing the core idea: citations are about transparency and trust in science. Emphasise that citing is not just a formal requirement, but a way to show where ideas come from and to help others follow the research trail. Highlight that tools like Zotero reduce the technical burden, allowing students to spend more time thinking critically about the literature rather than worrying about formatting details.
-<br>
+
 **Instructor Notes**:
 This is a closing slide—keep the tone encouraging and confidence-building. Connect the take-home message back to earlier examples (e.g., many open tabs, managing sources). Encourage students to start using Zotero early and consistently, even for small assignments, to build good academic habits over time.
 :::
@@ -524,7 +691,7 @@ See you next class :)
 
 ---
 
-## CREDiT Contribution Statement
+## CREDiT Contribution Statement - TO DO
 
 Possible roles using the CRediT contribition system or the Zenodo Contribution System: 
 
