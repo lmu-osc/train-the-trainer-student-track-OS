@@ -17,7 +17,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
 
 bibliography: assets/references.bib
-#csl: assets/apa.csl
+csl: assets/apa.csl
 
 execute:
   echo: true
@@ -29,16 +29,16 @@ execute:
 <div style="font-size: 0.5em; color: red;">
 Can you sort through these comments to see which ones you addressed? Thanks!
 
-- Instructor notes are missing from most slides, read up on the difference between the two and add instructor notes (and accessibility tips if applicable)
-- Include more practical activities where students need to first think about existing knowledge and how it fits with the presented concepts
-- For the What are simulations section, I think there may be three slides with a similar activity?
-- Careful with generic bullet points (e.g., why are simulations used in research), give examples or real life scenarios where possible and spend a bit more time here on finding out what the student's perspective is here before you present them with "the answer"
-- The graph on the basic simulation process in R is a good idea, but perhaps needs a but more context - did you already say somewhere that you can do this in R? And provide the prospect that they will practise this, or leave the practical aspect (i.e., the tutorial) for later (also revise slide 24, the third learning goals is not achieved this far)
-- Power analysis and the why: I think again here I am missing the interaction with students and concrete examples, the bullet points are too generic
-- Slide 27 is difficult to follow, but really important
-- Add a preview of the self-paced tutorial and the practical aspect /assignment where they will actually learn how to RUN a simulation
-- Generally for the reader I think you are too fast and remain a little too vague and abstract: more practical exercise related to thinking for themseles and then providing examples that brings it home ("Why on earth would I need to care about this")
-- Check the formatting guidelines again for titles, bullet points etc. in the manual to make it consistent throughout
+- [ ] Instructor notes are missing from most slides, read up on the difference between the two and add instructor notes (and accessibility tips if applicable)
+- [ ] Include more practical activities where students need to first think about existing knowledge and how it fits with the presented concepts
+- [ ] For the What are simulations section, I think there may be three slides with a similar activity?
+- [ ] Careful with generic bullet points (e.g., why are simulations used in research), give examples or real life scenarios where possible and spend a bit more time here on finding out what the student's perspective is here before you present them with "the answer"
+- [ ] The graph on the basic simulation process in R is a good idea, but perhaps needs a but more context - did you already say somewhere that you can do this in R? And provide the prospect that they will practise this, or leave the practical aspect (i.e., the tutorial) for later (also revise slide 24, the third learning goals is not achieved this far)
+- [ ] Power analysis and the why: I think again here I am missing the interaction with students and concrete examples, the bullet points are too generic
+- [ ] Slide 27 is difficult to follow, but really important
+- [ ] Add a preview of the self-paced tutorial and the practical aspect /assignment where they will actually learn how to RUN a simulation
+- [ ] Generally for the reader I think you are too fast and remain a little too vague and abstract: more practical exercise related to thinking for themseles and then providing examples that brings it home ("Why on earth would I need to care about this")
+- [ ] Check the formatting guidelines again for titles, bullet points etc. in the manual to make it consistent throughout
 
 </div>
 
@@ -46,23 +46,23 @@ Can you sort through these comments to see which ones you addressed? Thanks!
 
 ## To Do - delete slide later
 
-- Slide 2: sort through comments and see which ones you already worked through and which you still have to address 
-- Slide 5: check the hyperlink to your orcid page
-- Slide 6: instead the text in the description box for R and RStudio, specify the version required and in the link column write installation link instead of download link
-- slide 8: fix the survey links, check out the content creation manual for instructions
-- slide 14: expand on the speaker notes
-- slide 126: fix the references
-- slide 16: see comment + sort out references
-- slide 18 and 19: see comments
-- slide 19-21: see comment about introducing practical activity and cut down on the text on this slide, lots to process
-- slide 22: the figure pushes out the callout box, maybe you can try to fix that?
-- slide 23: see comments
-- slide 24: see comments: make the section of power analysis symmetrical to simulations? What is pwer first and then importance on separate slide?
-- speaker notes slide 24: Power is simply the chance of detecting a real effect if it truly exists. - give example here. 
-- speaker notes slide 25: expand a little, currently this is only the slide content?
-- slide 26: old comment, please address
-- Learning goal 5 traditional and simulation-based methods: is this something you explicitly discuss or have an activity for? Make sure that each learning goal matches what you as learners to do in the slides.
-- all remaining slides: please address comments
+- [ ] Slide 2: sort through comments and see which ones you already worked through and which you still have to address 
+- [x] Slide 5: check the hyperlink to your orcid page
+- [x] Slide 6: instead the text in the description box for R and RStudio, specify the version required and in the link column write installation link instead of download link
+- [x] slide 8: fix the survey links, check out the content creation manual for instructions. **TS: As we discussed on Element, we would leave out the external survey format (like Particify) and stick to the slides' format. What do you think?**
+- [x] slide 14: expand on the speaker notes
+- [x] slide 12: fix the references
+- [x] slide 16: see comment + sort out references
+- [x] slide 18 and 19: see comments
+- [ ] slide 19-21: see comment about introducing practical activity and cut down on the text on this slide, lots to process
+- [ ] slide 22: the figure pushes out the callout box, maybe you can try to fix that?
+- [ ] slide 23: see comments
+- [ ] slide 24: see comments: make the section of power analysis symmetrical to simulations? What is pwer first and then importance on separate slide?
+- [ ] speaker notes slide 24: Power is simply the chance of detecting a real effect if it truly exists. - give example here. 
+- [ ] speaker notes slide 25: expand a little, currently this is only the slide content?
+- [ ] slide 26: old comment, please address
+- [ ] Learning goal 5 traditional and simulation-based methods: is this something you explicitly discuss or have an activity for? Make sure that each learning goal matches what you as learners to do in the slides.
+- [ ] all remaining slides: please address comments
 
 ---
 
@@ -119,13 +119,13 @@ Before completing this submodule, please carefully read about the prerequisites.
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| R and RStudio installed | If you don’t, follow these instructions: | [Download Link](https://posit.co/download/rstudio-desktop/) | 
+| R and RStudio installed | Latest R version: '3.6.0+' and RStudio version: '2026.01.0+392' | [Installation Link](https://posit.co/download/rstudio-desktop/) | 
 | R basics | e.g. how to select a value in a data frame, how to create a vector | [Tutorial Link](https://lmu-osc.github.io/introduction-to-R/) |
 | Basic statistical concepts | For example, descriptive statistics, data analysis, statistical reasoning | [Cheatsheet Link](assets/Cheatsheet.pdf) |
 </div>
 
 <div style="font-size: 0.5em; color: red;">
-Finalise at the end.
+~Finalise at the end.~
 </div>
 
 ::: {.notes}
@@ -143,7 +143,6 @@ If any of these areas feel unfamiliar, I encourage you to explore the resources 
 ## Before we start: Survey time!
 
 - **Aim**: The pre-submodule survey serves to examine students' prior knowledge about simulations and power analysis, and familiarity with R.
-- (QR code to be added soon)
 
 ::: {.notes}
 **Speaker Notes**: Before we move on, we’ll take a short survey.
@@ -245,70 +244,42 @@ What do we see in the results?
 </div>
 
 <div style="font-size: 0.5em; color: red;">
-RE your thought of deleting this slide: I would rather keep it, it is a standard element that is also featured in the other slide decks and helps us to remain somewhat standardised across slide decks. 
+~RE your thought of deleting this slide: I would rather keep it, it is a standard element that is also featured in the other slide decks and helps us to remain somewhat standardised across slide decks.~
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let us have a look at these results. 
-
-**Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
+**Speaker Notes**: Let us have a look at these results. <br>
+**Instructor Notes:** The aim is to understand the group’s current standing in terms of knowledge and familiarity with simulations, power analysis, and R. Emphasise explicitly that the survey is not about correct or incorrect answers. Avoid evaluating answers or revealing correct ones.
 :::
 
 ---
 
 ## Learning goals
 
+:::incremental
 - To **define** the meaning of simulations and where they are used.
 - To **explain** the need for simulations in research.
 - To **analyze** the process of running a simulation in R, and apply the process to an example.
 - To **recall** the concept of power analysis and its importance.
-- To **differentiate** between traditional and simulation-based methods.
 - To **analyze** the simulation process for power analysis.
-
-
-<div style="font-size: 0.5em; color: red;">
-Expand on the speaker notes here and add that you do not expect learners to fully grasp this slide. 
-</div>
-
-::: {.notes}
-**Speaker Notes**: In this session, we’ll work toward several learning goals, which reflect various sub-sections on the topic. These goals will be repeated after each sub-section so you can check your understanding, raise questions, and keep track of your progress.
-
-**Instructor Notes**: Use this time to discuss any doubts the students may have on the learning goals and their assessment.
+- To successfully *perform* a simulation in R.
 :::
 
----
-
-## Key terms and definitions
-
-- **Simulations**: 
-- **Power analysis**:  
-- **Effect size**: 
-
-
 <div style="font-size: 0.5em; color: red;">
-Sort out the references on the next slide, the brackets are off for multiple references and there are double brackets.
-</div>
-
----
-
-## Key terms and definitions
-
-- **Simulations**: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions (Morris et al., 2019) (@morris_using_2019).
-- **Power Analysis**: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis (Steidl et al., 1997) (@lorah_effect_2018). 
-- **Effect Size**: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables (Lorah, 2018) (@steidl_statistical_1997).
-
-<div style="font-size: 0.5em; color: red;">
-TS: he goal of this slide is *briefly* introduce the key technical terms, so that they can always come back to this and understand it *technically*, along with a reference (for further reading). i believe an exercise here may take up more timne, since the following slides are already quite time-consuming with the exercises. **SG**: My suggestion then is to include a slide with just the terms, saying that learners will now explore these terms together and provide this slide at the end for reference? Thoughts? Also please sort out the references :)
+~~Expand on the speaker notes here and add that you do not expect learners to fully grasp this slide.~~ <br>
+TS: I made the notes detailed and added an accessibility tip. Made the learning goals 'incremental'. I incorporated the last goal for the tutorial.
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Here are a few key terms that will appear throughout the session.
-We’ll use the word simulations to talk about computer-generated data created through pseudo-random sampling.
-Power analysis refers to estimating the probability of detecting a true effect.
-And effect size tells us how large or meaningful that effect is.
-You don’t need to memorise these right now — this is just a quick introduction. We’ll return to these definitions later as we apply them, so for now simply get familiar with the terms.
-
-**Instructor  Notes**: Introduce the terms briefly to activate students’ prior conceptions. Keep the slide short. 
+**Speaker Notes**: This slide outlines the learning goals for this part of the session.
+At this stage, you’re not expected to fully understand or master all of these points.
+Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know.
+As we move through the session, we’ll revisit these goals in smaller sections.
+You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.
+<br>
+**Instructor Notes**: Use this slide to set expectations and reduce pressure. Emphasise that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials.
+<br>
+**Accessibility Tip:** Read the learning goals aloud and pause briefly between them to reduce cognitive load.
 :::
 
 ---
@@ -342,22 +313,23 @@ You don’t need to memorise these right now — this is just a quick introducti
 - You do this again and again and see what results you get.
 
 ::: {.callout-tip}
-## Try this yourself
-Run a **mental simulation** of flipping a coin a *100 times*. Make a note of how many times would you get heads and how many tails *hypothetically*. Then, create a hypothesis about the **coin flips**. For example, *When I flip the coin 100 times, the number of heads will be greater than tails.*
+## In-class Activity
+Get in a pair, imagine **flipping a coin** *100 times* and note how many heads and tails you expect.
+Now, discuss **why doing this pretend experiment first is useful** for planning a real study.
 :::
 
 <div style="font-size: 0.5em; color: red;">
-highlight on the slide that this is an activity you want people to try in class or as they read this slide. 
+~~highlight on the slide that this is an activity you want people to try in class or as they read this slide.~~ 
 </div>
 
 
 ::: {.notes}
-**Speaker notes**: In this part, we’re looking at what simulations really are. A simulation basically means creating data that behaves the way we expect real-world data to behave. We repeat this process many times to see the range of outcomes we might get.
-To get an intuitive feel for it, there’s a quick activity: imagine flipping a coin a hundred times. Think about how many heads and tails you’d expect. This mental experiment reflects the same logic behind running simulations. <br>
-Before we explore why simulations are important in research, we’ll also create a simple hypothesis about the coin-flip scenario. For example: When I flip a coin 100 times, I’ll get more heads than tails.
-This 'experiment' shall help you connect each point to your own hypothesis.
-
-**Instructor Notes**: Keep the explanation simple and intuitive. The goal here is to form an initial understanding before diving into technical detail. Give the students 2 minutes to develop their hypothesis; welcome creativity here.
+**Speaker notes**: In this part, we’re looking at what simulations really are. A simulation basically means creating data that behaves the way we expect real-world data to behave. We repeat this process many times to see the range of outcomes we might get. <br>
+To get an intuitive feel for it, there’s a quick activity: take a moment with the person next to you and imagine flipping a fair coin 100 times. How many heads and tails do you expect?
+You’re not actually flipping the coin — you’re just thinking it through. But that mental experiment already follows the logic of a simulation. <br>
+Before we explore why simulations are important in research, we’ll think ourselves why the process of 'making up data' is important. Take a moment to think why doing this pretend experiment first is useful for planning a real study. <br>
+**Instructor Notes**: Pause the slide here and give students about 2 minutes to discuss. Encourage them to state a simple expectation or hypothesis (e.g., “I expect about 50 heads and 50 tails”). Emphasise that there is no single correct answer — the goal is intuition, not precision. When essential, remind the students that the activity is for them to ponder on simulating an experiment and exploring its usage, rather than 'having correct answers'. <br>
+**Accessibility Tips:** Take a brief pause before the activity for the students to soak in the knowledge before applying it. When needed, maybe give an own formulated example of the activity for ease.
 :::
 
 ---
@@ -365,14 +337,13 @@ This 'experiment' shall help you connect each point to your own hypothesis.
 ## Why are simulations used in research? 
 
 1. **To build “good feeling” about data**:
-Simulations are like replaying a game many times to see all the different scores you can get, even when you play the same way. They show that results can change a bit each time, even if you follow the same rules. <br> For example, By pretending (simulating) many sets of 10 flips, you see that the number of heads jumps around a lot, even when the coin is fair. This teaches you that “different results” can still be normal. <br>
-2. **To understand chances (probability)**: Simulations help you see what is normal and what is rare.<br> For example, You imagine 1,000 pretend experiments where each time you flip a coin 4 times.
-You count how often you get 0, 1, 2, 3, or 4 heads.
-You see that 2 heads happens most often, and 0 or 4 heads are rare, so you learn what is “likely” and what is “unusual” in coin flips.  <br>
+Like replaying a game to see score variation. Simulating 10 coin flips many times shows heads count varies (4–6 is normal), even with a fair coin. <br>
+
+2. **To understand chances (probability)**: Simulating 1,000 sets of 4 flips shows 2 heads is common, 0 or 4 heads is rare—you learn what’s likely vs unusual.
 
 
 <div style="font-size: 0.5em; color: red;">
-I think here it would be time for a first activity? Just a brief one? Design the slide so that learners come to their own guesses about using simulations before you present them with this slide. Also I think there is too much text on this slide, keep some for the speaker notes and convert some of this into bullet points. Then you can fit all 6 points with one extra bullet point onto one slide and the rest stays in the speaker notes?
+~~I think here it would be time for a first activity? Just a brief one? Design the slide so that learners come to their own guesses about using simulations before you present them with this slide. Also I think there is too much text on this slide, keep some for the speaker notes and convert some of this into bullet points. Then you can fit all 6 points with one extra bullet point onto one slide and the rest stays in the speaker notes?~~
 </div>
 
 ::: {.notes}
@@ -382,7 +353,6 @@ If you imagine simulating many sets of ten coin flips, you’ll notice the numbe
 Simulations also help us understand probability. By repeating an experiment many times, we can see what outcomes are common and which ones are rare.
 For example, if we imagine a thousand experiments where we flip a coin four times, we’ll see that getting two heads is quite common, while getting zero or four heads is much less likely.
 This helps us develop a sense of what’s typical versus surprising in data.
-
 **Instructor Notes**: Emphasise intuition over formal definitions here; the goal is to help students develop a “feel” for variability and probability. If the students are gaining a basic understanding, you can move over to more technical explanantions or terms. Feel free to present some real-life research examples you may have encountered.
 :::
 
@@ -390,47 +360,44 @@ This helps us develop a sense of what’s typical versus surprising in data.
 
 ## Why are simulations used in research? 
 
-3. **To check if an experiment is strong enough (power)**: Scientists use simulations to see how often their experiment will actually notice something real.  <br> For example, it’s like testing how many times you need to flip a tricky coin, to be able to tell confidently that ir is fair. <br>
-4. **To practice before the real experiment (planning)**: Before doing a real study, researchers run pretend versions on a computer to see what might happen. This is like practicing a play before performing it on stage, so they can fix problems early. <br> 
-5. **To reuse data to measure uncertainty (bootstrapping)**: Simulations can take the data you already have and shuffle or resample it in clever ways to see how much your results might change. 
+3. **To check if an experiment is strong enough (power)**: Scientists use simulations to see how often their experiment will actually notice something real.  <br> 
+
+4. **To practice before the real experiment (planning)**: Before doing a real study, researchers run pretend versions on a computer to see what might happen. <br> 
 
 
 <div style="font-size: 0.5em; color: red;">
-As a reader, I think the jump here to transparency is quite big - maybe with an example? And which pointers? 
+~~As a reader, I think the jump here to transparency is quite big - maybe with an example? And which pointers?~~
 </div>
 
 ::: {.notes}
 **Speaker Notes**: Simulations are also used to check whether an experiment is strong enough.
 Researchers can simulate an experiment many times to see how often it would successfully detect a real effect.
 In our coin example, this is like asking how many flips are needed before we can confidently decide whether the coin is fair or biased. <br>
-Another important use of simulations is planning. Before collecting real data, researchers run simulated versions of their study to see what outcomes are likely and to identify potential issues early.
-Finally, simulations can be used to measure uncertainty through techniques like resampling or bootstrapping.
-Here, we repeatedly reuse the data we already have to see how much our results might vary.
+Another important use of simulations is planning. Before collecting real data, researchers run simulated versions of their study to see what outcomes are likely and to identify potential issues early. This is like practicing a play before performing it on stage, so they can fix problems early. <br>
+**Instructor Notes:** Emphasise continuity with the earlier coin-flip example to avoid introducing too many new ideas at once. Highlight that both power and planning are about reducing uncertainty before running the real experiment. Avoid technical definitions here; intuition is the goal.
 :::
 
 ---
 
 ## Why are simulations used in research? 
 
-6. **To contribute to open science (transparency and reproducibility)**: When scientists use simulations, they can share the exact steps and code they used, so everyone can see how they got their results. With simulations, another person can press “run” on the same instructions and get the same pretend data and conclusions, so everyone can check that the science is trustworthy.
+5. **To reuse data to measure uncertainty (bootstrapping)**: Simulations can take the data you already have and shuffle or resample it in clever ways to see how much your results might change. 
 
-:::{.callout-tip}
-## Relate it to your hypothesis
-Get together in your pair, and discuss how simulating your data for your experiment is useful, using any one of the pointers above.
-:::
+6. **To contribute to open science (transparency)**: Scientists can share the exact steps and code they used, so everyone can see how they got their results, making it transparent.
+
 
 <div style="font-size: 0.5em; color: red;">
-Here you presented learners with the "solution" before you sent them into pairs to think about this- do you think you can start with this activity you have in the call-out box and the collect in the plenum before sharing your slide with the bullet points?
+~~Here you presented learners with the "solution" before you sent them into pairs to think about this- do you think you can start with this activity you have in the call-out box and the collect in the plenum before sharing your slide with the bullet points?~~ <br>
+TS: I made the last point easier to understand and upgraded the instructor notes to make the students understand these technical terms.
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Another important reason simulations are used in research is their connection to open science.
+**Speaker Notes**: Simulations can also be used to measure uncertainty through techniques like resampling or bootstrapping.
+Here, we repeatedly reuse the data we already have to see how much our results might vary. <br>
+Another important reason simulations are used in research is their connection to open science.
 When we work with simulations, we can share the exact code and steps we used to generate and analyse the data.
-This means others can rerun the same simulation and see how the results were produced, which supports transparency and reproducibility.
-It also makes it easier for others to learn from, check, or build on the work. <br>
-Now, go back to your coin-flip hypothesis with your partner and discuss how simulating your data could be useful, using any of the reasons we’ve covered so far.
-
-**Instructor Notes**: After reviewing the listed reasons, give students time to discuss in pairs how simulation applies to their own hypothesis. Invite a few groups to share their reasoning with the class, focusing on justification rather than correctness.
+This means others can rerun the same simulation and see how the results were produced, which supports transparency. <br>
+**Instructor Notes**: Allow the students to soak in the knowledge and reasoning, before worrying about the technical terms. The terms are mentiond so that the students become aware of them used in the science world. Prompt them to ask questions if any of the terms are unclear. 
 :::
 
 ---
@@ -438,16 +405,16 @@ Now, go back to your coin-flip hypothesis with your partner and discuss how simu
 ## Basic simulation process
 
 <div style="text-align: center;">
-  <img src="images/Simulation Process.png" style="width:90%;" />
+  <img src="images/SimulationProcess.png" style="width:90%;" />
 </div>
 
 :::{.callout-tip}
-## Relate it to your hypothesis
+## In-class Activity
 Get together in your pair, and discuss how you would simulate your data (for the coin-flip experiment) according to this process. For example, if you flip a coin a 10 times, your data could be H, T, H, H, T, T, H, T, H, H.
 :::
 
 <div style="font-size: 0.5em; color: red;">
-As a learner, I may be unsure what it is you are asking them to do here and what the expected outcome, maybe highlight the activity part more and what "result" you are trying to get to? Also check back with the creation manual in the sections about file naming and image naming - no file names with spaces please :)
+~~As a learner, I may be unsure what it is you are asking them to do here and what the expected outcome, maybe highlight the activity part more and what "result" you are trying to get to? Also check back with the creation manual in the sections about file naming and image naming - no file names with spaces please :)~~
 </div>
 
 ::: {.notes}
@@ -457,8 +424,7 @@ Next, generate the fake data using a random method that mimics the real outcome,
 Then analyze this simulated dataset just as you would analyze real data, for example, you might count how many heads you got or calculate a simple summary.
 After that, repeat the simulation many times to see how the results vary from run to run.
 Finally, bring everything together by summarizing the outcomes across all repetitions.
-This gives you a clear picture of the variation you can expect if the experiment were done in real life.”
-
+This gives you a clear picture of the variation you can expect if the experiment were done in real life.” <br>
 **Instructor Notes**: After discussing the pointers, let the students brainstorm and justify the simulation of data in their experiment, and share it in class.
 :::
 
@@ -590,6 +556,30 @@ Loop over steps 2–3 a large number of times.
 Collect all test results into a single dataset.<br>
 5. Summarise and interpret:
 Compute the proportion of simulations with a significant result (this is the estimated power).
+:::
+
+---
+
+## Key terms and definitions
+
+- **Simulations**: Simulations are computer experiments that generate artificial data by pseudo-random sampling, allowing researchers to evaluate statistical methods under controlled, known conditions @morris_using_2019.
+- **Power Analysis**: Power analysis is a statistical method used to determine the probability that a study will detect a true effect (if it exists) or, equivalently, the probability of correctly rejecting a false null hypothesis @steidl_statistical_1997. 
+- **Effect Size**: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables @lorah_effect_2018.
+
+<div style="font-size: 0.5em; color: red;">
+~~TS: he goal of this slide is *briefly* introduce the key technical terms, so that they can always come back to this and understand it *technically*, along with a reference (for further reading). i believe an exercise here may take up more timne, since the following slides are already quite time-consuming with the exercises.~~ <br>
+~~**SG**: My suggestion then is to include a slide with just the terms, saying that learners will now explore these terms together and provide this slide at the end for reference? Thoughts? Also please sort out the references :)~~ <br>
+**TS:** I am adding this towards the end (as a revision). References are partially sorted. I downloaded and added the "apa.csl" file to the assets folder, but the citations are still being rendered incorrectly: the brackets are supposed to encapsulate the author name and year. How do we solve this?
+</div>
+
+::: {.notes}
+**Speaker Notes**: Here are a few key terms that will appear throughout the session.
+We’ll use the word simulations to talk about computer-generated data created through pseudo-random sampling.
+Power analysis refers to estimating the probability of detecting a true effect.
+And effect size tells us how large or meaningful that effect is.
+You don’t need to memorise these right now — this is just a quick introduction. We’ll return to these definitions later as we apply them, so for now simply get familiar with the terms.
+
+**Instructor  Notes**: Introduce the terms briefly to activate students’ prior conceptions. Keep the slide short. 
 :::
 
 ---
