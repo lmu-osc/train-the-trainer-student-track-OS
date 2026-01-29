@@ -76,6 +76,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 <div style="font-size: 0.4em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
+| Basic computer literacy | Making a folder; creating, saving or renaming files | - |
 | Laptop/PC with internet access | Admin rights for download/install | - |
 | R and RStudio installed | Latest versions of both R and RStudio |  [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/) |
 | Basic R skills | 3.2 Introduction to R - Part I | LINK |
@@ -819,6 +820,20 @@ When you type passwords in the command line, **nothing** is displayed, you are h
 **Speaker Notes**: Next, you are asked to provide a passphrase in the terminal. Protecting your keys with a password is optional but highly recommended. Start typing the password next to the first prompt. Note that your input will be **invisible** and you will feel like you are not typing. This is **normal** behaviour. Just enter your password regardless. Re-confirm the password at the second prompt and press ENTER.
 
 **Instructor  Notes**: Emphasize the normal behaviour of the terminal that your audience is unable to see anything they type and that there is no need for concern.   
+:::
+
+---
+
+The SSH key pair passphrase
+
+::: {.callout-important}
+If you lose your SSH key passphrase, **there is no way to recover it**. You'll need to generate a brand new SSH keypair. Therefore, when you create your passphrase for your ssh key, **please write it down immediately** so that you do not forget, ideally in a **password manager**.
+:::
+
+::: {.notes}
+**Speaker Notes**: This part is very important. If you lose your SSH key passphrase, **there is no way to recover it**. You'll need to generate a brand new SSH keypair. Therefore, when you create your passphrase for your ssh key, **please write it down immediately** so that you do not forget, ideally in a **password manager**.
+
+**Instructor  Notes**: Emphasize that remembering your SSH key passphrase is crucial, ideally learners should save this in a password manager or save the password in a location where they can easily find it when needed.    
 :::
 
 ---
@@ -2115,6 +2130,18 @@ If you get stuck, there is plently of help available:
 Ready for the next session? 😊
 
 ---
+
+
+## Troubleshooting
+
+Some general pointers on where learners could run into issues:
+
+- **Mistyping the Git commands**: Correct spelling (including spaces) matters, else Git will not recognize the command
+
+
+
+
+----
 
 <!-- --- -->
 
