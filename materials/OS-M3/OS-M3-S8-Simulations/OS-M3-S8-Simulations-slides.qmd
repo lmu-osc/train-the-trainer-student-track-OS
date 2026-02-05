@@ -25,21 +25,6 @@ execute:
   engine: knitr
 ---
 
-## To Do - delete slide later
-
-<div style="font-size: 0.5em; color: red;">
-
-- [ ] I made new suggestions for the learning goals, have a look and see what you think?
-- [ ] Slide 21: see comment
-- [ ] Slide 28 Power analysis the connection to simulations: see comment on slide
-- [ ] Slide 29: see comment
-- [ ] Added slide 30 and 31 to match with the Zotero slides and the remaining slide decks we created, please complete
-
-</div>
-
-
----
-
 ## Licence
 
 <br>
@@ -258,38 +243,6 @@ As our first learning goal, we will focus on understanding what simulations are 
 
 Our next learning goals is related to understanding what power analysis is and why it is important in research.  We will also learn how to summarize how power analysis supports hypothesis testing and experimentation. Finally, we pull all of our skills together and we will learn how to perform a simulation yourself in R on a hands-on example.  
 
-
-**Instructor Notes**: Use this slide to set expectations and reduce pressure. Emphasise that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials.
-
-**Accessibility Tip:** Read the learning goals aloud and pause briefly between them to reduce cognitive load.
-:::
-
-
----
-
-## Learning goals -. delete one of the slides
-
-:::incremental
-- To **define** the meaning of simulations and where they are used.
-- To **explain** the need for simulations in research.
-- To **analyze** the process of running a simulation, and **apply** the process to an example.
-- To **recall** the concept of power analysis and its importance.
-- To **analyze** the simulation process for power analysis.
-- To successfully **perform** a simulation in R.
-:::
-
-<div style="font-size: 0.5em; color: red;">
-~~Expand on the speaker notes here and add that you do not expect learners to fully grasp this slide.~~ <br>
-TS: I made the notes detailed and added an accessibility tip. Made the learning goals 'incremental'. I incorporated the last goal for the tutorial.
-SvG: Nice about the accessibility tip! What I meant though was to include the learning goals as text in the speaker notes (see speaker notes from the previous slide)
-</div>
-
-::: {.notes}
-**Speaker Notes**: This slide outlines the learning goals for this part of the session.
-At this stage, you’re not expected to fully understand or master all of these points.
-Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know.
-As we move through the session, we’ll revisit these goals in smaller sections.
-You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.
 
 **Instructor Notes**: Use this slide to set expectations and reduce pressure. Emphasise that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials.
 
@@ -620,12 +573,8 @@ This simulation approach is especially useful when experiments are more complex,
 <div style="font-size: 0.8em;">
 :::{.callout-tip}
 ## In-class Activity
-Time to apply the power analysis process to your coin-flip experiment. Get in your pair, and discuss at which moment in time you would perform a power analysis. 
+Time to apply the power analysis process to your coin-flip experiment. Get in your pair, and discuss when and how you would **integrate a power analysis**.
 :::
-</div>
-
-<div style="font-size: 0.5em; color: red;">
-Can you recheck the instructions here on the slide checking that it matches with what you want people to do? The speaker notes sound similar to what you had for this slide with this figure before? Should this activity not be more focused on power analysis to extent the simulation process for this part?
 </div>
 
 ::: {.notes}
@@ -633,7 +582,7 @@ Can you recheck the instructions here on the slide checking that it matches with
 
 First, you set up your model and data. This means deciding what your variables look like and how they behave. For example, are you working with coin flips, test scores, or reaction times? You also choose assumptions like the sample size, the expected effect size, and the type of distribution the data follow. In our coin example, this is where you decide how biased the coin might be and how many flips you plan to run.
 
-Second, you simulate one dataset. Here, you generate fake data on a computer that follow the rules you just defined. If you expect a real effect, you deliberately build it into the data — for example, by making one group slightly different from another. This step is like running your experiment once, but with pretend data.
+Second, you simulate one dataset. Here, you generate fake data on a computer that follow the rules you just defined. If you expect a real effect, you deliberately build it into the data, for example, by making one group slightly different from another. This step is like running your experiment once, but with pretend data.
 
 Third, you analyse the simulated data exactly as you would analyse real data. You apply the statistical test you plan to use later, such as a t-test or a regression, and you record the outcome — for instance, whether the result is statistically significant.
 
@@ -676,7 +625,9 @@ You’ll work individually through a self-paced tutorial, focusing on gaining ha
 
 <div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
 
-**If you have not completed the tutorial yet**: Complete the rest in your own time. 
+**If you have not completed the tutorial yet**:
+
+Complete the rest in your own time. 
 
 </div>
 
@@ -834,7 +785,7 @@ c. It helps you design more reliable studies
 
 ---
 
-**How comfortable are you with running basic R code and performing simulation in R?**
+**How comfortable are you with running basic R code and performing simulations in R?**
 
 a. Very uncomfortable
 
@@ -901,9 +852,5 @@ See you next class :)
 ---
 
 ## Contribution Statement - UNINISHED
-
-Possible roles using the CRediT contribition system or the Zenodo Contribution System: 
-
-**Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
 --- 
