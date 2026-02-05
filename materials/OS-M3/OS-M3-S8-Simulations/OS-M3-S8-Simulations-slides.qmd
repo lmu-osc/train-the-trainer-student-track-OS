@@ -31,9 +31,11 @@ execute:
 Can you sort through these comments to see which ones you addressed? Thanks!
 
 - [ ] Can the prerequisites slide be finalised?
+- [ ] I made new suggestions for the learning goals, have a look and see what you think?
 - [ ] Slide 21: see comment
 - [ ] Slide 28 Power analysis the connection to simulations: see comment on slide
 - [ ] Slide 29: see comment
+- [ ] Added slide 30 and 31 to match with the Zotero slides and the remaining slide decks we created, please complete
 
 </div>
 
@@ -236,7 +238,7 @@ What do we see in the results?
 
 ---
 
-## Learning goals - SvG suggestions
+## Learning goals
 
 :::incremental
 - To **understand** the concept of simulations
@@ -658,32 +660,72 @@ Finally, you summarize and interpret the results. You calculate the proportion o
 
 ---
 
-## On to the tutorial
+## Your turn!
 
-Now, we shall work individually on a **self-paced tutorial** on Simulations:
+In this next part, you will familiarize yourself with **Simulations** through **hands-on exercices and activities**:
 
-<div style="font-size: 0.8em;">
-| Introduction to Simulations in R |
-|------------|
-| [Link to tutorial](https://lmu-osc.github.io/Introduction-Simulations-in-R/) |
-</div>
+- [Introduction to Simulations in R: Hands-on practical activities](https://lmu-osc.github.io/Introduction-Simulations-in-R/)
 
+- Or follow: [https://lmu-osc.github.io/Introduction-Simulations-in-R/](https://lmu-osc.github.io/Introduction-Simulations-in-R/)
 
 :::{.callout-tip}
 ## Tip
-Since this is a self-paced tutorial, *take your time* on navigating it; and it can be finished at home as well.
+Since this is a self-paced tutorial, *take your time* on navigating it; and it can be finished at home as well. We will have a check-in moment at the end of this session. 
 :::
 
 ::: {.notes}
 **Speaker Notes**: Now we’ll move on to the tutorial part of the session.
-You’ll work individually through two self-paced tutorials — one focusing on simulations in R, and the other on using simulations for more advanced power analysis.
-Take your time as you go through them, and work at a pace that feels comfortable.
-There’s no expectation to finish everything right now, and you’re welcome to continue working on them at home.
-Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorials.
+You’ll work individually through a self-paced tutorial, focusing on gaining hands-on experience with running simulations yourself in R. Take your time as you go through them, and work at a pace that feels comfortable. There is no expectation to finish everything right now, and you’re welcome to continue working on them at home. Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorial.
 
-**Instructor Notes:** Clearly signal the shift from guided instruction to independent work. Remind students that the tutorials are self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Emphasise that the goal is understanding, not completion within the session. Do walk around the room to check up on the progress of the students.
+**Instructor Notes:** Clearly signal the shift from guided instruction to independent work. Remind students that the tutorial is self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Do walk around the room to check up on the progress of the students. 
+:::
 
-**Important Note**: Make sure to return to these slides for a brief wrap-up at the end of the session, regardless of whether all students complete the tutorial.
+---
+
+## Relevance and implications
+
+<div style="color: red; font-size: 0.6em;">
+  Added in this slide - small final activity on how your learners can and will apply this in their individual contexts and for their own work?
+</div>
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+
+**Instructor Notes**:
+
+- **Aim**: To work out the relevance of the topic to your learners.
+
+- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
+
+- Examine downfalls and practical obstacles.
+:::
+
+---
+
+## Assignment - new slide
+
+<div style="color: red; font-size: 0.6em;">
+  Make sure that your learners complete the remaining tasks and exercises at home
+</div>
+
+
+- **Aim**: Explain the homework assignment and the rationale behind the homework.
+- Examine whether/how it will be assessed
+- Mention scoring rubrics, if applicable
+- Design a peer-review system for assignments to place learners in role of reviewer and author
+
+::: {.notes}
+**Speaker Notes**: Script for the presentation here. 
+
+**Instructor Notes**:
+
+- **Aim**: Explain the homework assignment and the rationale behind the homework.
+
+- Examine whether/how it will be assessed
+
+- Mention scoring rubrics, if applicable
+
+- Design a peer-review system for assignments to place learners in role of reviewer and author
 :::
 
 ---
