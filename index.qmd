@@ -13,13 +13,13 @@ On this page you will find **ready-to-use materials** for **teaching Open Resear
 
 ## How can I use these materials?
 
-The materials are completely free to use, given that you provide appropriate credit. Here is how you can use them:
+The materials are completely **free to use**, given that you provide an appropriate citation Here is how you can use the materials:
 
-1. Use the **navigation bar** on the left to navigate through the different topics. The topics are divided into broader modules, which arearranged in a **chronological order**, meaning that they logically build up on one another. If you opt for the pick-and-choose-your-topic-style, make sure to thoroughly **read the prerequisites** for each topic. 
+1. Use the **navigation bar** on the left to navigate through the different topics. The topics are divided into broader modules, which are arranged in a **chronological order**, meaning that they logically build up on one another. If you opt for the pick-and-choose-your-topic-style, make sure to thoroughly **read the prerequisites** for each topic. 
 
 2. When selecting a topic, you are directed to the website for the topic. The website contains a **general introduction** of the materials, the **intended target audience** as well as **prerequisites** and **learning objectives**. It also specifies the contributors and the licence details. Carefully familiarize yourself with the information provided about the topic, particularly with the prerequisites. 
 
-3. Next, you will find the **slides corresponding to the topic** embedded in the website. The slides can be directly presented in the browser using the speaker view (see [here](https://quarto.org/docs/presentations/revealjs/presenting.html) for more information)
+3. Next, you will find the **slides corresponding to the topic** embedded in the website. The slides can be directly presented in the browser in full screen or by using the speaker view (*recommended*, see [here](https://quarto.org/docs/presentations/revealjs/presenting.html) for more information).
 
 4. In the speaker view, you will see detailed **speaker notes** and **instructor notes** providing information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. 
 
@@ -42,12 +42,11 @@ When you click the following button, it takes you to the first slide deck of the
 </a>
 
 
-
 ## How can I adapt the materials?
 
 Of course, the context in which you are teaching may vary greatly and you may need to adapt the materials in terms of content, level of difficulty, duration and practical exercises. If you **want to adapt the materials to fit your audience**, you can **export the slides as PowerPoint** (.pptx format) corresponding to the materials and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. You also have the option to **export the slides in pdf format**. 
 
-In addition, you can also obtain the materials from our [LMU OSC GitHub repository](https://lmu-osc.github.io/train-the-trainer-student-track-OS/). You can [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the repository to adapt to your needs, or [create a new branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) to work on the materials in parallel. 
+In addition, you can also obtain the materials from our [LMU OSC GitHub repository](https://lmu-osc.github.io/train-the-trainer-student-track-OS/). You can [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the repository to adapt the materials to your needs, or [create a new branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) to work on the materials in parallel. Within this repository, you have direct access to the **Quarto .qmd files** that support all of our materials. 
 
 ## How can I give feedback on the materials?
 
@@ -58,18 +57,43 @@ Have you spotted a **way to improve our materials**, or would like to add or **c
 - **The pro way** (involves GitHub): Navigate to the GitHub repository and open an issue, see [here](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue) for instructions on how to do this. Provide a descriptive title for your feedback, and describe your feedback in greater detail in the text box. Include which materials you want to provide feedback on, what the issue is and if it is low, medium or high priority. Tag a member of the LMU OSC staff. 
 
 
-## Do you have more questions?
+## Frequently asked questions
+
+**Question 1**
+
+  - Answer 1
+  
+**Question 2**
+
+  - Answer 2
+
+**Question 3**
+
+  - Answer 3
+
+::: {.callout-note}
+## Cannot find the answer you are looking for?
 
 Please get in touch with the program coordinator Sarah von Grebmer (s.grebmer@lmu.de).
-
-## List of contributors
-
-- Name, ORCID
-- Name, ORCID
-- Name, ORCID
-- Name, ORCID
+:::
 
 
+## Licence and citation statement
 
+::: {.callout-note}
+## How to cite these materials
+Example reference. 
+:::
+
+Unless otherwise specified, the text, images and supplementary materials on these pages is licenced under a CC-BY-SA-4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) licence. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+Note that code embedded in these materials is licenced under a CC0 [Creative Commons 0 Public Domain License](https://creativecommons.org/public-domain/cc0/). This licence enables the creators of these materials to waive their copyright and related rights worldwide, placing a work as close as legally possible into the public domain so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.
+
+## List of main contributors
+
+- Name, ORCID, affiliation
+- Name, ORCID, affiliation
+- Name, ORCID, affiliation
+- Name, ORCID, affiliation
 
 
