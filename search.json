@@ -1486,7 +1486,7 @@
     "href": "index.html#how-can-i-use-these-materials",
     "title": "Educational resources for teaching Open Research to novices",
     "section": "How can I use these materials?",
-    "text": "How can I use these materials?\nThe materials are completely free to use, given that you provide appropriate credit. Here is how you can use them:\n\nUse the navigation bar on the left to navigate through the different topics. The topics are divided into broader modules, which arearranged in a chronological order, meaning that they logically build up on one another. If you opt for the pick-and-choose-your-topic-style, make sure to thoroughly read the prerequisites for each topic.\nWhen selecting a topic, you are directed to the website for the topic. The website contains a general introduction of the materials, the intended target audience as well as prerequisites and learning objectives. It also specifies the contributors and the licence details. Carefully familiarize yourself with the information provided about the topic, particularly with the prerequisites.\nNext, you will find the slides corresponding to the topic embedded in the website. The slides can be directly presented in the browser using the speaker view (see here for more information)\nIn the speaker view, you will see detailed speaker notes and instructor notes providing information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners.\nOnce you are finished with a topic, you can use the arrow on the bottom of the website to navigate to the next topic."
+    "text": "How can I use these materials?\nThe materials are completely free to use, given that you provide an appropriate citation Here is how you can use the materials:\n\nUse the navigation bar on the left to navigate through the different topics. The topics are divided into broader modules, which are arranged in a chronological order, meaning that they logically build up on one another. If you opt for the pick-and-choose-your-topic-style, make sure to thoroughly read the prerequisites for each topic.\nWhen selecting a topic, you are directed to the website for the topic. The website contains a general introduction of the materials, the intended target audience as well as prerequisites and learning objectives. It also specifies the contributors and the licence details. Carefully familiarize yourself with the information provided about the topic, particularly with the prerequisites.\nNext, you will find the slides corresponding to the topic embedded in the website. The slides can be directly presented in the browser in full screen or by using the speaker view (recommended, see here for more information).\nIn the speaker view, you will see detailed speaker notes and instructor notes providing information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners.\nOnce you are finished with a topic, you can use the arrow on the bottom of the website to navigate to the next topic."
   },
   {
     "objectID": "index.html#getting-started",
@@ -1500,7 +1500,7 @@
     "href": "index.html#how-can-i-adapt-the-materials",
     "title": "Educational resources for teaching Open Research to novices",
     "section": "How can I adapt the materials?",
-    "text": "How can I adapt the materials?\nOf course, the context in which you are teaching may vary greatly and you may need to adapt the materials in terms of content, level of difficulty, duration and practical exercises. If you want to adapt the materials to fit your audience, you can export the slides as PowerPoint (.pptx format) corresponding to the materials and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. You also have the option to export the slides in pdf format.\nIn addition, you can also obtain the materials from our LMU OSC GitHub repository. You can clone and fork the repository to adapt to your needs, or create a new branch to work on the materials in parallel."
+    "text": "How can I adapt the materials?\nOf course, the context in which you are teaching may vary greatly and you may need to adapt the materials in terms of content, level of difficulty, duration and practical exercises. If you want to adapt the materials to fit your audience, you can export the slides as PowerPoint (.pptx format) corresponding to the materials and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. You also have the option to export the slides in pdf format.\nIn addition, you can also obtain the materials from our LMU OSC GitHub repository. You can clone and fork the repository to adapt the materials to your needs, or create a new branch to work on the materials in parallel. Within this repository, you have direct access to the Quarto .qmd files that support all of our materials."
   },
   {
     "objectID": "index.html#how-can-i-give-feedback-on-the-materials",
@@ -1510,18 +1510,25 @@
     "text": "How can I give feedback on the materials?\nHave you spotted a way to improve our materials, or would like to add or contribute to the materials? We would love to hear your feedback! There are different ways to give feedback:\n\nThe quick and easy way: Contact the program coordinator Sarah von Grebmer (s.grebmer@lmu.de)\nThe pro way (involves GitHub): Navigate to the GitHub repository and open an issue, see here for instructions on how to do this. Provide a descriptive title for your feedback, and describe your feedback in greater detail in the text box. Include which materials you want to provide feedback on, what the issue is and if it is low, medium or high priority. Tag a member of the LMU OSC staff."
   },
   {
-    "objectID": "index.html#do-you-have-more-questions",
-    "href": "index.html#do-you-have-more-questions",
+    "objectID": "index.html#frequently-asked-questions",
+    "href": "index.html#frequently-asked-questions",
     "title": "Educational resources for teaching Open Research to novices",
-    "section": "Do you have more questions?",
-    "text": "Do you have more questions?\nPlease get in touch with the program coordinator Sarah von Grebmer (s.grebmer@lmu.de)."
+    "section": "Frequently asked questions",
+    "text": "Frequently asked questions\nQuestion 1\n\nAnswer 1\n\nQuestion 2\n\nAnswer 2\n\nQuestion 3\n\nAnswer 3\n\n\n\n\n\n\n\nNoteCannot find the answer you are looking for?\n\n\n\nPlease get in touch with the program coordinator Sarah von Grebmer (s.grebmer@lmu.de)."
   },
   {
-    "objectID": "index.html#list-of-contributors",
-    "href": "index.html#list-of-contributors",
+    "objectID": "index.html#licence-and-citation-statement",
+    "href": "index.html#licence-and-citation-statement",
     "title": "Educational resources for teaching Open Research to novices",
-    "section": "List of contributors",
-    "text": "List of contributors\n\nName, ORCID\nName, ORCID\nName, ORCID\nName, ORCID"
+    "section": "Licence and citation statement",
+    "text": "Licence and citation statement\n\n\n\n\n\n\nNoteHow to cite these materials\n\n\n\nExample reference.\n\n\nUnless otherwise specified, the text, images and supplementary materials on these pages is licenced under a CC-BY-SA-4.0 Creative Commons Attribution 4.0 International SA License licence. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\nNote that code embedded in these materials is licenced under a CC0 Creative Commons 0 Public Domain License. This licence enables the creators of these materials to waive their copyright and related rights worldwide, placing a work as close as legally possible into the public domain so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law."
+  },
+  {
+    "objectID": "index.html#list-of-main-contributors",
+    "href": "index.html#list-of-main-contributors",
+    "title": "Educational resources for teaching Open Research to novices",
+    "section": "List of main contributors",
+    "text": "List of main contributors\n\nName, ORCID, affiliation\nName, ORCID, affiliation\nName, ORCID, affiliation\nName, ORCID, affiliation"
   },
   {
     "objectID": "materials/OS-M2/OS-M2-S5-preregistration-slides.html#credit-statement-and-licence",
