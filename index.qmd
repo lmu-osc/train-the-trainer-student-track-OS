@@ -5,32 +5,36 @@ title: "Educational resources for teaching Open Research to novices"
 
 ## Welcome!
 
-On this page you will find **ready-to-use materials** for **teaching Open Research practices** to novices or students on topics including **methodological foundations of Open Science, computational reproducibility, tools for collaborative working, data management and data sharing** in a **synchronous class-room setting** (in-person, virtual or hybrid). The materials consist of slide decks corresponding to a particular topic, as well as supplementary materials such as home work assignments, extra exercises or cheatsheets. Each slide deck is designed for a **90-minute session**, but can be flexibly adapted. 
+On this page you will find **ready-to-use materials** for **teaching Open Research practices** to novices or students on topics including **methodological foundations of Open Science, computational reproducibility, tools for collaborative working, data management and data sharing** in a **synchronous class-room setting** (in-person, virtual or hybrid). The materials consist of slide decks corresponding to a particular topic, speaker notes as well as supplementary materials such as home work assignments, extra exercises or cheatsheets. Each slide deck is designed for a **90-minute session**, but can be flexibly adapted. 
 
 ## Who are these materials for?
 
-**Educators in higher education** (e.g., universities, colleges) aiming to **convey** foundational Open Research knowlege and skills to their learners.  By *learners* we mean **students or people who are new to Open Research** and are trying to build foundational knowledge and skills. The materials were made for **a)** educators who are aiming to teach a **full, chronological course on Open Research** conforming to 90-minute sessions, or **b)** educators who would like to **pick-and-choose specific 90-minute sessions on different topics** related to Open Research to incorporate into existing courses.
+**Educators in higher education** (e.g., universities, colleges) aiming to **convey** foundational Open Research knowlege and skills to their learners.  By *learners* we mean **students or people who are new to Open Research** and are trying to build foundational knowledge and skills. The materials were made for:
+
+- educators who are aiming to teach a **full, chronological course on Open Research** conforming to 90-minute sessions, *or*
+
+- educators who would like to **pick-and-choose specific 90-minute sessions on different topics** related to Open Research to incorporate into existing courses.
 
 ## How can I use these materials?
 
-The materials are completely **free to use**, given that you provide an appropriate citation Here is how you can use the materials:
+The materials are completely **free to use**, given that you provide an appropriate citation. Here is how you can use the materials:
 
 1. Use the **navigation bar** on the left to navigate through the different topics. The topics are divided into broader modules, which are arranged in a **chronological order**, meaning that they logically build up on one another. If you opt for the pick-and-choose-your-topic-style, make sure to thoroughly **read the prerequisites** for each topic. 
 
-2. When selecting a topic, you are directed to the website for the topic. The website contains a **general introduction** of the materials, the **intended target audience** as well as **prerequisites** and **learning objectives**. It also specifies the contributors and the licence details. Carefully familiarize yourself with the information provided about the topic, particularly with the prerequisites. 
+2. When selecting a topic, you are directed to the webpage for the topic. The webpage contains a **general introduction** of the materials, the **intended target audience** as well as **prerequisites** and **learning objectives**. It also specifies the contributors and the licence details. 
 
 3. Next, you will find the **slides corresponding to the topic** embedded in the website. The slides can be directly presented in the browser in full screen or by using the speaker view (*recommended*, see [here](https://quarto.org/docs/presentations/revealjs/presenting.html) for more information).
 
-4. In the speaker view, you will see detailed **speaker notes** and **instructor notes** providing information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. 
+4. In the speaker view, you will see detailed **speaker notes**, **instructor notes** and **accessibility tips** where relevant providing information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. 
 
 5. Once you are finished with a topic, you can use the *arrow on the bottom of the website* to navigate to the next topic. 
 
 
 ## Getting started!
 
-When you click the following button, it takes you to the first slide deck of the first module. Enjoy!
+When you click the following button, it takes you to the first developed module as we are still working on the introductory modules. Enjoy!
 
-<a href="_site/materials/OS-M3/OS-M3-S5-GitHub/OS-M3/OS-M3-S5-GitHub-slides.html" target="_blank" 
+<a href="docs/materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html" target="_blank" 
    style="display:inline-block;
           padding:12px 20px;
           background-color:#009933;
@@ -52,29 +56,29 @@ In addition, you can also obtain the materials from our [LMU OSC GitHub reposito
 
 Have you spotted a **way to improve our materials**, or would like to add or **contribute** to the materials? **We would love to hear your feedback!** There are different ways to give feedback:
 
-- **The quick and easy way**: Contact the program coordinator Sarah von Grebmer (s.grebmer@lmu.de)
+- **The quick and easy way**: Contact the program coordinator [Sarah von Grebmer](mailto:s.grebmer@lmu.de).
 
-- **The pro way** (involves GitHub): Navigate to the GitHub repository and open an issue, see [here](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue) for instructions on how to do this. Provide a descriptive title for your feedback, and describe your feedback in greater detail in the text box. Include which materials you want to provide feedback on, what the issue is and if it is low, medium or high priority. Tag a member of the LMU OSC staff. 
+- **The pro way** (involves GitHub): Navigate to the GitHub repository and open an issue, see [here](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue) for instructions on how to do this. Provide a descriptive title for your feedback, and describe your feedback in greater detail in the text box. Include which materials you want to provide feedback on, what the issue is and if it is low, medium or high priority. Tag Sarah von Grebmer (using her GitHub username [SvonGrebmer](https://github.com/SvonGrebmer)).
 
 
 ## Frequently asked questions
 
-**Question 1**
+1. **What previous knowledge do I need about Open Research to teach with those slideS?**
 
-  - Answer 1
+  - No prior Open Research knowledge is required! You can acquire the Open Research skills yourself by going through the slides and practical activities, or you can also complete the self-paced tutorials on these topics in the self learning catalogue (LINK). In addition, you can acquire and develop your teaching skills here (LINK). 
   
-**Question 2**
+2. **Who can I teach with these materials?**
 
-  - Answer 2
+  - The materials can be flexibly adapted to bachelor students, master students and early career researchers (PhD, PostDocs) who are new to Open Research or have not had prior training on these topics.
 
-**Question 3**
+3. **I am not a member of the LMU Open Science Center, can I still teach with these slides?**
 
-  - Answer 3
+  - Yes! Just make sure to give the appropriate credit and honor the licence conditions while teaching (this also applies to LMU-based educators!). If you are based at LMU, consider [joining the LMU Open Science Center](https://lmu-osc.github.io/about/join-us.html) to support the goal of open, responsible, and reproducible research within your disciplines or at LMU Munich more broadly.
 
 ::: {.callout-note}
 ## Cannot find the answer you are looking for?
 
-Please get in touch with the program coordinator Sarah von Grebmer (s.grebmer@lmu.de).
+Please get in touch with the program coordinator [Sarah von Grebmer](mailto:s.grebmer@lmu.de).
 :::
 
 
@@ -85,9 +89,9 @@ Please get in touch with the program coordinator Sarah von Grebmer (s.grebmer@lm
 Example reference. 
 :::
 
-Unless otherwise specified, the text, images and supplementary materials on these pages is licenced under a CC-BY-SA-4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) licence. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+Unless otherwise specified, the text, images and supplementary materials on these pages is licenced under a **CC-BY-SA-4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en)** It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-Note that code embedded in these materials is licenced under a CC0 [Creative Commons 0 Public Domain License](https://creativecommons.org/public-domain/cc0/). This licence enables the creators of these materials to waive their copyright and related rights worldwide, placing a work as close as legally possible into the public domain so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.
+Note that code embedded in these materials is licenced under a **CC0 [Creative Commons 0 Public Domain License](https://creativecommons.org/public-domain/cc0/)**. This licence enables the creators of these materials to waive their copyright and related rights worldwide, placing a work as close as legally possible into the public domain so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.
 
 ## List of main contributors
 
@@ -97,6 +101,6 @@ Note that code embedded in these materials is licenced under a CC0 [Creative Com
 - Name, ORCID, affiliation
 
 
-## Funding
+## Funding and partners
 
-This project is funded by the [VolksWagen Foundation](https://www.volkswagenstiftung.de/de).
+This project is funded by the [VolksWagen Foundation](https://www.volkswagenstiftung.de/de) and is developed in collaboration with [FORRT](https://forrt.org/).
