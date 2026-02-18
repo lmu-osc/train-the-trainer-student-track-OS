@@ -42,7 +42,7 @@ This current work by Tejaswini Sharma, Sarah von Grebmer zu Wolfsthurn and Malik
 </div>
 
 ::: {.notes}
-**Speaker Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
 :::
 
 ---
@@ -59,9 +59,9 @@ This current work by Tejaswini Sharma, Sarah von Grebmer zu Wolfsthurn and Malik
 
 
 ::: {.notes}
-**Speaker Notes**: These are the **speaker notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter. 
+**Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
 
-**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
 
 **Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities.
 :::
@@ -84,7 +84,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Before we begin this submodule, please take a moment to review the prerequisites listed here.
+**Presenter Notes**: Before we begin this submodule, please take a moment to review the prerequisites listed here.
 First, you should already have R and RStudio installed. If not, the link on the slide will guide you through the installation.
 Next, you’ll need some basic familiarity with R — for example, how to select values in a data frame or how to create simple vectors. There’s a tutorial by OSC linked here in case you’d like to refresh those skills.
 Finally, you should be comfortable with basic statistical concepts, such as descriptive statistics and fundamental data analysis ideas. There is a link to a cheatsheet on these concepts provided here.
@@ -107,7 +107,7 @@ If any of these areas feel unfamiliar, I encourage you to explore the resources 
 
 
 ::: {.notes}
-**Speaker Notes**: Before we move on, we will take a short survey. The aim here is simply to understand your current familiarity.
+**Presenter Notes**: Before we move on, we will take a short survey. The aim here is simply to understand your current familiarity.
 
 In the next few slides, you will see some questions that invite you to reflect on where you’re starting from. This is not a test, and it is not about getting the right answers. If you’re unsure, that is completely fine, just respond based on what feels closest to your current understanding. 
 
@@ -213,7 +213,7 @@ What do we see in the results?
 
 
 ::: {.notes}
-**Speaker Notes**: Let us have a look at these results.
+**Presenter Notes**: Let us have a look at these results.
 
 **Instructor Notes:** The aim is to understand the group’s current standing in terms of knowledge and familiarity with simulations, power analysis, and R. Emphasise explicitly that the survey is not about correct or incorrect answers. Avoid evaluating answers or revealing correct ones.
 :::
@@ -235,7 +235,7 @@ What do we see in the results?
 
 
 ::: {.notes}
-**Speaker Notes**: This slide outlines the learning goals for this part of the session.
+**Presenter Notes**: This slide outlines the learning goals for this part of the session.
 At this stage, you’re not expected to fully understand or master all of these points.
 Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. As we move through the session, we’ll revisit these goals in smaller sections. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.
 
@@ -260,7 +260,7 @@ Our next learning goals is related to understanding what power analysis is and w
 :::
 
 ::: {.notes}
-**Speaker Notes**: Here are a few key terms that will appear throughout the session.
+**Presenter Notes**: Here are a few key terms that will appear throughout the session.
 We’ll use the word simulations to talk about computer-generated data created through pseudo-random sampling.
 Power analysis refers to estimating the probability of detecting a true effect.
 And effect size tells us how large or meaningful that effect is.
@@ -302,7 +302,7 @@ You don’t need to memorise these right now, this is just a quick introduction.
 :::
 
 ::: {.notes}
-**Speaker Notes**: In this part, we’re looking at what simulations really are. A simulation basically means creating data that behaves the way we expect real-world data to behave. We repeat this process many times to see the range of outcomes we might get.
+**Presenter Notes**: In this part, we’re looking at what simulations really are. A simulation basically means creating data that behaves the way we expect real-world data to behave. We repeat this process many times to see the range of outcomes we might get.
 :::
 
 
@@ -321,7 +321,7 @@ You don’t need to memorise these right now, this is just a quick introduction.
 
 
 ::: {.notes}
-**Speaker Notes**: To get an intuitive feel for it, there’s a quick activity: take a moment with the person next to you and imagine flipping a fair coin 100 times. How many heads and tails do you expect? You’re not actually flipping the coin, you’re just thinking it through. But that mental experiment already follows the logic of a simulation.
+**Presenter Notes**: To get an intuitive feel for it, there’s a quick activity: take a moment with the person next to you and imagine flipping a fair coin 100 times. How many heads and tails do you expect? You’re not actually flipping the coin, you’re just thinking it through. But that mental experiment already follows the logic of a simulation.
 
 Before we explore why simulations are important in research, we’ll think ourselves why the process of 'making up data' is important. Take a moment to think why doing this pretend experiment first is useful for planning a real study.
 
@@ -341,7 +341,7 @@ Before we explore why simulations are important in research, we’ll think ourse
 **What ideas have you come up with during the previous activity?**
 
 ::: {.notes}
-**Speaker Notes**: Collect what learners have come up with during the previous activity. Summarize and paraphrase as you go along, and potentially collect the answers on a flipchart.
+**Presenter Notes**: Collect what learners have come up with during the previous activity. Summarize and paraphrase as you go along, and potentially collect the answers on a flipchart.
 :::
 
 ---
@@ -363,7 +363,7 @@ Before we explore why simulations are important in research, we’ll think ourse
 
 
 ::: {.notes}
-**Speaker Notes**: Let’s now talk about why simulations are used in research. Some of these aspects you have already mentioned in the discussion of the activity. 
+**Presenter Notes**: Let’s now talk about why simulations are used in research. Some of these aspects you have already mentioned in the discussion of the activity. 
 
 1. One reason is that they help us build an intuitive feel for data. Even when we follow the same rules, results naturally vary. If you imagine simulating many sets of ten coin flips, you’ll notice the number of heads changes from one set to the next, even when the coin is fair. This helps us understand that different outcomes don’t automatically mean something unusual is happening.
 
@@ -404,7 +404,7 @@ Time to apply the simulation process to your coin-flip experiment. Get in your p
 
 
 ::: {.notes}
-**Speaker Notes**: Here is the basic process behind running a simulation.
+**Presenter Notes**: Here is the basic process behind running a simulation.
 
 First, decide how many data points (sample size) you want, for example, simulating a 100 coin flips. Thus, n = 100.
 
@@ -431,7 +431,7 @@ This gives you a clear picture of the variation you can expect if the experiment
 :::
 
 ::: {.notes}
-**Speaker Notes**: Let us pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.
+**Presenter Notes**: Let us pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.
 If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.
 
 **Instructor Notes**: Encourage brief reflections rather than detailed discussions. Ask learners to self-assess quietly or with a quick show of hands. Invite a few questions or clarifications, but avoid re-teaching in depth unless a common gap appears.
@@ -453,7 +453,7 @@ If you notice any gaps, this is the right moment to bring them up. Feel free to 
 :::
  
 ::: {.notes}
-**Speaker Notes**: In this section, we’re looking at what power analysis means and why it matters.
+**Presenter Notes**: In this section, we’re looking at what power analysis means and why it matters.
 Think back to our coin example. The question now is: How many times should we flip the coin to confidently decide whether it’s fair? Power analysis helps us figure that out.
 
 Power is simply the chance of detecting a real effect if it truly exists.
@@ -483,7 +483,7 @@ Get together in your pair, and discuss **why** conducting power analysis for you
 :::
 
 ::: {.notes}
-**Speaker Notes**: Power analysis is basically about asking: How likely is my study to actually notice something real, if it’s there? That likelihood depends on three main things.
+**Presenter Notes**: Power analysis is basically about asking: How likely is my study to actually notice something real, if it’s there? That likelihood depends on three main things.
 
 First, the effect size — in our coin example, this means how biased the coin really is. A very slightly biased coin is harder to detect than a strongly biased one.
 
@@ -509,7 +509,7 @@ If learners struggle, prompt them with questions like: “What happens if the ef
 **What ideas have you come up with during the previous activity?**
 
 ::: {.notes}
-**Speaker Notes**: Collect what learners have come up with during the previous activity. Summarize and paraphrase as you go along, and potentially collect the answers on a flipchart.
+**Presenter Notes**: Collect what learners have come up with during the previous activity. Summarize and paraphrase as you go along, and potentially collect the answers on a flipchart.
 :::
 
 ---
@@ -526,7 +526,7 @@ If learners struggle, prompt them with questions like: “What happens if the ef
 
 
 ::: {.notes}
-**Speaker Notes**: Power analysis can be important for various reasons. 
+**Presenter Notes**: Power analysis can be important for various reasons. 
 
 1. It can help us avoid studies that are simply too weak to be useful. If a study is underpowered, you might run the experiment, analyse the data, and still fail to detect a real effect, not because the effect isn’t there, but because the study was too small. This is similar to trying to record a sound in a noisy room: You might hear it, not because the sound is not there, but because your setup is not high-tech enough to detect it.
 
@@ -553,7 +553,7 @@ Two ways:
 
 
 ::: {.notes}
-**Speaker Notes:** There are two main ways to do power analysis. The first is the quick formula method. Here, you use a mathematical formula that links effect size, sample size, and significance level to estimate how much data you need. This works well for very simple designs, like basic comparisons or classic statistical tests. It is fast and intuitive, but it also makes strong assumptions about how the data behave.
+**Presenter Notes:** There are two main ways to do power analysis. The first is the quick formula method. Here, you use a mathematical formula that links effect size, sample size, and significance level to estimate how much data you need. This works well for very simple designs, like basic comparisons or classic statistical tests. It is fast and intuitive, but it also makes strong assumptions about how the data behave.
 
 The second approach is simulation-based power analysis. Instead of relying only on formulas, you pretend to run your experiment many times on a computer. You generate fake data that reflect how you expect the real data to look, analyse each pretend dataset, and then see how often you detect the effect.
 
@@ -578,7 +578,7 @@ Time to apply the power analysis process to your coin-flip experiment. Get in yo
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let’s walk through the basic steps of simulation-based power analysis using this process.
+**Presenter Notes**: Let’s walk through the basic steps of simulation-based power analysis using this process.
 
 First, you set up your model and data. This means deciding what your variables look like and how they behave. For example, are you working with coin flips, test scores, or reaction times? You also choose assumptions like the sample size, the expected effect size, and the type of distribution the data follow. In our coin example, this is where you decide how biased the coin might be and how many flips you plan to run.
 
@@ -611,7 +611,7 @@ Since this is a self-paced tutorial, *take your time* on navigating it; and it c
 :::
 
 ::: {.notes}
-**Speaker Notes**: Now we’ll move on to the tutorial part of the session.
+**Presenter Notes**: Now we’ll move on to the tutorial part of the session.
 You’ll work individually through a self-paced tutorial, focusing on gaining hands-on experience with running simulations yourself in R. Take your time as you go through them, and work at a pace that feels comfortable. There is no expectation to finish everything right now, and you’re welcome to continue working on them at home. Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorial.
 
 **Instructor Notes:** Clearly signal the shift from guided instruction to independent work. Remind learners that the tutorial is self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Do walk around the room to check up on the progress of your learners. Provide a time limit for the activity and inform your learners that you will come together as a group towards the end of the session to wrap up.
@@ -632,7 +632,7 @@ Complete the rest in your own time.
 </div>
 
 ::: {.notes}
-**Speaker Notes**: For those of you who did not yet finish with the tutorial, this is the assignment for the next session. 
+**Presenter Notes**: For those of you who did not yet finish with the tutorial, this is the assignment for the next session. 
 
 **Instructor Notes**: Explain the homework assignment and the rationale behind the homework. Examine whether/how it will be assessed. Mention scoring rubrics, if applicable.
 
@@ -656,7 +656,7 @@ Complete the rest in your own time.
 
 
 ::: {.notes}
-**Speaker Notes**: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.
+**Presenter Notes**: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.
 
 If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.
 
@@ -676,7 +676,7 @@ Can you imagine using simulations for **your** work/projects/studies?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let us discuss how these skills could be relevant to you. Where can you imagine applying these new skills? In which context? Or where can you imagine that you *will not* apply these skills? 
+**Presenter Notes**: Let us discuss how these skills could be relevant to you. Where can you imagine applying these new skills? In which context? Or where can you imagine that you *will not* apply these skills? 
 
 **Instructor Notes**: The aim here is to work out the relevance of the topic to your learners. In an interactive setting, discuss how the new skills could be applied in practice with specific examples. Examine downfalls and practical obstacles.
 :::
@@ -696,7 +696,7 @@ Can you imagine using simulations for **your** work/projects/studies?
 
 
 ::: {.notes}
-**Speaker Notes**: To wrap up, here’s the main takeaway.
+**Presenter Notes**: To wrap up, here’s the main takeaway.
 Simulations act like a safe playground, where you can run your study many times using pretend data and see how your statistics behave before working with real data. Power analysis works like a trial period, helping you decide on a study size that’s large enough to detect real effects, but not larger than necessary. Together, simulations and power analysis form a kind of research rehearsal — you first imagine and test the experiment, then check whether the plan is strong enough, and only after that move on to collecting real data.
 
 **Instructor Notes**: This is a good moment to make sure that your learners feel the need for simulations and power analysis on a ground level. The metaphor can make it easier to remember the reasoning.
@@ -707,7 +707,7 @@ Simulations act like a safe playground, where you can run your study many times 
 ## To conclude: Survey time!
 
 ::: {.notes}
-**Speaker Notes**: To conclude, we’ll take a short survey.
+**Presenter Notes**: To conclude, we’ll take a short survey.
 This post-session survey helps us understand your current level of knowledge about simulations, power analysis, and working in R after completing the submodule.
 Please answer honestly based on how confident you feel now.
 
@@ -810,7 +810,7 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let’s take a moment to look at these survey results together. The goal here is not to see who got answers “right” or “wrong,” but to get a sense of where we are as a group right now. These results give us a snapshot of your current familiarity with simulations, power analysis, and R, which helps us understand what feels familiar and what might feel new. <br>
+**Presenter Notes**: Let’s take a moment to look at these survey results together. The goal here is not to see who got answers “right” or “wrong,” but to get a sense of where we are as a group right now. These results give us a snapshot of your current familiarity with simulations, power analysis, and R, which helps us understand what feels familiar and what might feel new. <br>
 **Instructer Notes**: The post-survey aims to assess the difference in knowledge and skill before and after the class. Highlight general patterns rather than individual responses (e.g., areas of confidence vs. uncertainty). Avoid correcting answers.
 :::
 
@@ -822,7 +822,7 @@ What do we see in the results?
 :::
 
 ::: {.notes}
-**Speaker Notes**: This slide lists all the sources that informed today’s session. You don’t need to read through them now. They are here so you can see where the ideas and definitions come from and so you can revisit any of these readings later if you’re interested.
+**Presenter Notes**: This slide lists all the sources that informed today’s session. You don’t need to read through them now. They are here so you can see where the ideas and definitions come from and so you can revisit any of these readings later if you’re interested.
 
 **Instructor Notes**: Emphasise that learners are not expected to engage with all sources now; this slide mainly serves documentation and follow-up purposes. 
 :::
@@ -838,7 +838,7 @@ What do we see in the results?
 - [Introduction to Power Analysis by Courtney K. Soderberg](https://osf.io/7wfed/files/asf53)
 
 ::: {.notes}
-**Speaker Notes**: This slide lists the key references and additional resources used throughout the session.
+**Presenter Notes**: This slide lists the key references and additional resources used throughout the session.
 You don’t need to go through these right now.
 They’re here so you can revisit the concepts in more depth later, explore practical examples, or follow up on topics that interested you during the tutorial.
 Feel free to use these resources at your own pace.

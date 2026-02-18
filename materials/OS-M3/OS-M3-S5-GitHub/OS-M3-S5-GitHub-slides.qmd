@@ -37,7 +37,7 @@ This work was originally created by [Anna Krystalli](https://github.com/annakrys
 </div>
 
 ::: {.notes}
-**Speaker Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
 :::
 
 ---
@@ -51,7 +51,7 @@ This work was originally created by [Anna Krystalli](https://github.com/annakrys
 **Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 ::: {.notes}
-**Speaker Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
+**Presenter Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
 
 **Instructor Notes**: Instructor notes provide teaching support but are not intended to be communicated to the learners directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner's needs as well as anticipate challenges.
 
@@ -84,7 +84,7 @@ Before completing this submodule, please carefully read about the necessary prer
 
 
 ::: {.notes}
-**Speaker Notes**: Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this submodule and complete the exercises. Usually, the instructor will set up the practice repository, but learners completing this lesson independently may also create it themselves.
+**Presenter Notes**: Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this submodule and complete the exercises. Usually, the instructor will set up the practice repository, but learners completing this lesson independently may also create it themselves.
 
 **Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiarity with Git and that the audience has also completed that submodule. We also assume that, through the previous workshops, participants have downloaded and installed R and RStudio on their local machines. Lastly, the instructor should create a fork of the LMU OSC Collaborative-RStudio-GitHub repository. This will be the main repository for the class session and activities (that is, this forked repository is the repository that the learners will fork and where the contributions will go when merged).
 :::
@@ -107,7 +107,7 @@ You have copied all the materials from the LMU OSC Collaborative-RStudio-GitHub 
 :::
 
 ::: {.notes}
-**Speaker Notes**: We need a main repository where we will combine or merge all our contributions into one project. To have all the materials needed to follow along and complete the practical activities, I will create the fork and use it as the main repository.
+**Presenter Notes**: We need a main repository where we will combine or merge all our contributions into one project. To have all the materials needed to follow along and complete the practical activities, I will create the fork and use it as the main repository.
 
 **Instructor Notes**: The fork of the original repository will act as the main repository for this session. This means that learners would then have to fork this fork in order to make their individual changes and contributions. Doing this allows you as the instructor to view the pull requests made to this fork and subsequently merge them (OSC has ownership of the original repo and so any pull requests to that repo would require their approval). It is advisable to do this *before* the session so that on the day of the lesson, you can easily give the learners a link to access this main repository. Please note that this means what you and your learners see on your screens during this session will not match with some of the images in the Practical exercises (for example, the owner of the repository will be you and not "lmu-osc"). 
 :::
@@ -126,7 +126,7 @@ Any remaining questions about the most recent content and/or practical exercises
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Are there any questions from what was discussed during the last session? Are there any remaining thoughts or discussion points?
+**Presenter Notes**: Are there any questions from what was discussed during the last session? Are there any remaining thoughts or discussion points?
 
 **Instructor  Notes**:
 - Aim: clarify questions from the previous submodule and/or to discuss assignments. <br>
@@ -148,7 +148,7 @@ Please complete survey labeled "OS-M3-S5-GitHub-starting_survey".
 :::
 
 ::: {.notes}
-**Speaker Notes**: Let's start the session by gauging where our Quarto skills are at this point. Scan the QR code and go to the "starting survey" question series. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
+**Presenter Notes**: Let's start the session by gauging where our Quarto skills are at this point. Scan the QR code and go to the "starting survey" question series. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
 
 **Instructor Notes**:
 - Aim: the pre-submodule survey serves to examine learners' prior knowledge about the submodule's topic. <br>
@@ -225,7 +225,7 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Looking at the results from this small survey, what can we take from this? There will be a similar post-submodule survey to examine understanding and learning progress.
+**Presenter Notes**: Looking at the results from this small survey, what can we take from this? There will be a similar post-submodule survey to examine understanding and learning progress.
 
 **Instructor Notes**:
 
@@ -260,7 +260,7 @@ What do we see in the results?
 :::
 
 ::: {.notes}
-**Speaker Notes**: So far, you have built up your R skills from basic data handling to visualizations and learned the fundamentals of version control with Git. Next, we are moving into how these tools come together for collaboration such as: working on projects remotely and tracking changes from multiple contributors.
+**Presenter Notes**: So far, you have built up your R skills from basic data handling to visualizations and learned the fundamentals of version control with Git. Next, we are moving into how these tools come together for collaboration such as: working on projects remotely and tracking changes from multiple contributors.
 
 **Instructor Notes**:
 
@@ -281,7 +281,7 @@ At the end of this session, you should be able to:
 - **Design** a collaborative workflow that enhances the openness and reproducibility of your own projects.
 
 ::: {.notes}
-**Speaker Notes**: By the end of this session, you should feel confident navigating GitHub and using it for collaboration. You will learn how to fork and clone repositories to create local copies, commit and push your work, and pull updates from others to stay in sync. Finally, you will see how these actions build a workflow that supports open, transparent, and reproducible research or projects.
+**Presenter Notes**: By the end of this session, you should feel confident navigating GitHub and using it for collaboration. You will learn how to fork and clone repositories to create local copies, commit and push your work, and pull updates from others to stay in sync. Finally, you will see how these actions build a workflow that supports open, transparent, and reproducible research or projects.
 
 **Instructor Notes**:
 
@@ -308,7 +308,7 @@ At the end of this session, you should be able to:
 </div>
 
 ::: {.notes}
-**Speaker Notes**: This session will be an introduction on how to navigate GitHub and the language (coding) used to communicate with GitHub using your RStudio terminal. What follows are essentially commands you can use to collaborate with others on projects by accessing the files, making changes without affecting anyone else's progress, keeping your work updated, and more. 
+**Presenter Notes**: This session will be an introduction on how to navigate GitHub and the language (coding) used to communicate with GitHub using your RStudio terminal. What follows are essentially commands you can use to collaborate with others on projects by accessing the files, making changes without affecting anyone else's progress, keeping your work updated, and more. 
 
 **Instructor Notes**:
 - Aim: To establish the core theoretical introduction of submodule topics.
@@ -329,7 +329,7 @@ At the end of this session, you should be able to:
 - **Branch**: 
 
 ::: {.notes}
-**Speaker Notes**: These are some of the key terms that will come up throughout this lesson. What are your associations with each of these concepts? Which ones have you come across before? What could these concepts refer to? What is new to you?
+**Presenter Notes**: These are some of the key terms that will come up throughout this lesson. What are your associations with each of these concepts? Which ones have you come across before? What could these concepts refer to? What is new to you?
   
 **Instructor Notes**: Use the think-pair-share paradigm to examine existing concepts and definitions. learners think for themselves what they associate with each term, discuss collaboratively in pairs and then share their thoughts with the group. 
 :::
@@ -347,7 +347,7 @@ At the end of this session, you should be able to:
 :::
 
 ::: {.notes}
-**Speaker Notes**: Now let us define these key terms, even if for now they are a little abstract. <br>
+**Presenter Notes**: Now let us define these key terms, even if for now they are a little abstract. <br>
 - Think of **Git** like a time machine for your project as it keeps track of every edit so you can go back to earlier versions or see who changed what. Git runs locally on your computer but connects easily with platforms like GitHub for sharing. <br>
 - **GitHub** is an online platform that lets researchers store, share, and collaborate on code and projects using version control. <br>
 - A **Git repository** is a folder that contains your project files and is tracked by Git so you can see the full history of changes. This folder can live locally on your computer or online, for example, a **GitHub repository** is a one that's hosted online on GitHub. <br>
@@ -374,7 +374,7 @@ Think about your past experience working collaboratively in a team. Did you face
 :::
 
 ::: {.notes}
-**Speaker Notes**: For many projects, researchers working collaboratively or in teams can encounter several challenges that affect progress. Poor communication is one such challenge where relying on tools like emails or messaging apps can become confusing or cause important information to be lost. Researchers who work from different institutions, locations, or time zones can find it difficult to update code or review the work of the other contributors. Limited transparency and visibility of things like analysis scripts or data processing steps can also be a barrier for collaborators or reviewers to see how results were produced. Reflect on your own experience working in a team... were any of these problems issues for you too?
+**Presenter Notes**: For many projects, researchers working collaboratively or in teams can encounter several challenges that affect progress. Poor communication is one such challenge where relying on tools like emails or messaging apps can become confusing or cause important information to be lost. Researchers who work from different institutions, locations, or time zones can find it difficult to update code or review the work of the other contributors. Limited transparency and visibility of things like analysis scripts or data processing steps can also be a barrier for collaborators or reviewers to see how results were produced. Reflect on your own experience working in a team... were any of these problems issues for you too?
 
 **Instructor Notes**: Bring the lesson to life by making it relatable. Ask learners to think about times they have experienced these or similar challenges. This way the solutions to these problems that GitHub provides will not seem too abstract and learners can begin thinking about how they would incorporate working on GitHub in their projects. Select a few challenges and discuss with your learners.
 :::
@@ -401,7 +401,7 @@ Think about your past experience working collaboratively in a team. Did you face
 - By hosting the materials on online repositories, teams can work from **anywhere**, **contribute** asynchronously, and **review** each other's work.
 
 ::: {.notes}
-**Speaker Notes**: GitHub is a collaborative hub for open and transparent research. Using it for a collaborative project can solve the challenges we just looked at. GitHub improves communication with features like commit messages that describe the changes made and the option to have discussions alongside the code. By allowing teams to host and share repositories online, everyone can contribute from anywhere. This connects all the contributors on a shared online workspace without overwriting each other's work. This also includes hosting and sharing project materials like the code used and anlysis scripts so that they can be visible by the public or only accessible by the team. By doing this, people can see the evolution of the research and how analyses were done. Ultimately, GitHub supports the core principles of Open Science: openness, transparency, and reproducibility.
+**Presenter Notes**: GitHub is a collaborative hub for open and transparent research. Using it for a collaborative project can solve the challenges we just looked at. GitHub improves communication with features like commit messages that describe the changes made and the option to have discussions alongside the code. By allowing teams to host and share repositories online, everyone can contribute from anywhere. This connects all the contributors on a shared online workspace without overwriting each other's work. This also includes hosting and sharing project materials like the code used and anlysis scripts so that they can be visible by the public or only accessible by the team. By doing this, people can see the evolution of the research and how analyses were done. Ultimately, GitHub supports the core principles of Open Science: openness, transparency, and reproducibility.
 
 **Instructor Notes**: <br>
 - Aim: Core theoretical introduction of submodule topic and how it can provide solutions to real problems that researchers face.
@@ -430,7 +430,7 @@ With **collaborative coding**:
 ::::::
 
 ::: {.notes}
-**Speaker Notes**: Collaborative coding means that a whole team can contribute to the same project in real time where everyone can edit, review, and improve the same code without overwriting each other’s work. Git and GitHub make this possible by keeping track of every change, merging updates smoothly, and maintaining transparency. This approach makes teamwork easier and strengthens openness and reproducibility in research. <br>
+**Presenter Notes**: Collaborative coding means that a whole team can contribute to the same project in real time where everyone can edit, review, and improve the same code without overwriting each other’s work. Git and GitHub make this possible by keeping track of every change, merging updates smoothly, and maintaining transparency. This approach makes teamwork easier and strengthens openness and reproducibility in research. <br>
 As we go through the different actions you can do with your project files on GitHub, we'll also discuss how it contributes towards a collaborative workflow.
 :::
 
@@ -452,7 +452,7 @@ What a *workflow* using **GitHub** can look like:
 
 
 ::: {.notes}
-**Speaker Notes**: Here is what a typical workflow using GitHub looks like:
+**Presenter Notes**: Here is what a typical workflow using GitHub looks like:
 
 - Start with a central repository that contains the shared project files.
 - Fork the repository to create your own copy on GitHub.
@@ -480,7 +480,7 @@ To **fork a repo** means to copy a collaborator’s repo to your own remote *Git
 :::
 
 ::: {.notes}
-**Speaker Notes**: Now let us go through each of the steps in the workflow and practice them. The first step is to make your own copy of the project repository to your GitHub account. To do this, you need to fork the repo, which means to copy it so that you have your own version where you can host your changes to send it with changes back to the main repository later. <br>
+**Presenter Notes**: Now let us go through each of the steps in the workflow and practice them. The first step is to make your own copy of the project repository to your GitHub account. To do this, you need to fork the repo, which means to copy it so that you have your own version where you can host your changes to send it with changes back to the main repository later. <br>
 How does this contribute towards collaboration? It enables multiple contributors to work on the project at the same time. The changes you make on your copy won't affect the original project, so it becomes your personal workspace where you can freely test ideas ideas.
 
 **Instructor Notes**: This is where the practice repo you had set up comes in. The learners will make a fork of the one you previously forked from the OSC GitHub account.
@@ -503,7 +503,7 @@ By **repo on GitHub** we mean one of two things: <br>
 :::
 
 ::: {.notes}
-**Speaker Notes**: Go to the main repository of the project we will be using for today, e,g., the repository that I provided you with today. Click the link to be redirected to the repository on GitHub.
+**Presenter Notes**: Go to the main repository of the project we will be using for today, e,g., the repository that I provided you with today. Click the link to be redirected to the repository on GitHub.
 
 **Instructor Notes**: Provide learners with the name or link to your forked repo created for this session. Replace the information in the first line with the practice repository. Make a title for the link (for e.g., "Practice Repository for Collaborative Coding") in the square brackets and then copy and paste the url link to the practice repository in the brackets. This way, the learners can easy navigate to the practice repository they must then fork in the next slide. 
 :::
@@ -523,7 +523,7 @@ Note that **the screenshot may not match exactly** because it depends which repo
 :::
 
 ::: {.notes}
-**Speaker Notes**: On the repository, find the toolbar at the top that is next to the name of the repository and click "Fork". 
+**Presenter Notes**: On the repository, find the toolbar at the top that is next to the name of the repository and click "Fork". 
 
 **Instructor Notes**: The 'main repository' here will be the one that you forked from the original lmu-osc tutorial and was subsequently copied to your own remote GitHub account. In essence, your learners are now creating a fork of your fork. This is also the first instance where what you and your learners see on screen may not match identically with what this example image shows. 
 :::
@@ -538,7 +538,7 @@ Note that **the screenshot may not match exactly** because it depends which repo
 - [ ] Click on the green "`Create fork`" button at the bottom-right of the screen
 
 ::: {.notes}
-**Speaker Notes**: It takes you to a new page where you will change the 'owner' to your GitHub account, leave the repository name as is and then click the green "Create fork" button at the bottom. 
+**Presenter Notes**: It takes you to a new page where you will change the 'owner' to your GitHub account, leave the repository name as is and then click the green "Create fork" button at the bottom. 
 
 **Instructor Notes**: The only thing that should look different for each learner is the "Owner" field- it should reflect each individual's GitHub account name.
 :::
@@ -552,7 +552,7 @@ You will see the fork of the repository on **your** GitHub account:
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/fork-process.png){fig-alt="An image showing what the fork of the repository would look on the GitHub account including the name of the repository, where it was forked from, the status of the branch, and a 'Code' button."}
 
 ::: {.notes}
-**Speaker Notes**: When you click on the drop-down arrow next to "Fork" on the main repository, you will see your fork of the repository on your GitHub account. 
+**Presenter Notes**: When you click on the drop-down arrow next to "Fork" on the main repository, you will see your fork of the repository on your GitHub account. 
 :::
 
 ---
@@ -572,7 +572,7 @@ When you **fork** the repo, a copy is made on your *remote GitHub account*. When
 :::
 
 ::: {.notes}
-**Speaker Notes**: To work on your copy or version of the project, clone it to your personal device. When you clone the repo, it takes the project from GitHub and downloads it onto your personal device so now you have an offline version of the project to work on. <br>
+**Presenter Notes**: To work on your copy or version of the project, clone it to your personal device. When you clone the repo, it takes the project from GitHub and downloads it onto your personal device so now you have an offline version of the project to work on. <br>
 How does this contribute towards collaboration? You can now have a copy of the project files on your local device that's still connected to the online repository and it makes it easy to sync updates between contributors.
 
 **Instructor Notes**: Both forking and cloning involve making copies of the repo but to different locations, so make this distinction clear. If there is any confusion, you can go back to the first diagram of the workflow to visualize the difference. 
@@ -589,7 +589,7 @@ How does this contribute towards collaboration? You can now have a copy of the p
 - [ ] Copy the repository's URL
 
 ::: {.notes}
-**Speaker Notes**: Let us practice this using the forked repository you just made. In your fork, find the green "Code button". Once you find that, it will most likely be on the HTTPS tab, so we need to click on the SSH tab instead and copy the URL given there. 
+**Presenter Notes**: Let us practice this using the forked repository you just made. In your fork, find the green "Code button". Once you find that, it will most likely be on the HTTPS tab, so we need to click on the SSH tab instead and copy the URL given there. 
 :::
 
 ---
@@ -601,7 +601,7 @@ How does this contribute towards collaboration? You can now have a copy of the p
 - [ ] In **RStudio**, click "`File`" -> "`New Project`" to open a new project
 
 ::: {.notes}
-**Speaker Notes**: <br>
+**Presenter Notes**: <br>
 - Now let's switch to RStudio where we can use the built-in functions for Git. This way we can make our changes and manage our workflow in one place. <br>
 - When you clone the files, you will put them in a new project on your device. To do this: open RStudio and go to 'File' then create a new project by selecting "New Project".
 
@@ -637,7 +637,7 @@ How does this contribute towards collaboration? You can now have a copy of the p
 
 
 ::: {.notes}
-**Speaker Notes**: We need to select "Version Control" to connect RStudio directly to the GitHub repository and work with version-tracked code. Then, we select "Git" to clone the project directly from the GitHub repository. 
+**Presenter Notes**: We need to select "Version Control" to connect RStudio directly to the GitHub repository and work with version-tracked code. Then, we select "Git" to clone the project directly from the GitHub repository. 
 
 **Instructor Notes**: The "Git" option appears if Git is correctly installed on your device. If it does not appear, check if Git has been installed and restart RStudio. 
 :::
@@ -667,7 +667,7 @@ First, make a new folder on your device. Then, you can change the path under "`C
 :::
 
 ::: {.notes}
-**Speaker Notes**: Remember the URL we copied from the SSH tab? Now we need to paste it under "Repository URL". If you've created a folder with a Git database for a previous lesson, make a new one for this. When you make a new folder, click "Browse..." and select that folder. Each folder should have it's own Git database. Next, when you hit "Create Project", you'll need to enter your password.
+**Presenter Notes**: Remember the URL we copied from the SSH tab? Now we need to paste it under "Repository URL". If you've created a folder with a Git database for a previous lesson, make a new one for this. When you make a new folder, click "Browse..." and select that folder. Each folder should have it's own Git database. Next, when you hit "Create Project", you'll need to enter your password.
 
 **Instructor Notes**: If learners are confused as to which password is required: it is the password for their individual GitHub accounts.
 :::
@@ -681,7 +681,7 @@ First, make a new folder on your device. Then, you can change the path under "`C
 Now, when you click on the "`Files`" tab in **RStudio**, you should see all the files from the main repository. 
 
 ::: {.notes}
-**Speaker Notes**: And that's it! You should now have the files from the main repository on your local device. Check this by clicking on the "Files" tab in RStudio and check that all the files from the main repository are now appearing. Compare what you have on your RStudio project to what is in your fork on GitHub.  
+**Presenter Notes**: And that's it! You should now have the files from the main repository on your local device. Check this by clicking on the "Files" tab in RStudio and check that all the files from the main repository are now appearing. Compare what you have on your RStudio project to what is in your fork on GitHub.  
 
 **Instructor Notes**: It would be helpful at this stage to point out the "params" sub-folder as one of the files here in the cloned repository. This is the sub-folder containing the R file that learners will need to copy in the next exercise. 
 :::
@@ -704,7 +704,7 @@ To **commit to a project** means to save the file with the changes you made loca
 :::
 
 ::: {.notes}
-**Speaker Notes**: A commit is like taking a snapshot of your project after you make changes. Each commit records what was changed, when, and by whom. You usually include a short message describing the update, for example, “Updated code for analysis," and saves it in Git's version history. <br>
+**Presenter Notes**: A commit is like taking a snapshot of your project after you make changes. Each commit records what was changed, when, and by whom. You usually include a short message describing the update, for example, “Updated code for analysis," and saves it in Git's version history. <br>
 How does this contribute towards collaboration? Frequent commits records the progress of each contributor in small, trackable steps. It let's others see what changes had been made. Frequent commits also make it possible to review changes if something breaks because now you can go back, review changes, and isolate problems to fix it. 
 :::
 
@@ -721,7 +721,7 @@ Before you **commit to a project**, you need to make some changes to the project
 - [ ] Click "`More`" then "`Copy...`" to make a copy of this file
 
 ::: {.notes}
-**Speaker Notes**: We are still in RStudio. In the 'Files' tab, find the 'params' sub-folder and open it. Now within this sub-folder, find an R file called 'params_templ' and click the tickbox next to it to select it. This is what where we will be making our changes to the project. Then click on the drop-down arrow by "More" and click "Copy". 
+**Presenter Notes**: We are still in RStudio. In the 'Files' tab, find the 'params' sub-folder and open it. Now within this sub-folder, find an R file called 'params_templ' and click the tickbox next to it to select it. This is what where we will be making our changes to the project. Then click on the drop-down arrow by "More" and click "Copy". 
 
 **Instructor Notes**: Copying the file and then editing the copied file is specific to this practice exercise. You do not always need to copy the file to then make changes to it, a project can require a contributor to make changes to the file directly. It depends on the project. 
 :::
@@ -742,7 +742,7 @@ Before you **commit to a project**, you need to make some changes to the project
 - [ ] Open your copy of the file to make your changes (in this case, you will be making a new parameter)
 
 ::: {.notes}
-**Speaker Notes**: You'll be prompted to give the copied file a name/title, use something identifiable like including your first name.
+**Presenter Notes**: You'll be prompted to give the copied file a name/title, use something identifiable like including your first name.
 :::
 
 ---
@@ -756,7 +756,7 @@ Before you **commit to a project**, you need to make some changes to the project
 - [ ] For `color`: type the hex code of a color with quotation marks (for example, the color red is "#FFFFFF"). 
 
 ::: {.notes}
-**Speaker Notes**: In this exercise, each person will edit their own parameter file to practice making a commit. Update these three values: a numeric for "sig2", a character name for "species.name", and a hex color code for "color". You can install the package "colourpicker" which would create an Addin called "Colour Picker" to help find a hex code for a desired color. The "Addins" drop-down menu is found on a toolbar at the top of the RStudio workspace.
+**Presenter Notes**: In this exercise, each person will edit their own parameter file to practice making a commit. Update these three values: a numeric for "sig2", a character name for "species.name", and a hex color code for "color". You can install the package "colourpicker" which would create an Addin called "Colour Picker" to help find a hex code for a desired color. The "Addins" drop-down menu is found on a toolbar at the top of the RStudio workspace.
 
 **Instructor Notes**: Make sure learners do NOT put additional information (more than what's required) as this can result in the code breaking. 
 :::
@@ -773,7 +773,7 @@ Before you **commit to a project**, you need to make some changes to the project
 - [ ] Click "`Commit`" 
 
 ::: {.notes}
-**Speaker Notes**: After this, save the file as normal by going to "File" and then clicking "Save". In the Git tab on RStudio, tick the checkbox next to your copied file under the "Staged" column. Staging a commit means you’re selecting which specific changes you want to include in your next commit. Then click the "Commit" button.
+**Presenter Notes**: After this, save the file as normal by going to "File" and then clicking "Save". In the Git tab on RStudio, tick the checkbox next to your copied file under the "Staged" column. Staging a commit means you’re selecting which specific changes you want to include in your next commit. Then click the "Commit" button.
 :::
 
 ---
@@ -786,7 +786,7 @@ Before you **commit to a project**, you need to make some changes to the project
 - [ ] Click "`Commit`" under the "`Commit message`" textbox
 
 ::: {.notes}
-**Speaker Notes**: You should leave a message to accompany your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Then, Click the "Commit" button. 
+**Presenter Notes**: You should leave a message to accompany your commit. This is like describing the changes you made to make your commits more informative. For example, just state what you added to the file. Then, Click the "Commit" button. 
 
 **Instructor Notes**: You can remind learners that this does not mean their changes will show up on GitHub, that requires an additional step. But this does mean their activity and changes were recorded in the project history. 
 :::
@@ -810,7 +810,7 @@ Great, now you have made changes! You added a file with your parameters on a sha
 </div>
 
 ::: {.notes}
-**Speaker Notes**: You have successfully made a contribution by copying a file and making some changes to it in the shared project. This is how collaboration on GitHub happens - by each contributor having their own copies of the project and making their individual changes. Before we go further, let's take a minute to recap what steps we took to get here with this activity. <br>
+**Presenter Notes**: You have successfully made a contribution by copying a file and making some changes to it in the shared project. This is how collaboration on GitHub happens - by each contributor having their own copies of the project and making their individual changes. Before we go further, let's take a minute to recap what steps we took to get here with this activity. <br>
 You have 60 seconds to write down these steps. Think of the names of the actions, in which order you did them, and how can this be beneficial to you as a collaborator.
 
 **Instructor Notes**: This one-minute paper activity is to give the instructor an idea of how the learners are progressing with the steps of collaborative coding so far and if they are understanding how the steps fit into a workflow using GitHub. It also doubly acts as a way to reinforce the concepts discussed in this session. If you want to make the activity a bit easier, you can provide them with the terms: **repo, fork, clone, commit**.
@@ -829,7 +829,7 @@ To **push changes** means to upload your local commits from your local computer 
 :::
 
 ::: {.notes}
-**Speaker Notes**: The next step after making your changes and committing them is to push the changes you made from your local device onto the remote forked repository that is on your GitHub account. <br>
+**Presenter Notes**: The next step after making your changes and committing them is to push the changes you made from your local device onto the remote forked repository that is on your GitHub account. <br>
 How does this contribute towards collaboration? It keeps the online version of the project up to date with all the changes made and makes it visible to all the contributors. It also enables others working on the project to take your edits and build on them.
 :::
 
@@ -843,7 +843,7 @@ How does this contribute towards collaboration? It keeps the online version of t
 - [ ] Enter your password when prompted
 
 ::: {.notes}
-**Speaker Notes**: The changes you made are just on your local device and committing it means you just recorded it in the project history. But it is not et on your remote fork on GitHub. To send the changes you just made to the file on your local device to your online fork on GitHub, you need to click the "Push" button in the Git tab. You'll then need to enter your password again. 
+**Presenter Notes**: The changes you made are just on your local device and committing it means you just recorded it in the project history. But it is not et on your remote fork on GitHub. To send the changes you just made to the file on your local device to your online fork on GitHub, you need to click the "Push" button in the Git tab. You'll then need to enter your password again. 
 :::
 
 ---
@@ -855,7 +855,7 @@ If you successfully pushed your changes, you would see a pop up box like the one
 ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/push-github.png){fig-align="center" fig-alt="An screenshot showing the message one would receive if the push action was successfully completed."}
 
 ::: {.notes}
-**Speaker Notes**: If all went well, you will see a pop up box with a message like this one to let you know the changes were successfully pushed to the remote repository. An additional way to make sure your changes were pushed, refresh your GitHub repository webpage and check to see if the file you copied is now appearing. The commit message should also appear next to it on GitHub. 
+**Presenter Notes**: If all went well, you will see a pop up box with a message like this one to let you know the changes were successfully pushed to the remote repository. An additional way to make sure your changes were pushed, refresh your GitHub repository webpage and check to see if the file you copied is now appearing. The commit message should also appear next to it on GitHub. 
 :::
 
 ---
@@ -872,7 +872,7 @@ Refresh the page of your forked repository on GitHub and you should see your new
 :::
 
 ::: {.notes}
-**Speaker Notes**: Now go back to your forked repository on GitHub and refresh the page. This is an important step to confirm that the file together with the commit message are appearing and to update your fork with the changes you made.
+**Presenter Notes**: Now go back to your forked repository on GitHub and refresh the page. This is an important step to confirm that the file together with the commit message are appearing and to update your fork with the changes you made.
 
 **Instructor Notes**: If a learner does not refresh the page, this can cause problems during when merging. If they do not refresh the page and simply make a pull request, an empty 'params_tmpl.R' file comes up when the owner views the request.
 :::
@@ -890,7 +890,7 @@ Please complete survey labeled "OS-M3-S5-GitHub-prebreak_quiz".
 :::
 
 ::: {.notes}
-**Speaker Notes**: Before the break, let's take a moment to review the things we covered in the first part of this lesson. Scan the QR code again and find the quiz titled "Os-M3-S5-Github-prebreak_quiz". This quiz has a few simple recap questions about what we’ve learned so far about using GitHub for collaboration on projects. The goal isn’t to test you, but to help you reflect on what you’ve learned and to see if anything needs a bit more clarification.
+**Presenter Notes**: Before the break, let's take a moment to review the things we covered in the first part of this lesson. Scan the QR code again and find the quiz titled "Os-M3-S5-Github-prebreak_quiz". This quiz has a few simple recap questions about what we’ve learned so far about using GitHub for collaboration on projects. The goal isn’t to test you, but to help you reflect on what you’ve learned and to see if anything needs a bit more clarification.
 
 **Instructor Notes**: It's important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson. <br>
 - Aim: This pre-break survey serves to examine learners' current understanding of key concepts of the submodule. <br>
@@ -994,7 +994,7 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let's discuss the survey answers and clarify any questions before moving on to the next section.
+**Presenter Notes**: Let's discuss the survey answers and clarify any questions before moving on to the next section.
 
 **Instructor Notes** <br>
 - Aim: To clarify concepts and aspects that are not yet understood
@@ -1015,7 +1015,7 @@ To make a **pull request** means asking the repository's owner to review the cha
 :::
 
 ::: {.notes}
-**Speaker Notes**: After pushing your changes to the remote repository, it is just on your forked copy for now and not in the main repository that has the original project files. You then need to make a **pull request**. This is a request on GitHub for the owner of the main repository to review your changes and then incorporate or merge them into the main repository. This can either add to or change the original project files. <br>
+**Presenter Notes**: After pushing your changes to the remote repository, it is just on your forked copy for now and not in the main repository that has the original project files. You then need to make a **pull request**. This is a request on GitHub for the owner of the main repository to review your changes and then incorporate or merge them into the main repository. This can either add to or change the original project files. <br>
 How does this contribute towards collaboration? The changes can be reviewed and checked for error before making it a part of the main project. This allows for feedback, peer learning, and maintains levels of quality and consistency across the project files. 
 :::
 
@@ -1029,7 +1029,7 @@ How does this contribute towards collaboration? The changes can be reviewed and 
 - [ ] Click on the green "`Open pull request`" button
 
 ::: {.notes}
-**Speaker Notes**: Now we are working in the remote repository on GitHub. In your fork, click on "Contribute" and then the green "Open pull request" button. 
+**Presenter Notes**: Now we are working in the remote repository on GitHub. In your fork, click on "Contribute" and then the green "Open pull request" button. 
 :::
 
 ---
@@ -1042,7 +1042,7 @@ How does this contribute towards collaboration? The changes can be reviewed and 
 - [ ] Ensure your requested merge does not create any conflict (you will see a green "`✓ Able to merge`")
 
 ::: {.notes}
-**Speaker Notes**: Check the settings to ensure the "base repository" is the main repository that you initially forked and the "head repository" is your forked repository. You should see a message in green saying "Able to merge" and this means that the request to merge does not create any conflict.
+**Presenter Notes**: Check the settings to ensure the "base repository" is the main repository that you initially forked and the "head repository" is your forked repository. You should see a message in green saying "Able to merge" and this means that the request to merge does not create any conflict.
 
 **Instructor Notes**: The 'base repository' should automatically be the one the learners forked (the main repository used in this session), but it's important to double-check it as it will, again, not match identically with what's shown in the example image (because you are not using the lmu-osc original repo for this activity). 
 :::
@@ -1059,7 +1059,7 @@ How does this contribute towards collaboration? The changes can be reviewed and 
 - You should see a conversation tab around your pull request in the original repository.
 
 ::: {.notes}
-**Speaker Notes**: Add a message describing the changes you made. Again, you can just state what you added. Now click "Create pull request". In the original repository, you should now see a conversation tab around the "Pull request" button.
+**Presenter Notes**: Add a message describing the changes you made. Again, you can just state what you added. Now click "Create pull request". In the original repository, you should now see a conversation tab around the "Pull request" button.
 :::
 
 ---
@@ -1075,7 +1075,7 @@ To **merge changes** means to combine updates from different branches or contrib
 :::
 
 ::: {.notes}
-**Speaker Notes**: Now that the changes have been made and you opened a pull request, the next step is for those changes to be reviewed and incorporated into the main branch. This is what is meant by "merge" because the contributions from the different collaborators are merged into the one project that everyone is working on. <br>
+**Presenter Notes**: Now that the changes have been made and you opened a pull request, the next step is for those changes to be reviewed and incorporated into the main branch. This is what is meant by "merge" because the contributions from the different collaborators are merged into the one project that everyone is working on. <br>
 How does this contribute towards collaboration? This brings the contributions together in one place, ensures new work integrates smoothly with the main branch, and will make overlapping edits or conflicts between files visible so you can go in and resolve them. 
 :::
 
@@ -1106,7 +1106,7 @@ In this example, the file "malika_rocks.R" is being reviewed to then be added to
 :::
 
 ::: {.notes}
-**Speaker Notes**: If you are the owner of the repository and will merge files, you must first click on the "Pull requests" tab and inspect the files there. Take one and check that everything was done correctly so it's ready to merge. 
+**Presenter Notes**: If you are the owner of the repository and will merge files, you must first click on the "Pull requests" tab and inspect the files there. Take one and check that everything was done correctly so it's ready to merge. 
 
 **Instructor Notes**: First go through the slides of this section to see how to merge changes, then do a live demonstration using the changes they made to the Example Project. For this session, the instructor created the GitHub repository and therefore is the one to review and merge the changes. But it is still important for the learners to learn HOW to merge changes for when they begin projects of their own.
 :::
@@ -1133,7 +1133,7 @@ If everything looks fine, the owner will:
 ::::::
 
 ::: {.notes}
-**Speaker Notes**: If everything looks fine, go back to the "Pull request" tab, leave a comment (this is optional), and click on "Merge pull request" then "Confirm the merge". And now that file that was inspected is now incorporated into the project files in main repository.
+**Presenter Notes**: If everything looks fine, go back to the "Pull request" tab, leave a comment (this is optional), and click on "Merge pull request" then "Confirm the merge". And now that file that was inspected is now incorporated into the project files in main repository.
 :::
 
 ---
@@ -1161,7 +1161,7 @@ All the contributions that were merged into this repository should show up in th
 :::
 
 ::: {.notes}
-**Speaker Notes**: Let us see how all the contributions are integrated into a single document. First, the owner of the main repository needs to pull all the files that were pushed by the other contributors so that all the new files will be on the local copy of the repository. 
+**Presenter Notes**: Let us see how all the contributions are integrated into a single document. First, the owner of the main repository needs to pull all the files that were pushed by the other contributors so that all the new files will be on the local copy of the repository. 
 
 **Instructor Notes**: The instructor (that is, the owner of the main repository) will perform this task to pull the changes made by the learners into the main repo. 
 :::
@@ -1183,7 +1183,7 @@ All the contributions that were merged into this repository should show up in th
 :::
 
 ::: {.notes}
-**Speaker Notes**: After pulling everyone’s changes, the owner opens the main R Markdown file called "plot-trait-evolution.Rmd." This file combines all the contributed scripts. By clicking the 'Knit' button, RStudio runs the code and produces plots and figures that include everyone’s new parameters.
+**Presenter Notes**: After pulling everyone’s changes, the owner opens the main R Markdown file called "plot-trait-evolution.Rmd." This file combines all the contributed scripts. By clicking the 'Knit' button, RStudio runs the code and produces plots and figures that include everyone’s new parameters.
 :::
 
 ---
@@ -1208,7 +1208,7 @@ All the contributions that were merged into this repository should show up in th
 **You did it! You collaborated on GitHub!**
 
 ::: {.notes}
-**Speaker Notes**: When the owner knits the R Markdown file, an HTML report appears showing everyone’s contributions together with each species’ trait evolution plotted on the same line graph, along with their matching skull images. We can now see that all the collaborators’ work successfully came together through GitHub!
+**Presenter Notes**: When the owner knits the R Markdown file, an HTML report appears showing everyone’s contributions together with each species’ trait evolution plotted on the same line graph, along with their matching skull images. We can now see that all the collaborators’ work successfully came together through GitHub!
 :::
 
 ---
@@ -1226,7 +1226,7 @@ Now let's see what that looks like for this project with a **live demonstration*
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Now that we know what to do, let's see it in action with a live demonstration! We will merge changes in one or more forks with the main repository project files via the pull requests. 
+**Presenter Notes**: Now that we know what to do, let's see it in action with a live demonstration! We will merge changes in one or more forks with the main repository project files via the pull requests. 
 
 **Instructor Notes**: Do a live demonstration of merging some changes. Depending on the size of the class, it may be too time-consuming to review and merge the changes from each individual learner. <br>
 - For this particular project, the things you want to check for during your review is that each new file has the 3 elements in the correct format: 'sig2' is a numerical value between 1-5 with no quotation marks; 'species.name' has quotation marks; 'color' is a hex code starting with a # followed by 6 characters and is in quotation marks. Errors here can break the code. <br>
@@ -1247,7 +1247,7 @@ To **pull upstream** means to update your local or forked repository with the la
 :::
 
 ::: {.notes}
-**Speaker Notes**: Even after you pushed your changes and it was merged into the main branch, the project may still be ongoing or your local and remote copied repositories may not have the contributions from the other collaborators. This is why you should pull upstream to update your local or forked repository with the latest changes from the original repo. <br>
+**Presenter Notes**: Even after you pushed your changes and it was merged into the main branch, the project may still be ongoing or your local and remote copied repositories may not have the contributions from the other collaborators. This is why you should pull upstream to update your local or forked repository with the latest changes from the original repo. <br>
 How does this contribute towards collaboration? It keeps your local copy updated with the changes in the main project, prevents outdated or conflicting edits, and synchronizes work across each contributor.
 
 **Instructor Notes**: Back to the learners! Here the learners will perform this task as they must now pull the changes that the instructor merged into the main repository. This means they will incorporate the changes into their individual copies of the project, emphasize that this is a process to keep all their copies up to date with the changes and contributions made. 
@@ -1273,7 +1273,7 @@ This command sets the branch to the one you want to pull the modifications from.
 :::
 
 ::: {.notes}
-**Speaker Notes**: If you want the changes or updates to appear on your fork on GitHub, you need to first pull the updates from the main repository directly into your local repository, not to your remote fork just yet. When the changes are pulled into your local copy, then you can push the changes to your remote fork. <br>
+**Presenter Notes**: If you want the changes or updates to appear on your fork on GitHub, you need to first pull the updates from the main repository directly into your local repository, not to your remote fork just yet. When the changes are pulled into your local copy, then you can push the changes to your remote fork. <br>
 To do this, we go back into RStudio and go to the "Terminal" tab and enter the given git command. The "git checkout main" command sets the main branch of the main repository as the place we want to pull the updates from.
 :::
 
@@ -1295,7 +1295,7 @@ Replace the "`ORIGINAL_OWNER`" with the name of the GitHub account that owns the
 :::
 
 ::: {.notes}
-**Speaker Notes**: Next, we type this command to pull the original repository and branch we wish to obtain locally. Follow the format but replace "ORIGINAL_OWNER" and "ORIGINAL_REPOSITORY". Here's an example of what it looks like when these two commands are executed successfully.
+**Presenter Notes**: Next, we type this command to pull the original repository and branch we wish to obtain locally. Follow the format but replace "ORIGINAL_OWNER" and "ORIGINAL_REPOSITORY". Here's an example of what it looks like when these two commands are executed successfully.
 :::
 
 ---
@@ -1308,7 +1308,7 @@ Replace the "`ORIGINAL_OWNER`" with the name of the GitHub account that owns the
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let's look at this example: first there is the "git checkout main" command to set the main branch of the main repository as the place to pull the changes from. Then the "git pull git@github.com:" command is followed by the owner and repository name. In this case the original owner is "lmu-osc" and the orginal repository is "Collaborative-RStudio-GitHub.git".
+**Presenter Notes**: Let's look at this example: first there is the "git checkout main" command to set the main branch of the main repository as the place to pull the changes from. Then the "git pull git@github.com:" command is followed by the owner and repository name. In this case the original owner is "lmu-osc" and the orginal repository is "Collaborative-RStudio-GitHub.git".
 :::
 
 ---
@@ -1326,7 +1326,7 @@ git push
 ![This is an example.](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/final-push.png){fig-align="center" fig-alt="A screenshot of an RStudio terminal showing the command ‘git push’ with a successful push to the GitHub repository."}
 
 ::: {.notes}
-**Speaker Notes**: Earlier we merged some new R files containing unique parameters into the main repository. After pulling upstream, these files should now be showing up in your "File" tab in RStudio, this means that they are now on your local copy. To also have them appear on your fork on GitHub you can push them using a simple Git command: git push. Enter this into the terminal to execute it. Then check your fork on GitHub to make sure the new files are also appearing in the "params" sub-folder there. 
+**Presenter Notes**: Earlier we merged some new R files containing unique parameters into the main repository. After pulling upstream, these files should now be showing up in your "File" tab in RStudio, this means that they are now on your local copy. To also have them appear on your fork on GitHub you can push them using a simple Git command: git push. Enter this into the terminal to execute it. Then check your fork on GitHub to make sure the new files are also appearing in the "params" sub-folder there. 
 :::
 
 ---
@@ -1342,7 +1342,7 @@ git push
 :::
 
 ::: {.notes}
-**Speaker Notes**: Great job, you have completed a full GitHub collaboration cycle. You forked the main repository, made and committed your own changes, pushed them for review, and finally pulled the merged updates back into your local copy. This is the same workflow used in real research collaborations.
+**Presenter Notes**: Great job, you have completed a full GitHub collaboration cycle. You forked the main repository, made and committed your own changes, pushed them for review, and finally pulled the merged updates back into your local copy. This is the same workflow used in real research collaborations.
 :::
 
 ---
@@ -1362,7 +1362,7 @@ git push
 :::
 
 ::: {.notes}
-**Speaker Notes**: Here is a quick recap of the full GitHub workflow we practiced today. You learned how to fork a repository, clone it to your local device, make and commit changes, push them to your fork on GitHub, open a pull request, and finally merge and pull updates. These are the core steps you can use for collaborative coding in research.
+**Presenter Notes**: Here is a quick recap of the full GitHub workflow we practiced today. You learned how to fork a repository, clone it to your local device, make and commit changes, push them to your fork on GitHub, open a pull request, and finally merge and pull updates. These are the core steps you can use for collaborative coding in research.
 :::
 
 ---
@@ -1376,7 +1376,7 @@ Remember this illustration?
 *Fill in the missing words with the actions we learned today!*
 
 ::: {.notes}
-**Speaker Notes**: Let's revist this diagram we saw at the beginning of the lesson. See if you can fill in the missing words with the actions we used to collaborate on the project today using GitHub. 
+**Presenter Notes**: Let's revist this diagram we saw at the beginning of the lesson. See if you can fill in the missing words with the actions we used to collaborate on the project today using GitHub. 
 :::
 
 ---
@@ -1396,7 +1396,7 @@ Remember this illustration?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Now you can download the original image and check your answers.
+**Presenter Notes**: Now you can download the original image and check your answers.
 :::
 
 ---
@@ -1417,7 +1417,7 @@ Now that you have all gained some experience working collaboratively using GitHu
 </div>
 
 ::: {.notes}
-**Speaker Notes**: So, you have seen the full workflow in action and practiced collaborative coding facilitated by GitHub. Let's reflect further on this experience, how could this be useful? Think about how this kind of collaborative coding can support your own research and projects. 
+**Presenter Notes**: So, you have seen the full workflow in action and practiced collaborative coding facilitated by GitHub. Let's reflect further on this experience, how could this be useful? Think about how this kind of collaborative coding can support your own research and projects. 
 
 **Instructor Notes**: The aim of this slide is to work out the relevance of the topic to your learners. In an interactive setting, discuss how the new skills could be applied in practise with specific examples. Examine downfalls and practical obstacles. Invite the learners to relate the practice from today's session to their own experiences. This gives them a chance to think about how they may apply their new-found skills in collaborative coding with GitHub to their existing or upcoming projects. Then, ask learners to share or discuss in groups what they've come up with.
 Possible answers:
@@ -1452,7 +1452,7 @@ Consider the following question:
 </div>
 
 ::: {.notes}
-**Speaker Notes:** Let's think about a take-home message from today's lesson. Take a few moments and consider the question on the slide and then let's discuss it. 
+**Presenter Notes:** Let's think about a take-home message from today's lesson. Take a few moments and consider the question on the slide and then let's discuss it. 
 :::
 
 ---
@@ -1506,7 +1506,7 @@ Please complete survey labeled "OS-M3-S5-GitHub-finishing_survey".
 :::
 
 ::: {.notes}
-**Speaker Notes**: To end this lesson, let's use this survey to see where we stand in our understanding of using GitHub and what we can focus on more moving forward to become more proficient in using it for collaborative work. Scan the QR code once more and go to the OS-M3-S5-GitHub-finishing_survey.
+**Presenter Notes**: To end this lesson, let's use this survey to see where we stand in our understanding of using GitHub and what we can focus on more moving forward to become more proficient in using it for collaborative work. Scan the QR code once more and go to the OS-M3-S5-GitHub-finishing_survey.
 
 *Instructor Notes* <br>
 - Aim: This post-submodule survey serves to examine learners' current knowledge about the sumodule's topic. <br>
@@ -1568,7 +1568,7 @@ What do we see in the results and how do they compare to the previous ratings?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Now that you've completed both the pre- and post-module survey, let's compare the results to see where we began and how we've made progress. This is also a good time to raise any concerns or clarify any concepts you may not have understood fully.
+**Presenter Notes**: Now that you've completed both the pre- and post-module survey, let's compare the results to see where we began and how we've made progress. This is also a good time to raise any concerns or clarify any concepts you may not have understood fully.
 
 **Instructor Notes**: Aim: Briefly examine the answers given to each question interactively with the group. Compare and highlight specific differences in answers between pre- and post-survey answers
 :::
