@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="Tejaswini Sharma">
-  <title>Train the Trainer: Student Track: OS Content – Running simulations and power analysis in R</title>
+  <title>Educational resources for teaching Open Research to novices – Running simulations and power analysis in R</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -170,7 +170,7 @@ Tejaswini Sharma
 <p>This work was originally created by <a href="https://www.osc.uni-muenchen.de/about_us/coordinator/index.html">Malika Ihle</a> based on materials from <a href="https://joelpick.github.io/">Joel Pick</a>, <a href="https://www.yumpu.com/en/document/view/19077330/simulation-hadley-wickham">Hadley Wickham</a>, and <a href="https://www.tqmp.org/RegularArticles/vol09-2/p043/">Kevin Hallgren</a>, with contributions from <a href="https://github.com/worcjamessmith">James Smith</a>. This current work by Tejaswini Sharma, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International SA License</a>. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.</p>
+<p><strong>Presenter Notes</strong>: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -190,8 +190,8 @@ Tejaswini Sharma
 <p><strong>Reviewer</strong>: Von Grebmer zu Wolfsthurn, Sarah (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"><a href="https://orcid.org/0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
 <p><strong>Consultant</strong>: Ihle, Malika (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"><a href="https://orcid.org/0000-0002-3242-5981">0000-0002-3242-5981</a>)</p>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: These are the <strong>speaker notes</strong>. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.</p>
-<p><strong>Instructor Notes</strong>: There are also <strong>instructor notes</strong>. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.</p>
+<p><strong>Presenter Notes</strong>: These are the <strong>presenter notes</strong>. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter.</p>
+<p><strong>Instructor Notes</strong>: There are also <strong>instructor notes</strong>. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.</p>
 <p><strong>Acessibility Tips</strong>: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -249,7 +249,7 @@ Tejaswini Sharma
 </table>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Before we begin this submodule, please take a moment to review the prerequisites listed here. First, you should already have R and RStudio installed. If not, the link on the slide will guide you through the installation. Next, you’ll need some basic familiarity with R — for example, how to select values in a data frame or how to create simple vectors. There’s a tutorial by OSC linked here in case you’d like to refresh those skills. Finally, you should be comfortable with basic statistical concepts, such as descriptive statistics and fundamental data analysis ideas. There is a link to a cheatsheet on these concepts provided here. If any of these areas feel unfamiliar, I encourage you to explore the resources before moving forward, so the rest of the tutorial is smooth and accessible.</p>
+<p><strong>Presenter Notes</strong>: Before we begin this submodule, please take a moment to review the prerequisites listed here. First, you should already have R and RStudio installed. If not, the link on the slide will guide you through the installation. Next, you’ll need some basic familiarity with R — for example, how to select values in a data frame or how to create simple vectors. There’s a tutorial by OSC linked here in case you’d like to refresh those skills. Finally, you should be comfortable with basic statistical concepts, such as descriptive statistics and fundamental data analysis ideas. There is a link to a cheatsheet on these concepts provided here. If any of these areas feel unfamiliar, I encourage you to explore the resources before moving forward, so the rest of the tutorial is smooth and accessible.</p>
 <p><strong>Instructor Notes</strong>: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. With a show of hands, you can know how many learners would want to work through these resources provided; if the majority do, then a bit of time can be provided here, till they are comfortable to move forward.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -270,7 +270,7 @@ Tejaswini Sharma
 <p><strong>Let us find out where are you at!</strong></p>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Before we move on, we will take a short survey. The aim here is simply to understand your current familiarity.</p>
+<p><strong>Presenter Notes</strong>: Before we move on, we will take a short survey. The aim here is simply to understand your current familiarity.</p>
 <p>In the next few slides, you will see some questions that invite you to reflect on where you’re starting from. This is not a test, and it is not about getting the right answers. If you’re unsure, that is completely fine, just respond based on what feels closest to your current understanding.</p>
 <p><strong>Instructor Notes</strong>:</p>
 <ul>
@@ -384,7 +384,7 @@ Tejaswini Sharma
 <p>What do we see in the results?</p>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Let us have a look at these results.</p>
+<p><strong>Presenter Notes</strong>: Let us have a look at these results.</p>
 <p><strong>Instructor Notes:</strong> The aim is to understand the group’s current standing in terms of knowledge and familiarity with simulations, power analysis, and R. Emphasise explicitly that the survey is not about correct or incorrect answers. Avoid evaluating answers or revealing correct ones.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -411,7 +411,7 @@ Tejaswini Sharma
 <li class="fragment">To successfully <strong>perform</strong> a simulation in R</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: This slide outlines the learning goals for this part of the session. At this stage, you’re not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. As we move through the session, we’ll revisit these goals in smaller sections. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.</p>
+<p><strong>Presenter Notes</strong>: This slide outlines the learning goals for this part of the session. At this stage, you’re not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. As we move through the session, we’ll revisit these goals in smaller sections. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.</p>
 <p>As our first learning goal, we will focus on understanding what simulations are and what they mean in a research and experimental context. Next, we will explain why simulations are used in research. We will also learn how to summarize how simulations support hypothesis testing and experimentation. The next learning goal is then to practice simulations by performing the simulation process using a fictional experiment. This will help demonstrate each step in a more tangible way.</p>
 <p>Our next learning goals is related to understanding what power analysis is and why it is important in research. We will also learn how to summarize how power analysis supports hypothesis testing and experimentation. Finally, we pull all of our skills together and we will learn how to perform a simulation yourself in R on a hands-on example.</p>
 <p><strong>Instructor Notes</strong>: Use this slide to set expectations and reduce pressure. Emphasise that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials.</p>
@@ -436,7 +436,7 @@ Tejaswini Sharma
 <li class="fragment"><strong>Effect size</strong>: Effect size quantifies the magnitude and direction of a difference or relationship between groups or variables <span class="citation" data-cites="lorah_effect_2018">(<a href="#/references" role="doc-biblioref" onclick="">Lorah, 2018</a>)</span>.</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Here are a few key terms that will appear throughout the session. We’ll use the word simulations to talk about computer-generated data created through pseudo-random sampling. Power analysis refers to estimating the probability of detecting a true effect. And effect size tells us how large or meaningful that effect is. You don’t need to memorise these right now, this is just a quick introduction. We’ll return to these definitions later as we apply them, so for now simply get familiar with the terms.</p>
+<p><strong>Presenter Notes</strong>: Here are a few key terms that will appear throughout the session. We’ll use the word simulations to talk about computer-generated data created through pseudo-random sampling. Power analysis refers to estimating the probability of detecting a true effect. And effect size tells us how large or meaningful that effect is. You don’t need to memorise these right now, this is just a quick introduction. We’ll return to these definitions later as we apply them, so for now simply get familiar with the terms.</p>
 <p><strong>Instructor Notes</strong>: Introduce the terms briefly to activate learners’ prior conceptions. Keep the slide short.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -481,7 +481,7 @@ Tejaswini Sharma
 <li class="fragment">You do this again and again and see what results you get.</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: In this part, we’re looking at what simulations really are. A simulation basically means creating data that behaves the way we expect real-world data to behave. We repeat this process many times to see the range of outcomes we might get.</p>
+<p><strong>Presenter Notes</strong>: In this part, we’re looking at what simulations really are. A simulation basically means creating data that behaves the way we expect real-world data to behave. We repeat this process many times to see the range of outcomes we might get.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -504,7 +504,7 @@ Tejaswini Sharma
 <p><strong>Your turn!</strong><br> Get in a pair, first imagine <strong>flipping a coin</strong> <em>100 times</em> and note how many heads and tails you expect. Then, discuss <strong>why doing this pretend experiment first is useful</strong> for planning a real study.</p>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: To get an intuitive feel for it, there’s a quick activity: take a moment with the person next to you and imagine flipping a fair coin 100 times. How many heads and tails do you expect? You’re not actually flipping the coin, you’re just thinking it through. But that mental experiment already follows the logic of a simulation.</p>
+<p><strong>Presenter Notes</strong>: To get an intuitive feel for it, there’s a quick activity: take a moment with the person next to you and imagine flipping a fair coin 100 times. How many heads and tails do you expect? You’re not actually flipping the coin, you’re just thinking it through. But that mental experiment already follows the logic of a simulation.</p>
 <p>Before we explore why simulations are important in research, we’ll think ourselves why the process of ‘making up data’ is important. Take a moment to think why doing this pretend experiment first is useful for planning a real study.</p>
 <p><strong>Instructor Notes</strong>: Pause the slide here and give learners about 2 minutes to discuss. Encourage them to state a simple expectation or hypothesis (e.g., “I expect about 50 heads and 50 tails”). Emphasize that there is no single correct answer, the goal is intuition, not precision. When essential, remind the learners that the activity is for them to ponder on simulating an experiment and exploring its usage, rather than ‘having correct answers’.</p>
 <p><strong>Accessibility Tips:</strong> Take a brief pause before the activity for the learners to soak in the knowledge before applying it. When needed, maybe give an own formulated example of the activity for ease.</p>
@@ -525,7 +525,7 @@ Tejaswini Sharma
 <p><br> <br></p>
 <p><strong>What ideas have you come up with during the previous activity?</strong></p>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Collect what learners have come up with during the previous activity. Summarize and paraphrase as you go along, and potentially collect the answers on a flipchart.</p>
+<p><strong>Presenter Notes</strong>: Collect what learners have come up with during the previous activity. Summarize and paraphrase as you go along, and potentially collect the answers on a flipchart.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -548,7 +548,7 @@ Tejaswini Sharma
 <li class="fragment"><p><strong>To contribute to open research (transparency)</strong></p></li>
 </ol>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Let’s now talk about why simulations are used in research. Some of these aspects you have already mentioned in the discussion of the activity.</p>
+<p><strong>Presenter Notes</strong>: Let’s now talk about why simulations are used in research. Some of these aspects you have already mentioned in the discussion of the activity.</p>
 <ol type="1">
 <li><p>One reason is that they help us build an intuitive feel for data. Even when we follow the same rules, results naturally vary. If you imagine simulating many sets of ten coin flips, you’ll notice the number of heads changes from one set to the next, even when the coin is fair. This helps us understand that different outcomes don’t automatically mean something unusual is happening.</p></li>
 <li><p>Simulations also help us understand probability. By repeating an experiment many times, we can see what outcomes are common and which ones are rare.For example, if we imagine a thousand experiments where we flip a coin four times, we’ll see that getting two heads is quite common, while getting zero or four heads is much less likely. This helps us develop a sense of what’s typical versus surprising in data.</p></li>
@@ -594,7 +594,7 @@ Tejaswini Sharma
 </div>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Here is the basic process behind running a simulation.</p>
+<p><strong>Presenter Notes</strong>: Here is the basic process behind running a simulation.</p>
 <p>First, decide how many data points (sample size) you want, for example, simulating a 100 coin flips. Thus, n = 100.</p>
 <p>Next, generate the fake data using a random method that mimics the real outcome, such as randomly assigning ‘heads’ or ‘tails’ with equal probability.</p>
 <p>Then analyze this simulated dataset just as you would analyze real data, for example, you might count how many heads you got or calculate a simple summary.</p>
@@ -621,7 +621,7 @@ Tejaswini Sharma
 <li class="fragment">To <strong>perform</strong> the simulation process in the context of a fictional experiment ✅</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Let us pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.</p>
+<p><strong>Presenter Notes</strong>: Let us pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.</p>
 <p><strong>Instructor Notes</strong>: Encourage brief reflections rather than detailed discussions. Ask learners to self-assess quietly or with a quick show of hands. Invite a few questions or clarifications, but avoid re-teaching in depth unless a common gap appears.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -644,7 +644,7 @@ Tejaswini Sharma
 <li class="fragment"><p>If power = 80% -&gt; you have an 80% chance of spotting a bias if it’s really there.</p></li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: In this section, we’re looking at what power analysis means and why it matters. Think back to our coin example. The question now is: How many times should we flip the coin to confidently decide whether it’s fair? Power analysis helps us figure that out.</p>
+<p><strong>Presenter Notes</strong>: In this section, we’re looking at what power analysis means and why it matters. Think back to our coin example. The question now is: How many times should we flip the coin to confidently decide whether it’s fair? Power analysis helps us figure that out.</p>
 <p>Power is simply the chance of detecting a real effect if it truly exists. So if the power is 80 percent, that means we have an 80 percent chance of noticing a bias when the coin is actually biased.</p>
 <p><strong>Instructor Notes</strong>: This is the moment to clear out any confusion regarding the neighboring concepts of effect size and significance level. If the learners seem comfortable with the concepts, you can opt for a higher-level explanation reflecting the ‘correctly rejecting a false null hypothesis’ notion.</p>
 <style type="text/css">
@@ -681,7 +681,7 @@ Tejaswini Sharma
 </div>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Power analysis is basically about asking: How likely is my study to actually notice something real, if it’s there? That likelihood depends on three main things.</p>
+<p><strong>Presenter Notes</strong>: Power analysis is basically about asking: How likely is my study to actually notice something real, if it’s there? That likelihood depends on three main things.</p>
 <p>First, the effect size — in our coin example, this means how biased the coin really is. A very slightly biased coin is harder to detect than a strongly biased one.</p>
 <p>Second, the sample size. The more times you flip the coin, the more information you collect, and the easier it becomes to spot a real pattern.</p>
 <p>And third, the significance level — this reflects how sure we want to be before we say, ‘Yes, this effect is real.’</p>
@@ -705,7 +705,7 @@ Tejaswini Sharma
 <p><br> <br></p>
 <p><strong>What ideas have you come up with during the previous activity?</strong></p>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Collect what learners have come up with during the previous activity. Summarize and paraphrase as you go along, and potentially collect the answers on a flipchart.</p>
+<p><strong>Presenter Notes</strong>: Collect what learners have come up with during the previous activity. Summarize and paraphrase as you go along, and potentially collect the answers on a flipchart.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -726,7 +726,7 @@ Tejaswini Sharma
 <li class="fragment"><p><strong>Required for transparency and publication</strong>: Represents evidence that your experimental plan is thought through, e.g., the sample size, and others can replicate your methods (i.e., in e spirit of <em>Open Research</em>)</p></li>
 </ol>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Power analysis can be important for various reasons.</p>
+<p><strong>Presenter Notes</strong>: Power analysis can be important for various reasons.</p>
 <ol type="1">
 <li><p>It can help us avoid studies that are simply too weak to be useful. If a study is underpowered, you might run the experiment, analyse the data, and still fail to detect a real effect, not because the effect isn’t there, but because the study was too small. This is similar to trying to record a sound in a noisy room: You might hear it, not because the sound is not there, but because your setup is not high-tech enough to detect it.</p></li>
 <li><p>Power analysis also helps save time and effort. Instead of guessing how much data you need, it tells you the minimum number of observations required to have a reasonable chance of detecting an effect. This means you’re not running an experiment that’s unnecessarily large, expensive, or time-consuming.</p></li>
@@ -754,7 +754,7 @@ Tejaswini Sharma
 <li class="fragment"><p><strong>Power analysis through simulations</strong> = <strong>pretending</strong> to do the experiment many times on a computer before <strong>actually doing</strong> it. You input what you expect to happen (e.g., study design, means, etc.). The experiment “runs” using these parameters and you see how often the simulated experiment correctly detects an effect. Works well for <strong>complex study designs</strong> (e.g., longitudinal data) and unusual data. (<em>This is today’s focus</em>).</p></li>
 </ol>
 <aside class="notes">
-<p><strong>Speaker Notes:</strong> There are two main ways to do power analysis. The first is the quick formula method. Here, you use a mathematical formula that links effect size, sample size, and significance level to estimate how much data you need. This works well for very simple designs, like basic comparisons or classic statistical tests. It is fast and intuitive, but it also makes strong assumptions about how the data behave.</p>
+<p><strong>Presenter Notes:</strong> There are two main ways to do power analysis. The first is the quick formula method. Here, you use a mathematical formula that links effect size, sample size, and significance level to estimate how much data you need. This works well for very simple designs, like basic comparisons or classic statistical tests. It is fast and intuitive, but it also makes strong assumptions about how the data behave.</p>
 <p>The second approach is simulation-based power analysis. Instead of relying only on formulas, you pretend to run your experiment many times on a computer. You generate fake data that reflect how you expect the real data to look, analyse each pretend dataset, and then see how often you detect the effect.</p>
 <p>This simulation approach is especially useful when experiments are more complex, for example, when there are multiple variables, lognitudinal data non-standard designs, or assumptions that are hard to check. In those cases, simulations give a more realistic picture of how your study will actually perform.</p>
 <p><strong>Instructor Notes:</strong> Clarify that simulations do not replace theory but extend it when formulas become too simplified or unrealistic. Encourage learners to think about which method fits their own experimental designs and to see simulations as a flexible tool rather than an advanced or intimidating one.</p>
@@ -791,7 +791,7 @@ Tejaswini Sharma
 </div>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Let’s walk through the basic steps of simulation-based power analysis using this process.</p>
+<p><strong>Presenter Notes</strong>: Let’s walk through the basic steps of simulation-based power analysis using this process.</p>
 <p>First, you set up your model and data. This means deciding what your variables look like and how they behave. For example, are you working with coin flips, test scores, or reaction times? You also choose assumptions like the sample size, the expected effect size, and the type of distribution the data follow. In our coin example, this is where you decide how biased the coin might be and how many flips you plan to run.</p>
 <p>Second, you simulate one dataset. Here, you generate fake data on a computer that follow the rules you just defined. If you expect a real effect, you deliberately build it into the data, for example, by making one group slightly different from another. This step is like running your experiment once, but with pretend data.</p>
 <p>Third, you analyse the simulated data exactly as you would analyse real data. You apply the statistical test you plan to use later, such as a t-test or a regression, and you record the outcome — for instance, whether the result is statistically significant.</p>
@@ -832,7 +832,7 @@ Tejaswini Sharma
 </div>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Now we’ll move on to the tutorial part of the session. You’ll work individually through a self-paced tutorial, focusing on gaining hands-on experience with running simulations yourself in R. Take your time as you go through them, and work at a pace that feels comfortable. There is no expectation to finish everything right now, and you’re welcome to continue working on them at home. Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorial.</p>
+<p><strong>Presenter Notes</strong>: Now we’ll move on to the tutorial part of the session. You’ll work individually through a self-paced tutorial, focusing on gaining hands-on experience with running simulations yourself in R. Take your time as you go through them, and work at a pace that feels comfortable. There is no expectation to finish everything right now, and you’re welcome to continue working on them at home. Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorial.</p>
 <p><strong>Instructor Notes:</strong> Clearly signal the shift from guided instruction to independent work. Remind learners that the tutorial is self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Do walk around the room to check up on the progress of your learners. Provide a time limit for the activity and inform your learners that you will come together as a group towards the end of the session to wrap up.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -854,7 +854,7 @@ Tejaswini Sharma
 <p>Complete the rest in your own time.</p>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: For those of you who did not yet finish with the tutorial, this is the assignment for the next session.</p>
+<p><strong>Presenter Notes</strong>: For those of you who did not yet finish with the tutorial, this is the assignment for the next session.</p>
 <p><strong>Instructor Notes</strong>: Explain the homework assignment and the rationale behind the homework. Examine whether/how it will be assessed. Mention scoring rubrics, if applicable.</p>
 <p>*Accessibility Tip**: Design a peer-review system for assignments to place learners in role of reviewer and author. This helps learners learn how to give feedback, but also how to receive feedback.</p>
 <style type="text/css">
@@ -882,7 +882,7 @@ Tejaswini Sharma
 <li class="fragment">To successfully <strong>perform</strong> a simulation in R ✅</li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.</p>
+<p><strong>Presenter Notes</strong>: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.</p>
 <p>If you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.</p>
 <p><strong>Instructor Notes</strong>: Encourage brief reflection rather than detailed discussion. Ask learners to self-assess quietly or with a quick show of hands. Invite a few questions or clarifications, but avoid re-teaching in depth unless a common gap appears.</p>
 <style type="text/css">
@@ -904,7 +904,7 @@ Tejaswini Sharma
 <p>Can you imagine using simulations for <strong>your</strong> work/projects/studies?</p>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Let us discuss how these skills could be relevant to you. Where can you imagine applying these new skills? In which context? Or where can you imagine that you <em>will not</em> apply these skills?</p>
+<p><strong>Presenter Notes</strong>: Let us discuss how these skills could be relevant to you. Where can you imagine applying these new skills? In which context? Or where can you imagine that you <em>will not</em> apply these skills?</p>
 <p><strong>Instructor Notes</strong>: The aim here is to work out the relevance of the topic to your learners. In an interactive setting, discuss how the new skills could be applied in practice with specific examples. Examine downfalls and practical obstacles.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -926,7 +926,7 @@ Tejaswini Sharma
 <li class="fragment"><p>Together they’re your <strong>research rehearsal</strong>: first you imagine the experiment (<em>simulate</em>), then you check if the plan is strong enough (<em>power</em>), and only then you go on stage with real data.</p></li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: To wrap up, here’s the main takeaway. Simulations act like a safe playground, where you can run your study many times using pretend data and see how your statistics behave before working with real data. Power analysis works like a trial period, helping you decide on a study size that’s large enough to detect real effects, but not larger than necessary. Together, simulations and power analysis form a kind of research rehearsal — you first imagine and test the experiment, then check whether the plan is strong enough, and only after that move on to collecting real data.</p>
+<p><strong>Presenter Notes</strong>: To wrap up, here’s the main takeaway. Simulations act like a safe playground, where you can run your study many times using pretend data and see how your statistics behave before working with real data. Power analysis works like a trial period, helping you decide on a study size that’s large enough to detect real effects, but not larger than necessary. Together, simulations and power analysis form a kind of research rehearsal — you first imagine and test the experiment, then check whether the plan is strong enough, and only after that move on to collecting real data.</p>
 <p><strong>Instructor Notes</strong>: This is a good moment to make sure that your learners feel the need for simulations and power analysis on a ground level. The metaphor can make it easier to remember the reasoning.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -943,7 +943,7 @@ Tejaswini Sharma
 <section id="to-conclude-survey-time" class="slide level2">
 <h2>To conclude: Survey time!</h2>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge about simulations, power analysis, and working in R after completing the submodule. Please answer honestly based on how confident you feel now.</p>
+<p><strong>Presenter Notes</strong>: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge about simulations, power analysis, and working in R after completing the submodule. Please answer honestly based on how confident you feel now.</p>
 <p><strong>Instructor Notes</strong>: The purpose is to compare pre- and post-submodule responses to evaluate learning progress and the effectiveness of the tutorial. At this stage, the correct answers can be discussed. Encourage your learners to share in class, in case they answered wrongly and navigate them to the correct answer. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in these areas.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1051,7 +1051,7 @@ Tejaswini Sharma
 <p>What do we see in the results?</p>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: Let’s take a moment to look at these survey results together. The goal here is not to see who got answers “right” or “wrong,” but to get a sense of where we are as a group right now. These results give us a snapshot of your current familiarity with simulations, power analysis, and R, which helps us understand what feels familiar and what might feel new. <br> <strong>Instructer Notes</strong>: The post-survey aims to assess the difference in knowledge and skill before and after the class. Highlight general patterns rather than individual responses (e.g., areas of confidence vs.&nbsp;uncertainty). Avoid correcting answers.</p>
+<p><strong>Presenter Notes</strong>: Let’s take a moment to look at these survey results together. The goal here is not to see who got answers “right” or “wrong,” but to get a sense of where we are as a group right now. These results give us a snapshot of your current familiarity with simulations, power analysis, and R, which helps us understand what feels familiar and what might feel new. <br> <strong>Instructer Notes</strong>: The post-survey aims to assess the difference in knowledge and skill before and after the class. Highlight general patterns rather than individual responses (e.g., areas of confidence vs.&nbsp;uncertainty). Avoid correcting answers.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1078,7 +1078,7 @@ Steidl, R. J., Hayes, J. P., &amp; Schauber, E. (1997). Statistical <span>Power<
 </div>
 </div>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: This slide lists all the sources that informed today’s session. You don’t need to read through them now. They are here so you can see where the ideas and definitions come from and so you can revisit any of these readings later if you’re interested.</p>
+<p><strong>Presenter Notes</strong>: This slide lists all the sources that informed today’s session. You don’t need to read through them now. They are here so you can see where the ideas and definitions come from and so you can revisit any of these readings later if you’re interested.</p>
 <p><strong>Instructor Notes</strong>: Emphasise that learners are not expected to engage with all sources now; this slide mainly serves documentation and follow-up purposes.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1101,7 +1101,7 @@ Steidl, R. J., Hayes, J. P., &amp; Schauber, E. (1997). Statistical <span>Power<
 <li><a href="https://osf.io/7wfed/files/asf53">Introduction to Power Analysis by Courtney K. Soderberg</a></li>
 </ul>
 <aside class="notes">
-<p><strong>Speaker Notes</strong>: This slide lists the key references and additional resources used throughout the session. You don’t need to go through these right now. They’re here so you can revisit the concepts in more depth later, explore practical examples, or follow up on topics that interested you during the tutorial. Feel free to use these resources at your own pace.</p>
+<p><strong>Presenter Notes</strong>: This slide lists the key references and additional resources used throughout the session. You don’t need to go through these right now. They’re here so you can revisit the concepts in more depth later, explore practical examples, or follow up on topics that interested you during the tutorial. Feel free to use these resources at your own pace.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
