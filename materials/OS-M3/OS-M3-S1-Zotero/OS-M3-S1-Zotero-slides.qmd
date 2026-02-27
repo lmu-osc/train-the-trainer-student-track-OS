@@ -25,16 +25,6 @@ execute:
   engine: knitr
 ---
 
-## Feedback slide - delete at the end
-<div style="color: red; font-size: 0.6em;">
-  - Revise your learning goals in terms of Blooms Taxonomy, levels 1 - 4
-  - Align your learning goals with the learning activities you are asking your learners to complete during the session
-</div>
-
-
-
----
-
 ## Licence
 
 <br>
@@ -155,16 +145,15 @@ What do we see in the results?
 
 :::incremental
 - To **explain** the importance of citing scientific literature.
-- To **distinguish** between citations and reference lists.
-- To **analyse** the elements of a citation and reference.
-- To **compare** different citation styles.
 - To **demonstrate** writing a citation and reference of a paper manually.
 - To **set up and organize** a personal Zotero library.
-- To **develop** a citation workflow for academic writing.
+- To **navigate** using different citation formats (CSL) in Zotero.
+- To **develop** a referencing workflow in MS Word.
+- To **develop** a referencing workflow using Quarto.
 :::
 
 <div style="color: red; font-size: 0.6em;">
-I think that quite a few learning goals focus on the conceptual aspect of this and just the last two are really about the practical aspect of using Zotero? Perhaps you can flip the ratio and write two goals about the conceptual part (i.e., these intro slides) and the remaining four about the tutorial? What learning goals do they use in the self-paced tutorial? When you did this, also adjust the speaker notes accordingly. 
+~~I think that quite a few learning goals focus on the conceptual aspect of this and just the last two are really about the practical aspect of using Zotero? Perhaps you can flip the ratio and write two goals about the conceptual part (i.e., these intro slides) and the remaining four about the tutorial? What learning goals do they use in the self-paced tutorial? When you did this, also adjust the speaker notes accordingly.~~ 
 </div>
 
   
@@ -188,11 +177,12 @@ And when you share this knowledge, you'd be asked: *"What is the source?"*
 
 <div class="fragment" style="text-align: center; margin-top: 1em;">
   <img src="images/01_source_meme.png" style="width:50%;" />
+  <div style="font-size: 0.3em; margin-top: 0.5em;"><em>Copyright: © FastArcher.</em></div>
 </div>
 
 
 <div style="color: red; font-size: 0.6em;">
-Did you want to add the source here?
+~~Did you want to add the source here?~~
 </div>
 
 
@@ -507,21 +497,21 @@ Use this time to explore, experiment, and revisit earlier ideas as they come up 
 
 ---
 
-## Assignment 
+## Homework assignment 
 
-- **Goal**: Finish the remaining of the 'Introduction to Zotero' tutorial and its exercises.
-- **Self-reflective questions**: Use the following questions to assess your learning progress from the tutorial,
+- **Goal**: Finish the remaining of the 'Introduction to Zotero' tutorial and its exercises at home.
+- **Self-reflective questions**: At the end of the tutorial, use the following questions to assess your learning progress from the tutorial,
   - What is one key concept about citations or Zotero that became clearer after completing the exercises?
   - Which Zotero task can you now perform confidently, and which one still feels challenging?
   - How easy has it been navigating different CSL formats?
   
 <div style="color: red; font-size: 0.6em;">
-Make it clear that the first bullet point is a take home assignment if applicable, the second is about an in-class acitivity, that way you connect it to the next slide? 
+~~Make it clear that the first bullet point is a take home assignment if applicable, the second is about an in-class acitivity, that way you connect it to the next slide?~~ 
 </div>
 
 ::: {.notes}
 **Speaker Notes**: 
-Now we revert to our slides to wrap up the presentation. As an assignment, you are expected to complete all remaining sections of the Introduction to Zotero tutorial, including every exercise. The goal is to ensure they move from passive understanding to hands-on application of Zotero’s core functions.
+Now we revert to our slides to wrap up the presentation. As a homework assignment, you are expected to complete all remaining sections of the Introduction to Zotero tutorial, including every exercise. The goal is to ensure they move from passive understanding to hands-on application of Zotero’s core functions.
 
 The self-reflective questions are designed to encourage metacognitive awareness. You should not simply state whether something was “easy” or “difficult,” but briefly consider why.
 
@@ -537,26 +527,38 @@ Remind students that facing difficulty is common and part of the learning proces
 
 ---
 
-## Relevance and implications
+## In-class Activity
 
 <div style="color: red; font-size: 0.6em;">
-Sure for this activity! Did you want to put the instructions for this activity clearly in bold at the top or so and phrase the questions you have as questions they have to think about/bullet points? Also adjust the speaker notes to include the task instructions clearly and add a time suggestion for how long this activity should take. 
+~~Sure for this activity! Did you want to put the instructions for this activity clearly in bold at the top or so and phrase the questions you have as questions they have to think about/bullet points? Also adjust the speaker notes to include the task instructions clearly and add a time suggestion for how long this activity should take.~~ 
 </div>
 
-**Time for an open discussion**
+**Time for an open discussion** <br>
+Take a minute to think about the following prompts:
+- how can Zotero support you in your upcoming projects?; 
+- identify some practical benefits of using it; 
+- what obstacles do you anticipate in using it consistently?
 
-- **Aim**: Discuss how Zotero could support you in your upcoming projects identify some practical benefits of using it; and what obstacles do you anticipate in using it consistently?
+Then, we can discuss our thoughts in the classroom.
 
 ::: {.notes}
 **Speaker Notes**:  
-Let’s now make this concrete and personal.  
-Think about your own academic work this semester, an upcoming essay, a research report, maybe even your thesis. Where exactly could Zotero support you? Would you start using it when you first search for literature? While reading and annotating? Or only once you begin writing?  
-What practical advantages do you see? For example, could it help you stay organised, reduce citation mistakes, or save time when formatting references?  
-And just as importantly: what might get in the way? Maybe the initial setup feels like effort. Maybe you’re used to copying references manually. Maybe you’re unsure how to integrate it into your current system.  
-The goal here is to think realistically about how you could make Zotero part of your own workflow — not just in theory, but in practice.
+Now is a time for a short in-class activity and an opportunity to discuss this new skill in an open discussion. 
+
+For this activity, we’ll take about five to seven minutes in total.  
+
+First, take a minute individually to think about these three questions:  
+How could Zotero support you in your own academic work?  
+What practical benefits do you see?  
+And what obstacles might make it harder to use consistently?
+You could also discuss among your friends in this minute.
+
+After that, we’ll open it up for discussion for about three to five minutes. I’m interested in concrete examples — for instance, an upcoming essay where you could realistically start using it.  
+
+There are no right or wrong answers here. The goal is to think honestly about how this tool fits — or doesn’t fit — into your current workflow.
 
 **Instructor Notes**:  
-Facilitate an open discussion. First collect concrete applications, then explicitly ask for potential barriers. Write key themes on the board if possible. End by summarising how consistent early use (during literature search rather than at the writing stage) tends to make implementation smoother.
+Keep the reflection phase quiet before moving into discussion. If participation is slow, prompt with specific contexts (e.g., literature reviews, group projects, thesis preparation).
 
 **Accessibility Tips:**  
 Give students a short quiet reflection moment before opening discussion. Paraphrase student contributions clearly and structure them into “benefits” and “barriers” to support comprehension.
@@ -569,13 +571,12 @@ Give students a short quiet reflection moment before opening discussion. Paraphr
 :::incremental
 
 - Citations and reference lists are essential to **scientific integrity**. They make research *transparent, traceable, and verifiable*.
-- Citations identify the source within the text, while the reference list provides full publication details.
-- **Effective citation management** strengthens academic writing, by enabling accuracy, consistency, and efficiency—allowing you to focus on literature review.
+- Effective citation management with **Zotero** strengthens academic writing, by enabling *accuracy, consistency, and efficiency* — allowing you to focus on literature review.
 
 :::
 
 <div style="color: red; font-size: 0.6em;">
-With your learning goals in mind, sharpen the formulation of these take-home messages. - should be new learning goals as per new feedback :)
+~~With your learning goals in mind, sharpen the formulation of these take-home messages. - should be new learning goals as per new feedback :)~~
 </div>
 
 
@@ -587,7 +588,6 @@ Zotero can be your go-to tool for saving and citing studies, from assignments to
 ::: {.notes}
 **Speaker Notes**:
 To conclude, citations and reference lists are not just a formal requirement — they are central to scientific integrity. They make research transparent, traceable, and verifiable.  
-Citations show readers where specific ideas come from within the text, while the reference list gives the full details so those sources can be located and checked.  
 And when you manage citations effectively — for example, with a tool like Zotero — you improve accuracy and consistency, save time, and reduce formatting errors. That allows you to focus your energy on what really matters: critically engaging with the literature rather than manually adjusting commas and brackets.”
 
 **Instructor Notes**:  
@@ -599,17 +599,16 @@ Deliver this slide as a concise closing summary. Reinforce the connection betwee
 ## Learning goals: Check-In 
 
 <div style="color: red; font-size: 0.6em;">
-Check these again and adjust!
+~~Check these again and adjust!~~
 </div>
 
 :::incremental
 - [ ] To **explain** the importance of citing scientific literature.
-- [ ] To **distinguish** between citations and reference lists.
-- [ ] To **analyse** the elements of a citation and reference.
-- [ ] To **compare** different citation styles.
 - [ ] To **demonstrate** writing a citation and reference of a paper manually.
 - [ ] To **set up and organize** a personal Zotero library.
-- [ ] To **develop** a citation workflow for academic writing.
+- [ ] To **navigate** using different citation formats (CSL) in Zotero.
+- [ ] To **develop** a referencing workflow in MS Word.
+- [ ] To **develop** a referencing workflow using Quarto.
 :::
 
 ::: {.notes}
