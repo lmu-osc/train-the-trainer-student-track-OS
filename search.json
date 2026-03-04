@@ -9,9 +9,30 @@
   {
     "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html",
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html",
-    "title": "3.1. Introduction to Zotero",
+    "title": "3.7. Introduction to Zotero",
     "section": "",
-    "text": "Something nice here\n\nFull Screen\n\n\nOverview\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nDownload files\nDownload the csv file for the mtcars data:\n Download \n \n\n\nExport slides\nYou can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export.\n Download slides as PPTX"
+    "text": "“Citing like a pro means more time for your writing!”"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html#prerequisites",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html#prerequisites",
+    "title": "3.7. Introduction to Zotero",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\n\nPrerequisite\nDescription\nLink\n\n\n\n\nZotero and Zotero Connector\nCitation tool and extension\nDownload Link\n\n\nR\nVersion 4.5. or higher\nDownload Link\n\n\nRStudio\nVersion 2026.01.1+403 or higher\nDownload Link"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html#learning-objectives",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html#learning-objectives",
+    "title": "3.7. Introduction to Zotero",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nExplain the importance of citing scientific literature and citation tools\nFamiliarize yourself with different citation formats (CSL)\nSet up and organize a personal Zotero library\nApply and develop a referencing workflow in Quarto and RStudio\nApply and develop a referencing workflow in MS Word"
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html#download-files",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html#download-files",
+    "title": "3.7. Introduction to Zotero",
+    "section": "Download files",
+    "text": "Download files\n\nPractical exercises - solutions\nDownload the solutions for the practical exercises here:\n\n\nHelpfiles\nDownload the csv file for the example data:"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html",
@@ -2914,263 +2935,228 @@
     "text": "CREDiT Contribution Statement - TO DO\nElizabeth Waterfield: Conceptualization, Software, Writing - Original Draft, Visualization. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Project Administration, Validation. Malika Ihle: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#credit-statement-and-licence",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#credit-statement-and-licence",
-    "title": "Template Slides: Title of submodule",
-    "section": "Credit statement and licence",
-    "text": "Credit statement and licence\nPossible roles using the CRediT contribition system:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.\n \n\nThis work by YYY XXX, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 Creative Commons Attribution 4.0 International License.\n\n\nSpeaker Notes These are the speaker notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to the presenter.\nInstructor Notes There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#licence",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#licence",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Licence",
+    "text": "Licence\n\n\n\n\n\nThis work was originally created by Pat Callahan and Dejana Damjanovic under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International License and a CC0 1.0 Creative Commons Universal licence for code snippets. It was subsequently adapted and revised by Sarah von Grebmer zu Wolfsthurn. This current work by Tejaswini Sharma and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International SA License. permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 Creative Commons Universal Licence. You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.\n\n\nPresenter Notes: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#contribution-statement",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#contribution-statement",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Contribution statement",
+    "text": "Contribution statement\n\nCreator: Sharma, Tejaswini ( 0000-0002-6413-3895)\nReviewer: Von Grebmer zu Wolfsthurn, Sarah ( 0000-0002-6413-3895)"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#prerequisites",
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#prerequisites",
-    "title": "Template Slides: Title of submodule",
+    "title": "Citing made simple: A practical guide for Zotero",
     "section": "Prerequisites",
-    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this submodule, please carefully read about the necessary prerequisites.\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nModule + Submodule\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\nSpeaker Notes Script for the presentation here."
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this submodule, please carefully read the following prerequisites.\n\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nZotero and Zotero Connector\nCitation tool and extension\nDownload Link\n\n\nR\nVersion 4.5. or higher\nDownload Link\n\n\nRStudio\nVersion 2026.01.1+403 or higher\nDownload Link\n\n\n\n\n\nPresenter Notes: Before we begin this submodule, please take a moment to review the prerequisite listed here. Based on the previous sessions, you should all have R and RStudio installed, please check which versions you have. One additional pre-requisite is the Zotero tool and the Zotero connector, which we will need for the practical part today.\nInstructor Notes: If you are short on time, provide these prerequisites to your learners as part of the preparation for this session. Remind them that they can download Zotero also later when starting the practical part."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#questions-from-previous-submodule",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#questions-from-previous-submodule",
-    "title": "Template Slides: Title of submodule",
-    "section": "Questions from previous submodule",
-    "text": "Questions from previous submodule\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module.\n\n\nSpeaker Notes Script for the presentation here."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#prerequisites-cont.",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#prerequisites-cont.",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Prerequisites (cont.)",
+    "text": "Prerequisites (cont.)\n\nFamiliarity with the concept of literature review; how and where to access scientific papers, such as Google Scholar.\n\n\n\n\n\nPresenter Notes: Before we begin this submodule, please take a moment to review the prerequisite listed here. You should already be familiar with the basic idea of a literature review, including how to search for and access scientific papers, on platforms such as like Google Scholar. Here is an image of the Google Scholar interface with some papers displayed.\nInstructor Notes: Before proceeding, briefly confirm that learners are comfortable with the concept of a literature review and know how to locate academic articles. If needed, give a detailed overview of the Google Scholar interface, or have them navigate it online by themselves."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#questions-from-the-previous-submodule",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#questions-from-the-previous-submodule",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Questions from the previous submodule?",
+    "text": "Questions from the previous submodule?\n\nPresenter Notes: Are there any questions from any of the previous sessions?\nInstructor Notes:\n\nAim: This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first submodule of a new module."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#before-we-start-survey-time",
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#before-we-start-survey-time",
-    "title": "Template Slides: Title of submodule",
+    "title": "Citing made simple: A practical guide for Zotero",
     "section": "Before we start: Survey time!",
-    "text": "Before we start: Survey time!\n\nAim: The pre-submodule survey serves to examine students’ prior knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides).\n\n\nSpeaker Notes Script for the presentation here."
+    "text": "Before we start: Survey time!\n\nPresenter Notes: Before we move on, we’ll take a short survey. The aim here is simply to understand your current familiarity.\nIn the next few slides, you’ll see some questions that invite you to reflect on where you’re starting from. This isn’t a test, and it is not about getting the right answers.\nIf you’re unsure, that is completely fine, just respond based on what feels closest to your current understanding.\nInstructor Notes: Set a low-stakes, supportive tone before beginning the survey. Emphasize that uncertainty is expected and valuable for measuring learning progress."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#discussion-of-survey-results",
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#discussion-of-survey-results",
-    "title": "Template Slides: Title of submodule",
+    "title": "Citing made simple: A practical guide for Zotero",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\n\nAim”: Briefly examine the answers given to each question interactively with the group.\nUse visuals from the survey to highlight specific answers.\n\n\nSpeaker Notes Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress."
+    "text": "Discussion of survey results\n\n\nWhat do we see in the results?\n\n\nPresenter Notes: Let us have a look at these results.\nInstructor Notes: The aim is to understand the group’s current standing in terms of knowledge and familiarity with citing literature and using Zotero. Emphasize explicitly that the survey is not about correct or incorrect answers. Avoid evaluating answers or revealing correct ones."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#where-are-we-at",
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#where-are-we-at",
-    "title": "Template Slides: Title of submodule",
+    "title": "Citing made simple: A practical guide for Zotero",
     "section": "Where are we at?",
-    "text": "Where are we at?\n\nAim: Place the topic of the current submodule within a broader context.\nRemind students what you are working towards and what the bigger picture is.\n\n\nSpeaker Notes Script for the presentation here."
+    "text": "Where are we at?\nPreviously:\n\nFamiliarization with R basics\nAdvanced R skills\nVersion control with Git\nCollaborative working with GitHub\nIntroduction to Quarto\n\nUp next:\n\nCitations and references: What are they and when/how to use them\nCitation management tool: Using Zotero in our workflow\n\n\nPresenter Notes: Let us take a moment to see where we are in terms of the topics we have covered so far and what is coming next.\nPreviously, you became familiar with the basics of R, built on those skills with more advanced R techniques, and explored version control using Git. You also practiced collaborative workflows with GitHub and got an introduction to Quarto as a reproducible writing and publishing tool.\nUp next, we will shift focus to citations and references—what they are, why they are important, and when and how to use them in your work. Following that, we will learn about citation management tools, specifically how to use Zotero to organize your references and integrate them seamlessly into your research workflow.\nInstructor Notes: Make sure that your learners can picture the broader context we are placing this session in."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#learning-goals",
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#learning-goals",
-    "title": "Template Slides: Title of submodule",
+    "title": "Citing made simple: A practical guide for Zotero",
     "section": "Learning goals",
-    "text": "Learning goals\n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nStudents will describe the process of photosynthesis or\nStudents will construct a diagram illustrating the process of photosynthesis\n\n\n\nSpeaker Notes Script for the presentation here."
+    "text": "Learning goals\n\nExplain the importance of citing scientific literature and citation tools\nFamiliarize yourself with different citation formats (CSL)\nSet up and organize a personal Zotero library\nApply and develop a referencing workflow in Quarto and RStudio\nApply and develop a referencing workflow in MS Word\n\n\nPresenter Notes: This slide outlines the learning goals for the session. At this stage, you’re not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later. First, you will first understand the importance of citing scientific literature and using citation management tools.\nInstructor Notes: Use this slide to set expectations and reduce pressure. Emphasize that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials. You will then become familiar with different citation formats, particularly those based on Citation Style Language (CSL). Next, you will learn how to set up and organize your own personal Zotero library. You will practice importing references, organizing them into collections, adding tags and notes, attaching PDFs, and structuring your library in a way that supports an efficient and manageable research workflow. After that, you will develop a referencing workflow in Quarto and RStudio. Finally, you will develop a referencing workflow in MS Word. Using Zotero’s Word plugin, you will insert citations directly into your text, switch easily between citation styles, and automatically generate and update your bibliography as your document evolves.\nAccessibility Tip: Pause briefly between them to reduce cognitive load."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#key-terms-and-definitions",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#key-terms-and-definitions",
-    "title": "Template Slides: Title of submodule",
-    "section": "Key terms and definitions",
-    "text": "Key terms and definitions\n\nAim: Introduce key terms and definitions that students will come across throughout the session. \nKey Term 1: Definition\nKey Term 2: Definition\nKey Term 3: Definition\n\n\nSpeaker notes Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citations-and-references",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citations-and-references",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "What are citations and references?",
+    "text": "What are citations and references?\n\n\n\n\n\n\nA small thought experiment..\n\n\nImagine reading various scientific papers to collect knowledge (= reviewing the literature). When you share this knowledge with someone, they would ask: “Where did you read this?”\n\n\n\n\n\n\nCopyright: © FastArcher.\n\n\n\nThus, you need to cite the source of your knowledge; in this case, a scientific paper.\n\n\nPresenter Notes:\n“Imagine reading various scientific papers to collect knowledge (review of literature). When you share this knowledge, you’d be asked: “What is the source?”\nLet us imagine a bizarre example: someone claims that eating aloe vera improves your dance skills. In everyday life, you might respond, ‘Trust me, bro!’ and leave it at that. But in the scientific world, we need to provide evidence for every claim we make. When you collect knowledge from scientific papers, e.g., your literature review, and share it, others will naturally ask, ‘Where did this information come from?’ or ‘Where did you hear this’? This is why we cite sources: to show the origin of our knowledge and allow others to verify or follow up on it.”\nInstructor Notes: Use this humorous, relatable example to introduce the concept of citations and references (feel free to edit the example). Highlight the difference between casual claims and scientific claims to make the importance of referencing concrete. Encourage learners to think of examples from their own fields where citing sources would be necessary."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#introduction-of-submodule-topic",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#introduction-of-submodule-topic",
-    "title": "Template Slides: Title of submodule",
-    "section": "Introduction of submodule topic",
-    "text": "Introduction of submodule topic\n\nAim: Core theoretical introduction of submodule topic.\nPair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\nUse multiple slides for this part.\n\n\nSpeaker notes For a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break)."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citations-and-references-1",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citations-and-references-1",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "What are citations and references?",
+    "text": "What are citations and references?\n\nCitations are the in‑text pointers to sources you use (e.g., Sharma, 2025).\n\n\n\n\nExample of a (fictional) citation.\n\n\n\nPresenter Notes: Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper.\nAccessibility Tips:\nVerbally describe what is shown in the image for learners who may not be able to see them clearly. Allow a brief pause after the definition so learners have time to connect the text explanation with the visual example."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#submodule-content-slide",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#submodule-content-slide",
-    "title": "Template Slides: Title of submodule",
-    "section": "Submodule content slide",
-    "text": "Submodule content slide\n\nAim: Present relevant content\nHighlight particularly important aspects with Quarto call-out boxes, for example:\n\n\n\n\n\n\n\nImportant with Title\n\n\nThis is an example of a callout box to highlight particularly important information.\n\n\n\n\n\n\n\n\n\nTip with Title\n\n\nThis is an example of a callout box to give important tips.\n\n\n\n\nSpeaker Notes Script for the presentation here."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citations-and-references-2",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citations-and-references-2",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "What are citations and references?",
+    "text": "What are citations and references?\n\nCitations are the in‑text pointers to sources you use (e.g., Sharma, 2025).\n\n\n\n\nExample of a (fictional) citation.\n\n\n\nWhereas, references are the full bibliographic details listed at the end of a paper (Aksnes et al., 2019).\n\n\n\n\nExample of a (fictional) reference (list).\n\n\n\nPresenter Notes: This slide shows the difference between citations and references. Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper.\nReferences, on the other hand, appear at the end of a paper and provide the full details needed to locate the source. This will allow you to access the ‘source of the information’ and see for yourself what the paper entails.Together, citations and references make it possible for others to trace your claims back to the original research.\nThis is a fictional citation that does not truly exist. This slide is merely about demonstrating the difference between citations and references.\nInstructor Notes: Emphasize the functional distinction between citations and references rather than formatting details. Discuss the workflow of navigating citations and references while reading a research paper. Use the images as visual anchors to reinforce where each appears in a paper. Avoid going into citation styles here; the goal is conceptual clarity, not technical mastery.\nAccessibility Tips:\nVerbally describe what is shown in each image for learners who may not be able to see them clearly. Allow a brief pause after each definition so learners have time to connect the text explanation with the visual example."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#practical-exercise-1",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#practical-exercise-1",
-    "title": "Template Slides: Title of submodule",
-    "section": "Practical exercise 1",
-    "text": "Practical exercise 1\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker Notes Script for the presentation here."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#why-are-they-needed",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#why-are-they-needed",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Why are they needed?",
+    "text": "Why are they needed?\nFrom Aksnes et al. (2019):\n\nShow what comes from others: References show which ideas and words are yours and which are taken from other people, so you do not steal their work and they get credit.\nBack up what you say: References point to earlier studies that support your claims, so readers can see where your ideas fit and how trustworthy they are.\nLet others double-check you: Clear citations help others follow your steps, spot mistakes or misquotes, and use your work to do new studies.\nConnect ideas and track influence: Citations link papers into a big web of knowledge and are often used (not perfectly) to see which work has had a big impact.\n\n\nPresenter Notes: This slide explains why citations and references are needed in research.  They show which ideas come from other researchers, so credit goes where it’s due and we avoid presenting others’ work as our own.\nThey also help back up what we say by pointing readers to earlier studies that support our claims.\nCitations make it possible for others to double-check our work, spot mistakes, or build on it in future research.\nThey also connect ideas across papers, creating a larger network of knowledge and helping us track how research influences later work.\nAnd just to practice what we’re preaching: these points are taken from a paper by Aksnes and colleagues from 2019.\nSo now you know exactly where this knowledge comes from, and if you don’t believe me, you can always check from the reference at the end.\nInstructor Notes: Use this slide to reinforce both the practical and ethical reasons for citing sources. The humorous self-reference helps model good scholarly behaviour in action. Emphasize that citations are not about bureaucracy, but about trust, accountability, and connection within the scientific community."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#pre-break-survey",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#pre-break-survey",
-    "title": "Template Slides: Title of submodule",
-    "section": "Pre-break survey",
-    "text": "Pre-break survey\n\nAim: This pre-break survey serves to examine students’ current understanding of key concepts of the submodule\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nSpeaker Notes Script for the presentation here."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#how-to-cite-and-refer-to-a-scientific-paper",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#how-to-cite-and-refer-to-a-scientific-paper",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "How to cite and refer to a scientific paper?",
+    "text": "How to cite and refer to a scientific paper?\n\nCitation: In-text, you usually mention author and year. \n\nFor example: “Recent results support this view (Miller & Rossi, 2021).”\n\nReference list: After, you provide the full bibliographic information: \n\n\nAuthor: all authors’ last names and initials. \nDate: When it was published (usually the year).\nTitle: What the article is called.\nSource: Where it was published (journal name, volume, issue, page range, and DOI or URL if online).  For example: Miller, A. B., & Rossi, L. M. (2021). Title of the article. Journal Name, 12(3), 45–60. https://doi.org/xx.xxx/yyyy.  Note: Listed in an alphabetical order. \n\n\n\n\nPresenter Notes:\nThis slide shows the basic idea of how to cite and reference a scientific paper.\nIn the text, citations are usually short and include the author’s name and the year of publication.\nAt the end of a paper, the reference list contains the full details, such as the authors, year, title, and where the work was published.These references are typically listed in alphabetical order.\nInstructor Notes: Keep the focus on structure rather than memorizing formatting rules. Reinforce that citation styles vary across disciplines and that learners should always check departmental or journal guidelines. Use this slide as a bridge to the next one, where citation formats are introduced.\nAccessibility Tips: Read the example citation aloud and slow down when listing the reference components to reduce cognitive load."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#post-break-survey-discussion",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#post-break-survey-discussion",
-    "title": "Template Slides: Title of submodule",
-    "section": "Post-break survey discussion",
-    "text": "Post-break survey discussion\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey\n\n\nSpeaker Notes Script for the presentation here."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#how-to-cite-and-refer-to-a-scientific-paper-1",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#how-to-cite-and-refer-to-a-scientific-paper-1",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "How to cite and refer to a scientific paper?",
+    "text": "How to cite and refer to a scientific paper?\n\nCitation: In-text, you usually mention author and year. \n\nFor example: “Recent results support this view (Miller & Rossi, 2021).”\n\nReference list: After, you provide the full bibliographic information: \n\n\nAuthor: all authors’ last names and initials. \nDate: When it was published (usually the year).\nTitle: What the article is called.\nSource: Where it was published (journal name, volume, issue, page range, and DOI or URL if online).  For example: Miller, A. B., & Rossi, L. M. (2021). Title of the article. Journal Name, 12(3), 45–60. https://doi.org/xx.xxx/yyyy.  Note: Listed in an alphabetical order. \n\n\n\n\n\n\n\n\n\nNote\n\n\nThe exact formatting depends on the citation format.\n\n\n\n\nPresenter Notes: Do note: the exact formatting depends on the citation style, and we’ll briefly look at some common formats on the next slide. In the current example, the formatting used is APA.\nIt is also useful to find out which citation style your department or field expects you to use."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#practical-exercise-2",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#practical-exercise-2",
-    "title": "Template Slides: Title of submodule",
-    "section": "Practical exercise 2",
-    "text": "Practical exercise 2\n\nAim: Design more practical exercises for students to apply the new skills in practise.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your students need to be doing.\nStep 1\nStep 2\nStep 3\n\n\nSpeaker notes For students who advance faster: Prepare extra exercises."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#citation-styles",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#citation-styles",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Citation styles",
+    "text": "Citation styles\n\n\n\n\nStyle\nTypical fields/usage\nIn‑text example\nReference list example (journal article)\n\n\n\n\nAPA\nSocial sciences (e.g., psychology, education)\n(Smith & Lee, 2023)\nSmith, J., & Lee, K. (2023). Title of the article. Journal Name, 12(3), 123–145. https://doi.org/xx.xxx/yyyy ​\n\n\nMLA\nHumanities (e.g., literature, languages)\n(Smith and Lee 123)\nSmith, John, and Karen Lee. “Title of the Article.” Journal Name, vol. 12, no. 3, 2023, pp. 123–145. ​\n\n\nChicago (Notes-Biblio)\nHumanities (e.g., history, arts (footnotes/endnotes)\n¹ or (see note 1)\nSmith, John, and Karen Lee. “Title of the Article.” Journal Name 12, no. 3 (2023): 123–145. ​\n\n\n\n\n\nPresenter Notes: This table shows some of the most common citation formats used across different disciplines.\nYou are not expected to learn or memorize any of these.\nThink of this slide as a reference point, showing that citation styles differ depending on the field.\nAs an example:\n\nAPA stands for the American Psychological Association. It is widely used in the social sciences, such as psychology, education, and sociology. APA uses an author–date in-text citation format (e.g., Smith & Lee, 2023), which emphasizes the timeliness of research. The reference list follows a structured format with clear rules for authors, publication year, article title, journal title, volume, issue, pages, and a digital object identifier (DOI).\nMLA stands for the Modern Language Association. It is commonly used in the humanities, particularly in literature, languages, and cultural studies. MLA typically uses an author–page number format for in-text citations (e.g., Smith and Lee 123), focusing more on the location within the source than on the publication year. The reference list, called “Works Cited,” has its own specific formatting rules.\nChicago refers to the Chicago Manual of Style, published by the University of Chicago Press. The version shown here is the Notes and Bibliography system, which is widely used in history and some other humanities disciplines. Instead of parenthetical citations, it often relies on footnotes or endnotes, with a corresponding bibliography at the end of the document. This style allows for more detailed source information in the notes.\nExample comparison APA and Chicago: APA (American Psychological Association) uses an author–date citation system in the text and is primarily used in the social sciences, where the publication year is especially important. Chicago (Chicago Manual of Style), particularly the Notes and Bibliography system, commonly uses footnotes or endnotes and is widely used in the humanities, allowing for more detailed source information and commentary.\n\nInstructor Notes: Keep this slide brief and exploratory. Pick out the citation style that is most relevant to your audience and go into more detail, then compare with one other style. Avoid explaining each format in detail; the goal is awareness, not mastery. Encourage learners to visually compare formats and notice recurring elements such as authors, year, title, and source."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#relevance-and-implications",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#relevance-and-implications",
-    "title": "Template Slides: Title of submodule",
-    "section": "Relevance and implications",
-    "text": "Relevance and implications\n\nAim: To work out the relevance of the topic to your students.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\nSpeaker Notes Script for the presentation here."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#citation-styles-cont.",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#citation-styles-cont.",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Citation styles (cont.)",
+    "text": "Citation styles (cont.)\n\n\n\n\n\n\n\n\n\n\nStyle\nTypical fields/usage\nIn‑text example\nReference list example (journal article)\n\n\n\n\nChicago (Author‑Date)\nNatural and social sciences\n(Smith and Lee 2023, 123)\nSmith, John, and Karen Lee. 2023. “Title of the Article.” Journal Name 12 (3): 123–145.\n\n\nIEEE\nSTEM fields (e.g., engineering, computer science)\n“…sample text… [13]”\n[13] J. Smith and K. Lee, “Title of the article,” Journal Name, vol. 12, no. 3, pp. 123–145, 2023.\n\n\n\n\n\n\n\n\n\n\nShort exercise\n\n\nUse a minute to think about which citation format is used in your field.\n\n\n\n\nPresenter Notes: Here are some more example citation styles.\n\nChicago (Author–Date) refers to the Chicago Manual of Style, published by the University of Chicago Press, in its Author–Date variant. This version is commonly used in the natural and social sciences and employs parenthetical in-text citations that include the author’s name, publication year, and page number (e.g., Smith and Lee 2023, 123), with a corresponding reference list arranged alphabetically.\nIEEE stands for the Institute of Electrical and Electronics Engineers. It is widely used in STEM fields, particularly in engineering and computer science, and relies on numbered in-text citations in square brackets (e.g., [13]), which correspond to a numerically ordered reference list formatted in a concise and technical style.\n\nThe short exercise is simply to help you identify which citation style is commonly used in your own discipline.\nInstructor Notes: Use the exercise to prompt independent discovery and reinforce the idea that citation conventions are field-specific. Your audience has likely come across papers and can therefore compare with what they have already seen."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#take-home-message",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#take-home-message",
-    "title": "Template Slides: Title of submodule",
-    "section": "Take-home message",
-    "text": "Take-home message\nAim: End lesson on clear take-home message that are interactively compiled by students.\n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tips or take-home message.\n\n\n\n\nSpeaker Notes Script for the presentation here."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citation-tools",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citation-tools",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "What are citation tools?",
+    "text": "What are citation tools?\nCitation tools (or reference managers) are apps or software that help you collect, organize, and format citations for academic essays or scientific research. Examples include:\n\nZotero: https://www.zotero.org/\nMendeley: https://www.mendeley.com/\nCitavi: https://www.citavi.com\n\n\nPresenter Notes:\nImagine working on an assignment where you’ve opened dozens, maybe even hundreds, of tabs in your browser.\nYou are scrolling back and forth, trying to remember where a quote came from or which paper supported which idea, and things start to feel messy and overwhelming.\nThis is where citation tools come in. Citation tools, also called reference managers, are apps or websites like Zotero, Mendeley, or Citavi that help you collect, organise, and format your sources in one place.\nZotero is a free, open-source reference manager that helps you collect, organize, annotate, cite, and share research materials. It integrates with browsers to easily save references, supports thousands of citation styles, and works with Word, LibreOffice, Google Docs, and other tools. Its flexible syncing options make it popular among students and researchers who want customization and control over their libraries. It is free and unlimited in local storage space, but paid storage plans for online storage and collaboration exist. This is the tool we will look into today.\nMendeley is a citation manager owned by Elsevier that combines reference management with PDF organization and annotation. It offers a more polished interface and built-in PDF viewing, and its cloud syncing and group sharing make it convenient for collaboration and managing research across devices. However, it is more tied to a proprietary ecosystem and has limits on free storage. There is a free tool, which only comes with basic feautres and limited cloud storage, so you have to choose paid subscription plans for more storage and advanced features. Citavi is a commercial reference management and knowledge-organization tool especially popular in German-speaking countries. In addition to standard citation management, it includes project planning, task organization, and advanced knowledge structuring features, and integrates closely with Word and research databases. It tends to be more feature-rich for comprehensive research workflows, but it typically requires a license and is focused on Windows (with web support). Citavi is not free, full functionality requires buying a licence.\nInstructor Notes: Reinforce the practical benefits of citation tools using everyday student experiences. If prompted, you can explain each tool in more detail, briefly open the websites of each tool and navigate how each tool is unique in its features."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#assignment",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#assignment",
-    "title": "Template Slides: Title of submodule",
-    "section": "Assignment",
-    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place students in role of reviewer and author\n\n\nSpeaker Notes Script for the presentation here."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citation-tools-1",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#what-are-citation-tools-1",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "What are citation tools?",
+    "text": "What are citation tools?\nWhat can they do?\n\nSave bibliographic information from a browser or file\nCreate in-text citations\nAdd and update references automatically\n\nWhy are they useful?\n\nThey are consistent and efficient (broadly speaking)\nCan produce different citation formats\nCan store attachments, e.g., pdfs, notes, snapshots, urls\n\n\nPresenter Notes: What can these tools do? They can save bibliographic information with one click, generate in-text citations, and automatically build your reference list.\nThey improve accuracy and consistency by remembering all the important details, like the author, year, and title, and formatting every citation the same way, so you’re less likely to make mistakes.\nThey also save a lot of time. Instead of typing citations and reference lists manually, the tool can generate them for you automatically.\nAnother big advantage is that they can handle multiple citation styles. If a course or journal asks for a different format, you can switch styles with just a few clicks, rather than rewriting everything from scratch.\nNote that consistency is directly tied to the input you are providing and efficiency to the way you are interacting with the tool.\nFinally, they can store attachments, e.g., pdfs, notes, snapshots, urls together with your citation entry locally and remotely.\nInstructor Notes: Emphasize that these tools reduce errors, save time, and adapt easily to different citation requirements. Avoid framing them as shortcuts; instead, present them as good scholarly practice that supports accuracy and efficiency."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#questions-at-this-point",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#questions-at-this-point",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Questions at this point?",
+    "text": "Questions at this point?\n\nPresenter Notes: Are there any questions at this point?\nInstructor Notes: Give some time for your learners to think about questions. Go back to relevant slides if needed."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#how-does-zotero-work",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#how-does-zotero-work",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "How does Zotero work?",
+    "text": "How does Zotero work?\n\nCollecting: One-click saving of metadata and attachments (pdfs, snapshots) from literature databases, and websites.\nOrganizing: Items can be grouped into collections, tagged, and searched.\nCiting and referencing: Plugins for Word, Quarto, and Google Docs generate in‑text citations and bibliographies automatically.\n\n\nPresenter Notes:\nThis slide gives a very brief overview of Zotero.\nZotero is a citation tool that helps you collect, organise, and cite your sources in one place.\nYou can save references together with different attachments with a single click from databases or websites, organize them into collections or with tags, and search through them easily.\nZotero also connects directly to tools like Word, Quarto, and Google Docs, where you insert citations and build your reference list automatically.\nInstructor Notes: Keep this introduction surface-level and avoid demonstrating features in detail. The purpose is orientation, not instruction."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#how-does-zotero-work-1",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#how-does-zotero-work-1",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "How does Zotero work?",
+    "text": "How does Zotero work?\n\n\n\nZotero Interface.\n\n\n\nPresenter Notes: The image shows the Zotero interface, with your saved items in the centre, collections on the left sidebar, and detailed information for each item on the right sidebar.\nWe’ll only briefly look into this, because you’ll move straight into a hands-on tutorial where you’ll learn how to use Zotero in practice.\nInstructor Notes: Use the interface image to help learners recognize Zotero when they open it themselves. Let them take a minute to see the interface image to build familiarity. Clearly signal the transition to the practical tutorial, where they will actively work with the tool.\nAccessibility Tips: Verbally describe the layout shown in the image for learners who may have difficulty seeing it clearly. Reassure learners that they will not need to remember details from this slide, as the upcoming tutorial will walk them through the steps at a comfortable pace."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#your-turn",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#your-turn",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Your turn!",
+    "text": "Your turn!\nIn this next part, you will familiarize yourself with Zotero through hands-on exercices and activities:\n\nClick here: Zotero: Hands-on practical activities\nOr follow: https://lmu-osc.github.io/introduction-to-zotero/background/zotero_basics.html\n\n\n\n\n\n\n\nTip\n\n\nSince this is a self-paced tutorial, take your time on navigating it; and it can be finished at home as well. We will have a check-in moment at the end of this session and discuss any remaining questions.\n\n\n\n\nPresenter Notes: Now we’ll move on to the tutorial part of the session. You’ll work individually through a self-paced tutorial — focusing introducing Zotero, how to integrate with other platform, and practical exercises for you. Take your time as you go through them, and work at a pace that feels comfortable. There’s no expectation to finish everything right now, and you’re welcome to continue working on them at home. Use this time to explore, experiment, and revisit earlier ideas as they come up in the tutorials.\nInstructor Notes: Clearly signal the shift from guided instruction to independent work. Remind learners that the tutorial is self-paced and that progress will naturally vary. Encourage them to ask questions if they encounter difficulties. Some of your learners may only now get to the point of installing Zotero. Make sure to provide support for the installation process when needed. Do walk around the room to check up on the progress of the learners."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#wrapping-up",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#wrapping-up",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Wrapping up",
+    "text": "Wrapping up\n\nFor later: Finish the remaining of the ‘Introduction to Zotero’ tutorial and its exercises at home.\nFor now: Take one minute to assess your learning progress from the tutorial:\n\nWhat is one key concept about citations or Zotero that became clearer after completing the exercises?\nWhich Zotero task can you now perform confidently, and which one still feels challenging?\nHow easy has it been navigating different CSL formats?\n\n\n\nPresenter Notes: Now we revert to our slides to wrap up the presentation. As a homework assignment, you are expected to complete all remaining sections of the Introduction to Zotero tutorial, including every exercise. The goal is to ensure they move from passive understanding to hands-on application of Zotero’s core functions.\nThe self-reflective questions are designed to encourage metacognitive awareness. You should not simply state whether something was “easy” or “difficult,” but briefly consider why.\nThe first question checks conceptual clarity about citations and reference management.\nThe second encourages them to assess their practical competence and identify areas needing further practice. The third focuses specifically on working with different Citation Style Language (CSL) formats, helping them reflect on flexibility and adaptability in citation formatting.\nInstructor Notes: Gently nudge the learners back to the tutorial. Emphasize that completion of all tutorial sections and exercises is required. Learners should not skip the “Advanced” or “Zotero Groups” sections. Encourage honest self-assessment in the reflective questions; the goal is learning awareness, not perfection. Remind learners that facing difficulty is common and part of the learning process."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#looking-into-the-future",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#looking-into-the-future",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Looking into the future",
+    "text": "Looking into the future\n\n\nTake a minute to think about the following questions, first for yourself, then in a pair:\n\n\nCan you identify some practical benefits of using Zotero?\nWhat obstacles do you anticipate in using it consistently?\nHow can Zotero support you in your upcoming projects?\n\n\nShare your thoughts with the group.\n\n\n\nPresenter Notes:\nNow is a time for a short in-class activity and an opportunity to discuss this new skill in an open discussion.\nFor this activity, we’ll take about five to seven minutes in total.\nFirst, take a minute individually to think about these three questions:\n\nCan you identify some practical benefits of using Zotero?\nWhat obstacles do you anticipate in using it consistently?\nHow can Zotero support you in your upcoming projects?\n\nAfter that, we’ll open it up for discussion for about three to five minutes. I’m interested in concrete examples, for instance, an upcoming essay where you could realistically start using it. There are no right or wrong answers here. The goal is to think honestly about how this tool fits or does not fit into your current workflow.\nInstructor Notes: Keep the reflection phase quiet before moving into discussion. If participation is slow, prompt with specific contexts (e.g., literature reviews, group projects, thesis preparation).\nAccessibility Tips: Give learners a short quiet reflection moment before opening discussion. Paraphrase learner contributions clearly and structure them into “benefits” and “barriers” to support comprehension."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#take-home-messages",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#take-home-messages",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Take-home messages",
+    "text": "Take-home messages\n\nCitations and references are critical for tracing sources and giving credit to authors\nCitation tools facilitate your workflow by collecting, organizing, and formatting citations, as well as providing storage for pdfs or notes\n\n\n\n\n\n\n\nMake Zotero a habit!\n\n\nZotero can be your go-to tool for saving and citing studies, from assignments to thesis.\n\n\n\n\nPresenter Notes: To conclude with some take-home messages, citations and references are essential in academic writing because they allow readers to trace the sources of your information and give proper credit to the original authors. Proper citation is not only an ethical requirement but also strengthens the credibility and reliability of your work, helping others to verify or build upon your research.\nCitation tools make this process much easier by collecting, organizing, and formatting your references automatically. They also provide convenient storage for PDFs, notes, and other research materials, allowing you to manage your sources efficiently and integrate them seamlessly into your writing workflow, for example, as we practiced today, RStudio and Quarto and MS Word.\nInstructor Notes:\nDeliver this slide as a concise closing summary. Reinforce the connection between integrity, transparency, and practical efficiency. Avoid introducing new information; this slide should consolidate key ideas from the session."
+  },
+  {
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#learning-goals-check-in",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#learning-goals-check-in",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Learning goals: Check-In",
+    "text": "Learning goals: Check-In\nWhere are we at?\n\nExplain the importance of citing scientific literature and citation tools\nFamiliarize yourself with different citation formats (CSL)\nSet up and organize a personal Zotero library\nApply and develop a referencing workflow in Quarto and RStudio\nApply and develop a referencing workflow in MS Word\n\n\nPresenter Notes: Let us pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one.\nIf you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.\nInstructor Notes: Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all goals at this stage. Invite questions related to understanding the purpose of citations, the basics of creating citations and bibliographies, or the role of Zotero. Keep the discussion supportive and brief, focusing on clarifying concepts rather than introducing new material."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#to-conclude-survey-time",
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#to-conclude-survey-time",
-    "title": "Template Slides: Title of submodule",
+    "title": "Citing made simple: A practical guide for Zotero",
     "section": "To conclude: Survey time!",
-    "text": "To conclude: Survey time!\n\nAim: This post-submodule survey serves to examine students’ current knowledge about the sumodule’s topic.\nUse free survey software such as or other survey software (particify, formR) to establish the following questions (shown on separate slides):\n\n\nSpeaker Notes Script for the presentation here."
+    "text": "To conclude: Survey time!\n\nPresenter Notes: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge about citing literature and using Zotero after completing the submodule. Please answer honestly based on how confident you feel now. Instructor Notes: The purpose is to compare pre- and post-submodule responses to evaluate learning progress and the effectiveness of the tutorial. Encourage the learnrs to share in class. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in any areas."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#discussion-of-survey-results-1",
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#discussion-of-survey-results-1",
-    "title": "Template Slides: Title of submodule",
+    "title": "Citing made simple: A practical guide for Zotero",
     "section": "Discussion of survey results",
-    "text": "Discussion of survey results\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers\n\n\nSpeaker Notes Script for the presentation here."
+    "text": "Discussion of survey results\n\n\nWhat do we see in the results?\n\n\nPresenter Notes: Script for the slide here.\nInstructer Notes: - Aim: Briefly examine the answers given to each question interactively with the group.\n\nCompare and highlight specific differences in answers between pre- and post-survey answers"
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#references",
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#references",
-    "title": "Template Slides: Title of submodule",
+    "title": "Citing made simple: A practical guide for Zotero",
     "section": "References",
-    "text": "References\n\nProvide literature you refer to throughout this lesson.\n\n\nSpeaker Notes Script for the presentation here."
+    "text": "References\n\n\nAksnes, D. W., Langfeldt, L., & Wouters, P. (2019). Citations, Citation Indicators, and Research Quality: An Overview of Basic Concepts and Theories. Sage Open, 9(1), 2158244019829575. https://doi.org/10.1177/2158244019829575"
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#pedagogical-add-on-tools-for-instructors",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#pedagogical-add-on-tools-for-instructors",
-    "title": "Template Slides: Title of submodule",
-    "section": "Pedagogical add-on tools for instructors",
-    "text": "Pedagogical add-on tools for instructors\n\nThis section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:\n\nInformation about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.\nDiscussion/reflection on how tools can be incorporated into the teaching for this particular content.\nExtra exercises for faster students."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#additional-in-class-activity",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#additional-in-class-activity",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "Additional in-class activity",
+    "text": "Additional in-class activity\n\nActivity: Get in a pair, navigate a literature database (Google Scholar), find a paper of your choice with its full text, analyse the citations and the reference list. Note what features you see and share in class.\n\n\nPresenter Notes: Time for a short activity. Pair up and pick a paper from a database like Google Scholar. Take a look at how the citations are formatted in the text and how the reference list is structured. Notice any patterns, differences, or special features. Later, share your observations with the class.\nInstructor Notes: Use this add-on selectively, only if it is needed and time permits. It can be incorporate right after the slide ‘What are citations and references?’. Encourage learners to notice key features of citations and references. This reinforces the concepts of citations and references in a real-world context.\nAccessibility Tip: Ensure that all learners can access the database and full text (provide links or PDFs if needed)."
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#additional-literature-for-instructors",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#additional-literature-for-instructors",
-    "title": "Template Slides: Title of submodule",
-    "section": "Additional literature for instructors",
-    "text": "Additional literature for instructors\n\nReferences for content\nReferences for pedagogical add-on tools\n\nOther resources (videos etc.)"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#text-with-example-links",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#text-with-example-links",
-    "title": "Template Slides: Title of submodule",
-    "section": "Text with example links",
-    "text": "Text with example links\n\nQuarto Documentation\nReveal.js Documentation\nMarkdown Guide\nGitHub"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#basic-text-formatting",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#basic-text-formatting",
-    "title": "Template Slides: Title of submodule",
-    "section": "Basic text formatting",
-    "text": "Basic text formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\nBlockquote: &gt; Quote →\n“This is a quote”"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#figure-with-caption",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#figure-with-caption",
-    "title": "Template Slides: Title of submodule",
-    "section": "Figure with caption",
-    "text": "Figure with caption\n\nCentered image and caption below in italics\n\n\n\n\nThis is a Penguin."
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#figure-with-bullet-points",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#figure-with-bullet-points",
-    "title": "Template Slides: Title of submodule",
-    "section": "Figure with bullet points",
-    "text": "Figure with bullet points\n\n\n\n  \n  \n    \n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#side-by-side-figures",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#side-by-side-figures",
-    "title": "Template Slides: Title of submodule",
-    "section": "Side-by-side figures",
-    "text": "Side-by-side figures\n\n\n  \n    \n    Figure 1: Penguin\n  \n\n  \n    \n    Figure 2: Seal"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#stacked-figures-with-text",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#stacked-figures-with-text",
-    "title": "Template Slides: Title of submodule",
-    "section": "Stacked figures with text",
-    "text": "Stacked figures with text\n\n\n\n  \n  \n\n    \n    \n\n  \n  \n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#two-column-text-slide",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#two-column-text-slide",
-    "title": "Template Slides: Title of submodule",
-    "section": "Two-column text slide",
-    "text": "Two-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\nCras venenatis euismod malesuada.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris."
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#three-column-text-slide",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#three-column-text-slide",
-    "title": "Template Slides: Title of submodule",
-    "section": "Three-column text slide",
-    "text": "Three-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\n\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\n\nColumn 3\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#simple-table",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#simple-table",
-    "title": "Template Slides: Title of submodule",
-    "section": "Simple table",
-    "text": "Simple table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#complex-table",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#complex-table",
-    "title": "Template Slides: Title of submodule",
-    "section": "Complex table",
-    "text": "Complex table\n\n\n\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#task-list",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#task-list",
-    "title": "Template Slides: Title of submodule",
-    "section": "Task list",
-    "text": "Task list\n\nDone\nTo do"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#embedding-videos",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#embedding-videos",
-    "title": "Template Slides: Title of submodule",
-    "section": "Embedding videos",
-    "text": "Embedding videos"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#code-blocks",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#code-blocks",
-    "title": "Template Slides: Title of submodule",
-    "section": "Code blocks",
-    "text": "Code blocks\n\n# A basic R code chunk\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5\n\n# A simple plot\nhist(rnorm(100), main = \"Histogram of Random Normals\")"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#attribution-and-license-details",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#attribution-and-license-details",
-    "title": "Template Slides: Title of submodule",
-    "section": "Attribution and license details",
-    "text": "Attribution and license details\n\nThis slide should contain information about the license and attribution details of this current set of slides.\nThe default for the created materials is CC-BY-SA 4.0\n\n= Creative Commons license that allows others to share, adapt, and build upon the original work\nonly if they attribute the creator and also share their new work under the same terms\nallows for both commercial and non-commercial use of the licensed material\n\nComponents of attributions:\n\nTitle\nAuthor\nSource\nLicense"
-  },
-  {
-    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#example-attribution-for-previous-slide",
-    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#example-attribution-for-previous-slide",
-    "title": "Template Slides: Title of submodule",
-    "section": "Example attribution (for previous slide)",
-    "text": "Example attribution (for previous slide)\n“Tutorial template for student track” by Sarah von Grebmer is licensed under CC-BY-SA 4.0."
+    "objectID": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#credit-contribution-statement---to-do",
+    "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html#credit-contribution-statement---to-do",
+    "title": "Citing made simple: A practical guide for Zotero",
+    "section": "CREDiT Contribution Statement - TO DO",
+    "text": "CREDiT Contribution Statement - TO DO\nPossible roles using the CRediT contribition system or the Zenodo Contribution System:\nName main content creator: Conceptualization, Software, Writing - Original Draft, Visualization. Sara Lil Middleton: Writing - Review & Editing, Supervision. Sarah von Grebmer zu Wolfsthurn: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation."
   },
   {
     "objectID": "help.html",
