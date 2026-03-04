@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Zotero"
+title: "Citing made simple: A practical guide for Zotero"
 author: "Tejaswini Sharma"
 date: "today"
 date-format: "DD/MM/YYYY"
@@ -40,7 +40,7 @@ This work was originally created by Pat Callahan and Dejana Damjanovic under a C
 </div>
 
 ::: {.notes}
-**Speaker Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
 :::
 
 ---
@@ -60,19 +60,19 @@ This work was originally created by Pat Callahan and Dejana Damjanovic under a C
 ## Prerequisites
 
 ::: {.callout-important}
-Before completing this submodule, please carefully read the following prerequisite.
+Before completing this submodule, please carefully read the following prerequisites.
 :::
 
-
+<div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
 | Zotero and Zotero Connector | Citation tool and extension | Download [Link](https://www.zotero.org/download/) |
-| RStudio | Version 2026.01.1+403 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
 | R | Version 4.5. or higher | [Download Link](https://cran.rstudio.com/) |
 | RStudio | Version 2026.01.1+403 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
+</div>
 
 ::: {.notes}
-**Speaker Notes**: Before we begin this submodule, please take a moment to review the prerequisite listed here. Based on the previous sessions, you should all have R and RStudio installed, please check which versions you have. One additional pre-requisite is the Zotero tool and the Zotero connector, which we will need for the practical part today. 
+**Presenter Notes**: Before we begin this submodule, please take a moment to review the prerequisite listed here. Based on the previous sessions, you should all have R and RStudio installed, please check which versions you have. One additional pre-requisite is the Zotero tool and the Zotero connector, which we will need for the practical part today. 
 
 **Instructor Notes**: If you are short on time, provide these prerequisites to your learners as part of the preparation for this session. Remind them that they can download Zotero also later when starting the practical part.
 
@@ -90,10 +90,26 @@ Before completing this submodule, please carefully read the following prerequisi
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Before we begin this submodule, please take a moment to review the prerequisite listed here.
+**Presenter Notes**: Before we begin this submodule, please take a moment to review the prerequisite listed here.
 You should already be familiar with the basic idea of a literature review, including how to search for and access scientific papers, on platforms such as like Google Scholar. Here is an image of the Google Scholar interface with some papers displayed.
 
 **Instructor Notes**: Before proceeding, briefly confirm that learners are comfortable with the concept of a literature review and know how to locate academic articles. If needed, give a detailed overview of the Google Scholar interface, or have them navigate it online by themselves.
+:::
+
+---
+
+## Questions from the previous submodule?
+
+
+::: {.notes}
+**Presenter Notes**: Are there any questions from any of the previous sessions?  
+
+**Instructor Notes**:  
+
+- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
+- Additional slides may need to be added depending on the nature of the homework assignments. 
+- Critical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop. 
+- Not applicable if this set of slides corresponds to the first submodule of a new module. 
 :::
 
 ---
@@ -102,7 +118,7 @@ You should already be familiar with the basic idea of a literature review, inclu
 
 
 ::: {.notes}
-**Speaker Notes**: Before we move on, we’ll take a short survey.
+**Presenter Notes**: Before we move on, we’ll take a short survey.
 The aim here is simply to understand your current familiarity.
 
 In the next few slides, you’ll see some questions that invite you to reflect on where you’re starting from.
@@ -154,9 +170,37 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Let us have a look at these results.
+**Presenter Notes**: Let us have a look at these results.
 
 **Instructor Notes:** The aim is to understand the group’s current standing in terms of knowledge and familiarity with citing literature and using Zotero. Emphasize explicitly that the survey is not about correct or incorrect answers. Avoid evaluating answers or revealing correct ones.
+:::
+
+---
+
+## Where are we at?
+
+**Previously**:
+
+- Familiarization with R basics
+- Advanced R skills
+- Version control with Git
+- Collaborative working with GitHub
+- Introduction to Quarto
+
+**Up next**:
+
+- Citations and references: What are they and when/how to use them
+- Citation management tool: Using Zotero in our workflow
+
+
+::: {.notes}
+**Presenter Notes**: Let us take a moment to see where we are in terms of the topics we have covered so far and what is coming next. 
+
+Previously, you became familiar with the basics of R, built on those skills with more advanced R techniques, and explored version control using Git. You also practiced collaborative workflows with GitHub and got an introduction to Quarto as a reproducible writing and publishing tool.
+
+Up next, we will shift focus to citations and references—what they are, why they are important, and when and how to use them in your work. Following that, we will learn about citation management tools, specifically how to use Zotero to organize your references and integrate them seamlessly into your research workflow.
+
+**Instructor Notes**: Make sure that your learners can picture the broader context we are placing this session in. 
 :::
 
 ---
@@ -164,16 +208,16 @@ What do we see in the results?
 ## Learning goals
 
 :::incremental
-- To **explain** the importance of citing scientific literature and citation tools
-- To **familiarize yourself** with different citation formats (CSL)
-- To **set up and organize** a personal Zotero library
-- To **develop** a referencing workflow in Quarto and RStudio
-- To **develop** a referencing workflow in MS Word
+- **Explain** the importance of citing scientific literature and citation tools
+- **Familiarize yourself** with different citation formats (CSL)
+- **Set up and organize** a personal Zotero library
+- **Apply and develop** a referencing workflow in Quarto and RStudio
+- **Apply and develop** a referencing workflow in MS Word
 :::
 
 
 ::: {.notes}
-**Speaker Notes**: This slide outlines the learning goals for the session. At this stage, you’re not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.
+**Presenter Notes**: This slide outlines the learning goals for the session. At this stage, you’re not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.
 First, you will first understand the importance of citing scientific literature and using citation management tools.
 
 **Instructor Notes**: Use this slide to set expectations and reduce pressure. Emphasize that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials. You will then become familiar with different citation formats, particularly those based on Citation Style Language (CSL). Next, you will learn how to set up and organize your own personal Zotero library. You will practice importing references, organizing them into collections, adding tags and notes, attaching PDFs, and structuring your library in a way that supports an efficient and manageable research workflow. After that, you will develop a referencing workflow in Quarto and RStudio. Finally, you will develop a referencing workflow in MS Word. Using Zotero’s Word plugin, you will insert citations directly into your text, switch easily between citation styles, and automatically generate and update your bibliography as your document evolves.
@@ -191,7 +235,7 @@ Imagine reading various scientific papers to collect knowledge (*= reviewing the
 :::
 
 <div class="fragment" style="text-align: center; margin-top: 1em;">
-  <img src="images/01_source_meme.png" style="width:50%;" />
+  <img src="images/01_source_meme.png" style="width:20%;" />
   <div style="font-size: 0.3em; margin-top: 0.5em;"><em>Copyright: © FastArcher.</em></div>
 </div>
 
@@ -200,11 +244,11 @@ Thus, you need to **cite** the source of your knowledge; in this case, a scienti
 :::
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 “Imagine reading various scientific papers to collect knowledge (review of literature).
 When you share this knowledge, you’d be asked: “What is the source?” 
 
-Let’s imagine a bizarre example: someone claims that eating aloe vera improves your dance skills. 
+Let us imagine a bizarre example: someone claims that eating aloe vera improves your dance skills. 
 In everyday life, you might respond, ‘Trust me, bro!’ and leave it at that. But in the scientific world, we need to provide evidence for every claim we make. When you collect knowledge from scientific papers, e.g., your literature review, and share it, others will naturally ask, ‘Where did this information come from?’ or 'Where did you hear this'?
 This is why we cite sources: to show the origin of our knowledge and allow others to verify or follow up on it.”
 
@@ -218,12 +262,12 @@ This is why we cite sources: to show the origin of our knowledge and allow other
 - **Citations** are the **in‑text pointers** to sources you use (e.g., Sharma, 2025). 
 
 <div style="text-align: center; margin-top: 1em;">
-  <img src="images/02_citation_example.jpg" style="width:50%;" />
-  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a citation.</em></div>
+  <img src="images/02_citation_example.jpg" style="width:40%;" />
+  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a (fictional) citation.</em></div>
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper.
+**Presenter Notes**: Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper.
 
 **Accessibility Tips**:  
 Verbally describe what is shown in the image for learners who may not be able to see them clearly. Allow a brief pause after the definition so learners have time to connect the text explanation with the visual example.
@@ -236,19 +280,19 @@ Verbally describe what is shown in the image for learners who may not be able to
 - **Citations** are the **in‑text pointers** to sources you use (e.g., Sharma, 2025). 
 
 <div style="text-align: center; margin-top: 1em;">
-  <img src="images/02_citation_example.jpg" style="width:50%;" />
+  <img src="images/02_citation_example.jpg" style="width:40%;" />
   <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a (fictional) citation.</em></div>
 </div>
 
 - Whereas, **references** are the **full bibliographic details** listed at the end of a paper [@aksnes_citations_2019].
 
 <div style="text-align: center; margin-top: 1em;">
-  <img src="images/03_reference_example.jpg" style="width:50%;" />
+  <img src="images/03_reference_example.jpg" style="width:40%;" />
   <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a (fictional) reference (list).</em></div>
 </div>
 
 ::: {.notes}
-**Speaker Notes**: This slide shows the difference between citations and references.  Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper.
+**Presenter Notes**: This slide shows the difference between citations and references.  Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper.
 
 References, on the other hand, appear at the end of a paper and provide the full details needed to locate the source. This will allow you to access the 'source of the information' and see for yourself what the paper entails.Together, citations and references make it possible for others to trace your claims back to the original research.
 
@@ -278,7 +322,7 @@ From @aksnes_citations_2019:
 :::
 
 ::: {.notes}
-**Speaker Notes**:  This slide explains why citations and references are needed in research. <br>
+**Presenter Notes**:  This slide explains why citations and references are needed in research. <br>
 They show which ideas come from other researchers, so credit goes where it’s due and we avoid presenting others’ work as our own.
 
 They also help back up what we say by pointing readers to earlier studies that support our claims.  
@@ -314,7 +358,7 @@ For example: Miller, A. B., & Rossi, L. M. (2021). Title of the article. *Journa
 :::
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 This slide shows the basic idea of how to cite and reference a scientific paper.  
 In the text, citations are usually short and include the author’s name and the year of publication.  
 At the end of a paper, the reference list contains the full details, such as the authors, year, title, and where the work was published.These references are typically listed in alphabetical order. 
@@ -350,8 +394,7 @@ The *exact formatting* depends on the citation format.
 :::
 
 ::: {.notes}
-**Speaker Notes**:  
-Do note: the exact formatting depends on the citation style, and we’ll briefly look at some common formats on the next slide. In the current example, the formatting used is APA.
+**Presenter Notes**:  Do note: the exact formatting depends on the citation style, and we’ll briefly look at some common formats on the next slide. In the current example, the formatting used is APA.
 
 It is also useful to find out which citation style your department or field expects you to use.
 :::
@@ -370,7 +413,7 @@ It is also useful to find out which citation style your department or field expe
 </div>
 
 ::: {.notes}
-**Speaker Notes**: This table shows some of the most common citation formats used across different disciplines.  
+**Presenter Notes**: This table shows some of the most common citation formats used across different disciplines.  
 You are not expected to learn or memorize any of these.  
 Think of this slide as a reference point, showing that citation styles differ depending on the field. 
 
@@ -406,7 +449,7 @@ Use a minute to think about which citation format is used in **your field**.
 :::
 
 ::: {.notes}
-**Speaker Notes**: Here are some more example citation styles.
+**Presenter Notes**: Here are some more example citation styles.
 
 - Chicago (Author–Date) refers to the Chicago Manual of Style, published by the University of Chicago Press, in its Author–Date variant. This version is commonly used in the natural and social sciences and employs parenthetical in-text citations that include the author’s name, publication year, and page number (e.g., Smith and Lee 2023, 123), with a corresponding reference list arranged alphabetically.
 
@@ -430,7 +473,7 @@ The short exercise is simply to help you identify which citation style is common
 
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 Imagine working on an assignment where you’ve opened dozens, maybe even hundreds, of tabs in your browser.  
 You are scrolling back and forth, trying to remember where a quote came from or which paper supported which idea, and things start to feel messy and overwhelming.  
 
@@ -464,7 +507,7 @@ This is where citation tools come in. Citation tools, also called reference mana
 :::
 
 ::: {.notes}
-**Speaker Notes**: 
+**Presenter Notes**: 
 What can these tools do? They can save bibliographic information with one click, generate in-text citations, and automatically build your reference list.
 
 They improve accuracy and consistency by remembering all the important details, like the author, year, and title, and formatting every citation the same way, so you’re less likely to make mistakes.
@@ -486,7 +529,7 @@ Finally, they can **store attachments**, e.g., pdfs, notes, snapshots, urls toge
 
 
 ::: {.notes}
-**Speaker Notes**: Are there any questions at this point?
+**Presenter Notes**: Are there any questions at this point?
 
 **Instructor Notes**: Give some time for your learners to think about questions. Go back to relevant slides if needed. 
 :::
@@ -506,7 +549,7 @@ Finally, they can **store attachments**, e.g., pdfs, notes, snapshots, urls toge
 :::
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 This slide gives a very brief overview of Zotero.  
 Zotero is a citation tool that helps you collect, organise, and cite your sources in one place.  
 You can save references together with different attachments with a single click from databases or websites, organize them into collections or with tags, and search through them easily.  
@@ -525,7 +568,7 @@ Zotero also connects directly to tools like Word, Quarto, and Google Docs, where
 </div>
 
 ::: {.notes}
-**Speaker Notes**: The image shows the Zotero interface, with your saved items in the centre, collections on the left sidebar, and detailed information for each item on the right sidebar.
+**Presenter Notes**: The image shows the Zotero interface, with your saved items in the centre, collections on the left sidebar, and detailed information for each item on the right sidebar.
 
 We’ll only briefly look into this, because you’ll move straight into a hands-on tutorial where you’ll learn how to use Zotero in practice.
 
@@ -552,7 +595,7 @@ Since this is a self-paced tutorial, *take your time* on navigating it; and it c
 :::
 
 ::: {.notes}
-**Speaker Notes**: Now we’ll move on to the tutorial part of the session.
+**Presenter Notes**: Now we’ll move on to the tutorial part of the session.
 You’ll work individually through a self-paced tutorial — focusing introducing Zotero, how to integrate with other platform, and practical exercises for you.
 Take your time as you go through them, and work at a pace that feels comfortable.
 There’s no expectation to finish everything right now, and you’re welcome to continue working on them at home.
@@ -577,7 +620,7 @@ Use this time to explore, experiment, and revisit earlier ideas as they come up 
   
 
 ::: {.notes}
-**Speaker Notes**: 
+**Presenter Notes**: 
 Now we revert to our slides to wrap up the presentation. As a homework assignment, you are expected to complete all remaining sections of the Introduction to Zotero tutorial, including every exercise. The goal is to ensure they move from passive understanding to hands-on application of Zotero’s core functions.
 
 The self-reflective questions are designed to encourage metacognitive awareness. You should not simply state whether something was “easy” or “difficult,” but briefly consider why.
@@ -612,7 +655,7 @@ Remind learners that facing difficulty is common and part of the learning proces
 
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 Now is a time for a short in-class activity and an opportunity to discuss this new skill in an open discussion. 
 
 For this activity, we’ll take about five to seven minutes in total.  
@@ -650,7 +693,7 @@ Zotero can be your go-to tool for saving and citing studies, from assignments to
 :::
 
 ::: {.notes}
-**Speaker Notes**:
+**Presenter Notes**:
 To conclude with some take-home messages, citations and references are essential in academic writing because they allow readers to trace the sources of your information and give proper credit to the original authors. Proper citation is not only an ethical requirement but also strengthens the credibility and reliability of your work, helping others to verify or build upon your research.
 
 Citation tools make this process much easier by collecting, organizing, and formatting your references automatically. They also provide convenient storage for PDFs, notes, and other research materials, allowing you to manage your sources efficiently and integrate them seamlessly into your writing workflow, for example, as we practiced today, RStudio and Quarto and MS Word.
@@ -667,15 +710,15 @@ Deliver this slide as a concise closing summary. Reinforce the connection betwee
 **Where are we at?**
 
 :::incremental
-- [ ] To explain the importance of citing scientific literature and citation tools
-- [ ] To familiarize yourself with different citation formats (CSL)
-- [ ] To set up and organize a personal Zotero library
-- [ ] To develop a referencing workflow in Quarto and RStudio
-- [ ] To develop a referencing workflow in MS Word
+- [ ] **Explain** the importance of citing scientific literature and citation tools
+- [ ] **Familiarize yourself** with different citation formats (CSL)
+- [ ] **Set up and organize** a personal Zotero library
+- [ ] **Apply and develop** a referencing workflow in Quarto and RStudio
+- [ ] **Apply and develop** a referencing workflow in MS Word
 :::
 
 ::: {.notes}
-**Speaker Notes**:  Let us pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one.
+**Presenter Notes**:  Let us pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one.
 
 If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.
 
@@ -688,7 +731,7 @@ If you notice any gaps, this is the right moment to bring them up. Feel free to 
 
 
 ::: {.notes}
-**Speaker Notes**: To conclude, we’ll take a short survey.
+**Presenter Notes**: To conclude, we’ll take a short survey.
 This post-session survey helps us understand your current level of knowledge about citing literature and using Zotero after completing the submodule.
 Please answer honestly based on how confident you feel now. 
 **Instructor Notes**: The purpose is to compare pre- and post-submodule responses to evaluate learning progress and the effectiveness of the tutorial. Encourage the learnrs to share in class. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in any areas.
@@ -734,7 +777,7 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Speaker Notes**: Script for the slide here.
+**Presenter Notes**: Script for the slide here.
 
 **Instructer Notes**:
 - **Aim**: Briefly examine the answers given to each question interactively with the group.
@@ -761,7 +804,7 @@ See you next session :)
 - **Activity**: Get in a pair, navigate a literature database (Google Scholar), find a paper of your choice with its full text, analyse the citations and the reference list. Note what features you see and share in class.
 
 ::: {.notes}
-**Speaker Notes**:  Time for a short activity. Pair up and pick a paper from a database like Google Scholar. Take a look at how the citations are formatted in the text and how the reference list is structured. Notice any patterns, differences, or special features. Later, share your observations with the class. 
+**Presenter Notes**:  Time for a short activity. Pair up and pick a paper from a database like Google Scholar. Take a look at how the citations are formatted in the text and how the reference list is structured. Notice any patterns, differences, or special features. Later, share your observations with the class. 
 
 **Instructor Notes**:  Use this add-on selectively, only if it is needed and time permits. It can be incorporate right after the slide 'What are citations and references?'. Encourage learners to notice key features of citations and references. This reinforces the concepts of citations and references in a real-world context.  
 
