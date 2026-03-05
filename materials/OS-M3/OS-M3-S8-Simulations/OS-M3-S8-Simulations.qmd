@@ -1,26 +1,22 @@
 ---
-title: "3.8. Running Simulations and Power Analysis in R"
+title: "3.8. Running simulations and power analysis in R"
 ---
-
-> Something nice here
-
 
 # About these materials
 
-**Welcome!** This workshops is intended to provide learners with a deeper understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps  and decision making process. We will also learn how to use tools to facilitate collaboration across different groups and people. 
+**Welcome!** This workshops is intended to introduce the principles and practical use of simulations in research using R. Participants will first learn what simulations are and why they are widely used in scientific research, including how they help researchers explore statistical behavior, test assumptions, and design studies before collecting real data. The workshop will also introduce power analysis, explaining how simulations can be used to estimate the probability of detecting true effects and determine appropriate sample sizes for experiments. Through a guided, hands-on tutorial, participants will work through the full simulation workflow in R, including generating random data, repeating simulations, and analyzing results.
 
 
 ### Who are these materials for?
 
 The target audience of this workshop is twofold:
 
-- **Self-learners** with basic familiarity with R, RStudio and basical statistical concepts who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Speaker notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
+- **Self-learners** with basic R and statistical skills, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Presenter notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
 
-- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
+- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with speaker and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
 
 
 ## Prerequisites
-
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
@@ -31,17 +27,16 @@ The target audience of this workshop is twofold:
 </div>
 
 
+## Learning objectives
 
-## Learning goals
-
-- To **understand** the concept of simulations
-- To **explain** the purpose of simulations in research
-- To **summarize** how simulations support hypothesis testing and experimentation
-- To **perform** the simulation process in the context of a fictional experiment
-- To **understand** the concept of power analysis
-- To **explain** the purpose of power analysis in research
-- To **summarize** how power analysis supports hypothesis testing and experimentation
-- To successfully **perform** a simulation in R
+- **Understand** the concept of simulations
+- **Explain** the purpose of simulations in research
+- **Summarize** how simulations support hypothesis testing and experimentation
+- **Perform** the simulation process in the context of a fictional experiment
+- **Understand** the concept of power analysis
+- **Explain** the purpose of power analysis in research
+- **Summarize** how power analysis supports hypothesis testing and experimentation
+- Successfully **perform** a simulation in R
 
 
 # Materials
@@ -53,7 +48,7 @@ The target audience of this workshop is twofold:
 ```
 
 
-## Supplementary files
+## Download files
 
 ### Practical exercises - solutions
 
@@ -67,11 +62,12 @@ Download the csv file for the example data:
 
 {{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
 
+ <!-- https://github.com/shafayetShafee/downloadthis -->
+<!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
 
 # Export slides
 
 You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
-
 
 {{< downloadthis OS-M3-S8-Simulations-slides.pptx dname="OS-M3-S8-Simulations-slides" label="Download slides as PPTX">}}
 
@@ -90,13 +86,12 @@ You can export these slides as PowerPoint by pressing the button below. Note tha
 <br>
 
 <p style="text-align:center;">
-  <img src="images/cc-by-sa.png" 
-  alt="Creative Commons Attribution 4.0"
-  style="width:160px;" />
+  <img src="images/cc-by-sa.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
 </p>
 
-
-<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
 This work was originally created by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) based on materials from [Joel Pick](https://joelpick.github.io/), [Hadley Wickham](https://www.yumpu.com/en/document/view/19077330/simulation-hadley-wickham), and [Kevin Hallgren](https://www.tqmp.org/RegularArticles/vol09-2/p043/), with contributions from [James Smith](https://github.com/worcjamessmith).
 This current work by Tejaswini Sharma, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 </div>
