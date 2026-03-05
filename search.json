@@ -11,7 +11,7 @@
     "href": "materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html",
     "title": "3.7. Introduction to Zotero",
     "section": "",
-    "text": "“Citing like a pro means more time for your writing!”",
+    "text": "Citing like a pro and more time for your writing.",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
@@ -59,7 +59,7 @@
     "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html",
     "title": "3.6. Introduction to Quarto",
     "section": "",
-    "text": "Something nice here",
+    "text": "Create, cite, and publish your research with Quarto.",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
@@ -79,11 +79,11 @@
     ]
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html#learning-goals",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html#learning-goals",
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html#learning-objectives",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html#learning-objectives",
     "title": "3.6. Introduction to Quarto",
-    "section": "Learning goals",
-    "text": "Learning goals\n\nCreate, edit, and render Quarto documents\nUse key Quarto features like code chunks, YAML headers, citations, and output formatting\nInsert citations and generate a bibliography with Zotero directly into the Quarto document\nPublish and share your work using GitHub Pages",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nCreate, edit, and render Quarto documents\nUse key Quarto features like code chunks, YAML headers, citations, and output formatting\nInsert citations and generate a bibliography with Zotero directly into the Quarto document\nPublish and share your work using GitHub Pages",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
@@ -91,11 +91,11 @@
     ]
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html#supplementary-files",
-    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html#supplementary-files",
+    "objectID": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html#download-files",
+    "href": "materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.html#download-files",
     "title": "3.6. Introduction to Quarto",
-    "section": "Supplementary files",
-    "text": "Supplementary files\n\nPractical exercises - solutions\nDownload the solutions for the practical exercises here:\n\n\nHelpfiles\nDownload the csv file for the example data:",
+    "section": "Download files",
+    "text": "Download files\n\nPractical exercises - solutions\nDownload the solutions for the practical exercises here:\n\n\nHelpfiles\nDownload the csv file for the example data:",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
@@ -107,7 +107,7 @@
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html",
     "title": "3.8. Running simulations and power analysis in R",
     "section": "",
-    "text": "Welcome! This workshops is intended to introduce the principles and practical use of simulations in research using R. Participants will first learn what simulations are and why they are widely used in scientific research, including how they help researchers explore statistical behavior, test assumptions, and design studies before collecting real data. The workshop will also introduce power analysis, explaining how simulations can be used to estimate the probability of detecting true effects and determine appropriate sample sizes for experiments. Through a guided, hands-on tutorial, participants will work through the full simulation workflow in R, including generating random data, repeating simulations, and analyzing results.\n\n\nThe target audience of this workshop is twofold:\n\nSelf-learners with basic R and statistical skills, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. Presenter notes will help you to understand and reflect on the content of the materials. Note: Group exercises are not possible in this asynchronous setting.\nInstructors in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with speaker and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors.\n\n\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest R version: ‘4.4.0+’ and RStudio version: ‘2026.01.0+392’\nInstallation Link\n\n\nR basics\ne.g., how to select a value in a data frame, how to create a vector\nTutorial Link\n\n\nFamiliarity with basic statistical concepts\ne.g., hypothesis testing, descriptive statistics, data analysis\nCheatsheet Link\n\n\n\n\n\n\n\n\nUnderstand the concept of simulations\nExplain the purpose of simulations in research\nSummarize how simulations support hypothesis testing and experimentation\nPerform the simulation process in the context of a fictional experiment\nUnderstand the concept of power analysis\nExplain the purpose of power analysis in research\nSummarize how power analysis supports hypothesis testing and experimentation\nSuccessfully perform a simulation in R",
+    "text": "Explore experiments before running them: learn simulations in R.",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
@@ -118,8 +118,8 @@
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#prerequisites",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#prerequisites",
     "title": "3.8. Running simulations and power analysis in R",
-    "section": "",
-    "text": "Prerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest R version: ‘4.4.0+’ and RStudio version: ‘2026.01.0+392’\nInstallation Link\n\n\nR basics\ne.g., how to select a value in a data frame, how to create a vector\nTutorial Link\n\n\nFamiliarity with basic statistical concepts\ne.g., hypothesis testing, descriptive statistics, data analysis\nCheatsheet Link",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest R version: ‘4.4.0+’ and RStudio version: ‘2026.01.0+392’\nInstallation Link\n\n\nR basics\ne.g., how to select a value in a data frame, how to create a vector\nTutorial Link\n\n\nFamiliarity with basic statistical concepts\ne.g., hypothesis testing, descriptive statistics, data analysis\nCheatsheet Link",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
@@ -130,8 +130,8 @@
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#learning-objectives",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#learning-objectives",
     "title": "3.8. Running simulations and power analysis in R",
-    "section": "",
-    "text": "Understand the concept of simulations\nExplain the purpose of simulations in research\nSummarize how simulations support hypothesis testing and experimentation\nPerform the simulation process in the context of a fictional experiment\nUnderstand the concept of power analysis\nExplain the purpose of power analysis in research\nSummarize how power analysis supports hypothesis testing and experimentation\nSuccessfully perform a simulation in R",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nUnderstand the concept of simulations\nExplain the purpose of simulations in research\nSummarize how simulations support hypothesis testing and experimentation\nPerform the simulation process in the context of a fictional experiment\nUnderstand the concept of power analysis\nExplain the purpose of power analysis in research\nSummarize how power analysis supports hypothesis testing and experimentation\nSuccessfully perform a simulation in R",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
@@ -1849,7 +1849,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.html",
     "title": "3.4. Introduction to version control with Git in RStudio",
     "section": "",
-    "text": "“Git it together.”",
+    "text": "Git it together.",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
@@ -2240,7 +2240,7 @@
     "href": "materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub.html",
     "title": "3.5. Collaborative coding with GitHub",
     "section": "",
-    "text": "“Building reproducible projects together!”",
+    "text": "Building reproducible research projects.",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
