@@ -105,49 +105,49 @@
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html",
-    "title": "3.8. Running Simulations and Power Analysis in R",
+    "title": "3.8. Running simulations and power analysis in R",
     "section": "",
-    "text": "Something nice here",
+    "text": "Welcome! This workshops is intended to introduce the principles and practical use of simulations in research using R. Participants will first learn what simulations are and why they are widely used in scientific research, including how they help researchers explore statistical behavior, test assumptions, and design studies before collecting real data. The workshop will also introduce power analysis, explaining how simulations can be used to estimate the probability of detecting true effects and determine appropriate sample sizes for experiments. Through a guided, hands-on tutorial, participants will work through the full simulation workflow in R, including generating random data, repeating simulations, and analyzing results.\n\n\nThe target audience of this workshop is twofold:\n\nSelf-learners with basic R and statistical skills, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. Presenter notes will help you to understand and reflect on the content of the materials. Note: Group exercises are not possible in this asynchronous setting.\nInstructors in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with speaker and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors.\n\n\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest R version: ‘4.4.0+’ and RStudio version: ‘2026.01.0+392’\nInstallation Link\n\n\nR basics\ne.g., how to select a value in a data frame, how to create a vector\nTutorial Link\n\n\nFamiliarity with basic statistical concepts\ne.g., hypothesis testing, descriptive statistics, data analysis\nCheatsheet Link\n\n\n\n\n\n\n\n\nUnderstand the concept of simulations\nExplain the purpose of simulations in research\nSummarize how simulations support hypothesis testing and experimentation\nPerform the simulation process in the context of a fictional experiment\nUnderstand the concept of power analysis\nExplain the purpose of power analysis in research\nSummarize how power analysis supports hypothesis testing and experimentation\nSuccessfully perform a simulation in R",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
-      "3.8. Running Simulations and Power Analysis in R"
+      "3.8. Running simulations and power analysis in R"
     ]
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#prerequisites",
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#prerequisites",
-    "title": "3.8. Running Simulations and Power Analysis in R",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest R version: ‘4.4.0+’ and RStudio version: ‘2026.01.0+392’\nInstallation Link\n\n\nR basics\ne.g., how to select a value in a data frame, how to create a vector\nTutorial Link\n\n\nFamiliarity with basic statistical concepts\ne.g., hypothesis testing, descriptive statistics, data analysis\nCheatsheet Link",
+    "title": "3.8. Running simulations and power analysis in R",
+    "section": "",
+    "text": "Prerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest R version: ‘4.4.0+’ and RStudio version: ‘2026.01.0+392’\nInstallation Link\n\n\nR basics\ne.g., how to select a value in a data frame, how to create a vector\nTutorial Link\n\n\nFamiliarity with basic statistical concepts\ne.g., hypothesis testing, descriptive statistics, data analysis\nCheatsheet Link",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
-      "3.8. Running Simulations and Power Analysis in R"
+      "3.8. Running simulations and power analysis in R"
     ]
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#learning-goals",
-    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#learning-goals",
-    "title": "3.8. Running Simulations and Power Analysis in R",
-    "section": "Learning goals",
-    "text": "Learning goals\n\nTo understand the concept of simulations\nTo explain the purpose of simulations in research\nTo summarize how simulations support hypothesis testing and experimentation\nTo perform the simulation process in the context of a fictional experiment\nTo understand the concept of power analysis\nTo explain the purpose of power analysis in research\nTo summarize how power analysis supports hypothesis testing and experimentation\nTo successfully perform a simulation in R",
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#learning-objectives",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#learning-objectives",
+    "title": "3.8. Running simulations and power analysis in R",
+    "section": "",
+    "text": "Understand the concept of simulations\nExplain the purpose of simulations in research\nSummarize how simulations support hypothesis testing and experimentation\nPerform the simulation process in the context of a fictional experiment\nUnderstand the concept of power analysis\nExplain the purpose of power analysis in research\nSummarize how power analysis supports hypothesis testing and experimentation\nSuccessfully perform a simulation in R",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
-      "3.8. Running Simulations and Power Analysis in R"
+      "3.8. Running simulations and power analysis in R"
     ]
   },
   {
-    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#supplementary-files",
-    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#supplementary-files",
-    "title": "3.8. Running Simulations and Power Analysis in R",
-    "section": "Supplementary files",
-    "text": "Supplementary files\n\nPractical exercises - solutions\nDownload the solutions for the practical exercises here:\n\n\nHelpfiles\nDownload the csv file for the example data:",
+    "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#download-files",
+    "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.html#download-files",
+    "title": "3.8. Running simulations and power analysis in R",
+    "section": "Download files",
+    "text": "Download files\n\nPractical exercises - solutions\nDownload the solutions for the practical exercises here:\n\n\nHelpfiles\nDownload the csv file for the example data:",
     "crumbs": [
       "Home",
       "Module 3: Open Research Software Tools",
-      "3.8. Running Simulations and Power Analysis in R"
+      "3.8. Running simulations and power analysis in R"
     ]
   },
   {
@@ -2323,7 +2323,7 @@
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#learning-goals",
     "title": "Running simulations and power analysis in R",
     "section": "Learning goals",
-    "text": "Learning goals\n\nTo understand the concept of simulations\nTo explain the purpose of simulations in research\nTo summarize how simulations support hypothesis testing and experimentation\nTo perform the simulation process in the context of a fictional experiment\nTo understand the concept of power analysis\nTo explain the purpose of power analysis in research\nTo summarize how power analysis supports hypothesis testing and experimentation\nTo successfully perform a simulation in R\n\n\nPresenter Notes: This slide outlines the learning goals for this part of the session. At this stage, you’re not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. As we move through the session, we’ll revisit these goals in smaller sections. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.\nAs our first learning goal, we will focus on understanding what simulations are and what they mean in a research and experimental context. Next, we will explain why simulations are used in research. We will also learn how to summarize how simulations support hypothesis testing and experimentation. The next learning goal is then to practice simulations by performing the simulation process using a fictional experiment. This will help demonstrate each step in a more tangible way.\nOur next learning goals is related to understanding what power analysis is and why it is important in research. We will also learn how to summarize how power analysis supports hypothesis testing and experimentation. Finally, we pull all of our skills together and we will learn how to perform a simulation yourself in R on a hands-on example.\nInstructor Notes: Use this slide to set expectations and reduce pressure. Emphasise that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials.\nAccessibility Tip: Read the learning goals aloud and pause briefly between them to reduce cognitive load."
+    "text": "Learning goals\n\nUnderstand the concept of simulations\nExplain the purpose of simulations in research\nSummarize how simulations support hypothesis testing and experimentation\nPerform the simulation process in the context of a fictional experiment\nUnderstand the concept of power analysis\nExplain the purpose of power analysis in research\nSummarize how power analysis supports hypothesis testing and experimentation\nSuccessfully perform a simulation in R\n\n\nPresenter Notes: This slide outlines the learning goals for this part of the session. At this stage, you’re not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. As we move through the session, we’ll revisit these goals in smaller sections. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.\nAs our first learning goal, we will focus on understanding what simulations are and what they mean in a research and experimental context. Next, we will explain why simulations are used in research. We will also learn how to summarize how simulations support hypothesis testing and experimentation. The next learning goal is then to practice simulations by performing the simulation process using a fictional experiment. This will help demonstrate each step in a more tangible way.\nOur next learning goals is related to understanding what power analysis is and why it is important in research. We will also learn how to summarize how power analysis supports hypothesis testing and experimentation. Finally, we pull all of our skills together and we will learn how to perform a simulation yourself in R on a hands-on example.\nInstructor Notes: Use this slide to set expectations and reduce pressure. Emphasise that learning goals will be revisited throughout the session for reflection and self-assessment. Avoid explaining each goal in detail here; instead, frame them as guiding anchors that will be unpacked gradually through activities and tutorials.\nAccessibility Tip: Read the learning goals aloud and pause briefly between them to reduce cognitive load."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#key-terms-and-definitions",
@@ -2379,7 +2379,7 @@
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#learning-goals-check-in",
     "title": "Running simulations and power analysis in R",
     "section": "Learning goals: Check-in",
-    "text": "Learning goals: Check-in\n\nTo understand the concept of simulations ✅\nTo explain the purpose of simulations in research ✅\nTo summarize how simulations support hypothesis testing and experimentation ✅\nTo perform the simulation process in the context of a fictional experiment ✅\n\n\nPresenter Notes: Let us pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.\nInstructor Notes: Encourage brief reflections rather than detailed discussions. Ask learners to self-assess quietly or with a quick show of hands. Invite a few questions or clarifications, but avoid re-teaching in depth unless a common gap appears."
+    "text": "Learning goals: Check-in\n\nUnderstand the concept of simulations ✅\nExplain the purpose of simulations in research ✅\nSummarize how simulations support hypothesis testing and experimentation ✅\nPerform the simulation process in the context of a fictional experiment ✅\n\n\nPresenter Notes: Let us pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.\nInstructor Notes: Encourage brief reflections rather than detailed discussions. Ask learners to self-assess quietly or with a quick show of hands. Invite a few questions or clarifications, but avoid re-teaching in depth unless a common gap appears."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#what-is-power-analysis",
@@ -2442,7 +2442,7 @@
     "href": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#learning-goals-check-in-1",
     "title": "Running simulations and power analysis in R",
     "section": "Learning goals: Check-in",
-    "text": "Learning goals: Check-in\n\nTo understand the concept of simulations ✅\nTo explain the purpose of simulations in research ✅\nTo summarize how simulations support hypothesis testing and experimentation ✅\nTo perform the simulation process in the context of a fictional experiment ✅\nTo understand the concept of power analysis ✅\nTo explain the purpose of power analysis in research ✅\nTo summarize how power analysis supports hypothesis testing and experimentation ✅\nTo successfully perform a simulation in R ✅\n\n\nPresenter Notes: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.\nIf you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.\nInstructor Notes: Encourage brief reflection rather than detailed discussion. Ask learners to self-assess quietly or with a quick show of hands. Invite a few questions or clarifications, but avoid re-teaching in depth unless a common gap appears."
+    "text": "Learning goals: Check-in\n\nUnderstand the concept of simulations ✅\nExplain the purpose of simulations in research ✅\nSummarize how simulations support hypothesis testing and experimentation ✅\nPerform the simulation process in the context of a fictional experiment ✅\nUnderstand the concept of power analysis ✅\nExplain the purpose of power analysis in research ✅\nSummarize how power analysis supports hypothesis testing and experimentation ✅\nSuccessfully perform a simulation in R ✅\n\n\nPresenter Notes: Let’s pause for a quick check-in. Take a moment to look back at the learning goals for this section and reflect on how comfortable you feel with each one.\nIf you notice any gaps, this is the right moment to bring them up — feel free to ask questions or start a discussion so we can address them before moving on.\nInstructor Notes: Encourage brief reflection rather than detailed discussion. Ask learners to self-assess quietly or with a quick show of hands. Invite a few questions or clarifications, but avoid re-teaching in depth unless a common gap appears."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html#relevance-to-you",
