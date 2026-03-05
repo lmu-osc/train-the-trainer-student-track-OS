@@ -2,9 +2,11 @@
 title: "3.8. Running simulations and power analysis in R"
 ---
 
+> Explore experiments before running them: learn simulations in R.
+
 # About these materials
 
-**Welcome!** This workshops is intended to introduce the principles and practical use of simulations in research using R. Participants will first learn what simulations are and why they are widely used in scientific research, including how they help researchers explore statistical behavior, test assumptions, and design studies before collecting real data. The workshop will also introduce power analysis, explaining how simulations can be used to estimate the probability of detecting true effects and determine appropriate sample sizes for experiments. Through a guided, hands-on tutorial, participants will work through the full simulation workflow in R, including generating random data, repeating simulations, and analyzing results.
+**Welcome!** This workshop is intended to introduce the principles and practical use of simulations in research using R. Learners will first get familiar with what simulations are and why they are widely used in scientific research, including how they help researchers explore statistical behavior, test assumptions, and design studies before collecting real data. The workshop will also introduce power analysis, explaining how simulations can be used to estimate the probability of detecting true effects and determine appropriate sample sizes for experiments. Through this guided, hands-on tutorial, participants will work through the full simulation workflow in R, including generating random data, repeating simulations, and analyzing results.
 
 
 ### Who are these materials for?
@@ -13,7 +15,7 @@ The target audience of this workshop is twofold:
 
 - **Self-learners** with basic R and statistical skills, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Presenter notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
 
-- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with speaker and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
+- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
 
 
 ## Prerequisites
