@@ -259,13 +259,13 @@ What do we see in the results?
 
 ## What is R?
 
--   Knowledge of statistical software like R is crucial when conducting quantitative research
+-   Knowledge of statistical software like R [https://www.r-project.org/](https://www.r-project.org/) is crucial when conducting quantitative research
 -   R is free and open source
     -   large online community
     -   many free to use resources
     
 <div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Would you want to add a hyperlink here?</span>
+<span style="color:red">~~From SvG: Would you want to add a hyperlink here?~~</span>
 </div>
 
 ::: {.notes}
@@ -352,11 +352,11 @@ Here, you can see a table with the most important mathematical operators in R.
 
 - Use the table on the previous slide to run the following math operations directly in the console (bottom left).
 
--   $12+17$
+-   `12+17`
 
--   $\frac{218}{3}$
+-   `\frac{218}{3}`
 
--   $357^2$
+-   `357^2`
 
 *Hint*: You can run code from the console by pressing Enter.
 
