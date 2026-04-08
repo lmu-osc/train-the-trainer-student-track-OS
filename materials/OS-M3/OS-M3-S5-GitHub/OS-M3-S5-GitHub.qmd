@@ -1,28 +1,27 @@
 ---
-title: "3.5. Introduction to collaborative coding with GitHub"
+title: "3.5. Collaborative coding with GitHub"
 ---
 
-> Something nice here
-
+> Building reproducible research projects.
 
 # About these materials
 
-**Welcome!** This workshops is intended to provide you with the theoretical and practical skills to confidently navigate GitHub  and using it as a platform for collaboration on shared projects. We will start by learning how to fork and clone GitHub repositories so you can create your own copy of a project and work on it locally. This allows you to experiment, make changes, and develop new features in a safe and controlled way. We will also cover the core workflow of committing, pushing, and pulling changes. You will learn how to track your work with meaningful commits, push your updates to GitHub so others can see them, and pull in changes from collaborators to keep your local version synchronized with the latest updates.
+**Welcome!** This workshop is intended to introduce learners to  the essential skills for collaborating on shared projects using GitHub and RStudio. It will guide learners step‑by‑step through the core parts of a collaborative GitHub workflow, including how to navigate GitHub’s interface, fork and clone repositories to work locally, and use Git commands to commit, push, and pull changes. Simultaneously, this workshop prepares learners to actively use reproducible research practices and how to design a simple collaborative workflow that keeps everyone’s work synchronized and traceable.
 
-A key fokus is on how these practices support open, transparent, and reproducible projects, whether you are collaborating on code, research, documentation, or any other shared work.
 
 ### Who are these materials for?
 
 The target audience of this workshop is twofold:
 
-- **Self-learners** with basic prior experience with *R* and *version control*, who are interested in developing their skills on the topic of sharing and collaborating via GitHub. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Speaker notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
+- **Self-learners** with prior experience with R and version control, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Presenter notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
 
-- **Instructors** in higher education (e.g., universities, research institutes) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with speaker and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint slides corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
+- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with speaker and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
+
 
 
 ## Prerequisites
 
-<div style="font-size: 0.5em;"> 
+<div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
 | R and RStudio installed | Latest versions of both R and RStudio |  [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/) |
@@ -30,17 +29,18 @@ The target audience of this workshop is twofold:
 | Advanced R skills | 3.3. Introduction to R - Part II |  Module 3.3. |
 | Basic Git skills | 3.4. Introduction version control (Git) with RStudio |  Module 3.4. |
 | GitHub account | Create a personal account on GitHub | [github.com](github.com) |
-| Practice GitHub repo | Fork the [LMU OSC Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) to set up a practice repository for the exercises in this lesson | -
+| Practice GitHub repo | Fork the [LMU OSC Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) to set up a practice repository for the exercises in this lesson | See next slide
 
 </div>
 
 
-## Learning goals
+## Learning objectives
 
 - **Navigate** GitHub to collaborate on shared projects.
 - **Fork** and **clone** repositories to work locally without altering the main branch.
 - **Commit**, **push**, and **pull** changes to keep your project tracked and synchronized.
 - **Design** a collaborative workflow that enhances the openness and reproducibility of your own projects.
+
 
 # Materials
 
@@ -50,7 +50,8 @@ The target audience of this workshop is twofold:
 <iframe class="slide-deck" src="OS-M3-S5-GitHub-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
-## Supplementary files - TO DO
+
+## Download files
 
 ### Practical exercises - solutions
 
@@ -71,6 +72,8 @@ You can export these slides as PowerPoint by pressing the button below. Note tha
 
 {{< downloadthis OS-M3-S5-GitHub-slides.pptx dname="OS-M3-S5-GitHub-slides" label="Download slides as PPTX">}}
 
+{{< downloadthis OS-M3-S5-GitHub-slides.pdf dname="OS-M3-S5-GitHub-slides" label="Download slides as PDF">}}
+
  <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
  
 # Contributors and licence details
@@ -82,11 +85,14 @@ You can export these slides as PowerPoint by pressing the button below. Note tha
 **Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 
+<br>
+
 <p style="text-align:center;">
-  <img src="images/cc-by-sa.png" 
-  alt="Creative Commons Attribution 4.0"
-  style="width:160px;" />
+  <img src="images/cc-by-sa.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
 </p>
+
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
 This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
