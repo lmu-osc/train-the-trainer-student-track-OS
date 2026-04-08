@@ -8,7 +8,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
+    logo: ../../../OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
   pdf:
     geometry: 
       - top=30mm
@@ -52,9 +52,9 @@ This work was originally created by [Felix Schoenbrodt](https://www.nicebread.de
 **Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
-**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 ::: {.notes}
 **Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
@@ -76,7 +76,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| UNESCO Recommendations on Open Science | Recommended reading: pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+| UNESCO Recommendations on Open Science | Recommended reading: pp 6-19 | [Download Link](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
 </div>
 
 ::: {.notes}
@@ -192,14 +192,14 @@ What do we see in the results?
 
 ## Covered in this session
 
-- Research and the research cycle
-- "Trust" in research and what it means
-- Replicability and reproducibilty
-- Biases, inconsistencies and mistakes in research
-- Solution-focused: Open Research 
+- Research and the **research cycle**
+- **"Trust"** in research and what it means
+- **Replicability** and **reproducibilty**
+- **Biases**, inconsistencies and mistakes in research
+- Working towards a **solution**: Open Research 
 
 ::: {.notes}
-**Presenter Notes**: This slide provides an overview of the main topics we will cover in this session. Do not worry if some of these concepts make no sense to you at this point, we will get to all of them by the end of this session. We will begin by looking at research and the research cycle. We will look at how knowledge is produced, from forming a research question, through data collection and analysis, to publication and dissemination. Next, we wll discuss trust in research and what it means. Trust is fundamental to science and research because it shapes how researchers trust each other’s work, how institutions make decisions based on evidence, and how society at large engages with scientific findings. We will then move on to replicability and reproducibility, two key concepts for assessing the robustness of research. We will clarify the difference between them and examine why the inability to replicate or reproduce results has become a major concern across many disciplines. Following that, we will learn about biases, inconsistencies, and mistakes in research. These issues are often unintentional but can arise from methodological choices, data handling, publication pressures, or systemic incentives. Recognizing these challenges helps us better understand where and why research can go wrong.
+**Presenter Notes**: This slide provides an overview of the main topics we will cover in this session. Do not worry if some of these concepts make no sense to you at this point, we will get to all of them by the end of this session. We will begin by looking at research and the research cycle. We will look at how knowledge is produced, from forming a research question, through data collection and analysis, to publication and dissemination. Next, we will discuss trust in research and what it means. Trust is fundamental to science and research because it shapes how researchers trust each other’s work, how institutions make decisions based on evidence, and how society at large engages with scientific findings. We will then move on to replicability and reproducibility, two key concepts for assessing the robustness of research. We will clarify the difference between them and examine why the inability to replicate or reproduce results has become a major concern across many disciplines. Following that, we will learn about biases, inconsistencies, and mistakes in research. These issues are often unintentional but can arise from methodological choices, data handling, publication pressures, or systemic incentives. Recognizing these challenges helps us better understand where and why research can go wrong.
 
 **Instructor Notes**: Add.
 :::
@@ -232,7 +232,7 @@ By the end of this session, learners will be able to:
 
 ---
 
-## Key terms and definitions
+## Key terms and definitions - TO DO
 
 - **Aim**: Introduce key terms and definitions that students will come across throughout the session.
 <br>
@@ -250,6 +250,12 @@ By the end of this session, learners will be able to:
 ---
 
 ## Practical exercise 1
+
+
+**Task**: Collect your thoughts with your neighbor.
+
+<br>
+<br> 
 
 **What does "research" mean to you?**
 
@@ -385,14 +391,36 @@ Resnik, D. B. (2011). Scientific research and the public trust. *Science and eng
 
 ## Measuring trust in research
 
-- Via social surveys:
-    - "How much do you trust researchers to tell the truth?" (Ipsos)
+- Via social surveys: "How much do you trust researchers to tell the truth?" (Example: UK)
+    
+<img src="images/trust-in-scientists-ipsos.png" alt="Bar chart showing levels of public trust in different professions in the UK (2024). Professions are ranked from most to least trusted based on the percentage of people who say they trust them to tell the truth. Nurses rank highest (94%), followed by engineers (90%), doctors (88%), and teachers and professors (both around 85%). Mid-ranking professions include police, judges, and business leaders. Lower levels of trust are shown for journalists (around 27%), advertising executives (18%), government ministers (15%), and politicians (11%), which is the lowest. Overall, the chart shows high trust in healthcare and technical professions and much lower trust in political roles." style="display:block; margin:0 auto; width:100%; height:100%;">
 
-- Levels of trust vary little within national populations
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Sources: Veracity Index 2024, [Ipsos](https://www.ipsos.com/en%2Duk/ipsos%2Dveracity%2Dindex%2D2024); Seyd, B. (2025). What is trust (in science and scientists) and is it in crisis?. *Current Opinion in Psychology, 67*. [https://doi.org/10.1016/j.copsyc.2025.102201](https://doi.org/10.1016/j.copsyc.2025.102201)
+</div>
+
+::: {.notes}
+**Presenter Notes**: This chart shows results from the Ipsos Veracity Index 2024, which measures how much the UK public trusts different professions to tell the truth. The findings are based on a nationally representative sample of around 1,000 UK adults. Respondents were asked how much they trust people in each profession to tell the truth, and the chart reports the percentage who say they trust them (either “a great deal” or “a fair amount”).
+
+Starting at the top, nurses are the most trusted profession, with very high trust levels. They are followed closely by engineers and doctors, and then teachers and professors. Scientists also score relatively high, just behind judges and museum curators. 
+These top professions share a common theme: they are generally seen as skilled, evidence-based, and working in the public interest, which likely contributes to their high trust.
+Moving to the middle of the chart, we see professions like police, judges, and business leaders, where trust is more moderate and mixed. At the lower end, journalists and advertising executives have relatively low trust levels.
+Finally, politicians and government ministers are the least trusted, with a significant gap between them and the top-ranked professions.
+:::
+
+
+---
+
+## Take aways
+
+- **Seyd (2025)**:
+  - Trust in scientists remains **relatively high** in many countries
+  - Overall trust levels in research **remain stable**
+  - **But**: public **skepticism** about scientists' integrity and **transparency**
 
 
 <div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
-Seyd, B. (2025). What is trust (in science and scientists) and is it in crisis?. *Current Opinion in Psychology, 67*.[https://doi.org/10.1016/j.copsyc.2025.102201](https://doi.org/10.1016/j.copsyc.2025.102201)
+Seyd, B. (2025). What is trust (in science and scientists) and is it in crisis?. *Current Opinion in Psychology, 67*. [https://doi.org/10.1016/j.copsyc.2025.102201](https://doi.org/10.1016/j.copsyc.2025.102201)
 </div>
 
 ---
@@ -592,6 +620,50 @@ As you can see here, the dark red bars represents the percentage of studies whic
 
 ---
 
+## Replicability in the social and behavioural sciences
+
+**Tyner et al. (2026)**:
+
+- Authors attempted **replications of 274 claims of positive results** from 164 quantitative papers (published between 2009 and 2018)
+- **~55% of positive claims replicated successfully**
+
+<style>
+table {font-size: 0.60em;}
+td:nth-child(2), td:nth-child(3) {
+  text-align: center;
+}
+th:nth-child(2), th:nth-child(3) {
+  text-align: center;
+}
+</style>
+
+| Discipline         | Replication attempts (successful / total) | Percentage successful |
+|------------------|-----------------------------------------|---------------------|
+| Business          | 17 / 36                                 | 47.2%               |
+| Economics         | 10.2 / 24                               | 42.5%               |
+| Education         | 8.2 / 13                                | 63.1%               |
+| Political science | 7.8 / 15                                | 52.0%               |
+| Psychology        | 28.4 / 58                               | 49.0%               |
+| Sociology         | 9.2 / 18                                | 51.1%               |
+
+
+<div style="font-size: 0.55em; color: #777;">
+Tyner, S. K., Abatayo, A. L., Dayley, M., et al. (2025). Investigating the replicability of the social and behavioural sciences. Nature. [https://doi.org/10.1038/s41586-025-10078-y](https://doi.org/10.1038/s41586-025-10078-y)
+</div>
+
+::: {.notes}
+**Presenter Notes**: 
+- Authors attempted replications of 274 claims of positive results from 164 quantitative papers (published between 2009 and 2018) in social and behavioural sciences, including psychology, sociology, education, business, economics, and political science. 
+- Original materials used when available
+- ~55% of positive claims replicated successfully
+
+*Notes:*  
+- Papers are weighted combinations of claims, accounting for multiple claims per paper replicated in some cases.  
+- The left column shows the number of successful replications out of total papers with replication attempts.
+:::
+
+---
+
 ## Psychology: The Reproducibility Project (2015)
 
 :::incremental
@@ -603,6 +675,20 @@ As you can see here, the dark red bars represents the percentage of studies whic
 
 :::
 
+::: {.notes}
+**Presenter Notes**: The Reproducibility Project by the Open Science Collaboration (2015) involved a large-scale, collaborative effort by over 270 researchers. They selected 100 experimental studies published between 2008 and 2012 in three top psychology journals: Psychological Science, Journal of Personality and Social Psychology, and Journal of Experimental Psychology: Learning, Memory, and Cognition.
+
+For each study, they carefully reviewed the original materials, methods, and analyses, and often contacted the original authors for clarification or access to materials and protocols. Each replication aimed to match the original study’s sample size, experimental design, and analysis plan as closely as possible, while making only minimal changes when exact materials were unavailable. The replications were preregistered to specify hypotheses, design, and analysis before data collection, reducing bias and “researcher degrees of freedom." Data collection was conducted independently from the original research teams, often in multiple labs to ensure rigor. After data collection, they analyzed the results using the same statistical methods as the original studies to determine whether the findings could be reproduced. The project also evaluated effect sizes, not just statistical significance, to compare the magnitude of the original and replicated effects. **Only 39% of the replications produced statistically significant results, and the median effect size in replications was about half that of the original studies, highlighting the reproducibility challenges in psychology**.
+:::
+
+---
+
+## Psychology: The Reproducibility Project (2015)
+
+- Large-scale replication project:
+  - **Close/exact replications** of 100 experimental and correlational studies from 3 different psychological journals
+  - Reproducibility **evaluated** based on effect sizes, p-values, subjective assessment of replication teams
+  - Contacted original study authors when necessary
 
 ::: {.callout-important}
 ## What did they find?
@@ -1855,7 +1941,7 @@ Decide whether each scenario in the following slides is an example of **reproduc
 
 ---
 
-## Decide where to add
+## Decide where to add - maybe not needed?
 
 **Ideal scenario: Balancing the desire to stay truthful to research with the necessity to publish?**
 
