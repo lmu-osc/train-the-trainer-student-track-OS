@@ -61,7 +61,7 @@ This work was originally created by [Mike Croucher ](https://github.com/mikecrou
 
 **Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
 **Consultant**: Edelsbrunner, Peter (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
 
@@ -101,8 +101,8 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 <!-- TODO: I wonder if this proposed lesson plan could/should be on a visible slide.
 It is easy to miss for instructors ... 
-Maybe add a reminder before or at the slide "Creating an RStudio Project" that from here on (optionally) the homework starts -->
-**Instructor Notes**: Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. **Additional important tip**: If you are planning to deliver these slides synchronously in class, here is a proposed lesson plan (90 minutes + homework assignment):
+Maybe add a reminder before or at the slide "Creating an RStudio Project" that from here on (optionally) the homework starts SvG: added a note on the landing page about the length of this lesson and that a lesson plan can be found in the instructor notes at the beginning! -->
+**Instructor Notes**: Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. **Additional important tip**: This submodule is designed for a 3-hour slot. If you are planning to deliver these slides synchronously in a class of 90 minutes, here is a proposed lesson plan for + homework assignment):
 
 -	3 minutes to situate this new class within the overall course, clarify questions from the previous class etc. 
 
@@ -353,38 +353,20 @@ Especially with coding, trying new ideas can **break** your code.
 
 ## Who is familiar with these problems?
 
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 0.5em;">
-
-  <!-- Left side: single image -->
-  <div style="flex: 1; text-align: center;">
-    <img src="images/04_QR_Code_Problem_OS-M3-S4-Git.png" style="width: 100%;" />
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 3;">
-
-  a. Inconsistent data and file management aka **I cannot find my files**
-  b. Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka **my work is lost**
-  c. Extended periods of time between project actions aka **I forgot what I was working on**
-  d. Experimentation with new features aka **I tried something and my laptop is now smoking**
-  e. All of the above
-  f. None of the above (are you *sure*?)
-
-  </div>
-
-</div>
+a. Inconsistent data and file management aka **I cannot find my files**
+b. Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka **my work is lost**
+c. Extended periods of time between project actions aka **I forgot what I was working on**
+d. Experimentation with new features aka **I tried something and my laptop is now smoking**
+e. All of the above
+f. None of the above (are you *sure*?)
 
 
 ::: {.notes}
-**Presenter Notes**: Your turn: Scan the QR code and we can have a look who of you is familiar with one or more of these issues. 
+**Presenter Notes**: Your turn: Who is familiar with these problems? 
 
-**Instructor  Notes**: Select the problem survey when prompted. Closely examine the answers given and create a shared understanding that many students in class are experiencing similar issues. 
+**Instructor  Notes**: Prepare an interactive survey in advance, e.g., by using Particify, to make this part more interactive. Closely examine the answers given and create a shared understanding that many students in class are experiencing similar issues. 
 
-**Accessibility Tip**: Note that this slide only works for a synchronous in-class setting. Skip this slide as appropriate.
+**Accessibility Tip**: Note that an interactive online survey only works for a synchronous in-class setting. Skip this slide as appropriate.
 :::
 
 ---
@@ -415,16 +397,10 @@ Especially with coding, trying new ideas can **break** your code.
 
 ## Before we start: Survey time!
 
-![Select the starting survey option!](images/01_QR_Code_Start_OS-M3-S4-Git.png){fig-align=center}
-
 ::: {.notes}
-**Presenter Notes**: First, I would like to find out more about how familiar you are with different concepts we will touch upon later. Please scan the QR code and select the starting survey when prompted. 
+ **Instructor Notes**: For a more interactive delivery, use free tools such as [Particify](https://www.particify.de/en/)] to create interactive surveys before you deliver this lesson. The pre-submodule survey serves to examine learners' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed. 
 
-**Instructor Notes**: 
-
-- **Aim**: The pre-submodule survey serves to examine learners' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed. 
-
-**Accessibility Tip**: Note that this slide only works for a synchronous in-class setting. Skip this slide as appropriate.
+**Accessibility Tip**: Note that this slide only works for a synchronous in-class setting. Skip the survey as appropriate.
 :::
 
 ---
@@ -481,7 +457,6 @@ What do we see in the results?
 
 ::: {.notes}
 **Presenter Notes**: Let us have a look at these results. 
-
 
 **Instructor Notes**:
 
@@ -543,11 +518,6 @@ GitHub is a free but commercial platform owned by Microsoft. A similar functiona
 ---
 
 ## The Git - GitHub workflow
-
-<!-- TODO: Here we could remove the "commit" arrow - not used yet.
-I would find it more intuitive to have "local" on the left (because the verbal explanation starts with the local repository).
-We could add a cloud symbol at the remote server.
- -->
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/GitHub-remote.png){fig-align="center" width=600 fig-alt="Git - GitHub workflow"}
 
@@ -758,8 +728,6 @@ To do this, open your terminal (or Git Bash on Windows) and enter the following 
 
 **Step 3**: If there are existing ssh keys, they are named one of the following:
 
-<br>
-
 ```{text}
 id_rsa.pub
 id_ecdsa.pub
@@ -829,14 +797,14 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):
 
 ## Generating a new SSH key pair
 
-**Step 3**: Next, you are asked to provide a passphrase in the terminal. This is an optional extra-layer of protection, as it protects your keys with a password. However, you will need to type that password everytime you use your SSH key, which can get annoying. In a high-security environment, add a passphrase. For typical research use cases, you can skip that step (simply press ENTER without adding a passphrase).
+**Step 3**: Next, you are asked to provide a passphrase in the terminal (see the next slide for more information!). 
 
 ```{text filename="Terminal"}
 Enter passphrase (empty for no passphrase):  
 Enter same passphrase again:
 ```
 
-<br />
+<br>
 
 ::: {.callout-warning}
 When you type passwords in the command line, **nothing** is displayed, you are however still typing in the background. This is **normal behaviour** by the command line.
@@ -850,7 +818,11 @@ When you type passwords in the command line, **nothing** is displayed, you are h
 
 ---
 
-The SSH key pair passphrase
+## Some notes on passphrases ...
+
+::: {.callout-note}
+Creating a passphrase is an **optional extra-layer of protection**, as it protects your keys with a password. However, you will need to type that password everytime you use your SSH key, which can get annoying. In a high-security environment, add a passphrase. For typical research use cases, you can skip that step (simply press ENTER without adding a passphrase).
+:::
 
 ::: {.callout-important}
 If you lose your SSH key passphrase, **there is no way to recover it**. You'll need to generate a brand new SSH keypair. Therefore, when you create your passphrase for your ssh key, **please write it down immediately** so that you do not forget, ideally in a **password manager**.
@@ -904,7 +876,7 @@ The key's randomart image is:
 :::
 
 ::: {.notes}
-**Presenter Notes**: Congratulations! You have successfully **generated your public SSH key pair**. 
+**Presenter Notes**: Congratulations! You have successfully **generated your public SSH key pair**.
 
 **Instructor  Notes**: Take a break here and check-in with your learners if there were any issues or difficulties.
 :::
@@ -990,7 +962,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm
 
 **Instructor  Notes**: Switch to GitHub and give learners enough time to follow along.  Highlight that they should compare the steps with the images in the following slides.  
 :::
-
 
 ---
 
@@ -1099,7 +1070,6 @@ ssh -T git@github.com
 ## Testing the GitHub connection
 
 **Step 2**: When asked about *fingerprinting*, type *yes*, then press ENTER to receive this output: 
-
 ```{text}
 > Hi USERNAME! You've successfully authenticated, but GitHub does not
 > provide shell access.
@@ -1162,12 +1132,11 @@ With these steps complete, **your Git and GitHub setup is now secure and ready t
 
 Brief check-in: **Your Turn!**
 
-![Select the prebreak survey option!](images/02_QR_Code_Prebreak_OS-M3-S4-Git.png){fig-align=center}
 
 ::: {.notes}
 **Presenter Notes**: Before we head into the break, let us do a quick check-in to see where we are at. Scan this QR code and select the pre-break survey option. Answer a few questions to check your current understanding of version control and the topics we discussed in this first part of the class. 
 
-**Instructor Notes**: This pre-break survey serves to examine learners' current understanding of key concepts of the submodule. Guidance on interpreting the results:
+**Instructor Notes**: Make use of Particify or another free software for this part. This pre-break survey serves to examine learners' current understanding of key concepts of the submodule. Guidance on interpreting the results:
 
 - If more than 80% of the learners select the correct response option, show which one it is and move on.
 
@@ -1175,9 +1144,7 @@ Brief check-in: **Your Turn!**
 
 - If more than 30% select a specific distractor answer, discuss it in class.
 
-**Accessibility Tip**: This slide only works in a synchronous setting, skip if appropriate. 
-
-
+**Accessibility Tip**: This slide only works in a synchronous setting, skip if appropriate. Ensure to prepare the survey in advance.
 :::
 
 ---
@@ -1224,7 +1191,7 @@ d. To enable GitHub to edit our files directly on our computer
 
 ---
 
-<!-- TODO: Do we need this slide? I thought the survey results are discussed directly after doing the survey (before the break) -->
+<!-- TODO: Do we need this slide? I thought the survey results are discussed directly after doing the survey (before the break) SvG: we had discussed with Peter that he thought it was more helpful to have the discussion after the break. We can discuss this if you like? -->
 ## Post-break survey discussion
 
 <br>
@@ -1245,7 +1212,6 @@ What do we see in the results?
 
 **Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
 :::
-
 
 ---
 
@@ -1387,13 +1353,8 @@ plot(mydata$xdata,mydata$ydata)
 
 ---
 
-<!-- NOTE (can be deleted): While the first part was a nice step by step guide, here suddenly many new concepts are introduced without explaining them: What is "staged"? What does "untracked" mean? What is a "commit" and why do we do it? 
 
-The explanations are in the speaker notes, but I think they should be on the slides.
-I added a separate slide introducing a key concept before doing it in practice
--->
-
-## Getting your project under version control: Key concept
+## Getting your project under version control: Key concepts
 
 Before we do the first action, one orientation point:
 
@@ -1408,7 +1369,6 @@ Before we do the first action, one orientation point:
 ## Getting your project under version control
 
 **Step 1**: Find the git version control pane in the top right corner of RStudio in the `Git` tab. 
-
 
 ![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_pane.png){fig-align="center" width=600 fig-alt="Git pane"}
 
@@ -1426,7 +1386,7 @@ Before we do the first action, one orientation point:
 
 ---
 
-## Getting your project under version control: Key concept
+## Getting your project under version control: Key concepts
 
 Before we click anything, two terms matter:
 
@@ -1450,7 +1410,7 @@ Before we click anything, two terms matter:
 
 ---
 
-## Getting your project under version control: Key concept
+## Getting your project under version control: Key concepts
 
 Now the next key idea:
 
@@ -1477,7 +1437,7 @@ Now the next key idea:
 
 ---
 
-## Getting your project under version control: Key concept
+## Getting your project under version control: Key concepts
 
 Every commit needs a message:
 
@@ -2121,12 +2081,11 @@ It is all about practise until you develop a routine.
 
 ## To conclude: Survey time!
 
-![Select the finishing survey option!](images/03_QR_Code_Finish_OS-M3-S4-Git.png){fig-align=center}
 
 ::: {.notes}
 **Presenter Notes**: Before we end for today, let us do a quick check-in to see where we are at now at the end of class. Scan this QR code and select the finishing survey option. Answer a few questions to check your current understanding of version control and the topics we discussed today. 
  
-**Instructor Notes**:
+**Instructor Notes**: Prepare this survey in advance in Particify or the software of your choice. 
 
 - **Aim**: This post-submodule survey serves to examine learners' current knowledge about the sumodule's topic.
 
@@ -2223,41 +2182,11 @@ Ready for the next session? 😊
 
 ---
 
-
 ## Troubleshooting
 
 Some general pointers on where learners could run into issues:
 
 - **Mistyping the Git commands**: Correct spelling (including spaces) matters, else Git will not recognize the command
 
+---
 
-
-
-----
-
-<!-- --- -->
-
-<!-- ## Pedagogical add-on tools for instructors - UNFINISHED -->
-
-<!-- - This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean: -->
-<!--   - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy. -->
-<!--   - Discussion/reflection on how tools can be incorporated into the teaching for this particular content. -->
-<!--   - Extra exercises for faster learners	 -->
-
-<!-- --- -->
-
-<!-- ## Additional literature for instructors - UNFINISHED -->
-
-<!-- - References for content -->
-<!-- - References for pedagogical add-on tools	 -->
-<!-- - Other resources (videos etc.)	 -->
-
-<!-- --- -->
-
-<!-- ## Contribution Statement - UNFINISHED -->
-
-<!-- Possible roles using the CRediT contribition system or the Zenodo Contribution System:  -->
-
-<!-- **Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation. -->
-
-<!-- --- -->
