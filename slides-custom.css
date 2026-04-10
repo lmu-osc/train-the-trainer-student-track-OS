@@ -54,3 +54,8 @@
   color: darkblue;        /* Set text color */
   font-weight: bold;      /* Ensure bold styling is applied */
 }
+
+/* Grey text for notes that are "side notes" */
+.reveal .slides section:not(:first-of-type) .notes {
+  color: #CCC;  /* Sets the text color to grey for notes */
+}
