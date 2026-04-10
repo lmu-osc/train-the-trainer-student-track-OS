@@ -280,6 +280,9 @@ This has resulted in a large online community — so if you ever run into a prob
 And because of that community, there are also countless free learning resources: tutorials, blog posts, videos, books, and packages that extend R’s functionality.
 
 So in short: R is powerful, flexible, and supported by a strong community — which is why it’s become such a widely used tool in quantitative research.
+<br>
+**Instructor Notes**:  
+Keep this introduction brief and motivational. The goal is not to teach R, but to position it as an accessible and useful tool for research. You may optionally point students to the official R website or a beginner friendly resource, but avoid going into technical detail.
 :::
 
 ---
@@ -287,7 +290,12 @@ So in short: R is powerful, flexible, and supported by a strong community — wh
 ## The RStudio environment {footer="false"}
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen1.png" style="width:100%;"/>
+<img src="images/R_screen1.png" style="width:75%;"/>
+:::
+
+::: {.callout-tip}
+## Short exercise
+Open RStudio and check if you can see everything that’s on the slide (might be only three panes).
 :::
 
 ::: {.notes}
@@ -308,18 +316,6 @@ And finally, the bottom right is for Help, Plots, and Packages.
 So if you ask for help on a function, create a plot, or install a new package, it’ll show up here.
 
 So, RStudio combines everything in one interface to help you keep track of your code, your results, and your progress as you go.
-:::
-
----
-
-## Practical exercise 1
-
--   [ ] Open RStudio and check if you can see everything that's on the slide (might be only three panes).
-
-::: {.notes}
-*:Speaker Notes**:Add here. 
-
-**Instructor Notes**: Add potential troubleshooting tips for instructors to efficiently solve the problems at this stage.
 :::
 
 ---
@@ -346,19 +342,18 @@ Here, you can see a table with the most important mathematical operators in R.
 
 ---
 
-## Practical exercise 2
+## Practical exercise 1
 
 **Mathematical Operations**
 
 - Use the table on the previous slide to run the following math operations directly in the console (bottom left).
+  - `12+17`
+  - `\frac{218}{3}`
+  - `357^2`
 
--   `12+17`
-
--   `\frac{218}{3}`
-
--   `357^2`
-
+::: {.callout-tip}
 *Hint*: You can run code from the console by pressing Enter.
+:::
 
 ::: {.notes}
 **Speaker Notes**: We've already arrived at our second exercise.
