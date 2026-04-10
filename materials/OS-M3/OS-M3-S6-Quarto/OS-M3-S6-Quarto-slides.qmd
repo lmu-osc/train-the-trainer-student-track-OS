@@ -54,7 +54,7 @@ However, there are some important conditions you must follow. You are required t
 
 
 ::: {.notes}
-**Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
+**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
 
 **Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
 
@@ -356,6 +356,10 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 
 ## So, why Quarto?
 
+<!-- TODO:
+Comment Felix: Not sure if this side A / side B comparison is the relevant one. Isn't the actual comparison that of a separate code file and a MS Word manuscript, where it is unclear which result comes from which computation? So, the step of integrating both code and narrative text is the crucial one. Comparing the "raw quarto code view" with the "rendered Quarto view" is a bit pointless for me.
+ -->
+
 1. **Readability**: Research is more **accessible** when results, explanations, and code are presented in a way that is easy to read and understand.
 
 <div style="font-size: .7em;">
@@ -613,7 +617,7 @@ format:
 
 In future projects, you can replace "html" to render the document to a different format.
 
-Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" target="_blank">link to a list of the different output formats</a>.
+Here is a <a href="https://quarto.org/docs/output-formats/all-formats.html" target="_blank">link to a list of the different output formats</a>, including PDF, docx, ePub for e-book readers, pptx, and much more.
 :::
 
 ::: {.notes}
@@ -871,6 +875,23 @@ If you'd like to simplify the concept of code chunks and have students feel less
 ## Practical exercise 5
 
 -   [ ] Insert the code from the previous slide in *two separate code chunks*
+
+. . .
+
+It should look like this:
+
+````
+```{{r}}
+summary(ChickWeight)
+```
+
+```{{r}}
+library(ggplot2)
+ggplot(ChickWeight, aes(x = Time, y = weight, color = Diet)) +
+  geom_line(aes(group = Chick)) +
+  labs(title = "Chick Growth Over Time")
+```
+````
 
 ::: {.notes}
 **Presenter Notes**: Let's run the functions from the previous slides by putting them in code chunks. First create the code chunk then copy and paste the text from the previous slides containing the R functions. Try using different methods to insert coding chunks for this exercise. You don't need to hit Ctrl + Enter (Windows) or Command + Enter (Mac) to run the code. After placing it in the coding chunk, rendering the document will run the code and print the output. Render the output and observe how the code appears together with the markdown text from the previous activities, this is what makes Quarto so useful, it gives you one place where you could combine text and code neatly into a single document.
@@ -1198,7 +1219,7 @@ Diet affects chick body weight. In this study, low-energy feed made fast-growing
 ```
 
 - [ ] Copy the text above
-- [ ] In **RStudio**, paste it into the Quarto docuement and place the cursor at the end of the sentence. This where in the sentence you want to place the citation.
+- [ ] In **RStudio**, paste it into the Quarto document and place the cursor at the end of the sentence. This where in the sentence you want to place the citation.
 
 ::: {.notes}
 **Presenter Notes**: Let's use Zotero with RStudio to insert citations in our Quarto document and generate a bibliography, this simplifies the referencing process. Follow these steps to add a citation to your Zotero library and add some information extracted from it to your Quarto document. 
@@ -1315,11 +1336,11 @@ You can change the citation style by using Citation Style Language (csl) files d
 :::incremental
 = the process of sharing the rendered documents or projects online so it can become accessible to others.
 
-- You can publish to:
+- You can publish the rendered html file to:
   - GitHub Pages
   - A personal website
   - Quarto Pub
-
+- Note: Of course you can always render to PDF and upload that to any preprint server or your personal website. But here we will focus on publishing to GitHub Pages.
 :::
 
 ::: callout-note
@@ -1395,7 +1416,7 @@ A great option to share your document is **publishing to GitHub**.
 :::incremental
 **3 methods** to publish a Quarto document to GitHub Pages:
 
-1. Rendering your output to the `docs` directory and checking it into your repository
+1. Rendering your output to the `docs` directory and pushing it to your repository
 2. Using the `quarto publish` command 
 3. Using `GitHub Actions` to auto-render and publish whenever you push changes
 
