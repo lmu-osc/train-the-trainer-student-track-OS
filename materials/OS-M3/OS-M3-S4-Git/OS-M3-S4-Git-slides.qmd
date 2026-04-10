@@ -636,7 +636,7 @@ To install Git on Ubuntu:
 
 - Paste the following line into your terminal:
 
-```{text}
+```{.bash filename="Terminal"}
 sudo apt-get install git-core
 ```
 
@@ -676,7 +676,7 @@ Once you’ve opened the terminal, you'll be ready to start configuring Git thro
 
 **Step 2**: Next, enter the following commands with your email one after the other (hitting ENTER after each command):
 
-```{text}
+```{.bash filename="Terminal"}
 git config --global user.email "you@youremail.com"
 git config --global user.name "Your Name"
 ```
@@ -741,7 +741,7 @@ Remember, once the SSH keys are set up, they streamline your workflow with GitHu
 
 **Step 2**: Enter the following command to list the content of the ssh directory:
 
-```{text}
+```{.bash filename="Terminal"}
 ls ~/.ssh
 ```
 
@@ -786,7 +786,7 @@ However, if you do not have an existing public and private key pair (which is to
 
 <br>
 
-```{text}
+```{.bash filename="Terminal"}
 ssh-keygen -t ed25519 -C "your_email@email.com"
 ```
 
@@ -831,7 +831,7 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):
 
 **Step 3**: Next, you are asked to provide a passphrase in the terminal. This is an optional extra-layer of protection, as it protects your keys with a password. However, you will need to type that password everytime you use your SSH key, which can get annoying. In a high-security environment, add a passphrase. For typical research use cases, you can skip that step (simply press ENTER without adding a passphrase).
 
-```{text}
+```{text filename="Terminal"}
 Enter passphrase (empty for no passphrase):  
 Enter same passphrase again:
 ```
@@ -869,7 +869,7 @@ If you lose your SSH key passphrase, **there is no way to recover it**. You'll n
 **Step 4**: When the key generation is complete, you should see the  confirmation below. 
 
 
-```{.small-text}
+```{.small-text filename="Terminal"}
 Your identification has been saved in /Users/username/.ssh/id_ed25519.
 Your public key has been saved in /Users/username/.ssh/id_ed25519.pub.
 The key fingerprint is:
@@ -915,7 +915,7 @@ The key's randomart image is:
 
 **Step 1**: Tell GitHub about your new public key. In the terminal, please hit ENTER after typing: 
 
-```{text}
+```{.bash filename="Terminal"}
 cat ~/.ssh/id_ed25519.pub
 ```
 
@@ -939,7 +939,7 @@ Once you hit Enter, this command will print the contents of your public key to t
 
 **Step 2**: The output should be something like below. This is the output that needs to be copied in its **entirety**. 
 
-```{text}
+```{text filename="Terminal"}
 # The output looks like this. The characters after ssh-ed25519 will be different for you, however.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm your_email@email.com
 ```
@@ -1045,7 +1045,7 @@ Depending on your system, the following might not be necessary. On most GNU/Linu
 
 **Step 1**: In the command line, start the ssh-agent with this command: 
 
-```{text}
+```{.bash filename="Terminal"}
 eval "$(ssh-agent -s)"
 ```
 
@@ -1067,7 +1067,7 @@ Agent pid 59566
 
 **Step 2**: Add your SSH key to the ssh-agent by typing the entirety of this command:
 
-```{text}
+```{.bash filename="Terminal"}
 ssh-add ~/.ssh/id_ed25519
 ```
 
@@ -1084,7 +1084,7 @@ ssh-add ~/.ssh/id_ed25519. This command tells the ssh-agent to load your SSH key
 
 **Step 1**: “Ask” GitHub at the command line if our connection is accepted with the following code:
 
-```{text}
+```{.bash filename="Terminal"}
 ssh -T git@github.com
 ```
 
@@ -1358,9 +1358,9 @@ The first thing we will do is download a dataset that we can use for practicing 
 
 ## Setting up a small practice project
 
-**Step 2**: Create a new R script `File` > `New File` > `R script` and save it as *myscript.R*. Then add the  code below to your R script.
+**Step 2**: Create a new R script `File` > `New File` > `R script` and save it as *myscript.R*. Then add the code below to your R script.
 
-```{text}
+```{.R filename="myscript.R"}
 mydata = read.csv("example_data.csv")
 plot(mydata$xdata,mydata$ydata)
 ```
@@ -1528,7 +1528,7 @@ Now we want to make some actual changes to practise using Git and to show how Gi
 
 **Step 1**: Add the following code to your existing R script:
 
-```{text}
+```{.R filename="myscript.R"}
 # some guesses for the parameters.
 p1 = 1
 p2 = 0.2
@@ -1558,13 +1558,13 @@ lines(new$xdata,predict(fit,newdata=new))
 
 Change the line
 
-```{text}
+```{.R filename="myscript.R"}
 plot(mydata$xdata,mydata$ydata)
 ```
 
 to 
 
-```{text}
+```{.R filename="myscript.R"}
 plot(mydata$xdata,mydata$ydata,col='red')
 ```
 
@@ -1788,7 +1788,7 @@ A README file is a short document that explains what your R project is about and
 
 **Step 1**: In RStudio, click on `File` > `New File` > `Text File`. Add the following text to the file and save it as **README.md**:
 
-```{text}
+```{.md filename="README.md"}
 # My Example Repo
 
 This repo is used to demonstrate GitHub to users of R and R Studio.
@@ -2075,7 +2075,7 @@ ggplot(athletes, aes(x = Year, y = Athletes)) +
 
 Example code:
 
-```{text}
+```{.R filename="R Console"}
 data <- read.csv("data.csv")
 head(data)
 summary(data)
