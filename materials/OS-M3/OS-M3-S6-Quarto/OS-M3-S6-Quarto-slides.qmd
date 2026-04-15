@@ -135,26 +135,50 @@ Make sure to have a recent version of [R](https://www.r-project.org/) (Version 4
 
 ## Before we start: Survey time!
 
-Click on the following link or scan the QR code to test your prior Quarto knowledge:
-[Quarto Survey](https://partici.fi/62360222)
-
-![](images/00_particify.png){fig-align="center" width="20%" fig-alt="An image of a QR code that leads to a survey."}
-
-::: callout-note
-## Starting Survey
-
-Please complete survey labeled "OS-M3-S6-Quarto_starting_survey".
-:::
 
 ::: {.notes}
 **Presenter Notes**: Let's start the session by gauging where our Quarto skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
 
 **Instructor Notes**: 
 
--  **Aim**: the pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
+-  **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
 
-- Use free survey software such as particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides. 
+- Use free survey software such as Particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides. 
 :::
+
+---
+
+**On a scale of 1 to 5, what is your level of familiarity with Quarto (e.g., Quarto concepts, tools within Quarto)? (1 = Not familiar at all, 5 = Very familiar)**
+
+a. 1
+
+b. 2
+
+c. 3
+
+d. 4
+
+e. 5
+
+---
+
+
+**Which of the following concepts or skills do you feel most confident about when using Quarto? (Select all that apply)**
+
+a. Creating and rendering basic Quarto documents (.qmd)
+
+b. Using YAML headers to customize document settings (e.g., title, author names, output format)
+
+c. Embedding R or Python code chunks and viewing output
+
+d. Producing PDF, HTML or Word documents with Quarto
+
+e. Using Quarto in combination with version control (e.g., Git, GitHub)
+
+f. Including citations and bibliographies via a citation manager
+
+g. None of the above
+
 
 ---
 
@@ -175,7 +199,7 @@ What do we see in the results?
 
 - **Aim**: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers.
 
-**Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
+**Accessibility Tip**: This survey cannot be completed in an asynchronous setting. 
 :::
 
 ---
@@ -359,70 +383,35 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 ## So, why Quarto?
 
 <!-- TODO:
-Comment Felix: Not sure if this side A / side B comparison is the relevant one. Isn't the actual comparison that of a separate code file and a MS Word manuscript, where it is unclear which result comes from which computation? So, the step of integrating both code and narrative text is the crucial one. Comparing the "raw quarto code view" with the "rendered Quarto view" is a bit pointless for me.
+Comment Felix: Not sure if this side A / side B comparison is the relevant one. Isn't the actual comparison that of a separate code file and a MS Word manuscript, where it is unclear which result comes from which computation? So, the step of integrating both code and narrative text is the crucial one. Comparing the "raw quarto code view" with the "rendered Quarto view" is a bit pointless for me. SvG: agreed, changed it into a table and put emphasis more on the workflow differences. 
  -->
 
-1. **Readability**: Research is more **accessible** when results, explanations, and code are presented in a way that is easy to read and understand.
+1. **Readability**: Research is more **accessible** when text, analyses, results and code are combined within the same document
 
-<div style="font-size: .7em;">
-Take a look at these 2 examples. Which side is easier to read?
-</div>
 
-<div style="font-size: 0.6em;">
-::: columns
-::: {.column width="50%"}
-*Side A*
+| Step            | Traditional workflow | Quarto workflow |
+| --------------- | -------------------- | --------------- |
+| Write text      | e.g., in an MS Word  document   | Same file       |
+| Run analysis    | e.g., in a code editor     | Same file       |
+| Insert results  | Copy-paste results         | Automatic       |
+| Generate figure  | in statistical programme          | Same file |
+| Update results  | Manual redo          | Re-run document |
+| Update figure  | Manual redo          | Re-run document |
 
-`````{.textbox}
-With **Quarto**, combine into *one single document*:
-
-- text 
-- media
-- code
-
-For example, easily calculate and display the difference between two sets:
-
-```r
-set1 <- c(6.8, 7.0, 6.9)
-set2 <- c(7.6, 7.9, 7.8)
-
-mean(set2) - mean(set1)
-```
-`````
-
-:::
-::: {.column width="50%"}
-*Side B*
-
-With **Quarto**, combine into *one single document*:
-
-- text 
-- media
-- code
-
-For example, easily calculate and display the difference between two sets:
-
-```{r}
-set1 <- c(6.8, 7.0, 6.9)
-set2 <- c(7.6, 7.9, 7.8)
-
-mean(set2) - mean(set1)
-```
-:::
-::::::
-
-</div>
 
 ::: {.notes}
-**Presenter Notes**: Let's first answer the question, "How can using Quarto solve common challenges in research?" Research can be messy and scattered sometimes, especially when you want to use different elements like text, code, and media. This is where Quarto comes in! It brings these elements together where we can type, run code, embed media, and cite literature all in one place. On the left, we see the raw source with markup and code mixed in, which is harder to scan. On the right, Quarto renders the same content into readable text and a clear result, making it much easier to understand at a glance.
+**Presenter Notes**: Let's first answer the question, "How can using Quarto solve common challenges in research?" Research can be messy and scattered sometimes, especially when you want to use different elements like text, code, and media. Researchers often follow a copy-paste workflow, whereby the produce for example a figure with a particular program, then copy the figure over to the manuscript, perhaps in MS word. _so, the results are being explicitly moved to the document. If the results are updated, you have to recompile the figure and re-paste it into the manuscript. This workflow, as you can imagine, is more error prone since it involves a lot of manual labor. 
 
-**Instructor Notes**: Frame Quarto as the solution to the problem of hard-to-read papers and bodies of work that attempt to integrate text, code, and media with no standard format. This slide demonstrates how Quarto separates source from presentation. The left side shows what the author writes, while the right side shows what the reader sees as a rendered Quarto output.
+This is where Quarto comes in! It brings these elements together where we can type, run code, embed media, and cite literature all in one place. In other words, with Quarto, the code that generates results (tables, figures, statistics) lives inside the same document as the text of the manuscript. Here, results are generated inside the document. Analyses are computed in the same document, results and figures are updated automatically, no copy-paste approach. 
+
+**Instructor Notes**: Frame Quarto as the solution to the problem of hard-to-read papers and bodies of work that attempt to integrate text, code, and media with no standard format. Emphasize that the purpose of Quarto is to reduce copy-paste errors or error coming from manual labour.
 :::
 
 ---
 
 ## So, why Quarto?
 
+:::incremental
 2. **Reproducibility**: Research is more **reliable** when others can clearly see how results were produced and reproduce them from the original code and data.
 
 <div style="font-size: 0.9em;">
@@ -438,6 +427,8 @@ mean(set2) - mean(set1)
 - Ensures results are regenerated directly from the underlying code  
 - Supports transparent and shareable research workflows
 </div>
+
+:::
 
 ::: {.notes}
 **Presenter Notes**: Inconsistency and scattered files can also be an obstacle when sharing and ensuring your work is reproducible. One of the main challenges in research is that results are often disconnected from the code and data that produced them. As analyses evolve, it’s easy for reported results to become outdated or inconsistent. Quarto helps address this by keeping text, code, and results together, so outputs are always generated from the same analysis and are easier to share and reproduce.
@@ -566,7 +557,6 @@ These are the steps to **create a Quarto Document** in RStudio:
 
 ::: callout-tip
 ## Why make a new folder?
-
 Creating a folder on your device helps you stay organized! Keeping all the files (such as Quarto documents and images) in one designated folder makes it easier for you to store and retrieve all materials related to the project or exercise. 
 :::
 
@@ -989,18 +979,8 @@ Here's a quick recap of what we have learned in this lesson so far:
 
 ---
 
-## Pre-break quiz
+## Pre-break quiz: Your turn!
 
-Click on the following link or scan the QR code to review some items covered in this lesson so far:
-[Quarto Survey](https://partici.fi/06396725)
-
-![](images/00_particify.png){fig-align="center" width="20%" fig-alt="An image of a QR code that leads to a survey."}
-
-::: callout-note
-## Pre-break quiz
-
-Please complete quiz labeled "OS-M3-S6-Quarto_prebreak_quiz".
-:::
 
 ::: {.notes}
 **Presenter Notes**: Before the break, let's take a moment to review the things we covered in the first part of this lesson. This survey has a few simple recap questions about what we’ve learned so far about using Quarto. The goal isn’t to test you, but to help you reflect on what you’ve learned and for me to see if anything needs a bit more clarification.
@@ -1008,6 +988,43 @@ Please complete quiz labeled "OS-M3-S6-Quarto_prebreak_quiz".
 **Instructor Notes**: Aim: This pre-break survey serves to examine students' current understanding of key concepts of the submodule <br>
 - Use free survey software such as or other survey software (Menti, particify, formR) to establish the following questions. It's important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson.
 :::
+
+---
+
+**What's the typical format of Quarto Markdown document?**
+
+a. .png file
+
+b. .qmd file
+
+c. .docx file
+
+d. .mp3 file
+
+
+---
+
+**In a Quarto document, what is the YAML header?**
+
+a. Summarizes the document into a single line
+
+b. A place inside the Quarto document to store notes
+
+c. The title of the document
+
+d. The "settings" of the document
+
+---
+
+**In a Quarto document, which component is primarily responsible for formatting narrative text (e.g., headings, bold text, lists, and paragraphs)?**
+
+a. Markdown text
+
+b. YAML header
+
+c. Code chunks
+
+d. All of the above
 
 ---
 
@@ -1333,7 +1350,8 @@ You can change the citation style by using Citation Style Language (csl) files d
 
 ## Publishing
 
-**What is publishing with Quarto?** <br>
+**What is publishing with Quarto?** 
+<br>
 
 :::incremental
 = the process of sharing the rendered documents or projects online so it can become accessible to others.
@@ -1354,9 +1372,7 @@ Here is a [link for a list of publishing services and more information](https://
 ::: {.notes}
 **Presenter Notes**: Publishing in Quarto is all about making your work accessible to others. Once you have created and rendered your document, you can share it online so that collaborators, students, or the wider community can view it. Quarto supports multiple publishing options, including GitHub Pages, your own personal website or Quarto Pub.
 
-**Instructor Notes**: Keep in mind that the key takeaway here is publishing turns your local work into something that can be accessed from anywhere. 
-
-What is Quarto Pub? It's is a free publishing service for content created with Quarto.
+**Instructor Notes**: Keep in mind that the key takeaway here is publishing turns your local work into something that can be accessed from anywhere. What is Quarto Pub? It's is a free publishing service for content created with Quarto.
 :::
 
 ---
@@ -1747,16 +1763,7 @@ After learning about Quarto in today's lesson, use this homework assignment to:
 
 Let's end this session with a short quiz on topics covered in this lesson. 
 
-Click on the following link or scan the QR code to do one final review of this lesson:
-[Quarto Survey](https://partici.fi/62360222)
 
-![](images/00_particify.png){fig-align="center" width="20%" fig-alt="An image of a QR code that leads to a survey."}
-
-::: callout-note
-## Finishing quiz
-
-Please complete survey labeled "OS-M3-S6-Quarto_finishing_quiz".
-:::
 
 ::: {.notes}
 **Presenter Notes**: To end this lesson, let's use this survey to see where we stand in our knowledge of Quarto and what we can focus on more moving forward to become more proficient in literate programming with it. 
@@ -1767,12 +1774,88 @@ Please complete survey labeled "OS-M3-S6-Quarto_finishing_quiz".
 
 ---
 
+**On a scale of 1 to 5, what is your level of familiarity with Quarto now after the session (e.g., Quarto concepts, tools within Quarto)? (1 = Not familiar at all, 5 = Very familiar)**
+
+a. 1
+
+b. 2
+
+c. 3
+
+d. 4
+
+e. 5
+
+
+---
+
+**Which of the following best describes Quarto?**
+
+a. quarto is a programming language
+
+b. Quarto is a publishing system for reproducible documents
+
+c. Quarto is a code editor
+
+d. Quarto is a version control system
+
+---
+
+**Which components are combined in the authoring process of Quarto documents?**
+
+a. Only YAML
+
+b. Only Markdown
+
+c. Both YAML and Markdown
+
+d. None of the above
+
+---
+
+**Which of these are examples of Markdown text formatting? (Select all that apply)**
+
+
+a. Bold text
+
+b. Code chunks
+
+c. Hyperlinks
+
+d. Italic text
+
+---
+
+**What is the purpose of code chunks in Quarto documents?**
+
+a. To include executable code and results within the document
+
+b. To hide metadata
+
+c. To insert references at the end of the document
+
+d. To format text in a clear and concise manner
+
+---
+
+**Why is including code in research documents important?**
+
+a. To make the document more difficult to read
+
+b. To ensure only the author can reproduce results
+
+c. To replace data collection
+
+d. To make research reproducible and transparent
+
+---
+
 ## Discussion of survey results
 
 ::: {.notes}
 **Presenter Notes**: To end off, we can use the answers from this survey to see how much we know about Quarto after this lesson and where we should focus and explore more moving forward if we are to become proficient in using it. 
 
-**Instructor Notes**: If there's still time, briefly examine the answers given to each question interactively with the group to compare and highlight specific differences in answers between pre- and post-survey answers
+**Instructor Notes**: If there's still time, briefly examine the answers given to each question interactively with the group to compare and highlight specific differences in answers among the group.
 :::
 
 ---
@@ -1824,11 +1907,5 @@ See you next class :)
   - [Information on conceptual change theory](https://www.researchgate.net/publication/255659929_Conceptual_change_A_powerful_framework_for_improving_science_teaching_and_learning)
 - **Other resources**
   - [Video on crafting presentations with R and Quarto](https://www.youtube.com/watch?v=01KifhHDkFk)
-
----
-
-## CREDiT Contribution Statement - TO DO
-
-**Elizabeth Waterfield**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Project Administration, Validation. **Malika Ihle**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
 
 ---
