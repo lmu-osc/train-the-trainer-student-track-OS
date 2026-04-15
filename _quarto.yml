@@ -17,6 +17,9 @@ website:
     style: "docked"
     collapse-level: 1
     contents:
+      - section: "Test repository for separate slides and materials"
+        contents:
+          - href: materials/test-separate-repo/test-repo/test-repo-landing-page.qmd # fictional slides to test repository structure and external embedding of url
       - section: "Template Module"
         contents:
           #- href: materials/OS-template-module/OS-template.qmd

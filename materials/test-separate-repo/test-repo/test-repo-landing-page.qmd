@@ -1,0 +1,58 @@
+---
+title: "Test landing page for separate slide repository"
+---
+
+> I hope this works. 
+
+
+[Click here to see the materials in full Screen](https://lmu-osc.github.io/train-the-trainer-test-repo-separate-slides/test-slides.html)
+
+```{=html}
+<iframe 
+  src="https://lmu-osc.github.io/train-the-trainer-test-repo-separate-slides/test-slides.html" 
+  width="100%" 
+  height="600px">
+</iframe>
+```
+
+
+## Supplementary files - TO DO
+
+### Practical exercises - solutions
+
+Download the solutions for the practical exercises here: 
+
+{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
+
+### Helpfiles
+
+Download the csv file for the example data: 
+
+{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
+
+ <!-- https://github.com/shafayetShafee/downloadthis -->
+<!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
+
+# Export slides
+
+<!-- You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
+
+{{< downloadthis OS-M3-S4-Git-slides.pptx dname="OS-M3-S4-Git-slides" label="Download slides as PPTX">}}
+
+{{< downloadthis OS-M3-S4-Git-slides.pdf dname="OS-M3-S4-Git-slides" label="Download slides as PDF">}} -->
+
+ <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
+ 
+# Contributors and licence details
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
+This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY-SA-4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) licence. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+</div>
