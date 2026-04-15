@@ -10,7 +10,6 @@
   <meta name="generator" content="quarto-1.9.37">
 
   <meta name="author" content="LMU Open Science Center">
-  <meta name="dcterms.date" content="2026-12-04">
   <title>Educational resources for teaching Open Research to novices – Introduction to version control with Git in RStudio</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -208,7 +207,7 @@ LMU Open Science Center
 </div>
 </div>
 
-  <p class="date">12/04/2026</p>
+  <p class="date">15/04/2026</p>
 </section>
 <section class="slide level2">
 
@@ -229,10 +228,11 @@ Possible future improvements:
 <img src="images/cc-by-sa.png" alt="Creative Commons Attribution 4.0" style="width:160px;">
 </p>
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-<p>This work was originally created by <a href="https://github.com/mikecroucher">Mike Croucher</a> under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. It was subsequently adapted by <a href="https://www.osc.uni-muenchen.de/about_us/coordinator/index.html">Malika Ihle</a> during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International SA License</a>. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p>
+<p>This work was originally created by <a href="https://github.com/mikecroucher">Mike Croucher</a> under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International License</a>. It was subsequently adapted by <a href="https://www.osc.uni-muenchen.de/about_us/coordinator/index.html">Malika Ihle</a> during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner, Felix Schönbrodt and Malika Ihle is licensed under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International SA License</a>. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p>
+<p>Code snippets are dedicated to the public domain and licenced under a CC0 1.0 <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Universal Licence</a>. You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.</p>
 </div>
 <aside class="notes">
-<p><strong>Presenter Notes</strong>: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.</p>
+<p><strong>Presenter Notes</strong>: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 licence. With a CC0 licence users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -251,6 +251,7 @@ Possible future improvements:
 <p><strong>Creator</strong>: Von Grebmer zu Wolfsthurn, Sarah (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"><a href="https://orcid.org/0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
 <p><strong>Reviewer</strong>: Schönbrodt, Felix (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"><a href="https://orcid.org/0000-0002-8282-3910">0000-0002-8282-3910</a>)</p>
 <p><strong>Consultant</strong>: Edelsbrunner, Peter (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"><a href="https://orcid.org/0000-0001-9102-1090">0000-0001-9102-1090</a>)</p>
+<p><strong>Consultant</strong>: Ihle, Malika (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/0000-0002-3242-5981">0000-0002-3242-5981</a>)</p>
 <aside class="notes">
 <p><strong>Presenter Notes</strong>: These are the <strong>presenter notes</strong>. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter.</p>
 <p><strong>Instructor Notes</strong>: There are also <strong>instructor notes</strong>. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.</p>
@@ -434,10 +435,7 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 <ul>
 <li><strong>Aim</strong>: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)</li>
 </ul>
-<p><strong>Accessibility Tips</strong>:</p>
-<ul>
-<li>Place an emphasis on the <strong>verbs</strong> of the learning goals and choose verbs that align with the skills you want to develop or assess.</li>
-</ul>
+<p><strong>Accessibility Tips</strong>: Place an emphasis on the <strong>verbs</strong> of the learning goals and choose verbs that align with the skills you want to develop or assess.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -576,6 +574,9 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 </div>
 </div>
 </div>
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+<p>Image created with generative AI.</p>
+</div>
 <aside class="notes">
 <p><strong>Presenter Notes</strong>: Here is once again our student, who is the victim of one of the most common threats to good science: hardware failure. It could be a coffee spill, a dropped laptop, a lost USB drive, or a hard disk crash, all different flavors of the same disaster and very realistic scenarios in student and researcher life.</p>
 <p><strong>Instructor Notes</strong>: Describe an example from your own research or student career and describe the impact it had at the time. This is another reason why version control systems like Git, especially when used with remote hosting services such as GitHub, are so powerful. They do not just track your changes; they back up your work in multiple locations, so even if your laptop meets an unfortunate end, your work does not.</p>
@@ -595,7 +596,10 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 <h2>Challenge 3: “What on earth did I do again..?”</h2>
 <p>Projects evolve, it is easy to <strong>forget</strong> what we last changed or did on the project.</p>
 
-<img data-src="images/11_Confused.png" class="quarto-figure quarto-figure-center r-stretch" style="width:20.0%" alt="hardware fails"><aside class="notes">
+<img data-src="images/11_Confused.png" class="quarto-figure quarto-figure-center r-stretch" style="width:20.0%" alt="hardware fails"><div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+<p>Image created with generative AI.</p>
+</div>
+<aside class="notes">
 <p><strong>Presenter Notes</strong>: This might yet be another problem that could be familiar to some of you: You have a new assignment and it reminds you of an old assignment. You decide to copy that folder over but are now wondering what the last thing you did was and how you solved the assignment last time. Sometimes it takes months or years until you come back to your old project, and it is almost impossible to remember why we made certain changes, what data we used, or how the results were produced, especially if all we have are scattered files in random folder with no context.</p>
 <p><strong>Instructor Notes</strong>: Additional presenter notes for clarity: We’ve all opened an old project and thought, “What was I even doing here?” Without clear records, it’s impossible to remember how results were produced or why changes were made. This is where Git comes in, because changes are tracked and years later, you see exactly what you did and why.</p>
 <style type="text/css">
@@ -614,7 +618,10 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 <h2>Challenge 4: “But I just wanted to try to …”</h2>
 <p>Especially with coding, trying new ideas can <strong>break</strong> your code.</p>
 
-<img data-src="images/12_crashed_PC.png" class="quarto-figure quarto-figure-center r-stretch" style="width:30.0%" alt="burning PC"><aside class="notes">
+<img data-src="images/12_crashed_PC.png" class="quarto-figure quarto-figure-center r-stretch" style="width:30.0%" alt="burning PC"><div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+<p>Image created with generative AI.</p>
+</div>
+<aside class="notes">
 <p><strong>Presenter Notes</strong>: This is another situation that some of you may recognise: we are working on some code, we make a “small” change to try something new or to add a small new feature and suddenly nothing works anymore.</p>
 <p><strong>Instructor Notes</strong>: Without version control, it is hard to get back to a working state or see what went wrong. Git makes this safe: you can experiment on a branch, and if it fails, simply return to the last working version.</p>
 <style type="text/css">
@@ -1108,11 +1115,9 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 <section id="checking-for-existing-ssh-key-pair-2" class="slide level2">
 <h2>Checking for existing SSH key pair</h2>
 <p><strong>Step 3</strong>: If there are existing ssh keys, they are named one of the following:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>id_rsa.pub</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>id_rsa.pub</span>
 <span id="cb4-2"><a></a>id_ecdsa.pub</span>
 <span id="cb4-3"><a></a>id_ed25519.pub</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -1185,9 +1190,12 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 <h2>Generating a new SSH key pair</h2>
 <p><strong>Step 2</strong>: When prompted to <em>Enter a file in which to save key</em>, press ENTER to accept the default file location. That should give you this prompt:</p>
 <p><br></p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>Generating public/private ed25519 key pair.  </span>
-<span id="cb6-2"><a></a>Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Terminal</strong></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a></a><span class="ex">Generating</span> public/private ed25519 key pair.  </span>
+<span id="cb6-2"><a></a><span class="ex">Enter</span> file in which to save the key <span class="er">(</span><span class="ex">/Users/username/.ssh/id_ed25519</span><span class="kw">)</span><span class="bu">:</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <aside class="notes">
 <p><strong>Presenter Notes</strong>: In the next step, When prompted to <em>Enter a file in which to save key</em>, press ENTER to accept the default file location. That should give you this prompt you see in these slides: Generating public/private ed25519 key pair.<br>
@@ -1553,9 +1561,7 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a></a><span class="bu">eval</span> <span class="st">"</span><span class="va">$(</span><span class="fu">ssh-agent</span> <span class="at">-s</span><span class="va">)</span><span class="st">"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>This should give you this:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb12-1"><a></a>Agent pid 59566</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb12-1"><a></a>Agent pid 59566</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <aside class="notes">
 <p><strong>Presenter Notes</strong>: Call up the ssh-agent and add this command. Compare your output to the output above. The command starts the ssh-agent in the background and sets up the necessary environment variables, allowing it to manage your SSH keys, ensuring they are available for authentication without requiring you to enter your passphrase each time you connect to a remote server or GitHub.</p>
 <p><strong>Instructor Notes</strong>: Follow along with your learners and check in regularly for issues.</p>
@@ -1622,9 +1628,12 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <section id="testing-the-github-connection-1" class="slide level2">
 <h2>Testing the GitHub connection</h2>
 <p><strong>Step 2</strong>: When asked about <em>fingerprinting</em>, type <em>yes</em>, then press ENTER to receive this output:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb15-1"><a></a>&gt; Hi USERNAME! You've successfully authenticated, but GitHub does not</span>
-<span id="cb15-2"><a></a>&gt; provide shell access.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Terminal</strong></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a></a><span class="op">&gt;</span> Hi <span class="ex">USERNAME!</span> You<span class="st">'ve successfully authenticated, but GitHub does not</span></span>
+<span id="cb15-2"><a></a><span class="st">&gt; provide shell access.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><br> <br></p>
 <div class="callout callout-important callout-titled callout-style-default">
@@ -2413,9 +2422,7 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <section id="connecting-the-local-repository-to-github-5" class="slide level2">
 <h2>Connecting the local repository to GitHub</h2>
 <p><strong>Step 6</strong>: Paste the git commands from your clipboard into the terminal and press enter to execute them. Insert your SSH passphrase if prompted or type</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb21-1"><a></a>yes</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb21-1"><a></a>yes</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>when a sentence about continuing to connect appears in the terminal.</p>
 
 <img data-src="https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/first_push_confirm_identity.png" class="quarto-figure quarto-figure-center r-stretch" alt="Confirm connection with GitHub" width="200"><aside class="notes">
