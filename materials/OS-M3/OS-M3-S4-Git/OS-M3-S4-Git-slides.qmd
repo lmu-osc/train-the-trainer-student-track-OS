@@ -46,11 +46,14 @@ Possible future improvements:
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+This work was originally created by [Mike Croucher](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner, Felix Schönbrodt and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
 </div>
 
 ::: {.notes}
 **Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+Code snippets are dedicated to the public domain and licenced under a CC0 1.0 licence. With a CC0 licence users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
 :::
 
 ---
@@ -65,6 +68,8 @@ This work was originally created by [Mike Croucher ](https://github.com/mikecrou
 
 **Consultant**: Edelsbrunner, Peter (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
 
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
 ::: {.notes}
 **Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
 
@@ -74,7 +79,6 @@ This work was originally created by [Mike Croucher ](https://github.com/mikecrou
 :::
 
 ---
-
 
 ## Prerequisites
 
@@ -204,10 +208,7 @@ Any remaining questions about the most recent content and/or practical exercises
 - **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
 
 
-**Accessibility Tips**:
-
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-
+**Accessibility Tips**: Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
 :::
 
 ---
@@ -254,7 +255,6 @@ Compare the descriptions provided by the learners: Are there any visible diverge
 - **GitHub**: GitHub is a cloud-based platform built on top of Git that facilitates version control and collaboration. It hosts Git repositories online, making it easy to share your code with others, contribute to open-source projects, and track issues or bugs. GitHub offers additional features like pull requests, which allow collaborators to propose changes to a project and review those changes before they are merged into the main codebase. It also provides tools for project management, documentation, and continuous integration, making it an essential tool for modern software development and collaboration.
 
 - **Repositories**: Git terminology for a folder whose content is tracked by Git
-
 :::
 
 ---
@@ -299,7 +299,7 @@ What is your current **document naming and management** strategy?
 ::: {.notes}
 **Presenter Notes**: So here we see our typical student — they’ve got 100 versions of the same file on their laptop. This might look funny, but we have all been there, whether it’s a paper draft, a dataset, or an analysis script. File and data management is hard, and we have to somehow juggle multiple versions of files, so it is easy to lose track of which version is the “right” one.
 
-**Instructor  Notes**: Adjust the example to tailor it to the main file type of your audience. Perhaps even show your own data organisation system from a project from many years ago to make learners relate more. Ask for volunteers to describe their current document management strategies.
+**Instructor Notes**: Adjust the example to tailor it to the main file type of your audience. Perhaps even show your own data organisation system from a project from many years ago to make learners relate more. Ask for volunteers to describe their current document management strategies.
 :::
 
 ---
@@ -313,6 +313,10 @@ Laptop dies, files are accidentally deleted.
 ::: {.callout-note}
 Mentally raise your hand if this happened to you before.
 :::
+
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Image created with generative AI.
+</div>
 
 ::: {.notes}
 **Presenter Notes**: Here is once again our student, who is the victim of one of the most common threats to good science: hardware failure. It could be a coffee spill, a dropped laptop, a lost USB drive, or a hard disk crash, all different flavors of the same disaster and very realistic scenarios in student and researcher life. 
@@ -328,6 +332,10 @@ Projects evolve, it is easy to **forget** what we last changed or did on the pro
 
 ![](images/11_Confused.png){fig-align=center width=20% fig-alt="hardware fails"}
 
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Image created with generative AI.
+</div>
+
 ::: {.notes}
 **Presenter Notes**: This might yet be another problem that could be familiar to some of you: You have a new assignment and it reminds you of an old assignment. You decide to copy that folder over but are now wondering what the last thing you did was and how you solved the assignment last time. Sometimes it takes months or years until you come back to your old project, and it is almost impossible to remember why we made certain changes, what data we used, or how the results were produced, especially if all we have are scattered files in random folder with no context.
 
@@ -342,6 +350,9 @@ Especially with coding, trying new ideas can **break** your code.
 
 ![](images/12_crashed_PC.png){fig-align=center width=30% fig-alt="burning PC"}
 
+<div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
+Image created with generative AI.
+</div>
 
 ::: {.notes}
 **Presenter Notes**: This is another situation that some of you may recognise: we are working on some code, we make a "small" change to try something new or to add a small new feature and suddenly nothing works anymore.
@@ -728,7 +739,7 @@ To do this, open your terminal (or Git Bash on Windows) and enter the following 
 
 **Step 3**: If there are existing ssh keys, they are named one of the following:
 
-```{text}
+```text
 id_rsa.pub
 id_ecdsa.pub
 id_ed25519.pub
@@ -779,7 +790,7 @@ Pay close attention to spacing and capital letters while typing.
 
 <br>
 
-```{text}
+```{.bash filename="Terminal"}
 Generating public/private ed25519 key pair.  
 Enter file in which to save the key (/Users/username/.ssh/id_ed25519):
 ```
@@ -1022,7 +1033,7 @@ eval "$(ssh-agent -s)"
 
 This should give you this:
 
-```{text}
+```text
 Agent pid 59566
 ```
 
@@ -1070,7 +1081,8 @@ ssh -T git@github.com
 ## Testing the GitHub connection
 
 **Step 2**: When asked about *fingerprinting*, type *yes*, then press ENTER to receive this output: 
-```{text}
+
+```{.bash filename="Terminal"}
 > Hi USERNAME! You've successfully authenticated, but GitHub does not
 > provide shell access.
 ```
@@ -1131,7 +1143,6 @@ With these steps complete, **your Git and GitHub setup is now secure and ready t
 ## Pre-break survey
 
 Brief check-in: **Your Turn!**
-
 
 ::: {.notes}
 **Presenter Notes**: Before we head into the break, let us do a quick check-in to see where we are at. Scan this QR code and select the pre-break survey option. Answer a few questions to check your current understanding of version control and the topics we discussed in this first part of the class. 
@@ -1697,7 +1708,7 @@ Once you have copied the commands, you can paste them into your terminal to comp
 
 **Step 6**: Paste the git commands from your clipboard into the terminal and press enter to execute them. Insert your SSH passphrase if prompted or type 
 
-```{text}
+```text
 yes
 ```
 
@@ -2189,4 +2200,3 @@ Some general pointers on where learners could run into issues:
 - **Mistyping the Git commands**: Correct spelling (including spaces) matters, else Git will not recognize the command
 
 ---
-
