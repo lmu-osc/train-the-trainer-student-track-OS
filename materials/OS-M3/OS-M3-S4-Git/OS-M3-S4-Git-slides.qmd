@@ -236,8 +236,8 @@ Compare the descriptions provided by the learners: Are there any visible diverge
 :::incremental
 - **Reproducible workflows**: Structured process ensuring that the methods can be consistently repeated by others using the same approach, data and tools
 - **RStudio Project**: A way to store all files related to one R project in one place (R scripts, files, workspace, history, ...) via a so-called .Rproj file
-- **Git**: Version control system that tracks and manages changes to files and code [(an open source tool)]{.notes}
-- **GitHub**: Cloud-based version control platform for hosting Git repositories which includes collaboration features [(a free but commercial platform owned by Microsoft)]{.notes}
+- **Git**: Version control system that tracks and manages changes to files and code [(an open source tool)]{.note}
+- **GitHub**: Cloud-based version control platform for hosting Git repositories which includes collaboration features [(a free but commercial platform owned by Microsoft)]{.note}
 - **Repositories**: Git terminology for a folder where the contents of the folder are being tracked by Git
 :::
 
