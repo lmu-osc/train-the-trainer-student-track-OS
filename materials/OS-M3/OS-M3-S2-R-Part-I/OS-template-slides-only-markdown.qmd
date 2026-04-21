@@ -94,26 +94,24 @@ Consider pairing students if someone does not have the software installed.
 
 ---
 
+## Questions from previous submodule?
+
+---
+
 ## Before we start: Survey time!
 
-**Where are we at?**
 <br>
-<br>
-Click on the following link or scan the QR code to test your prior R knowledge:
-[ADD LINK R Survey](https://www.menti.com/al367833ss3g)
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Add link from particify https://ars.particify.de/login for this by creating your own room for this tutorial, also make a QR code for this</span>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+**Let us find out where are you at!**
+
 </div>
 
-
 ::: {.notes}
-**Presenter Notes**: Script for the slide here.  
-
-**Instructor Notes**:  
-
-- **Aim**: The pre-submodule survey serves to examine learners' prior knowledge about the submodule's topic.
-- Use free survey software such as particify or formR to establish the following questions (shown on separate slides).
+**Speaker Notes**: 
+- Aim: the pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
+- Use free survey software such as particify or formR to establish this. You can use the example survey, edit it or create your own.
 :::
 
 ---
@@ -161,9 +159,13 @@ e. 5
 
 ## Discussion of survey results
 
-  
-  
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
 What do we see in the results?
+
+</div>
 
 ::: {.notes}
 **Presenter Notes**: Let us have a look at these results. 
@@ -177,51 +179,16 @@ What do we see in the results?
 
 ---
 
-## Where are we at?
-
-**Previously**:
-
-- Point 1
-- Point 2
-
-**Up next**:
-
-- Point 1
-- Point 2
-
-
-::: {.notes}
-**Presenter Notes**: Script for the slide here.
-
-**Instructor Notes**:  
-
-- **Aim**: Place the topic of the current submodule within a broader context.
-- Remind learners what you are working towards and what the bigger picture is.
-:::
-
----
-
-## Covered in this session
-
-- **Aim**: This slides serves as an overview of the topics that are discussed, presented as bullet point:
-- Topic 1
-- Topic 2
-- Topic 3
-
-::: {.notes}
-**Presenter Notes**: Script for the slide here. 
-:::
-
----
-
 ## Learning goals
 
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
-
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-- Examples: 
-  - Learners will **describe** the process of photosynthesis or
-  - Learners will **construct** a diagram illustrating the process of photosynthesis
+::: incremental
+- To **identify** key components of the RStudio interface (e.g., Console, Environment, Script, and Plots panes).
+- To **explain** the difference between basic data types in R (numeric, character, logical, integer).
+- To **execute** basic mathematical and logical operations in the R using appropriate operators.
+- To **differentiate** between valid and invalid R operations and interpret resulting error messages.
+- To **assess** the correctness of logical expressions by predicting and verifying whether given R statements return TRUE or FALSE.
+- To **construct** a simple R script that includes object assignment, at least one mathematical operation, and comments.
+:::
   
 ::: {.notes}
 **Presenter Notes**: Script for the slide here.
@@ -254,6 +221,10 @@ What do we see in the results?
 
 **Instructor  Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
 :::
+
+---
+
+# Basic Introduction to R
 
 ---
 
@@ -358,29 +329,8 @@ Here, you can see a table with the most important mathematical operators in R.
 ::: {.notes}
 **Speaker Notes**: We've already arrived at our second exercise.
 Use the console in RStudio to execute the mathematical operations you see on this slide.
-
+Solutions: 1- 29; 2- 72.66667; 3- 127449
 *Optional*: live demonstration of what it looks like to run code from the console
-:::
-
----
-
-## Practical exercise 2 - Solution
-
-<br>
-<br>
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: THinking about moving the solutions to the end of the slide deck? What do you think?</span>
-</div>
-
-```{r}
-12+17
-218/3
-357^2
-```
-
-::: {.notes}
-**Speaker Notes**: Great, now you have a first impression of what it's like to use R!
 :::
 
 ---
@@ -436,12 +386,11 @@ You can combine several single statements to longer statements using the logical
 
 ---
 
-## Practica exercise 3: Logical Comparisons
+## Practical exercise 2
 
-`TRUE` or `FALSE`?
+#### `TRUE` or `FALSE`?
 
-Express the following statements in words and evaluate whether they are correct or not.
-Check your answers by running the statements in the console.
+- Express the following statements in words and evaluate whether they are `TRUE` or `FALSE`.
 
 ``` r
 (36 + 5)> 40
@@ -455,25 +404,18 @@ Check your answers by running the statements in the console.
 (5 == (2 + 3)) & (7 >= 8)
 ```
 
-TODO: decide whether there should be another exercise that involves writing code to express a written statement
+::: {.callout-tip}
+*Hint*: Check your answers by running the statements in the console.
+:::
 
 ::: {.notes}
 **Speaker Notes**: ADD HERE
+Solutions: TRUE; TRUE; FALSE
 :::
 
 ---
 
-## Practical exercise 3: Solutions
-
-```{r}
-(36 + 5)> 40
-(4 == 5) | (25 > 17)
-(5 == (2 + 3)) & (7 >= 8)
-```
-
-::: {.notes}
-**Speaker Notes**: ADD HERE
-:::
+# Introduction to Data Types
 
 ---
 
@@ -498,14 +440,14 @@ Depending on which type a variable has, different operations can be performed wi
 
 ## Data types - Operations
 
-Two numeric variables can be summed up:
+- Two numeric variables can be summed up:
 
 ```{r}
 4 + 5 
 
 ```
-
-A numeric and a character variable cannot be summed up:
+<br>
+- A numeric and a character variable cannot be summed up:
 
 ```{r}
 #| error: true
@@ -522,9 +464,9 @@ A numeric and a character variable cannot be summed up:
 
 -   Easy way to save and share code you wrote
 
--   You can run code from an R script by pressing Ctrl + Enter (Windows) or
+-   You can run code from an R script by pressing **Ctrl + Enter** (Windows) or **click on Run**
 
--   To comment your code use `#`, for example:
+-   To add comments to your code use `#`, for example:
 
 ```{r}
 # sum up two numbers: 
@@ -547,7 +489,12 @@ If you want to take notes or write anything that is not code into an R script, t
 ## Creating a new R script
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen2.png" style="width:90%;"/>
+<img src="images/R_screen2.png" style="width:75%;"/>
+:::
+
+::: {.callout-tip}
+## Short exercise
+Create a **new R Script** with only a comment in the first line and save it in a fresh folder.
 :::
 
 ::: {.notes}
@@ -558,22 +505,9 @@ Then you can save it by navigating to File –\> Save or use the shortcut Ctrl +
 
 ---
 
-## Practical exercise 4
-
-Create a new R Script with only a comment in the first line and save it in a fresh folder.
-
-::: {.notes}
-**Speaker Notes**: ADD HERE
-
-:::
-
----
-
 ## Objects and assignment
 
--   Everything in R is an object
-
--   Oftentimes, we want to work with an object repeatedly
+-   Everything in R is an object, and oftentimes, we want to work with an object repeatedly
 
 -   Assign a name to an object using the assignment arrow `<-`
 
@@ -585,6 +519,10 @@ my_number <- 4
 
 -   This saves the value 4 under the name `my_number` in the environment of R Studio
 
+::: {.callout-tip}
+## Short Exercise
+Type ``` my_number <- 4 ``` in a new RStudio file. Run the line and check out the object in the 'Environment' pane.
+:::
 
 ::: {.notes}
 **Speaker Notes**: Everything in R is referred to as an object.
@@ -596,61 +534,31 @@ This is done via assignments.
 
 ---
 
-## Practical Exercise
+## Example of an object in Environment
 
 ::: {.column width="40%"}
-<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:100%;"/>
-:::
-
-::: {.callout-tip}
-## Try It Yourself
-Type ``` my_number <- 4 ``` in a new RStudio file. Run the line and checkout the obejct in the 'Environment' pane.
+<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:200%;"/>
 :::
 
 ---
 
-## TODO:
-
-maybe include instructions on a live demonstration?
-so that participants can see the object "my_number" appear in the environment pane.
-
-TS: 
+# Wrapping Up
 
 ---
 
-## Assigning objects? CHECK TITLE
 
-```{r}
-my_number <- 5
-```
+## Looking into the future
 
-::: {.notes}
-**Speaker Notes**: ADD HERE
-:::
+1. **Take a minute to think about the following questions, first for yourself, then in a pair:**
+ 
+  - Can you identify some **practical benefits** of using Zotero?
 
----
+  - What **obstacles** do you anticipate in using it consistently?
 
-## Vectors, Lists, and Data Frame
+  - How can Zotero support you in your **upcoming projects**?
 
-::: {.notes}
-**Speaker Notes**: ADD HERE
-:::
-
----
-
-## Indexing
-
-::: {.notes}
-**Speaker Notes**: ADD HERE
-:::
-
----
-
-## Relevance and implications
-
-- **Aim**: To work out the relevance of the topic to your learners.
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-- Examine downfalls and practical obstacles.
+ 
+2. **Share your thoughts with the group.**
 
 ::: {.notes}
 **Presenter Notes**: Script for the slide here. 
@@ -668,10 +576,7 @@ my_number <- 5
 
 ## Assignment
 
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-- Examine whether/how it will be assessed
-- Mention scoring rubrics, if applicable
-- Design a peer-review system for assignments to place learners in role of reviewer and author
+- To **construct** a simple R script that includes object assignment, at least one mathematical operation, and comments.
 
 ::: {.notes}
 **Presenter Notes**: Script for the presentation here. 
@@ -691,12 +596,9 @@ my_number <- 5
 
 ## Take-home message
 
-- **Aim**: End lesson on clear take-home message that are interactively compiled by learners.
-
-::: {.callout-tip}
-## Tip with Title
-Add one practical tips or take-home message.
-:::
+- R -> **your go-to tool** for data analysis and quantitative research.
+- RStudio interface -> helps you **organize code, outputs, and data** efficiently.
+- Writing and saving R scripts ensures your work is **reproducible and well-documented**.
 
 ::: {.notes}
 **Presenter Notes**: Script for the slide here. 
@@ -704,6 +606,36 @@ Add one practical tips or take-home message.
 **Instructor Notes**:
 
 - **Aim**: End lesson on clear take-home message that are interactively compiled by learners.
+:::
+
+---
+
+## Learning goals: Check-In
+
+Where are we at?
+
+::: incremental
+- [ ] To **identify** key components of the RStudio interface (e.g., Console, Environment, Script, and Plots panes).
+- [ ] To **explain** the difference between basic data types in R (numeric, character, logical, integer).
+- [ ] To **execute** basic mathematical and logical operations in the R using appropriate operators.
+- [ ] To **differentiate** between valid and invalid R operations and interpret resulting error messages.
+- [ ] To **assess** the correctness of logical expressions by predicting and verifying whether given R statements return TRUE or FALSE.
+- [ ] To **construct** a simple R script that includes object assignment, at least one mathematical operation, and comments.
+:::
+  
+::: {.notes}
+**Presenter Notes**: Script for the slide here.
+
+**Instructor Notes**:  
+
+- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+
+- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
+
+- Examples: 
+  - Learners will **describe** the process of photosynthesis or
+  - Learners will **construct** a diagram illustrating the process of photosynthesis
+  
 :::
 
 ---
@@ -794,6 +726,34 @@ e. 5
 **Presenter Notes**: Script for the slide here. 
 
 **Instructor Notes**: Highlight particularly relevant reading for your learners in bold. 
+:::
+
+---
+
+## Practical exercise 1: Solutions
+
+```{r}
+12+17
+218/3
+357^2
+```
+
+::: {.notes}
+**Speaker Notes**: Great, now you have a first impression of what it's like to use R!
+:::
+
+---
+
+## Practical exercise 2: Solutions
+
+```{r}
+(36 + 5)> 40
+(4 == 5) | (25 > 17)
+(5 == (2 + 3)) & (7 >= 8)
+```
+
+::: {.notes}
+**Speaker Notes**: ADD HERE
 :::
 
 ---
