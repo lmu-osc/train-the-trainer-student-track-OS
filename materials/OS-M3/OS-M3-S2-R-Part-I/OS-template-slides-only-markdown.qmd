@@ -116,7 +116,7 @@ Consider pairing students if someone does not have the software installed.
 
 ---
 
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+**What is your level of familiarity with R and RStudio?**
 
 a. I have never heard of it before.
 
@@ -128,22 +128,8 @@ d. I am very familiar and have worked with it extensively.
 
 ---
 
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
-
----
-
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]?
-(1 = Not comfortable at all, 5 = Very comfortable)**
+**On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio)?** <br>
+*(1 = Not intimidated at all, 5 = Very intimidated)*
 
 a. 1
 
@@ -154,6 +140,18 @@ c. 3
 d. 4
 
 e. 5
+
+---
+
+**Have you used any programming language before?**
+
+a. No, never
+
+b. Yes, a little (e.g., basic commands)
+
+c. Yes, moderately (e.g., small projects)
+
+d. Yes, extensively
 
 ---
 
@@ -203,23 +201,6 @@ What do we see in the results?
   - Learners will **describe** the process of photosynthesis or
   - Learners will **construct** a diagram illustrating the process of photosynthesis
   
-:::
-
----
-
-## Key terms and definitions
-
-- **Aim**: Introduce key terms and definitions that learners will come across throughout the session.
-  
-  
-- **Key Term 1**: Definition
-- **Key Term 2**: Definition
-- **Key Term 3**: Definition
-
-::: {.notes}
-**Presenter Notes**: Add script for slide here.
-
-**Instructor  Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
 :::
 
 ---
@@ -546,7 +527,6 @@ This is done via assignments.
 
 ---
 
-
 ## Looking into the future
 
 1. **Take a minute to think about the following questions, first for yourself, then in a pair:**
@@ -576,7 +556,18 @@ This is done via assignments.
 
 ## Assignment
 
-- To **construct** a simple R script that includes object assignment, at least one mathematical operation, and comments.
+#### Going beyond what you learned
+
+- **Create a short R script that builds on what you just learned**
+  - Assign at least two objects (e.g., numbers)
+  - Perform at least one mathematical operation using those objects (e.g., multiplication)
+  - Use at least one logical comparison to check a condition
+  - Include clear comments ('#') explaining each step
+
+::: {.callout-tip}
+## Self-Assessment
+Use this assignment to assess your learning of, and progress with, R/RStudio; reflect on any challenges you faced and how you overcame them.
+:::
 
 ::: {.notes}
 **Presenter Notes**: Script for the presentation here. 
@@ -642,10 +633,6 @@ Where are we at?
 
 ## To conclude: Survey time!
 
-- **Aim**: This post-submodule survey serves to examine learners' current knowledge about the sumodule's topic.
-- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
-- Use identical questions as in the pre-submodule survey to be able to directly compare
-
 ::: {.notes}
 **Presenter Notes**: Script for the slide here. 
 
@@ -660,7 +647,7 @@ Where are we at?
 
 ---
 
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+**What is your level of familiarity with R and RStudio?**
 
 a. I have never heard of it before.
 
@@ -672,21 +659,8 @@ d. I am very familiar and have worked with it extensively.
 
 ---
 
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
-
----
-
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)**
+**On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio)?** <br>
+*(1 = Not intimidated at all, 5 = Very intimidated)*
 
 a. 1
 
@@ -700,33 +674,33 @@ e. 5
 
 ---
 
-## Discussion of survey results
+**Have you used any programming language before?**
 
-- **Aim**: Briefly examine the answers given to each question interactively with the group.
-- Compare and highlight specific differences in answers between pre- and post-survey answers
+a. No, never
 
-::: {.notes}
-**Presenter Notes**: Script for the slide here.
+b. Yes, a little (e.g., basic commands)
 
-**Instructer Notes**:
+c. Yes, moderately (e.g., small projects)
 
-- **Aim**: Briefly examine the answers given to each question interactively with the group.
-
-- Compare and highlight specific differences in answers between pre- and post-survey answers
-:::
+d. Yes, extensively
 
 ---
 
-## References {.smaller}
+## Discussion of survey results
 
-::: {#refs}
-:::
+<br>
 
-::: {.notes}
-**Presenter Notes**: Script for the slide here. 
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
 
-**Instructor Notes**: Highlight particularly relevant reading for your learners in bold. 
-:::
+What do we see in the results?
+
+</div>
+
+---
+
+# Thanks!
+
+See you next class :)
 
 ---
 
@@ -758,434 +732,11 @@ e. 5
 
 ---
 
-# Thanks!
-
-See you next class :)
-
----
-
 ## Pedagogical add-on tools for instructors
 
 - This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
   - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
   - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
   - Extra exercises for faster learners.	
-
----
-
-## Additional literature for instructors
-
-- References for content
-- References for pedagogical add-on tools	
-- Other resources (videos etc.)	
-
----
-
-# Formatting elements for instructors
-
-- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. 
-
----
-
-## Text with example links
-
-- [Quarto Documentation](https://quarto.org/docs/)
-- [Reveal.js Documentation](https://revealjs.com/)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [GitHub](https://github.com/)
-
----
-
-## Basic text formatting
-
-- **Bold:** `**bold**` → **bold**
-- *Italic:* `*italic*` → *italic*
-- ~~Strikethrough:~~ `~~text~~` → ~~text~~
-- `Inline code:` `` `code` `` → `code`
-- > Blockquote: `> Quote` →  
-  > "This is a quote"
-  
----
-
-## Text with references
-
-- Sample text for adding a reference in brackets [@abele-brehmWerSollProfessur2016]. **Use square brackets in the qmd file.**
-
-- Sample text for adding in text-citation: @abele-brehmWerSollProfessur2016 argue that climate change is accelerating. **No brackets used in the qmd file.** 
-
-
----
-
-## Call-out boxes
-
-::: {.callout-caution}
-Include text here. 
-:::
-
-::: {.callout-warning}
-Include text here. 
-:::
-
-::: {.callout-tip}
-Include text here. 
-:::
-
-::: {.callout-note}
-Include text here. 
-:::
-
----
-
-## Figure (centered) with caption
-
-![This is a Penguin.](images/penguin.png "A penguin standing on ice")
-
-
-
-::: {.notes}
-**Note for pptx template**: Images are usually centered by default in PPTX output.
-However, the font size and the image size must be controlled in the PowerPoint template, not in Markdown. The text in quotes represents the alt text that is visible when hovering over the image in the slides. The alt text does *not* appear in the pptx and has to be added manually in PowerPoint.
-:::
-
----
-
-## Figure with specific width and height - not possible for pptx
-
-![This is a seal](images/seal.png "An image of a seal")
-
-
-::: {.notes}
-**Note for pptx template**: Markdown does not support specific width, height, or styling of an image or the caption. You would need to handle those styles within PowerPoint after rendering or use a custom template for PowerPoint output (in .pptx format).
-:::
-
----
-
-## Figure with bullet points
-
-::: columns
-::: column
-![](images/penguin.png)
-:::
-
-::: column
-- First bullet point
-- Second bullet point
-- Third bullet point
-:::
-:::
-
----
-
-## Side-by-side figures
-
-::: columns
-::: column
-![Figure 1: Penguin](images/penguin.png)
-
-: Figure 1: Penguin
-:::
-
-::: column
-![Figure 2: Seal](images/seal.png)
-
-: Figure 2: Seal
-:::
-:::
-
----
-
-## Stacked figures with text
-
-::: columns
-::: column
-![](images/penguin.png)
-
-![](images/seal.png)
-:::
-
-::: column
-- First bullet point
-- Second bullet point
-- Third bullet point
-:::
-:::
-
-
-::: {.notes}
-**Note for pptx template**: Stacked figures cannot be resized in markdown but need to be resized afterwards in pptx directly. 
-:::
-
----
-
-## Two-column text slide
-
-::: columns
-::: column
-**Column 1**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-Vivamus lacinia odio vitae vestibulum vestibulum.  
-Cras venenatis euismod malesuada.
-:::
-
-::: column
-**Column 2**
-
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-:::
-:::
-
----
-
-## Three-column text slide
-
-::: columns
-::: column
-**Column 1**
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-Vivamus lacinia odio vitae vestibulum vestibulum.
-:::
-
-::: column
-**Column 2**
-
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-:::
-
-::: column
-**Column 3**
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-:::
-:::
-
----
-
-## Simple table
-
-
-| Column 1   | Column 2   | Column 3   |
-|------------|------------|------------|
-| Row 1 Cell | Row 1 Cell | Row 1 Cell |
-| Row 2 Cell | Row 2 Cell | Row 2 Cell |
-| Row 3 Cell | Row 3 Cell | Row 3 Cell |
-| Row 4 Cell | Row 4 Cell | Row 4 Cell |
-
----
-
-## Complex Table
-
-| **Category** | **Metric**     | **Q1** | **Q2** | **Q3** | **Q4** |
-|-------------|----------------|------:|------:|------:|------:|
-| **Sales**   | Revenue        | 12,000 | 14,500 | 15,200 | 16,800 |
-|             | Units Sold     | 1,200  | 1,450  | 1,520  | 1,680  |
-| **Costs**   | COGS           | 5,000  | 5,200  | 5,400  | 5,600  |
-|             | Operating Exp. | 2,300  | 2,400  | 2,450  | 2,500  |
-| **Profit**  | Gross Profit   | 7,000  | 9,300  | 9,800  | 11,200 |
-|             | Net Profit     | 4,700  | 6,500  | 7,000  | 8,100  |
-
-> Note: Values are in USD thousands.
-
-
-::: {.notes}
-**Notes for the pptx template**: Font size, padding or row and colour number cannot be coded in markdown and have to be changed manually in the pptx output. 
-:::
-
----
-
-## Task list
-- [x] Done
-- [ ] To do
-- ✅ Done  ppts riendly
-- ⬜ To do pptx friendly
-
-
-::: {.notes}
-**Note**: This slide converts to pptx, but will not be interactive with adding or eliminating a tick mark. This will convert into simple bullet points. 
-:::
-
----
-
-## Coloured text bubbles: scattered - not possible in pptx
-
-|     |     |     |
-|-----|-----|-----|
-| human bias |     | lack of resources |
-|     | methodological flaws |     |
-| pressure | ?? |     |
-|  |     |   lack of statistical knowledge  |
- 
-
-
-::: {.notes}
-**Note**: Markdown has no support for absolute positioning, custom colors or text bubble shapes and cannot recreate scattered layout without HTML/CSS.
-:::
-
----
-
-## Embedding videos - not possible in pptx
-
-[Watch the video on YouTube](https://www.youtube.com/watch?v=q3uXXh1sHcI)
-
-
-::: {.notes}
-**Note**: Markdown has no native video embed syntax and PPTX does not support iframe embeds, meaning that reveal.js can show embedded videos, but PPTX cannot. Alternative: add link to follow to external source.
-:::
-
-
----
-
-## Linking to video with thumbnail
-
-[![Click on the image to watch the video!](images/penguin.png)](https://www.youtube.com/watch?v=q3uXXh1sHcI)
-
----
-
-## Code blocks
-
-```{r}
-# A basic R code chunk
-x <- 1:10
-mean(x)
-
-
-# A simple plot
-hist(rnorm(100), main = "Histogram of Random Normals")
-
-```
-
-
-::: {.notes}
-**Note**: PowerPoint *cannot run R code*, therefore the code block this will appear as *formatted code text*, not executed output.
-::: {.notes}
-
----
-
-## Interactive slide with questions + answers - not possible in pptx
-
-Decide whether each scenario is an example of **reproducibility** or **replicability**.
-
-1. A computational neuroscientist reruns a published fMRI analysis using the original dataset and Python scripts to verify the reported brain activation patterns.  
-   **Answer:** Reproducibility
-
-2. An environmental scientist repeats a field experiment on soil nutrient levels using the same sampling protocol at a different site.  
-   **Answer:** Replicability
-
-3. A linguist reanalyzes a corpus of historical texts using the same annotation guidelines and code to verify reported patterns of syntactic structures.  
-   **Answer:** Reproducibility
-
----
-
-## Overlapping and rotated images - not possible in pptx
-
-![Penguin](images/penguin.png)
-
-![Seal](images/seal.png)
-
-![Penguin](images/penguin.png)
-
---- 
-
-## Features supported in html but not pptx 
-
-Here is an overview of which features cannot be transferred to a pptx file from Quarto reveal js file:
-
-- Custom HTML/CSS layout
-  - Absolute positioning (position: absolute)
-  - Flexbox / Grid layout
-  - Custom margins, padding, alignment
-  
----
-
-## Features supported in html but not pptx 
-
-(continued)
-
-- Fragments / incremental reveal
-  - Click-to-reveal bullets or elements (.fragment)
-  - Animations & transitions
-  - CSS animations (@keyframes)
-  - Reveal.js slide transitions (fade, zoom, etc.)
-  
----
-
-## Features supported in html but not pptx 
-
-(continued)
-
-- Interactive JavaScript components
-  - Plotly, Shiny apps, interactive charts
-  - Custom JS widgets
-  - Embedded iframes and external content
-  - YouTube embeds
-  - Google Maps
-  - Embedded websites
-
----
-
-## Features supported in html but not pptx 
-
-(continued)
-
-- Dynamic sizing / responsive behavior
-  - Percent-based sizing (width: 50%)
-
-- Text shadows, letter spacing
-- Custom tables with HTML styling
-
-- Colored headers or rows
-
-- Cell borders and padding via CSS
-
-- Overlapping or rotated elements
-
----
-
-## Features supported in html but not pptx 
-
-(continued)
-
-- Rotated images or text
-
-- Speech bubbles and callout shapes
-
-- Bubble-style layouts
-
-- Decorative shapes using CSS
-
-- Embedded fonts and icon libraries
-
-- Interactive quizzes or logic
-
----
-
-## CREDiT Contribution Statement
-
-Possible roles using the CRediT contribition system or the Zenodo Contribution System: 
-
-**Name main content creator**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
-
----
-
-## Text size - does not currently work
-
-::: {.small}
-This text is smaller
-:::
-
-::: {.large}
-This text is larger
-:::
-
-
----
-
-## References
-
-::: {#refs}
-:::
 
 ---
