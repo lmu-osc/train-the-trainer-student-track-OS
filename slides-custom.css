@@ -17,6 +17,7 @@
 .reveal .slides section:not(:first-of-type) h2 {
   background-color: #093;  /* LMU green background for the header */
   color: white;               /* Sets the text color to white for contrast against the green background */
+  font-size: 1.4em;
   padding: 0.05em 1em;         /* Adds padding: 0.3em for top and bottom, 1em for left and right to give spacing around the header text */
   margin: 0;                  /* Removes margin, ensuring the background color stretches fully across the width of the slide */
   width: 100%;                /* Makes the background color cover the full width of the slide */
@@ -80,12 +81,12 @@
   background-color: #f7f7f7;
   border: 3px solid #093;
   border-radius: 14px;
-  padding: 1.1em 1.4em;
+  padding: 0.5em 1.4em;
   text-align: center;
   font-size: 1.4em;
   font-weight: 700;
-  line-height: 1.35;
-  margin: 0.6em auto;
+  line-height: 1.2;
+  margin: 0.2em auto;
   max-width: 80%;
 }
 
@@ -97,6 +98,40 @@
   max-width: 100%;
   max-height: 58vh;  /* 100vh minus approx. header (~12vh), subtitle (~6vh), footer (~5vh), padding */
   object-fit: contain;
+}
+
+/* Vertically center content (especially images) inside a column
+Use as an inner wrapper inside a column: ::: {.img-vcenter}
+*/
+.reveal .img-vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.reveal .img-vcenter > p,
+.reveal .img-vcenter > figure,
+.reveal .img-vcenter > .quarto-figure {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.reveal .img-vcenter img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 56vh;
+  height: auto;
+  object-fit: contain;
+}
+
+/* drop-shadow for images */
+.reveal .ds {
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Constrain footer width so it does not run into the logo or the hamburger menu */
@@ -129,3 +164,33 @@
 .reveal .smallest {
   font-size: 70%;
 }
+
+
+
+/* Timer styling: Small timers. (Base width = 300px)
+Apply to the entire slide:
+## Title {.small-timer}
+*/
+.reveal .slides section.small-timer .base-timer {
+  width: 200px;
+  height: 200px;
+}
+.reveal .slides section.small-timer .base-timer__label {
+  font-size: 2rem;
+}
+
+.reveal .slides section.smallest-timer .base-timer {
+  width: 100px;
+  height: 100px;
+}
+.reveal .slides section.small-timer .base-timer__label {
+  font-size: 1.2rem;
+}
+
+/* Center the base timer horizontally within its container */
+.reveal .base-timer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+

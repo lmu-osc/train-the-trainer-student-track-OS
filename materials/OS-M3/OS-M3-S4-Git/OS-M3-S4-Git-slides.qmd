@@ -715,6 +715,12 @@ Remember, once the SSH keys are set up, they streamline your workflow with GitHu
 ls ~/.ssh
 ```
 
+::: {.callout-tip title="A Note for Nerds" .smaller}
+- `ls` = "list" files in a directory
+- `~` = home directory of the current user
+- `.ssh` = folder where SSH keys are stored
+:::
+
 ::: {.notes}
 **Presenter Notes**: The second step is to list the contents of the .ssh directory. This will allow you to see if any SSH keys are already present.
 To do this, open your terminal (or Git Bash on Windows) and enter the following command: ls ~/.ssh. This command will display a list of files located in the .ssh directory. If you already have SSH keys, you will likely see files such as id_rsa (private key) and id_rsa.pub (public key), or similarly named files like id_ed25519 and id_ed25519.pub.
@@ -726,7 +732,7 @@ To do this, open your terminal (or Git Bash on Windows) and enter the following 
 
 ## Checking for existing SSH key pair
 
-**Step 3**: If there are existing ssh keys, they are named one of the following:
+**Step 3**: If there are existing ssh keys, they are named like this (you can have multiple keys):
 
 ```{text}
 id_rsa.pub
@@ -997,11 +1003,12 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm
 ---
 
 ## Adding the SSH key to *ssh-agent*
+### (optional step, only necessary if you keep getting asked for your key)
 
 Managing your ssh keys is done via the [ssh-agent](https://smallstep.com/blog/ssh-agent-explained/) software.
 
 ::: {.callout-note}
-Depending on your system, the following might not be necessary. On most GNU/Linux distributions, your key will be automatically added to the ssh-agent after the first time you enter it. If you keep getting asked for your key each time you want to clone or push to a GitHub repository, you can follow the  instructions on the next slides.
+Depending on your system, the following might not be necessary. On most GNU/Linux distributions and MacOS, your key will be automatically added to the ssh-agent after the first time you enter it. If you keep getting asked for your key each time you want to clone or push to a GitHub repository, you can follow the  instructions on the next slides.
 :::
 
 ::: {.notes}
