@@ -1,20 +1,24 @@
-﻿---
+---
 title: "Introduction to R: Part I"
-author: "Luz Sanchez Steinhagen"
+author: "LMU Open Science Center"
 date: "today"
 date-format: "DD/MM/YYYY"
+draft: true
 format: 
   revealjs:
-    css: ../../../slides-custom.css # looks for css file in root
+    css: ../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
+    logo: ../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
   pdf:
     geometry: 
       - top=30mm
       - left=30mm
-  pptx: 
-    css: ../../../slides-custom.css # looks for css file in root
+  #pptx: 
+    css: ../../slides-custom.css # looks for css file in root
+
+#bibliography: ../../assets/references.bib
+#csl: ../../assets/apa.csl
 
 execute:
   echo: true
@@ -22,26 +26,51 @@ execute:
   engine: knitr
 ---
 
-## Credit statement and licence
+## Licence
 
-**Luz Sanchez Steinhagen**: Conceptualization, Software, Writing - Original Draft, Visualization. **Sara Lil Middleton**: Writing - Review & Editing, Supervision. **Sarah von Grebmer zu Wolfsthurn**: Conceptualisation, Writing - Review & Editing, Supervision, Project Administration, Validation.
+![Creative Commons Attribution 4.0](images/cc-by-sa.png)
 
-<br>
-<br>
+This work was originally created by [Mike Croucher](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
 
-<div style="font-size: 0.6em;">
-This work by Elizabeth Waterfield, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
-</div>
+Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
 
+
+::: {.notes}
+**Presenter Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
+
+However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
+:::
 
 ---
 
-### Prerequisites
+## Contribution statement
+  
+  
+**Creator**: Sanchez Steinhagen, Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
 
-::: {.callout-important}
+
+**Reviewer**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+**Consultant**: Edelsbrunner, Peter (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
+
+
+::: {.notes}
+**Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+
+**Accessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
+:::
+
+---
+
 ## Prerequisites
 
-Before completing this submodule, please carefully read about the necessary prerequisites.
+::: {.callout-important}
+Before completing this submodule, please carefully read about the prerequisites.
 :::
 
 <div style="font-size: 0.6em;"> 
@@ -51,116 +80,152 @@ Before completing this submodule, please carefully read about the necessary prer
 | R installed | Version 4.4.3 or higher | [Download Link](https://www.r-project.org/) |
 </div>
 
-
 ::: {.notes}
-**Speaker Notes**: These are the **speaker notes**. This is a script for the presenter for every slide. In presentation mode, your audience will not be able to see these speaker notes, they are only visible to you as the presenter. 
+**Presenter Notes**: Before starting this submodule, there are two small technical prerequisites.  
+First, you should have R installed, and second, you should have RStudio installed. These are the tools we’ll use to run and explore simulations during the tutorial.  
+The table on the slide shows the recommended versions and where you can download them if needed. If you already worked with R before, you likely already have these installed.  
+If not, you can install them using the links provided. If you run into issues, this is a good moment to ask for help before we move on to the tutorial.”
+ 
+**Instructor Notes**: Quickly verify whether learners have the required software installed before moving to the practical tutorial. If several students do not have the software yet, briefly explain that they can still follow conceptually and install it later. Avoid spending too much class time on troubleshooting installations unless the session is designed for setup.
 
-**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
+**Accessibility Tips:**  
+Consider pairing students if someone does not have the software installed.
 :::
 
 ---
 
 ## Questions from previous submodule?
 
+---
+
+## Before we start: Survey time!
+
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+**Let us find out where are you at!**
+
+</div>
 
 ::: {.notes}
-- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
-- Additional slides may need to be added depending on the nature of the homework assignments. 
-- Critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop. 
-- Not applicable if this set of slides corresponds to the first submodule of a new module.
+**Speaker Notes**:  
+Before we move on, we’ll take a short survey. The aim here is simply to
+understand your current familiarity.
+In the next few slides, you’ll see some questions that invite you to reflect on where you’re
+starting from. This isn’t a test, and it is not about getting the right answers.
+If you’re unsure, that is completely fine, just respond based on what feels closest to your
+current understanding.
+
+**Instructor Notes**:  
+Set a low-stakes, supportive tone before beginning the survey. Emphasize that uncertainty is expected and valuable for measuring learning progress. 
 :::
 
 ---
 
+**What is your level of familiarity with R and RStudio?**
 
-## Before we start: Survey time!
+a. I have never heard of it before.
 
-**Where are we at?**
-<br>
-<br>
-Click on the following link or scan the QR code to test your prior R knowledge:
-[ADD LINK R Survey](https://www.menti.com/al367833ss3g)
+b. I have heard of it but have never worked with it.
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Add link from particify https://ars.particify.de/login for this by creating your own room for this tutorial, also make a QR code for this</span>
-</div>
+c. I have basic understanding and experience with it.
 
-::: {.notes}
-**Speaker Notes**: 
-- Aim: the pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
-- Use free survey software such as particify or formR to establish this. You can use the example survey, edit it or create your own.
-:::
+d. I am very familiar and have worked with it extensively.
+
+---
+
+**On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio)?** <br>
+*(1 = Not intimidated at all, 5 = Very intimidated)*
+
+a. 1
+
+b. 2
+
+c. 3
+
+d. 4
+
+e. 5
+
+---
+
+**Have you used any programming language before?**
+
+a. No, never
+
+b. Yes, a little (e.g., basic commands)
+
+c. Yes, moderately (e.g., small projects)
+
+d. Yes, extensively
 
 ---
 
 ## Discussion of survey results
 
-**What can we take from this?**
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
 
 ::: {.notes}
-**Speaker Notes**:
-- Aim: briefly examine the answers given to each question interactively with the group.
-- Use visuals from the survey to highlight specific answers.
-- Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
+**Presenter Notes**: Let us have a look at these results. 
+
+**Instructor Notes**:The aim is to understand the group’s current standing in terms of knowledge and familiarity. Emphasize explicitly that
+the survey is not about correct or incorrect answers. Avoid evaluating answers.
 :::
 
 ---
 
-## Where are we at?
+## Learning goals
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Add this when slides are final</span>
-</div>
-
+::: incremental
+- To **identify** key components of the RStudio interface (e.g., Console, Environment, Script, and Plots panes).
+- To **explain** the difference between basic data types in R (numeric, character, logical, integer).
+- To **execute** basic mathematical and logical operations in the R using appropriate operators.
+- To **differentiate** between valid and invalid R operations and interpret resulting error messages.
+- To **assess** the correctness of logical expressions by predicting and verifying whether given R statements return TRUE or FALSE.
+- To **construct** a simple R script that includes object assignment, at least one mathematical operation, and comments.
+:::
+  
 ::: {.notes}
-**Speaker Notes**:
-- Aim: Place the topic of the current submodule within a broader context.
-- Remind students what you are working towards and what the bigger picture is.
+**Presenter Notes**: This slide outlines the learning goals for the session. At this stage, you’re not expected to fully understand or master all of these points. Think of them as a
+roadmap rather than a checklist; they show where we’re headed, not what you already need to know. You can use these goals to keep track of your learning, notice what feels clear, and
+identify areas where you might want to ask questions later.
 :::
 
 ---
 
-## Covered in this session
-
--   Overview of what will happen (**make this slide in the end**)
-
--   mention they should already have R and RStudio installed
-
--   outline the structure and general idea (hands-on, follow-along etc...)
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: See the corresponding slide for the Quarto tutorial and what that looks like - you could add a slide called housekeeping or similar to cover the installation aspect and if students had any issues?</span>
-</div>
-
-::: {.notes}
-**Speaker Notes**: Add speaker notes here. 
-:::
+# Basic Introduction to R
 
 ---
 
 ## What is R?
 
--   Knowledge of statistical software like R is crucial when conducting quantitative research
+-   Knowledge of statistical software like R [https://www.r-project.org/](https://www.r-project.org/) is crucial when conducting quantitative research
 -   R is free and open source
     -   large online community
     -   many free to use resources
     
 <div style="font-size: 0.6em;">
-<span style="color:red">From SvG: Would you want to add a hyperlink here?</span>
+<span style="color:red">~~From SvG: Would you want to add a hyperlink here?~~</span>
 </div>
 
 ::: {.notes}
 **Speaker Notes**: Let’s start with the basics: What exactly is R?
-
 R is a programming language specifically designed for data analysis and statistics.
 That means it’s not just a tool — it’s a full language, built with researchers and data in mind.
-
 It’s also free and open source, which means anyone can download and use it, and developers from all over the world contribute to improving it.
 This has resulted in a large online community — so if you ever run into a problem, chances are someone else has had the same issue and posted a solution online.
-
 And because of that community, there are also countless free learning resources: tutorials, blog posts, videos, books, and packages that extend R’s functionality.
-
 So in short: R is powerful, flexible, and supported by a strong community — which is why it’s become such a widely used tool in quantitative research.
+
+**Instructor Notes**:  
+Keep this introduction brief and motivational. The goal is not to teach R, but to position it as an accessible and useful tool for research. You may optionally point students to the official R website or a beginner friendly resource, but avoid going into technical detail.
 :::
 
 ---
@@ -168,39 +233,28 @@ So in short: R is powerful, flexible, and supported by a strong community — wh
 ## The RStudio environment {footer="false"}
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen1.png" style="width:100%;"/>
+<img src="images/R_screen1.png" style="width:75%;"/>
+:::
+
+::: {.callout-tip}
+## Short exercise
+Open RStudio and check if you can see everything that’s on the slide (might be only three panes).
 :::
 
 ::: {.notes}
-**Speaker Notes**: RStudio is the main program we’ll be using to interact with R throughout this course.
-It’s a free and open-source editor specifically designed for R, and it makes things much easier — both for writing code and for organizing your work.
-
+**Speaker Notes**: RStudio is the main program we’ll be using to interact with R throughout this course. It’s designed to make working with R much more organised and easier to follow.
 On this slide, you can see the four main panes of the RStudio interface:
+In the top left, you’ll find the script editor — this is where you usually write and edit your code.  
+In the top right, there’s the Environment pane, which shows the objects you’ve created, like datasets or variables, so you can keep track of what’s currently loaded.  
+In the bottom left is the Console. This is where R actually runs your commands and shows the output.  
+And in the bottom right, you’ll see panels for things like plots, help files, and packages.  
+Now, take a moment to open RStudio on your device and check if you can identify these panes. You might only see three panes at first — that’s completely normal.”
 
-The top left pane is where your scripts or other files appear.
-This is where you'll usually write and edit your code.
+**Instructor Notes**:  
+Pause briefly and allow students to open RStudio. Walk around if possible and help students locate panes. Reassure them that layouts may differ slightly (e.g., missing script pane until a file is opened). Keep this activity short and focused on orientation, not functionality.
 
-The top right is the Environment pane, which shows the objects you’ve created — like datasets or functions — so you can always check what’s currently in your workspace.
-
-The bottom left is the Console, where R actually runs your commands.
-If you type directly into R instead of using a script, this is where it happens.
-
-And finally, the bottom right is for Help, Plots, and Packages.
-So if you ask for help on a function, create a plot, or install a new package, it’ll show up here.
-
-So, RStudio combines everything in one interface to help you keep track of your code, your results, and your progress as you go.
-:::
-
----
-
-## Practical exercise 1
-
--   [ ] Open RStudio and check if you can see everything that's on the slide (might be only three panes).
-
-::: {.notes}
-*:Speaker Notes**:Add here. 
-
-**Instructor Notes**: Add potential troubleshooting tips for instructors to efficiently solve the problems at this stage.
+**Accessibility Tips:**  
+Verbally describe each pane clearly and allow extra time for students to locate them. Offer assistance to students who may struggle with navigation or opening the software.
 :::
 
 ---
@@ -218,55 +272,54 @@ So, RStudio combines everything in one interface to help you keep track of your 
 | `log()`  | (Natural) Logarithm |
 
 ::: {.notes}
-**Speaker Notes**: In the bottom left pane of RStudio - the console - we can run commands.
-For example, we can use R to execute calculations.
-To do this, we use operators that correspond to mathematical symbols, such as the + and - sign.
+**Speaker Notes**:  
+In the Console, which is the bottom left pane in RStudio, we can directly run commands.  
+One of the simplest things we can do is perform basic mathematical calculations. R works very much like a calculator, but with more flexibility.  
+To do this, we use operators — symbols that represent mathematical operations. For example, plus for addition, minus for subtraction, and so on.  
+On this slide, you can see some of the most common ones. These include multiplication, division, powers, as well as functions like square root and logarithm.  
+If you have RStudio open, you can try typing a simple calculation into the Console, like 2 plus 2, and see what happens.
 
-Here, you can see a table with the most important mathematical operators in R.
+**Instructor Notes**:  
+Keep this very brief and hands-on. Encourage students to try 1–2 simple commands in the Console to build confidence. Avoid going into syntax details beyond basic operators.
+
+**Accessibility Tips:**  
+Say each operator aloud (e.g., “asterisk for multiplication”) to support learners unfamiliar with symbols.
 :::
 
 ---
 
-## Practical exercise 2
+## Practical exercise 1
 
 **Mathematical Operations**
 
 - Use the table on the previous slide to run the following math operations directly in the console (bottom left).
+  - `12+17`
+  - `\frac{218}{3}`
+  - `357^2`
 
--   $12+17$
-
--   $\frac{218}{3}$
-
--   $357^2$
-
+::: {.callout-tip}
 *Hint*: You can run code from the console by pressing Enter.
-
-::: {.notes}
-**Speaker Notes**: We've already arrived at our second exercise.
-Use the console in RStudio to execute the mathematical operations you see on this slide.
-
-*Optional*: live demonstration of what it looks like to run code from the console
 :::
 
----
-
-## Practical exercise 2 - Solution
-
-<br>
-<br>
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From SvG: THinking about moving the solutions to the end of the slide deck? What do you think?</span>
-</div>
-
-```{r}
-12+17
-218/3
-357^2
-```
-
 ::: {.notes}
-**Speaker Notes**: Great, now you have a first impression of what it's like to use R!
+**Speaker Notes**:  
+We’ve now reached our first short hands-on exercise.  
+Using the Console in RStudio — that’s the bottom left pane — try running the following mathematical operations. Simply type them in and press Enter.  
+Note that for division in R, we use the forward slash. So instead of writing it as a fraction, you would type 218 divided by 3 using the slash.  
+Take a minute to try these out.  
+(pause)
+
+If you’d like to check your answers:  
+12 plus 17 gives 29,  
+218 divided by 3 is approximately 72.67,  
+and 357 squared is 127449.  
+If you’re unsure, that’s completely fine — feel free to try again or ask for help.
+
+**Instructor Notes**:  
+Give students 1–2 minutes to complete the exercise. Clarify the correct syntax for division if needed (`218/3`). Optionally demonstrate one example live in the Console. Walk around to assist students who may be unfamiliar with typing commands.
+
+**Accessibility Tips:**  
+Read out each command clearly and explain symbols (e.g., “slash for division”). Allow students to follow along at their own pace and provide support for those who may need help with keyboard input.
 :::
 
 ---
@@ -292,13 +345,19 @@ Example:
     -   `FALSE`
 
 ::: {.notes}
-**Speaker Notes**: However, R can of course do more than just calculate.
-One of its basic features, that is needed for many of its more complex functions are logical comparisons.
+**Speaker Notes**:  
+R can do more than just calculations; it can also help us make decisions by comparing values. 
+These are called logical comparisons. For example, we can ask R whether two numbers are equal, or whether one number is larger or smaller than another.  
+On the slide, you can see two simple examples: checking whether 49 is equal to 50, and whether 49 is less than 50.  
+When we run these commands, R doesn’t return a number — instead, it gives us a logical value: either TRUE or FALSE.  
+So, TRUE means the statement is correct, and FALSE means it is not.  
+These kinds of comparisons are very important, because they form the basis for more complex operations later on, like filtering data or writing conditions in code.
 
-We can compare two numbers to determine if they are equal or unequal and check if a number is larger or smaller than another number.
-Comparisons like that are answered by R with either `TRUE`(yes) or `FALSE` (no).
-These comparisons are called **logical comparisons**.
-We can also combine logical comparisons using the logical AND, OR, and NOT to formulate longer statements.
+**Instructor Notes**:  
+Keep the explanation intuitive and avoid introducing too many operators at once. Focus on understanding TRUE/FALSE outputs. Optionally demonstrate one example live. You may briefly mention combining conditions (AND, OR, NOT) but do not go into detail yet.
+
+**Accessibility Tips:**  
+Read the code examples aloud and explain symbols clearly (e.g., “double equals means ‘is equal to’”). 
 :::
 
 ---
@@ -316,18 +375,24 @@ We can also combine logical comparisons using the logical AND, OR, and NOT to fo
 | `!`           | logical NOT                                |
 
 ::: {.notes}
-**Speaker Notes**: Here you can see an overview of logical operators.
-You can combine several single statements to longer statements using the logical AND, OR, and NOT.
+**Speaker Notes**:  
+Here you can see an overview of the most common logical operators in R.  
+These symbols allow us to compare values — for example, checking whether two numbers are equal, not equal, greater than, or less than each other.  
+In addition to simple comparisons, we can also combine multiple conditions.  
+For example, using AND means that both conditions need to be true, OR means that at least one condition needs to be true, and NOT reverses a condition.  
+You don’t need to memorise all of these right now — this is just to familiarise you with what’s possible. You’ll get more comfortable with them as you start using them in practice.”
+
+**Instructor Notes**:  
+Present this as a reference slide rather than content to be learned immediately. Focus on recognition, not recall. Avoid demonstrating all operators; one simple example (e.g., `49 < 50 & 50 < 60`) is sufficient if needed.
 :::
 
 ---
 
-## Practica exercise 3: Logical Comparisons
+## Practical exercise 2
 
-`TRUE` or `FALSE`?
+#### `TRUE` or `FALSE`?
 
-Express the following statements in words and evaluate whether they are correct or not.
-Check your answers by running the statements in the console.
+- Express the following statements in words and evaluate whether they are `TRUE` or `FALSE`.
 
 ``` r
 (36 + 5)> 40
@@ -341,25 +406,29 @@ Check your answers by running the statements in the console.
 (5 == (2 + 3)) & (7 >= 8)
 ```
 
-TODO: decide whether there should be another exercise that involves writing code to express a written statement
+::: {.callout-tip}
+*Hint*: Check your answers by running the statements in the console.
+:::
 
 ::: {.notes}
-**Speaker Notes**: ADD HERE
+**Speaker Notes**:  
+Let’s try another short exercise.  
+Here, you’ll see a few logical statements written in R. Your task is to do two things:  
+First, translate each statement into plain words — what is it actually asking?  
+And second, decide whether the statement is TRUE or FALSE.  
+Take a moment to think through them, and then you can check your answers by running them in the Console.  
+For example, the first one is asking whether 36 plus 5 is greater than 40.  
+Take about one to two minutes to go through all three, and then we’ll quickly review them together.  
+(pause)
+The correct answers are: TRUE, TRUE, and FALSE.
+
+**Instructor Notes**:  
+Give students 1–2 minutes to attempt the exercise individually or in pairs. Encourage them to verbalise the statements in plain language before running them in R. Afterward, quickly confirm answers and clarify any confusion, especially around logical OR (`|`) and AND (`&`).
 :::
 
 ---
 
-## Practical exercise 3: Solutions
-
-```{r}
-(36 + 5)> 40
-(4 == 5) | (25 > 17)
-(5 == (2 + 3)) & (7 >= 8)
-```
-
-::: {.notes}
-**Speaker Notes**: ADD HERE
-:::
+# Introduction to Data Types
 
 ---
 
@@ -370,28 +439,30 @@ TODO: decide whether there should be another exercise that involves writing code
 :::
 
 ::: {.notes}
-**Speaker Notes**: In R, different data types exist.
-We have already got to know the logical values `TRUE`and `FALSE`. Data that are numbers can be further differentiated into numeric values, also known as `double`, and integers.
-Numeric variables have decimals, integers do not.
-Values that are words are normally either characters or factors.
-Characters have to be written in quotation marks.
-Factors have prespecified levels, such as brown, blonde, and black for a variable "hair color".
+**Speaker Notes**:  
+In R, data can come in different types, and it’s important to know which type you’re working with, because it affects what you can do with it.  
+We’ve already seen one type: logical values, which are simply TRUE or FALSE.  
+Numbers in R can be of different kinds. Most commonly, you’ll work with numeric values — these can include decimals. There are also integers, which are whole numbers without decimals.  
+Then we have text data, which are called characters. These always need to be written in quotation marks.  
+Another important type is factors. These are used for categorical data with predefined levels — for example, categories like hair colour, such as brown, blonde, or black.  
+So depending on the type of data you’re working with, R will treat it differently and allow different kinds of operations.
 
-Depending on which type a variable has, different operations can be performed with it.
+**Instructor Notes**:  
+Keep the explanation conceptual. The goal is recognition, not mastery. Avoid going into technical distinctions unless students ask. You may briefly point to examples in the image to anchor understanding.
 :::
 
 ---
 
 ## Data types - Operations
 
-Two numeric variables can be summed up:
+- Two numeric variables can be summed up:
 
 ```{r}
 4 + 5 
 
 ```
-
-A numeric and a character variable cannot be summed up:
+<br>
+- A numeric and a character variable cannot be summed up:
 
 ```{r}
 #| error: true
@@ -399,7 +470,15 @@ A numeric and a character variable cannot be summed up:
 ```
 
 ::: {.notes}
-**Speaker Notes**: ADD HERE
+**Speaker Notes**:  
+Now that we’ve seen different data types, let’s look at how they behave when we try to use them in operations.  
+If we take two numeric values, like 4 and 5, we can easily add them together, and R will return the result as expected.  
+However, if we try to mix data types — for example, adding a number and a piece of text — R won’t know how to handle that.  
+In the second example, we’re trying to add the number 4 and the word ‘five’. Since ‘five’ is a character and not a number, R returns an error.  
+This shows why it’s important to be aware of the data types you’re working with — because not all operations are possible with all types.
+
+**Instructor Notes**:  
+Use this slide to reinforce the practical importance of data types. Optionally demonstrate the error live to show how R responds. Emphasise that error messages are normal and informative, not something to be avoided.
 :::
 
 ---
@@ -408,9 +487,9 @@ A numeric and a character variable cannot be summed up:
 
 -   Easy way to save and share code you wrote
 
--   You can run code from an R script by pressing Ctrl + Enter (Windows) or
+-   You can run code from an R script by pressing **Ctrl + Enter** (Windows) or **click on Run**
 
--   To comment your code use `#`, for example:
+-   To add comments to your code use `#`, for example:
 
 ```{r}
 # sum up two numbers: 
@@ -418,14 +497,12 @@ A numeric and a character variable cannot be summed up:
 ```
 
 ::: {.notes}
-**Speaker Notes**: Until now, we've only worked in the console.
-However, once we close R, everything typed into the console will be lost.
-To make our work traceable and reproducible, it makes sense to save the code we used.
-One way of saving and sharing code are R scripts.
-To run code from an R script, put the cursor anywhere in the respective line of code or mark everything you want to execute.
-Then press Ctrl+Enter (Windows) or ⌘ + Enter (Mac).
-
-If you want to take notes or write anything that is not code into an R script, type \# and then type your text.
+**Speaker Notes**:  
+So far, we’ve been working in the Console. But there’s one important limitation: anything you type there is not saved once you close RStudio.  
+That’s why we use R scripts. An R script is simply a file where you can write, save, and organise your code so you can come back to it later or share it with others.  
+To run code from a script, you place your cursor on a line,or highlight multiple lines, and then press Ctrl + Enter on Windows or Command + Enter on a Mac. You can also click the ‘Run’ button.  
+Another useful feature is comments. If you want to add notes or explanations that R should not execute as code, you use the hash symbol. Everything after that on the line is treated as a comment.  
+This helps make your code more readable and easier to understand — both for others and for your future self.
 :::
 
 ---
@@ -433,35 +510,31 @@ If you want to take notes or write anything that is not code into an R script, t
 ## Creating a new R script
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen2.png" style="width:90%;"/>
+<img src="images/R_screen2.png" style="width:75%;"/>
+:::
+
+::: {.callout-tip}
+## Short exercise
+Create a **new R Script** with only a comment in the first line and save it in a fresh folder.
 :::
 
 ::: {.notes}
-**Speaker Notes**: This is how you create a new R script.
-Navigate to the File tab –\> New File –\> R Script or use the shortcut Ctrl + Shift + N.
-Then you can save it by navigating to File –\> Save or use the shortcut Ctrl + S.
-:::
+**Speaker Notes**:  
+Now let’s look at how to create a new R script from scratch.  
+To do this, go to the File menu, then choose New File, and then select R Script. Alternatively, you can use the shortcut Ctrl + Shift + N.  
+Once the script opens, you can immediately start writing your code or notes.  
+It’s important to save your script early and in an organised folder, so you don’t lose your work. To save it, go to File and click Save, or use Ctrl + S.  
+For the short exercise, create a new R script, write a comment in the first line using the hash symbol, and save it in a new folder dedicated to this course.
 
----
-
-## Practical exercise 4
-
-Create a new R Script with only a comment in the first line and save it in a fresh folder.
-
-::: {.notes}
-**Speaker Notes**: ADD HERE
-
+**Instructor Notes**:  
+Guide students step-by-step while they follow along. Ensure everyone successfully creates and saves a script before moving on. If needed, pause and repeat navigation steps slowly. 
 :::
 
 ---
 
 ## Objects and assignment
 
-:::::: columns
-::: {.column width="60%"}
--   Everything in R is an object
-
--   Oftentimes, we want to work with an object repeatedly
+-   Everything in R is an object, and oftentimes, we want to work with an object repeatedly
 
 -   Assign a name to an object using the assignment arrow `<-`
 
@@ -471,112 +544,165 @@ For Example:
 my_number <- 4
 ```
 
--   This saves the value 4 under the name `my_number`in the environment of R Studio
-:::
-
-::: {.column width="40%"}
-<img src="images/R_screen3.png" alt="Environment Pane Screenshot" style="width:100%;"/>
-:::
-::::::
-
-::: {.notes}
-**Speaker Notes**: Everything in R is referred to as an object.
-For example, the result of a logical comparison, is an object of type logical.
-Oftentimes, we want to work with an object repeatedly.
-To do this, we can create objects and give them names.
-This is done via assignments.
-:::
-
----
-
-## TODO:
-
-maybe include instructions on a live demonstration?
-so that participants can see the object "my_number" appear in the environment pane.
-
----
-
-## Assigning objects? CHECK TITLE
-
-```{r}
-my_number <- 5
-```
-
-::: {.notes}
-**Speaker Notes**: ADD HERE
-:::
-
----
-
-## Vectors, Lists, and Data Frame
-
-::: {.notes}
-**Speaker Notes**: ADD HERE
-:::
-
----
-
-## Indexing
-
-::: {.notes}
-**Speaker Notes**: ADD HERE
-:::
-
----
-
-## Relevance and implications
-
-- **Aim**: To work out the relevance of the topic to your students.
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-- Examine downfalls and practical obstacles.
-
-::: {.notes}
-**Speaker Notes**: ADD HERE
-:::
-
----
-
-## Take-home message
-
-**Aim**: End lesson on clear take-home message that are interactively compiled by students.
+-   This saves the value 4 under the name `my_number` in the environment of R Studio
 
 ::: {.callout-tip}
-## Tip with Title
-
-Add one practical tips or take-home message.
+## Short Exercise
+Type ``` my_number <- 4 ``` in a new RStudio file. Run the line and check out the object in the 'Environment' pane.
 :::
 
 ::: {.notes}
-**Speaker Notes**: ADD HERE
+**Speaker Notes**:  
+In R, almost everything we work with is treated as an object. That could be a number, a dataset, a result of a calculation, or even the outcome of a logical comparison.  
+Often, we don’t just want to calculate something once — we want to store it and use it again later. For that, we create objects and give them names.  
+We do this using the assignment arrow, written as `<-`.  
+For example, if we write `my_number <- 4`, we are telling R: store the value 4 inside an object called my_number.  
+Once we run this line, the object is saved in the Environment pane in RStudio, where we can see and reuse it anytime.
+
+**Instructor Notes**:  
+Make sure students understand the idea of “storage” rather than just calculation. If possible, demonstrate live how the object appears in the Environment pane. Reinforce that naming objects clearly is important for readability and later use.
+:::
+
+---
+
+## Example of an object in Environment
+
+::: {.column width="40%"}
+<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:200%;"/>
+:::
+
+::: {.notes}
+**Speaker Notes**:  
+Here you can see an example of how an object appears in the Environment pane in RStudio.  
+Whenever you create an object using the assignment arrow, R stores it here. In this example, you can see the object name, along with its value and type.  
+This is very useful because it allows you to keep track of everything you have created during your session. Instead of recalculating something again, you can simply reuse the object from the Environment.  
+As you start working more with R, this pane will become your overview of what is currently stored in memory.
+
+**Instructor Notes**:  
+Point students’ attention directly to the Environment pane on their own screens if available. Briefly explain how objects may change or accumulate as they run more code. Avoid going into memory management details at this stage.
+
+**Accessibility Tips:**  
+Verbally describe what is visible in the screenshot for students who cannot see it clearly. Allow extra time for learners to locate the Environment pane on their own interface.
+:::
+
+---
+
+# Wrapping Up
+
+---
+
+## Looking into the future
+
+1. **Take a minute to think about the following questions, first for yourself, then in a pair:**
+ 
+  - Can you identify some **practical benefits** of using R/RStudio?
+
+  - What **obstacles** do you anticipate in using it consistently?
+
+  - How can R/RStudio support you in your **upcoming projects**?
+
+ 
+2. **Share your thoughts with the group.**
+
+::: {.notes}
+**Speaker Notes**:  
+To wrap up, let’s take a moment to bring everything together and think about how this connects to your own work going forward.  
+First, take about one minute to reflect individually on these questions. Then discuss them with a partner.  
+Think about where R/RStudio could realistically support you — for example, in upcoming essays, group projects, or your thesis work. What benefits do you see in using it? What might make it difficult to use it consistently? And how could it fit into your current workflow?  
+After that, we’ll briefly share some of your thoughts with the group.
+
+**Instructor Notes**:  
+Facilitate an open discussion focusing on application rather than theory. Encourage concrete examples from students’ own academic context. Actively prompt for both benefits and barriers. Keep the discussion time-bound to avoid overextension at the end of the session.
+
+**Accessibility Tips:**  
+Allow silent reflection time before discussion. Summarise key contributions aloud for clarity.
 :::
 
 ---
 
 ## Assignment
 
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-- Examine whether/how it will be assessed
-- Mention scoring rubrics, if applicable
-- Design a peer-review system for assignments to place students in role of reviewer and author
+#### Going beyond what you learned
+
+- **Create a short R script that builds on what you just learned**
+  - Assign at least two objects (e.g., numbers)
+  - Perform at least one mathematical operation using those objects (e.g., multiplication)
+  - Use at least one logical comparison to check a condition
+  - Include clear comments ('#') explaining each step
+
+::: {.callout-tip}
+## Self-Assessment
+Use this assignment to assess your learning of, and progress with, R/RStudio; reflect on any challenges you faced and how you overcame them.
+:::
 
 ::: {.notes}
-**Speaker Notes**: ADD HERE
+**Speaker Notes**: 
+To finish, you have a short home assignment that brings together everything we’ve covered so far in R and RStudio.  
+You’ll create a small R script where you first define at least two objects, for example, numbers. Then you’ll use those objects in at least one mathematical operation, such as addition or multiplication.  
+Next, include at least one logical comparison, where you check a condition and get a TRUE or FALSE result.  
+Finally, make sure to add comments throughout your script using the hash symbol, so it is clear what each step is doing.  
+This is not about getting everything perfect — it’s about practicing how to structure a script and combine the basic elements we’ve learned.
+
+**Instructor Notes**:  
+Clarify that this is a practice exercise rather than an assessment of correctness. Encourage experimentation and reassure students that errors are expected and useful for learning. 
+:::
+
+---
+
+## Take-home message
+
+- R -> **your go-to tool** for data analysis and quantitative research.
+- RStudio interface -> helps you **organize code, outputs, and data** efficiently.
+- Writing and saving R scripts ensures your work is **reproducible and well-documented**.
+
+::: {.notes}
+**Speaker Notes**:  
+To conclude this part, there are three key ideas to remember.  
+First, R is your main tool for data analysis and quantitative research. It’s what you will use to run calculations, manage data, and perform statistical analyses.  
+Second, RStudio is the environment that makes working with R much more structured. It helps you keep your code, outputs, and data organised in one place so you don’t lose track of your work.  
+And third, using R scripts is essential because it ensures your work is reproducible. That means you can go back to your analysis later, or share it with others, and everything can be followed step by step.
+
+**Instructor Notes**:  
+Keep this slide concise and use it as a clear closure of the R part 1 section.
+:::
+
+---
+
+## Learning goals: Check-In
+
+Where are we at?
+
+::: incremental
+- [ ] To **identify** key components of the RStudio interface (e.g., Console, Environment, Script, and Plots panes).
+- [ ] To **explain** the difference between basic data types in R (numeric, character, logical, integer).
+- [ ] To **execute** basic mathematical and logical operations in the R using appropriate operators.
+- [ ] To **differentiate** between valid and invalid R operations and interpret resulting error messages.
+- [ ] To **assess** the correctness of logical expressions by predicting and verifying whether given R statements return TRUE or FALSE.
+- [ ] To **construct** a simple R script that includes object assignment, at least one mathematical operation, and comments.
+:::
+  
+::: {.notes}
+**Speaker Notes**:
+Let us pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one.
+If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.
+
+**Instructor Notes**: Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all goals at this stage.
+Keep the discussion supportive and brief,nfocusing on clarifying concepts rather than introducing new material.
 :::
 
 ---
 
 ## To conclude: Survey time!
 
-- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
-
 ::: {.notes}
-**Speaker Notes**: ADD HERE
+**Speaker Notes**: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge after completing the submodule. Please answer honestly based on how confident you feel now. 
+
+**Instructor Notes**: The purpose is to compare pre- and post-submodule responses to evaluate learning progress. Encourage the learnrs to share in class. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in any areas.
 :::
 
 ---
 
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
+**What is your level of familiarity with R and RStudio?**
 
 a. I have never heard of it before.
 
@@ -588,22 +714,8 @@ d. I am very familiar and have worked with it extensively.
 
 ---
 
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
-
----
-
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]?
-(1 = Not comfortable at all, 5 = Very comfortable)**
+**On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio)?** <br>
+*(1 = Not intimidated at all, 5 = Very intimidated)*
 
 a. 1
 
@@ -617,20 +729,79 @@ e. 5
 
 ---
 
+**Have you used any programming language before?**
+
+a. No, never
+
+b. Yes, a little (e.g., basic commands)
+
+c. Yes, moderately (e.g., small projects)
+
+d. Yes, extensively
+
+---
+
 ## Discussion of survey results
 
-- **Aim**: Briefly examine the answers given to each question interactively with the group.
-- Compare and highlight specific differences in answers between pre- and post-survey answers
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
 
 ---
 
-## References
+# Thanks!
 
-- Provide literature you refer to throughout this lesson.
-
----
-
-# Thanks! <br>
 See you next class :)
+
+---
+
+## Practical exercise 1: Solutions
+
+```{r}
+12+17
+218/3
+357^2
+```
+
+::: {.notes}
+**Speaker Notes**: Great, now you have a first impression of what it's like to use R!
+:::
+
+---
+
+## Practical exercise 2: Solutions
+
+```{r}
+(36 + 5)> 40
+(4 == 5) | (25 > 17)
+(5 == (2 + 3)) & (7 >= 8)
+```
+
+::: {.notes}
+**Speaker Notes**: ADD HERE
+:::
+
+---
+
+## Additional Resource
+
+- Datacamp offers a free, interactive course on R online: [link to the course](https://www.datacamp.com/courses/free-introduction-to-r).
+
+::: {.notes}
+**Speaker Notes**:  
+If you’d like to continue practicing R after this session, there is an optional additional resource available.  
+Datacamp offers a free, interactive introduction to R, where you can practice directly in your browser. It’s a useful way to reinforce what we covered today and get more comfortable with writing code at your own pace.  
+You are not required to complete it, but it can be helpful if you want extra practice or a more structured introduction to R outside of class.
+
+**Instructor Notes**:  
+Present this as an optional extension, not part of the core learning requirements. Avoid suggesting it as mandatory. Emphasise self-paced learning and reinforcement of basic R skills.
+
+**Accessibility Tips:**  
+Ensure the link is accessible through the course platform or slide deck. 
+:::
 
 ---
