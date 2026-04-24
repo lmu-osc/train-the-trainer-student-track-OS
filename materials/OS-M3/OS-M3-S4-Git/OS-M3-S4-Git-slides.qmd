@@ -351,7 +351,7 @@ Especially with coding, trying new ideas can **break** your code.
 
 ---
 
-## Who is familiar with these problems?
+## {{< fa chart-bar size=1x >}} Who is familiar with these problems?
 
 a. Inconsistent data and file management aka **I cannot find my files**
 b. Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka **my work is lost**
@@ -397,51 +397,44 @@ f. None of the above (are you *sure*?)
 
 ## Before we start: Survey time!
 
+{{< fa chart-bar size=3x >}} 
+
 ::: {.notes}
  **Instructor Notes**: For a more interactive delivery, use free tools such as [Particify](https://www.particify.de/en/)] to create interactive surveys before you deliver this lesson. The pre-submodule survey serves to examine learners' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed. 
 
 **Accessibility Tip**: Note that this slide only works for a synchronous in-class setting. Skip the survey as appropriate.
 :::
 
----
+## {{< fa chart-bar size=1x >}} 
 
 **What is your level of familiarity with version control?**
 
 a. I have never heard of it before.
-
 b. I have heard of it but have never worked with it.
-
 c. I have a basic understanding and some experience with it.
-
 d. I am very familiar and have worked with it extensively.
 
----
 
-**Which of the following concepts or skills do you currently feel most confident about in relation to version control? (Select all that apply)**
+
+## {{< fa chart-bar size=1x >}} 
+
+**Which of the following concepts or skills do you feel confident in? (Select all that apply.)**
 
 a. Git
-
 b. GitHub
-
 c. Repositories
-
 d. RStudio Project
-
 e. I am not sure about any of these concepts.
 
----
+## {{< fa chart-bar size=1x >}} 
 
-**On a scale of 1 to 5, how comfortable are you with using Git for version control? (1 = Not comfortable at all, 5 = Very comfortable)**
+**How comfortable are you with using Git for version control?**
 
-a. 1
-
+a. 1 = Not comfortable at all
 b. 2
-
 c. 3
-
 d. 4
-
-e. 5
+e. 5 = Very comfortable
 
 ---
 
@@ -503,8 +496,10 @@ What do we see in the results?
 ![](images/05_GitHub_logo.png){fig-align=center width=60% fig-alt="github logo"}
 :::
 ::: {.column width="70%"}
+::: {.fragment}
 ::: {.callout-note}
 GitHub is a free but commercial platform owned by Microsoft. A similar functionality is provided by GitLab, Codeberg, and other providers; some of them open source and non-commercial.
+:::
 :::
 :::
 :::::
@@ -561,9 +556,25 @@ In pairs, explain the Git - GitHub workflow to your partner. What is the differe
 **Instructor Notes**: Use this as an informal assessment moment to gauge if the general concepts of pulling and pushing are clear. Ask for one or two volunteer pairs who would explain the workflow in their own words to the rest of the audience. Then, make a transition into the practical aspect of this class. 
 :::
 
----
 
-# How to use Git: Let's get started!
+## What is a "Git Forge"?
+
+- Git handles *version tracking* locally and across repositories. 
+- A git forge adds a web-based layer and *collaboration features* on top of Git, such as:
+  * Access control (permissions, teams)
+  * Pull/Merge requests (propose and review changes)
+  * Issue tracking (bug reports, tasks)
+  * Code review tools (comments, approvals)
+  * CI/CD integration (automated testing and deployment)
+  * Web interface (browse code, history, diffs)
+
+::: {.callout-note}
+Git = the engine that tracks changes<br>
+Git forge = the full collaboration platform built around that engine (GitHub, GitLab, Codeberg, ...)
+:::
+
+
+# How to use Git: Let's git started!
 
 ---
 
@@ -1008,7 +1019,11 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm
 Managing your ssh keys is done via the [ssh-agent](https://smallstep.com/blog/ssh-agent-explained/) software.
 
 ::: {.callout-note}
-Depending on your system, the following might not be necessary. On most GNU/Linux distributions and MacOS, your key will be automatically added to the ssh-agent after the first time you enter it. If you keep getting asked for your key each time you want to clone or push to a GitHub repository, you can follow the  instructions on the next slides.
+Depending on your system, the following might not be necessary. On most GNU/Linux distributions and MacOS, your key will be automatically added to the ssh-agent after the first time you enter it. 
+
+Only if you keep getting asked for your key each time you want to clone or push to a GitHub repository, you can follow the instructions on the next slides.
+
+Otherwise fast-forward to [Testing the GitHub connection](#testing-the-github-connection)
 :::
 
 ::: {.notes}
@@ -1058,7 +1073,7 @@ ssh-add ~/.ssh/id_ed25519. This command tells the ssh-agent to load your SSH key
 
 ---
 
-## Testing the GitHub connection
+## Testing the GitHub connection {#testing-the-github-connection}
 
 **Step 1**: “Ask” GitHub at the command line if our connection is accepted with the following code:
 
@@ -1159,11 +1174,8 @@ Brief check-in: **Your Turn!**
 **What is the main purpose of using Git in a project?**
 
 a. To edit code directly on GitHub
-
 b. To automatically test and debug programs
-
 c. To track changes and collaborate on code with version control
-
 d. To back up files to the cloud without version history
 
 
@@ -1176,11 +1188,8 @@ d. To back up files to the cloud without version history
 **Why do we add an SSH key to our GitHub account when setting up Git?**
 
 a. To store our Git username and password on the computer
-
 b. To allow our computer to connect securely to GitHub without entering a password each time 
-
 c. To make Git automatically commit our changes
-
 d. To enable GitHub to edit our files directly on our computer
 
 
@@ -2106,16 +2115,12 @@ It is all about practise until you develop a routine.
 
 ---
 
-**Which of the following concepts or skills do you now feel more confident about in relation to version control? (Select all that apply)**
+**Which of the following concepts or skills do you *now* feel more confident about in relation to version control? (Select all that apply)**
 
 a. Git
-
 b. GitHub
-
 c. Repositories
-
 d. RStudio Project
-
 e. I am (still) not sure about any of these concepts.
 
 ---
