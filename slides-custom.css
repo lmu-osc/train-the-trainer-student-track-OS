@@ -165,6 +165,11 @@ Use as an inner wrapper inside a column: ::: {.img-vcenter}
   font-size: 70%;
 }
 
+/* smaller blockquote text */
+.reveal blockquote {
+  font-size: 75%;
+}
+
 
 
 /* Timer styling: Small timers. (Base width = 300px)

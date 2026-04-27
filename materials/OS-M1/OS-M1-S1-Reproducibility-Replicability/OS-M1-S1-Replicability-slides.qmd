@@ -33,7 +33,8 @@ filters:
 
 - Up to the "used car exercise": 30 min
 - "used car exercise": 20 min overall
-- 
+- Publication bias: 30 min (? not sure about that)
+- p-hacking + honest errors: 60 min (including some p-hacker app demo)
 
  -->
 
@@ -128,13 +129,14 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 Display Wordcloud answer. 
 
-## Survey
+<!-- ## Survey
 
-<!-- TODO: Diese Frage finde ich zu allgemein gestellt -->
+
+Note Felix: Diese Frage finde ich zu allgemein gestellt
 
 **Based on your experience so far, which concepts do you connect to research more broadly?**
 
-Display Wordcloud answer. 
+Display Wordcloud answer.  -->
 
 ## Survey
 
@@ -669,25 +671,18 @@ Think about your approach when **formulating your hypothesis**, when **conductin
 ## Definitions of key terms
 ### Replicability and reproducibility
 
-<!-- 
-TODO: Define these terms properly.
+::: {.smaller}
+- **Replicability**: The extent to which design, implementation, analysis, and reporting of a study enable a third party to repeat the study and assess its findings.
+  - [Replicability is a property of the original study - it makes no statement about whether a replication has been attempted yet or whether that was successful or not.]{.note}
+  - [Conceived as a continuum (hence the *extent* of replicability)]{.note}
+- **Replication**: A study that repeats all or part of another study *including new data collection* and allows researchers to compare their findings. Can be successful or not successful.
+- **Reproduction**: The act of re-computing some numerical results using the *original data* (with or without the original code)
+- **Reproducibility**: The extent to which the results of an original study agree with those of replication or reproductionstudies.
+:::
 
-Also add common terms, such as:
-
-Add a new slide with the continuum of exact/direct repl., conceptual replication, replication and extension (also called "direct+" replication)
-
- -->
-
-[(Disclaimer: No consensus about the meaning of these words - used differently in different disciplines)]{.smallnote}
-
-<div style="font-size: 0.8em;">
-| Feature | **Replicability**| **Reproducibility** |
-|------------|------------------|---------------------|
-| Definition | Ability to **repeat an experiment** using the **same methods** and obtain the same results | Ability to **obtain consistent results** using the **original data and code** |
-| Focus                 | *aka* repeating the experiment and collecting new data  | *aka* re-analyzing the original data with the original code etc.|
-| Materials | Same experiment setup, protocols, conditions etc. | Original data, analysis scripts, code etc.|
-| In practise  | Running the same psychological experiment with new participants | Running the published analysis on the original dataset |
-</div>
+::: footer
+Definitions of Replicability and Replication are from the iRISE glossary v2 by Voelkl et al. ([2025](https://osf.io/br9sp/files/nmwr3)). Note that no consensus about the meaning of these words exists - they are used differently in different disciplines.
+:::
 
 ::: {.notes}
 **Presenter Notes**: One way to check if you are on the right track with your approach and to assess the relibility and credibility of your pasta experiment is to consider replicability and reproducibility. 
@@ -700,6 +695,38 @@ The **key distinction** is that replicability tests the experiment itself, while
 
 **Instructor  Notes**: Make sure to spend enough time on this slide and provide an example scenario from the extra assignment at the end of the slide deck if you notice that the distinction between the terms remains too vague and/or abstract.
 :::
+
+
+
+## Definitions of key terms
+### Prototypes of replication studies
+
+- **exact/direct replication**: (Virtually) Everything is inherited from the original study except the sample itself
+- **close replication**: Similar to direct replication, but with some (necessary) modifications to the methods or procedures; e.g. translations
+- **conceptual replication**: The same substantive research question is tested, but with different operationalizations
+- **replication and extension**: Doing a direct replication and adding new elements (also called "direct+" replication)
+
+::: {.smallest}
+Note: The terminology around replication varies between fields, and the boundaries between these types are blurry.
+:::
+
+
+## Definitions of key terms
+### Better approach: Define exactly what changed/stayed identical
+
+A prototypical direct replication: 
+
+![](images/replication_types_matrix1.png){.img-full}
+
+
+## Definitions of key terms
+### Better approach: Define exactly what changed/stayed identical
+
+A realistic example:
+
+![](images/replication_types_matrix2.png){.img-full}
+
+The qualifiers "direct", "conceptual", "close" etc. replications are prototypical configurations of this matrix.
 
 
 ## Definitions of key terms
@@ -1379,6 +1406,9 @@ What do we see in the results?
 
 
 <!-- 
+Note Felix: At least for psych students, this excursus is not necessary.
+
+
 ## Excursus: Null-Hypothesis-Significance Testing
 
 **Example**: Does the new drug "SniffStop" work better to decrease flu symptoms compared to the existing drug "CoughAway"?
@@ -1430,7 +1460,6 @@ Do **not** try the following at home.
 -->
 
 
-<!-- TODO: Find a nice heading -->
 
 # p-hacking and other problems ...
 
@@ -1442,7 +1471,6 @@ Do **not** try the following at home.
 ## "Hack" 1: Add *lots* of outcome variables
 
 - For **two outcome variables**: False positive rate increases from 5% to **9.5%**
-
 - For **five outcome variables** (and one-sided testing): False positive rate increases from 5% to **41%**
 
 
@@ -1536,7 +1564,7 @@ Cited from Joe Hilgard’s excellent [blog post](http://crystalprisonzone.blogsp
 - "Trending towards significance"! **What is your intuition how to proceed?**
 
 ::: {.fragment}
-![](images/p-value-trajectory.png)
+![](images/p-value-trajectory.png){height=400px fig-align="center"}
 :::
 
 ::: {.notes}
@@ -1620,11 +1648,11 @@ Of course, this practice undermines the credibility of scientific findings becau
 ![](images/combining_hacks.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
 
 - Combining some of these hacks (*aka questionable research practices*) can **raise false positive rates** from 5% to > 50%!
-- The logic of the p-value is therefore **corrupted** and “*renders the reported p-values essentially uninterpretable.*”
+- With *p*-hacking, the logic of the p-value is **corrupted** and “*renders the reported p-values essentially uninterpretable.*”
 
 
 ::: footer
-Stefan, A. M., & Schönbrodt, F. D. (2023). Big little lies: A compendium and simulation of p -hacking strategies. *Royal Society Open Science, 10*(2), 220346. [https://doi.org/10.1098/rsos.220346](https://doi.org/10.1098/rsos.220346)
+Stefan, A. M., & Schönbrodt, F. D. ([2023](https://doi.org/10.1098/rsos.220346)). Big little lies: A compendium and simulation of p-hacking strategies. *Royal Society Open Science, 10*(2), 220346. Wasserstein et al. ([2016](http://doi.org/10.1080/00031305.2016.1154108)). The ASA's statement on p-values: context, process, and purpose. American Statistician.
 :::
 
 ::: {.notes}
@@ -1653,7 +1681,7 @@ The so-called "hacks" on the past few slides represent **questionable research p
 ::: {.notes}
 **Presenter Notes**: I want to be clear before we move on: the way the past slides were slide is deliberately sarcastic. It is meant to show  what can happen if researchers engage in questionable research practices, like p-hacking, but it’s **not a recommendation**.
 
-**Instructor  Notes**: Stress this point again d to potential cultural differences in terms of processing sarcasm. 
+**Instructor  Notes**: Stress this point again to potential cultural differences in terms of processing sarcasm. 
 :::
 
 
@@ -1693,17 +1721,11 @@ The so-called "hacks" on the past few slides represent **questionable research p
 **Instructor  Notes**: Possible answers can include:
 
 - Large number of uncorrected comparisons with selective reporting
-
 - The conclusion variable does not match the original hypothesis
-
 - Research question too vague and non-directional given the analysis
-
 - Results report comparisons that are not specified in the research question
-
 - Many p values bunching just below 0.05
-
 - Lack of pre registration or analysis plan when claims are confirmatory
-
 - Outcome variables added that were not specified in the hypothesis: e.g., reaction time
 :::
 
@@ -1752,12 +1774,12 @@ What are your thoughts on this?
  -->
 
 
-## Does this *actually* happen in real life?
+## Does this *actually* happen?
 
-Come on now. Surely not..? 😳
+Come on. Surely not..? 😳
 
 ::: {.fragment}
-![](images/09_QRPs_Psychology.png){fig-align=center width=100% fig-alt="p-hacking and questionable research practices"}
+![](images/09_QRPs_Psychology.png){fig-alt="p-hacking and questionable research practices" height=400px fig-align="center"}
 :::
 
 ::: footer
@@ -1911,11 +1933,12 @@ The most important point of the story: The original authors **shared their raw d
 
 ![](images/QuartelJournal_stat_analysis.png){fig-align=center width=100% fig-alt="QRPs in psychology"}
 
+::: {.incremental}
 - Reproducible analysis **code and open data required** at submission - “in-house checking” in review process
-
 - 54% of all submissions had results in the paper that **did not match** the computed results from the code
   - Wrong signs, wrong labeling of regression coefficients, errors in sample sizes, wrong descriptive stats
-  
+:::
+
 ::: footer
 Eubank, N. (2016). Lessons from a decade of replications at the quarterly journal of political science. *PS: Political Science & Politics, 49*(2), 273-276 [https://doi.org/10.1017/S1049096516000196](https://doi.org/10.1017/S1049096516000196)
 :::
@@ -1968,14 +1991,23 @@ I want to point out here that these are only errors of the statistical type, oth
 
 ## Reproducibility Success
 
-- Numerical results of less than 30% of papers can be **reproduced** [@cruwellWhatsBadgeComputational2022]
-- TODO: Add the current meta-studies by Kraehmer et al
 
+- Crüwell et al. (2022), Psychology: Numerical results of less than 30% of papers can be **reproduced** [@cruwellWhatsBadgeComputational2022]
+- Krähmer et al. (2026), Sociology:
+  - Only 3% of authors share analysis code proactively
+  - Upon request, 34% shared their code.
+    - Of these, 51% were perfectly reproducible.
+  - If non-shared cases are classified as non-reproducible, 18% of results reproduced.
+
+::: footer
+Krähmer, D., Schächtele, L., & Auspurg, K. ([2026](https://doi.org/10.1098/rsos.251997)).
+Crüwell et al. ([2023](https://doi.org/10.1177/09567976221140828)).
+:::
 
 ## What does this all mean?
 
 <div style="background-color: #fff9c4; padding: 1em; border-radius: 10px; text-align: center; font-size: 1.2em;">
-  **Bias + (may unintentional) *p*-hacking + human (honest) mistakes = untrustworthy research findings?**
+  **Bias + (maybe unintentional) *p*-hacking + human (honest) mistakes = untrustworthy research findings?**
 </div>
 
 
