@@ -201,7 +201,7 @@ NOTE Felix: Unnecessary filler slide.
 
  -->
 
-## {{< fa people-group size=1x >}} Your current understanding of key terms (6 min) {.small-timer}
+## {{< fa people-group size=1x >}} Your current understanding of key terms (6 min)
 ### Think - Pair - Share
 
 - **Think** (2 min): For yourself: Write down a definition for those key terms: *Replicability*, *Replication*, *Reproduction*, *p-hacking*<br>[(without internet search - your current understanding)]{.smallnote}
@@ -210,15 +210,15 @@ NOTE Felix: Unnecessary filler slide.
 
 ::::: {.columns}
 :::: {.column width="33%"}
-:::{.timer #think1 seconds=120 starton=interaction}
+:::{.timer #think1 seconds=120 starton=interaction size=67% sound=true}
 ::: 
 ::::
 :::: {.column width="33%"}
-:::{.timer #pair1 seconds=120 starton=interaction}
+:::{.timer #pair1 seconds=120 starton=interaction size=67% sound=true}
 :::
 ::::
 :::: {.column width="33%"}
-:::{.timer #share1 seconds=120 starton=interaction}
+:::{.timer #share1 seconds=120 starton=interaction size=67% sound=true}
 :::
 ::::
 :::::
@@ -534,7 +534,7 @@ Likewise, when scientists read published research, they trust that the study was
 
 
 
-## {{< fa people-group size=1x >}} The used car dealer (10 min) {.smallest-timer}
+## {{< fa people-group size=1x >}} The used car dealer (10 min)
 ### aka. "Trust in a situation with asymmetric information"
 
 :::: {.columns}
@@ -545,7 +545,7 @@ Likewise, when scientists read published research, they trust that the study was
   - *Dealers*: What would convince buyers that you are not one of the bad apples and your car has *really* good quality?
 - Discuss in groups; present your strategies
 
-:::{.timer #cardealer seconds=600 starton=interaction}
+:::{.timer #cardealer seconds=600 starton=interaction size=33% sound=true}
 ::: 
 :::
 
@@ -853,8 +853,6 @@ ggplot(df, aes(x = Category, y = Value, fill = Result)) +
         axis.title.x = element_text(size = 14),
         axis.title.y = element_text(size = 14),
         legend.text = element_text(size = 14))
-
-
 ```
 
 
