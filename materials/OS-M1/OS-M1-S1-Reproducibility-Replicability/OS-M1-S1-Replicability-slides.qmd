@@ -9,11 +9,11 @@ format:
     footer: LMU Open Science Center
     slide-number: true
     logo: ../../../OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
-  # pdf:
-  #   pdf-engine: tectonic
-  #   geometry: 
-  #     - top=30mm
-  #     - left=30mm
+  pdf:
+    pdf-engine: xelatex
+    geometry: 
+      - top=30mm
+      - left=30mm
   pptx: 
     css: ../../../slides-custom.css # looks for css file in root
 
@@ -795,7 +795,7 @@ Open Science Collaboration. (2015). Estimating the reproducibility of psychologi
 ## Replication rates across disciplines
 ### Up to 2018
 
-```{r, echo = F}
+```{r, echo=F}
 library(ggplot2)
 library(tidyverse)
 
