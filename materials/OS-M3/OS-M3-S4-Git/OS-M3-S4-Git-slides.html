@@ -6,11 +6,13 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.9.37">
 
   <meta name="author" content="LMU Open Science Center">
-  <meta name="dcterms.date" content="2026-03-05">
+  <meta name="dcterms.date" content="2026-06-05">
   <title>Educational resources for teaching Open Research to novices – Introduction to version control with Git in RStudio</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -208,7 +210,7 @@ LMU Open Science Center
 </div>
 </div>
 
-  <p class="date">03/05/2026</p>
+  <p class="date">06/05/2026</p>
 </section>
 <section class="slide level2">
 
@@ -480,8 +482,8 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 <ul>
 <li class="fragment"><strong>Reproducible workflows</strong>: Structured process ensuring that the methods can be consistently repeated by others using the same approach, data and tools</li>
 <li class="fragment"><strong>RStudio Project</strong>: A way to store all files related to one R project in one place (R scripts, files, workspace, history, …) via a so-called .Rproj file</li>
-<li class="fragment"><strong>Git</strong>: Version control system that tracks and manages changes to files and code <span class="notes">(an open source tool)</span></li>
-<li class="fragment"><strong>GitHub</strong>: Cloud-based version control platform for hosting Git repositories which includes collaboration features <span class="notes">(a free but commercial platform owned by Microsoft)</span></li>
+<li class="fragment"><strong>Git</strong>: Version control system that tracks and manages changes to files and code <span class="note">(an open source tool)</span></li>
+<li class="fragment"><strong>GitHub</strong>: Cloud-based version control platform for hosting Git repositories which includes collaboration features <span class="note">(a free but commercial platform owned by Microsoft)</span></li>
 <li class="fragment"><strong>Repositories</strong>: Git terminology for a folder where the contents of the folder are being tracked by Git</li>
 </ul>
 <aside class="notes">
@@ -637,8 +639,8 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
           display:block!important;
       }</style></aside>
 </section>
-<section id="who-is-familiar-with-these-problems" class="slide level2">
-<h2>Who is familiar with these problems?</h2>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063686172742d6261722073697a653d3178203e7d7d-who-is-familiar-with-these-problems" class="slide level2">
+<h2><i class="fa-solid fa-chart-bar fa-1x" aria-label="chart-bar"></i> Who is familiar with these problems?</h2>
 <ol type="a">
 <li>Inconsistent data and file management aka <strong>I cannot find my files</strong></li>
 <li>Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka <strong>my work is lost</strong></li>
@@ -697,6 +699,7 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 </section>
 <section id="before-we-start-survey-time" class="slide level2">
 <h2>Before we start: Survey time!</h2>
+<p><i class="fa-solid fa-chart-bar fa-3x" aria-label="chart-bar"></i></p>
 <aside class="notes">
 <p><strong>Instructor Notes</strong>: For a more interactive delivery, use free tools such as <a href="https://www.particify.de/en/">Particify</a>] to create interactive surveys before you deliver this lesson. The pre-submodule survey serves to examine learners’ prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed.</p>
 <p><strong>Accessibility Tip</strong>: Note that this slide only works for a synchronous in-class setting. Skip the survey as appropriate.</p>
@@ -712,36 +715,36 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
           display:block!important;
       }</style></aside>
 </section>
-<section class="slide level2">
-
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063686172742d6261722073697a653d3178203e7d7d" class="slide level2">
+<h2><i class="fa-solid fa-chart-bar fa-1x" aria-label="chart-bar"></i></h2>
 <p><strong>What is your level of familiarity with version control?</strong></p>
 <ol type="a">
-<li><p>I have never heard of it before.</p></li>
-<li><p>I have heard of it but have never worked with it.</p></li>
-<li><p>I have a basic understanding and some experience with it.</p></li>
-<li><p>I am very familiar and have worked with it extensively.</p></li>
+<li>I have never heard of it before.</li>
+<li>I have heard of it but have never worked with it.</li>
+<li>I have a basic understanding and some experience with it.</li>
+<li>I am very familiar and have worked with it extensively.</li>
 </ol>
 </section>
-<section class="slide level2">
-
-<p><strong>Which of the following concepts or skills do you currently feel most confident about in relation to version control? (Select all that apply)</strong></p>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063686172742d6261722073697a653d3178203e7d7d-1" class="slide level2">
+<h2><i class="fa-solid fa-chart-bar fa-1x" aria-label="chart-bar"></i></h2>
+<p><strong>Which of the following concepts or skills do you feel confident in? (Select all that apply.)</strong></p>
 <ol type="a">
-<li><p>Git</p></li>
-<li><p>GitHub</p></li>
-<li><p>Repositories</p></li>
-<li><p>RStudio Project</p></li>
-<li><p>I am not sure about any of these concepts.</p></li>
+<li>Git</li>
+<li>GitHub</li>
+<li>Repositories</li>
+<li>RStudio Project</li>
+<li>I am not sure about any of these concepts.</li>
 </ol>
 </section>
-<section class="slide level2">
-
-<p><strong>On a scale of 1 to 5, how comfortable are you with using Git for version control? (1 = Not comfortable at all, 5 = Very comfortable)</strong></p>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612063686172742d6261722073697a653d3178203e7d7d-2" class="slide level2">
+<h2><i class="fa-solid fa-chart-bar fa-1x" aria-label="chart-bar"></i></h2>
+<p><strong>How comfortable are you with using Git for version control?</strong></p>
 <ol type="a">
-<li><p>1</p></li>
-<li><p>2</p></li>
-<li><p>3</p></li>
-<li><p>4</p></li>
-<li><p>5</p></li>
+<li>1 = Not comfortable at all</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5 = Very comfortable</li>
 </ol>
 </section>
 <section id="discussion-of-survey-results" class="slide level2">
@@ -808,6 +811,7 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 </figure>
 </div>
 </div><div class="column" style="width:70%;">
+<div class="fragment">
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -818,6 +822,7 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 </div>
 <div class="callout-content">
 <p>GitHub is a free but commercial platform owned by Microsoft. A similar functionality is provided by GitLab, Codeberg, and other providers; some of them open source and non-commercial.</p>
+</div>
 </div>
 </div>
 </div>
@@ -888,12 +893,37 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
           display:block!important;
       }</style></aside>
 </section>
-<section class="slide level2">
-
+<section id="what-is-a-git-forge" class="slide level2">
+<h2>What is a “Git Forge”?</h2>
+<ul>
+<li>Git handles <em>version tracking</em> locally and across repositories.</li>
+<li>A git forge adds a web-based layer and <em>collaboration features</em> on top of Git, such as:
+<ul>
+<li>Access control (permissions, teams)</li>
+<li>Pull/Merge requests (propose and review changes)</li>
+<li>Issue tracking (bug reports, tasks)</li>
+<li>Code review tools (comments, approvals)</li>
+<li>CI/CD integration (automated testing and deployment)</li>
+<li>Web interface (browse code, history, diffs)</li>
+</ul></li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Git = the engine that tracks changes<br> Git forge = the full collaboration platform built around that engine (GitHub, GitLab, Codeberg, …)</p>
+</div>
+</div>
+</div>
 </section></section>
 <section>
-<section id="how-to-use-git-lets-get-started" class="title-slide slide level1 center">
-<h1>How to use Git: Let’s get started!</h1>
+<section id="how-to-use-git-lets-git-started" class="title-slide slide level1 center">
+<h1>How to use Git: Let’s git started!</h1>
 
 </section>
 <section id="installing-git-windows" class="slide level2">
@@ -1098,6 +1128,25 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a></a><span class="fu">ls</span> ~/.ssh</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
+<div class="smaller" title="A Note for Nerds">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>A Note for Nerds</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><code>ls</code> = “list” files in a directory</li>
+<li><code>~</code> = home directory of the current user</li>
+<li><code>.ssh</code> = folder where SSH keys are stored</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 <aside class="notes">
 <p><strong>Presenter Notes</strong>: The second step is to list the contents of the .ssh directory. This will allow you to see if any SSH keys are already present. To do this, open your terminal (or Git Bash on Windows) and enter the following command: ls ~/.ssh. This command will display a list of files located in the .ssh directory. If you already have SSH keys, you will likely see files such as id_rsa (private key) and id_rsa.pub (public key), or similarly named files like id_ed25519 and id_ed25519.pub.</p>
 <p><strong>Instructor Notes</strong>: Ask your audience to review the outputs of this command and to compare it to the following slide.</p>
@@ -1115,7 +1164,7 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
 </section>
 <section id="checking-for-existing-ssh-key-pair-2" class="slide level2">
 <h2>Checking for existing SSH key pair</h2>
-<p><strong>Step 3</strong>: If there are existing ssh keys, they are named one of the following:</p>
+<p><strong>Step 3</strong>: If there are existing ssh keys, they are named like this (you can have multiple keys):</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>id_rsa.pub</span>
 <span id="cb4-2"><a></a>id_ecdsa.pub</span>
 <span id="cb4-3"><a></a>id_ed25519.pub</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -1523,6 +1572,7 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <img data-src="https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/add-ssh-key.png" class="quarto-figure quarto-figure-center r-stretch" alt="Configure SSH key pair for PC" width="600"></section>
 <section id="adding-the-ssh-key-to-ssh-agent" class="slide level2">
 <h2>Adding the SSH key to <em>ssh-agent</em></h2>
+<h3 id="optional-step-only-necessary-if-you-keep-getting-asked-for-your-key">(optional step, only necessary if you keep getting asked for your key)</h3>
 <p>Managing your ssh keys is done via the <a href="https://smallstep.com/blog/ssh-agent-explained/">ssh-agent</a> software.</p>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -1533,7 +1583,9 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Depending on your system, the following might not be necessary. On most GNU/Linux distributions, your key will be automatically added to the ssh-agent after the first time you enter it. If you keep getting asked for your key each time you want to clone or push to a GitHub repository, you can follow the instructions on the next slides.</p>
+<p>Depending on your system, the following might not be necessary. On most GNU/Linux distributions and MacOS, your key will be automatically added to the ssh-agent after the first time you enter it.</p>
+<p>Only if you keep getting asked for your key each time you want to clone or push to a GitHub repository, you can follow the instructions on the next slides.</p>
+<p>Otherwise fast-forward to <a href="#/testing-the-github-connection">Testing the GitHub connection</a></p>
 </div>
 </div>
 </div>
@@ -1739,10 +1791,10 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 
 <p><strong>What is the main purpose of using Git in a project?</strong></p>
 <ol type="a">
-<li><p>To edit code directly on GitHub</p></li>
-<li><p>To automatically test and debug programs</p></li>
-<li><p>To track changes and collaborate on code with version control</p></li>
-<li><p>To back up files to the cloud without version history</p></li>
+<li>To edit code directly on GitHub</li>
+<li>To automatically test and debug programs</li>
+<li>To track changes and collaborate on code with version control</li>
+<li>To back up files to the cloud without version history</li>
 </ol>
 <aside class="notes">
 <p><strong>Instructor Notes</strong>: C is the correct answer: Git is a version control system that helps you track changes, manage versions, and collaborate with others on the same project safely.</p>
@@ -1762,10 +1814,10 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 
 <p><strong>Why do we add an SSH key to our GitHub account when setting up Git?</strong></p>
 <ol type="a">
-<li><p>To store our Git username and password on the computer</p></li>
-<li><p>To allow our computer to connect securely to GitHub without entering a password each time</p></li>
-<li><p>To make Git automatically commit our changes</p></li>
-<li><p>To enable GitHub to edit our files directly on our computer</p></li>
+<li>To store our Git username and password on the computer</li>
+<li>To allow our computer to connect securely to GitHub without entering a password each time</li>
+<li>To make Git automatically commit our changes</li>
+<li>To enable GitHub to edit our files directly on our computer</li>
 </ol>
 <aside class="notes">
 <p><strong>Instructor Notes</strong>: B is the correct answer: Adding an SSH key lets your computer authenticate with GitHub securely, so you can push and pull code without typing your password every time.</p>
@@ -2911,13 +2963,13 @@ Enter file in which to save the key (/Users/username/.ssh/id_ed25519):</p>
 </section>
 <section class="slide level2">
 
-<p><strong>Which of the following concepts or skills do you now feel more confident about in relation to version control? (Select all that apply)</strong></p>
+<p><strong>Which of the following concepts or skills do you <em>now</em> feel more confident about in relation to version control? (Select all that apply)</strong></p>
 <ol type="a">
-<li><p>Git</p></li>
-<li><p>GitHub</p></li>
-<li><p>Repositories</p></li>
-<li><p>RStudio Project</p></li>
-<li><p>I am (still) not sure about any of these concepts.</p></li>
+<li>Git</li>
+<li>GitHub</li>
+<li>Repositories</li>
+<li>RStudio Project</li>
+<li>I am (still) not sure about any of these concepts.</li>
 </ol>
 </section>
 <section class="slide level2">
