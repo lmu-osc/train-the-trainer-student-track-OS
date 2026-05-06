@@ -9,10 +9,10 @@ format:
     footer: LMU Open Science Center
     slide-number: true
     logo: ../../../OSC_Logo.jpg
-  pdf:
-    geometry: 
-      - top=30mm
-      - left=30mm
+  # pdf:
+  #   geometry: 
+  #     - top=30mm
+  #     - left=30mm
   #pptx:
     #incremental: true 
     #reference-doc: template.pptx
