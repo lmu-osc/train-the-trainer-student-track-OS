@@ -6,7 +6,7 @@ date-format: "DD/MM/YYYY"
 draft: true
 format: 
   revealjs:
-    css: ../../slides-custom.css # looks for css file in root
+    css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
     logo: ../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
