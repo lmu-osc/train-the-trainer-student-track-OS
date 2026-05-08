@@ -9,10 +9,10 @@ format:
     footer: LMU Open Science Center
     slide-number: true
     logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
-  pdf:
-    geometry: 
-      - top=30mm
-      - left=30mm
+  #pdf:
+   # geometry: 
+   #   - top=30mm
+   #   - left=30mm
   pptx: 
     css: ../../../slides-custom.css # looks for css file in root
 
