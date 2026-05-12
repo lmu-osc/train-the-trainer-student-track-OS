@@ -231,7 +231,7 @@ Keep this introduction brief and motivational. The goal is not to teach R, but t
 ## The RStudio environment {footer="false"}
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen1.png" style="width:75%;"/>
+<img src="images/R_screen1.png" style="width:50%;"/>
 :::
 
 ::: {.callout-tip}
@@ -508,7 +508,7 @@ This helps make your code more readable and easier to understand — both for ot
 ## Creating a new R script
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen2.png" style="width:75%;"/>
+<img src="images/R_screen2.png" style="width:50%;"/>
 :::
 
 ::: {.callout-tip}
@@ -804,7 +804,7 @@ Ensure the link is accessible through the course platform or slide deck.
 
 ---
 
-## Feedback David (1/2) {.smaller}
+## Feedback David (1/2)
 
 - Issue: Oversized Text (Font-Size): Quarto ignores all HTML classes during PowerPoint export.
 - Solution:
@@ -814,3 +814,7 @@ Ensure the link is accessible through the course platform or slide deck.
 
 ## Feedback David (2/2)
 
+- I adjusted image sizes on slides 15 and 26 for improved layout.
+- Slide 43 ("Practical exercise 2: Solutions"): There is a placeholder speaker note ("ADD HERE") that has to be updated.
+- Slide 14 ("What is R"): Red strikethrough text ("Would you want to add a hyperlink here?") is still there and needs to be removed.
+- Should we all be included in the contribution statement?
