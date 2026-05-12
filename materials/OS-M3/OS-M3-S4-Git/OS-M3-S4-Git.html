@@ -73,6 +73,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setExcludedReferrers", ["localhost"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://www.analytics.osc.lmu.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '16']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 
 
 <link rel="stylesheet" href="../../../website-custom.css">
@@ -346,7 +362,7 @@ Note
 <section id="practical-exercises---solutions" class="level3">
 <h3 class="anchored" data-anchor-id="practical-exercises---solutions">Practical exercises - solutions</h3>
 <p>Download the solutions for the practical exercises here:</p>
-<p><a href="#dnldts19258" onclick="fetch('data:text/csv;base64,eGRhdGEseWRhdGEKLTIsMC42OTkzNjkKLTEuNjQsMC43MDA0NjIKLTEuMzMsMC42OTUzNTQKLTAuNywxLjAzOTA1CjAsMS45NzM4OQowLjQ1LDIuNDExNDMKMS4yLDEuOTEwOTEKMS42NCwwLjkxOTU3NgoyLjMyLC0wLjczMDk3NQoyLjksLTEuNDIwMDEK').then(res => res.blob()).then(blob => {
+<p><a href="#dnldts64706" onclick="fetch('data:text/csv;base64,eGRhdGEseWRhdGEKLTIsMC42OTkzNjkKLTEuNjQsMC43MDA0NjIKLTEuMzMsMC42OTUzNTQKLTAuNywxLjAzOTA1CjAsMS45NzM4OQowLjQ1LDIuNDExNDMKMS4yLDEuOTEwOTEKMS42NCwwLjkxOTU3NgoyLjMyLC0wLjczMDk3NQoyLjksLTEuNDIwMDEK').then(res => res.blob()).then(blob => {
       const downloadURL = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       document.body.appendChild(a);
@@ -354,12 +370,12 @@ Note
       a.download = 'example_data.csv.csv'; a.click();
       window.URL.revokeObjectURL(downloadURL);
       document.body.removeChild(a);
-        });"><button class="btn btn-default downloadthis  " id="dnldts19258"><i class="bi bi-download"></i> Download </button></a></p>
+        });"><button class="btn btn-default downloadthis  " id="dnldts64706"><i class="bi bi-download"></i> Download </button></a></p>
 </section>
 <section id="helpfiles" class="level3">
 <h3 class="anchored" data-anchor-id="helpfiles">Helpfiles</h3>
 <p>Download the csv file for the example data:</p>
-<p><a href="#dnldts64987" onclick="fetch('data:text/csv;base64,eGRhdGEseWRhdGEKLTIsMC42OTkzNjkKLTEuNjQsMC43MDA0NjIKLTEuMzMsMC42OTUzNTQKLTAuNywxLjAzOTA1CjAsMS45NzM4OQowLjQ1LDIuNDExNDMKMS4yLDEuOTEwOTEKMS42NCwwLjkxOTU3NgoyLjMyLC0wLjczMDk3NQoyLjksLTEuNDIwMDEK').then(res => res.blob()).then(blob => {
+<p><a href="#dnldts4551" onclick="fetch('data:text/csv;base64,eGRhdGEseWRhdGEKLTIsMC42OTkzNjkKLTEuNjQsMC43MDA0NjIKLTEuMzMsMC42OTUzNTQKLTAuNywxLjAzOTA1CjAsMS45NzM4OQowLjQ1LDIuNDExNDMKMS4yLDEuOTEwOTEKMS42NCwwLjkxOTU3NgoyLjMyLC0wLjczMDk3NQoyLjksLTEuNDIwMDEK').then(res => res.blob()).then(blob => {
       const downloadURL = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       document.body.appendChild(a);
@@ -367,7 +383,7 @@ Note
       a.download = 'example_data.csv.csv'; a.click();
       window.URL.revokeObjectURL(downloadURL);
       document.body.removeChild(a);
-        });"><button class="btn btn-default downloadthis  " id="dnldts64987"><i class="bi bi-download"></i> Download </button></a></p>
+        });"><button class="btn btn-default downloadthis  " id="dnldts4551"><i class="bi bi-download"></i> Download </button></a></p>
 <p><!-- https://github.com/shafayetShafee/downloadthis --> <!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html --></p>
 </section>
 </section>
