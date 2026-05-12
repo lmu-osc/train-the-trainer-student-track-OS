@@ -14,8 +14,8 @@ format:
     geometry: 
       - top=30mm
       - left=30mm
-  #pptx: 
-    css: ../../slides-custom.css # looks for css file in root
+  pptx: 
+    reference-doc: ../../../assets/template.pptx
 
 #bibliography: ../../assets/references.bib
 #csl: ../../assets/apa.csl
@@ -26,14 +26,13 @@ execute:
   engine: knitr
 ---
 
-## Licence
+## Licence {.smaller}
 
 ![Creative Commons Attribution 4.0](images/cc-by-sa.png)
 
 This work was originally created by [Mike Croucher](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
 
 Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
-
 
 ::: {.notes}
 **Presenter Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
@@ -48,7 +47,6 @@ However, there are some important conditions you must follow. You are required t
   
 **Creator**: Sanchez Steinhagen, Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
-
 
 **Reviewer**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
@@ -668,7 +666,7 @@ Keep this slide concise and use it as a clear closure of the R part 1 section.
 
 ---
 
-## Learning goals: Check-In
+## Learning goals: Check-In {.smaller}
 
 Where are we at?
 
@@ -805,3 +803,14 @@ Ensure the link is accessible through the course platform or slide deck.
 :::
 
 ---
+
+## Feedback David (1/2) {.smaller}
+
+- Issue: Oversized Text (Font-Size): Quarto ignores all HTML classes during PowerPoint export.
+- Solution:
+  - For Quarto: Continue using HTML classes like {.smaller} in slide titles (## Title {.smaller}).
+  - For PowerPoint: Use a custom PowerPoint template to define global font sizes for all exported text (I already created a basic one and set the font-size to 18; it is located in the assets folder and referenced in the YAML header of this presentation). 
+- Outlook: This approach seems to be the only viable option right now. Despite the limitation to a global font size in PowerPoint, the template allows for extensive customization. Design elements like the green title bar or the OSC-specific footer can be hardcoded into the template, while Quarto slides maintain their dynamic HTML classes.
+
+## Feedback David (2/2)
+
