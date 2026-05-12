@@ -202,7 +202,7 @@ NOTE Felix: Unnecessary filler slide.
 
  -->
 
-## {{< fa people-group size=1x >}} Your current understanding of key terms (6 min)
+## Your current understanding of key terms (6 min)
 ### Think - Pair - Share
 
 - **Think** (2 min): For yourself: Write down a definition for those key terms: *Replicability*, *Replication*, *Reproduction*, *p-hacking*<br>[(without internet search - your current understanding)]{.smallnote}
@@ -439,7 +439,7 @@ Resnik, D. B. (2011). Scientific research and the public trust. *Science and eng
 
 ## Measuring trust in research
 
-{{< fa chart-bar size=1x >}} Probe your prejudices: In which profession do you have the highest trust to tell the truth? And the lowest?
+Probe your prejudices: In which profession do you have the highest trust to tell the truth? And the lowest?
 
 . . . 
 
@@ -535,7 +535,7 @@ Likewise, when scientists read published research, they trust that the study was
 
 
 
-## {{< fa people-group size=1x >}} The used car dealer (10 min)
+## The used car dealer (10 min)
 ### aka. "Trust in a situation with asymmetric information"
 
 :::: {.columns}
@@ -597,7 +597,7 @@ Quotes from Vazire, S. ([2017](https://doi.org/10.1525/collabra.74)).
 ::: {.column width='50%'}
 ::: {.img-vcenter}
 **Nullius in verba** ("take nobody's word for it")
-![](images/Coat_of_arms_of_the_Royal_Society.svg){style="max-height:44vh; width:100%; object-fit:contain;"}
+<img src="images/Coat_of_arms_of_the_Royal_Society.svg" style="max-height:44vh; width:100%; object-fit:contain;" />
 [*The motto of the Royal Society, the oldest scientific society in the world*]{.smaller}
 :::
 ::: 
@@ -982,7 +982,7 @@ Adapted from Dr. Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx
 # Low power and low p(H1)
 
 
-## {{< fa chart-bar size=1x >}} Live Poll
+## Live Poll
 
 ::: {.callout-box}
 Given that in a given study $p < .05$: What is the probability that a real effect exists in the population ➙ $p(H_1|D)$?
