@@ -211,6 +211,7 @@ identify areas where you might want to ask questions later.
     
 <div style="font-size: 0.6em;">
 <span style="color:red">~~From SvG: Would you want to add a hyperlink here?~~</span>
+<span style="color:red">From Beth: can we change the first bullet point to "R is a free and open source programming language" ? </span>
 </div>
 
 ::: {.notes}
@@ -236,7 +237,7 @@ Keep this introduction brief and motivational. The goal is not to teach R, but t
 
 ::: {.callout-tip}
 ## Short exercise
-Open RStudio and check if you can see everything that’s on the slide (might be only three panes).
+Open RStudio and check if you can see everything that’s on the slide (you might only see three panes on your screen).
 :::
 
 ::: {.notes}
@@ -269,6 +270,10 @@ Verbally describe each pane clearly and allow extra time for students to locate 
 | `sqrt()` | Square Root         |
 | `log()`  | (Natural) Logarithm |
 
+<div style="font-size: 0.6em;">
+<span style="color:red"> From Beth: I would add /frac to this list since it's used in the following practical exercise... (admittedly, it is fairly self-explanatory but still...) </span>
+</div>
+
 ::: {.notes}
 **Speaker Notes**:  
 In the Console, which is the bottom left pane in RStudio, we can directly run commands.  
@@ -290,13 +295,14 @@ Say each operator aloud (e.g., “asterisk for multiplication”) to support lea
 
 **Mathematical Operations**
 
-- Use the table on the previous slide to run the following math operations directly in the console (bottom left).
-  - `12+17`
-  - `\frac{218}{3}`
-  - `357^2`
+Use the table on the previous slide to run the following math operations directly in the console (bottom left).
+
+  - [ ] `12+17`
+  - [ ] `\frac{218}{3}`
+  - [ ] `357^2`
 
 ::: {.callout-tip}
-*Hint*: You can run code from the console by pressing Enter.
+*Hint*: You can run code from the console by pressing Enter on your keyboard.
 :::
 
 ::: {.notes}
@@ -324,6 +330,8 @@ Read out each command clearly and explain symbols (e.g., “slash for division�
 
 ## Logical comparisons
 
+With **R**, you can also:
+
 -   Check if two numbers are equal or unequal
 
 -   Check if a number is larger or smaller than another number
@@ -341,6 +349,10 @@ Example:
     -   `TRUE` or
 
     -   `FALSE`
+    
+<div style="font-size: 0.6em;">
+<span style="color:red">From Beth: added the first line, what do you think? </span>
+</div>
 
 ::: {.notes}
 **Speaker Notes**:  
@@ -388,9 +400,9 @@ Present this as a reference slide rather than content to be learned immediately.
 
 ## Practical exercise 2
 
-#### `TRUE` or `FALSE`?
+*`TRUE` or `FALSE`?*
 
-- Express the following statements in words and evaluate whether they are `TRUE` or `FALSE`.
+- [ ] Express the following statements in words and evaluate whether they are `TRUE` or `FALSE`.
 
 ``` r
 (36 + 5)> 40
@@ -403,10 +415,9 @@ Present this as a reference slide rather than content to be learned immediately.
 ``` r
 (5 == (2 + 3)) & (7 >= 8)
 ```
+<br>
 
-::: {.callout-tip}
-*Hint*: Check your answers by running the statements in the console.
-:::
+- [ ] Check your answers by running the statements in the Console.
 
 ::: {.notes}
 **Speaker Notes**:  
@@ -453,19 +464,25 @@ Keep the explanation conceptual. The goal is recognition, not mastery. Avoid goi
 
 ## Data types - Operations
 
+Can R perform an operation on different data types? 
+
 - Two numeric variables can be summed up:
 
 ```{r}
 4 + 5 
 
 ```
-<br>
+
 - A numeric and a character variable cannot be summed up:
 
 ```{r}
 #| error: true
 4 + "five"
 ```
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From Beth: added the first line </span>
+</div>
 
 ::: {.notes}
 **Speaker Notes**:  
@@ -483,6 +500,8 @@ Use this slide to reinforce the practical importance of data types. Optionally d
 
 ## R Scripts
 
+An R Script is a text file containing your R commands.
+
 -   Easy way to save and share code you wrote
 
 -   You can run code from an R script by pressing **Ctrl + Enter** (Windows) or **click on Run**
@@ -494,10 +513,14 @@ Use this slide to reinforce the practical importance of data types. Optionally d
 4+5
 ```
 
+<div style="font-size: 0.6em;">
+<span style="color:red">From Beth: added the first line </span>
+</div>
+
 ::: {.notes}
 **Speaker Notes**:  
 So far, we’ve been working in the Console. But there’s one important limitation: anything you type there is not saved once you close RStudio.  
-That’s why we use R scripts. An R script is simply a file where you can write, save, and organise your code so you can come back to it later or share it with others.  
+That’s why we use R scripts. An R script is simply a file where you can write, save, and organize your code so you can come back to it later or share it with others.  
 To run code from a script, you place your cursor on a line,or highlight multiple lines, and then press Ctrl + Enter on Windows or Command + Enter on a Mac. You can also click the ‘Run’ button.  
 Another useful feature is comments. If you want to add notes or explanations that R should not execute as code, you use the hash symbol. Everything after that on the line is treated as a comment.  
 This helps make your code more readable and easier to understand — both for others and for your future self.
@@ -569,6 +592,10 @@ Make sure students understand the idea of “storage” rather than just calcula
 <img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:200%;"/>
 :::
 
+<div style="font-size: 0.6em;">
+<span style="color:red">From Beth: Can we leave the heading here as "Objects and assignment"? I understand this as a continuation and it's an example of where an object goes after assigning </span>
+</div>
+
 ::: {.notes}
 **Speaker Notes**:  
 Here you can see an example of how an object appears in the Environment pane in RStudio.  
@@ -620,9 +647,10 @@ Allow silent reflection time before discussion. Summarise key contributions alou
 
 ## Assignment
 
-#### Going beyond what you learned
+*Going beyond what you learned*
 
-- **Create a short R script that builds on what you just learned**
+**Create a short R script that builds on what you just learned**
+
   - Assign at least two objects (e.g., numbers)
   - Perform at least one mathematical operation using those objects (e.g., multiplication)
   - Use at least one logical comparison to check a condition
@@ -649,8 +677,8 @@ Clarify that this is a practice exercise rather than an assessment of correctnes
 
 ## Take-home message
 
-- R -> **your go-to tool** for data analysis and quantitative research.
-- RStudio interface -> helps you **organize code, outputs, and data** efficiently.
+- R → **your go-to tool** for data analysis and quantitative research.
+- RStudio interface → helps you **organize code, outputs, and data** efficiently.
 - Writing and saving R scripts ensures your work is **reproducible and well-documented**.
 
 ::: {.notes}
@@ -818,3 +846,13 @@ Ensure the link is accessible through the course platform or slide deck.
 - Slide 43 ("Practical exercise 2: Solutions"): There is a placeholder speaker note ("ADD HERE") that has to be updated.
 - Slide 14 ("What is R"): Red strikethrough text ("Would you want to add a hyperlink here?") is still there and needs to be removed.
 - Should we all be included in the contribution statement?
+
+## Feedback Beth 
+
+- There's no key terms + definitions section in these slides, was that intentional? 
+- suggestion for addition to content on slide 14, 16, 18, 24, 25, 28
+- I added checkboxes to the practical exercises
+- Slide 22: i don't think "Important data types" needs to be a level 1 heading if there will only be 2 slides addressing the topic 
+- (Slide 26) can we turn 'making a new R Script' into a Practical exercise or is it too small of a task?
+- (Slide 27) same here- can we turn the 'Short task' in the callout box into a Practical exercise? 
+- Should we change question 1 & 3 of the post-session survey. I'm wondering if it still makes sense to ask these questions right after a survey about R and RStudio
