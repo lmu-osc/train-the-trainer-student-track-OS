@@ -272,6 +272,10 @@ What do we see in the results?
 
 # The Working Directory
 
+<div style="font-size: 0.6em;">
+<span style="color:red">From David: Is this kind of structure fine for every sub-topic?</span>
+</div>
+
 ---
 
 ## What is the Working Directory?
@@ -291,17 +295,19 @@ What do we see in the results?
 
 ---
 
-## Setting the Working Directory: Method 1 {.smaller}
+## Setting the Working Directory: Method 1 
 
+<div style="font-size: 0.6em;">
 Using the top menu bar in RStudio:
 
 1. Click **Session**
 2. Hover over **Set Working Directory**
 3. Select **Choose Directory...**
 4. Navigate to your desired folder and click **Open**.
+</div>
 
 ::: {style="text-align: center;"}
-![](images/wd_session_menu.png){style="width:60%;"}
+![](images/wd_session_menu.png){style="width:55%;"}
 :::
 
 ::: {.notes}
@@ -312,16 +318,18 @@ Using the top menu bar in RStudio:
 
 ---
 
-## Setting the Working Directory: Method 2 {.smaller}
+## Setting the Working Directory: Method 2 
 
+<div style="font-size: 0.6em;">
 Using the Files pane (bottom right in default layout):
 
 1. Navigate to your desired folder in the **Files** pane.
 2. Click the **More** button (gear icon).
 3. Select **Set As Working Directory**.
+</div>
 
 ::: {style="text-align: center;"}
-![](images/wd_files_pane.png){style="width:60%;"}
+![](images/wd_files_pane.png){style="width:55%;"}
 :::
 
 ::: {.notes}
@@ -332,9 +340,11 @@ Using the Files pane (bottom right in default layout):
 
 ---
 
-## Checking the Working Directory {.smaller}
+## Checking the Working Directory
 
+<div style="font-size: 0.6em;">
 Verify the current working directory by looking at the top of the **Console** pane (bottom left).
+</div>
 
 ::: {style="text-align: center;"}
 ![](images/wd_console_top.png){style="width:60%;"}
@@ -373,7 +383,150 @@ Alternatively, type `getwd()` in the console and press Enter to print the exact 
 
 ---
 
-## Functions
+# Functions
+
+---
+
+## What is a function?
+
+- A **function** is a reusable block of code that performs a specific task.
+- You provide input values (**arguments**), and R returns an **output** based on internal operations.
+- Analogous to a mathematical function: 
+  - If `f(x) = 2 * x`, then inputting `x = 3` returns `6`.
+- Every function has a unique name, followed by parentheses `()`.
+
+```{r}
+#| eval: false
+# Example of a function taking multiple inputs
+sum(1, 2, 3, 4)
+```
+
+::: {.notes}
+**Presenter Notes**: Now that we know how to store data in our working directory, let's talk about how to manipulate it. A function is basically a recipe. You put ingredients in—these are called arguments—and the function gives you a finished dish as output. It saves us from writing complex mathematical formulas from scratch.
+
+**Instructor Notes**: Emphasize the syntax: the function name is always immediately followed by parentheses. This is how R distinguishes a function from an object.
+:::
+
+---
+
+## Combining values: The `c()` function
+
+- To apply functions to multiple numbers at once, we group them into a vector.
+- We use the c() function, which stands for combine.
+
+```{r}
+#| eval: false
+# Combine four numbers into one object
+my_group <- c(10, 20, 30, 40)
+
+# Now we can apply a function to the entire group
+sum(my_group)
+```
+
+::: {.notes}
+**Presenter Notes**: Before we look at more functions, we need to know one special, very short function: the letter 'c'. It stands for combine. When we want to calculate the average of several numbers, we first group them together into a single object using c(), and then we can pass that entire object into our math functions.
+:::
+
+---
+
+## Common built-in functions
+
+R comes with many built-in mathematical functions:
+
+| Function | What it does | |
+| :--- | :--- | --- |
+| `sum()` | Adds all values together | |
+| `mean()` | Calculates the arithmetic mean (average) | |
+| `sd()` | Calculates the standard deviation | |
+| `exp()` | Calculates the exponential function ($e^x$) | |
+| `round()` | Rounds a number | |
+
+::: {.notes}
+**Presenter Notes**: Here are some of the most common mathematical and statistical functions you will use in R. They do exactly what their names suggest. `sd()` calculates the standard deviation, and `exp()` calculates the exponential.
+:::
+
+---
+
+## Function arguments
+
+- Most functions take multiple arguments (inputs).
+- Example: The round() function takes the number to round (x), and the number of decimal places (digits).
+- You can provide arguments by position or by name.
+
+```{r}
+#| eval: false
+# By position (R assumes the first number is x, the second is digits)
+round(3.14159, 2)
+
+# By name (explicitly telling R which argument is which)
+round(x = 3.14159, digits = 2)
+```
+
+::: {.callout-tip}
+Naming your arguments explicitly makes your code much easier to read!
+:::
+
+::: {.notes}
+**Presenter Notes**: Some functions need more than one piece of information. For instance, to round a number, R needs to know what number to round, and how many decimals to keep. You can just type the numbers in the right order, but explicitly naming the arguments, like writing `digits = 2`, is highly recommended because it makes your script much easier to understand when you read it a month later.
+
+**Instructor Notes**: Briefly explain that if you name the arguments, the order doesn't matter (e.g., `round(digits = 2, x = 3.14159)` works identically).
+:::
+
+---
+
+## Practical exercise 2
+
+**Using Functions**
+
+<div style="font-size: 0.8em;">
+- [ ] Create a vector containing the numbers 4.4, 14, 5.26, and 26. Assign it to an object named numbers.
+- [ ] Try out the functions sum(), mean(), and sd() using the object numbers as the argument and inspect the output.
+- [ ] Assign the number 2.4637 to an object named my_number.
+- [ ] Try out the functions exp() and round() using my_number as the argument.
+</div>
+
+:::: {.callout-tip title="Hint"}
+<div style="font-size: 0.8em;">
+Try running the `round()` function without specifying the `digits =` argument. What happens? Why might that be?
+</div>
+::::
+
+::: {.notes}
+**Presenter Notes**: Let's put this into practice. Create your vector using the `c()` function we just learned, save it as an object, and then run some basic statistics on it. For the second part, pay special attention to the `round()` function and the hint on the slide!
+
+**Instructor Notes**: Give learners about 5-7 minutes. Walk around to ensure they are properly using the `c()` function to create the vector. A common beginner mistake is typing `mean(4.4, 14, 5.26, 26)` directly, which will not work as expected because `mean()` only calculates the mean of the first argument if they aren't combined into a vector first.
+:::
+
+---
+
+## Practical exercise 4: Solutions
+
+```{r}
+#| eval: false
+# 1. Create a vector and assign it to "numbers"
+numbers <- c(4.4, 14, 5.26, 26)
+
+# 2. Try out sum(), mean(), and sd()
+sum(numbers)
+mean(numbers)
+sd(numbers)
+
+# 3. Assign the number to "my_number"
+my_number <- 2.4637
+
+# 4. Try out exp() and round()
+exp(my_number)
+round(my_number)
+round(my_number, digits = 2)
+```
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From David: For now, I made a solution slide for the exercise and put it here. Later we can move it to the end of the presentation (like in the R-Part-I presentation) if you'd like.</span>
+</div>
+
+::: {.notes}
+**Presenter Notes**: Here is the complete solution. Notice how we assigned the vector to `numbers` first and placed the object name inside the parentheses. For the second part, running `round(my_number)` without specifying the `digits` argument rounded the output to 2. This occurs because functions have built-in default values. If the `digits` argument is omitted, R assumes zero decimals. Determining default values is done using the Help function.
+:::
 
 ---
 
