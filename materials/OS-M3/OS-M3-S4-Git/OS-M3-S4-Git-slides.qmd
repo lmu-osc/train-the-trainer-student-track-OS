@@ -29,9 +29,6 @@ execute:
 Possible future improvements:
 
 1. The commit messages in the screenshots from the Git tab in RStudio are not in imperative mode. We should follow our own best practices. (Not dramatic, can be changed with 2)
-2. I think the Git interface in RStudio is not good. Very often it cannot resolve merge conflicts which are automatically resolved in other desktop apps, such as Github Desktop. I would change to a dedicated Git app. I suggest:
-- https://github.com/sourcegit-scm/sourcegit (community maintained, all open source)
-- Github Desktop (also open source, but closely tied to Github and Microsoft)
 
  -->
 
