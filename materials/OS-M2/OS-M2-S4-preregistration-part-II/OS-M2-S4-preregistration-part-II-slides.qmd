@@ -30,8 +30,7 @@ execute:
 
 ![](images/cc-by-sa.png){width="10%" fig-align="center"}
 
-<small>This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.</small>
+<small>This current work by  Sara Lil Middleton and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</small>
 
 ::: {.notes}
 **Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
@@ -41,20 +40,9 @@ Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [C
 
 ## Contribution statement
   
-  
-**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
-
 **Creator**: Middleton, Sara (![](images/ORCID-iD_icon_16x16.png)[0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029))
 
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[00009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
-
 **Reviewer**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
-
-**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
-
-**Consultant**: Edelsbrunner, Peter (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
 
 
 ::: {.notes}
@@ -217,155 +205,199 @@ What do we see in the results?
 
 ## Learning goals
 
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+**Aim**: Examine the benefits of preregistration to researchers and wider research ecosystem, and discuss common challenges and how to address them. <br> <br>
 
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-- Examples: 
-  - Learners will **describe** the process of photosynthesis or
-  - Learners will **construct** a diagram illustrating the process of photosynthesis
+There are **two** sections to this submodule:
+
+-   **Section 1**: Benefits and barriers of preregistration
+
+-   **Section 2:** Building up skills in preregistration
+
   
 ::: {.notes}
 **Presenter Notes**: Script for the slide here.
 
 **Instructor Notes**:  
 
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
 
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-
-- Examples: 
-  - Learners will **describe** the process of photosynthesis or
-  - Learners will **construct** a diagram illustrating the process of photosynthesis
-  
 :::
 
 ---
+### Section 1: Learning goals and overview
 
-## Key terms and definitions
+Section 1 is all about recognizing common benefits and barriers of preregistration for researchers and wider research ecosystem <br> <br>
 
-- **Aim**: Introduce key terms and definitions that learners will come across throughout the session.
-  
-  
-- **Key Term 1**: Definition
-- **Key Term 2**: Definition
-- **Key Term 3**: Definition
+Activity: Quiz 
 
-::: {.notes}
-**Presenter Notes**: Add script for slide here.
+After completing section 1 you should be able to:
 
-**Instructor Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
-:::
-
----
-
-## Introduction of submodule topic
-
-- **Aim**: Core theoretical introduction of submodule topic.
-- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
-- Use multiple slides for this part.
+-   **Explain** the perceived barriers to doing a preregistration
+-   **Identify** key benefits of preregistration
 
 ::: {.notes}
-**Presenter Notes**: Add script for the slide here. 
+**Presenter Notes**: 
 
 **Instructor Notes**:  
 
-- **Aim**: Core theoretical introduction of submodule topic.
-
-- For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, learners should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
-
-- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
-
-- Use multiple slides for this part.
 :::
 
 ---
 
-## Submodule content slide
+### Section 2: Learning goals and overview
 
-- **Aim**: Present relevant content
-- Highlight particularly important aspects with Quarto call-out boxes, for example: 
+Section 2 is about practicing improving a component of a study registration <br> <br>
 
-::: {.callout-important}
-## Important with Title
+Activity: Build up your registration toolkit! (pair work)
 
-This is an example of a callout box to highlight particularly important information.
-:::
+After completing section 2 you should be able to:
 
-::: {.callout-tip}
-## Tip with Title
-
-This is an example of a callout box to give important tips. 
-:::
+-   **Self-reflect** 
+-   **Propose** an action that follows the principles of study
+    registration that one can implement
 
 ::: {.notes}
-**Presenter Notes**: Script for the slide here. 
+**Presenter Notes**: 
+
+**Instructor Notes**:  
 :::
 
 ---
 
-## Practical exercise 1
+## ## Quick recap 
+Preregistration is …
 
-- **Aim**: Design more practical exercises for learners to apply the new skills in practice.
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-- Add a description of the task, as well as a checklist as an overview of that your learners need to be doing. 
 
-- [x] Step 1
-- [ ] Step 2
-- [ ] Step 3
+
+::: {.notes}
+**Presenter Notes**: 
+
+**Instructor Notes**:  
+
+
+:::
+
+---
+
+## **Section 1**: Benefits and barriers of preregistration
+
+-   Improved planning and project management
+-   Clearer involvement of collaborators/project partners
+-   You can get a badge!
+-   More benefits from a student perspective outlined by @gya2023
+
+
+::: {.notes}
+**Speaker Notes**: Script for the slide here. 
+:::
+
+---
+
+## Challenges 
+
+Time: "I haven't got time to do a study registration"
+
+-   *Counterargument:* front-loaded effort during the planning stage can
+    help later on during write up and during peer review.
+
+
 
 ::: {.notes}
 **Presenter Notes**: Script for the slide here.
 
 **Instructor Notes**:
 
-- **Aim**: Design more practical exercises for learners to apply the new skills in practice.
 
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-
-- Add a description of the task, as well as a checklist as an overview of that your learners need to be doing. 
 :::
 
 ---
 
-## Pre-break quiz
+## Challenges 
 
-- **Aim**: This pre-break survey serves to examine learners' current understanding of key concepts of the submodule
+Lack of incentives: "I don't see the point"
+
+-   *Counterargument:* aside from individual researcher benefits
+    (increased reflection, reduced likelihood of systematic errors),
+    journals are increasingly prioritizing study registrations.
+
 
 ::: {.notes}
-**Presenter Notes**: Interactive quiz to check understanding and retention of learners. Use free survey software such as [Particify](https://www.particify.de/en/) to establish the following questions (shown on separate slides).
+**Presenter Notes**: Script for the slide here.
 
-**Instructor Notes**: This pre-break survey serves to examine learners' current understanding of key concepts of the submodule. Guidance on interpreting the results:
+**Instructor Notes**:
 
-- If more than 80% of the learners select the correct response option, show which one it is and move on.
 
-- If less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).
-
-- If more than 30% select a specific distractor answer, discuss it in class.
 :::
 
 ---
 
-**Which species is the largest type of penguin**?
+## Challenges 
 
-a. Chinstrap Penguin
+Overwhelm: "There is so much that goes into a study registration"
 
-b. Emperor Penguin ✅
+-   *Counterargument:* templates and FAQ pages can guide you and if you
+    are unable to officially register a study, adopting principles of
+    study registration is a good step (e.g. Open Science Buffet
+    approach, @bergma2023)
 
-c. Adélie Penguin
 
-d. King Penguin
+::: {.notes}
+**Presenter Notes**: Script for the slide here.
+
+**Instructor Notes**:
+
+:::
 
 ---
 
-**What is the key biological feature that helps penguins swim efficiently?**
+## Challenges 
 
-a. Hollow bones for buoyancy
+Lack of support: "No one in my team knows or cares about study
+registration"
 
-b. Webbed feet for paddling
+-   *Counterargument:* share resources, and suggest a group meeting to
+    discuss and learn more about study registration to increase
+    familiarity.
 
-c. Waterproof feathers and flipper-like wings ✅
+::: callout-note
+## Additional resource
 
-d. Gills to breathe underwater
+Work through case study Paula’s Preregistration Problem 
+
+:::
+
+
+::: {.notes}
+**Presenter Notes**: Script for the slide here.
+
+**Instructor Notes**:
+
+
+:::
+
+---
+
+## Summary of section 1
+-   Lack of time or incentives are two common barriers to adopting the
+    practice of study registration
+-   Important to discuss and address challenges
+-   Study registration does not prevent fraud or research misconduct
+    (e.g. PARKing).
+
+::: callout-note
+## Take home message
+
+The principles and practice of study registration can feel like a steep
+learning processes, adopting a few elements of study registration at a
+time is good approach to working your way up completing a study
+registration.
+:::
+
+::: callout-note
+Reflection point
+Which benefit and barrier resonated with you most?
+
+:::
+
 
 ---
 
