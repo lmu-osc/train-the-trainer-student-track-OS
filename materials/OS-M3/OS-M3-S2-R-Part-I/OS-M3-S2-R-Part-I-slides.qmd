@@ -28,31 +28,36 @@ execute:
 
 ## Licence {.smaller}
 
-![Creative Commons Attribution 4.0](images/cc-by-sa.png)
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
 
-This work was originally created by [Mike Croucher](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Sara Lil Middleton and Malika Ihle is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
 
-Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/).
+
+His work was subsequently adapted by Luz Sanchez Steinhagen, Tejaswini Sharma, David Rieger, Elizabeth Waterfield and Sarah von Grebmer zu Wolfsthurn ADD ALL ORCID or website hyperlinks..
 
 ::: {.notes}
-**Presenter Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
-
-However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
+**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
 :::
 
 ---
 
 ## Contribution statement
   
-  
 **Creator**: Sanchez Steinhagen, Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
 
-**Reviewer**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Creator**: Sharma, Tejaswini EDIT
 
-**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+**Creator**: Rieger, David EDIT
 
-**Consultant**: Edelsbrunner, Peter (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
+**Creator**: Waterfield, Elizabeth EDIT
+
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
 
 ::: {.notes}
@@ -65,7 +70,7 @@ However, there are some important conditions you must follow. You are required t
 
 ---
 
-## Prerequisites
+## Prerequisites - CHECK versions
 
 ::: {.callout-important}
 Before completing this submodule, please carefully read about the prerequisites.
@@ -92,10 +97,6 @@ Consider pairing students if someone does not have the software installed.
 
 ---
 
-## Questions from previous submodule?
-
----
-
 ## Before we start: Survey time!
 
 <br>
@@ -107,7 +108,7 @@ Consider pairing students if someone does not have the software installed.
 </div>
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 Before we move on, we’ll take a short survey. The aim here is simply to
 understand your current familiarity.
 In the next few slides, you’ll see some questions that invite you to reflect on where you’re
@@ -148,7 +149,7 @@ e. 5
 
 ---
 
-**Have you used any programming language before?**
+**Have you used any programming language (R, Python, JavaScript, C) before?**
 
 a. No, never
 
@@ -156,7 +157,7 @@ b. Yes, a little (e.g., basic commands)
 
 c. Yes, moderately (e.g., small projects)
 
-d. Yes, extensively
+d. Yes, extensively (e.g., on an almost daily basis)
 
 ---
 
@@ -173,7 +174,7 @@ What do we see in the results?
 ::: {.notes}
 **Presenter Notes**: Let us have a look at these results. 
 
-**Instructor Notes**:The aim is to understand the group’s current standing in terms of knowledge and familiarity. Emphasize explicitly that
+**Instructor Notes**: The aim is to understand the group’s current standing in terms of knowledge and familiarity. Emphasize explicitly that
 the survey is not about correct or incorrect answers. Avoid evaluating answers.
 :::
 
@@ -204,24 +205,29 @@ identify areas where you might want to ask questions later.
 
 ## What is R?
 
--   Knowledge of statistical software like R [https://www.r-project.org/](https://www.r-project.org/) is crucial when conducting quantitative research
--   R is free and open source
-    -   large online community
-    -   many free to use resources
-    
-<div style="font-size: 0.6em;">
-<span style="color:red">~~From SvG: Would you want to add a hyperlink here?~~</span>
-<span style="color:red">From Beth: can we change the first bullet point to "R is a free and open source programming language" ? </span>
-</div>
 
+:::incremental
+R is an **free and open source** programming language
+
+- Originally designed by statisticians for statisticians
+- Now wide range of applications: **data manipulation, visualization, interactive web applications** and **generation of full manuscripts and reports**
+
+    
+Why R?
+
+- Knowledge of statistical software like R ([https://www.r-project.org/](https://www.r-project.org/)) is crucial when conducting quantitative research
+- Has a large online support community
+- Provides freely available resources
+  
+:::
+    
 ::: {.notes}
-**Speaker Notes**: Let’s start with the basics: What exactly is R?
-R is a programming language specifically designed for data analysis and statistics.
-That means it’s not just a tool — it’s a full language, built with researchers and data in mind.
-It’s also free and open source, which means anyone can download and use it, and developers from all over the world contribute to improving it.
-This has resulted in a large online community — so if you ever run into a problem, chances are someone else has had the same issue and posted a solution online.
+**Presenter Notes**: Let’s start with the basics: What exactly is R?
+R is a programming language specifically designed for data analysis and statistics. Originally, R was designed by statisticians for statisticians. That means its core purpose wasn’t general software development, but rather making statistical analysis easier, more accessible, and more reproducible. Over time, however, R has evolved far beyond its original purpose. Today it supports a wide range of applications. It is commonly used for data manipulation, where users can clean, reshape, and transform large datasets efficiently. It is also widely used for data visualization, producing everything from quick exploratory plots to high-quality, publication-ready graphics.
+
+It is also free and open source, which means anyone can download and use it, and developers from all over the world contribute to improving it.
+This has resulted in a large online community, so if you ever run into a problem, chances are someone else has had the same issue and posted a solution online.
 And because of that community, there are also countless free learning resources: tutorials, blog posts, videos, books, and packages that extend R’s functionality.
-So in short: R is powerful, flexible, and supported by a strong community — which is why it’s become such a widely used tool in quantitative research.
 
 **Instructor Notes**:  
 Keep this introduction brief and motivational. The goal is not to teach R, but to position it as an accessible and useful tool for research. You may optionally point students to the official R website or a beginner friendly resource, but avoid going into technical detail.
@@ -236,24 +242,22 @@ Keep this introduction brief and motivational. The goal is not to teach R, but t
 :::
 
 ::: {.callout-tip}
-## Short exercise
+## Let's get started!
 Open RStudio and check if you can see everything that’s on the slide (you might only see three panes on your screen).
 :::
 
 ::: {.notes}
-**Speaker Notes**: RStudio is the main program we’ll be using to interact with R throughout this course. It’s designed to make working with R much more organised and easier to follow.
+**Presenter Notes**: RStudio is the main program we’ll be using to interact with R throughout this course. It’s designed to make working with R much more organised and easier to follow.
 On this slide, you can see the four main panes of the RStudio interface:
-In the top left, you’ll find the script editor — this is where you usually write and edit your code.  
+In the top left, you’ll find the script editor, this is where you usually write and edit your code.  
 In the top right, there’s the Environment pane, which shows the objects you’ve created, like datasets or variables, so you can keep track of what’s currently loaded.  
 In the bottom left is the Console. This is where R actually runs your commands and shows the output.  
 And in the bottom right, you’ll see panels for things like plots, help files, and packages.  
-Now, take a moment to open RStudio on your device and check if you can identify these panes. You might only see three panes at first — that’s completely normal.”
+Now, take a moment to open RStudio on your device and check if you can identify these panes. You might only see three panes at first, that is completely normal.
 
-**Instructor Notes**:  
-Pause briefly and allow students to open RStudio. Walk around if possible and help students locate panes. Reassure them that layouts may differ slightly (e.g., missing script pane until a file is opened). Keep this activity short and focused on orientation, not functionality.
+**Instructor Notes**: Pause briefly and allow students to open RStudio. Walk around if possible and help students locate panes. Reassure them that layouts may differ slightly (e.g., missing script pane until a file is opened). Keep this activity short and focused on orientation, not functionality.
 
-**Accessibility Tips:**  
-Verbally describe each pane clearly and allow extra time for students to locate them. Offer assistance to students who may struggle with navigation or opening the software.
+**Accessibility Tips:** Verbally describe each pane clearly and allow extra time for students to locate them. Offer assistance to students who may struggle with navigation or opening the software.
 :::
 
 ---
@@ -271,22 +275,21 @@ Verbally describe each pane clearly and allow extra time for students to locate 
 | `log()`  | (Natural) Logarithm |
 
 <div style="font-size: 0.6em;">
-<span style="color:red"> From Beth: I would add /frac to this list since it's used in the following practical exercise... (admittedly, it is fairly self-explanatory but still...) </span>
+<span style="color:red"> From Beth: I would add /frac to this list since it's used in the following practical exercise... (admittedly, it is fairly self-explanatory but still...) SvG: as far as I know, /frac is not R but Latex syntax - took out frac on the next slide and changed it to R syntax </span>
 </div>
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 In the Console, which is the bottom left pane in RStudio, we can directly run commands.  
 One of the simplest things we can do is perform basic mathematical calculations. R works very much like a calculator, but with more flexibility.  
-To do this, we use operators — symbols that represent mathematical operations. For example, plus for addition, minus for subtraction, and so on.  
+To do this, we use operators, i.e., symbols that represent mathematical operations. For example, plus for addition, minus for subtraction, and so on.  
 On this slide, you can see some of the most common ones. These include multiplication, division, powers, as well as functions like square root and logarithm.  
+
 If you have RStudio open, you can try typing a simple calculation into the Console, like 2 plus 2, and see what happens.
 
-**Instructor Notes**:  
-Keep this very brief and hands-on. Encourage students to try 1–2 simple commands in the Console to build confidence. Avoid going into syntax details beyond basic operators.
+**Instructor Notes**: Keep this very brief and hands-on. Encourage students to try 1–2 simple commands in the Console to build confidence. Avoid going into syntax details beyond basic operators.
 
-**Accessibility Tips:**  
-Say each operator aloud (e.g., “asterisk for multiplication”) to support learners unfamiliar with symbols.
+**Accessibility Tips**: Say each operator aloud (e.g., “asterisk for multiplication”) to support learners unfamiliar with symbols.
 :::
 
 ---
@@ -298,16 +301,15 @@ Say each operator aloud (e.g., “asterisk for multiplication”) to support lea
 Use the table on the previous slide to run the following math operations directly in the console (bottom left).
 
   - [ ] `12+17`
-  - [ ] `\frac{218}{3}`
+  - [ ] `218/3`
   - [ ] `357^2`
 
 ::: {.callout-tip}
-*Hint*: You can run code from the console by pressing Enter on your keyboard.
+*Hint*: You can run code from the console by typing in the console and then pressing Enter on your keyboard.
 :::
 
 ::: {.notes}
-**Speaker Notes**:  
-We’ve now reached our first short hands-on exercise.  
+**Presenter Notes**:  We have now reached our first short hands-on exercise.  
 Using the Console in RStudio — that’s the bottom left pane — try running the following mathematical operations. Simply type them in and press Enter.  
 Note that for division in R, we use the forward slash. So instead of writing it as a fraction, you would type 218 divided by 3 using the slash.  
 Take a minute to try these out.  
@@ -317,13 +319,11 @@ If you’d like to check your answers:
 12 plus 17 gives 29,  
 218 divided by 3 is approximately 72.67,  
 and 357 squared is 127449.  
-If you’re unsure, that’s completely fine — feel free to try again or ask for help.
+If you’re unsure, that’s completely fine, feel free to try again or ask for help.
 
-**Instructor Notes**:  
-Give students 1–2 minutes to complete the exercise. Clarify the correct syntax for division if needed (`218/3`). Optionally demonstrate one example live in the Console. Walk around to assist students who may be unfamiliar with typing commands.
+**Instructor Notes**: Give students 1–2 minutes to complete the exercise. Clarify the correct syntax for division if needed (`218/3`). Optionally demonstrate one example live in the Console. Walk around to assist students who may be unfamiliar with typing commands.
 
-**Accessibility Tips:**  
-Read out each command clearly and explain symbols (e.g., “slash for division”). Allow students to follow along at their own pace and provide support for those who may need help with keyboard input.
+**Accessibility Tips:** Read out each command clearly and explain symbols (e.g., “slash for division”). Allow students to follow along at their own pace and provide support for those who may need help with keyboard input.
 :::
 
 ---
@@ -332,9 +332,9 @@ Read out each command clearly and explain symbols (e.g., “slash for division�
 
 With **R**, you can also:
 
--   Check if two numbers are equal or unequal
+-   Check if two numbers are **equal or unequal**
 
--   Check if a number is larger or smaller than another number
+-   Check if a number is **larger or smaller** than another number
 
 Example:
 
@@ -351,11 +351,11 @@ Example:
     -   `FALSE`
     
 <div style="font-size: 0.6em;">
-<span style="color:red">From Beth: added the first line, what do you think? </span>
+<span style="color:red">From Beth: added the first line, what do you think? SvG: yes nice! Works well with the text. </span>
 </div>
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 R can do more than just calculations; it can also help us make decisions by comparing values. 
 These are called logical comparisons. For example, we can ask R whether two numbers are equal, or whether one number is larger or smaller than another.  
 On the slide, you can see two simple examples: checking whether 49 is equal to 50, and whether 49 is less than 50.  
@@ -385,7 +385,7 @@ Read the code examples aloud and explain symbols clearly (e.g., “double equals
 | `!`           | logical NOT                                |
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 Here you can see an overview of the most common logical operators in R.  
 These symbols allow us to compare values — for example, checking whether two numbers are equal, not equal, greater than, or less than each other.  
 In addition to simple comparisons, we can also combine multiple conditions.  
@@ -420,7 +420,7 @@ Present this as a reference slide rather than content to be learned immediately.
 - [ ] Check your answers by running the statements in the Console.
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 Let’s try another short exercise.  
 Here, you’ll see a few logical statements written in R. Your task is to do two things:  
 First, translate each statement into plain words — what is it actually asking?  
@@ -431,8 +431,7 @@ Take about one to two minutes to go through all three, and then we’ll quickly 
 (pause)
 The correct answers are: TRUE, TRUE, and FALSE.
 
-**Instructor Notes**:  
-Give students 1–2 minutes to attempt the exercise individually or in pairs. Encourage them to verbalise the statements in plain language before running them in R. Afterward, quickly confirm answers and clarify any confusion, especially around logical OR (`|`) and AND (`&`).
+**Instructor Notes**: Give students 1–2 minutes to attempt the exercise individually or in pairs. Encourage them to verbalise the statements in plain language before running them in R. Afterward, quickly confirm answers and clarify any confusion, especially around logical OR (`|`) and AND (`&`).
 :::
 
 ---
@@ -448,7 +447,7 @@ Give students 1–2 minutes to attempt the exercise individually or in pairs. En
 :::
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 In R, data can come in different types, and it’s important to know which type you’re working with, because it affects what you can do with it.  
 We’ve already seen one type: logical values, which are simply TRUE or FALSE.  
 Numbers in R can be of different kinds. Most commonly, you’ll work with numeric values — these can include decimals. There are also integers, which are whole numbers without decimals.  
@@ -464,7 +463,7 @@ Keep the explanation conceptual. The goal is recognition, not mastery. Avoid goi
 
 ## Data types - Operations
 
-Can R perform an operation on different data types? 
+**Can R perform an operation on different data types?**
 
 - Two numeric variables can be summed up:
 
@@ -481,11 +480,11 @@ Can R perform an operation on different data types?
 ```
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From Beth: added the first line </span>
+<span style="color:red">From Beth: added the first line. SvG: yes, nice! </span>
 </div>
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 Now that we’ve seen different data types, let’s look at how they behave when we try to use them in operations.  
 If we take two numeric values, like 4 and 5, we can easily add them together, and R will return the result as expected.  
 However, if we try to mix data types — for example, adding a number and a piece of text — R won’t know how to handle that.  
@@ -498,9 +497,9 @@ Use this slide to reinforce the practical importance of data types. Optionally d
 
 ---
 
-## R Scripts
+## R scripts
 
-An R Script is a text file containing your R commands.
+An R script is a **text file** containing your **R commands**.
 
 -   Easy way to save and share code you wrote
 
@@ -509,16 +508,13 @@ An R Script is a text file containing your R commands.
 -   To add comments to your code use `#`, for example:
 
 ```{r}
-# sum up two numbers: 
+# sum up two numbers 
 4+5
 ```
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From Beth: added the first line </span>
-</div>
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 So far, we’ve been working in the Console. But there’s one important limitation: anything you type there is not saved once you close RStudio.  
 That’s why we use R scripts. An R script is simply a file where you can write, save, and organize your code so you can come back to it later or share it with others.  
 To run code from a script, you place your cursor on a line,or highlight multiple lines, and then press Ctrl + Enter on Windows or Command + Enter on a Mac. You can also click the ‘Run’ button.  
@@ -540,7 +536,7 @@ Create a **new R Script** with only a comment in the first line and save it in a
 :::
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 Now let’s look at how to create a new R script from scratch.  
 To do this, go to the File menu, then choose New File, and then select R Script. Alternatively, you can use the shortcut Ctrl + Shift + N.  
 Once the script opens, you can immediately start writing your code or notes.  
@@ -573,31 +569,26 @@ Type ``` my_number <- 4 ``` in a new RStudio file. Run the line and check out th
 :::
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 In R, almost everything we work with is treated as an object. That could be a number, a dataset, a result of a calculation, or even the outcome of a logical comparison.  
 Often, we don’t just want to calculate something once — we want to store it and use it again later. For that, we create objects and give them names.  
 We do this using the assignment arrow, written as `<-`.  
 For example, if we write `my_number <- 4`, we are telling R: store the value 4 inside an object called my_number.  
 Once we run this line, the object is saved in the Environment pane in RStudio, where we can see and reuse it anytime.
 
-**Instructor Notes**:  
-Make sure students understand the idea of “storage” rather than just calculation. If possible, demonstrate live how the object appears in the Environment pane. Reinforce that naming objects clearly is important for readability and later use.
+**Instructor Notes**: Make sure students understand the idea of “storage” rather than just calculation. If possible, demonstrate live how the object appears in the Environment pane. Reinforce that naming objects clearly is important for readability and later use.
 :::
 
 ---
 
-## Example of an object in Environment
+## Objects and assignment
 
-::: {.column width="40%"}
-<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:200%;"/>
+::: {style="text-align: center;"}
+<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:70%;"/>
 :::
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From Beth: Can we leave the heading here as "Objects and assignment"? I understand this as a continuation and it's an example of where an object goes after assigning </span>
-</div>
-
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 Here you can see an example of how an object appears in the Environment pane in RStudio.  
 Whenever you create an object using the assignment arrow, R stores it here. In this example, you can see the object name, along with its value and type.  
 This is very useful because it allows you to keep track of everything you have created during your session. Instead of recalculating something again, you can simply reuse the object from the Environment.  
@@ -630,7 +621,7 @@ Verbally describe what is visible in the screenshot for students who cannot see 
 2. **Share your thoughts with the group.**
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 To wrap up, let’s take a moment to bring everything together and think about how this connects to your own work going forward.  
 First, take about one minute to reflect individually on these questions. Then discuss them with a partner.  
 Think about where R/RStudio could realistically support you — for example, in upcoming essays, group projects, or your thesis work. What benefits do you see in using it? What might make it difficult to use it consistently? And how could it fit into your current workflow?  
@@ -662,7 +653,7 @@ Use this assignment to assess your learning of, and progress with, R/RStudio; re
 :::
 
 ::: {.notes}
-**Speaker Notes**: 
+**Presenter Notes**: 
 To finish, you have a short home assignment that brings together everything we’ve covered so far in R and RStudio.  
 You’ll create a small R script where you first define at least two objects, for example, numbers. Then you’ll use those objects in at least one mathematical operation, such as addition or multiplication.  
 Next, include at least one logical comparison, where you check a condition and get a TRUE or FALSE result.  
@@ -682,7 +673,7 @@ Clarify that this is a practice exercise rather than an assessment of correctnes
 - Writing and saving R scripts ensures your work is **reproducible and well-documented**.
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 To conclude this part, there are three key ideas to remember.  
 First, R is your main tool for data analysis and quantitative research. It’s what you will use to run calculations, manage data, and perform statistical analyses.  
 Second, RStudio is the environment that makes working with R much more structured. It helps you keep your code, outputs, and data organised in one place so you don’t lose track of your work.  
@@ -708,7 +699,7 @@ Where are we at?
 :::
   
 ::: {.notes}
-**Speaker Notes**:
+**Presenter Notes**:
 Let us pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one.
 If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.
 
@@ -721,7 +712,7 @@ Keep the discussion supportive and brief,nfocusing on clarifying concepts rather
 ## To conclude: Survey time!
 
 ::: {.notes}
-**Speaker Notes**: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge after completing the submodule. Please answer honestly based on how confident you feel now. 
+**Presenter Notes**: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge after completing the submodule. Please answer honestly based on how confident you feel now. 
 
 **Instructor Notes**: The purpose is to compare pre- and post-submodule responses to evaluate learning progress. Encourage the learnrs to share in class. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in any areas.
 :::
@@ -794,7 +785,7 @@ See you next class :)
 ```
 
 ::: {.notes}
-**Speaker Notes**: Great, now you have a first impression of what it's like to use R!
+**Presenter Notes**: Great, now you have a first impression of what it's like to use R!
 :::
 
 ---
@@ -808,7 +799,7 @@ See you next class :)
 ```
 
 ::: {.notes}
-**Speaker Notes**: ADD HERE
+**Presenter Notes**: ADD HERE
 :::
 
 ---
@@ -818,7 +809,7 @@ See you next class :)
 - Datacamp offers a free, interactive course on R online: [link to the course](https://www.datacamp.com/courses/free-introduction-to-r).
 
 ::: {.notes}
-**Speaker Notes**:  
+**Presenter Notes**:  
 If you’d like to continue practicing R after this session, there is an optional additional resource available.  
 Datacamp offers a free, interactive introduction to R, where you can practice directly in your browser. It’s a useful way to reinforce what we covered today and get more comfortable with writing code at your own pace.  
 You are not required to complete it, but it can be helpful if you want extra practice or a more structured introduction to R outside of class.
@@ -837,22 +828,29 @@ Ensure the link is accessible through the course platform or slide deck.
 - Issue: Oversized Text (Font-Size): Quarto ignores all HTML classes during PowerPoint export.
 - Solution:
   - For Quarto: Continue using HTML classes like {.smaller} in slide titles (## Title {.smaller}).
-  - For PowerPoint: Use a custom PowerPoint template to define global font sizes for all exported text (I already created a basic one and set the font-size to 18; it is located in the assets folder and referenced in the YAML header of this presentation). 
+  - For PowerPoint: Use a custom PowerPoint template to define global font sizes for all exported text (I already created a basic one and set the font-size to 18; it is located in the assets folder and referenced in the YAML header of this presentation).
 - Outlook: This approach seems to be the only viable option right now. Despite the limitation to a global font size in PowerPoint, the template allows for extensive customization. Design elements like the green title bar or the OSC-specific footer can be hardcoded into the template, while Quarto slides maintain their dynamic HTML classes.
+- SvG: if you are interested in working on this, Pat Callahan (also in the all staff Matrix group) has been working on this for us - check in with him perhaps? 
+
+---
 
 ## Feedback David (2/2)
 
-- I adjusted image sizes on slides 15 and 26 for improved layout.
-- Slide 43 ("Practical exercise 2: Solutions"): There is a placeholder speaker note ("ADD HERE") that has to be updated.
-- Slide 14 ("What is R"): Red strikethrough text ("Would you want to add a hyperlink here?") is still there and needs to be removed.
-- Should we all be included in the contribution statement?
+- I adjusted image sizes on slides 15 and 26 for improved layout - thanks!
+- Slide 43 ("Practical exercise 2: Solutions"): There is a placeholder speaker note ("ADD HERE") that has to be updated. - thanks! Feel free to add the presenter notes (unsure if we need instructor notes here?)
+- Slide 14 ("What is R"): Red strikethrough text ("Would you want to add a hyperlink here?") is still there and needs to be removed. SvG: yes, more of those - no worries, we often keep those around until we implemented all of them, but thanks for having this on your radar!
+- Should we all be included in the contribution statement? SvG: of course, I made a start - check the formatting for me or Luz and add your details :)
+
+---
 
 ## Feedback Beth 
 
-- There's no key terms + definitions section in these slides, was that intentional? 
-- suggestion for addition to content on slide 14, 16, 18, 24, 25, 28
-- I added checkboxes to the practical exercises
-- Slide 22: i don't think "Important data types" needs to be a level 1 heading if there will only be 2 slides addressing the topic 
-- (Slide 26) can we turn 'making a new R Script' into a Practical exercise or is it too small of a task?
-- (Slide 27) same here- can we turn the 'Short task' in the callout box into a Practical exercise? 
-- Should we change question 1 & 3 of the post-session survey. I'm wondering if it still makes sense to ask these questions right after a survey about R and RStudio
+- There's no key terms + definitions section in these slides, was that intentional? SvG: Nope, should be part of it - please add! Also check for other standard slides that may be missing!
+- suggestion for addition to content on slide 14, 16, 18, 24, 25, 28 - See my comments!
+- I added checkboxes to the practical exercises - nice thanks!
+- Slide 22: i don't think "Important data types" needs to be a level 1 heading if there will only be 2 slides addressing the topic - I leave this up to you!
+- (Slide 26) can we turn 'making a new R Script' into a Practical exercise or is it too small of a task? - I am up for making it into a practical exercise! What did the outline say?
+- (Slide 27) same here- can we turn the 'Short task' in the callout box into a Practical exercise? Yes absolutely!
+- Should we change question 1 & 3 of the post-session survey. I'm wondering if it still makes sense to ask these questions right after a survey about R and RStudio - nope indeed, the questions should be reworked!
+
+---
