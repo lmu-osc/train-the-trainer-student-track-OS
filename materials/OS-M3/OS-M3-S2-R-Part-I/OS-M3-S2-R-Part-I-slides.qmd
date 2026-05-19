@@ -50,9 +50,15 @@ His work was subsequently adapted by Luz Sanchez Steinhagen, Tejaswini Sharma, [
 **Creator**: Sanchez Steinhagen, Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
 
-**Creator**: Sharma, Tejaswini EDIT
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/my-orcid?orcid=0000-0000-0000-0000)) CHANGE
 
+<<<<<<< HEAD
 **Creator**: Waterfield, Elizabeth EDIT
+=======
+**Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/my-orcid?orcid=0000-0000-0000-0000)) CHANGE
+
+**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730))
+>>>>>>> 9a77503 (removed SvG comments from slides that were solved)
 
 **Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
@@ -275,10 +281,6 @@ Now, take a moment to open RStudio on your device and check if you can identify 
 | `sqrt()` | Square Root         |
 | `log()`  | (Natural) Logarithm |
 
-<div style="font-size: 0.6em;">
-<span style="color:red"> From Beth: I would add /frac to this list since it's used in the following practical exercise... (admittedly, it is fairly self-explanatory but still...) SvG: as far as I know, /frac is not R but Latex syntax - took out frac on the next slide and changed it to R syntax </span>
-</div>
-
 ::: {.notes}
 **Presenter Notes**:  
 In the Console, which is the bottom left pane in RStudio, we can directly run commands.  
@@ -350,10 +352,6 @@ Example:
     -   `TRUE` or
 
     -   `FALSE`
-    
-<div style="font-size: 0.6em;">
-<span style="color:red">From Beth: added the first line, what do you think? SvG: yes nice! Works well with the text. </span>
-</div>
 
 ::: {.notes}
 **Presenter Notes**:  
@@ -478,10 +476,6 @@ Keep the explanation conceptual. The goal is recognition, not mastery. Avoid goi
 #| error: true
 4 + "five"
 ```
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From Beth: added the first line. SvG: yes, nice! </span>
-</div>
 
 ::: {.notes}
 **Presenter Notes**:  
