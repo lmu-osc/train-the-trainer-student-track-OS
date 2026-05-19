@@ -9,10 +9,10 @@ format:
     footer: LMU Open Science Center
     slide-number: true
     logo: ../../../OSC_Logo.jpg
-  # pdf:
-  #   geometry: 
-  #     - top=30mm
-  #     - left=30mm
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
   #pptx:
     #incremental: true 
     #reference-doc: template.pptx
@@ -362,7 +362,12 @@ Image created with generative AI.
 
 ---
 
+::: {.content-hidden when-format="pdf"}
 ## {{< fa chart-bar size=1x >}} Who is familiar with these problems?
+:::
+::: {.content-visible when-format="pdf"}
+## ![](images/chart-bar.png){width=1em} Who is familiar with these problems?
+:::
 
 a. Inconsistent data and file management aka **I cannot find my files**
 b. Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka **my work is lost**
@@ -408,7 +413,12 @@ f. None of the above (are you *sure*?)
 
 ## Before we start: Survey time!
 
+::: {.content-hidden when-format="pdf"}
 {{< fa chart-bar size=3x >}} 
+:::
+::: {.content-visible when-format="pdf"}
+![](images/chart-bar.png){width=3em} 
+:::
 
 ::: {.notes}
  **Instructor Notes**: For a more interactive delivery, use free tools such as [Particify](https://www.particify.de/en/)] to create interactive surveys before you deliver this lesson. The pre-submodule survey serves to examine learners' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed. 
@@ -416,7 +426,12 @@ f. None of the above (are you *sure*?)
 **Accessibility Tip**: Note that this slide only works for a synchronous in-class setting. Skip the survey as appropriate.
 :::
 
+::: {.content-hidden when-format="pdf"}
 ## {{< fa chart-bar size=1x >}} 
+:::
+::: {.content-visible when-format="pdf"}
+## ![](images/chart-bar.png){width=1em} 
+:::
 
 **What is your level of familiarity with version control?**
 
@@ -427,7 +442,12 @@ d. I am very familiar and have worked with it extensively.
 
 
 
+::: {.content-hidden when-format="pdf"}
 ## {{< fa chart-bar size=1x >}} 
+:::
+::: {.content-visible when-format="pdf"}
+## ![](images/chart-bar.png){width=1em} 
+:::
 
 **Which of the following concepts or skills do you feel confident in? (Select all that apply.)**
 
@@ -437,7 +457,12 @@ c. Repositories
 d. RStudio Project
 e. I am not sure about any of these concepts.
 
+::: {.content-hidden when-format="pdf"}
 ## {{< fa chart-bar size=1x >}} 
+:::
+::: {.content-visible when-format="pdf"}
+## ![](images/chart-bar.png){width=1em} 
+:::
 
 **How comfortable are you with using Git for version control?**
 

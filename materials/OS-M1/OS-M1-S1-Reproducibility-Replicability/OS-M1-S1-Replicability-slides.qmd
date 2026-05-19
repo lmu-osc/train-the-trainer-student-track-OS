@@ -10,7 +10,6 @@ format:
     slide-number: true
     logo: ../../../OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
   pdf:
-    pdf-engine: xelatex
     geometry: 
       - top=30mm
       - left=30mm
