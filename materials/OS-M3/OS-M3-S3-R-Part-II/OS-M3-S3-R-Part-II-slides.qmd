@@ -617,12 +617,10 @@ Help pages can look intimidating, but you only need to focus on a few key sectio
 
 **Using the Help Function**
 
-<div style="font-size: 0.8em;">
 - [ ] Type `?round` in the console and press Enter.
 - [ ] Inspect the documentation that opens in the bottom right pane.
 - [ ] Look at the **Usage** and **Arguments** sections to see which inputs the function accepts.
 - [ ] Based on the documentation, how can we round `my_number` (from the previous exercise) to exactly two decimal places? Write and run the code.
-</div>
 
 ::: {.notes}
 **Presenter Notes**: Let's try it out. Pull up the help page for the round function and take a look at the Usage and Arguments sections. Then, use that information to write the code that rounds your `my_number` object to two decimal places.
@@ -649,7 +647,94 @@ round(my_number, digits = 2)
 
 ---
 
-## Packages
+# Packages
+
+---
+
+## What are Packages?
+
+- R comes with many built-in functions (**Base R**).
+- **Packages** provide thousands of additional, specialized functions.
+- They are created and shared by the R community to extend functionality.
+
+::: {.notes}
+**Presenter Notes**: While Base R is powerful, the real strength of R lies in its packages. These are bundles of code written by other users that add new capabilities, from advanced statistical models to data import tools.
+:::
+
+---
+
+## Installing Packages
+
+<div style="font-size: 0.9em;">
+- Packages must be **installed once** (or after updating R).
+- Use the `install.packages()` function. The package name must be in quotation marks.
+
+```{r}
+#| eval: false
+install.packages("haven")
+```
+
+- Alternatively: Use the **Packages** tab in the bottom right pane of RStudio and click **Install**.
+</div>
+
+::: {style="text-align: center;"}
+![](images/packages_install_pane.png){style="width:50%;"}
+:::
+
+::: {.notes}
+**Presenter Notes**: You only need to install a package once on your computer. Note that the package name must be enclosed in quotation marks when installing. You can also use the Packages tab in RStudio to install them graphically.
+:::
+
+---
+
+## Loading Packages
+
+- Once installed, a package must be **loaded every time** you open a new R session.
+- Use the `library()` function. Quotation marks are not required here.
+
+```{r}
+#| eval: false
+library(haven)
+```
+
+::: {.notes}
+**Presenter Notes**: Think of installing a package like buying a book and putting it on your shelf. You only buy it once. Loading a package with the library function is like taking the book off the shelf to read it today. You have to do this every time you start a new session in R.
+
+**Instructor Notes**: Emphasize the difference between installing (quotes needed, done once) and loading (no quotes needed, done every session). This is a very common point of confusion for beginners.
+:::
+
+---
+
+## Practical exercise 4
+
+**Packages**
+
+- [ ] Install the package `haven`. This package is useful for reading in data files from other software like SPSS, Stata, and SAS.
+- [ ] Load the package `haven` so it is ready to use in your current session.
+
+::: {.notes}
+**Presenter Notes**: Take a moment to install the haven package and then load it. We will need this package later if we want to import specialized data formats.
+
+**Instructor Notes**: Give learners about 3 minutes. Remind them to look at the console to see the installation progress.
+:::
+
+---
+
+## Practical exercise 4: Solutions
+
+```{r}
+#| eval: false
+
+# 1. Install the package (run only once)
+install.packages("haven")
+
+# 2. Load the package (run every session)
+library(haven)
+```
+
+::: {.notes}
+**Presenter Notes**: First, we use `install.packages` with quotation marks to download the package to our computer. Then, we use `library` without quotation marks to load it into our current session.
+:::
 
 ---
 
