@@ -24,20 +24,27 @@ execute:
 
 ## Licence {.smaller}
 
-![Creative Commons Attribution 4.0](images/cc-by-sa.png)
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
 
-This work was originally created by [Mike Croucher](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Luz Sanchez Steinhagen, Sara Lil Middleton and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited.
+This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/).
 
-Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+His work was subsequently adapted by Elizabeth Waterfield, [David Rieger](https://orcid.org/0009-0004-3701-3101) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895) 
+***ADD ALL ORCID or website hyperlinks.***
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From David: Here I'm not sure how if I split up the contributions correctly. Also, I don't know all the ORCID IDs.</span>
+</div>
 
 <div style="font-size: 0.6em;">
 <span style="color:red">From David: I also added the template.pptx to this branch (general assets folder) and referenced it in the yaml header above.</span>
 </div>
 
 ::: {.notes}
-**Presenter Notes**: The Creative Commons Attribution 4.0 International (CC BY 4.0) license permits you to freely use, share, and adapt the licensed material for any purpose, including commercial use. This means you can copy, redistribute, remix, transform, and build upon the work without asking for permission.
-
-However, there are some important conditions you must follow. You are required to give appropriate credit to the original creator, provide a link to the license, and indicate if you made any changes to the material. Additionally, you cannot apply any legal terms or technological measures that would restrict others from using the work under the same freedoms.
+**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
 :::
 
 ---
@@ -48,13 +55,7 @@ However, there are some important conditions you must follow. You are required t
 
 **Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
 
-**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
-
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: Here I'm not sure how if I split up the contributions correctly. Also, I don't know all the ORCID IDs.</span>
-</div>
-
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png) {fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
 ::: {.notes}
 **Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
@@ -719,7 +720,6 @@ library(haven)
 
 ```{r}
 #| eval: false
-
 # 1. Install the package (run only once)
 install.packages("haven")
 
