@@ -1504,6 +1504,8 @@ Now we want to make some actual changes to practise using Git and to show how Gi
 
 **Step 1**: Add the following code to your existing R script:
 
+<!-- NOTE Felix: I would use an easier script - a very simple plot, or a lm() -->
+
 ```{.R filename="myscript.R"}
 # some guesses for the parameters.
 p1 = 1
