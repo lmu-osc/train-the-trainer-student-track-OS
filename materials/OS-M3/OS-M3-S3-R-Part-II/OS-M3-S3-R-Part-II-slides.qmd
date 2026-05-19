@@ -499,7 +499,7 @@ Try running the `round()` function without specifying the `digits =` argument. W
 
 ---
 
-## Practical exercise 4: Solutions
+## Practical exercise 2: Solutions
 
 ```{r}
 #| eval: false
@@ -530,7 +530,111 @@ round(my_number, digits = 2)
 
 ---
 
-## Help Function
+# The Help Function
+
+---
+
+## Do I have to memorize all of the functions and arguments?
+
+::: incremental
+- **No!** There is no need to memorize functions and their arguments.
+- You will automatically remember the ones you use frequently through practice.
+- When you need to understand how a function works, what inputs it needs, or what its defaults are, you can consult the **Help Function**.
+:::
+
+::: {.notes}
+**Presenter Notes**: A common worry when learning a programming language is feeling like you have to memorize a dictionary of functions. Please don't! Even advanced programmers look up functions every single day. The more you use certain functions, the more naturally they will come to you. For everything else, R has a built-in manual called the Help Function.
+
+**Instructor Notes**: Normalize the act of looking things up. You can mention that googling errors or looking at documentation is 80% of programming.
+:::
+
+---
+
+## How to access Help in R
+
+There are two main ways to look up a function:
+
+**Method 1: The Console**
+<div style="font-size: 0.8em;">
+Type a question mark `?` immediately followed by the function name in the Console and press Enter.
+</div>
+
+```{r}
+#| eval: false
+?round
+```
+
+**Method 2: The Help Tab**
+<div style="font-size: 0.8em;">
+Navigate to the **Help** tab in the bottom right pane of RStudio and type the function name into the search bar.
+</div>
+
+::: {style="text-align: center;"}
+![](images/help_search_bar.png){style="width:60%;"}
+:::
+
+::: {.notes}
+**Presenter Notes**: Accessing the documentation is very fast. If you know the name of the function, simply type a question mark and the name in the console. For example, ?round. Alternatively, you can use the search bar in the Help tab located in the bottom right pane of RStudio.
+
+**Instructor Notes**: Briefly demonstrate typing ?mean or ?sum in the console so they can see the help pane pop up automatically.
+:::
+
+---
+
+## Reading the Documentation
+
+Help pages can look intimidating, but you only need to focus on a few key sections:
+
+<div style="font-size: 0.8em;">
+- **Description:** A brief summary of what the function does.
+- **Usage:** Shows the function with all arguments. This is where you see **default values**.
+- **Arguments:** Detailed explanations of what each input should look like.
+- E.g., for the `round()` function we can see that it takes a numeric vector as input and the `digits =` argument is set to `0` by default.
+</div>
+
+::: {style="text-align: center;"}
+![](images/help_round_docs.png){style="width:70%;"}
+:::
+
+::: {.notes}
+**Presenter Notes**: The documentation might look overwhelming at first because it is written very technically. You do not need to read the whole thing. Focus on the "Usage" and "Arguments" sections. For the `round()` function, the documentation explicitly states it takes a numeric vector as input. In the Usage section, `digits = 0` indicates the default value R applies if no value is specified.
+:::
+
+---
+
+## Practical exercise 3
+
+**Using the Help Function**
+
+<div style="font-size: 0.8em;">
+- [ ] Type `?round` in the console and press Enter.
+- [ ] Inspect the documentation that opens in the bottom right pane.
+- [ ] Look at the **Usage** and **Arguments** sections to see which inputs the function accepts.
+- [ ] Based on the documentation, how can we round `my_number` (from the previous exercise) to exactly two decimal places? Write and run the code.
+</div>
+
+::: {.notes}
+**Presenter Notes**: Let's try it out. Pull up the help page for the round function and take a look at the Usage and Arguments sections. Then, use that information to write the code that rounds your `my_number` object to two decimal places.
+
+**Instructor Notes**: Give learners about 3-5 minutes. This is a very quick exercise to get them used to reading the documentation panel. Walk around and ensure they have successfully opened the help page.
+:::
+
+---
+
+## Practical exercise 3: Solutions
+
+```{r}
+#| eval: false
+# 1, 2 & 3. Open the help documentation and inspect it
+?round
+
+# 4. Rounding to two decimal places
+round(my_number, digits = 2)
+```
+
+::: {.notes}
+**Presenter Notes**: By looking at the Usage section in the help tab, we can see that `round` takes an argument called `digits`. To round to two decimal places, we simply specify `digits = 2` inside our function call.
+:::
 
 ---
 
