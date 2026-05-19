@@ -6,10 +6,10 @@ date-format: "DD/MM/YYYY"
 draft: true
 format: 
   revealjs:
-    css: ../../slides-custom.css # looks for css file in root
+    css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../../OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
   pdf:
     geometry: 
       - top=30mm
@@ -17,8 +17,8 @@ format:
   #pptx: 
     #css: ../../slides-custom.css # looks for css file in root
 
-bibliography: ../../assets/references.bib
-csl: ../../assets/apa.csl
+bibliography: ../../../assets/references.bib
+csl: ../../../assets/apa.csl
 
 execute:
   echo: true
@@ -579,7 +579,6 @@ registration.
 
 
 Reflection point Which benefit and barrier resonated with you most?
-:::
 
 ------------------------------------------------------------------------
 
