@@ -9,10 +9,10 @@ format:
     footer: LMU Open Science Center
     slide-number: true
     logo: ../../../OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
-  pdf:
-    geometry: 
-      - top=30mm
-      - left=30mm
+  #pdf:
+  #  geometry: 
+   #   - top=30mm
+   #   - left=30mm
   pptx: 
     css: ../../../slides-custom.css # looks for css file in root
 
@@ -29,7 +29,7 @@ filters:
 ---
 
 
-<!-- Timings
+<!-- Timings: SvG: thank you!
 
 - Up to the "used car exercise": 30 min
 - "used car exercise": 20 min overall
@@ -464,10 +464,6 @@ Moving to the middle of the chart, we see professions like police, judges, and b
 Finally, politicians and government ministers are the least trusted, with a significant gap between them and the top-ranked professions.
 :::
 
-
-
-
-
 ## Public trust in research
 ### German survey "Wissenschaftsbarometer"
 
@@ -494,10 +490,7 @@ outbreak of the pandemic: 49 per cent of respondents with medium and 37 per cent
 As an additional good to know from *Seyd (2025)* to show that the percentages in Germany are comparable to the rest of the world: A recent 68-nation study found a positive distribution of people's trust in scientists, with a global mean of 3.62 on a 1 (low trust) to 5 (high trust) scale (Cologna et al., 2025), with no country showing a trust score below the mid-point of 3. A 32-country survey conducted by Ipsos in 2024 found on average that 56 % of people trusted scientists, while just 15 % expressed distrust. However, the same study highlighted substantial differences in trust between national populations. Thus, while 70 % of Argentinians and Indonesians expressed trust in scientists, just 43 % of Japanese did likewise; see also the Ipsos 2024 survey.
 
 Share the website of the Science Barometer with this report if asked by your learners: [https://wissenschaft-im-dialog.de/documents/528/WIBA_2025_en_Web.pdf](https://wissenschaft-im-dialog.de/documents/528/WIBA_2025_en_Web.pdf)
-
 :::
-
-
 
 ## Take aways from multiple international studies
 
