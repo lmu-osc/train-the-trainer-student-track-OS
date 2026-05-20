@@ -9,13 +9,13 @@ format:
     footer: LMU Open Science Center
     slide-number: true
     logo: ../../../OSC_Logo.jpg
-  #pdf:
-   # geometry: 
-   #   - top=30mm
-   #   - left=30mm
-  #pptx:
-    #incremental: true 
-    #reference-doc: template.pptx
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+  pptx:
+    incremental: true 
+    # reference-doc: template.pptx
 
 
 execute:
@@ -361,7 +361,12 @@ Image created with generative AI.
 
 ---
 
+::: {.content-hidden when-format="pdf"}
 ## {{< fa chart-bar size=1x >}} Who is familiar with these problems?
+:::
+::: {.content-visible when-format="pdf"}
+## ![](images/chart-bar.png){width=1em} Who is familiar with these problems?
+:::
 
 a. Inconsistent data and file management aka **I cannot find my files**
 b. Hardware failures (coffee spill, laptop dropped, lost laptop, broken USB) aka **my work is lost**
@@ -407,7 +412,12 @@ f. None of the above (are you *sure*?)
 
 ## Before we start: Survey time!
 
+::: {.content-hidden when-format="pdf"}
 {{< fa chart-bar size=3x >}} 
+:::
+::: {.content-visible when-format="pdf"}
+![](images/chart-bar.png){width=3em} 
+:::
 
 ::: {.notes}
  **Instructor Notes**: For a more interactive delivery, use free tools such as [Particify](https://www.particify.de/en/)] to create interactive surveys before you deliver this lesson. The pre-submodule survey serves to examine learners' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed. 
@@ -415,7 +425,12 @@ f. None of the above (are you *sure*?)
 **Accessibility Tip**: Note that this slide only works for a synchronous in-class setting. Skip the survey as appropriate.
 :::
 
+::: {.content-hidden when-format="pdf"}
 ## {{< fa chart-bar size=1x >}} 
+:::
+::: {.content-visible when-format="pdf"}
+## ![](images/chart-bar.png){width=1em} 
+:::
 
 **What is your level of familiarity with version control?**
 
@@ -426,7 +441,12 @@ d. I am very familiar and have worked with it extensively.
 
 
 
+::: {.content-hidden when-format="pdf"}
 ## {{< fa chart-bar size=1x >}} 
+:::
+::: {.content-visible when-format="pdf"}
+## ![](images/chart-bar.png){width=1em} 
+:::
 
 **Which of the following concepts or skills do you feel confident in? (Select all that apply.)**
 
@@ -436,7 +456,12 @@ c. Repositories
 d. RStudio Project
 e. I am not sure about any of these concepts.
 
+::: {.content-hidden when-format="pdf"}
 ## {{< fa chart-bar size=1x >}} 
+:::
+::: {.content-visible when-format="pdf"}
+## ![](images/chart-bar.png){width=1em} 
+:::
 
 **How comfortable are you with using Git for version control?**
 
@@ -978,7 +1003,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm
 - Click on the green button `New SSH key` or `Add SSH key`.
 :::
 ::: {.column width="50%"}
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/ssh-key.png){fig-align="center" width=500 fig-alt="Add SSH key"}
+![](images/ssh-key.png){fig-align="center" width=500 fig-alt="Add SSH key"}
 :::
 ::::
 
@@ -1026,7 +1051,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFEKiimOpcayfHhlbjmnIBAUX74FY/o20k9yFA16XOLm
 
 **Step 4**: continued
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/add-ssh-key.png){fig-align="center" width=600 fig-alt="Configure SSH key pair for PC"}
+![](images/add-ssh-key.png){fig-align="center" width=600 fig-alt="Configure SSH key pair for PC"}
 
 ---
 
@@ -1275,7 +1300,7 @@ What do we see in the results?
 
 **Step 1**: Create a new project in RStudio as follows: `File`> `New Project` > `New Directory`
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/project_screen1.png){fig-align="center" width=600 fig-alt="Create RStudio Project"}
+![](images/project_screen1.png){fig-align="center" width=600 fig-alt="Create RStudio Project"}
 
 ::: {.notes}
 **Presenter Notes**: As a first step, we want to create a new project in RStudio as follows: `File` > `New Project` > `New Directory`.
@@ -1302,7 +1327,7 @@ What do we see in the results?
 
 **Step 3**: Give your project a name (e.g.’my_first_test_repo’) and ensure that `Create a git repository` is ticked. Next, click on `Create Project`.
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/project_screen3.png){fig-align="center" width=700 fig-alt="Create new repo"}
+![](images/project_screen3.png){fig-align="center" width=700 fig-alt="Create new repo"}
 
 ::: {.callout-note}
 RStudio will create a new folder containing an empty project and set it as the new R working directory.
@@ -1322,7 +1347,7 @@ Two files are created in the otherwise empty project:
 - **.gitignore**: Specifies files that should be ignored by the version control system (e.g. sensible data files that should not be made public, or documentation that you don’t need version controlled).
 - **my_first_test_repo.Rproj**:  Configuration information for the RStudio project.
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/project_files.png){fig-align="center" width=600 fig-alt="Project files"}
+![](images/project_files.png){fig-align="center" width=600 fig-alt="Project files"}
 
 ::: {.notes}
 **Presenter Notes**: When you create a new project, two important files are automatically created. The first is the .gitignore file, which tells Git to ignore certain files, such as sensitive data or documents that do not need to be tracked by version control. This helps keep your project clean and secure. The second file is my_first_test_repo.Rproj (depending on how you named your porject file), which contains configuration information for your RStudio project. This file helps RStudio remember your project settings and keeps everything organized, making it easier to work on your project.
@@ -1376,7 +1401,7 @@ plot(mydata$xdata,mydata$ydata)
 
 **Step 3**: Run the code and check your directory. It should now contain four files: 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/file_list.png){fig-align="center" width=600 fig-alt="Directory files"}
+![](images/file_list.png){fig-align="center" width=600 fig-alt="Directory files"}
 
 ::: {.notes}
 **Presenter Notes**: Run the code and check your directory in the bottom right panel. It should now contain four files: the .gitignore fle, the RStudio Project file, the example data .csv file and your R script. 
@@ -1403,7 +1428,7 @@ Before we do the first action, one orientation point:
 
 **Step 1**: Find the git version control pane in the top right corner of RStudio in the `Git` tab. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_pane.png){fig-align="center" width=600 fig-alt="Git pane"}
+![](images/git_pane.png){fig-align="center" width=600 fig-alt="Git pane"}
 
 ::: {.notes}
 **Presenter Notes**: Find the git version control pane in the top right corner of RStudio in the `Git` tab and click on it. 
@@ -1435,7 +1460,7 @@ Before we click anything, two terms matter:
 
 **Step 2**: Hover the mouse pointer over the yellow `?` marks in the Git tab, you’ll see a tooltip telling us that the file is **untracked**. This means that Git is not tracking versions of this file yet. Tick `staged` for each file. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_pane_added.png){fig-align="center" width=600 fig-alt="Git staging"}
+![](images/git_pane_added.png){fig-align="center" width=600 fig-alt="Git staging"}
 
 ::: {.notes}
 **Presenter Notes**: We now what to perform what is called *staging* our files. Staging is like preparing your changes before saving them. When you make changes to a file (like adding new code), Git doesn't automatically track those changes. To tell Git which changes you want to save, you "stage" them. In RStudio, you can do this by selecting the changes you want to keep and clicking "Stage" in the Git tab. In this step, hover the mouse pointer over the yellow *?* marks in GitHub, you’ll see a tooltip telling us that the file is **untracked**. This means that git is not tracking versions of this file. Tick **staged** for each file.  
@@ -1486,7 +1511,7 @@ Every commit needs a message:
 
 **Step 4**: Specify a **commit message**, which is a brief description of the changes you made. For now, we will add the commit message  *First commit*. Then click on `Commit`. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/first_commit.png){fig-align="center" width=600 fig-alt="First git commit"}
+![](images/first_commit.png){fig-align="center" width=600 fig-alt="First git commit"}
 
 ::: {.notes}
 **Presenter Notes**: You want to specify what changes exactly you have made. This can be done via a *commit message*. Writing a good commit message is essential for keeping track of the changes you make to your project. Clear and concise commit messages help you and others understand the purpose of each change, making it easier to review or roll back changes later.
@@ -1511,7 +1536,7 @@ Every commit needs a message:
 
 **Step 5**: Check the message from git. If no errors appear, everything is fine. Click on close - finished! 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_commit_message.png){fig-align="center" width=600 fig-alt="Git feedback"}
+![](images/git_commit_message.png){fig-align="center" width=600 fig-alt="Git feedback"}
 
 ---
 
@@ -1597,7 +1622,7 @@ Click on the `git` tab in the top right corner. Two files appeared, the script w
 **Step 1**: Click on the `staged` box to stage changes for the *first* script.
 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_changed.png){fig-align="center" width=600 fig-alt="git staging"}
+![](images/git_changed.png){fig-align="center" width=600 fig-alt="git staging"}
 
 ::: {.notes}
 **Presenter Notes**: Now that you have clicked on the Git tab in the top right corner of RStudio, you should see two files listed: the script you just modified (e.g., myscript.R) and any new scripts that were added if you completed the optional exercise. For the script you modified first, click on the staged box next to it. This marks your changes as ready for the next step, which is committing the changes to your Git history. Do not stage the second script for now. Once you have staged your changes, you're all set to commit them and save a snapshot of your progress.
@@ -1611,7 +1636,7 @@ Click on the `git` tab in the top right corner. Two files appeared, the script w
 
 **Step 2**: Click on `Diff` for a reminder summary of what changed. Then add a commit message and click `commit`. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_diff.png){fig-align="center" width=600 fig-alt="git difference"}
+![](images/git_diff.png){fig-align="center" width=600 fig-alt="git difference"}
 
 ::: {.callout-important}
 Remember that Git track *differences* between two files. Lines that have been added are green. Lines that have been removed are red.
@@ -1654,7 +1679,7 @@ The project is now under version control. Time to create a **new GitHub reposito
 
 **Step 1**: Log into GitHub and go to your profile page. On the `repositories` tab, click `New`. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/new_repo.png){fig-align="center" width=600 fig-alt="new GitHub repository"}
+![](images/new_repo.png){fig-align="center" width=600 fig-alt="new GitHub repository"}
 
 ::: {.notes}
 **Presenter Notes**: Now that your project is under version control in RStudio, the next step is to connect it to your GitHub account so that you can upload your project and access it online. First, log into your GitHub account and go to your profile page. Once you are there, click on the `Repositories` tab. From this page, click the `New` button to create a new GitHub repository.
@@ -1669,7 +1694,7 @@ Creating this new repository on GitHub will allow you to upload your local proje
 
 **Step 2**: Give the repository a name and click `Create Repository`. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/new_repo_name.png){fig-align="center" width=200 fig-alt="new GitHub repository"}
+![](images/new_repo_name.png){fig-align="center" width=200 fig-alt="new GitHub repository"}
 
 ::: {.notes}
 **Presenter Notes**: Give the repository a name and click `Create Repository`. 
@@ -1700,7 +1725,7 @@ Select the `SSH` tab and make sure the  url shown in the blue box should start w
 
 **Step 4**: Copy the commands from the `or push an existing repository from the command line` to your clipboard with the GitHub copy button. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/github_git_commands.png){fig-align="center" width=200 fig-alt="quick setup GitHub"}
+![](images/github_git_commands.png){fig-align="center" width=200 fig-alt="quick setup GitHub"}
 
 ::: {.notes}
 **Presenter Notes**: After selecting the SSH tab and confirming the URL, you’ll see a section titled `... or push an existing repository from the command line`. This section provides the commands you need to connect your local project to the newly created GitHub repository. Click the `copy`button next to the commands to copy them to your clipboard. These commands will be used in your terminal to link your local repository to GitHub and push your changes.
@@ -1716,7 +1741,7 @@ Once you have copied the commands, you can paste them into your terminal to comp
 
 **Step 5**: Go to RStudio, navigate to the `git` tab and Click on `More` > `New Terminal`. 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_more_shell.png){fig-align="center" width=200 fig-alt="RStudio new terminal"}
+![](images/git_more_shell.png){fig-align="center" width=200 fig-alt="RStudio new terminal"}
 
 ::: {.notes}
 **Presenter Notes**: Now, go to RStudio. In the Git tab, click on `More` > `New Terminal`. This will open a new terminal window within RStudio, where you can paste the commands you copied from GitHub.
@@ -1736,7 +1761,7 @@ yes
 
 when a sentence about continuing to connect appears in the terminal.
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/first_push_confirm_identity.png){fig-align="center" width=200 fig-alt="Confirm connection with GitHub"}
+![](images/first_push_confirm_identity.png){fig-align="center" width=200 fig-alt="Confirm connection with GitHub"}
 
 ::: {.notes}
 **Presenter Notes**: The terminal is where you will paste and then run the Git commands to link your local repository to GitHub and push your changes. Paste the git commands from your clipboard into the terminal and press enter to execute them. Insert your SSH passphrase if prompted or type yes when a sentence about continuing appears.  
@@ -1801,7 +1826,7 @@ Next, add the given text to the file and save the file as README (in capital let
 **Step 2**: In the **git** tab, you should see the new **Readme.md** file (and only that one!). Stage the file and press **commit**. 
 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/staged_readme.png){fig-align="center" width=200 fig-alt="Stage README file"}
+![](images/staged_readme.png){fig-align="center" width=200 fig-alt="Stage README file"}
 
 ::: {.notes}
 **Presenter Notes**: In the **git** tab, you should see the new **Readme.md** file (and only that one!). Stage the file and press **commit**. 
@@ -1816,7 +1841,7 @@ Next, add the given text to the file and save the file as README (in capital let
 **Step 3**: Add a new commit message and press `Commit` in the bottom right corner.
 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/readme_commit.png){fig-align="center" width=200 fig-alt="Commit README file"}
+![](images/readme_commit.png){fig-align="center" width=200 fig-alt="Commit README file"}
 
 ::: {.callout-note}
 Note that the window might disappear after pressing `Commit`. This is nothing unusual, but in that case, please re-open it for Step 4 on the next slide.
@@ -1835,7 +1860,7 @@ Note that the window might disappear after pressing `Commit`. This is nothing un
 **Step 4**: **Push** the changes to upload to GitHub by pressing the button in the top right corner with the green arrow pointing upwards.
 
 
-![](https://raw.githubusercontent.com/lmu-osc/Introduction-RStudio-Git-GitHub/main/assets/git_push.png){fig-align="center" width=200 fig-alt="Push README file"}
+![](images/git_push.png){fig-align="center" width=200 fig-alt="Push README file"}
 
 ::: {.notes}
 **Presenter Notes**: **Push** the changes to upload to GitHub by pressing the button in the top right corner with the green arrow pointing upwards.
