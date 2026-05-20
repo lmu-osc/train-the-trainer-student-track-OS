@@ -696,6 +696,8 @@ See you next class :)
 ## Code blocks
 
 ```{r}
+#| cache: true
+
 # A basic R code chunk
 x <- 1:10
 mean(x)

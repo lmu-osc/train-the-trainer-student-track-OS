@@ -1589,8 +1589,8 @@ plot(mydata$xdata,mydata$ydata,col='red')
 and run this code. 
 
 ::: {.notes}
-**Presenter Notes**: Change the command that plots our data in this file. Speifically, change the line plot(mydata$xdata,mydata$ydata) to 
-plot(mydata$xdata,mydata$ydata,col='red') and run this code by pressing Ctrl + Enter. 
+**Presenter Notes**: Change the command that plots our data in this file. Speifically, change the line `plot(mydata$xdata,mydata$ydata)` to 
+`plot(mydata$xdata,mydata$ydata,col='red')` and run this code by pressing Ctrl + Enter. 
 
 **Instructor  Notes**: Remind learners to run their code at the end. 
 :::
@@ -1602,6 +1602,8 @@ plot(mydata$xdata,mydata$ydata,col='red') and run this code by pressing Ctrl + E
 **Step 3** (optional): Create another R file with `File` > `New File` > `R script`. Save as *simulation_script.R*. Then add and run the code below in the new R script: 
 
 ```{r simulate}
+#| cache: true
+
 #Simulate some data
 plot(rnorm(100,0,1))
 ```
