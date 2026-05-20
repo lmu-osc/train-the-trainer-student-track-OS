@@ -15,7 +15,7 @@ format:
       - left=30mm
   pptx:
     incremental: true 
-    reference-doc: template.pptx
+    # reference-doc: template.pptx
 
 
 execute:
