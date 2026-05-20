@@ -13,9 +13,9 @@ format:
     geometry: 
       - top=30mm
       - left=30mm
-  #pptx:
-    #incremental: true 
-    #reference-doc: template.pptx
+  pptx:
+    incremental: true 
+    reference-doc: template.pptx
 
 
 execute:
