@@ -206,12 +206,46 @@ identify areas where you might want to ask questions later.
 
 ---
 
-# Basic Introduction to R
+## Key terms and definitions
+
+- **RStudio**
+- **R command**
+- **Run**
+- **Comment**
+
+::: {.notes}
+**Presenter Notes**: These are key terms we’ll revisit throughout the lesson. What comes to mind when you see each of them? Which ones are familiar, and which feel new? Take a moment to think about what they might mean.
+
+**Instructor Notes**: Use a think-pair-share approach. First, have learners reflect individually on their associations with each term, then discuss in pairs, and finally share with the group. Allow about 10 minutes for this activity.
+:::
+
+---
+
+## Key terms and definitions
+
+::: incremental
+- **RStudio**: A program that provides an easy-to-use interface for writing and running R code.  
+- **R command**: A line of code that tells R to do something.  
+- **Run**: To execute an R command so that R carries out the instruction and shows the result.  
+- **Comment**: Text in your code (starting with `#`) that R ignores. You can use this function to explain what the code does or make notes throughout your work.
+:::
+
+::: {.notes}
+**Presenter notes**:
+Let’s go through what these key terms mean:
+
+- RStudio is the environment we’ll be working in. This is where you write and execute your code. Think of it as your workspace.
+
+- An R command is simply an instruction you give to R. It could be something as simple as a calculation or storing a value.
+
+- When we say “run” code, we just mean executing that command so R actually performs the action and shows you the result.
+
+- Comments are notes you write for yourself or others in your code. They start with a hashtag, and R ignores them.
+:::
 
 ---
 
 ## What is R?
-
 
 :::incremental
 R is an **free and open source** programming language
@@ -242,16 +276,28 @@ Keep this introduction brief and motivational. The goal is not to teach R, but t
 
 ---
 
-## The RStudio environment {footer="false"}
+## The RStudio environment {.smaller}
+
+:::: {.columns}
+
+::: {.column width="80%"}
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen1.png" style="width:50%;"/>
+<img src="images/R_screen1.png"/>
 :::
 
-::: {.callout-tip}
-## Let's get started!
-Open RStudio and check if you can see everything that’s on the slide (you might only see three panes on your screen).
 :::
+
+::: {.column width="20%"}
+
+Open **RStudio** and check if you can see everything that’s on the slide.
+
+<br>
+
+(You might only see three panes on your screen)
+:::
+
+::::::
 
 ::: {.notes}
 **Presenter Notes**: RStudio is the main program we’ll be using to interact with R throughout this course. It’s designed to make working with R much more organised and easier to follow.
@@ -301,14 +347,16 @@ If you have RStudio open, you can try typing a simple calculation into the Conso
 
 **Mathematical Operations**
 
-Use the table on the previous slide to run the following math operations directly in the console (bottom left).
+Use the table on the previous slide to run the following math operations directly in the Console (bottom left).
 
   - [ ] `12+17`
   - [ ] `218/3`
   - [ ] `357^2`
 
 ::: {.callout-tip}
-*Hint*: You can run code from the console by typing in the console and then pressing Enter on your keyboard.
+## Let's use the Console
+
+You can run code from the Console by typing in the Console and then pressing Enter on your keyboard.
 :::
 
 ::: {.notes}
@@ -414,7 +462,6 @@ Present this as a reference slide rather than content to be learned immediately.
 ``` r
 (5 == (2 + 3)) & (7 >= 8)
 ```
-<br>
 
 - [ ] Check your answers by running the statements in the Console.
 
@@ -435,7 +482,26 @@ The correct answers are: TRUE, TRUE, and FALSE.
 
 ---
 
-# Introduction to Data Types
+## Data Types
+
+**What are data types in R?**
+
+- Data types define what kind of values you’re working with
+- They determine how R stores and processes data
+- Different data types behave differently in operations
+
+Example:
+
+``` {r}
+5        # number
+"hello"  # word
+TRUE     # logical
+```
+
+::: {.notes}
+**Presenter notes**:
+Data types are essentially categories of data. They tell R what kind of value something is, for example, 5 is a number. This matters because R treats each type differently when performing operations.
+:::
 
 ---
 
@@ -470,7 +536,7 @@ Keep the explanation conceptual. The goal is recognition, not mastery. Avoid goi
 4 + 5
 ```
 
-- A numeric and a character variable cannot be summed up:
+- A numeric and a character variable *cannot* be summed up:
 
 ```{r}
 #| error: true
@@ -487,6 +553,125 @@ This shows why it’s important to be aware of the data types you’re working w
 
 **Instructor Notes**:  
 Use this slide to reinforce the practical importance of data types. Optionally demonstrate the error live to show how R responds. Emphasise that error messages are normal and informative, not something to be avoided.
+:::
+
+---
+
+## Pre-break quiz
+
+::: {.notes}
+**Presenter Notes**: Before we head into the break, let’s do a quick check-in to see how things are going so far. The questions are designed to help you reflect on your current understanding of R, RStudio, and the key ideas we’ve covered in this first part of the session.
+
+**Instructor Notes**: Use this pre-break survey to gauge learners’ understanding of the submodule’s core concepts.
+
+- If more than 80% of learners select the correct answer, briefly confirm the correct response and continue.
+
+- If fewer than 80% answer correctly, give learners 1–2 minutes to discuss their reasoning with a partner before re-running the question. If results improve above 80%, continue; otherwise, explain the correct answer and address common misunderstandings.
+
+- If a large portion of learners select the same distractor answer, pause to discuss why that option may seem plausible and clarify the misconception.
+
+**Accessibility Tip**: This activity is designed for synchronous teaching settings and may be skipped or adapted if needed.
+:::
+
+---
+
+**1. What does the `#` symbol do in R?**
+
+a. Runs the code  
+b. Creates a variable  
+c. Starts a comment  
+d. Multiplies numbers  
+
+::: {.notes}
+**Instructor notes**:
+The answer for this question is c
+:::
+
+---
+
+**2. What happens when you “run” code in R?**
+
+a. The code is deleted  
+b. R executes the command  
+c. The code becomes a comment  
+d. R closes automatically  
+
+::: {.notes}
+**Instructor notes**:
+The answer for this question is b
+:::
+
+---
+
+**3. What will R return for this comparison?**
+
+`49 < 50`
+
+a. TRUE
+b. FALSE
+c. 49
+d. ERROR
+
+::: {.notes}
+**Instructor notes**:
+The answer for this question is a
+:::
+
+---
+
+**4. Which of the following is a character value in R?**
+
+a. TRUE
+b. 5
+c. "hello"
+d. 4.2
+
+::: {.notes}
+**Instructor notes**:
+The answer for this question is c
+:::
+
+---
+
+**5. Why does the following produce an error?**
+
+`4 + "five"`
+
+a. "five" is a logical value
+b. The quotation marks are incorrect
+c. 4 is not numeric
+d. R cannot add different data types together
+
+::: {.notes}
+**Instructor notes**: 
+The answer for this question is d
+:::
+
+---
+
+# Break! 15 minutes
+
+---
+
+## Post-break quiz discussion
+
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
+
+
+::: {.notes}
+**Presenter Notes**: 
+Let us have a look at these results. 
+
+**Instructor Notes**:
+Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers. Serves to clarify concepts and aspects that are not yet understood. Highlight specific answers given during the survey.
+
+**Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
 :::
 
 ---
@@ -521,12 +706,7 @@ This helps make your code more readable and easier to understand — both for ot
 ## Creating a new R script
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen2.png" style="width:50%;"/>
-:::
-
-::: {.callout-tip}
-## Short exercise
-Create a **new R Script** with only a comment in the first line and save it in a fresh folder.
+<img src="images/R_screen2.png" style="width:70%;"/>
 :::
 
 ::: {.notes}
@@ -535,7 +715,6 @@ Now let’s look at how to create a new R script from scratch.
 To do this, go to the File menu, then choose New File, and then select R Script. Alternatively, you can use the shortcut Ctrl + Shift + N.  
 Once the script opens, you can immediately start writing your code or notes.  
 It’s important to save your script early and in an organised folder, so you don’t lose your work. To save it, go to File and click Save, or use Ctrl + S.  
-For the short exercise, create a new R script, write a comment in the first line using the hash symbol, and save it in a new folder dedicated to this course.
 
 **Instructor Notes**:  
 Guide students step-by-step while they follow along. Ensure everyone successfully creates and saves a script before moving on. If needed, pause and repeat navigation steps slowly. 
@@ -543,23 +722,39 @@ Guide students step-by-step while they follow along. Ensure everyone successfull
 
 ---
 
+## Practical exercise 3
+
+- [ ] Create a new R Script
+- [ ] Copy the comment below and add it to your empty R Script
+
+```{r}
+# This is my practice R Script
+```
+
+- [ ] Save it to a folder on your device
+
+::: {.notes}
+**Presenter Notes**:
+For the practical exercise, create a new R script, write a comment in the first line using the hash symbol, and save it in a new folder dedicated to this course.
+:::
+
+---
+
 ## Objects and assignment
 
--   Everything in R is an object, and oftentimes, we want to work with an object repeatedly
+Everything in R is an **object**, and oftentimes, we want to work with an object repeatedly.
 
--   Assign a name to an object using the assignment arrow `<-`
-
-For Example:
+-   Call on objects by assigning a name to it using the assignment arrow `<-`
 
 ```{r}
 my_number <- 4
 ```
 
--   This saves the value 4 under the name `my_number` in the environment of R Studio
+- The example above saves the value 4 under the name "`my_number`"
 
-::: {.callout-tip}
-## Short Exercise
-Type ``` my_number <- 4 ``` in a new RStudio file. Run the line and check out the object in the 'Environment' pane.
+::: callout-important
+## Variable first, number second
+Take note of the order: we put the variable or name first, then the assignment arrow `<-`, and lastly the number or value. It would not work if you put `4 <- my_number`
 :::
 
 ::: {.notes}
@@ -569,6 +764,7 @@ Often, we don’t just want to calculate something once — we want to store it 
 We do this using the assignment arrow, written as `<-`.  
 For example, if we write `my_number <- 4`, we are telling R: store the value 4 inside an object called my_number.  
 Once we run this line, the object is saved in the Environment pane in RStudio, where we can see and reuse it anytime.
+Also, take note of the placement: the variable name goes in-front of the assignment arrow and the value or number goes behind. This is important for R to assign the value to the variable successfully. 
 
 **Instructor Notes**: Make sure students understand the idea of “storage” rather than just calculation. If possible, demonstrate live how the object appears in the Environment pane. Reinforce that naming objects clearly is important for readability and later use.
 :::
@@ -577,8 +773,10 @@ Once we run this line, the object is saved in the Environment pane in RStudio, w
 
 ## Objects and assignment
 
+The object then appears in the Environment pane.
+
 ::: {style="text-align: center;"}
-<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:70%;"/>
+<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:50%;"/>
 :::
 
 ::: {.notes}
@@ -594,6 +792,63 @@ Point students’ attention directly to the Environment pane on their own screen
 **Accessibility Tips:**  
 Verbally describe what is visible in the screenshot for students who cannot see it clearly. Allow extra time for learners to locate the Environment pane on their own interface.
 :::
+
+---
+
+## Practical exercise 4
+
+Try following the example and create your own object!
+
+  - [ ] Type any name or label in your R Script
+  - [ ] Use `<-` to assign a value to this name or label
+  - [ ] Run the line and check out your new object in the Environment pane.
+
+Example: 
+
+```{r}
+number_of_students <- 50
+```
+
+::: {.notes}
+**Presenter Notes**:
+Be creative and think of a new variable and value. Remember the placement matters: the variable goes in-front of the arrow and the value goes behind. See the example provided for more clarification on this. Feel free to just copy the example provided or come up with your own! Then, run this line to see how the object appears in your Environment- this also helps you keep track of all the objects you create. 
+:::
+
+---
+
+## Objects and assignments
+
+**Okay, I made objects... what now?**
+
+- Assigning objects helps organize your values 
+- Call on them and use specific objects in new operations
+
+```{r}
+my_number + 5
+```
+
+::: {.notes}
+**Presenter notes**:
+Once you assign a value to an object, you don’t have to keep remembering or retyping that value every time. You can just call the object name and use it in your calculations, which makes your code cleaner and much easier to work with.
+
+**Instructor notes**:
+Keep in mind that if you assign a new value to the same object name, it simply overwrites the old one. So if my_number was 4 and is later assign my_number <- 6, the value is now 6. R always uses the most recent assignment.
+:::
+
+---
+
+## Practical exercise 5
+
+Let's use the object you assigned in a new operation
+
+  - [ ] Call on your object and perform a operation
+  - [ ] Run the line and see what happens
+  
+Example: 
+
+```{r}
+number_of_students * 2
+```
 
 ---
 
@@ -713,42 +968,31 @@ Keep the discussion supportive and brief,nfocusing on clarifying concepts rather
 
 ---
 
-**What is your level of familiarity with R and RStudio?**
+**1. How confident do you feel using the RStudio environment after this session?**
 
-a. I have never heard of it before.
-
-b. I have heard of it but have never worked with it.
-
-c. I have basic understanding and experience with it.
-
-d. I am very familiar and have worked with it extensively.
+a. Not confident at all  
+b. Slightly confident  
+c. Moderately confident  
+d. Very confident  
+e. Extremely confident  
 
 ---
 
-**On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio)?** <br>
-*(1 = Not intimidated at all, 5 = Very intimidated)*
+**2. How comfortable do you feel creating and running simple R commands?**
 
-a. 1
-
-b. 2
-
-c. 3
-
-d. 4
-
-e. 5
+a. Not comfortable at all  
+b. Slightly comfortable  
+c. Moderately comfortable  
+d. Very comfortable  
+e. Extremely comfortable  
 
 ---
 
-**Have you used any programming language before?**
+**3. What part of the lesson, if any, still feels confusing or unclear?**
 
-a. No, never
+---
 
-b. Yes, a little (e.g., basic commands)
-
-c. Yes, moderately (e.g., small projects)
-
-d. Yes, extensively
+**4. Was there a practical exercise or example that helped your understanding the most? Why?**
 
 ---
 
@@ -779,7 +1023,7 @@ See you next class :)
 ```
 
 ::: {.notes}
-**Presenter Notes**: Great, now you have a first impression of what it's like to use R!
+**Instructor notes**: Here is the solution to Practical exercise 1
 :::
 
 ---
@@ -793,7 +1037,11 @@ See you next class :)
 ```
 
 ::: {.notes}
+<<<<<<< HEAD
 **Presenter Notes**: Here are the final results. Understanding how these operators combine conditions is a core skill for filtering data later on.
+=======
+**Instructor notes**: Here is the solution to Practical exercise 2
+>>>>>>> d101b00 (added content, practical activities, and missing sections)
 :::
 
 ---
@@ -840,12 +1088,16 @@ Ensure the link is accessible through the course platform or slide deck.
 
 ## Feedback Beth 
 
-- There's no key terms + definitions section in these slides, was that intentional? SvG: Nope, should be part of it - please add! Also check for other standard slides that may be missing!
-- suggestion for addition to content on slide 14, 16, 18, 24, 25, 28 - See my comments!
-- I added checkboxes to the practical exercises - nice thanks!
-- Slide 22: i don't think "Important data types" needs to be a level 1 heading if there will only be 2 slides addressing the topic - I leave this up to you!
-- (Slide 26) can we turn 'making a new R Script' into a Practical exercise or is it too small of a task? - I am up for making it into a practical exercise! What did the outline say?
-- (Slide 27) same here- can we turn the 'Short task' in the callout box into a Practical exercise? Yes absolutely!
-- Should we change question 1 & 3 of the post-session survey. I'm wondering if it still makes sense to ask these questions right after a survey about R and RStudio - nope indeed, the questions should be reworked!
+- Added key terms + definitions section (Slides 11-12), pre-break quiz (Slides 23-28), 15 minute break (i put it where I thought was appropriate to break up the lesson), post-break quiz discussion (31)
+- Slide 14 - I added a column here because I thought the image was too small. What do you think?
+- Slide 22: i don't think "Important data types" needs to be a level 1 heading if there will only be 2 slides addressing the topic - I leave this up to you! Beth: i changed it to level 2 heading and used it to make a new slide/new content (see Slide 20) ✅
+
+---
+
+## Feedback Beth
+
+- Added content to 'objects and assignments' (Slide 35)
+- Added Practical activities 3 (Slide 34), 4 (Slide 36), and 5 (Slide 39)
+- Reworked post-session survey
 
 ---
