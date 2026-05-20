@@ -1887,7 +1887,7 @@
     "href": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#making-changes-1",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Making changes",
-    "text": "Making changes\nStep 2: Change the command that plots our data in this file.\n\nChange the line\n\n\nmyscript.R\n\nplot(mydata$xdata,mydata$ydata)\n\nto\n\n\nmyscript.R\n\nplot(mydata$xdata,mydata$ydata,col='red')\n\nand run this code.\n\nPresenter Notes: Change the command that plots our data in this file. Speifically, change the line plot(mydata\\(xdata,mydata\\)ydata) to plot(mydata\\(xdata,mydata\\)ydata,col=‘red’) and run this code by pressing Ctrl + Enter.\nInstructor Notes: Remind learners to run their code at the end."
+    "text": "Making changes\nStep 2: Change the command that plots our data in this file.\n\nChange the line\n\n\nmyscript.R\n\nplot(mydata$xdata,mydata$ydata)\n\nto\n\n\nmyscript.R\n\nplot(mydata$xdata,mydata$ydata,col='red')\n\nand run this code.\n\nPresenter Notes: Change the command that plots our data in this file. Speifically, change the line plot(mydata$xdata,mydata$ydata) to plot(mydata$xdata,mydata$ydata,col='red') and run this code by pressing Ctrl + Enter.\nInstructor Notes: Remind learners to run their code at the end."
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#making-changes-optional-exercise",
