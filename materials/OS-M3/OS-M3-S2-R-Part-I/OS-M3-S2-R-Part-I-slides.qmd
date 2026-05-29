@@ -340,8 +340,6 @@ If you have RStudio open, you can try typing a simple calculation into the Conso
 
 ## Practical exercise 1
 
-**Mathematical Operations**
-
 Use the table on the previous slide to run the following math operations directly in the Console (bottom left).
 
   - [ ] `12+17`
@@ -430,7 +428,7 @@ Guide students step-by-step while they follow along. Ensure everyone successfull
 
 **Step 1**: On your device
 
-- Decide where this R Script should go 
+- Decide where this R script should go 
 - Create a *new folder*
 
 :::
@@ -443,7 +441,7 @@ Guide students step-by-step while they follow along. Ensure everyone successfull
 
 **Step 2**: In RStudio
 
-- After making a new R Script, click on `File` → then click `Save As...` 
+- After making a new R script, click on `File` → then click `Save As...` 
 - → Name the file → then choose the designated folder 
 - → Click `Save`
 
@@ -461,14 +459,14 @@ Guide students step-by-step while they follow along. Ensure everyone successfull
 
 ## Practical exercise 2
 
-- [ ] Create a new R Script
-- [ ] Copy the comment below and add it to your empty R Script
+- [ ] Create a new R script
+- [ ] Copy the comment below and add it to your empty R script
 
 ```{r}
 # This is my practice R Script
 ```
 
-- [ ] Save it to a folder on your device
+- [ ] Save it to the folder on your device
 
 ::: {.notes}
 **Presenter Notes**:
@@ -586,8 +584,11 @@ The correct answers are: TRUE, TRUE, and FALSE.
 Example:
 
 ``` {r}
+#| eval: false
 5        # number
+
 "hello"  # word
+
 TRUE     # logical
 ```
 
@@ -664,7 +665,7 @@ Everything in R is an **object**, and oftentimes, we want to work with an object
 my_number <- 4
 ```
 
-- The example above saves the value 4 under the name "`my_number`"
+- The example above saves the value `4` under the name "`my_number`"
 
 ::: callout-important
 ## Variable first, number second
@@ -713,8 +714,8 @@ Verbally describe what is visible in the screenshot for students who cannot see 
 
 Try following the example and create your own object!
 
-  - [ ] Type any name or label in your R Script
-  - [ ] Use `<-` to assign a value to this name or label
+  - [ ] Type any name or label in your R script.
+  - [ ] Use `<-` to assign any numerical value to this name or label.
   - [ ] Run the line and check out your new object in the Environment pane.
 
 Example: 
@@ -738,6 +739,7 @@ Be creative and think of a new variable and value. Remember the placement matter
 - Call on them and use specific objects in new operations
 
 ```{r}
+# Let's add 5 to the object
 my_number + 5
 ```
 
@@ -755,8 +757,8 @@ Keep in mind that if you assign a new value to the same object name, it simply o
 
 Let's use the object you assigned in a new operation
 
-  - [ ] Call on your object and perform a operation
-  - [ ] Run the line and see what happens
+  - [ ] Call on your object and perform a operation.
+  - [ ] Run the line and see what happens.
   
 Example: 
 
@@ -776,7 +778,7 @@ number_of_students * 2
 - You provide input values (**arguments**), and R returns an **output** based on internal operations.
 - Analogous to a mathematical function: 
   - If `f(x) = 2 * x`, then inputting `x = 3` returns `6`.
-- Every function has a unique name, followed by parentheses `()`.
+- Every function has a unique name, followed by parentheses `()`, such as `sum()`.
 
 ```{r}
 #| eval: false
@@ -861,9 +863,9 @@ If you name the arguments (using the names "x" and "digits"), the order doesn't 
 
 ## Practical exercise 6
 
-- [ ] Combine the numbers `4.4, 14, 5.26, and 26` and assign it to an object named "`numbers`"
+- [ ] Combine the numbers `4.4`, `14`, `5.26`, and `26` and assign it to an object named "`numbers`"
 - [ ] Try out the functions `sum()`, `mean()`, and `sd()` using the object "`numbers`" as the argument and inspect the output
-- [ ] Re-assign the `my_number` object using "`2.4637`"
+- [ ] Re-assign the "`my_number`" object using `2.4637`
 - [ ] Try out the functions `exp()` and `round()` using "`my_number`" as the argument
 
 
@@ -1192,11 +1194,17 @@ What do you notice about the values in the example vector? All values in a vecto
 
 ## Practical exercise 8
 
- - [ ] Create a vector containing the numbers `19`, `20`, and `21` and assign it to an object called "`age`"
+ - [ ] Create a vector containing the numbers `19`, `20`, and `21` and assign it to an object called "`age`".
 
- - [ ] Create a vector containing the names `Tim`, `Tom`, and `Anna` and assign it to an object called "`name`"
+ - [ ] Create a vector containing the names `Tim`, `Tom`, and `Anna` and assign it to an object called "`name`".
 
- - [ ] Create a vector containing the foods `Pizza`, `Burger`, and `Pasta` and assign it to an object called "`food`"
+ - [ ] Create a vector containing the foods `Pizza`, `Burger`, and `Pasta` and assign it to an object called "`food`".
+ 
+::: callout-tip
+# Word data type
+
+Reminder: word data types need to be wrapped in quotation marks.
+:::
 
 ---
 
@@ -1312,18 +1320,7 @@ age <- c(19, 20, 21)
 |----------|---|---|---|
 | Value | 19 | 20 | 21 |
 
-
-- **Remember**: Data frames have rows and columns.
-
-- To use indexing, use `[ ]` and follow this general format: 
-
-    - `dataframe [ row , column ]`
-
----
-
-## Indexing Vectors
-
-Examples:
+- Use `[ ]` to call on a value by its position
 
 ```{r}
 # Caling on the value in position 1 
@@ -1345,7 +1342,7 @@ age[3]
 
 **Selecting Multiple Values**
 
-You can retrieve more than one value at once:
+You can retrieve more than one value at once.
 
 ```{r}
 age[c(1,3)]
@@ -1365,7 +1362,11 @@ age[1:3]
 
 ## Indexing Data Frames
 
-You can even call on values directly from data frames:
+- You can call on values directly from the row and column of data frames.
+
+- To use indexing, use `[ ]` and follow this general format: 
+
+    - `dataframe [ row , column ]`
 
 ```{r}
 # Calling the value in row 1, column 1
@@ -1380,7 +1381,7 @@ people_data[3, 2]
 ::: callout-important
 # Numbers vs names
 
-Calling values by using just numbers can get confusing. Luckily, there is a way to call on the values by using the column **name**.
+Calling values by using just numbers can get confusing. Luckily, there is a way to call on the values by using the **column name**.
 :::
 
 ::: {.notes}
@@ -1702,5 +1703,6 @@ Still to do
 - [ ] Check existing R files in the Assets folder
 - [ ] double check flow of lesson & time taken to complete it
 - [ ] Rework survey + quiz questions to include new content
+- [ ] Update learning goals + key terms and definitions (if necessary)
 
 ---
