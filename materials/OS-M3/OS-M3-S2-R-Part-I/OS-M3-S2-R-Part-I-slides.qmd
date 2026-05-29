@@ -52,8 +52,6 @@ His work was subsequently adapted by Luz Sanchez Steinhagen, Tejaswini Sharma, [
 
 **Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/my-orcid?orcid=0000-0000-0000-0000)) CHANGE
 
-**Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/my-orcid?orcid=0000-0000-0000-0000)) CHANGE
-
 **Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730))
 
 **Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
@@ -84,6 +82,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 |------------|------------|------------|
 | RStudio installed | Version 2025.05.1+513 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
 | R installed | Version 4.4.3 or higher | [Download Link](https://www.r-project.org/) |
+| Accessibility sheet for computers | Basic information to introduce computer organization | [Download Link](assets/Accessibility_sheet_for_computers_OSSS26.pdf)
 </div>
 
 ::: {.notes}
@@ -375,6 +374,109 @@ If you’re unsure, that’s completely fine, feel free to try again or ask for 
 
 ---
 
+## R scripts
+
+An R script is a **text file** containing your **R commands**.
+
+-   It is an easy way to save and share code
+
+-   You can run code from an R script by:
+ 
+    - Pressing **Ctrl + Enter** (Windows) OR **Command + Enter** on a (Mac) on the keyboard  
+    - click on **Run**
+
+-   Add comments or notes to your code by using `#`, for example:
+
+```{r}
+# sum up two numbers 
+4+5
+```
+
+
+::: {.notes}
+**Presenter Notes**:  
+In the previous exercise we only worked in the Console. But there’s one important limitation: anything you type there is not saved once you close RStudio.  
+That’s why we use R scripts. An R script is simply a file where you can write, save, and organize your code so you can come back to it later or share it with others.  
+To run code from a script, you place your cursor on a line,or highlight multiple lines, and then press Ctrl + Enter on Windows or Command + Enter on a Mac. You can also click the ‘Run’ button.  
+Another useful feature is comments. If you want to add notes or explanations that R should not execute as code, you use the hash symbol. Everything after that on the line is treated as a comment.  
+This helps make your code more readable and easier to understand — both for others and for your future self.
+:::
+
+---
+
+## Creating a new R script
+
+::: {style="text-align: center;"}
+<img src="images/R_screen2.png" style="width:70%;"/>
+:::
+
+::: {.notes}
+**Presenter Notes**:  
+Now let’s look at how to create a new R script from scratch.  
+To do this, go to the File menu, then choose New File, and then select R Script. Alternatively, you can use the shortcut Ctrl + Shift + N.  
+Once the script opens, you can immediately start writing your code or notes.  
+It’s important to save your script early and in an organised folder, so you don’t lose your work. To save it, go to File and click Save, or use Ctrl + S.  
+
+**Instructor Notes**:  
+Guide students step-by-step while they follow along. Ensure everyone successfully creates and saves a script before moving on. If needed, pause and repeat navigation steps slowly. 
+:::
+
+---
+
+## Saving an R Script
+
+:::::: {.columns}
+::: {.column width="60%"}
+
+**Step 1**: On your device
+
+- Decide where this R Script should go 
+- Create a *new folder*
+
+:::
+::: {.column width="40%"}
+
+![](images/file_explorer.png){width="30%"}
+
+:::
+::::::
+
+**Step 2**: In RStudio
+
+- After making a new R Script, click on `File` → then click `Save As...` 
+- → Name the file → then choose the designated folder 
+- → Click `Save`
+
+
+
+::: {.notes}
+**Presenter Notes**: It is very important to be organised with how you save and store your work. We want to make sure we know where things are so we can retrieve it later, so here's a quick run-through of some good practices when saving our R Script. First, go to where you want to store this R Script on your device- it can be on your desktop, a folder you already have, or even one you made specifically for this session. Create a new folder there and let's name it "R Lesson". Back in RStudio, after creating a new R Script, we want to save it before we even start adding any code. We do this by clicking on "File" at the top-left corner. In the drop down menu, we click "Save As...", give it a name such as "R Script 1", navigate to the folder we just created for this R Script, and then click "Save". Great! Now you know exactly where your R Script is and everything you add to it in this session can be saved. 
+
+**Instructor Notes**: It may seem like a basic computer skill, but do NOT assume that everyone knows folder management and how to properly store + save Files to their device. This is an important section and can assist learners in how they manage their files beyond this lesson as well. 
+
+**Accessibility Tips**: Keep in mind that actions like "creating a folder" and "renaming" are all, in fact, learned skills that not everyone may have as yet. Always verbalize or demonstrate the instructions for even these seemingly basic tasks. Or, allow learners to work together with others who perform these actions regularly and can help out. 
+:::
+
+---
+
+## Practical exercise 2
+
+- [ ] Create a new R Script
+- [ ] Copy the comment below and add it to your empty R Script
+
+```{r}
+# This is my practice R Script
+```
+
+- [ ] Save it to a folder on your device
+
+::: {.notes}
+**Presenter Notes**:
+If you haven't already, complete this practical exercise: create a new R script, write a comment in the first line using the hash symbol, and save it in a new folder dedicated to this course. If you already created and saved your R Script, add the comment and hit "Save". 
+:::
+
+---
+
 ## Logical comparisons
 
 With **R**, you can also:
@@ -393,9 +495,7 @@ Example:
 
 -   R returns a **logical value**:
 
-    -   `TRUE` or
-
-    -   `FALSE`
+    -   `TRUE` or `FALSE`
 
 ::: {.notes}
 **Presenter Notes**:  
@@ -441,21 +541,18 @@ Present this as a reference slide rather than content to be learned immediately.
 
 ---
 
-## Practical exercise 2
+## Practical exercise 3
 
 *`TRUE` or `FALSE`?*
 
 - [ ] Express the following statements in words and evaluate whether they are `TRUE` or `FALSE`.
 
-``` r
+```{r}
+#| eval: false
 (36 + 5)> 40
-```
 
-``` r
 (4 == 5) | (25 > 17)
-```
 
-``` r
 (5 == (2 + 3)) & (7 >= 8)
 ```
 
@@ -549,6 +646,268 @@ This shows why it’s important to be aware of the data types you’re working w
 
 **Instructor Notes**:  
 Use this slide to reinforce the practical importance of data types. Optionally demonstrate the error live to show how R responds. Emphasise that error messages are normal and informative, not something to be avoided.
+:::
+
+---
+
+# Objects and assignment
+
+---
+
+## Objects and assignment
+
+Everything in R is an **object**, and oftentimes, we want to work with an object repeatedly.
+
+-   Call on objects by assigning a name to it using the assignment arrow `<-`
+
+```{r}
+my_number <- 4
+```
+
+- The example above saves the value 4 under the name "`my_number`"
+
+::: callout-important
+## Variable first, number second
+Take note of the order: we put the variable or name first, then the assignment arrow `<-`, and lastly the number or value. It would not work if you put `4 <- my_number`
+:::
+
+::: {.notes}
+**Presenter Notes**:  
+In R, almost everything we work with is treated as an object. That could be a number, a dataset, a result of a calculation, or even the outcome of a logical comparison.  
+Often, we don’t just want to calculate something once — we want to store it and use it again later. For that, we create objects and give them names.  
+We do this using the assignment arrow, written as `<-`.  
+For example, if we write `my_number <- 4`, we are telling R: store the value 4 inside an object called my_number.  
+Once we run this line, the object is saved in the Environment pane in RStudio, where we can see and reuse it anytime.
+Also, take note of the placement: the variable name goes in-front of the assignment arrow and the value or number goes behind. This is important for R to assign the value to the variable successfully. 
+
+**Instructor Notes**: Make sure students understand the idea of “storage” rather than just calculation. If possible, demonstrate live how the object appears in the Environment pane. Reinforce that naming objects clearly is important for readability and later use.
+:::
+
+---
+
+## Objects and assignment
+
+The object then appears in the Environment pane.
+
+::: {style="text-align: center;"}
+<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:50%;"/>
+:::
+
+::: {.notes}
+**Presenter Notes**:  
+Here you can see an example of how an object appears in the Environment pane in RStudio.  
+Whenever you create an object using the assignment arrow, R stores it here. In this example, you can see the object name, along with its value and type.  
+This is very useful because it allows you to keep track of everything you have created during your session. Instead of recalculating something again, you can simply reuse the object from the Environment.  
+As you start working more with R, this pane will become your overview of what is currently stored in memory.
+
+**Instructor Notes**:  
+Point students’ attention directly to the Environment pane on their own screens if available. Briefly explain how objects may change or accumulate as they run more code. Avoid going into memory management details at this stage.
+
+**Accessibility Tips:**  
+Verbally describe what is visible in the screenshot for students who cannot see it clearly. Allow extra time for learners to locate the Environment pane on their own interface.
+:::
+
+---
+
+## Practical exercise 4
+
+Try following the example and create your own object!
+
+  - [ ] Type any name or label in your R Script
+  - [ ] Use `<-` to assign a value to this name or label
+  - [ ] Run the line and check out your new object in the Environment pane.
+
+Example: 
+
+```{r}
+number_of_students <- 50
+```
+
+::: {.notes}
+**Presenter Notes**:
+Be creative and think of a new variable and value. Remember the placement matters: the variable goes in-front of the arrow and the value goes behind. See the example provided for more clarification on this. Feel free to just copy the example provided or come up with your own! Then, run this line to see how the object appears in your Environment- this also helps you keep track of all the objects you create. 
+:::
+
+---
+
+## Objects and assignments
+
+**Okay, I made objects... what now?**
+
+- Assigning objects helps organize your values 
+- Call on them and use specific objects in new operations
+
+```{r}
+my_number + 5
+```
+
+::: {.notes}
+**Presenter notes**:
+Once you assign a value to an object, you don’t have to keep remembering or retyping that value every time. You can just call the object name and use it in your calculations, which makes your code cleaner and much easier to work with.
+
+**Instructor notes**:
+Keep in mind that if you assign a new value to the same object name, it simply overwrites the old one. So if my_number was 4 and is later assign my_number <- 6, the value is now 6. R always uses the most recent assignment.
+:::
+
+---
+
+## Practical exercise 5
+
+Let's use the object you assigned in a new operation
+
+  - [ ] Call on your object and perform a operation
+  - [ ] Run the line and see what happens
+  
+Example: 
+
+```{r}
+number_of_students * 2
+```
+
+---
+
+# Functions
+
+---
+
+## What is a function?
+
+- A **function** is a reusable block of code that performs a specific task.
+- You provide input values (**arguments**), and R returns an **output** based on internal operations.
+- Analogous to a mathematical function: 
+  - If `f(x) = 2 * x`, then inputting `x = 3` returns `6`.
+- Every function has a unique name, followed by parentheses `()`.
+
+```{r}
+#| eval: false
+# Example of a function taking multiple inputs
+sum(1, 2, 3, 4)
+```
+
+::: {.notes}
+**Presenter Notes**: Now that we know how to store data in our working directory, let's talk about how to manipulate it. A function is basically a recipe. You put ingredients in—these are called arguments—and the function gives you a finished dish as output. It saves us from writing complex mathematical formulas from scratch.
+
+**Instructor Notes**: Emphasize the syntax: the function name is always immediately followed by parentheses. This is how R distinguishes a function from an object.
+:::
+
+---
+
+## Combining values: `c()`
+
+**The `c()` function**
+
+- To apply functions to multiple numbers at once, we group them together.
+- We use the `c()` function, which stands for combine.
+
+```{r}
+#| eval: false
+# Combine four numbers into one object
+my_group <- c(10, 20, 30, 40)
+
+# Now we can apply a function to the entire group
+sum(my_group)
+```
+
+::: {.notes}
+**Presenter Notes**: Before we look at more functions, we need to know one special, very short function: the letter 'c'. It stands for combine. When we want to calculate the average of several numbers, we first group them together into a single object using c(), and then we can pass that entire object into our math functions.
+:::
+
+---
+
+## Common built-in functions
+
+R comes with many built-in mathematical functions:
+
+| Function | What it does | |
+| :--- | :--- | --- |
+| `sum()` | Adds all values together | |
+| `mean()` | Calculates the arithmetic mean (average) | |
+| `sd()` | Calculates the standard deviation | |
+| `exp()` | Calculates the exponential function ($e^x$) | |
+| `round()` | Rounds a number | |
+
+::: {.notes}
+**Presenter Notes**: Here are some of the most common mathematical and statistical functions you will use in R. They do exactly what their names suggest. `sd()` calculates the standard deviation, and `exp()` calculates the exponential.
+:::
+
+---
+
+## Function arguments
+
+- Most functions take multiple arguments (**inputs**).
+- Example: The `round()` function approximates a number (**x**) to a specified amount of decimal places (**digits**).
+- You can provide arguments by position or by name.
+
+```{r}
+#| eval: false
+# By position (R assumes the first number is x, the second is digits)
+round(3.14159, 2)
+
+# By name (explicitly telling R which argument is which)
+round(x = 3.14159, digits = 2)
+```
+
+::: {.callout-tip}
+# Naming your arguments makes your code easier to read!
+
+If you name the arguments (using the names "x" and "digits"), the order doesn't matter (example: `round(digits = 2, x = 3.14159)` works identically).
+:::
+
+::: {.notes}
+**Presenter Notes**: Some functions need more than one piece of information. For instance, to round a number, R needs to know what number to round, and how many decimals to keep. You can just type the numbers in the right order, but explicitly naming the arguments, like writing `digits = 2`, is highly recommended because it makes your script much easier to understand when you read it a month later.
+:::
+
+---
+
+## Practical exercise 6
+
+- [ ] Combine the numbers `4.4, 14, 5.26, and 26` and assign it to an object named "`numbers`"
+- [ ] Try out the functions `sum()`, `mean()`, and `sd()` using the object "`numbers`" as the argument and inspect the output
+- [ ] Re-assign the `my_number` object using "`2.4637`"
+- [ ] Try out the functions `exp()` and `round()` using "`my_number`" as the argument
+
+
+:::: callout-tip
+# Ignoring the **digits** argument
+
+Try running the `round()` function without specifying the `digits =` argument. What happens? Why might that be?
+::::
+
+::: {.notes}
+**Presenter Notes**: Let's put this into practice. Create your vector using the `c()` function we just learned, save it as an object, and then run some basic statistics on it. For the second part, pay special attention to the `round()` function and the hint on the slide!
+
+**Instructor Notes**: Give learners about 5-7 minutes. Walk around to ensure they are properly using the `c()` function to create the vector. A common beginner mistake is typing `mean(4.4, 14, 5.26, 26)` directly, which will not work as expected because `mean()` only calculates the mean of the first argument if they aren't combined into a vector first.
+:::
+
+---
+
+## Practical exercise 6: Solutions
+
+```{r}
+#| eval: false
+# 1. Create a vector and assign it to "numbers"
+numbers <- c(4.4, 14, 5.26, 26)
+
+# 2. Try out sum(), mean(), and sd()
+sum(numbers)
+mean(numbers)
+sd(numbers)
+
+# 3. Assign the number to "my_number"
+my_number <- 2.4637
+
+# 4. Try out exp() and round()
+exp(my_number)
+round(my_number)
+round(my_number, digits = 2)
+```
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From David: For now, I made a solution slide for the exercise and put it here. Later we can move it to the end of the presentation (like in the R-Part-I presentation) if you'd like.</span>
+</div>
+
+::: {.notes}
+**Presenter Notes**: Here is the complete solution. Notice how we assigned the vector to `numbers` first and placed the object name inside the parentheses. For the second part, running `round(my_number)` without specifying the `digits` argument rounded the output to 2. This occurs because functions have built-in default values. If the `digits` argument is omitted, R assumes zero decimals. Determining default values is done using the Help function.
 :::
 
 ---
@@ -672,178 +1031,422 @@ Briefly examine the answers given to each question interactively with the group.
 
 ---
 
-## R scripts
 
-An R script is a **text file** containing your **R commands**.
+## The Help function
 
--   Easy way to save and share code you wrote
+*Do I have to memorize all of the functions and arguments?*
 
--   You can run code from an R script by pressing **Ctrl + Enter** (Windows) or **click on Run**
-
--   To add comments to your code use `#`, for example:
-
-```{r}
-# sum up two numbers 
-4+5
-```
-
+::: incremental
+- **No!** There is no need to memorize functions and their arguments.
+- You will automatically remember the ones you use frequently through practice.
+- When you need to understand how a function works, what inputs it needs, or what its defaults are, you can consult the **Help Function**.
+:::
 
 ::: {.notes}
-**Presenter Notes**:  
-So far, we’ve been working in the Console. But there’s one important limitation: anything you type there is not saved once you close RStudio.  
-That’s why we use R scripts. An R script is simply a file where you can write, save, and organize your code so you can come back to it later or share it with others.  
-To run code from a script, you place your cursor on a line,or highlight multiple lines, and then press Ctrl + Enter on Windows or Command + Enter on a Mac. You can also click the ‘Run’ button.  
-Another useful feature is comments. If you want to add notes or explanations that R should not execute as code, you use the hash symbol. Everything after that on the line is treated as a comment.  
-This helps make your code more readable and easier to understand — both for others and for your future self.
+**Presenter Notes**: A common worry when learning a programming language is feeling like you have to memorize a dictionary of functions. Please don't! Even advanced programmers look up functions every single day. The more you use certain functions, the more naturally they will come to you. For everything else, R has a built-in manual called the Help Function.
+
+**Instructor Notes**: Normalize the act of looking things up. You can mention that googling errors or looking at documentation is 80% of programming.
 :::
 
 ---
 
-## Creating a new R script
+## How to access Help in R
+
+There are two main ways to look up a function.
+
+**Method 1: The Console**
+
+Type a question mark `?` immediately followed by the function name in the Console and press Enter.
+
+```{r}
+#| eval: false
+?round
+```
+
+---
+
+## How to access Help in R
+
+**Method 2: The Help Tab**
+
+Navigate to the **Help** tab in the bottom right pane of RStudio and type the function name into the search bar.
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen2.png" style="width:70%;"/>
+![](images/help_search_bar.png){style="width:55%;"}
 :::
 
 ::: {.notes}
-**Presenter Notes**:  
-Now let’s look at how to create a new R script from scratch.  
-To do this, go to the File menu, then choose New File, and then select R Script. Alternatively, you can use the shortcut Ctrl + Shift + N.  
-Once the script opens, you can immediately start writing your code or notes.  
-It’s important to save your script early and in an organised folder, so you don’t lose your work. To save it, go to File and click Save, or use Ctrl + S.  
+**Presenter Notes**: Accessing the documentation is very fast. If you know the name of the function, simply type a question mark and the name in the console. For example, `?round`. Alternatively, you can use the search bar in the Help tab located in the bottom right pane of RStudio.
 
-**Instructor Notes**:  
-Guide students step-by-step while they follow along. Ensure everyone successfully creates and saves a script before moving on. If needed, pause and repeat navigation steps slowly. 
+**Instructor Notes**: Briefly demonstrate typing `?mean` or `?sum` in the console so they can see the help pane pop up automatically.
 :::
 
 ---
 
-## Practical exercise 3
+## Reading the Documentation
 
-- [ ] Create a new R Script
-- [ ] Copy the comment below and add it to your empty R Script
+Help pages can look intimidating, but you only need to focus on a few key sections:
 
-```{r}
-# This is my practice R Script
-```
-
-- [ ] Save it to a folder on your device
+- **Description:** A brief summary of what the function does.
+- **Usage:** Shows the function with all arguments. This is where you see **default values**.
+- **Arguments:** Detailed explanations of what each input should look like.
 
 ::: {.notes}
-**Presenter Notes**:
-For the practical exercise, create a new R script, write a comment in the first line using the hash symbol, and save it in a new folder dedicated to this course.
+**Presenter Notes**: The documentation might look overwhelming at first because it is written very technically. You do not need to read the whole thing. Focus on the "Usage" and "Arguments" sections.
 :::
 
 ---
 
-## Objects and assignment
+## Reading the Documentation
 
-Everything in R is an **object**, and oftentimes, we want to work with an object repeatedly.
+Example: 
 
--   Call on objects by assigning a name to it using the assignment arrow `<-`
+- For the `round()` function we can see that it takes a numeric vector as input and the `digits =` argument is set to `0` by default.
+
+::: {style="text-align: center;"}
+![](images/help_round_docs.png){style="width:70%;"}
+:::
+
+::: {.notes}
+**Presenter Notes**: For the `round()` function, the documentation explicitly states it takes a numeric vector as input. In the Usage section, `digits = 0` indicates the default value R applies if no value is specified.
+:::
+
+---
+
+## Practical exercise 7
+
+- [ ] Type `?round` in the console and press Enter.
+- [ ] Inspect the documentation that opens in the bottom right pane.
+- [ ] Look at the **Usage** and **Arguments** sections to see which inputs the function accepts.
+- [ ] Based on the documentation, how can we round `my_number` (from the previous exercise) to exactly two decimal places? Write and run the code.
+
+::: {.notes}
+**Presenter Notes**: Let's try it out. Pull up the help page for the round function and take a look at the Usage and Arguments sections. Then, use that information to write the code that rounds your `my_number` object to two decimal places.
+
+**Instructor Notes**: Give learners about 3-5 minutes. This is a very quick exercise to get them used to reading the documentation panel. Walk around and ensure they have successfully opened the help page.
+:::
+
+---
+
+## Practical exercise 7: Solutions
 
 ```{r}
-my_number <- 4
+#| eval: false
+# 1, 2 & 3. Open the help documentation and inspect it
+?round
+
+# 4. Rounding to two decimal places
+round(my_number, digits = 2)
 ```
 
-- The example above saves the value 4 under the name "`my_number`"
+::: {.notes}
+**Presenter Notes**: By looking at the Usage section in the help tab, we can see that `round` takes an argument called `digits`. To round to two decimal places, we simply specify `digits = 2` inside our function call.
+:::
+
+---
+
+# Vectors, Lists, and Data Frames
+
+---
+
+## Data Structures in R
+
+Collections of values are called **data**
+
+R provides ways to store data in different structures:
+
+- **Vectors**
+- **Lists**
+- **Data Frames**
+
+::: {.notes}
+**Presenter Notes**: So far, we have mostly worked with single values. Most of the time, we are interested in a collection of values rather than a single value to be able to work with many observations at once. R provides different data structures to help us organize and work with collections of data.
+:::
+
+---
+
+## Vectors
+
+**What does a vector do?** Stores multiple values in an object.
+
+- It is a one-dimensional collection of data
+- Useful for storing scores, ages, measurements, names, and more
+
+Example:
+
+```{r}
+scores <- c(75, 82, 91, 68)
+```
+
+::: callout-tip
+# Vectors and data type
+
+What do you notice about the values in the example vector? All values in a vector should be of the same data type.
+:::
+
+::: {.notes}
+**Presenter Notes**: A vector is one of the most common data structures in R. Think of it as a container that stores many related values under a single name. Instead of creating separate objects for each score, we can store them together in one vector.
+:::
+
+---
+
+## Practical exercise 8
+
+ - [ ] Create a vector containing the numbers `19`, `20`, and `21` and assign it to an object called "`age`"
+
+ - [ ] Create a vector containing the names `Tim`, `Tom`, and `Anna` and assign it to an object called "`name`"
+
+ - [ ] Create a vector containing the foods `Pizza`, `Burger`, and `Pasta` and assign it to an object called "`food`"
+
+---
+
+Practical exercise 8 Solutions
+
+```{r}
+age <- c(19, 20, 21)
+
+name <- c("Tim", "Tom", "Anna")
+
+food <- c("Pizza", "Burger", "Pasta")
+```
+
+---
+
+## Lists
+
+**What does a list do?** Stores different types of data together.
+
+- It is also one-dimensional
+- *But*, unlike vectors, it can contain different value types
+
+Example:
+
+```{r}
+student <- list("Alex", 21, TRUE)
+```
+
+::: {.notes}
+**Presenter Notes**: Unlike vectors, lists can contain different types of information. For example, text, numbers, and logical values can all be stored together. We won't use lists much in this introductory session, but it's useful to know they exist.
+:::
+
+---
+
+## Data Frames
+
+**What does a data frame do?** Stores data in rows and columns.
+
+- **Rows** represent observations, **columns** represent variables
+
+| Name | Age | Food |
+|------|-----|------|
+| Tim | 19 | Pizza |
+| Tom | 20 | Pizza |
+| Anna | 21 | Pasta |
+
+::: callout-note
+# Look familiar?
+
+Think of a data frame like an excel spreadsheet. 
+:::
+
+::: {.notes}
+**Presenter Notes**: Data frames are one of the most important data structures in R because most datasets are stored this way. If you've used Excel before, think of a data frame as a table where rows contain observations and columns contain variables.
+:::
+
+---
+
+## Practical Exercise 9
+
+Create a data frame with the `data.frame()` function
+
+ - [ ] Copy the following to combine the vectors into the **data frame** named "`people_data`"
+ 
+```{r}
+people_data <- data.frame(name, age, food)
+```
+ 
+ <br> 
+ 
+ - [ ] Call on the data frame and observe what happens
+ 
+::: {.notes}
+**Presenter Notes**: Here we're creating three separate vectors and then combining them into a data frame. Notice how each vector becomes a column in the final table.
+:::
+
+---
+
+Practical exercise 9 solution
+
+ 
+```{r}
+people_data <- data.frame(name, age, food)
+
+people_data
+```
+
+---
+
+## Indexing
+
+**What does indexing do?** Allows us to access specific parts of our data.
+
+- Select individual values
+- Select multiple values
+- Access rows and columns in a data frame
+
+::: {.notes}
+**Presenter Notes**: Indexing means selecting a specific part of an object. Instead of viewing all values at once, we can ask R to return only the piece we need.
+:::
+
+---
+
+## Indexing Vectors
+
+Each element in a vector has a position.
+
+```{r}
+age <- c(19, 20, 21)
+```
+
+| Position | 1 | 2 | 3 |
+|----------|---|---|---|
+| Value | 19 | 20 | 21 |
+
+
+- **Remember**: Data frames have rows and columns.
+
+- To use indexing, use `[ ]` and follow this general format: 
+
+    - `dataframe [ row , column ]`
+
+---
+
+## Indexing Vectors
+
+Examples:
+
+```{r}
+# Caling on the value in position 1 
+age[1]
+```
+
+```{r}
+# Calling on the value in position 3
+age[3]
+```
+
+::: {.notes}
+**Presenter Notes**: R starts counting at 1, not 0. The number inside the square brackets refers to the position of the value we want to retrieve.
+:::
+
+---
+
+## Indexing Vectors
+
+**Selecting Multiple Values**
+
+You can retrieve more than one value at once:
+
+```{r}
+age[c(1,3)]
+```
+
+You can also select a range:
+
+```{r}
+age[1:3]
+```
+
+::: {.notes}
+**Presenter Notes**: We can use indexing to select several positions at the same time. The colon operator creates a sequence of positions.
+:::
+
+---
+
+## Indexing Data Frames
+
+You can even call on values directly from data frames:
+
+```{r}
+# Calling the value in row 1, column 1
+people_data[1, 1]
+```
+
+```{r}
+# Calling the value in row 3, column 2
+people_data[3, 2]
+```
 
 ::: callout-important
-## Variable first, number second
-Take note of the order: we put the variable or name first, then the assignment arrow `<-`, and lastly the number or value. It would not work if you put `4 <- my_number`
+# Numbers vs names
+
+Calling values by using just numbers can get confusing. Luckily, there is a way to call on the values by using the column **name**.
 :::
 
 ::: {.notes}
-**Presenter Notes**:  
-In R, almost everything we work with is treated as an object. That could be a number, a dataset, a result of a calculation, or even the outcome of a logical comparison.  
-Often, we don’t just want to calculate something once — we want to store it and use it again later. For that, we create objects and give them names.  
-We do this using the assignment arrow, written as `<-`.  
-For example, if we write `my_number <- 4`, we are telling R: store the value 4 inside an object called my_number.  
-Once we run this line, the object is saved in the Environment pane in RStudio, where we can see and reuse it anytime.
-Also, take note of the placement: the variable name goes in-front of the assignment arrow and the value or number goes behind. This is important for R to assign the value to the variable successfully. 
-
-**Instructor Notes**: Make sure students understand the idea of “storage” rather than just calculation. If possible, demonstrate live how the object appears in the Environment pane. Reinforce that naming objects clearly is important for readability and later use.
+**Presenter Notes**: Unlike vectors, data frames are two-dimensional. We therefore need both a row position and a column position.
 :::
 
 ---
 
-## Objects and assignment
+## Accessing Columns with `$`
 
-The object then appears in the Environment pane.
+**The `$` operator allows us to select a column by name.**
 
-::: {style="text-align: center;"}
-<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:50%;"/>
-:::
+- Used to retrieve values from data frames
+- Returns all values from that specific column
+- Easier to read than using column numbers
 
-::: {.notes}
-**Presenter Notes**:  
-Here you can see an example of how an object appears in the Environment pane in RStudio.  
-Whenever you create an object using the assignment arrow, R stores it here. In this example, you can see the object name, along with its value and type.  
-This is very useful because it allows you to keep track of everything you have created during your session. Instead of recalculating something again, you can simply reuse the object from the Environment.  
-As you start working more with R, this pane will become your overview of what is currently stored in memory.
-
-**Instructor Notes**:  
-Point students’ attention directly to the Environment pane on their own screens if available. Briefly explain how objects may change or accumulate as they run more code. Avoid going into memory management details at this stage.
-
-**Accessibility Tips:**  
-Verbally describe what is visible in the screenshot for students who cannot see it clearly. Allow extra time for learners to locate the Environment pane on their own interface.
-:::
-
----
-
-## Practical exercise 4
-
-Try following the example and create your own object!
-
-  - [ ] Type any name or label in your R Script
-  - [ ] Use `<-` to assign a value to this name or label
-  - [ ] Run the line and check out your new object in the Environment pane.
-
-Example: 
+Example:
 
 ```{r}
-number_of_students <- 50
+# Calling on the "name" column within the "people_data" data frame
+people_data$name
 ```
 
 ::: {.notes}
-**Presenter Notes**:
-Be creative and think of a new variable and value. Remember the placement matters: the variable goes in-front of the arrow and the value goes behind. See the example provided for more clarification on this. Feel free to just copy the example provided or come up with your own! Then, run this line to see how the object appears in your Environment- this also helps you keep track of all the objects you create. 
+**Presenter Notes**: The dollar sign (`$`) is a convenient way to access a column in a data frame. Instead of remembering which column number contains the information we want, we can simply use the column's name. This makes code easier to read and understand.
 :::
 
 ---
 
-## Objects and assignments
+## Combining `$` and `[]`
 
-**Okay, I made objects... what now?**
-
-- Assigning objects helps organize your values 
-- Call on them and use specific objects in new operations
+Look at the following example to see how `$` and `[ ]` can be used together:
 
 ```{r}
-my_number + 5
+people_data$food[3]
 ```
 
-::: {.notes}
-**Presenter notes**:
-Once you assign a value to an object, you don’t have to keep remembering or retyping that value every time. You can just call the object name and use it in your calculations, which makes your code cleaner and much easier to work with.
+What does this do? 
 
-**Instructor notes**:
-Keep in mind that if you assign a new value to the same object name, it simply overwrites the old one. So if my_number was 4 and is later assign my_number <- 6, the value is now 6. R always uses the most recent assignment.
+- `$` selects the **food** column in the `people_data` data frame
+- `[]` gives you the **third** value
+
+::: {.notes}
+**Presenter Notes**: This is a very common pattern in R. We first select a column and then use indexing to retrieve a specific value from that column.
 :::
 
 ---
 
-## Practical exercise 5
+## Practical exercise 10
 
-Let's use the object you assigned in a new operation
+Using the `people_data` data frame, retrieve the following:
 
-  - [ ] Call on your object and perform a operation
-  - [ ] Run the line and see what happens
-  
-Example: 
+- [ ] The first name
+- [ ] The second age
+- [ ] The third food item
+
+---
+
+Practical exercise 10 Solutions
 
 ```{r}
-number_of_students * 2
+people_data$name[1]
+
+people_data$age[2]
+
+people_data$food[3]
 ```
 
 ---
@@ -1082,16 +1685,22 @@ Ensure the link is accessible through the course platform or slide deck.
 
 ## Feedback Beth 
 
-- Added key terms + definitions section (Slides 11-12), pre-break quiz (Slides 23-28), 15 minute break (i put it where I thought was appropriate to break up the lesson), post-break quiz discussion (31)
-- Slide 14 - I added a column here because I thought the image was too small. What do you think?
-- Slide 22: i don't think "Important data types" needs to be a level 1 heading if there will only be 2 slides addressing the topic - I leave this up to you! Beth: i changed it to level 2 heading and used it to make a new slide/new content (see Slide 20) ✅
+- Changed the R_screen1 image
+- Moved the "R Script" section to occur 2nd in the order of slide subtopics
+- Added Sara Lil's file management as an asset and listed it in the prerequisites (temp.)
+- Added slide 19 for "Saving an R Script" to practice file management on learner's device
+- relocated David's "Functions" sections from R part 2 to R part 1
+- Added Sections: Vectors, Lists, and Data Frames + Indexing
 
 ---
 
 ## Feedback Beth
 
-- Added content to 'objects and assignments' (Slide 35)
-- Added Practical activities 3 (Slide 34), 4 (Slide 36), and 5 (Slide 39)
-- Reworked post-session survey
+Still to do
+
+- [ ] Fix presenter + instructor notes
+- [ ] Check existing R files in the Assets folder
+- [ ] double check flow of lesson & time taken to complete it
+- [ ] Rework survey + quiz questions to include new content
 
 ---
