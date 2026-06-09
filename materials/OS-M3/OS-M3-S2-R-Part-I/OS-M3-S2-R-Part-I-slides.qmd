@@ -1715,27 +1715,6 @@ Ensure the link is accessible through the course platform or slide deck.
 
 ---
 
-## Feedback David (1/2)
-
-- Issue: Oversized Text (Font-Size): Quarto ignores all HTML classes during PowerPoint export.
-- Solution:
-  - For Quarto: Continue using HTML classes like {.smaller} in slide titles (## Title {.smaller}).
-  - For PowerPoint: Use a custom PowerPoint template to define global font sizes for all exported text (I already created a basic one and set the font-size to 18; it is located in the assets folder and referenced in the YAML header of this presentation).
-- Outlook: This approach seems to be the only viable option right now. Despite the limitation to a global font size in PowerPoint, the template allows for extensive customization. Design elements like the green title bar or the OSC-specific footer can be hardcoded into the template, while Quarto slides maintain their dynamic HTML classes.
-- SvG: if you are interested in working on this, Pat Callahan (also in the all staff Matrix group) has been working on this for us - check in with him perhaps? 
-- David: Perfect, thank you!
-
----
-
-## Feedback David (2/2)
-
-- [X] I adjusted image sizes on slides 15 and 26 for improved layout - thanks!
-- [X]Slide 43 ("Practical exercise 2: Solutions"): There is a placeholder speaker note ("ADD HERE") that has to be updated. - thanks! Feel free to add the presenter notes (unsure if we need instructor notes here?)
-- [X] Slide 14 ("What is R"): Red strikethrough text ("Would you want to add a hyperlink here?") is still there and needs to be removed. SvG: yes, more of those - no worries, we often keep those around until we implemented all of them, but thanks for having this on your radar!
-- [X] Should we all be included in the contribution statement? SvG: of course, I made a start - check the formatting for me or Luz and add your details :)
-
----
-
 ## Feedback Beth 
 
 - Changed the R_screen1 image - great!
@@ -1758,3 +1737,8 @@ Still to do - see also my comments :)
 - [ ] Update learning goals + key terms and definitions (if necessary) - yes, see comments
 
 ---
+
+## Feedback David
+
+- It might be better to place solutions directly after each of the 10 practical exercises. Saving them for the end forces learners to re-engage with old tasks, potentially creates time pressure at the end of the lesson, and delays the immediate feedback they might want before moving to the next topic.
+- We could consider not using the c() function as an introductory example for a general function, but rather keep it within the later sections on Vectors, Lists, and Data Frames. It fits there perfectly and avoids redundancy then.
