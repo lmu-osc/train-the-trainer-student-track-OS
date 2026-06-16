@@ -39,10 +39,6 @@ His work was subsequently adapted by Elizabeth Waterfield, [David Rieger](https:
 <span style="color:red">From David: Here I'm not sure how if I split up the contributions correctly. Also, I don't know all the ORCID IDs.</span>
 </div>
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: I also added the template.pptx to this branch (general assets folder) and referenced it in the yaml header above.</span>
-</div>
-
 ::: {.notes}
 **Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
 :::
@@ -118,10 +114,6 @@ Are there any open questions regarding the content or the assignment from **Intr
 **Let's test our memories from the last session!**
 </div>
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: I just freestyled two quiz questions. The correct answers are written down in the presenter notes.</span>
-</div>
-
 ::: {.notes}
 **Presenter Notes**: To get our brains back into "R mode", let's do a very quick quiz on two core concepts from our last session. Feel free to just call out the answers!
 
@@ -163,17 +155,31 @@ c. Error
 **Presenter Notes**: The correct answer is B, FALSE. While 5 is indeed greater than 3 (which is TRUE), 10 does not equal 5 (which is FALSE). Since we used the AND operator (&), both conditions must be true for the final result to be TRUE.
 :::
 
+---
+
+**How do you access a column named age from a data frame called people_data?**
+
+a. people_data[age]
+
+b. people_data(age)
+
+c. people_data$age
+
+d. age$people_data
+
+::: {.notes}
+Presenter Notes: The correct answer is C. The dollar sign ($) is used to extract a specific column from a data frame by its name. Option A is missing the necessary quotation marks for basic bracket indexing. Option B incorrectly uses parentheses, which are reserved for functions. Option D reverses the order; the data frame name must always precede the dollar sign.
+:::
+
+---
+
 ## Before we start: Survey time!
 
 <br>
 
 <div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
 
-**Let us find out where are you at!**
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: I slightly changed the question templates. We can discuss whether these questions are good or not.</span>
-</div>
+**Let us find out where you are at!**
 
 </div>
 
@@ -185,35 +191,29 @@ c. Error
 
 ---
 
-**What is your level of familiarity with the concepts "Function" and "Package"?**
+**What is your level of familiarity with "Packages" in R?**
 
-a. I have never heard of it before.
-
-b. I have heard of it but have never worked with it.
-
-c. I have basic understanding and experience with it.
-
-d. I am very familiar and have worked with it extensively.
+a. I have never heard of them.
+b. I have heard of them but never installed or loaded one.
+c. I have basic experience installing and loading them.
+d. I am very familiar and use them regularly.
 
 ---
 
-**How comfortable do you feel about navigating folders and file paths on your computer (e.g., knowing exactly where a downloaded file is saved)?**
-
-a. Not comfortable (I often lose files).
-
-b. Somewhat comfortable.
-
-c. Very comfortable (I organize my files systematically).
-
----
-
-**Have you ever imported a dataset (e.g., an Excel or CSV file) into a statistical software program (like SPSS, Stata, or R)?**
+**Have you ever imported a dataset (e.g., an Excel, CSV, or SPSS file) into a statistical software program?**
 
 a. No, never.
+b. Yes, using menus (point-and-click).
+c. Yes, using code/commands.
 
-b. Yes, I've done it using menus (point-and-click).
+---
 
-c. Yes, I've done it using code/commands.
+**How familiar are you with "subsetting" (extracting specific rows or columns from a dataset)?**
+
+a. I have never done this before.
+b. I have done it manually (e.g., copying or deleting columns in Excel).
+c. I have done it using point-and-click menus in statistical software.
+d. I have done it using code (e.g., in R or Python).
 
 ---
 
@@ -237,14 +237,14 @@ What do we see in the results?
 
 ## Moving forward: From Part I to Part II
 
-- **Part I (The Basics)**: R as a calculator, data types, and writing basic scripts.
+- **Part I (The Basics)**: R as a calculator, data types, basic functions, and writing basic scripts.
 - **Part II (The Application)**: Transitioning from calculating to analyzing.
   - Understanding where files are saved (Working Directories).
-  - Using tools built by others (Functions & Packages).
+  - Using tools built by others (Packages).
   - Bringing in real data (Importing & Inspecting).
 
 ::: {.notes}
-**Presenter Notes**: In Part I, we learned the alphabet of R: data types, math operators, and how to save a script. Today, we start writing sentences. We are shifting from treating R like a calculator to using it as a data analysis tool. By the end of this session, you will know how to load your own research data into R and start exploring it.
+**Presenter Notes**: In Part I, we learned the alphabet of R: data types, math operators, functions, and how to save a script. Today, we start writing sentences. We are shifting from treating R like a calculator to using it as a data analysis tool. By the end of this session, you will know how to load your own research data into R and start exploring it.
 :::
 
 ---
@@ -253,11 +253,11 @@ What do we see in the results?
 
 ::: incremental
 - To **identify** and set the correct Working Directory on your computer.
-- To **apply** built-in R functions and access the R Help documentation.
 - To **install** and **load** R packages to extend R's functionality.
 - To **import** external data into the R environment.
 - To **inspect** data structures and **extract** specific columns.
 - To **compute** basic statistical summaries on a dataset.
+- To **visualize** data distributions using simple histograms.
 :::
   
 ::: {.notes}
@@ -266,11 +266,43 @@ What do we see in the results?
 
 ---
 
-# The Working Directory
+## Key terms and definitions
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: Is this kind of structure fine for every sub-topic?</span>
-</div>
+- **Working Directory**
+- **Package**
+- **Data frame**
+- **Subsetting**
+
+::: {.notes}
+**Presenter Notes**: These are key terms we will revisit throughout the lesson. What comes to mind when you see each of them? Which ones are familiar, and which feel new? Take a moment to think about what they might mean.
+
+**Instructor Notes**: Use a think-pair-share approach. First, have learners reflect individually on their associations with each term for a few minutes, then discuss in pairs for a few minutes, and finally share with the group. Allow about 10 minutes for this activity.
+:::
+
+---
+
+## Key terms and definitions
+
+::: incremental
+- **Working Directory**: The default folder on your computer where R looks for files to read and where it saves your output.
+- **Package**: A collection of additional R functions, data, and code that extends the basic capabilities of R.
+- **Data frame**: A table-like structure in R where rows represent observations and columns represent variables.
+- **Subsetting**: The process of extracting a specific portion of a dataset, such as selecting specific columns or filtering rows.
+:::
+
+::: {.notes}
+**Presenter notes**:
+Let’s go through what these key terms mean:
+
+- The Working Directory is the folder R is currently focused on. It reads files from here and saves outputs here.
+- Packages are add-ons. They contain tools and functions created by the R community that expand what base R can do.
+- A Data frame is the standard way to store data in R. Think of it like a spreadsheet where each column is a variable and each row is an observation.
+- Subsetting allows us to isolate the exact data we need. Instead of working with an entire dataset, we extract only the relevant rows or columns.
+:::
+
+---
+
+# The Working Directory
 
 ---
 
@@ -437,7 +469,7 @@ library(haven)
 
 ---
 
-## Practical exercise 4
+## Practical exercise 2
 
 **Packages**
 
@@ -452,7 +484,7 @@ library(haven)
 
 ---
 
-## Practical exercise 4: Solutions
+## Practical exercise 2: Solutions
 
 ```{r}
 #| eval: false
@@ -469,11 +501,11 @@ library(haven)
 
 ---
 
-## Prep for working with data
+# Getting Started with Data
 
 ---
 
-## Time for a break!
+## Prep for working with data
 
 ---
 
@@ -485,11 +517,54 @@ library(haven)
 
 ---
 
+## Pre-break quiz
+
+---
+
+## Break! 15 minutes
+
+---
+
+## Post-break quiz discussion
+
+<br>
+
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+
+What do we see in the results?
+
+</div>
+
+
+::: {.notes}
+**Presenter Notes**: 
+Let us have a look at these results. 
+
+**Instructor Notes**:
+Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers. Serves to clarify concepts and aspects that are not yet understood. Highlight specific answers given during the survey.
+
+**Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting. 
+:::
+
+---
+
+# Data Exploration
+
+---
+
 ## Accessing and Subsetting Columns
 
 ---
 
-## Summary Functions
+## Basic Summary Functions
+
+---
+
+## Simple Plotting / Histograms
+
+---
+
+# Best Practices and Context
 
 ---
 
@@ -501,528 +576,121 @@ library(haven)
 
 ---
 
-
-## Learning goals
-
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
-
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-- Examples: 
-  - Students will **describe** the process of photosynthesis or
-  - Students will **construct** a diagram illustrating the process of photosynthesis
+# Wrapping Up
 
 ---
 
-### Covered in in this session
+## Looking into the future
 
-- **Aim**: This slides serves as an overview of the topics that are discussed, presented as bullet point:
-- Topic 1
-- Topic 2
-- Topic 3
+1. **Take a minute to think about the following questions, first for yourself, then in a pair:**
+ 
+  - Can you identify some **practical benefits** of using R/RStudio?
 
----
+  - What **obstacles** do you anticipate in using it consistently?
 
-## Key terms and definitions
+  - How can R/RStudio support you in your **upcoming projects**?
 
-- **Aim**: Introduce key terms and definitions that students will come across throughout the session.
-<br>
-
-- **Key Term 1**: Definition
-- **Key Term 2**: Definition
-- **Key Term 3**: Definition
+ 
+2. **Share your thoughts with the group.**
 
 ::: {.notes}
-Base yourself on conceptual change theory and examine exisiting concepts in relation to some key terms. Re-examine formation of new concepts at the end of the lesson. 
+**Presenter Notes**:  To wrap up, let’s take a moment to bring everything together and think about how this connects to your own work going forward.First, take about one minute to reflect individually on these questions. Then discuss them with a partner.Think about where R/RStudio could realistically support you, for example, in upcoming essays, group projects, or your thesis work. What benefits do you see in using it? What might make it difficult to use it consistently? And how could it fit into your current workflow?  
+After that, we’ll briefly share some of your thoughts with the group.
+
+**Instructor Notes**: Facilitate an open discussion focusing on application rather than theory. Encourage concrete examples from learners’ own academic context. Actively prompt for both benefits and barriers. Keep the discussion time-bound to avoid overextension at the end of the session.
+
+**Accessibility Tip**: Allow silent reflection time before discussion. Summarise key contributions aloud for clarity.
 :::
 
 ---
 
-## Introduction of submodule topic
+## Assignment: Consolidating what you learned
 
-- **Aim**: Core theoretical introduction of submodule topic.
-- Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
-- Use multiple slides for this part.
+*Still needs to be worked on.*
+
+---
+
+## Take-home messages
+
+*Still needs to be worked on.* 
+
+---
+
+## Learning goals: Check-In
+
+Where are we at?
+
+::: incremental
+- [] To **identify** and set the correct Working Directory on your computer.
+- [] To **install** and **load** R packages to extend R's functionality.
+- [] To **import** external data into the R environment.
+- [] To **inspect** data structures and **extract** specific columns.
+- [] To **compute** basic statistical summaries on a dataset.
+- [] To **visualize** data distributions using simple histograms.
+:::
 
 ::: {.notes}
-For a 90-minute lesson, the instructor should try to "lecture" for only 20 minutes, students should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).
+**Presenter Notes**:
+Let us pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one.
+If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.
+
+**Instructor Notes**: Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all goals at this stage.
+Keep the discussion supportive and brief,nfocusing on clarifying concepts rather than introducing new material.
 :::
----
-
-## Submodule content slide
-
-- **Aim**: Present relevant content
-- Highlight particularly important aspects with Quarto call-out boxes, for example: 
-
-::: {.callout-important}
-## Important with Title
-
-This is an example of a callout box to highlight particularly important information.
-:::
-
-::: {.callout-tip}
-## Tip with Title
-
-This is an example of a callout box to give important tips. 
-:::
-
----
-
-## Practical exercise 1
-
-- **Aim**: Design more practical exercises for students to apply the new skills in practise.
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
-
-- [x] Step 1
-- [ ] Step 2
-- [ ] Step 3
-
----
-
-## Pre-break survey
-
-- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
----
-
-**Which species is the largest type of penguin**?
-
-a. Chinstrap Penguin
-
-b. Emperor Penguin ✅
-
-c. Adélie Penguin
-
-d. King Penguin
-
----
-
-**What is the key biological feature that helps penguins swim efficiently?**
-
-a. Hollow bones for buoyancy
-
-b. Webbed feet for paddling
-
-c. Waterproof feathers and flipper-like wings ✅
-
-d. Gills to breathe underwater
-
----
-
-# Break! 15 minutes
-
----
-
-## Post-break survey discussion
-
-- **Aim**: To clarify concepts and aspects that are not yet understood
-- Highlight specific answers given during the survey
-
----
-
-## Practical Exercise 2
-
-- **Aim**: Design more practical exercises for students to apply the new skills in practise.
-- Depending on the topic, the exercises should be in accordance with the learning objective(s).
-- Add a description of the task, as well as a checklist as an overview of that your students need to be doing. 
-
-- [x] Step 1
-- [ ] Step 2
-- [ ] Step 3
-
-::: {.notes}
-For students who advance faster: Prepare extra exercises. 
-:::
-
----
-
-## Relevance and implications
-
-- **Aim**: To work out the relevance of the topic to your students.
-- In an interactive setting, discuss how the new skills could be applied in practise with specific examples.
-- Examine downfalls and practical obstacles.
-
----
-
-## Take-home message
-
-**Aim**: End lesson on clear take-home message that are interactively compiled by students.
-
-::: {.callout-tip}
-## Tip with Title
-
-Add one practical tips or take-home message.
-:::
-
----
-
-## Assignment
-
-- **Aim**: Explain the homework assignment and the rationale behind the homework.
-- Examine whether/how it will be assessed
-- Mention scoring rubrics, if applicable
-- Design a peer-review system for assignments to place students in role of reviewer and author
 
 ---
 
 ## To conclude: Survey time!
 
-- **Aim**: This post-submodule survey serves to examine students' current knowledge about the sumodule's topic.
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides):
+::: {.notes}
+**Presenter Notes**: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge after completing the submodule. Please answer honestly based on how confident you feel now. 
+
+**Instructor Notes**: The purpose is to compare pre- and post-submodule responses to evaluate learning progress. Encourage the learnrs to share in class. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in any areas.
+:::
 
 ---
 
-**What is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?**
-
-a. I have never heard of it before.
-
-b. I have heard of it but have never worked with it.
-
-c. I have basic understanding and experience with it.
-
-d. I am very familiar and have worked with it extensively.
-
----
-
-**Which of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)**
-
-a. Concept 1
-
-b. Concept 2
-
-c. Concept 3
-
-d. Concept 4
-
-e. I am not sure about any of these concepts.
-
----
-
-**On a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]?
-(1 = Not comfortable at all, 5 = Very comfortable)**
-
-a. 1
-
-b. 2
-
-c. 3
-
-d. 4
-
-e. 5
+*Still needs to be worked on.* 
 
 ---
 
 ## Discussion of survey results
 
-- **Aim**: Briefly examine the answers given to each question interactively with the group.
-- Compare and highlight specific differences in answers between pre- and post-survey answers
+<br>
 
----
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
 
-## References
-
-- Provide literature you refer to throughout this lesson.
-
----
-
-# Thanks! <br>
-See you next class :)
-
----
-
-## Pedagogical add-on tools for instructors
-
-- This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific submodule topic. This could mean:
-  - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
-  - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
-  - Extra exercises for faster students.	
-
----
-
-## Additional literature for instructors
-
-- References for content
-- References for pedagogical add-on tools	
-- Other resources (videos etc.)	
-
----
-
-# Formatting elements for instructors
-
-- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. 
-
----
-
-## Text with example links
-
-- [Quarto Documentation](https://quarto.org/docs/)
-- [Reveal.js Documentation](https://revealjs.com/)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [GitHub](https://github.com/)
-
----
-
-## Basic text formatting
-
-- **Bold:** `**bold**` → **bold**
-- *Italic:* `*italic*` → *italic*
-- ~~Strikethrough:~~ `~~text~~` → ~~text~~
-- `Inline code:` `` `code` `` → `code`
-- > Blockquote: `> Quote` →  
-  > "This is a quote"
-  
----
-
-## Figure with caption
-
-- Centered image and caption below in italics
-
-<div style="text-align: center;">
-  <img src="images/penguin.png" style="width:50%;" />
-  <div style="font-size: 0.6em; margin-top: 0.5em;"><em>This is a Penguin.</em></div>
-</div>
-
----
-
-## Figure with bullet points
-
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-
-  <!-- Left side: single image -->
-  <div style="flex: 1; text-align: center;">
-    <img src="images/penguin.png" style="width: 100%;" />
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
+What do we see in the results?
 
 </div>
 
----
-
-## Side-by-side figures
-
-```{=html}
-<div style="display: flex; justify-content: center; gap: 2em; align-items: flex-start;">
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/penguin.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 1: Penguin</em></div>
-  </div>
-
-  <div style="text-align: center; width: 45%;">
-    <img src="images/seal.png" style="width: 100%;" />
-    <div style="font-size: 0.9em; margin-top: 0.5em;"><em>Figure 2: Seal</em></div>
-  </div>
-
-</div>
-
-```
+::: {.notes}
+**Presenter Notes**: Let us have a look at these results.
+:::
 
 ---
 
-## Stacked figures with text
+# Thanks!
 
-```{=html}
-
-<div style="display: flex; align-items: flex-start; gap: 0.5em;">
-
-  <!-- Left side: two images stacked vertically -->
-  <div style="flex: 1; display: flex; flex-direction: column; gap: 0.5em;">
-
-    <img src="images/penguin.png" style="width: 60%;" />
-    <img src="images/seal.png" style="width: 60%;" />
-
-  </div>
-  
-```
-
-  <!-- Right side: bullet points -->
-  <div style="flex: 1;">
-
-  - First bullet point
-  - Second bullet point
-  - Third bullet point
-
-  </div>
-
-</div>
+See you next time!
 
 ---
 
-## Two-column text slide
+## Additional resources
 
-<div style="display: flex; gap: 2em;">
+- Datacamp offers a free, interactive course on R online: [link to the course](https://www.datacamp.com/courses/free-introduction-to-r).
 
-  <div style="flex: 1;">
-  **Column 1**
+::: {.notes}
+**Presenter Notes**:  
+If you’d like to continue practicing R after this session, there is an optional additional resource available.  
+Datacamp offers a free, interactive introduction to R, where you can practice directly in your browser. It’s a useful way to reinforce what we covered today and get more comfortable with writing code at your own pace.  
+You are not required to complete it, but it can be helpful if you want extra practice or a more structured introduction to R outside of class.
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-  Vivamus lacinia odio vitae vestibulum vestibulum.  
-  Cras venenatis euismod malesuada.
-  </div>
+**Instructor Notes**:  
+Present this as an optional extension, not part of the core learning requirements. Avoid suggesting it as mandatory. Emphasise self-paced learning and reinforcement of basic R skills.
 
-  <div style="flex: 1;">
-  **Column 2**
-
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-  </div>
-
-</div>
-
----
-
-## Three-column text slide
-
-<div style="display: flex; gap: 1em;">
-
-  <div style="flex: 1;">
-  **Column 1**
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-  Vivamus lacinia odio vitae vestibulum vestibulum.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 2**
-
-  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-  </div>
-
-  <div style="flex: 1;">
-  **Column 3**
-
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  </div>
-
-</div>
-
----
-
-## Simple table
-
-<div style="height: 2cm;"></div>
-
-
-| Column 1   | Column 2   | Column 3   |
-|------------|------------|------------|
-| Row 1 Cell | Row 1 Cell | Row 1 Cell |
-| Row 2 Cell | Row 2 Cell | Row 2 Cell |
-| Row 3 Cell | Row 3 Cell | Row 3 Cell |
-| Row 4 Cell | Row 4 Cell | Row 4 Cell |
-
----
-
-## Complex table
-
-<div style="height: 2cm;"></div>
-
-```{=html}
-
-<table style="border-collapse: collapse; width: 100%;">
-
-  <thead>
-    <tr style="background-color: #093; color: white; font-weight: bold;">
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 1</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 2</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">Column 3</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr style="background-color: white; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 1 Cell</td>
-    </tr>
-    <tr style="background-color: #f0fff0; color: black;"> <!-- very light green -->
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 2 Cell</td>
-    </tr>
-    <tr style="background-color: white; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 3 Cell</td>
-    </tr>
-    <tr style="background-color: #f0fff0; color: black;">
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Row 4 Cell</td>
-    </tr>
-  </tbody>
-
-</table>
-
-```
----
-
-## Task list
-- [x] Done
-- [ ] To do
-
----
-
-## Embedding videos
-
-<div style="text-align: center;">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/q3uXXh1sHcI"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
-
----
-
-## Code blocks
-
-```{r}
-# A basic R code chunk
-x <- 1:10
-mean(x)
-
-
-# A simple plot
-hist(rnorm(100), main = "Histogram of Random Normals")
-```
-
----
-
-## Attribution and license details
-
-- This slide should contain information about the license and attribution details of this current set of slides. 
-
-- The default for the created materials is [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/)
-  - = Creative Commons license that allows others to **share, adapt, and build upon** the original work
-  - **only** if they attribute the creator and also share their new work under the **same terms**
-  - allows for both **commercial and non-commercial** use of the licensed material
-
-- Components of attributions: 
-  - `Title`
-  - `Author`
-  - `Source`
-  - `License`
-
----
-
-## Example attribution (for previous slide)
-
-"[Tutorial template for student track](https://github.com/SvonGrebmer/Template-Slides-Students)" by Sarah von Grebmer is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/).
+**Accessibility Tips:**  
+Ensure the link is accessible through the course platform or slide deck. 
+:::
 
 ---
