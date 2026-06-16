@@ -505,23 +505,239 @@ library(haven)
 
 ---
 
-## Prep for working with data
+## Preparation for working with data
+
+- To start analyzing data, we first need to download it to our local machine.
+- Click [**here**](https://github.com/nickhaf/r_tutorial/tree/main/raw_data) to download the `characters.rds` file or scan the QR code below.
+
+::: {style="text-align: center;"}
+![](images/qr_data.png){style="width:30%;"}
+:::
+
+::: {.notes}
+**Presenter Notes**: Before we can load and inspect data, we need to have it on our computers. Please use the link or scan the QR code to download the `characters.rds` file.
+
+**Instructor Notes**: Ensure learners do not skip this step. The specific instructions for moving the file and setting the directory follow on the next slide.
+:::
 
 ---
 
-## Reading in Data
+## Practical exercise 3
+
+**Setting up the data**
+
+- [ ] Download the dataset `characters.rds` using the link or QR code from the previous slide.
+- [ ] Move the file from your "Downloads" folder into the R folder you created earlier (e.g., "R Lesson").
+- [ ] Ensure that this folder is currently set as your **Working Directory** in RStudio.
+
+::: {.notes}
+**Presenter Notes**: Once downloaded, make sure to move the file out of your general Downloads folder and into the specific folder we created for this session. Finally, verify that RStudio is pointing to that exact folder as your Working Directory.
+
+**Instructor Notes**: This step often causes friction as participants may struggle to locate their downloads or move files. Use the upcoming break to help anyone who is stuck here. Ensure they do not leave the file in their standard "Downloads" folder, as this will cause pathing issues later.
+:::
 
 ---
 
-## Inspecting Data Structures
+## Loading data into R
+
+<div style="font-size: 0.85em;">
+Once your Working Directory is set, you can bring data into RStudio. 
+</div>
+
+<div style="font-size: 0.8em;">
+- **`.rds` files:** R's native data format. We use the `readRDS()` function to load them.
+- **`.csv` files:** The most common text-based data format. Usually loaded with functions from the `readr` package.
+- **Other formats (SPSS, Excel, SAS):** Require specific packages (e.g., the `haven` package you installed earlier!). 
+</div>
+
+::: {.callout-tip}
+## Point-and-Click Import
+You don't always have to write the code from scratch! You can go to **File $\rightarrow$ Import Dataset** in the top menu to point-and-click your way through the import process. RStudio will even generate the correct code for you.
+:::
+
+::: {.notes}
+**Presenter Notes**: Now that R knows where to look, let's load some data. The function you use depends on the file type. Because we downloaded an `.rds` file, which is R's native format, we will use the `readRDS` function. For other common formats like CSVs, or files from SPSS and Excel, you will need different functions and sometimes extra packages like `haven`. If you ever forget how to load a specific file type, simply Google "how to open xlsx in RStudio". Alternatively, you can use the "Import Dataset" button in the menu, which is highly recommended because it gives you a preview of the data and writes the code for you.
+
+**Instructor Notes**: Briefly demonstrate the "Import Dataset" feature via screen share if time permits, showing how it populates the console with code. Emphasize that Googling for specific file type imports is standard practice.
+:::
+
+---
+
+## Practical exercise 4
+
+**Loading the data**
+
+<div style="font-size: 0.8em;">
+- [ ] In your R script, create a new section using a comment (e.g., `# Loading Data`).
+- [ ] Use the `readRDS()` function to read the `characters.rds` file. Remember to put the file name in quotation marks!
+- [ ] **Assign** the output of this function to a new object called `characters`.
+- [ ] Run the code and check your Environment pane.
+</div>
+
+::: {.notes}
+**Presenter Notes**: It is time to start our main data analysis script! We will build on this script for the rest of the session, so you can save it and use it as a cheat sheet for your own future projects. Start by writing the code to load the `characters.rds` file and assign it to an object named `characters`. 
+
+**Instructor Notes**: Give learners about 3-5 minutes. Remind them that if they get a "file not found" error, it almost certainly means their Working Directory is not set to the folder where the file actually lives, or they made a typo in the file name. 
+:::
+
+---
+
+## Practical exercise 4: Solutions
+
+```{r}
+#| eval: false
+
+# Loading Data
+characters <- readRDS("characters.rds")
+```
+
+---
+
+## Inspecting data structures
+
+<div style="font-size: 0.85em;">
+Before analyzing data, you must familiarize yourself with its structure. Built-in functions allow you to verify variables and data types.
+</div>
+
+<div style="font-size: 0.8em;">
+- **`names()`**: Returns the column names. *(Tip: Variable names are often abbreviated. It is highly advisable to use a **codebook** for precise definitions).*
+- **`str()`**: Displays the internal structure (number of rows/columns, data types, and the first few values of each variable).
+- **`head()`**: Returns the first six rows of the dataset for a quick preview.
+- **`summary()`**: Provides a brief statistical summary of each variable (adapts output based on data type).
+</div>
+
+::: {.notes}
+**Presenter Notes**: Once the data is loaded, we need to look at it. You should never start analyzing without knowing what variables you have. We use four main functions for this. `names` gives you the column headers. Keep in mind that column names are often short, so having a codebook explaining what each variable means is highly recommended. `str` shows the structure, including whether variables are numbers or text. `head` shows the first six rows. `summary` provides basic statistics, like means for numeric data or counts for categorical data.
+
+**Instructor Notes**: Emphasize the importance of a codebook. Novices often assume variable names are self-explanatory, which leads to analytical errors.
+:::
+
+---
+
+## Practical exercise 5
+
+**Inspecting the dataset**
+
+<div style="font-size: 0.8em;">
+- [ ] Add a new comment in your script (e.g., `# Inspecting Data`).
+- [ ] Run `names(characters)`.
+- [ ] Run `str(characters)`.
+- [ ] Run `head(characters)`.
+- [ ] Run `summary(characters)`.
+- [ ] **Question:** Based on the console outputs, can you guess what the data in this dataset is about?
+</div>
+
+::: {.notes}
+**Presenter Notes**: Let us apply these functions to the dataset we just loaded. Run each function on the `characters` object and look closely at the output in the console. Based on what you see—the variable names and the specific text values—can anyone guess what this dataset is actually about?
+
+**Instructor Notes**: Give learners 5 minutes to run the code and read the outputs. Ask the room to share their guesses regarding the dataset's content.
+:::
+
+---
+
+## Practical exercise 5: Solutions
+
+```{r}
+#| eval: false
+
+# Inspecting Data
+names(characters)
+str(characters)
+head(characters)
+summary(characters)
+```
 
 ---
 
 ## Pre-break quiz
 
+::: {.notes}
+**Presenter Notes**: Before we head into the break, let’s do a quick check-in to see how things are going so far. The questions are designed to help you reflect on your current understanding of the key concepts we just covered: working directories, packages, loading data, and inspecting data structures.
+
+**Instructor Notes**: Use this pre-break survey to gauge learners’ understanding of the submodule’s core concepts.
+
+- If more than 80% of learners select the correct answer, briefly confirm the correct response and continue.
+
+- If fewer than 80% answer correctly, give learners 1–2 minutes to discuss their reasoning with a partner before re-running the question. If results improve above 80%, continue; otherwise, explain the correct answer and address common misunderstandings.
+
+- If a large portion of learners select the same distractor answer, pause to discuss why that option may seem plausible and clarify the misconception.
+
+**Accessibility Tip**: This activity is designed for synchronous teaching settings and may be skipped or adapted if needed.
+:::
+
 ---
 
-## Break! 15 minutes
+**1. What is the primary purpose of the Working Directory in RStudio?**
+
+a. It is the only folder where you are allowed to install R.
+b. It is the default folder where R looks for files to read and saves outputs.
+c. It is a specific R package used for data manipulation.
+d. It is the console pane where R executes commands.
+
+::: {.notes}
+**Instructor notes**:
+The answer for this question is b
+:::
+
+---
+
+**2. Which function is used to load an already installed package into your current R session?**
+
+a. `install.packages()`
+b. `load.package()`
+c. `open()`
+d. `library()`
+
+::: {.notes}
+**Instructor notes**:
+The answer for this question is d
+:::
+
+---
+
+**3. Which command correctly loads an .rds file named `characters.rds` into an object named `my_data`?**
+
+a. `my_data <- readRDS("characters.rds")`
+b. `readRDS <- my_data("characters.rds")`
+c. `my_data == readRDS("characters.rds")`
+d. `my_data <- read_csv("characters.rds")`
+
+::: {.notes}
+**Instructor notes**:
+The answer for this question is a
+:::
+
+---
+
+**4. Which function provides the internal structure of a dataset, including the number of rows/columns and the data types of each variable?**
+
+a. `names()`
+b. `head()`
+c. `summary()`
+d. `str()`
+
+::: {.notes}
+**Instructor notes**:
+The answer for this question is d
+:::
+
+---
+
+**5. What does the `head()` function output when applied to a dataset?**
+
+a. The column names of the dataset.
+b. The first six rows of the dataset.
+c. A statistical summary of the numeric variables.
+d. The total number of variables in the dataset.
+
+::: {.notes}
+**Instructor notes**: 
+The answer for this question is b
+:::
+
+---
+
+# Break! 15 minutes
 
 ---
 
@@ -621,12 +837,12 @@ After that, we’ll briefly share some of your thoughts with the group.
 Where are we at?
 
 ::: incremental
-- [] To **identify** and set the correct Working Directory on your computer.
-- [] To **install** and **load** R packages to extend R's functionality.
-- [] To **import** external data into the R environment.
-- [] To **inspect** data structures and **extract** specific columns.
-- [] To **compute** basic statistical summaries on a dataset.
-- [] To **visualize** data distributions using simple histograms.
+- [ ] To **identify** and set the correct Working Directory on your computer.
+- [ ] To **install** and **load** R packages to extend R's functionality.
+- [ ] To **import** external data into the R environment.
+- [ ] To **inspect** data structures and **extract** specific columns.
+- [ ] To **compute** basic statistical summaries on a dataset.
+- [ ] To **visualize** data distributions using simple histograms.
 :::
 
 ::: {.notes}
