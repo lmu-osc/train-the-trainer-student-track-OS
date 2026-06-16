@@ -586,10 +586,15 @@ You don't always have to write the code from scratch! You can go to **File $\rig
 
 ```{r}
 #| eval: false
-
 # Loading Data
 characters <- readRDS("characters.rds")
 ```
+
+::: {.notes}
+**Presenter Notes**: Here is the solution. We use the assignment arrow to store the data in an object called characters. The readRDS function tells R to look for the file named "characters.rds" inside our Working Directory. If everything worked correctly, you should now see a new object appear in the top right Environment pane, showing that it has hundreds of rows and several variables.  
+
+**Instructor Notes**: Have the participants confirm they see the dataset in their Environment. Do not move forward until everyone has successfully loaded the data, as the rest of the workshop depends on it. 
+:::
 
 ---
 
@@ -639,13 +644,16 @@ Before analyzing data, you must familiarize yourself with its structure. Built-i
 
 ```{r}
 #| eval: false
-
 # Inspecting Data
 names(characters)
 str(characters)
 head(characters)
 summary(characters)
 ```
+
+::: {.notes}
+**Presenter Notes**: Running these four lines provides a complete overview of the dataset without having to open it like a spreadsheet.
+:::
 
 ---
 
@@ -768,15 +776,218 @@ Briefly examine the answers given to each question interactively with the group.
 
 ---
 
-## Accessing and Subsetting Columns
+## Accessing and subsetting columns
+
+<div style="font-size: 0.85em;">
+As discussed in **Part I**, we can use indexing tools (`$` and `[]`) to access specific parts of our data. In real-world analysis, we apply this to extract entirely new subsets.
+</div>
+
+<div style="font-size: 0.8em;">
+- **Accessing a column:** Just like in Part I, use the `$` operator to isolate a single variable (e.g., `characters$uni_name`).
+- **Filtering rows:** Use `dataframe[condition, ]` to select specific rows while keeping all columns.
+- **Logical operators:** Build conditions using `==` (checks for exact equality) and `|` (logical OR, meaning either condition can be true).
+- **Preserving data:** Always assign your subset to a **new object** (e.g., `relevant_data <- ...`). Overwriting the original object deletes your raw data from the environment.
+</div>
+
+::: {.notes}
+**Presenter Notes**: As you might remember from Part I, indexing allows us to point R to specific data. When working with data frames, subsetting is central because we usually want to focus on specific subgroups rather than the whole dataset. We can access a specific column using the dollar sign, just like last time. To filter rows based on characteristics, we use the square brackets. By placing our logical conditions before the comma, we tell R which rows to keep. We build these conditions using double equals for exact matches and the vertical pipe for "OR". Most importantly, we save this subset as a new object so our original dataset remains untouched.
+
+**Instructor Notes**: Clearly link this back to the indexing exercises from Part I to build confidence. Emphasize how `$` points to the variable inside the condition.
+:::
+
+---
+
+## Practical exercise 6
+
+**Subsetting by conditions**
+
+<div style="font-size: 0.8em;">
+- [ ] Create a new section in your script using a comment.
+- [ ] Apply your indexing knowledge from Part I to filter the rows of the `characters` data frame to include only observations where the `uni_name` is exactly `"Brooklyn Nine-Nine"` **OR** `"Community"`.
+- [ ] Assign this subset to a new object named `relevant_data`.
+- [ ] Run the code, then use the `table()` function on `relevant_data$uni_name` to check how many characters from each show are in your new subset.
+</div>
+
+::: {.callout-tip}
+## Syntax Hint
+Remember to specify the data frame for each condition (e.g., `data$column == "A" | data$column == "B"`).
+:::
+
+::: {.notes}
+**Presenter Notes**: Let's apply what we learned in Part I to create our subset. We want to isolate characters from Brooklyn Nine-Nine and Community. Use your indexing knowledge, the dollar sign, and the logical operators we just discussed. After you assign it to the new object `relevant_data`, use the `table()` function on the `uni_name` column of your new subset to verify that it worked.
+
+**Instructor Notes**: Give learners 5-7 minutes. Walk around and monitor for the three common pitfalls: missing the trailing comma inside the brackets, using a single equals sign, or failing to repeat `characters$uni_name` after the OR operator.
+:::
+
+---
+
+## Practical exercise 6: Solutions
+
+```{r}
+#| eval: false
+# Accessing and subsetting columns
+relevant_data <- characters[characters$uni_name == "Brooklyn Nine-Nine" |
+    characters$uni_name == "Community", ]
+
+# Verify the subset
+table(relevant_data$uni_name)
+```
+
+::: {.notes}
+Presenter Notes: Here is the correct syntax. We specify the row conditions before the comma. Notice that we have to tell R exactly where to look for both sides of the OR condition by writing characters$uni_name twice. Finally, running table() on the newly created object confirms that we only have characters from those two shows.
+:::
 
 ---
 
 ## Basic Summary Functions
 
+<div style="font-size: 0.85em;">
+After isolating the relevant data, we can compute descriptive statistics for specific variables.
+</div>
+
+<div style="font-size: 0.8em;">
+- **Numeric Variables:** We can apply functions like `mean()` or `sd()` to a single column using the `$` operator (e.g., `mean(data$column)`).
+- **Categorical Variables:** We can use the `table()` function to count the frequency of specific text or factor values.
+- **Combined Operations:** We can subset rows and select a specific column simultaneously within a function using `dataframe[condition, "column_name"]`.
+</div>
+
+::: {.notes}
+**Presenter Notes**: Now that the subset is established, we can compute basic statistics. We combine summary functions with the dollar sign operator. For numeric data, we apply `mean()` and `sd()`. For categorical data, we use `table()` to count occurrences. Indexing can be nested directly inside functions to calculate statistics for specific subgroups without generating new objects.
+
+**Instructor Notes**: Ensure learners recognize that executing `mean(data)` directly on a data frame fails. They must isolate a numeric vector using `$`.
+:::
+
 ---
 
-## Simple Plotting / Histograms
+## Practical exercise 7
+
+**Comparing group means**
+
+<div style="font-size: 0.8em;">
+- [ ] Add a new section in your script using a comment.
+- [ ] Calculate the overall `mean()` and standard deviation (`sd()`) of the `notability` column in the `relevant_data` object.
+- [ ] Calculate the mean notability exclusively for `"Brooklyn Nine-Nine"` characters.
+- [ ] Calculate the mean notability exclusively for `"Community"` characters.
+- [ ] **Question:** Which show features characters with a higher average notability?
+</div>
+
+::: {.callout-tip}
+## Syntax Hint
+To compute the mean for a subgroup, place the row condition before the comma, and the target column name after the comma: `mean(data[condition, "column_name"])`.
+:::
+
+::: {.notes}
+**Presenter Notes**: Let's execute the commands to determine the overall dispersion and central tendency for the notability variable. We will follow this by extracting the mean notability for each show independently. We can utilize bracket subsetting logic directly inside the mean function.
+
+**Instructor Notes**: Give learners 5 minutes. Monitor for syntax errors when nesting bracket indexing inside the parentheses of the `mean()` function.
+:::
+
+---
+
+## Practical exercise 7: Solutions
+
+```{r}
+#| eval: false
+# Basic summary functions
+mean(relevant_data$notability)
+sd(relevant_data$notability)
+
+# Mean notability for Brooklyn Nine-Nine
+mean(relevant_data[relevant_data$uni_name == "Brooklyn Nine-Nine", "notability"])
+
+# Mean notability for Community
+mean(relevant_data[relevant_data$uni_name == "Community", "notability"])
+```
+
+::: {.notes}
+**Presenter Notes**: The dollar sign operator extracts the full vector for overall statistics. To calculate group-specific means, we nest the row condition inside the mean() function and specify "notability" in the column position after the comma.
+:::
+
+---
+
+## Simple plotting: Histograms
+
+<div style="font-size: 0.85em;">
+Beyond calculating numbers, we can visualize our data to gain insights quickly. A great starting point for numeric data is a histogram.
+</div>
+
+<div style="font-size: 0.8em;">
+- **Visualizing distributions:** A histogram groups numeric data into "bins" and shows the frequency (or count) of values falling into each bin.
+- **The `hist()` function:** We apply this function directly to a numeric vector to generate a plot in the bottom-right **Plots** pane of RStudio.
+- **Customizing plots:** You can add arguments like `main` for the title and `xlab` for the x-axis label to make your plots easier to read.
+- **Why it matters:** While means and standard deviations tell us the average, a histogram shows us the actual shape of the data (e.g., are most values clustered in the middle, or skewed to one side?).
+</div>
+
+::: {.notes}
+**Presenter Notes**: Numbers are great, but visualizing data often makes it much easier to understand. A histogram is one of the most common plots for numeric variables. It shows us how often different values occur in our dataset. We create it using the `hist()` function. When we run this code, the plot will automatically appear in the Plots pane in the bottom right corner of RStudio. We can also customize these plots, for example by changing the title or the axis labels, so they look clean and don't overlap. Histograms are incredibly useful because they show us the entire distribution and actual shape of the data, not just a single summary number like the mean.
+
+**Instructor Notes**: Ensure learners know to look at the bottom-right pane for their output. If their Plots pane is too small, RStudio might throw a "figure margins too large" error. Tell them to simply drag the pane borders to make it larger if that happens.
+:::
+
+---
+
+## Practical exercise 8
+
+**Visualizing distributions**
+
+<div style="font-size: 0.8em;">
+- [ ] Add a new section in your script using a comment.
+- [ ] Copy and run the hint below to allow two plots to be shown side-by-side.
+- [ ] Create a histogram (`hist()`) showing the `notability` of `"Brooklyn Nine-Nine"` characters.
+- [ ] Create a second histogram showing the `notability` of `"Community"` characters.
+- [ ] **Question:** By looking at the plots, how do the distributions of the two shows compare?
+</div>
+
+::: {.callout-tip}
+## Side-by-Side Plots Hint
+Run `par(mfrow = c(1, 2))` *before* creating your histograms. This tells R to split the plotting window into 1 row and 2 columns so we can easily compare both graphs next to each other!
+:::
+
+::: {.notes}
+**Presenter Notes**: Let's visualize the data we just summarized. We will create two separate histograms—one for each show. Before you plot the data, make sure to run the `par` code provided in the hint to show them side-by-side. Then, nest your subsetting code inside the `hist()` function.
+
+**Instructor Notes**: Give learners 5-7 minutes. Reassure them that they can reuse the exact subsetting syntax (`relevant_data[condition, "column_name"]`) they already wrote for the `mean()` exercise.
+:::
+
+---
+
+## Practical exercise 8: Solutions
+
+```{r}
+#| eval: false
+# Simple Plotting / Histograms
+
+# Set up the plotting area to show 2 plots side-by-side
+par(mfrow = c(1, 2))
+
+# Histogram for Brooklyn Nine-Nine
+hist(relevant_data[relevant_data$uni_name == "Brooklyn Nine-Nine", "notability"],
+    main = "Brooklyn Nine-Nine",
+    xlab = "Notability"
+)
+
+# Histogram for Community
+hist(relevant_data[relevant_data$uni_name == "Community", "notability"],
+    main = "Community",
+    xlab = "Notability"
+)
+```
+
+::: {.notes}
+**Presenter Notes**: Here is the solution. By reusing our subsetting logic, we can directly plot the notability for each specific show. Notice that we snuck in two extra arguments here: `main` and `xlab`. If you ran your code without them, you probably saw a very long, messy default title generated by R. By adding these arguments, we get clean, readable plots without overlapping text. Looking at the plots, you can visually confirm what the means calculated earlier suggested: the distributions are different, and we can now actually see where the majority of characters fall on the notability scale for each universe.
+:::
+
+---
+
+## Practical exercise 8: Output
+
+::: {style="text-align: center;"}
+![](images/notability_histograms.png){style="width:90%;"}
+:::
+
+::: {.notes}
+**Presenter Notes**: This is what your output should look like in the Plots pane. Here you can clearly see the side-by-side comparison of both distributions.
+:::
 
 ---
 
@@ -784,11 +995,121 @@ Briefly examine the answers given to each question interactively with the group.
 
 ---
 
-## Common Mistakes and Troubleshooting
+## Common mistakes and troubleshooting
+
+<div style="font-size: 0.85em;">
+Errors are a normal part of programming. When R throws an error, check for these common culprits first:
+</div>
+
+<div style="font-size: 0.8em;">
+- **Wrong capitalization:** R is strictly case-sensitive. `Characters` is not the same as `characters`.
+- **Forgetting quotation marks:** Text values and file names must be wrapped in quotes (e.g., `"Community"`, not `Community`).
+- **Other typos:** A missing comma, an unclosed parenthesis, or spelling `notablity` instead of `notability` will cause failures.
+- **Assignment issues:** Ensure the assignment arrow (`<-`) points to the object name on the left, and check if you accidentally overwrote your data.
+</div>
+
+::: {.notes}
+**Presenter Notes**: Programming involves making mistakes constantly. When R gives you a red error message, do not panic. Most of the time, it is a simple typo. R is strictly case-sensitive, meaning a capital C is completely different from a lowercase c. Another frequent issue is forgetting quotation marks around text. If you type Community without quotes, R thinks you are looking for an object named Community, not the text string. Always double-check your spelling, missing commas, and ensure your assignment arrows are pointing the right way.
+
+**Instructor Notes**: Normalize errors. Remind learners that the console output usually gives a hint about what went wrong (e.g., "object not found" usually means a typo or missing quotes).
+:::
 
 ---
 
-## The Bigger Picture
+## Practical Exercise 9: Spot the errors
+
+<div style="font-size: 0.85em;">
+What is wrong with the following lines of code?
+</div>
+
+```{r}
+#| eval: false
+
+# 1. Loading data
+my_data <- readRDS(characters.rds)
+
+# 2. Calculating a mean
+Mean(my_data$notability)
+
+# 3. Subsetting
+brooklyn_data <- my_data[my_data$uni_name == Brooklyn Nine-Nine ]
+```
+
+::: {.notes}
+Presenter Notes: Let's look at this code. There are three lines, and each contains typical beginner mistakes. Take a moment to read through them and see if you can spot what would cause R to throw an error.
+[Pause for responses]
+Line 1 is missing quotation marks around the file name. Line 2 uses a capital M for the mean function, but R functions are lowercase. Line 3 is missing quotation marks around the show name AND is missing the crucial comma inside the brackets.
+
+Instructor Notes: Use this only if time permits. It is a highly effective way to test syntax recognition without requiring participants to write new code.
+:::
+
+---
+
+## The Big Picture: R in Data Science
+
+<div style="font-size: 0.85em;">
+Today, you learned the foundational skills of data handling. In the broader context of research and data analysis, R is a comprehensive ecosystem.
+</div>
+
+<div style="font-size: 0.8em;">
+- **Import:** Reading data from various sources (e.g., `.rds`, `.csv`, Excel). *(We did this!)*
+- **Wrangle & Transform:** Subsetting, cleaning, and reshaping data to fit your needs. *(We did this!)*
+- **Visualize:** Creating plots to understand distributions and patterns. *(We did this!)*
+- **Model:** Running complex statistical analyses and machine learning algorithms.
+- **Communicate:** Generating automated reports, interactive dashboards, or even **these exact presentation slides** using Quarto/RMarkdown!
+</div>
+
+::: {.notes}
+**Presenter Notes**: Let's take a step back and look at the big picture. What we did today—loading data, subsetting it, and creating histograms—are the exact first steps of any professional data analysis pipeline. R is not just a calculator; it is an entire ecosystem. You start by importing data, then you wrangle and transform it. After that, you visualize it to understand what you are working with. Finally, you model the data statistically and communicate the results. In fact, this entire presentation was created using R!
+
+**Instructor Notes**: Use this slide to bridge the gap between the simple exercises done today and the real-world utility of R. Highlight that the skills learned today are the actual foundation of professional workflows.
+:::
+
+---
+
+## The Power of R: What comes next?
+
+<div style="font-size: 0.85em;">
+Mastering the basics opens the door to highly advanced, publication-ready tools.
+</div>
+
+::: {style="text-align: center; margin-top: 1em; margin-bottom: 1em; font-weight: bold;"}
+Import $\rightarrow$ Tidy / Transform $\rightarrow$ Visualize / Model $\rightarrow$ Communicate
+:::
+
+<div style="font-size: 0.8em;">
+- **Advanced Visualizations:** Packages like `ggplot2` allow you to create stunning, highly customized graphics.
+- **Interactivity:** Packages like `shiny` let you build interactive web applications for your data.
+- **Reproducibility:** By scripting your analysis, anyone (including future you) can re-run your exact steps with zero guesswork.
+</div>
+
+::: {.notes}
+**Presenter Notes**: As you continue learning, you will discover that R is incredibly powerful. You can move from simple base R histograms to stunning, publication-ready graphics using packages like ggplot2. You can even build interactive websites. Most importantly, by writing scripts instead of clicking through menus, your research becomes 100% reproducible. 
+:::
+
+---
+
+## Final Words
+
+<div style="font-size: 0.85em;">
+Learning R is exactly like learning a new spoken language. It takes time, practice, and patience.
+</div>
+
+<div style="font-size: 0.8em;">
+- **Syntax errors are normal:** Even advanced programmers make typos and get error messages every single day.
+- **AI is a standard tool:** Using AI to write code, navigate complex documentation, or troubleshoot errors is standard practice. However, the foundational understanding you built today is essential to verify and adapt the output.
+- **Keep practicing:** Save the script you wrote today and use it as a cheat sheet for your next projects. 
+</div>
+
+<div style="text-align: center; font-weight: bold; margin-top: 1em; font-size: 1.2em;">
+Great job today!
+</div>
+
+::: {.notes}
+**Presenter Notes**: To wrap up, remember that learning R is like learning a new language. It feels unfamiliar at first, and syntax errors are completely normal. Even professionals use AI constantly to write scripts, bypass lengthy documentation, and troubleshoot errors. However, the foundational understanding you gained today is what allows you to actually evaluate and verify the solutions it provides. Do not get discouraged by red text in the console. Save the script you built today, use it as a reference, and keep practicing. Great job today!
+
+**Instructor Notes**: End on a high note. Emphasize that the frustration of learning a new syntax is universal and temporary.
+:::
 
 ---
 
