@@ -1,0 +1,35 @@
+---
+title: "Test Slides"
+author: "Test"
+format:
+  html: default
+  pptx:
+    reference-doc: ../../assets/template.pptx
+---
+
+# Introduction
+
+::: {.content-visible when-format="pptx"}
+
+## Normal Slide
+
+This slide uses the normal "Title and Content" layout because it has no special class.
+
+## Smaller Slide {.smaller}
+
+This slide automatically gets mapped to the "Title and Content smaller" layout!
+
+## Smallest Slide {.smallest}
+
+This slide automatically gets mapped to the "Title and Content smallest" layout!
+
+:::
+
+::: {.content-hidden when-format="pptx"}
+
+## HTML only slide
+
+This content will appear in HTML but not in the PowerPoint presentation.
+This is useful for providing extra content or a different layout.
+
+:::

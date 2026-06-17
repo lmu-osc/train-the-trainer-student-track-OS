@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+    - python _extensions/David-Rieger/quarto-pptx-layouts/apply-layouts.py
+
+filters:
+  - quarto-pptx-layouts
 
 website:
   title: "Educational resources for teaching Open Research to novices"
