@@ -208,12 +208,16 @@ c. Yes, using code/commands.
 
 ---
 
-**How familiar are you with "subsetting" (extracting specific rows or columns from a dataset)?**
+**How familiar are you with creating data visualizations (e.g., histograms or scatter plots)?**
 
 a. I have never done this before.
-b. I have done it manually (e.g., copying or deleting columns in Excel).
-c. I have done it using point-and-click menus in statistical software.
-d. I have done it using code (e.g., in R or Python).
+b. I have done it using point-and-click tools (e.g., Excel or SPSS).
+c. I have done it using code (e.g., in R or Python).
+
+::: {.notes}
+**Presenter Notes**: Ask the learners about their experience with creating data visualizations, such as histograms or scatter plots. In Part II, we will cover how to create simple histograms.
+:::
+
 
 ---
 
@@ -272,6 +276,10 @@ What do we see in the results?
 - **Package**
 - **Data frame**
 - **Subsetting**
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From David: Do these key terms fit?</span>
+</div>
 
 ::: {.notes}
 **Presenter Notes**: These are key terms we will revisit throughout the lesson. What comes to mind when you see each of them? Which ones are familiar, and which feel new? Take a moment to think about what they might mean.
@@ -394,14 +402,10 @@ Alternatively, type `getwd()` in the console and press Enter to print the exact 
 
 **Setting the Working Directory**
 
-1. Locate the folder where you saved your R-script during Part I. 
-2. Ensure this folder contains only your script and relevant workshop files.
-3. Set this folder as your Working Directory using either Method 1 or Method 2.
-4. Verify that the correct path is displayed at the top of your Console.
-
-- [ ] Folder located.
-- [ ] Working Directory set.
-- [ ] Path verified in Console.
+- [ ] Locate the folder where you saved your R-script during Part I. 
+- [ ] Ensure this folder contains only your script and relevant workshop files.
+- [ ] Set this folder as your Working Directory using either Method 1 or Method 2.
+- [ ] Verify that the correct path is displayed at the top of your Console.
 
 ::: {.notes}
 **Presenter Notes**: Take a minute to set your working directory to the folder containing your script from the last session. We will need this set correctly when we start importing data later today.
@@ -1143,13 +1147,56 @@ After that, we’ll briefly share some of your thoughts with the group.
 
 ## Assignment: Consolidating what you learned
 
-*Still needs to be worked on.*
+<div style="font-size: 0.85em;">
+**Create an R script that applies the data handling skills covered today**
+</div>
+
+<div style="font-size: 0.8em;">
+- Set your Working Directory and load the `characters.rds` dataset.
+- Create a new subset of the data using a logical condition of your choice (e.g., a different show).
+- Calculate a summary statistic (e.g., `mean()` or `table()`) on a variable within your subset.
+- Create a histogram (`hist()`) to visualize a numeric variable and customize its title.
+- Include clear comments (`#`) explaining each step.
+</div>
+
+
+::: {.callout-tip}
+## Self-Assessment
+Use this assignment to assess your learning of, and progress with, R/RStudio; reflect on any challenges you faced and how you overcame them.
+:::
+
+::: {.notes}
+**Presenter Notes**:
+To finish, you have a short home assignment that brings together everything we covered in Part II.
+You will create a script where you first set your working directory and load the characters dataset. Then, you will practice subsetting by filtering the data based on a condition of your choosing—perhaps explore characters from a different show. Next, compute a basic summary statistic like a mean or a frequency table on your new subset. Finally, visualize a numeric variable using a histogram and give it a custom title.
+Make sure to comment your code so you know exactly what each line does when you look at it later.
+
+**Instructor Notes**:
+Clarify that this is a practice exercise rather than a graded assessment. Encourage learners to explore variables in the dataset they haven't looked at yet. Reassure them that running into errors during subsetting is normal and part of the learning process.
+:::
 
 ---
 
 ## Take-home messages
 
-*Still needs to be worked on.* 
+- Working Directories and Packages → **essential prerequisites** for accessing files and expanding R's capabilities.
+- Subsetting data → allows you to **filter and isolate** the exact observations you need for your analysis.
+- Summary functions and visualizations → provide a **quick and comprehensive understanding** of your data structures and distributions.
+
+<div style="font-size: 0.6em;">
+<span style="color:red">From David: I used R part 1 and its subchapters as a guide. But do we really need the take-home message here? It feels redundant after "## The Big Picture: R in Data Science", "The Power of R: What comes next?" etc. and since "## Learning goals: Check-In" is the next slide.</span>
+</div>
+
+::: {.notes}
+**Presenter Notes**:
+To conclude this part, there are three key ideas to remember.
+First, correctly setting your Working Directory and loading necessary packages are the non-negotiable first steps of any R session. Without them, you cannot access your data or advanced tools.
+Second, subsetting is central to data analysis. You rarely work with a full raw dataset at once; instead, you filter specific rows based on logical conditions to answer targeted questions.
+And third, basic statistics and visualizations go hand in hand. Using summary functions alongside plots like histograms gives you a complete picture of your data's shape and distribution.
+
+**Instructor Notes**:
+Keep this slide concise and use it as a clear closure of the R part 2 section.
+:::
 
 ---
 
@@ -1187,7 +1234,37 @@ Keep the discussion supportive and brief,nfocusing on clarifying concepts rather
 
 ---
 
-*Still needs to be worked on.* 
+**1. How confident do you feel setting a Working Directory and loading external data into R?**
+
+a. Not confident at all  
+b. Slightly confident  
+c. Moderately confident  
+d. Very confident  
+e. Extremely confident  
+
+---
+
+**2. How comfortable do you feel using logical conditions (`==`, `|`) to subset data frames?**
+
+a. Not comfortable at all  
+b. Slightly comfortable  
+c. Moderately comfortable  
+d. Very comfortable  
+e. Extremely comfortable  
+
+---
+
+**3. Compared to the beginning of the workshop, how intimidated do you feel about working with R?**
+
+a. Much more intimidated  
+b. Slightly more intimidated  
+c. About the same  
+d. Slightly less intimidated  
+e. Much less intimidated  
+
+---
+
+**4. What part of today's lesson still feels confusing, and which exercise helped your understanding the most?**
 
 ---
 
