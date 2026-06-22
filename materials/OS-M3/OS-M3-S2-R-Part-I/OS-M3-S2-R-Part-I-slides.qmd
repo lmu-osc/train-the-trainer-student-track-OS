@@ -180,10 +180,9 @@ What do we see in the results?
 ## Learning goals
 
 ::: incremental
-- To **identify** key components of the RStudio interface (e.g., Console, Environment, Script, and Plots panes).
-- To **explain** the difference between basic data types in R (numeric, character, logical, integer).
+- To **navigate** the RStudio interface (e.g., Console, Environment, Script, and Plots panes).
+- To **differentiate** between basic data types in R (numeric, character, logical, integer) and how they are used.
 - To **execute** basic mathematical and logical operations in the R using appropriate operators.
-- To **differentiate** between valid and invalid R operations and interpret resulting error messages.
 - To **assess** the correctness of logical expressions by predicting and verifying whether given R statements return TRUE or FALSE.
 - To **construct** a simple R script that includes object assignment, at least one mathematical operation, and comments.
 :::
@@ -242,11 +241,11 @@ Let’s go through what these key terms mean:
 R ([https://www.r-project.org/](https://www.r-project.org/)) is an **free and open source** programming language
 
 - Originally designed by statisticians for statisticians
-- Now wide range of applications: **data manipulation, visualization, interactive web applications**, **generation of full manuscripts and reports** ...
+- Wide range of applications: **data manipulation, visualization, interactive web applications**, **generation of full manuscripts and reports**
 
 Why R?
 
-- Knowledge of statistical software like R  is crucial when **conducting quantitative research**
+- Knowledge of statistical software like R  is useful when **conducting quantitative research**
 - Has a **large online support** community
 - Provides freely available **resources**
 :::
@@ -334,14 +333,16 @@ If you have RStudio open, you can try typing a simple calculation into the Conso
 
 ## Practical exercise 1
 
-Use the table on the previous slide to run the following math operations directly in the Console of RStudio (bottom left pane).
+- [ ] Open RStudio on your device
+
+Using the table on the previous slide, run the following math operations directly in the **Console** of RStudio (bottom left pane).
 
   - [ ] `12+17`
   - [ ] `218/3`
   - [ ] `357^2`
 
 ::: {.callout-tip}
-## Let's use the Console
+## Let's use the Console!
 
 You can run code from the Console by typing in the Console and then pressing Enter on your keyboard.
 :::
@@ -377,9 +378,10 @@ An R script is a **text file** containing your **R commands**.
     - Pressing **Ctrl + Enter** (Windows) OR **Command + Enter** on a (Mac) on the keyboard  
     - click on **Run**
 
--   Add comments or notes to your code by using `#`, for example:
+-   Add **comments** or **notes** to your code by using `#`
 
 ```{r}
+# Here is an example of using a comment 
 # sum up two numbers 
 4+5
 ```
@@ -566,53 +568,55 @@ The correct answers are: TRUE, TRUE, and FALSE.
 
 ## Data types
 
-**What are data types in R?**
+Data types define what **kind** of values you are working with
 
-- Data types define what **kind** of values you are working with
-- They determine **how R stores** and **processes** data
+::: {style="text-align: center;"}
+<img src="images/data_types_3.png" style="width:100%;"/>
+:::
+
+<span style="color:red; font-size:0.5em;">Here I think examples would be useful? Also the presenter notes feel a little thin, perhaps add?. Beth: i rearranged the slides so now there are examples and better explanations on the next slide :) </span>
+
+::: {.notes}
+**Presenter Notes**:  
+Data types are essentially categories of data. They tell R what kind of value something is and it affects what processes and operations you carry out.
+We have already seen one type: logical values, which are simply TRUE or FALSE.  
+Numbers in R can be of different kinds. Most commonly, you’ll work with numeric values, including decimals. There are also integers, which are whole numbers without decimals.  
+Then we have text data, which are called characters. These always need to be written in quotation marks " ".  
+Another important type is factors. These are used for categorical data with predefined levels. The difference between factor and character is a character is just text, but a factor is text that represents a category or group. For example, categories like hair color, such as brown, blonde, or black.
+
+**Instructor Notes**:  
+Keep the explanation conceptual. The goal is recognition, not mastery. Avoid going into technical distinctions unless students ask. You may briefly point to examples in the image to anchor understanding.
+:::
+
+---
+
+## Data types
+
+- These determine **how R stores** and **processes** data
 - Data types can show different behavior across different operations
-
-Example:
 
 ``` {r}
 #| eval: false
-5        # number
 
-"hello"  # word
+Examples:
+  
+5        # number (integer)
+3.14     # number (numeric)
+
+"hello"  # character
+factor("brown")  # factor
 
 TRUE     # logical
 ```
 
 ::: {.notes}
 **Presenter notes**:
-Data types are essentially categories of data. They tell R what kind of value something is, for example, 5 is a number. This matters because R treats each type differently when performing operations.
+It is important to note that R treats each data type differently, therefore, this affects your operations. In the following examples, we see that 5 without quotation marks is a number. This means you can use it for mathematical operations and R will give you the appropriate result. 
 
-As an example for how different data types can behave differently: Imagine you have the value 5 stored as a number and another value "5" stored as text.
+So if you run 5 + 2, for example, it will give you 7 as a result.
+If R sees "5" in quotation marks, it reads it as text and treats it as a sequence of characters, not a quantity. Therefore if you try to run "5" + 2 it produces an error because adding numbers to text does not make sense mathematically. 
 
-If R sees 5 as a number, it knows you can do mathematics with it. So if you run 5 + 2, it will give you 7 as a result.
-If R sees "5" as text, it treats it as a sequence of characters, not a quantity. Therefore if you try to run "5" + 2 it produces an error because adding numbers to text does not make sense mathematically. So, storing data as the correct data type is important, because it determines what operations you can perform on what. We will come back to this later, this is an important point.
-:::
-
----
-
-## Important data types
-
-::: {style="text-align: center;"}
-<img src="images/data_types_3.png" style="width:100%;"/>
-:::
-
-<span style="color:red; font-size:0.5em;">Here I think examples would be useful? Also the presenter notes feel a little thin, perhaps add?.</span>
-
-::: {.notes}
-**Presenter Notes**:  
-In R, data can come in different types, and it is important to know which type you’re working with, because it affects what you can do with it, as we saw before.
-We have already seen one type: logical values, which are simply TRUE or FALSE.  
-Numbers in R can be of different kinds. Most commonly, you’ll work with numeric values — these can include decimals. There are also integers, which are whole numbers without decimals.  
-Then we have text data, which are called characters. These always need to be written in quotation marks " ".  
-Another important type is factors. These are used for categorical data with predefined levels — for example, categories like hair color, such as brown, blonde, or black.
-
-**Instructor Notes**:  
-Keep the explanation conceptual. The goal is recognition, not mastery. Avoid going into technical distinctions unless students ask. You may briefly point to examples in the image to anchor understanding.
+So, storing data as the correct data type is important, because it determines what operations you can perform on what. Let's look at this example closer on the next slide.
 :::
 
 ---
@@ -631,21 +635,22 @@ Keep the explanation conceptual. The goal is recognition, not mastery. Avoid goi
 
 ```{r}
 #| error: true
-4 + "five"
+4 + "5"
 ```
 
 ::: {.notes}
 **Presenter Notes**:  
-Now that we’ve seen different data types, let’s look at how they behave when we try to use them in operations.  
+Let’s look at how these different data types behave when we try to use them in operations.  
 If we take two numeric values, like 4 and 5, we can easily add them together, and R will return the result as expected.  
-However, if we try to mix data types — for example, adding a number and a piece of text — R won’t know how to handle that.  
-In the second example, we’re trying to add the number 4 and the word ‘five’. Since ‘five’ is a character and not a number, R returns an error.  
+However, if we try to mix data types — for example, adding number and character values — R won’t know how to handle that.  
+In the second example, we’re trying to add the number 4 and "5" wrapped in quotation marks. Since R now reads `5` as a character and not a number, R returns an error.  
 This shows why it’s important to be aware of the data types you’re working with — because not all operations are possible with all types.
-
-Another example would be if you use the greater than sign , >. You could run a line of code saying 5 > 2, which would give you TRUE as a result. But, you can also use greater than with character data or text, e.g., "pineapple" > "banana". What do you think it would give us? It would give us TRUE, but not because a pineapple could be larger in size than a banana, but because R performs a lexicographic rather than a numeric comparison: It checks whether alphabetically pineapple comes after banana in the alphabet, which is TRUE.
 
 **Instructor Notes**:  
 Use this slide to reinforce the practical importance of data types. Optionally demonstrate the error live to show how R responds. Emphasize that error messages are normal and informative, not something to be avoided.
+
+ADDITIONAL EXAMPLE:
+Another example would be if you use the greater than sign , >. You could run a line of code saying 5 > 2, which would give you TRUE as a result. But, you can also use greater than with character data or text, e.g., "pineapple" > "banana". What do you think it would give us? It would give us TRUE, but not because a pineapple could be larger in size than a banana, but because R performs a lexicographic rather than a numeric comparison: It checks whether alphabetically pineapple comes after banana in the alphabet, which is TRUE.
 :::
 
 ---
@@ -662,11 +667,11 @@ Everything in R is an **object**, and oftentimes, we want to work with an object
 
 ```{r}
 my_number <- 4
+
+# The example above saves the value `4` under the name "`my_number`"
 ```
 
-- The example above saves the value `4` under the name "`my_number`"
-
-<span style="color:red; font-size:0.5em;">Can you add the explanation of the example as a comment? Slide feels quite full?</span>
+<span style="color:red; font-size:0.5em;">Can you add the explanation of the example as a comment? Slide feels quite full? Beth: done </span>
 
 ::: callout-important
 ## Variable first, number second
@@ -744,7 +749,7 @@ Be creative and think of a new variable and value. Remember the placement matter
 my_number + 5
 ```
 
-<span style="color:red; font-size:0.5em;">The name of the object here does not match the previous slide - should we make it consistent you think?.</span>
+<span style="color:red; font-size:0.5em;">The name of the object here does not match the previous slide - should we make it consistent you think?. Beth: I was using different numbers/labels for the examples in the explanation slides vs. practical exercise slides... is it too confusing? </span>
 
 
 ::: {.notes}
@@ -800,30 +805,40 @@ sum(1, 2, 3, 4)
 
 ## The `c()` function
 
-- To apply a function to multiple numbers at once, we **group them together**.
-- We use the `c()` function, which stands for combine.
+- **Group items with the `c()` function** to manipulate multiple items at once.
 
 ```{r}
-#| eval: false
-# Combine four numbers into one object
+#| eval: true
+# Example 1: Combine four numbers into one object
 my_group <- c(10, 20, 30, 40)
 
 # Now we can apply a function to the entire group
 sum(my_group)
+
+# Example 2: Combine four character values into one object
+hair_color <- c("brown", "blonde", "black", "ginger", "brown")
+
+# Now we can organize all the items in this object
+table(hair_color)
+
 ```
 
-<span style="color:red; font-size:0.5em;">I think this could be added as an example function in the table on the next slide, also I think there is too much focus here on combining numbers, when we can actually use this function on multiple data types (behaving differently perhaps, but still)</span>
+<span style="color:red; font-size:0.5em;">I think this could be added as an example function in the table on the next slide, also I think there is too much focus here on combining numbers, when we can actually use this function on multiple data types (behaving differently perhaps, but still) Beth: i won't add it to the table bcus the table is specifically about mathematical functions, but I added an additional example here for combining text types </span>
 
 
 ::: {.notes}
-**Presenter Notes**: Before we look at more functions, we need to know one special, very short function: the letter 'c'. It stands for combine. When we want to calculate the average of several numbers, we first group them together into a single object using c(), and then we can pass that entire object into our math functions.
+**Presenter Notes**: Before we look at more functions, we need to know one very useful function: the letter 'c'. It stands for combine. Grouping items together allows us to work with groups of information at a time.
+
+Let's look at the first example. First we will group a series of numbers and assign it to the object "my_group". Now, whenever we call on "my_group", we are calling on this group of numbers instead of just one number. So, if we want to calculate the sum of all the numbers, instead of writing out each number, we just run the `sum` operation on the "my_group" object.
+
+In the second example, we first use the c() function to group several text values together into a vector. Because these are character values, mathematical operations such as sum(hair_color) do not make sense and will return an error. However, we can use functions such as table() to count how often each item appears in the object hair_color.
 :::
 
 ---
 
 ## Common built-in functions
 
-R comes with many built-in mathematical functions:
+R comes with many built-in **numeric** functions:
 
 | Function | What it does | |
 | :--- | :--- | --- |
@@ -833,19 +848,76 @@ R comes with many built-in mathematical functions:
 | `exp()` | Calculates the exponential function ($e^x$) | |
 | `round()` | Rounds a number | |
 
-<span style="color:red; font-size:0.5em;">The focus here is primarily on numeric data types right Can we specify this and perhaps mention in the notes or so that functions are not only for numeric data types?</span>
+<span style="color:red; font-size:0.5em;">The focus here is primarily on numeric data types right Can we specify this and perhaps mention in the notes or so that functions are not only for numeric data types? Beth: i think including an additional table for other functions here would be a good move to show how r have functions for other data types... </span>
 
 
 ::: {.notes}
-**Presenter Notes**: Here are some of the most common mathematical and statistical functions you will use in R. They do exactly what their names suggest. `sd()` calculates the standard deviation, and `exp()` calculates the exponential.
+**Presenter Notes**: Here are some of the most common mathematical and statistical functions you will use in R when working with numerical values. They do exactly what their names suggest. For example, `sd()` calculates the standard deviation, and `exp()` calculates the exponential.
+:::
+
+---
+
+## Practical exercise 6
+
+- [ ] Combine the numbers `4.4`, `14`, `5.26`, and `26` and assign it to an object named "`numbers`"
+- [ ] Try out the functions `sum()`, `mean()`, and `sd()` using the object "`numbers`" as the argument and inspect the output
+
+::: {.notes}
+**Presenter Notes**: Let's test out the `c()` function to group some values into an object and then run some numerical operations. First we will group a series of numbers and assign it to the object "numbers". Then we can call on this object and run some numerical functions. 
+
+**Instructor Notes**: Give learners about 5-7 minutes. Walk around to ensure they are properly using the `c()` function to create the vector. A common beginner mistake is typing `mean(4.4, 14, 5.26, 26)` directly, which will not work as expected because `mean()` only calculates the mean of the first argument if they aren't combined into a vector first.
+:::
+
+---
+
+## Common built-in functions
+
+R also comes with many built-in **character** functions:
+
+| Function | What it does |
+| :--- | :--- |
+| `sort()` | Sort values in alphabetical order |
+| `unique()` | Shows the unique values in the set |
+| `table()` | Counts the values in a table |
+| `toupper()` | Transforms all the letters to uppercase |
+| `tolower()` | Transforms all the letters to lowercase |
+
+::: {.notes}
+**Presenter Notes**: As we saw in the example, we can group and work with multiple character values as well. Here are some of the built-in functions that allow us to work with these.
 :::
 
 ---
 
 ## Function arguments
 
-- Most functions take multiple arguments (**inputs**).
-- Example: The `round()` function approximates a number (**x**) to a specified amount of decimal places (**digits**).
+Most functions take multiple arguments (**inputs**).
+
+- Arguments are the pieces of information a function needs to carry out an operation.
+- Different functions expect different types and numbers of arguments, and the output of a function often depends on the arguments that are supplied.
+- It might look something like this: <br>
+`function_name(argument1 = x, argument2 = y)`
+
+::: callout-note
+## Do all functions need multiple arguments?
+
+No, not all functions need multiple arguments, but for some, it is required.
+:::
+
+<div style="font-size: 0.6em;">
+<span style="color:red">Perhaps make this slide more conceptual about function arguments and then introduce the round function as a repetition on the next slide? This slide also feels quite full? Beth: agreed... done! </span>
+</div>
+
+::: {.notes}
+**Presenter Notes**: Some functions need more than one piece of information. Up to this point, learners have seen functions being used, but may not have thought about what goes inside the parentheses. Emphasize that the values inside the parentheses are called arguments and that they provide the information the function needs to work. Different functions need different information, so the arguments will vary depending on the task.
+:::
+
+---
+
+## Function arguments
+
+Example: The `round()` function 
+
+- This function uses two arguments: It approximates a number (**x**) to a specified amount of decimal places (**digits**).
 - You can provide arguments by position or by name.
 
 ```{r}
@@ -863,67 +935,31 @@ round(x = 3.14159, digits = 2)
 If you name the arguments (using the names "x" and "digits"), the order doesn't matter (example: `round(digits = 2, x = 3.14159)` works identically).
 :::
 
-<div style="font-size: 0.6em;">
-<span style="color:red">Perhaps make this slide more conceptual about function arguments and then introduce the round function as a repetition on the next slide? This slide also feels quite full? </span>
-</div>
-
 ::: {.notes}
-**Presenter Notes**: Some functions need more than one piece of information. For instance, to round a number, R needs to know what number to round, and how many decimals to keep. You can just type the numbers in the right order, but explicitly naming the arguments, like writing `digits = 2`, is highly recommended because it makes your script much easier to understand when you read it a month later.
+**Presenter Notes**: For instance, to round a number, R needs to know two things: what number to round and how many decimals to keep. You can just type the numbers in the right order, but explicitly naming the arguments, like writing `digits = 2`, is highly recommended because it makes your script much easier to understand when you read it a month later.
 :::
 
 ---
 
-## Practical exercise 6
+## Practical exercise 7
 
-- [ ] Combine the numbers `4.4`, `14`, `5.26`, and `26` and assign it to an object named "`numbers`"
-- [ ] Try out the functions `sum()`, `mean()`, and `sd()` using the object "`numbers`" as the argument and inspect the output
 - [ ] Re-assign the "`my_number`" object using `2.4637`
-- [ ] Try out the functions `exp()` and `round()` using "`my_number`" as the argument
+- [ ] Try out the function `round()` using "`my_number`" and approximating to 3 decimal places.
 
-<span style="color:red; font-size:0.5em;">include the slide with c() perhaps before this one? Thoughts? And could we perhaps "warn" instructors in the notes about potential issues people might run into across all practical exercises?</span>
+<span style="color:red; font-size:0.5em;">include the slide with c() perhaps before this one? Thoughts? And could we perhaps "warn" instructors in the notes about potential issues people might run into across all practical exercises? Beth: i made into separate exercises and added some instructor notes </span>
 
 
 :::: callout-tip
 # Ignoring the **digits** argument
 
-Try running the `round()` function without specifying the `digits =` argument. What happens? Why might that be?
+If you are curious, try running the `round()` function without specifying the `digits =` argument. What happens? Why might that be?
 ::::
 
 ::: {.notes}
-**Presenter Notes**: Let's put this into practice. Create your vector using the `c()` function we just learned, save it as an object, and then run some basic statistics on it. For the second part, pay special attention to the `round()` function and the hint on the slide!
+**Presenter Notes**: Next, let's practice specifying arguments using the `round()` function. We can reuse the "my_number" object name, simply re-assign it with a new number. Then, follow the order from the previous slide on how to specify the arguments. 
 
-**Instructor Notes**: Give learners about 5-7 minutes. Walk around to ensure they are properly using the `c()` function to create the vector. A common beginner mistake is typing `mean(4.4, 14, 5.26, 26)` directly, which will not work as expected because `mean()` only calculates the mean of the first argument if they aren't combined into a vector first.
-:::
+**Instructor Notes**: It may be confusing to remember the order and to know what goes where.
 
----
-
-## Practical exercise 6: Solutions
-
-```{r}
-#| eval: false
-# 1. Create a vector and assign it to "numbers"
-numbers <- c(4.4, 14, 5.26, 26)
-
-# 2. Try out sum(), mean(), and sd()
-sum(numbers)
-mean(numbers)
-sd(numbers)
-
-# 3. Assign the number to "my_number"
-my_number <- 2.4637
-
-# 4. Try out exp() and round()
-exp(my_number)
-round(my_number)
-round(my_number, digits = 2)
-```
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: For now, I made a solution slide for the exercise and put it here. Later we can move it to the end of the presentation (like in the R-Part-I presentation) if you'd like. SvG: Yes, moving to the end sounds good! </span>
-</div>
-
-::: {.notes}
-**Presenter Notes**: Here is the complete solution. Notice how we assigned the vector to `numbers` first and placed the object name inside the parentheses. For the second part, running `round(my_number)` without specifying the `digits` argument rounded the output to 2. This occurs because functions have built-in default values. If the `digits` argument is omitted, R assumes zero decimals. Determining default values is done using the Help function.
 :::
 
 ---
@@ -1692,6 +1728,32 @@ See you next time!
 **Presenter Notes**: Here are the final results. Understanding how these operators combine conditions is a core skill for filtering data later on.
 
 **Instructor notes**: Here is the solution to Practical exercise 2
+:::
+
+---
+
+## Practical exercise 6 & 7: Solutions
+
+```{r}
+#| eval: false
+# Create a vector and assign it to "numbers"
+numbers <- c(4.4, 14, 5.26, 26)
+
+# Try out sum(), mean(), and sd()
+sum(numbers)
+mean(numbers)
+sd(numbers)
+
+# Assign the number to "my_number"
+my_number <- 2.4637
+
+# Try out exp() and round()
+round(my_number)
+round(x = my_number, digits = 3)
+```
+
+::: {.notes}
+**Presenter Notes**: Here is the complete solution. Notice how we assigned the vector to `numbers` first and placed the object name inside the parentheses. For the second part, running `round(my_number)` without specifying the `digits` argument rounded the output to 2. This occurs because functions have built-in default values. If the `digits` argument is omitted, R assumes zero decimals. Determining default values is done using the Help function.
 :::
 
 ---
