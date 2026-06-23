@@ -663,19 +663,21 @@ Another example would be if you use the greater than sign , >. You could run a l
 
 Everything in R is an **object**, and oftentimes, we want to work with an object repeatedly.
 
--   Call on objects by **assigning a name** to it using the assignment arrow **`<-`**
+- **Assign a value** to an object using the assignment arrow **`<-`**
 
 ```{r}
-my_number <- 4
+x <- 1
+y <- 2
 
-# The example above saves the value `4` under the name "`my_number`"
+# The example assigns the value 1 to the object "x" 
+# and the value 2 to the object "y"
 ```
 
-<span style="color:red; font-size:0.5em;">Can you add the explanation of the example as a comment? Slide feels quite full? Beth: done </span>
+<span style="color:red; font-size:0.5em;">Can you add the explanation of the example as a comment? Slide feels quite full? Beth: done, changed the content a bit </span>
 
 ::: callout-important
-## Variable first, number second
-Take note of the order: we put the variable or name first, then the assignment arrow `<-`, and lastly the number or value. It would not work if you put `4 <- my_number`
+## The assignment arrow points to the object
+Take note of the order: we put the variable or object name first, then the assignment arrow `<-`, and lastly the number or value. The arrow should be pointing the object- it would not work if you put `1 <- x`
 :::
 
 ::: {.notes}
@@ -683,7 +685,7 @@ Take note of the order: we put the variable or name first, then the assignment a
 In R, almost everything we work with is treated as an object. That could be a number, a dataset, a result of a calculation, or even the outcome of a logical comparison.  
 Often, we don’t just want to calculate something once — we want to store it and use it again later. For that, we create objects and give them names.  
 We do this using the assignment arrow, written as `<-`.  
-For example, if we write `my_number <- 4`, we are telling R: store the value 4 inside an object called my_number.  
+For example, if we write `x <- 1`, we are telling R: store the value 1 inside an object called "x" and the value 2 inside "y".  
 Once we run this line, the object is saved in the Environment pane in RStudio, where we can see and reuse it anytime.
 Also, take note of the placement: the variable name goes in-front of the assignment arrow and the value or number goes behind. This is important for R to assign the value to the variable successfully. 
 
@@ -696,9 +698,7 @@ Also, take note of the placement: the variable name goes in-front of the assignm
 
 The object then appears in the **Environment** pane *(top right pane)*.
 
-::: {style="text-align: center;"}
-<img src="images/R_screen4.png" alt="Environment Pane Screenshot" style="width:50%;"/>
-:::
+![](images/R_screen4.png){fig-alt="Environment Pane Screenshot with x and y as objects"}
 
 ::: {.notes}
 **Presenter Notes**:  
@@ -720,15 +720,9 @@ Verbally describe what is visible in the screenshot for students who cannot see 
 
 Try following the example and create your own object!
 
-  - [ ] Type any name or label in your R script.
-  - [ ] Use `<-` to assign any numerical value to this name or label.
-  - [ ] Run the line and check out your new object in the Environment pane.
-
-Example: 
-
-```{r}
-number_of_students <- 50
-```
+  - [ ] Assign the value 4 to `x`.
+  - [ ] Assign the value 5 to `y`.
+  - [ ] Run the line and check out your new objects in the Environment pane.
 
 ::: {.notes}
 **Presenter Notes**:
@@ -745,35 +739,46 @@ Be creative and think of a new variable and value. Remember the placement matter
 - Call on them and use specific objects in new operations
 
 ```{r}
-# Let's add 5 to the object
-my_number + 5
+# Let's call on the objects and add them together
+x + y
 ```
 
-<span style="color:red; font-size:0.5em;">The name of the object here does not match the previous slide - should we make it consistent you think?. Beth: I was using different numbers/labels for the examples in the explanation slides vs. practical exercise slides... is it too confusing? </span>
+<span style="color:red; font-size:0.5em;">The name of the object here does not match the previous slide - should we make it consistent you think?. Beth: I was using different numbers/labels for the examples in the explanation slides vs. practical exercise slides... i'll simplify and change it a bit </span>
 
 
 ::: {.notes}
 **Presenter notes**:
 Once you assign a value to an object, you don’t have to keep remembering or retyping that value every time. You can just call the object name and use it in your calculations, which makes your code cleaner and much easier to work with.
-
-**Instructor notes**:
-Keep in mind that if you assign a new value to the same object name, it simply overwrites the old one. So if my_number was 4 and is later assign my_number <- 6, the value is now 6. R always uses the most recent assignment.
 :::
 
 ---
 
 ## Practical exercise 5
 
-Let's use the object you assigned in a new operation
+Let's use the objects in a new operation
 
-  - [ ] Call on your object and perform a operation.
+  - [ ] Re-assign the `x` object with the value `6`.
+  - [ ] Copy the following to your R Script:
+  
+```{r}
+#| eval: false
+x + y
+```
+
   - [ ] Run the line and see what happens.
   
-Example: 
+::: callout-tip
+# Object reassignment
+When you reuse an object name and assign it a new value, R overwrites the previous value. 
+:::
 
-```{r}
-number_of_students * 2
-```
+::: {.notes}
+**Presenter Notes**: Let's put this to practice by using our objects in an operation. But first, we will reassign object `x`. We will see that if you assign a new value to the same object name, it simply overwrites the old one. So if x was 4 and is no re-assigned as `x <- 6`, the value is now 6. R always uses the most recent assignment. When we complete this practical exercise what do we observe about object `x`?
+
+**Instructor Notes**: It is an important point to make that you can re-assign objects with new values. Suggestion: Propose the question "*Why would we want to overwrite objects with new values?*". 
+
+Possible answer: This is a useful feature to avoid cluttering of objects- knowing that you can simply swap out the value of an object instead of creating a new object altogether. 
+:::
 
 ---
 
@@ -943,7 +948,7 @@ If you name the arguments (using the names "x" and "digits"), the order doesn't 
 
 ## Practical exercise 7
 
-- [ ] Re-assign the "`my_number`" object using `2.4637`
+- [ ] Assign a "`my_number`" object using `2.4637`
 - [ ] Try out the function `round()` using "`my_number`" and approximating to 3 decimal places.
 
 <span style="color:red; font-size:0.5em;">include the slide with c() perhaps before this one? Thoughts? And could we perhaps "warn" instructors in the notes about potential issues people might run into across all practical exercises? Beth: i made into separate exercises and added some instructor notes </span>
@@ -1133,7 +1138,7 @@ There are two main ways to look up a function.
 - Navigate to the **Help** tab in the bottom right pane of RStudio and type the function name into the search bar.
 
 ::: {style="text-align: center;"}
-![](images/help_search_bar.png){style="width:55%;"}
+![](images/help_search_bar.png){style="width:65%;"}
 :::
 
 ::: {.notes}
@@ -1162,55 +1167,45 @@ Help pages can look intimidating, but you only need to focus on a few key sectio
 
 Example: 
 
-- For the `round()` function we can see that it takes a numeric vector as input and the `digits =` argument is set to `0` by default.
+- For the `sort()` function we can see that it can also use character vectors or values as input and orders them.
 
 ::: {style="text-align: center;"}
-![](images/help_round_docs.png){style="width:70%;"}
+![](images/help_sort_docs.png){style="width:70%;"}
 :::
 
 ::: {.notes}
-**Presenter Notes**: For the `round()` function, the documentation explicitly states it takes a numeric vector as input. In the Usage section, `digits = 0` indicates the default value R applies if no value is specified.
+**Presenter Notes**: In this example, we use the documentation for `sort()` to see that the function can work not only with numbers, but also with character values. By looking at the *Usage* and *Arguments* sections, we can identify that the first argument, `x`, is the object(s) we want to sort. We can also see that the argument `decreasing = FALSE` means that, by default, the values are sorted in ascending order (A to Z for text). This illustrates how the documentation can help us understand both what a function does and how we can customize its behavior.
 :::
 
 ---
 
-## Practical exercise 7
+## Practical exercise 8
 
-- [ ] Type `?round` in the console and press Enter.
-- [ ] Inspect the documentation that opens in the bottom right pane.
-- [ ] Look at the **Usage** and **Arguments** sections to see which inputs the function accepts.
-- [ ] Based on the documentation, how can we round `my_number` (from the previous exercise) to exactly two decimal places? Write and run the code.
+- [ ] Type `?sort` in the **Console** and press Enter.
+- [ ] Look at the **Usage** and **Arguments** sections in the documentation that opens in the bottom right pane to see which inputs the function accepts.
+- [ ] Put the following as the input for the function:
 
-
-<div style="font-size: 0.6em;">
-<span style="color:red">Add perhaps where to write and run the code to sharpen the task instructions? Make object name consistent with previous exercises. I also wonder if we should make the exercise about a different function since round has already been discussed? Like one of the others from the table at the beginning?</span>
-</div>
-
-::: {.notes}
-**Presenter Notes**: Let's try it out. Pull up the help page for the round function and take a look at the Usage and Arguments sections. Then, use that information to write the code that rounds your `my_number` object to two decimal places.
-
-**Instructor Notes**: Give learners about 3-5 minutes. This is a very quick exercise to get them used to reading the documentation panel. Walk around and ensure they have successfully opened the help page.
-:::
-
----
-
-## Practical exercise 7: Solutions
-
-```{r}
-#| eval: false
-# 1, 2 & 3. Open the help documentation and inspect it
-?round
-
-# 4. Rounding to two decimal places
-round(my_number, digits = 2)
+```{text}
+c("Tim", "Tom", "Anna", "Pizza", "Burger", "Pasta")
 ```
 
+- [ ] Read the **Arguments** to put the words in *descending* order
+
+
+
 <div style="font-size: 0.6em;">
-<span style="color:red">Move to the end as well? </span>
+<span style="color:red">Add perhaps where to write and run the code to sharpen the task instructions? Make object name consistent with previous exercises. I also wonder if we should make the exercise about a different function since round has already been discussed? Like one of the others from the table at the beginning? Beth: I think it could be useful to give the learner more opportunity to use character values as well </span>
 </div>
 
 ::: {.notes}
-**Presenter Notes**: By looking at the Usage section in the help tab, we can see that `round` takes an argument called `digits`. To round to two decimal places, we simply specify `digits = 2` inside our function call.
+**Presenter Notes**: Let's try this exercise to become more comfortable navigating R's documentation. Don't worry if some of the terminology seems unfamiliar. Focus on identifying the important information: what the function does, what inputs it accepts, and how to change its behavior.
+
+**Instructor Notes**: This exercise can be tricky since the Help documentation has a lot of information that can be confusing to learners. It's important to let them know that not every piece of information is relevant and just to focus on the pieces they need to complete the exercise.
+
+Some issues you might encounter: 
+- Missing parentheses () around the arguments. 
+- Must use the `descending = TRUE/FALSE` argument- `ascending = FALSE` would not work.
+- They may feel the need to include the other arguments they see in the document but this is unnecessary. 
 :::
 
 ---
@@ -1259,13 +1254,14 @@ What do you notice about the values in the example vector? All values in a vecto
 
 ---
 
-## Practical exercise 8
+## Practical exercise 9
 
  - [ ] Create a vector containing the numbers `19`, `20`, and `21` and assign it to an object called "`age`".
 
  - [ ] Create a vector containing the names `Tim`, `Tom`, and `Anna` and assign it to an object called "`name`".
 
  - [ ] Create a vector containing the foods `Pizza`, `Burger`, and `Pasta` and assign it to an object called "`food`".
+
  
 ::: callout-tip
 # Word data type
@@ -1273,17 +1269,20 @@ What do you notice about the values in the example vector? All values in a vecto
 Reminder: word data types need to be wrapped in quotation marks.
 :::
 
----
+::: {.notes}
 
-Practical exercise 8 Solutions
+**Presenter Notes**:
 
+**Instructor Notes**:
+Here is the solution
 ```{r}
-age <- c(19, 20, 21)
-
-name <- c("Tim", "Tom", "Anna")
-
+age <- c(19,20,21)
+name <- c("Tim","Tom","Anna")
 food <- c("Pizza", "Burger", "Pasta")
 ```
+:::
+
+<span style="color:red; font-size:0.5em;">Beth: I needed to add the solution in the notes otherwise the slides would not render- got an error code that it could not find the objects since the following slides call on them i.e. they needed to appear in the code chronologically before they are called on.</span>
 
 ---
 
@@ -1329,7 +1328,7 @@ Think of a dataframe like an excel spreadsheet.
 
 ---
 
-## Practical exercise 9
+## Practical exercise 10
 
 Create a dataframe with the `data.frame()` function
 
@@ -1347,18 +1346,8 @@ people_data <- data.frame(name, age, food)
 
  
 ::: {.notes}
-**Presenter Notes**: Here we're are using the three separate vectors we created in the previous exercise and combine them them into a dataframe with the data.frame() function. Notice how each vector becomes a column in the final table.
+**Presenter Notes**: Here we're are using the three separate vectors we created in the previous exercise and combine them them into a dataframe with the `data.frame()` function. Notice how each vector becomes a column in the final table.
 :::
-
----
-
-Practical exercise 9 solution - add at the end.
- 
-```{r}
-people_data <- data.frame(name, age, food)
-
-people_data
-```
 
 ---
 
@@ -1516,7 +1505,7 @@ What does this do?
 
 ---
 
-## Practical exercise 10
+## Practical exercise 11
 
 Using the `people_data` data frame, retrieve the following:
 
@@ -1526,19 +1515,6 @@ Using the `people_data` data frame, retrieve the following:
 
 
 <span style="color:red; font-size:0.5em;">Add speaker and instructor notes including common troubleshooting tips for instructors</span>
-
----
-
-Practical exercise 10 Solutions
-
-```{r}
-people_data$name[1]
-
-people_data$age[2]
-
-people_data$food[3]
-```
-
 
 ---
 
@@ -1752,9 +1728,47 @@ round(my_number)
 round(x = my_number, digits = 3)
 ```
 
-::: {.notes}
-**Presenter Notes**: Here is the complete solution. Notice how we assigned the vector to `numbers` first and placed the object name inside the parentheses. For the second part, running `round(my_number)` without specifying the `digits` argument rounded the output to 2. This occurs because functions have built-in default values. If the `digits` argument is omitted, R assumes zero decimals. Determining default values is done using the Help function.
-:::
+---
+
+## Practical exercise 8: Solutions
+
+```{r}
+sort(c("Tim", "Tom", "Anna", "Pizza", "Burger", "Pasta"), decreasing = TRUE)
+```
+
+---
+
+## Practical exercise 9 Solutions
+
+```{r}
+age <- c(19, 20, 21)
+
+name <- c("Tim", "Tom", "Anna")
+
+food <- c("Pizza", "Burger", "Pasta")
+```
+
+---
+
+## Practical exercise 10 solution
+ 
+```{r}
+people_data <- data.frame(name, age, food)
+
+people_data
+```
+
+---
+
+## Practical exercise 11 Solutions
+
+```{r}
+people_data$name[1]
+
+people_data$age[2]
+
+people_data$food[3]
+```
 
 ---
 
@@ -1777,46 +1791,14 @@ Ensure the link is accessible through the course platform or slide deck.
 
 ---
 
-## Feedback David (1/2)
-
-- Issue: Oversized Text (Font-Size): Quarto ignores all HTML classes during PowerPoint export.
-- Solution:
-  - For Quarto: Continue using HTML classes like {.smaller} in slide titles (## Title {.smaller}).
-  - For PowerPoint: Use a custom PowerPoint template to define global font sizes for all exported text (I already created a basic one and set the font-size to 18; it is located in the assets folder and referenced in the YAML header of this presentation).
-- Outlook: This approach seems to be the only viable option right now. Despite the limitation to a global font size in PowerPoint, the template allows for extensive customization. Design elements like the green title bar or the OSC-specific footer can be hardcoded into the template, while Quarto slides maintain their dynamic HTML classes.
-- SvG: if you are interested in working on this, Pat Callahan (also in the all staff Matrix group) has been working on this for us - check in with him perhaps? 
-- David: Perfect, thank you!
-
----
-
-## Feedback David (2/2)
-
-- [X] I adjusted image sizes on slides 15 and 26 for improved layout - thanks!
-- [X]Slide 43 ("Practical exercise 2: Solutions"): There is a placeholder speaker note ("ADD HERE") that has to be updated. - thanks! Feel free to add the presenter notes (unsure if we need instructor notes here?)
-- [X] Slide 14 ("What is R"): Red strikethrough text ("Would you want to add a hyperlink here?") is still there and needs to be removed. SvG: yes, more of those - no worries, we often keep those around until we implemented all of them, but thanks for having this on your radar!
-- [X] Should we all be included in the contribution statement? SvG: of course, I made a start - check the formatting for me or Luz and add your details :)
-
----
-
-## Feedback Beth 
-
-- Changed the R_screen1 image - great!
-- Moved the "R Script" section to occur 2nd in the order of slide subtopics - thanks!
-- Added Sara Lil's file management as an asset and listed it in the prerequisites (temp.) thanks!
-- Added slide 19 for "Saving an R Script" to practice file management on learner's device - good!
-- relocated David's "Functions" sections from R part 2 to R part 1
-- Added Sections: Vectors, Lists, and Data Frames + Indexing - excellent, thanks!
-
----
-
 ## Feedback Beth
 
 Still to do - see also my comments :)
 
-- [ ] Fix presenter + instructor notes
-- [ ] Check existing R files in the Assets folder
-- [ ] double check flow of lesson & time taken to complete it
+- [ ] Update learning goals + key terms and definitions
+- [ ] Check presenter + instructor notes
 - [ ] Rework survey + quiz questions to include new content
-- [ ] Update learning goals + key terms and definitions (if necessary) - yes, see comments
+- [ ] Check feedback from slide 60 onward
+
 
 ---
