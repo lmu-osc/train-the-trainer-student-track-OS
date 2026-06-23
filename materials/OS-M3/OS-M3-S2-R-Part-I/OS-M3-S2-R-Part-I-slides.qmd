@@ -203,6 +203,8 @@ What do we see in the results?
 - **Run**
 - **Comment**
 
+<span style="color:red; font-size:0.5em;"> Mindful of learners perspective: Consider having a visual queue for learners that this slide is an exercise e.g. "What do you associate with the four terms below?". Currently the information is only found in the instructor notes. ingo</span>
+
 ::: {.notes}
 **Presenter Notes**: These are key terms we will revisit throughout the lesson. What comes to mind when you see each of them? Which ones are familiar, and which feel new? Take a moment to think about what they might mean.
 
@@ -743,7 +745,7 @@ Be creative and think of a new variable and value. Remember the placement matter
 x + y
 ```
 
-<span style="color:red; font-size:0.5em;">The name of the object here does not match the previous slide - should we make it consistent you think?. Beth: I was using different numbers/labels for the examples in the explanation slides vs. practical exercise slides... i'll simplify and change it a bit </span>
+<span style="color:red; font-size:0.5em;">The name of the object here does not match the previous slide - should we make it consistent you think?. Beth: I was using different numbers/labels for the examples in the explanation slides vs. practical exercise slides... i'll simplify and change it a bit.     SARA COMMENT: To help with continuity, I would consider having the code snippet from slide 29 extended to show this adding of objects e.g. line 7 is # Let's call on the objects and add them together line 8 is x + y.</span>
 
 
 ::: {.notes}
@@ -828,7 +830,7 @@ table(hair_color)
 
 ```
 
-<span style="color:red; font-size:0.5em;">I think this could be added as an example function in the table on the next slide, also I think there is too much focus here on combining numbers, when we can actually use this function on multiple data types (behaving differently perhaps, but still) Beth: i won't add it to the table bcus the table is specifically about mathematical functions, but I added an additional example here for combining text types </span>
+<span style="color:red; font-size:0.5em;">I think this could be added as an example function in the table on the next slide, also I think there is too much focus here on combining numbers, when we can actually use this function on multiple data types (behaving differently perhaps, but still) Beth: i won't add it to the table bcus the table is specifically about mathematical functions, but I added an additional example here for combining text types. </span>
 
 
 ::: {.notes}
@@ -909,7 +911,7 @@ No, not all functions need multiple arguments, but for some, it is required.
 :::
 
 <div style="font-size: 0.6em;">
-<span style="color:red">Perhaps make this slide more conceptual about function arguments and then introduce the round function as a repetition on the next slide? This slide also feels quite full? Beth: agreed... done! </span>
+<span style="color:red">Perhaps make this slide more conceptual about function arguments and then introduce the round function as a repetition on the next slide? This slide also feels quite full? Beth: agreed... done! SARA COMMENT: Current presenter notes read more like instructor notes - check and reformat.  </span>
 </div>
 
 ::: {.notes}
