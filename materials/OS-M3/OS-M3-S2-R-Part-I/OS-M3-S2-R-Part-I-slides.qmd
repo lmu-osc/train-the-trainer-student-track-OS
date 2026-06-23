@@ -1791,6 +1791,20 @@ Ensure the link is accessible through the course platform or slide deck.
 
 ---
 
+<<<<<<< HEAD
+=======
+## Feedback Beth 
+
+- Changed the R_screen1 image - great!
+- Moved the "R Script" section to occur 2nd in the order of slide subtopics - thanks!
+- Added Sara Lil's file management as an asset and listed it in the prerequisites (temp.) thanks!
+- Added slide 19 for "Saving an R Script" to practice file management on learner's device - good!
+- relocated David's "Functions" sections from R part 2 to R part 1
+- Added Sections: Vectors, Lists, and Data Frames + Indexing - excellent, thanks!
+
+---
+
+>>>>>>> 9a24a3433d42c7c4affe158d823cd0867ed8e525
 ## Feedback Beth
 
 Still to do - see also my comments :)
@@ -1802,3 +1816,8 @@ Still to do - see also my comments :)
 
 
 ---
+
+## Feedback David
+
+- It might be better to place solutions directly after each of the 10 practical exercises. Saving them for the end forces learners to re-engage with old tasks, potentially creates time pressure at the end of the lesson, and delays the immediate feedback they might want before moving to the next topic.
+- We could consider not using the c() function as an introductory example for a general function, but rather keep it within the later sections on Vectors, Lists, and Data Frames. It fits there perfectly and avoids redundancy then.
