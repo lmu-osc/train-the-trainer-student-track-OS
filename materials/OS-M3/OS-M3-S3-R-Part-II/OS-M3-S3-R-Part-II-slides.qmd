@@ -36,7 +36,7 @@ His work was subsequently adapted by Elizabeth Waterfield, [David Rieger](https:
 ***ADD ALL ORCID or website hyperlinks.***
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: Here I'm not sure how if I split up the contributions correctly. Also, I don't know all the ORCID IDs.</span>
+<span style="color:red">From David: Here I'm not sure how if I split up the contributions correctly. Also, I don't know all the ORCID IDs. SARA COMMENT: Name order is a discussion for all authors to have. Reminder to acknowledge Luz [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), Elizabeth's orcid is [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730). You can add me as reviewer: [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029)  </span>
 </div>
 
 ::: {.notes}
@@ -281,7 +281,7 @@ What do we see in the results?
 - **Subsetting**
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: Do these key terms fit?</span>
+<span style="color:red">From David: Do these key terms fit? SARA COMMENT: Yes I would say these are the four main key terms you refer to in these slides.</span>
 </div>
 
 ::: {.notes}
@@ -316,7 +316,7 @@ Let’s go through what these key terms mean:
 # The Working Directory
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: For longer topics or multiple subchapters, I created these level 1 slides. Let me know if this is okay or if I used the level 1 slides too often.</span>
+<span style="color:red">From David: For longer topics or multiple subchapters, I created these level 1 slides. Let me know if this is okay or if I used the level 1 slides too often. SARA COMMENT: I would say for flow, stick to level 2 headings, as level 1 creates a blank page before. in citation politics I used level 2 headings and added an image to create the subchapters feel. https://lmu-osc.github.io/train-the-trainer-student-track-pedagogy/materials/PMM-M4/PMM-M4-S3-Citation-Politics/PMM-M4-S3-Citation-Politics-slides.html#/section-1-introduction-to-citations </span>
 </div>
 
 ---
@@ -358,7 +358,7 @@ Using the top menu bar in RStudio:
 :::
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: The text and image are too small. Should I crop the image to show only the relevant part of the RStudio interface, or should I split the content into two slides?</span>
+<span style="color:red">From David: The text and image are too small. Should I crop the image to show only the relevant part of the RStudio interface, or should I split the content into two slides? SARA COMMENT: Agree, image a bit too small. I would first try out the cropped image and see how that looks. </span>
 </div>
 
 ::: {.notes}
@@ -388,7 +388,7 @@ Using the Files pane (bottom right in default layout):
 :::
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: The text and image are too small. Should I crop the image to show only the relevant part of the RStudio interface, or should I split the content into two slides?</span>
+<span style="color:red">From David: The text and image are too small. Should I crop the image to show only the relevant part of the RStudio interface, or should I split the content into two slides? SARA COMMENT: 1. I would try out the cropped image. 2. Check you are referring to the R studio environment in consistent way to R part 1, I would call the "file" pane "output" to be consistent with R studio guidelines. https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html .</span>
 </div>
 
 ::: {.notes}
@@ -474,6 +474,10 @@ install.packages("haven")
 ![](images/packages_install_pane.png){style="width:50%;"}
 :::
 
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: For clarity in "Alternatively...": mention packages tab in the output pane in the bottom right of RStudio.</span>
+</div>
+
 ::: {.notes}
 **Presenter Notes**: You only need to install a package once on your computer. Note that the package name must be enclosed in quotation marks when installing. You can also use the Packages tab in RStudio to install them graphically.
 :::
@@ -506,7 +510,7 @@ library(haven)
 - [ ] Load the package `haven` so it is ready to use in your current session.
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: Are my tasks generally appropriate? I have also decided to present the solutions immediately following each task. This ensures that everyone is on the same page before moving on to next topic.</span>
+<span style="color:red">From David: Are my tasks generally appropriate? I have also decided to present the solutions immediately following each task. This ensures that everyone is on the same page before moving on to next topic. SARA COMMENT: Yes I think so</span>
 </div>
 
 ::: {.notes}
@@ -546,6 +550,10 @@ library(haven)
 ::: {style="text-align: center;"}
 ![](images/qr_data.png){style="width:30%;"}
 :::
+
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: To provide more context to learners, I would add a sentence in the presenter notes about the data they will be working with. e.g. this is an example data set on X. </span>
+</div>
 
 ::: {.notes}
 **Presenter Notes**: Before we can load and inspect data, we need to have it on our computers. Please use the link or scan the QR code to download the `characters.rds` file.
@@ -647,6 +655,11 @@ Before analyzing data, you must familiarize yourself with its structure. Built-i
 - **`summary()`**: Provides a brief statistical summary of each variable (adapts output based on data type).
 </div>
 :::
+
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: I would add a note on this slide about codebooks and link out to our training material on data dictionaries: https://lmu-osc.github.io/data-documentation-validation-R/02-data-dictionaries/page1.html</span>
+</div>
+
 
 ::: {.notes}
 **Presenter Notes**: Once the data is loaded, we need to look at it. You should never start analyzing without knowing what variables you have. We use four main functions for this. `names` gives you the column headers. Keep in mind that column names are often short, so having a codebook explaining what each variable means is highly recommended. `str` shows the structure, including whether variables are numbers or text. `head` shows the first six rows. `summary` provides basic statistics, like means for numeric data or counts for categorical data.
@@ -965,6 +978,10 @@ Beyond calculating numbers, we can visualize our data to gain insights quickly. 
 </div>
 :::
 
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: Presenter notes: for consistency and in line with RStudio guidelines, change "Plots pane" to  "output pane" .</span>
+</div>
+
 ::: {.notes}
 **Presenter Notes**: Numbers are great, but visualizing data often makes it much easier to understand. A histogram is one of the most common plots for numeric variables. It shows us how often different values occur in our dataset. We create it using the `hist()` function. When we run this code, the plot will automatically appear in the Plots pane in the bottom right corner of RStudio. We can also customize these plots, for example by changing the title or the axis labels, so they look clean and don't overlap. Histograms are incredibly useful because they show us the entire distribution and actual shape of the data, not just a single summary number like the mean.
 
@@ -1032,6 +1049,10 @@ hist(relevant_data[relevant_data$uni_name == "Community", "notability"],
 ![](images/notability_histograms.png){style="width:90%;"}
 :::
 
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: Presenter notes: I would copy over description of histogram (e.g. "Looking at the plots..." from previous slide to the presenter notes in this slide, to better match what the slide contains.</span>
+</div>
+
 ::: {.notes}
 **Presenter Notes**: This is what your output should look like in the Plots pane. Here you can clearly see the side-by-side comparison of both distributions.
 :::
@@ -1084,6 +1105,10 @@ Mean(my_data$notability)
 brooklyn_data <- my_data[my_data$uni_name == Brooklyn Nine-Nine ]
 ```
 
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: To be consistent with previous practical exercise formats, I would consider having a solutions slide after the exercise and copy the presenter notes about the answer over to the solutions slide.</span>
+</div>
+
 ::: {.notes}
 Presenter Notes: Let's look at this code. There are three lines, and each contains typical beginner mistakes. Take a moment to read through them and see if you can spot what would cause R to throw an error.
 [Pause for responses]
@@ -1109,6 +1134,10 @@ Today, you learned the foundational skills of data handling. In the broader cont
 - **Communicate:** Generating automated reports, interactive dashboards, or even **these exact presentation slides** using Quarto/RMarkdown!
 </div>
 :::
+
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: I like this little check in slide! For clarity, I would add a space between the 3 points labelled as "we did this!" and points 4 - model and 5 - communicate to signpost this differentiation .</span>
+</div>
 
 ::: {.notes}
 **Presenter Notes**: Let's take a step back and look at the big picture. What we did today—loading data, subsetting it, and creating histograms—are the exact first steps of any professional data analysis pipeline. R is not just a calculator; it is an entire ecosystem. You start by importing data, then you wrangle and transform it. After that, you visualize it to understand what you are working with. Finally, you model the data statistically and communicate the results. In fact, this entire presentation was created using R!
@@ -1136,6 +1165,10 @@ Import $\rightarrow$ Tidy / Transform $\rightarrow$ Visualize / Model $\rightarr
 </div>
 :::
 
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: For learners that would be interested in finding out more, you can add hyperlinks to ggplot2 and shiny.</span>
+</div>
+
 ::: {.notes}
 **Presenter Notes**: As you continue learning, you will discover that R is incredibly powerful. You can move from simple base R histograms to stunning, publication-ready graphics using packages like ggplot2. You can even build interactive websites. Most importantly, by writing scripts instead of clicking through menus, your research becomes 100% reproducible. 
 :::
@@ -1155,6 +1188,10 @@ Learning R is exactly like learning a new spoken language. It takes time, practi
 - **Keep practicing:** Save the script you wrote today and use it as a cheat sheet for your next projects. 
 </div>
 :::
+
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: I would rephrase AI point to be a bit more cautious: Perhaps use language like "widespread" "helpful" rather than "standard". The caveat about "foundational understanding.." you have here is important! </span>
+</div>
 
 <div style="text-align: center; font-weight: bold; margin-top: 1em; font-size: 1.2em;">
 Great job today!
@@ -1184,6 +1221,10 @@ Great job today!
 
  
 2. **Share your thoughts with the group.**
+
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: For instructors it would be helpful for them to have a guideline time allocation for this think-pair-share activity. </span>
+</div>
 
 ::: {.notes}
 **Presenter Notes**:  To wrap up, let’s take a moment to bring everything together and think about how this connects to your own work going forward.First, take about one minute to reflect individually on these questions. Then discuss them with a partner.Think about where R/RStudio could realistically support you, for example, in upcoming essays, group projects, or your thesis work. What benefits do you see in using it? What might make it difficult to use it consistently? And how could it fit into your current workflow?  
@@ -1237,7 +1278,7 @@ Clarify that this is a practice exercise rather than a graded assessment. Encour
 :::
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: I used R part 1 and its subchapters as a guide. But do we really need the take-home message here? It feels redundant after "## The Big Picture: R in Data Science", "The Power of R: What comes next?" etc. and since "## Learning goals: Check-In" is the next slide.</span>
+<span style="color:red">From David: I used R part 1 and its subchapters as a guide. But do we really need the take-home message here? It feels redundant after "## The Big Picture: R in Data Science", "The Power of R: What comes next?" etc. and since "## Learning goals: Check-In" is the next slide. SARA COMMENT: I see your point. I would remove the check in slide and keep the slide of final takehome messages with piece of advice learners can take away.</span>
 </div>
 
 ::: {.notes}
@@ -1346,6 +1387,10 @@ See you next time!
 ## Additional resources
 
 - Datacamp offers a free, interactive course on R online: [link to the course](https://www.datacamp.com/courses/free-introduction-to-r).
+
+<div style="font-size: 0.6em;">
+<span style="color:red"> SARA COMMENT: I would link OSC R tutorial https://lmu-osc.github.io/introduction-to-R/ here too.</span>
+</div>
 
 ::: {.notes}
 **Presenter Notes**:  
