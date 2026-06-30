@@ -32,12 +32,7 @@ execute:
 
 This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/).
 
-His work was subsequently adapted by Elizabeth Waterfield, [David Rieger](https://orcid.org/0009-0004-3701-3101) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895) 
-***ADD ALL ORCID or website hyperlinks.***
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: Here I'm not sure how if I split up the contributions correctly. Also, I don't know all the ORCID IDs. SARA COMMENT: Name order is a discussion for all authors to have. Reminder to acknowledge Luz [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), Elizabeth's orcid is [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730). You can add me as reviewer: [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029)  </span>
-</div>
+His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [David Rieger](https://orcid.org/0009-0004-3701-3101), [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895).
 
 ::: {.notes}
 **Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
@@ -47,9 +42,13 @@ His work was subsequently adapted by Elizabeth Waterfield, [David Rieger](https:
 
 ## Contribution statement
 
+**Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
+
 **Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0004-3701-3101))
 
 **Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
+
+**Reviewer**: Middleton, Sara (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029))
 
 **Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
@@ -280,10 +279,6 @@ What do we see in the results?
 - **Data frame**
 - **Subsetting**
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: Do these key terms fit? SARA COMMENT: Yes I would say these are the four main key terms you refer to in these slides.</span>
-</div>
-
 ::: {.notes}
 **Presenter Notes**: These are key terms we will revisit throughout the lesson. What comes to mind when you see each of them? Which ones are familiar, and which feel new? Take a moment to think about what they might mean.
 
@@ -313,10 +308,11 @@ Let’s go through what these key terms mean:
 
 ---
 
-# The Working Directory
+## The Working Directory
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: For longer topics or multiple subchapters, I created these level 1 slides. Let me know if this is okay or if I used the level 1 slides too often. SARA COMMENT: I would say for flow, stick to level 2 headings, as level 1 creates a blank page before. in citation politics I used level 2 headings and added an image to create the subchapters feel. https://lmu-osc.github.io/train-the-trainer-student-track-pedagogy/materials/PMM-M4/PMM-M4-S3-Citation-Politics/PMM-M4-S3-Citation-Politics-slides.html#/section-1-introduction-to-citations </span>
+<br>
+<div style="text-align: center; font-size: 6em;">
+📁
 </div>
 
 ---
@@ -357,10 +353,6 @@ Using the top menu bar in RStudio:
 ![](images/wd_session_menu.png){style="width:45%;"}
 :::
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: The text and image are too small. Should I crop the image to show only the relevant part of the RStudio interface, or should I split the content into two slides? SARA COMMENT: Agree, image a bit too small. I would first try out the cropped image and see how that looks. </span>
-</div>
-
 ::: {.notes}
 **Presenter Notes**: This is the standard graphical way to set your directory. It opens your operating system's standard file browser. 
 
@@ -372,12 +364,12 @@ Using the top menu bar in RStudio:
 ## Setting the Working Directory: Method 2 
 
 <div style="font-size: 0.6em;">
-Using the Files pane (bottom right in default layout):
+Using the output pane (bottom right in default layout):
 </div>
 
 ::: incremental
 <div style="font-size: 0.6em;">
-1. Navigate to your desired folder in the **Files** pane.
+1. Navigate to your desired folder in the **output** pane.
 2. Click the **More** button (gear icon).
 3. Select **Set As Working Directory**.
 </div>
@@ -387,14 +379,10 @@ Using the Files pane (bottom right in default layout):
 ![](images/wd_files_pane.png){style="width:50%;"}
 :::
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: The text and image are too small. Should I crop the image to show only the relevant part of the RStudio interface, or should I split the content into two slides? SARA COMMENT: 1. I would try out the cropped image. 2. Check you are referring to the R studio environment in consistent way to R part 1, I would call the "file" pane "output" to be consistent with R studio guidelines. https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html .</span>
-</div>
-
 ::: {.notes}
 **Presenter Notes**: This method is often faster if you already see your files in the bottom right corner of RStudio. Clicking 'Set As Working Directory' locks R to that specific folder.
 
-**Instructor Notes**: Remind students that simply navigating to a folder in the Files pane does not automatically set it as the working directory. They must explicitly execute the "Set As Working Directory" command.
+**Instructor Notes**: Remind students that simply navigating to a folder in the output pane does not automatically set it as the working directory. They must explicitly execute the "Set As Working Directory" command.
 :::
 
 ---
@@ -402,7 +390,7 @@ Using the Files pane (bottom right in default layout):
 ## Checking the Working Directory
 
 <div style="font-size: 0.6em;">
-Verify the current working directory by looking at the top of the **Console** pane (bottom left).
+Verify the current working directory by looking at the top of the **console** pane (bottom left).
 </div>
 
 ::: {style="text-align: center;"}
@@ -428,7 +416,7 @@ Alternatively, type `getwd()` in the console and press Enter to print the exact 
 - [ ] Locate the folder where you saved your R-script during Part I. 
 - [ ] Ensure this folder contains only your script and relevant workshop files.
 - [ ] Set this folder as your Working Directory using either Method 1 or Method 2.
-- [ ] Verify that the correct path is displayed at the top of your Console.
+- [ ] Verify that the correct path is displayed at the top of your console.
 
 ::: {.notes}
 **Presenter Notes**: Take a minute to set your working directory to the folder containing your script from the last session. We will need this set correctly when we start importing data later today.
@@ -438,7 +426,12 @@ Alternatively, type `getwd()` in the console and press Enter to print the exact 
 
 ---
 
-# Packages
+## Packages
+
+<br>
+<div style="text-align: center; font-size: 6em;">
+📦
+</div>
 
 ---
 
@@ -467,16 +460,12 @@ Alternatively, type `getwd()` in the console and press Enter to print the exact 
 install.packages("haven")
 ```
 
-- Alternatively: Use the **Packages** tab in the bottom right pane of RStudio and click **Install**.
+- Alternatively: Use the **Packages** tab in the **output** pane (bottom right) of RStudio and click **Install**.
 </div>
 
 ::: {style="text-align: center;"}
 ![](images/packages_install_pane.png){style="width:50%;"}
 :::
-
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: For clarity in "Alternatively...": mention packages tab in the output pane in the bottom right of RStudio.</span>
-</div>
 
 ::: {.notes}
 **Presenter Notes**: You only need to install a package once on your computer. Note that the package name must be enclosed in quotation marks when installing. You can also use the Packages tab in RStudio to install them graphically.
@@ -509,10 +498,6 @@ library(haven)
 - [ ] Install the package `haven`. This package is useful for reading in data files from other software like SPSS, Stata, and SAS.
 - [ ] Load the package `haven` so it is ready to use in your current session.
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: Are my tasks generally appropriate? I have also decided to present the solutions immediately following each task. This ensures that everyone is on the same page before moving on to next topic. SARA COMMENT: Yes I think so</span>
-</div>
-
 ::: {.notes}
 **Presenter Notes**: Take a moment to install the haven package and then load it. We will need this package later if we want to import specialized data formats.
 
@@ -538,7 +523,12 @@ library(haven)
 
 ---
 
-# Getting Started with Data
+## Getting Started with Data
+
+<br>
+<div style="text-align: center; font-size: 6em;">
+📊
+</div>
 
 ---
 
@@ -552,11 +542,11 @@ library(haven)
 :::
 
 <div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: To provide more context to learners, I would add a sentence in the presenter notes about the data they will be working with. e.g. this is an example data set on X. </span>
+<span style="color:red"> From David: I'm not sure if the qr code will be permanent, since I used a free online qr code generator. The url to the data is https://github.com/nickhaf/r_tutorial/tree/main/raw_data</span>
 </div>
 
 ::: {.notes}
-**Presenter Notes**: Before we can load and inspect data, we need to have it on our computers. Please use the link or scan the QR code to download the `characters.rds` file.
+**Presenter Notes**: Before we can load and inspect data, we need to have it on our computers. Please use the link or scan the QR code to download the `characters.rds` file. This dataset contains fun information about TV show characters, specifically from "Brooklyn Nine-Nine" and "Community", including variables like their show's name and a "notability" score. We will use this dataset to practice data exploration and visualization.
 
 **Instructor Notes**: Ensure learners do not skip this step. The specific instructions for moving the file and setting the directory follow on the next slide.
 :::
@@ -649,16 +639,17 @@ Before analyzing data, you must familiarize yourself with its structure. Built-i
 
 ::: incremental
 <div style="font-size: 0.8em;">
-- **`names()`**: Returns the column names. *(Tip: Variable names are often abbreviated. It is highly advisable to use a **codebook** for precise definitions).*
+- **`names()`**: Returns the column names.
 - **`str()`**: Displays the internal structure (number of rows/columns, data types, and the first few values of each variable).
 - **`head()`**: Returns the first six rows of the dataset for a quick preview.
 - **`summary()`**: Provides a brief statistical summary of each variable (adapts output based on data type).
 </div>
 :::
 
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: I would add a note on this slide about codebooks and link out to our training material on data dictionaries: https://lmu-osc.github.io/data-documentation-validation-R/02-data-dictionaries/page1.html</span>
-</div>
+::: {.callout-tip}
+## Codebooks
+Variable names are often abbreviated. It is highly advisable to use a **codebook** for precise definitions. Check out our [training material on data dictionaries](https://lmu-osc.github.io/data-documentation-validation-R/02-data-dictionaries/page1.html) to learn more!
+:::
 
 
 ::: {.notes}
@@ -826,7 +817,12 @@ Briefly examine the answers given to each question interactively with the group.
 
 ---
 
-# Data Exploration
+## Data Exploration
+
+<br>
+<div style="text-align: center; font-size: 6em;">
+🔍
+</div>
 
 ---
 
@@ -978,14 +974,10 @@ Beyond calculating numbers, we can visualize our data to gain insights quickly. 
 </div>
 :::
 
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: Presenter notes: for consistency and in line with RStudio guidelines, change "Plots pane" to  "output pane" .</span>
-</div>
-
 ::: {.notes}
-**Presenter Notes**: Numbers are great, but visualizing data often makes it much easier to understand. A histogram is one of the most common plots for numeric variables. It shows us how often different values occur in our dataset. We create it using the `hist()` function. When we run this code, the plot will automatically appear in the Plots pane in the bottom right corner of RStudio. We can also customize these plots, for example by changing the title or the axis labels, so they look clean and don't overlap. Histograms are incredibly useful because they show us the entire distribution and actual shape of the data, not just a single summary number like the mean.
+**Presenter Notes**: Numbers are great, but visualizing data often makes it much easier to understand. A histogram is one of the most common plots for numeric variables. It shows us how often different values occur in our dataset. We create it using the `hist()` function. When we run this code, the plot will automatically appear in the output pane in the bottom right corner of RStudio. We can also customize these plots, for example by changing the title or the axis labels, so they look clean and don't overlap. Histograms are incredibly useful because they show us the entire distribution and actual shape of the data, not just a single summary number like the mean.
 
-**Instructor Notes**: Ensure learners know to look at the bottom-right pane for their output. If their Plots pane is too small, RStudio might throw a "figure margins too large" error. Tell them to simply drag the pane borders to make it larger if that happens.
+**Instructor Notes**: Ensure learners know to look at the bottom-right pane for their output. If their output pane is too small, RStudio might throw a "figure margins too large" error. Tell them to simply drag the pane borders to make it larger if that happens.
 :::
 
 ---
@@ -1038,7 +1030,7 @@ hist(relevant_data[relevant_data$uni_name == "Community", "notability"],
 ```
 
 ::: {.notes}
-**Presenter Notes**: Here is the solution. By reusing our subsetting logic, we can directly plot the notability for each specific show. Notice that we snuck in two extra arguments here: `main` and `xlab`. If you ran your code without them, you probably saw a very long, messy default title generated by R. By adding these arguments, we get clean, readable plots without overlapping text. Looking at the plots, you can visually confirm what the means calculated earlier suggested: the distributions are different, and we can now actually see where the majority of characters fall on the notability scale for each universe.
+**Presenter Notes**: Here is the solution. By reusing our subsetting logic, we can directly plot the notability for each specific show. Notice that we snuck in two extra arguments here: `main` and `xlab`. If you ran your code without them, you probably saw a very long, messy default title generated by R. By adding these arguments, we get clean, readable plots without overlapping text.
 :::
 
 ---
@@ -1049,17 +1041,18 @@ hist(relevant_data[relevant_data$uni_name == "Community", "notability"],
 ![](images/notability_histograms.png){style="width:90%;"}
 :::
 
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: Presenter notes: I would copy over description of histogram (e.g. "Looking at the plots..." from previous slide to the presenter notes in this slide, to better match what the slide contains.</span>
-</div>
-
 ::: {.notes}
-**Presenter Notes**: This is what your output should look like in the Plots pane. Here you can clearly see the side-by-side comparison of both distributions.
+**Presenter Notes**: This is what your output should look like in the output pane. Looking at the plots, you can visually confirm what the means calculated earlier suggested: the distributions are different, and we can now actually see where the majority of characters fall on the notability scale for each universe. Here you can clearly see the side-by-side comparison of both distributions.
 :::
 
 ---
 
-# Best Practices and Context
+## Best Practices and Context
+
+<br>
+<div style="text-align: center; font-size: 6em;">
+💡
+</div>
 
 ---
 
@@ -1105,16 +1098,32 @@ Mean(my_data$notability)
 brooklyn_data <- my_data[my_data$uni_name == Brooklyn Nine-Nine ]
 ```
 
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: To be consistent with previous practical exercise formats, I would consider having a solutions slide after the exercise and copy the presenter notes about the answer over to the solutions slide.</span>
-</div>
+::: {.notes}
+**Presenter Notes**: Let's look at this code. There are three lines, and each contains typical beginner mistakes. Take a moment to read through them and see if you can spot what would cause R to throw an error.
+
+**Instructor Notes**: Use this only if time permits. It is a highly effective way to test syntax recognition without requiring participants to write new code.
+:::
+
+---
+
+## Practical Exercise 9: Solutions
+
+```{r}
+#| eval: false
+
+# 1. Loading data
+my_data <- readRDS("characters.rds")
+
+# 2. Calculating a mean
+mean(my_data$notability)
+
+# 3. Subsetting
+brooklyn_data <- my_data[my_data$uni_name == "Brooklyn Nine-Nine", ]
+```
 
 ::: {.notes}
-Presenter Notes: Let's look at this code. There are three lines, and each contains typical beginner mistakes. Take a moment to read through them and see if you can spot what would cause R to throw an error.
-[Pause for responses]
-Line 1 is missing quotation marks around the file name. Line 2 uses a capital M for the mean function, but R functions are lowercase. Line 3 is missing quotation marks around the show name AND is missing the crucial comma inside the brackets.
-
-Instructor Notes: Use this only if time permits. It is a highly effective way to test syntax recognition without requiring participants to write new code.
+**Presenter Notes**: Let's go through the solutions.
+Line 1 was missing quotation marks around the file name. Line 2 used a capital M for the mean function, but R functions are lowercase. Line 3 was missing quotation marks around the show name AND was missing the crucial comma inside the brackets.
 :::
 
 ---
@@ -1130,14 +1139,13 @@ Today, you learned the foundational skills of data handling. In the broader cont
 - **Import:** Reading data from various sources (e.g., `.rds`, `.csv`, Excel). *(We did this!)*
 - **Wrangle & Transform:** Subsetting, cleaning, and reshaping data to fit your needs. *(We did this!)*
 - **Visualize:** Creating plots to understand distributions and patterns. *(We did this!)*
+
+<br>
+
 - **Model:** Running complex statistical analyses and machine learning algorithms.
 - **Communicate:** Generating automated reports, interactive dashboards, or even **these exact presentation slides** using Quarto/RMarkdown!
 </div>
 :::
-
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: I like this little check in slide! For clarity, I would add a space between the 3 points labelled as "we did this!" and points 4 - model and 5 - communicate to signpost this differentiation .</span>
-</div>
 
 ::: {.notes}
 **Presenter Notes**: Let's take a step back and look at the big picture. What we did today—loading data, subsetting it, and creating histograms—are the exact first steps of any professional data analysis pipeline. R is not just a calculator; it is an entire ecosystem. You start by importing data, then you wrangle and transform it. After that, you visualize it to understand what you are working with. Finally, you model the data statistically and communicate the results. In fact, this entire presentation was created using R!
@@ -1159,18 +1167,14 @@ Import $\rightarrow$ Tidy / Transform $\rightarrow$ Visualize / Model $\rightarr
 
 ::: incremental
 <div style="font-size: 0.8em;">
-- **Advanced Visualizations:** Packages like `ggplot2` allow you to create stunning, highly customized graphics.
-- **Interactivity:** Packages like `shiny` let you build interactive web applications for your data.
+- **Advanced Visualizations:** Packages like [`ggplot2`](https://ggplot2.tidyverse.org/) allow you to create stunning, highly customized graphics.
+- **Interactivity:** Packages like [`shiny`](https://shiny.posit.co/) let you build interactive web applications for your data.
 - **Reproducibility:** By scripting your analysis, anyone (including future you) can re-run your exact steps with zero guesswork.
 </div>
 :::
 
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: For learners that would be interested in finding out more, you can add hyperlinks to ggplot2 and shiny.</span>
-</div>
-
 ::: {.notes}
-**Presenter Notes**: As you continue learning, you will discover that R is incredibly powerful. You can move from simple base R histograms to stunning, publication-ready graphics using packages like ggplot2. You can even build interactive websites. Most importantly, by writing scripts instead of clicking through menus, your research becomes 100% reproducible. 
+**Presenter Notes**: As you continue learning, you will discover that R is incredibly powerful. You can move from simple base R histograms to stunning, publication-ready graphics using packages like ggplot2. You can even build interactive websites using packages like shiny. If you're curious about either of these packages, both ggplot2 and shiny are clickable links on this slide that will take you straight to their official websites. Most importantly, by writing scripts instead of clicking through menus, your research becomes 100% reproducible. 
 :::
 
 ---
@@ -1184,14 +1188,10 @@ Learning R is exactly like learning a new spoken language. It takes time, practi
 ::: incremental
 <div style="font-size: 0.8em;">
 - **Syntax errors are normal:** Even advanced programmers make typos and get error messages every single day.
-- **AI is a standard tool:** Using AI to write code, navigate complex documentation, or troubleshoot errors is standard practice. However, the foundational understanding you built today is essential to verify and adapt the output.
+- **AI is a helpful tool:** Using AI to write code, navigate complex documentation, or troubleshoot errors is becoming increasingly widespread. However, the foundational understanding you built today is essential to verify and adapt the output.
 - **Keep practicing:** Save the script you wrote today and use it as a cheat sheet for your next projects. 
 </div>
 :::
-
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: I would rephrase AI point to be a bit more cautious: Perhaps use language like "widespread" "helpful" rather than "standard". The caveat about "foundational understanding.." you have here is important! </span>
-</div>
 
 <div style="text-align: center; font-weight: bold; margin-top: 1em; font-size: 1.2em;">
 Great job today!
@@ -1222,15 +1222,11 @@ Great job today!
  
 2. **Share your thoughts with the group.**
 
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: For instructors it would be helpful for them to have a guideline time allocation for this think-pair-share activity. </span>
-</div>
-
 ::: {.notes}
-**Presenter Notes**:  To wrap up, let’s take a moment to bring everything together and think about how this connects to your own work going forward.First, take about one minute to reflect individually on these questions. Then discuss them with a partner.Think about where R/RStudio could realistically support you, for example, in upcoming essays, group projects, or your thesis work. What benefits do you see in using it? What might make it difficult to use it consistently? And how could it fit into your current workflow?  
+**Presenter Notes**: To wrap up, let’s take a moment to bring everything together and think about how this connects to your own work going forward. First, take about one minute to reflect individually on these questions. Then discuss them with a partner. Think about where R/RStudio could realistically support you, for example, in upcoming essays, group projects, or your thesis work. What benefits do you see in using it? What might make it difficult to use it consistently? And how could it fit into your current workflow?  
 After that, we’ll briefly share some of your thoughts with the group.
 
-**Instructor Notes**: Facilitate an open discussion focusing on application rather than theory. Encourage concrete examples from learners’ own academic context. Actively prompt for both benefits and barriers. Keep the discussion time-bound to avoid overextension at the end of the session.
+**Instructor Notes**: Allocate about 5-10 minutes total for this think-pair-share activity (1-2 minutes for individual reflection, 3-4 minutes in pairs, and the remainder for group discussion). Facilitate an open discussion focusing on application rather than theory. Encourage concrete examples from learners’ own academic context. Actively prompt for both benefits and barriers. Keep the discussion time-bound to avoid overextension at the end of the session.
 
 **Accessibility Tip**: Allow silent reflection time before discussion. Summarise key contributions aloud for clarity.
 :::
@@ -1278,7 +1274,7 @@ Clarify that this is a practice exercise rather than a graded assessment. Encour
 :::
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: I used R part 1 and its subchapters as a guide. But do we really need the take-home message here? It feels redundant after "## The Big Picture: R in Data Science", "The Power of R: What comes next?" etc. and since "## Learning goals: Check-In" is the next slide. SARA COMMENT: I see your point. I would remove the check in slide and keep the slide of final takehome messages with piece of advice learners can take away.</span>
+<span style="color:red">From David: I used R part 1 and its subchapters as a guide. But do we really need the take-home message here? It feels redundant after "## The Big Picture: R in Data Science", "The Power of R: What comes next?" etc. and since "## Learning goals: Check-In" is the next slide. SARA COMMENT: I see your point. I would remove the check in slide and keep the slide of final takehome messages with piece of advice learners can take away. DAVID: Should I really (of all slides) remove the check in slide? I thought the check in in the beginning and at the end of a session is a typical element used in most of these quarto presentations here.</span>
 </div>
 
 ::: {.notes}
@@ -1387,22 +1383,19 @@ See you next time!
 ## Additional resources
 
 - Datacamp offers a free, interactive course on R online: [link to the course](https://www.datacamp.com/courses/free-introduction-to-r).
-
-<div style="font-size: 0.6em;">
-<span style="color:red"> SARA COMMENT: I would link OSC R tutorial https://lmu-osc.github.io/introduction-to-R/ here too.</span>
-</div>
+- The LMU Open Science Center provides a comprehensive R tutorial: [link to the OSC tutorial](https://lmu-osc.github.io/introduction-to-R/).
 
 ::: {.notes}
 **Presenter Notes**:  
-If you’d like to continue practicing R after this session, there is an optional additional resource available.  
-Datacamp offers a free, interactive introduction to R, where you can practice directly in your browser. It’s a useful way to reinforce what we covered today and get more comfortable with writing code at your own pace.  
-You are not required to complete it, but it can be helpful if you want extra practice or a more structured introduction to R outside of class.
+If you’d like to continue practicing R after this session, there are optional additional resources available.  
+Datacamp offers a free, interactive introduction to R, where you can practice directly in your browser. We also highly recommend the LMU OSC's own Introduction to R tutorial, which is a great comprehensive guide. These are useful ways to reinforce what we covered today and get more comfortable with writing code at your own pace.  
+You are not required to complete them, but they can be helpful if you want extra practice or a more structured introduction to R outside of class.
 
 **Instructor Notes**:  
-Present this as an optional extension, not part of the core learning requirements. Avoid suggesting it as mandatory. Emphasise self-paced learning and reinforcement of basic R skills.
+Present these as optional extensions, not part of the core learning requirements. Avoid suggesting them as mandatory. Emphasise self-paced learning and reinforcement of basic R skills using both the interactive Datacamp course and the in-depth OSC material.
 
 **Accessibility Tips:**  
-Ensure the link is accessible through the course platform or slide deck. 
+Ensure the links are accessible through the course platform or slide deck. 
 :::
 
 ---
