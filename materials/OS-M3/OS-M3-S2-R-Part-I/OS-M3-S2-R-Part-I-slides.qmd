@@ -1823,3 +1823,4 @@ Still to do - see also my comments :)
 
 - It might be better to place solutions directly after each of the 10 practical exercises. Saving them for the end forces learners to re-engage with old tasks, potentially creates time pressure at the end of the lesson, and delays the immediate feedback they might want before moving to the next topic.
 - We could consider not using the c() function as an introductory example for a general function, but rather keep it within the later sections on Vectors, Lists, and Data Frames. It fits there perfectly and avoids redundancy then.
+If you really want to keep the c() function as an introductory example, we should make sure to reference back to these slides when we get to vectors.
