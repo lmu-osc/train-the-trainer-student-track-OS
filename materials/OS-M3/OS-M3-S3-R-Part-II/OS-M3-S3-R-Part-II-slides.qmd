@@ -1,6 +1,6 @@
 ---
 title: "Introduction to R: Part II"
-author: "Luz Sanchez Steinhagen"
+author: "David Rieger"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
@@ -22,6 +22,20 @@ execute:
   engine: knitr
 ---
 
+## Feedback Slide Sarah - delete at the end
+
+- I saw your comment for the QR code for practical exercise 3; particify (the software we use for generating quizzes and surveys etc) has permanent QR codes - I would perhaps eliminate the QR code and keep the hyperlink as well as the actual link in case learners cannot click the link etc, they could look for it manually in their browser?
+
+- on the final words slide you mention this: - **AI is a helpful tool:** Using AI to write code, navigate complex documentation, or troubleshoot errors is becoming increasingly widespread. However, the foundational understanding you built today is essential to verify and adapt the output. I am wondering if we would need an extra slide to perhaps tell learners about how to use AI responsibily and also specific tools for code and troubleshooting? This feels like it could be a slide deck in itself, and we are promoting it without giving examples and only highlighting the complexity in passing? Thoughts?
+
+- additional resources slide: I would hyperline the "interactive course on R" and the provide the full link in brackets (for accessibility, also for the next bullet point)
+
+- for accessibility: use hyperlinks, but also always the full links spelled out on the slide somewhere in case learners do not have the slides in front of them and need to manually access the links in their browser. 
+
+
+
+---
+
 ## Licence {.smaller}
 
 <p style="text-align:center;">
@@ -30,9 +44,7 @@ execute:
   style="width:160px;" />
 </p>
 
-This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/).
-
-His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [David Rieger](https://orcid.org/0009-0004-3701-3101), [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895).
+This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483). It was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [David Rieger](https://orcid.org/0009-0004-3701-3101), [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895). The current work is licenced under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ::: {.notes}
 **Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
@@ -258,7 +270,7 @@ What do we see in the results?
 ## Learning goals
 
 ::: incremental
-- To **identify** and set the correct Working Directory on your computer.
+- To **identify** and **set** the correct Working Directory on your computer.
 - To **install** and **load** R packages to extend R's functionality.
 - To **import** external data into the R environment.
 - To **inspect** data structures and **extract** specific columns.
@@ -321,9 +333,9 @@ Let’s go through what these key terms mean:
 
 ::: incremental
 - The **Working Directory (WD)** is the default folder on your computer.
-- It is the location where R looks for files to read.
-- It is the location where R saves files you produce (e.g., plots, exported data).
-- **Rule:** Always confirm your working directory before beginning an analysis.
+  - It is the *location where R looks for files to read*.
+  - It is the *location where R saves files* you "produce" (e.g., plots, exported data).
+- **Rule:** Always verify your working directory before beginning an analysis to get an idea in which environment you are in.
 :::
 
 ::: {.notes}
@@ -435,7 +447,7 @@ Alternatively, type `getwd()` in the console and press Enter to print the exact 
 
 ---
 
-## What are Packages?
+## What are packages?
 
 ::: incremental
 - R comes with many built-in functions (**Base R**).
@@ -449,7 +461,7 @@ Alternatively, type `getwd()` in the console and press Enter to print the exact 
 
 ---
 
-## Installing Packages
+## Installing packages
 
 <div style="font-size: 0.9em;">
 - Packages must be **installed once** (or after updating R).
@@ -473,7 +485,7 @@ install.packages("haven")
 
 ---
 
-## Loading Packages
+## Loading packages
 
 - Once installed, a package must be **loaded every time** you open a new R session.
 - Use the `library()` function. Quotation marks are not required here.
@@ -523,7 +535,7 @@ library(haven)
 
 ---
 
-## Getting Started with Data
+## Getting started with data
 
 <br>
 <div style="text-align: center; font-size: 6em;">
@@ -634,7 +646,7 @@ characters <- readRDS("characters.rds")
 ## Inspecting data structures
 
 <div style="font-size: 0.85em;">
-Before analyzing data, you must familiarize yourself with its structure. Built-in functions allow you to verify variables and data types.
+Before analyzing data, you must **familiarize yourself** with its **structure**. Built-in functions allow you to verify variables and data types:
 </div>
 
 ::: incremental
@@ -670,8 +682,10 @@ Variable names are often abbreviated. It is highly advisable to use a **codebook
 - [ ] Run `str(characters)`.
 - [ ] Run `head(characters)`.
 - [ ] Run `summary(characters)`.
-- [ ] **Question:** Based on the console outputs, can you guess what the data in this dataset is about?
 </div>
+
+
+**Question:** Based on the console outputs, can you guess what the data in this dataset is about?
 
 ::: {.notes}
 **Presenter Notes**: Let us apply these functions to the dataset we just loaded. Run each function on the `characters` object and look closely at the output in the console. Based on what you see—the variable names and the specific text values—can anyone guess what this dataset is actually about?
@@ -725,7 +739,7 @@ d. It is the console pane where R executes commands.
 
 ::: {.notes}
 **Instructor notes**:
-The answer for this question is b
+The correct answer for this question is B.
 :::
 
 ---
@@ -739,7 +753,7 @@ d. `library()`
 
 ::: {.notes}
 **Instructor notes**:
-The answer for this question is d
+The correct answer for this question is D. 
 :::
 
 ---
@@ -753,7 +767,7 @@ d. `my_data <- read_csv("characters.rds")`
 
 ::: {.notes}
 **Instructor notes**:
-The answer for this question is a
+The correct answer for this question is A. 
 :::
 
 ---
@@ -767,7 +781,7 @@ d. `str()`
 
 ::: {.notes}
 **Instructor notes**:
-The answer for this question is d
+The correct answer for this question is D. 
 :::
 
 ---
@@ -781,7 +795,7 @@ d. The total number of variables in the dataset.
 
 ::: {.notes}
 **Instructor notes**: 
-The answer for this question is b
+The answer for this question is B.
 :::
 
 ---
@@ -789,7 +803,7 @@ The answer for this question is b
 # Break! 15 minutes
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: Is it okay how I divided the remaining content in R part 2 (it is a bit more content in the first half before the break than in the second half after the break)?</span>
+<span style="color:red">From David: Is it okay how I divided the remaining content in R part 2 (it is a bit more content in the first half before the break than in the second half after the break)? SvG: to me this is good! Practical exercices, depending on the length, can be a small break too, and there are lots of those so I think you are good?</span>
 </div>
 
 ---
@@ -817,7 +831,7 @@ Briefly examine the answers given to each question interactively with the group.
 
 ---
 
-## Data Exploration
+## Data exploration
 
 <br>
 <div style="text-align: center; font-size: 6em;">
@@ -829,7 +843,7 @@ Briefly examine the answers given to each question interactively with the group.
 ## Accessing and subsetting columns
 
 <div style="font-size: 0.85em;">
-As discussed in **Part I**, we can use indexing tools (`$` and `[]`) to access specific parts of our data. In real-world analysis, we apply this to extract entirely new subsets.
+As discussed in **Part I**, we can use **indexing tools** (`$` and `[]`) to access specific parts of our data. In real-world analysis, we apply this to **extract entirely new subsets**.
 </div>
 
 ::: incremental
@@ -853,12 +867,14 @@ As discussed in **Part I**, we can use indexing tools (`$` and `[]`) to access s
 
 **Subsetting by conditions**
 
+:::incremental
 <div style="font-size: 0.8em;">
 - [ ] Create a new section in your script using a comment.
 - [ ] Apply your indexing knowledge from Part I to filter the rows of the `characters` data frame to include only observations where the `uni_name` is exactly `"Brooklyn Nine-Nine"` **OR** `"Community"`.
 - [ ] Assign this subset to a new object named `relevant_data`.
 - [ ] Run the code, then use the `table()` function on `relevant_data$uni_name` to check how many characters from each show are in your new subset.
 </div>
+:::
 
 ::: {.callout-tip}
 ## Syntax Hint
@@ -886,22 +902,22 @@ table(relevant_data$uni_name)
 ```
 
 ::: {.notes}
-Presenter Notes: Here is the correct syntax. We specify the row conditions before the comma. Notice that we have to tell R exactly where to look for both sides of the OR condition by writing characters$uni_name twice. Finally, running table() on the newly created object confirms that we only have characters from those two shows.
+**Presenter Notes**: Here is the correct syntax. We specify the row conditions before the comma. Notice that we have to tell R exactly where to look for both sides of the OR condition by writing characters$uni_name twice. Finally, running table() on the newly created object confirms that we only have characters from those two shows.
 :::
 
 ---
 
-## Basic Summary Functions
+## Basic summary functions
 
 <div style="font-size: 0.85em;">
-After isolating the relevant data, we can compute descriptive statistics for specific variables.
+After isolating the relevant data, we can **compute descriptive statistics** for specific variables.
 </div>
 
 ::: incremental
 <div style="font-size: 0.8em;">
-- **Numeric Variables:** We can apply functions like `mean()` or `sd()` to a single column using the `$` operator (e.g., `mean(data$column)`).
-- **Categorical Variables:** We can use the `table()` function to count the frequency of specific text or factor values.
-- **Combined Operations:** We can subset rows and select a specific column simultaneously within a function using `dataframe[condition, "column_name"]`.
+- **Numeric variables:** We can apply functions like `mean()` or `sd()` to a single column using the `$` operator (e.g., `mean(data$column)`).
+- **Categorical variables:** We can use the `table()` function to count the frequency of specific text or factor values.
+- **Combined operations:** We can subset rows and select a specific column simultaneously within a function using `dataframe[condition, "column_name"]`.
 </div>
 :::
 
@@ -922,8 +938,9 @@ After isolating the relevant data, we can compute descriptive statistics for spe
 - [ ] Calculate the overall `mean()` and standard deviation (`sd()`) of the `notability` column in the `relevant_data` object.
 - [ ] Calculate the mean notability exclusively for `"Brooklyn Nine-Nine"` characters.
 - [ ] Calculate the mean notability exclusively for `"Community"` characters.
-- [ ] **Question:** Which show features characters with a higher average notability?
 </div>
+
+**Question:** Which show features characters with a higher average notability?
 
 ::: {.callout-tip}
 ## Syntax Hint
@@ -962,7 +979,7 @@ mean(relevant_data[relevant_data$uni_name == "Community", "notability"])
 ## Simple plotting: Histograms
 
 <div style="font-size: 0.85em;">
-Beyond calculating numbers, we can visualize our data to gain insights quickly. A great starting point for numeric data is a histogram.
+Beyond calculating numbers, we can **visualize our data** to gain insights quickly. A great starting point for numeric data is a **histogram**.
 </div>
 
 ::: incremental
@@ -991,11 +1008,12 @@ Beyond calculating numbers, we can visualize our data to gain insights quickly. 
 - [ ] Copy and run the hint below to allow two plots to be shown side-by-side.
 - [ ] Create a histogram (`hist()`) showing the `notability` of `"Brooklyn Nine-Nine"` characters.
 - [ ] Create a second histogram showing the `notability` of `"Community"` characters.
-- [ ] **Question:** By looking at the plots, how do the distributions of the two shows compare?
 </div>
 
+**Question:** By looking at the plots, how do the distributions of the two shows compare?
+
 ::: {.callout-tip}
-## Side-by-Side Plots Hint
+## Side-by-side plots hint
 Run `par(mfrow = c(1, 2))` *before* creating your histograms. This tells R to split the plotting window into 1 row and 2 columns so we can easily compare both graphs next to each other!
 :::
 
@@ -1047,7 +1065,7 @@ hist(relevant_data[relevant_data$uni_name == "Community", "notability"],
 
 ---
 
-## Best Practices and Context
+## Best practices and context
 
 <br>
 <div style="text-align: center; font-size: 6em;">
@@ -1059,7 +1077,7 @@ hist(relevant_data[relevant_data$uni_name == "Community", "notability"],
 ## Common mistakes and troubleshooting
 
 <div style="font-size: 0.85em;">
-Errors are a normal part of programming. When R throws an error, check for these common culprits first:
+Errors are a **normal part of programming**. When R throws an error, check for these common culprits first:
 </div>
 
 ::: incremental
@@ -1079,7 +1097,7 @@ Errors are a normal part of programming. When R throws an error, check for these
 
 ---
 
-## Practical Exercise 9: Spot the errors
+## Practical exercise 9: Spot the errors
 
 <div style="font-size: 0.85em;">
 What is wrong with the following lines of code?
@@ -1095,7 +1113,7 @@ my_data <- readRDS(characters.rds)
 Mean(my_data$notability)
 
 # 3. Subsetting
-brooklyn_data <- my_data[my_data$uni_name == Brooklyn Nine-Nine ]
+brooklyn_data <- my_data[my_data$uni_name == Brooklyn Nine-Nine]
 ```
 
 ::: {.notes}
@@ -1106,7 +1124,7 @@ brooklyn_data <- my_data[my_data$uni_name == Brooklyn Nine-Nine ]
 
 ---
 
-## Practical Exercise 9: Solutions
+## Practical exercise 9: Solutions
 
 ```{r}
 #| eval: false
@@ -1128,16 +1146,16 @@ Line 1 was missing quotation marks around the file name. Line 2 used a capital M
 
 ---
 
-## The Big Picture: R in Data Science
+## The Big Picture: R in data science
 
 <div style="font-size: 0.85em;">
-Today, you learned the foundational skills of data handling. In the broader context of research and data analysis, R is a comprehensive ecosystem.
+Today, you **learned the foundational skills of data handling**. In the broader context of research and data analysis, R is a comprehensive ecosystem.
 </div>
 
 ::: incremental
 <div style="font-size: 0.8em;">
 - **Import:** Reading data from various sources (e.g., `.rds`, `.csv`, Excel). *(We did this!)*
-- **Wrangle & Transform:** Subsetting, cleaning, and reshaping data to fit your needs. *(We did this!)*
+- **Wrangle and transform:** Subsetting, cleaning, and reshaping data to fit your needs. *(We did this!)*
 - **Visualize:** Creating plots to understand distributions and patterns. *(We did this!)*
 
 <br>
@@ -1155,7 +1173,7 @@ Today, you learned the foundational skills of data handling. In the broader cont
 
 ---
 
-## The Power of R: What comes next?
+## The power of R: What comes next?
 
 <div style="font-size: 0.85em;">
 Mastering the basics opens the door to highly advanced, publication-ready tools.
@@ -1167,7 +1185,7 @@ Import $\rightarrow$ Tidy / Transform $\rightarrow$ Visualize / Model $\rightarr
 
 ::: incremental
 <div style="font-size: 0.8em;">
-- **Advanced Visualizations:** Packages like [`ggplot2`](https://ggplot2.tidyverse.org/) allow you to create stunning, highly customized graphics.
+- **Advanced visualizations:** Packages like [`ggplot2`](https://ggplot2.tidyverse.org/) allow you to create stunning, highly customized graphics.
 - **Interactivity:** Packages like [`shiny`](https://shiny.posit.co/) let you build interactive web applications for your data.
 - **Reproducibility:** By scripting your analysis, anyone (including future you) can re-run your exact steps with zero guesswork.
 </div>
@@ -1179,10 +1197,10 @@ Import $\rightarrow$ Tidy / Transform $\rightarrow$ Visualize / Model $\rightarr
 
 ---
 
-## Final Words
+## Final words (of wisdom)
 
 <div style="font-size: 0.85em;">
-Learning R is exactly like learning a new spoken language. It takes time, practice, and patience.
+Learning R is exactly like learning a new spoken language. It **takes time, practice, and patience**.
 </div>
 
 ::: incremental
@@ -1274,7 +1292,7 @@ Clarify that this is a practice exercise rather than a graded assessment. Encour
 :::
 
 <div style="font-size: 0.6em;">
-<span style="color:red">From David: I used R part 1 and its subchapters as a guide. But do we really need the take-home message here? It feels redundant after "## The Big Picture: R in Data Science", "The Power of R: What comes next?" etc. and since "## Learning goals: Check-In" is the next slide. SARA COMMENT: I see your point. I would remove the check in slide and keep the slide of final takehome messages with piece of advice learners can take away. DAVID: Should I really (of all slides) remove the check in slide? I thought the check in in the beginning and at the end of a session is a typical element used in most of these quarto presentations here.</span>
+<span style="color:red">From David: I used R part 1 and its subchapters as a guide. But do we really need the take-home message here? It feels redundant after "## The Big Picture: R in Data Science", "The Power of R: What comes next?" etc. and since "## Learning goals: Check-In" is the next slide. SARA COMMENT: I see your point. I would remove the check in slide and keep the slide of final takehome messages with piece of advice learners can take away. DAVID: Should I really (of all slides) remove the check in slide? I thought the check in in the beginning and at the end of a session is a typical element used in most of these quarto presentations here. SVG comment: To me the take home messages can stay (rep is good perhaps? but I would move it after the final words? I would also move the learning goal check in nefore the looking to the future part? And remove the header 1 wrapping up slide, just straight to looking to the future slide?</span>
 </div>
 
 ::: {.notes}
