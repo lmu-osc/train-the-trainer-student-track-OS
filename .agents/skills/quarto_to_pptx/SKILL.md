@@ -5,9 +5,13 @@ description: Best practices for modifying and simplifying Quarto slides for Pand
 
 # Quarto to PPTX Conversion Best Practices
 
-When converting Quarto (`.qmd`) presentations to PowerPoint (`.pptx`) via Pandoc, complex slide structures often fail to render correctly. This document provides a set of best practices and instructions to help you create a **simplified version** of an existing Quarto presentation. **Alternatively, these guidelines can be used from the very beginning when creating a new presentation from scratch, ensuring it is fully PPTX-compliant right from the start.**
+When converting Quarto (`.qmd`) presentations to PowerPoint (`.pptx`) via Pandoc, complex HTML layouts and Quarto-specific blocks often fail to render correctly. 
 
-The primary goal of this skill is to adapt or strip away complex HTML wrappers, custom layouts, and Quarto-specific blocks (like callouts) that do not translate well into PowerPoint, while preserving the core content and meaning. By following these guidelines, you ensure a clean, professional, and error-free PPTX export.
+This document serves a dual purpose:
+1. **For AI Assistants:** It acts as a strict instruction set (a "skill") to autonomously simplify existing Quarto slides for a clean PPTX export.
+2. **For OSC Members:** It serves as a manual to write PPTX-compliant Quarto presentations from scratch, or to review AI-generated simplifications.
+
+The primary goal is to adapt or strip away incompatible wrappers (like `<div style="...">`) and elements (like `::: {.callout-...}`), while preserving 100% of the core content and meaning. Following these guidelines helps minimize formatting errors and provides a solid baseline for achieving a clean, professional PPTX export.
 
 ## Meta-Information for AI and OSC Members
 

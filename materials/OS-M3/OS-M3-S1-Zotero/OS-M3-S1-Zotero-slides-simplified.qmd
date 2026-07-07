@@ -65,11 +65,27 @@ This work was originally created by Pat Callahan and Dejana Damjanovic under a C
 
 **Important:** Before completing this submodule, please carefully read the following prerequisites.
 
+::: {.content-hidden when-format="pptx"}
+<div style="font-size: 0.6em;"> 
+
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| Zotero and Zotero Connector | Citation tool and extension | Download [Link](https://www.zotero.org/download/) |
+| Zotero and Zotero Connector | Citation tool and extension | [Download Link](https://www.zotero.org/download/) |
 | R | Version 4.5. or higher | [Download Link](https://cran.rstudio.com/) |
 | RStudio | Version 2026.01.1+403 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
+
+</div>
+:::
+
+::: {.content-visible when-format="pptx"}
+
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| Zotero and Zotero Connector | Citation tool and extension | [Download Link](https://www.zotero.org/download/) |
+| R | Version 4.5. or higher | [Download Link](https://cran.rstudio.com/) |
+| RStudio | Version 2026.01.1+403 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
+
+:::
 
 ::: {.notes}
 **Presenter Notes**: Before we begin this submodule, please take a moment to review the prerequisite listed here. Based on the previous sessions, you should all have R and RStudio installed, please check which versions you have. One additional pre-requisite is the Zotero tool and the Zotero connector, which we will need for the practical part today. 
@@ -239,21 +255,6 @@ In everyday life, you might respond, ‘Trust me, bro!’ and leave it at that. 
 This is why we cite sources: to show the origin of our knowledge and allow others to verify or follow up on it.”
 
 **Instructor Notes**:  Use this humorous, relatable example to introduce the concept of citations and references (feel free to edit the example). Highlight the difference between casual claims and scientific claims to make the importance of referencing concrete. Encourage learners to think of examples from their own fields where citing sources would be necessary.
-:::
-
----
-
-## What are citations and references?
-
-- **Citations** are the **in‑text pointers** to sources you use (e.g., Sharma, 2025). 
-
-![](images/02_citation_example.jpg)
-
-::: {.notes}
-**Presenter Notes**: Citations are the short pointers you include directly in the text to indicate where a piece of information comes from, typically with an author name and year. Citations help you navigate to the reference list, where you can discover the complete details of the mentioned paper.
-
-**Accessibility Tips**:  
-Verbally describe what is shown in the image for learners who may not be able to see them clearly. Allow a brief pause after the definition so learners have time to connect the text explanation with the visual example.
 :::
 
 ---
