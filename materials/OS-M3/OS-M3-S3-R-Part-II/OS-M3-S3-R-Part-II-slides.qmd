@@ -13,8 +13,8 @@ format:
     geometry: 
       - top=30mm
       - left=30mm
-  pptx: 
-    reference-doc: ../../../assets/template.pptx
+#  pptx: 
+#    reference-doc: ../../../assets/template.pptx
 
 execute:
   echo: true
