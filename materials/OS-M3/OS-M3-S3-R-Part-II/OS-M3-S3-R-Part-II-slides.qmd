@@ -22,20 +22,6 @@ execute:
   engine: knitr
 ---
 
-## Feedback Slide Sarah - delete at the end
-
-- I saw your comment for the QR code for practical exercise 3; particify (the software we use for generating quizzes and surveys etc) has permanent QR codes - I would perhaps eliminate the QR code and keep the hyperlink as well as the actual link in case learners cannot click the link etc, they could look for it manually in their browser?
-
-- on the final words slide you mention this: - **AI is a helpful tool:** Using AI to write code, navigate complex documentation, or troubleshoot errors is becoming increasingly widespread. However, the foundational understanding you built today is essential to verify and adapt the output. I am wondering if we would need an extra slide to perhaps tell learners about how to use AI responsibily and also specific tools for code and troubleshooting? This feels like it could be a slide deck in itself, and we are promoting it without giving examples and only highlighting the complexity in passing? Thoughts?
-
-- additional resources slide: I would hyperline the "interactive course on R" and the provide the full link in brackets (for accessibility, also for the next bullet point)
-
-- for accessibility: use hyperlinks, but also always the full links spelled out on the slide somewhere in case learners do not have the slides in front of them and need to manually access the links in their browser. 
-
-
-
----
-
 ## Licence {.smaller}
 
 <p style="text-align:center;">
@@ -84,9 +70,16 @@ Before completing this submodule, please carefully read about the prerequisites.
 | Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
 | Basic R skills | 3.2. Introduction to R - Part I |  Module 3.2. |
-| RStudio | Version 2025.05.1+513 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
-| R | Version 4.4.3 or higher | [Download Link](https://www.r-project.org/) |
+| RStudio | Version 2025.05.1+513 or higher | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
+| R | Version 4.4.3 or higher | [Download R](https://www.r-project.org/) |
 </div>
+
+<br>
+
+**Links:**
+
+- RStudio: https://posit.co/download/rstudio-desktop/
+- R: https://www.r-project.org/
 
 
 ::: {.notes}
@@ -547,15 +540,10 @@ library(haven)
 ## Preparation for working with data
 
 - To start analyzing data, we first need to download it to our local machine.
-- Click [**here**](https://github.com/nickhaf/r_tutorial/tree/main/raw_data) to download the `characters.rds` file or scan the QR code below.
+- Click [**here**](https://github.com/nickhaf/r_tutorial/tree/main/raw_data) to download the `characters.rds` file use the link below.
 
-::: {style="text-align: center;"}
-![](images/qr_data.png){style="width:30%;"}
-:::
+<https://github.com/nickhaf/r_tutorial/tree/main/raw_data>
 
-<div style="font-size: 0.6em;">
-<span style="color:red"> From David: I'm not sure if the qr code will be permanent, since I used a free online qr code generator. The url to the data is https://github.com/nickhaf/r_tutorial/tree/main/raw_data</span>
-</div>
 
 ::: {.notes}
 **Presenter Notes**: Before we can load and inspect data, we need to have it on our computers. Please use the link or scan the QR code to download the `characters.rds` file. This dataset contains fun information about TV show characters, specifically from "Brooklyn Nine-Nine" and "Community", including variables like their show's name and a "notability" score. We will use this dataset to practice data exploration and visualization.
@@ -660,7 +648,9 @@ Before analyzing data, you must **familiarize yourself** with its **structure**.
 
 ::: {.callout-tip}
 ## Codebooks
-Variable names are often abbreviated. It is highly advisable to use a **codebook** for precise definitions. Check out our [training material on data dictionaries](https://lmu-osc.github.io/data-documentation-validation-R/02-data-dictionaries/page1.html) to learn more!
+<div style="font-size: 0.8em;">
+Variable names are often abbreviated. It is highly advisable to use a **codebook** for precise definitions. Check out our [training material on data dictionaries](https://lmu-osc.github.io/data-documentation-validation-R/02-data-dictionaries/page1.html) to learn more (https://lmu-osc.github.io/data-documentation-validation-R/02-data-dictionaries/page1.html)!
+</div>
 :::
 
 
@@ -802,10 +792,6 @@ The answer for this question is B.
 
 # Break! 15 minutes
 
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: Is it okay how I divided the remaining content in R part 2 (it is a bit more content in the first half before the break than in the second half after the break)? SvG: to me this is good! Practical exercices, depending on the length, can be a small break too, and there are lots of those so I think you are good?</span>
-</div>
-
 ---
 
 ## Post-break quiz discussion
@@ -867,14 +853,12 @@ As discussed in **Part I**, we can use **indexing tools** (`$` and `[]`) to acce
 
 **Subsetting by conditions**
 
-:::incremental
 <div style="font-size: 0.8em;">
 - [ ] Create a new section in your script using a comment.
 - [ ] Apply your indexing knowledge from Part I to filter the rows of the `characters` data frame to include only observations where the `uni_name` is exactly `"Brooklyn Nine-Nine"` **OR** `"Community"`.
 - [ ] Assign this subset to a new object named `relevant_data`.
 - [ ] Run the code, then use the `table()` function on `relevant_data$uni_name` to check how many characters from each show are in your new subset.
 </div>
-:::
 
 ::: {.callout-tip}
 ## Syntax Hint
@@ -1185,8 +1169,8 @@ Import $\rightarrow$ Tidy / Transform $\rightarrow$ Visualize / Model $\rightarr
 
 ::: incremental
 <div style="font-size: 0.8em;">
-- **Advanced visualizations:** Packages like [`ggplot2`](https://ggplot2.tidyverse.org/) allow you to create stunning, highly customized graphics.
-- **Interactivity:** Packages like [`shiny`](https://shiny.posit.co/) let you build interactive web applications for your data.
+- **Advanced visualizations:** Packages like [`ggplot2`](https://ggplot2.tidyverse.org/) (https://ggplot2.tidyverse.org/) allow you to create stunning, highly customized graphics.
+- **Interactivity:** Packages like [`shiny`](https://shiny.posit.co/) (https://shiny.posit.co/) let you build interactive web applications for your data.
 - **Reproducibility:** By scripting your analysis, anyone (including future you) can re-run your exact steps with zero guesswork.
 </div>
 :::
@@ -1215,6 +1199,11 @@ Learning R is exactly like learning a new spoken language. It **takes time, prac
 Great job today!
 </div>
 
+<div style="font-size: 0.4em;">
+<span style="color:red;">SvG: I am wondering if we would need an extra slide to perhaps tell learners about how to use AI responsibly and also specific tools for code and troubleshooting? This feels like it could be a slide deck in itself, and we are promoting it without giving examples and only highlighting the complexity in passing? Thoughts?</span>
+<span style="color:red;">David: Since the topic of AI and tools changes so fast, a dedicated and detailed slide deck might already be outdated before it is even online. But I see your point! A single slide with some general tips and a rough overview of possibilities sounds like a good idea. I've added a draft slide right after "Final words" for you to adapt, move, or delete as you see fit.</span>
+</div>
+
 ::: {.notes}
 **Presenter Notes**: To wrap up, remember that learning R is like learning a new language. It feels unfamiliar at first, and syntax errors are completely normal. Even professionals use AI constantly to write scripts, bypass lengthy documentation, and troubleshoot errors. However, the foundational understanding you gained today is what allows you to actually evaluate and verify the solutions it provides. Do not get discouraged by red text in the console. Save the script you built today, use it as a reference, and keep practicing. Great job today!
 
@@ -1223,7 +1212,74 @@ Great job today!
 
 ---
 
-# Wrapping Up
+## Using AI as a Coding Assistant
+
+<div style="font-size: 0.85em;">
+AI tools can significantly speed up your learning and coding process, but they require critical thinking. 
+</div>
+
+::: incremental
+<div style="font-size: 0.8em;">
+- **Verify everything:** AI can hallucinate or suggest outdated functions. You must still read, understand, and test the code it generates.
+- **Provide good context:** When troubleshooting, provide the AI with your exact error message and the structure of your data (e.g., using `str()`).
+- **Data Privacy is critical:** Never paste sensitive, personal, or unpublished research data into public AI chatbots!
+- **Common Tools:** 
+  - *Conversational Chatbots* (e.g., ChatGPT, Claude) are great for explaining concepts and debugging errors.
+  - *Coding Environments (IDEs) with AI:* Tools integrated directly into where you write code (your IDE, like RStudio). Examples include [GitHub Copilot](https://github.com/features/copilot) (https://github.com/features/copilot) and [Cursor](https://www.cursor.com/) (https://www.cursor.com/). A major advantage is that they can "see" your entire project. This allows you to chat with the AI and have it provide highly relevant inline suggestions or directly implement code into your script, without needing to manually copy-paste context.
+</div>
+:::
+
+::: {.notes}
+**Presenter Notes**: As AI tools become deeply integrated into programming workflows, it's important to use them responsibly. They are excellent co-pilots for troubleshooting red text in the console or figuring out how to approach a new task. However, they are not infallible. You must understand the foundations of R to verify if the AI's code actually does what you need. When it comes to tools, you can use standalone chatbots, or integrations directly within your programming environment (also called an IDE, like RStudio). Integrations have the benefit of "seeing" your entire script, so you don't have to copy-paste as much context. Most importantly, remind learners about data privacy: public AI models often train on user inputs, so sensitive data should never be shared with them!
+
+**Instructor Notes**: Frame AI as an assistant, not a replacement for learning the basics.
+:::
+
+---
+
+## Take-home messages
+
+::: incremental
+- Working Directories and Packages → **essential prerequisites** for accessing files and expanding R's capabilities.
+- Subsetting data → allows you to **filter and isolate** the exact observations you need for your analysis.
+- Summary functions and visualizations → provide a **quick and comprehensive understanding** of your data structures and distributions.
+:::
+
+
+::: {.notes}
+**Presenter Notes**:
+To conclude this part, there are three key ideas to remember.
+First, correctly setting your Working Directory and loading necessary packages are the non-negotiable first steps of any R session. Without them, you cannot access your data or advanced tools.
+Second, subsetting is central to data analysis. You rarely work with a full raw dataset at once; instead, you filter specific rows based on logical conditions to answer targeted questions.
+And third, basic statistics and visualizations go hand in hand. Using summary functions alongside plots like histograms gives you a complete picture of your data's shape and distribution.
+
+**Instructor Notes**:
+Keep this slide concise and use it as a clear closure of the R part 2 section.
+:::
+
+---
+
+## Learning goals: Check-In
+
+Where are we at?
+
+::: incremental
+- [ ] To **identify** and set the correct Working Directory on your computer.
+- [ ] To **install** and **load** R packages to extend R's functionality.
+- [ ] To **import** external data into the R environment.
+- [ ] To **inspect** data structures and **extract** specific columns.
+- [ ] To **compute** basic statistical summaries on a dataset.
+- [ ] To **visualize** data distributions using simple histograms.
+:::
+
+::: {.notes}
+**Presenter Notes**:
+Let us pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one.
+If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.
+
+**Instructor Notes**: Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all goals at this stage.
+Keep the discussion supportive and brief,nfocusing on clarifying concepts rather than introducing new material.
+:::
 
 ---
 
@@ -1279,55 +1335,6 @@ Make sure to comment your code so you know exactly what each line does when you 
 
 **Instructor Notes**:
 Clarify that this is a practice exercise rather than a graded assessment. Encourage learners to explore variables in the dataset they haven't looked at yet. Reassure them that running into errors during subsetting is normal and part of the learning process.
-:::
-
----
-
-## Take-home messages
-
-::: incremental
-- Working Directories and Packages → **essential prerequisites** for accessing files and expanding R's capabilities.
-- Subsetting data → allows you to **filter and isolate** the exact observations you need for your analysis.
-- Summary functions and visualizations → provide a **quick and comprehensive understanding** of your data structures and distributions.
-:::
-
-<div style="font-size: 0.6em;">
-<span style="color:red">From David: I used R part 1 and its subchapters as a guide. But do we really need the take-home message here? It feels redundant after "## The Big Picture: R in Data Science", "The Power of R: What comes next?" etc. and since "## Learning goals: Check-In" is the next slide. SARA COMMENT: I see your point. I would remove the check in slide and keep the slide of final takehome messages with piece of advice learners can take away. DAVID: Should I really (of all slides) remove the check in slide? I thought the check in in the beginning and at the end of a session is a typical element used in most of these quarto presentations here. SVG comment: To me the take home messages can stay (rep is good perhaps? but I would move it after the final words? I would also move the learning goal check in nefore the looking to the future part? And remove the header 1 wrapping up slide, just straight to looking to the future slide?</span>
-</div>
-
-::: {.notes}
-**Presenter Notes**:
-To conclude this part, there are three key ideas to remember.
-First, correctly setting your Working Directory and loading necessary packages are the non-negotiable first steps of any R session. Without them, you cannot access your data or advanced tools.
-Second, subsetting is central to data analysis. You rarely work with a full raw dataset at once; instead, you filter specific rows based on logical conditions to answer targeted questions.
-And third, basic statistics and visualizations go hand in hand. Using summary functions alongside plots like histograms gives you a complete picture of your data's shape and distribution.
-
-**Instructor Notes**:
-Keep this slide concise and use it as a clear closure of the R part 2 section.
-:::
-
----
-
-## Learning goals: Check-In
-
-Where are we at?
-
-::: incremental
-- [ ] To **identify** and set the correct Working Directory on your computer.
-- [ ] To **install** and **load** R packages to extend R's functionality.
-- [ ] To **import** external data into the R environment.
-- [ ] To **inspect** data structures and **extract** specific columns.
-- [ ] To **compute** basic statistical summaries on a dataset.
-- [ ] To **visualize** data distributions using simple histograms.
-:::
-
-::: {.notes}
-**Presenter Notes**:
-Let us pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one.
-If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.
-
-**Instructor Notes**: Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all goals at this stage.
-Keep the discussion supportive and brief,nfocusing on clarifying concepts rather than introducing new material.
 :::
 
 ---
@@ -1400,13 +1407,13 @@ See you next time!
 
 ## Additional resources
 
-- Datacamp offers a free, interactive course on R online: [link to the course](https://www.datacamp.com/courses/free-introduction-to-r).
-- The LMU Open Science Center provides a comprehensive R tutorial: [link to the OSC tutorial](https://lmu-osc.github.io/introduction-to-R/).
+- Datacamp offers a free, [interactive course on R](https://www.datacamp.com/courses/free-introduction-to-r) online (https://www.datacamp.com/courses/free-introduction-to-r).
+- The LMU Open Science Center provides a [comprehensive R tutorial](https://lmu-osc.github.io/introduction-to-R/) (https://lmu-osc.github.io/introduction-to-R/).
 
 ::: {.notes}
 **Presenter Notes**:  
 If you’d like to continue practicing R after this session, there are optional additional resources available.  
-Datacamp offers a free, interactive introduction to R, where you can practice directly in your browser. We also highly recommend the LMU OSC's own Introduction to R tutorial, which is a great comprehensive guide. These are useful ways to reinforce what we covered today and get more comfortable with writing code at your own pace.  
+Datacamp offers a free, interactive introduction to R, where you can practice directly in your browser. We also highly recommend the LMU OSC's own Introduction to R tutorial, which is a great comprehensive guide. These are useful ways to reinforce what we covered today and get more comfortable with writing code at your own pace.
 You are not required to complete them, but they can be helpful if you want extra practice or a more structured introduction to R outside of class.
 
 **Instructor Notes**:  
