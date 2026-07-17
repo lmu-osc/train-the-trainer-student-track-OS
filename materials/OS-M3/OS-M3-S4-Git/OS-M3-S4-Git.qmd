@@ -2,11 +2,11 @@
 title: "3.4. Introduction to version control with Git in RStudio"
 ---
 
-> Something nice here
+> Git it together.
 
 # About these materials
 
-**Welcome!** This workshops is intended to provide learners with a deeper understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps  and decision making process. We will also learn how to use tools to facilitate collaboration across different groups and people. 
+**Welcome!** This workshop is intended to provide learners with a deeper understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps  and decision making process. We will also learn how to use tools to facilitate collaboration across different groups and people. 
 
 
 ### Who are these materials for?
@@ -15,7 +15,7 @@ The target audience of this workshop is twofold:
 
 - **Self-learners** with no prior experience with version control, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Presenter notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
 
-- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with speaker and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
+- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
 
 
 
@@ -32,7 +32,7 @@ The target audience of this workshop is twofold:
 </div>
 
 
-## Learning objectives
+## Learning goals
 
 - **Understand** the problem(s) that can be solved by version control
 - **Install** and **configure** Git 
@@ -44,6 +44,10 @@ The target audience of this workshop is twofold:
 
 # Materials
 
+::: {.callout-note}
+In contrast to other materials, the estimate delivery time for these materials are approximately 3 hours. If you have a shorter lesson slot, you can find a proposed lesson plan in the instructor notes in the slides.
+:::
+
 [Click here to see the materials in full Screen](OS-M3-S4-Git-slides.qmd)
 
 ```{=html}
@@ -51,7 +55,7 @@ The target audience of this workshop is twofold:
 ```
 
 
-## Download files
+## Supplementary files - TO DO
 
 ### Practical exercises - solutions
 
@@ -72,7 +76,6 @@ Download the csv file for the example data:
 
 You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
 
-
 {{< downloadthis OS-M3-S4-Git-slides.pptx dname="OS-M3-S4-Git-slides" label="Download slides as PPTX">}}
 
 {{< downloadthis OS-M3-S4-Git-slides.pdf dname="OS-M3-S4-Git-slides" label="Download slides as PDF">}}
@@ -91,7 +94,7 @@ You can export these slides as PowerPoint by pressing the button below. Note tha
 <br>
 
 <p style="text-align:center;">
-  <img src="https://licensebuttons.net/l/by/4.0/88x31.png"
+  <img src="images/cc-by-sa.png"
        alt="CC BY 4.0"
        style="height:50px;">
 </p>

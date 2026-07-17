@@ -8,11 +8,11 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../OSC_FORRT_Logo.png  # Inserts logo in the bottom right corner (default)
-  pdf:
-    geometry:
-      - top=30mm
-      - left=30mm
+    logo: ../../../OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+ # pdf:
+   # geometry:
+    #  - top=30mm
+    #  - left=30mm
   #pptx: 
     #css: ../../../slides-custom.css # looks for css file in root
 
@@ -114,7 +114,7 @@ You have copied all the materials from the LMU OSC Collaborative-RStudio-GitHub 
 
 ---
 
-## Questions from previous submodule
+## Questions from the previous submodule
 
 <br>
 <br>
