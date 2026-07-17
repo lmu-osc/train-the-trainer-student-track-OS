@@ -1,0 +1,3107 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.38">
+
+  <meta name="author" content="LMU Open Science Center">
+  <title>Educational resources for teaching Open Research to novices – Introduction to R: Part I</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
+  <link rel="stylesheet" href="../../../slides-custom.css">
+  <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Introduction to R: Part I</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+LMU Open Science Center 
+</div>
+</div>
+</div>
+
+  <p class="date">17/07/2026</p>
+</section>
+<section id="licence-and-citation" class="slide level2 smaller">
+<h2>Licence and citation</h2>
+<p style="text-align:center;">
+<img src="images/cc-by-sa.png" alt="Creative Commons Attribution 4.0 SA" style="width:160px;">
+</p>
+<p>This work was originally created by <a href="https://orcid.org/0000-0001-9035-4483">Nicklas Hafiz</a> and is licenced under a CC-BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 SA International License</a>. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Universal Licence</a>.</p>
+<p>His work was subsequently adapted by <a href="https://orcid.org/0009-0006-4783-1110">Caterina Luz Sanchez Steinhagen</a>, Tejaswini Sharma, <a href="https://orcid.org/0009-0004-3701-3101">David Rieger</a>, <a href="https://orcid.org/0009-0006-3725-6730">Elizabeth Waterfield</a> and <a href="https://orcid.org/0000-0002-6413-3895">Sarah von Grebmer zu Wolfsthurn</a>.</p>
+<p>Please cite as ADD ZENODO REPO.</p>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="contribution-statement" class="slide level2">
+<h2>Contribution statement</h2>
+<p><strong>Creator</strong>: Sanchez Steinhagen, Caterina Luz (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/0009-0006-4783-1110">0009-0006-4783-1110</a>)</p>
+<p><strong>Creator</strong>: Sharma, Tejaswini (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/my-orcid?orcid=0000-0000-0000-0000">0000-0000-0000-0000</a>) CHANGE</p>
+<p><strong>Creator</strong>: Waterfield, Elizabeth (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/0009-0006-3725-6730">0009-0006-3725-6730</a>)</p>
+<p><strong>Creator</strong>: Rieger, David (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/0009-0004-3701-3101">0009-0004-3701-3101</a>)</p>
+<p><strong>Reviewer</strong>: Von Grebmer zu Wolfsthurn, Sarah (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: These are the <strong>presenter notes</strong>. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter.</p>
+<p><strong>Instructor Notes</strong>: There are also <strong>instructor notes</strong>. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.</p>
+<p><strong>Accessibility Tips</strong>: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="prerequisites---check-versions" class="slide level2">
+<h2>Prerequisites - CHECK versions</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>Before completing this submodule, please carefully read about the prerequisites.</p>
+</div>
+</div>
+</div>
+<div style="font-size: 0.6em;">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Prerequisite</th>
+<th>Description</th>
+<th>Where to find it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RStudio installed</td>
+<td>Version Version 2026.04.0+526 or higher</td>
+<td><a href="https://posit.co/download/rstudio-desktop/">Download</a></td>
+</tr>
+<tr class="even">
+<td>R installed</td>
+<td>Version 4.5.2 or higher</td>
+<td><a href="https://www.r-project.org/">Download</a></td>
+</tr>
+<tr class="odd">
+<td>Accessibility sheet for computers</td>
+<td>Fundamentals of computer literacy</td>
+<td><a href="assets/Accessibility_sheet_for_computers_OSSS26.pdf">Download</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Before starting this submodule, there are two important technical prerequisites.<br>
+First, you should have R installed, and second, you should have RStudio installed. These are the tools we will use to run and explore simulations during the tutorial.<br>
+The table on the slide shows the recommended versions and where you can download them if needed. If you already worked with R before, you likely already have these installed.<br>
+If not, you can install them using the links provided. If you run into issues, this is a good moment to ask for help before we move on to the tutorial.”</p>
+<p><strong>Instructor Notes</strong>: Quickly verify whether learners have the required software installed before moving to the practical tutorial. If several students do not have the software yet, briefly explain that they can still follow conceptually and install it later. Avoid spending too much class time on troubleshooting installations unless the session is designed for setup.</p>
+<p><strong>Accessibility Tips:</strong><br>
+Consider pairing students if someone does not have the software installed. Refer to the accessibility sheet in the download section.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="before-we-start-survey-time" class="slide level2">
+<h2>Before we start: Survey time!</h2>
+<p><br></p>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+<p><strong>Let us find out where are you at!</strong></p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>:<br>
+Before we move on, we’ll take a short survey. The aim here is to understand your current familiarity with specific elements of this session. In the next few slides, you’ll see some questions that invite you to reflect on where you are starting from. This is not a test, and it is not about getting the right answers. If you are unsure, that is completely fine, just respond based on what feels closest to your current understanding.</p>
+<p><strong>Instructor Notes</strong>:<br>
+Set a low-stakes, supportive tone before beginning the survey. Emphasize that uncertainty is expected and valuable for measuring learning progress.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>What is your level of familiarity with R and RStudio?</strong></p>
+<ol type="a">
+<li><p>I have never heard of it before</p></li>
+<li><p>I have heard of it but have never worked with it</p></li>
+<li><p>I have basic understanding and experience with it</p></li>
+<li><p>I am very familiar and have worked with it extensively</p></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio)?</strong> <br> <em>(1 = Not intimidated at all, 5 = Very intimidated)</em></p>
+<ol type="a">
+<li><p>1</p></li>
+<li><p>2</p></li>
+<li><p>3</p></li>
+<li><p>4</p></li>
+<li><p>5</p></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>Have you used any programming language (R, Python, JavaScript, C) before?</strong></p>
+<ol type="a">
+<li><p>No, never</p></li>
+<li><p>Yes, a little (e.g., basic commands)</p></li>
+<li><p>Yes, moderately (e.g., small projects)</p></li>
+<li><p>Yes, extensively (e.g., on an almost daily basis)</p></li>
+</ol>
+</section>
+<section id="discussion-of-survey-results" class="slide level2">
+<h2>Discussion of survey results</h2>
+<p><br></p>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+<p>What do we see in the results?</p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let us have a look at these results.</p>
+<p><strong>Instructor Notes</strong>: The aim is to understand the group’s current standing in terms of knowledge and familiarity. Emphasize explicitly that the survey is not about correct or incorrect answers. Avoid evaluating answers.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="learning-goals" class="slide level2">
+<h2>Learning goals</h2>
+<ul>
+<li class="fragment">To <strong>navigate</strong> the RStudio interface (Console, Environment, Script, and Output panes).</li>
+<li class="fragment">To <strong>differentiate</strong> between basic data types in R (numeric, character, logical, integer) and how they are used.</li>
+<li class="fragment">To <strong>execute</strong> operations in the Console and R Script using appropriate operators.</li>
+<li class="fragment">To <strong>assign</strong> and <strong>re-assign</strong> values, vectors, and lists to objects.</li>
+<li class="fragment">To <strong>specify</strong> arguments within functions to modify how the function produces its output.</li>
+<li class="fragment">To <strong>index</strong> dataframes to access and retrieve specific information.</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: This slide outlines the learning goals for the session. At this stage, you are not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="key-terms-and-definitions" class="slide level2">
+<h2>Key terms and definitions</h2>
+<p>You might see some words for the first time or some familiar words used in a different way. What do you associate with the terms below?</p>
+<ul>
+<li><strong>RStudio</strong></li>
+<li><strong>R command</strong></li>
+<li><strong>Run</strong></li>
+<li><strong>Comment</strong></li>
+<li><strong>Operator</strong></li>
+<li><strong>Operation</strong></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: These are key terms we will revisit throughout the lesson. What comes to mind when you see each of them? Which ones are familiar, and which feel new? Take a moment to think about what they might mean.</p>
+<p><strong>Instructor Notes</strong>: Use a think-pair-share approach. First, have learners reflect individually on their associations with each term for a few minutes, then discuss in pairs for a few minutes, and finally share with the group. Allow about 10 minutes for this activity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="key-terms-and-definitions-1" class="slide level2">
+<h2>Key terms and definitions</h2>
+<ul>
+<li class="fragment"><strong>RStudio</strong>: A program that provides an easy-to-use interface for writing and running R code.<br>
+</li>
+<li class="fragment"><strong>R command</strong>: A line of code that tells R to do something.<br>
+</li>
+<li class="fragment"><strong>Run</strong>: To execute an R command so that R carries out the instruction and shows the result.<br>
+</li>
+<li class="fragment"><strong>Comment</strong>: Text in your code (starting with <code>#</code>) that R ignores. You can use this function to explain what the code does or make notes throughout your work.</li>
+<li class="fragment"><strong>Operator</strong>: A symbol (such as <code>+, -, *, &lt;,</code> or <code>==</code>) that tells R to perform a specific action.</li>
+<li class="fragment"><strong>Operation</strong>: The action performed using one or more operators on data or values.</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter notes</strong>: Let’s go through what these key terms mean, and remenber that this will become less and less abstract as we go:</p>
+<ul>
+<li><p>RStudio is the environment we’ll be working in. This is where you write and execute your code. Think of it as your workspace.</p></li>
+<li><p>An R command is simply an instruction you give to R. It could be something as simple as a calculation or storing a value.</p></li>
+<li><p>When we say “run” code, we just mean executing that command so R actually performs the action and shows you the result.</p></li>
+<li><p>Comments are notes you write for yourself or others in your code. They start with a hashtag, and R ignores them.</p></li>
+<li><p>An operator is simply the symbol that tells R what action to perform, such as + or ==.</p></li>
+<li><p>An operation is the complete expression where that operator is applied, such as 5 + 3 or x &gt; 10. In other words, the operator is the instruction, while the operation is the action being carried out.”</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-is-r" class="slide level2">
+<h2>What is R?</h2>
+<p>R (<a href="https://www.r-project.org/">https://www.r-project.org/</a>) is an <strong>free and open source</strong> programming language</p>
+<ul>
+<li class="fragment">Originally designed by statisticians for statisticians</li>
+<li class="fragment">Wide range of applications: <strong>data manipulation, visualization, interactive web applications</strong>, <strong>generation of full manuscripts and reports</strong></li>
+</ul>
+<p>Why R?</p>
+<ul>
+<li class="fragment">Knowledge of statistical software like R is useful when <strong>conducting quantitative research</strong></li>
+<li class="fragment">Has a <strong>large online support</strong> community</li>
+<li class="fragment">Provides freely available <strong>resources</strong></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s start with the basics: What exactly is R? R is a programming language specifically designed for data analysis and statistics. Originally, R was designed by statisticians for statisticians. That means its core purpose wasn’t general software development, but rather making statistical analysis easier, more accessible, and more reproducible. Over time, however, R has evolved far beyond its original purpose. Today it supports a wide range of applications. It is commonly used for data manipulation, where users can clean, reshape, and transform large datasets efficiently. It is also widely used for data visualization, producing everything from quick exploratory plots to high-quality, publication-ready graphics.</p>
+<p>It is also free and open source, which means anyone can download and use it, and developers from all over the world contribute to improving it. This has resulted in a large online community, so if you ever run into a problem, chances are someone else has had the same issue and posted a solution online. And because of that community, there are also countless free learning resources: tutorials, blog posts, videos, books, and packages that extend R’s functionality.</p>
+<p><strong>Instructor Notes</strong>:<br>
+Keep this introduction brief and motivational. The goal is not to teach R, but to position it as an accessible and useful tool for research. You may optionally point students to the official R website or a beginner friendly resource, but avoid going into technical detail.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-rstudio-environment" class="slide level2 smaller">
+<h2>The RStudio environment</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<div style="text-align: center;">
+<p><img src="images/R_screen1.png"></p>
+</div>
+</div><div class="column" style="width:20%;">
+<p>Open <strong>RStudio</strong> and check if you can see everything that’s on the slide.</p>
+<p><br></p>
+<p><em>(You might only see three panes on your screen)</em></p>
+</div></div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: RStudio is the main program we’ll be using to interact with R throughout this course. It’s designed to make working with R much more organised and easier to follow. On this slide, you can see the four main panes of the RStudio interface: In the top left, you’ll find the script editor, this is where you usually write and edit your code.<br>
+In the top right, there’s the Environment pane, which shows the objects you’ve created, like datasets or variables, so you can keep track of what’s currently loaded.<br>
+In the bottom left is the Console. This is where R actually runs your commands and shows the output.<br>
+And in the bottom right, you’ll see the Output panel for things like plots, help files, and packages.<br>
+Now, take a moment to open RStudio on your device and check if you can identify these panes. You might only see three panes at first, that is completely normal.</p>
+<p><strong>Instructor Notes</strong>: Pause briefly and allow students to open RStudio. Walk around if possible and help students locate panes. Reassure them that layouts may differ slightly (e.g., missing script pane until a file is opened). Keep this activity short and focused on orientation, not functionality.</p>
+<p><strong>Accessibility Tips</strong>: Verbally describe each pane clearly and allow extra time for students to locate them. Offer assistance to students who may struggle with navigation or opening the software.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mathematical-operations" class="slide level2">
+<h2>Mathematical operations</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Operation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>+</code></td>
+<td>Addition</td>
+</tr>
+<tr class="even">
+<td><code>-</code></td>
+<td>Subtraction</td>
+</tr>
+<tr class="odd">
+<td><code>*</code></td>
+<td>Multiplication</td>
+</tr>
+<tr class="even">
+<td><code>/</code></td>
+<td>Division</td>
+</tr>
+<tr class="odd">
+<td><code>^</code></td>
+<td>Exponentiation</td>
+</tr>
+<tr class="even">
+<td><code>sqrt()</code></td>
+<td>Square Root</td>
+</tr>
+<tr class="odd">
+<td><code>log()</code></td>
+<td>(Natural) Logarithm</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: In the Console, which is the bottom left pane in RStudio, we can directly run commands.<br>
+One of the simplest things we can do is perform basic mathematical calculations. R works very much like a calculator, but with more flexibility.<br>
+To do this, we use operators, i.e., symbols that represent mathematical operations. For example, plus for addition, minus for subtraction, and so on.<br>
+On this slide, you can see some of the most common ones. These include multiplication, division, powers, as well as functions like square root and logarithm.</p>
+<p>If you have RStudio open, you can try typing a simple calculation into the Console, like 2 plus 2, and see what happens.</p>
+<p><strong>Instructor Notes</strong>: Keep this very brief and hands-on. Encourage students to try 1–2 simple commands in the Console to build confidence. Avoid going into syntax details beyond basic operators.</p>
+<p><strong>Accessibility Tips</strong>: Say each operator aloud (e.g., “asterisk for multiplication”) to support learners unfamiliar with symbols.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-1" class="slide level2">
+<h2>Practical exercise 1</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Open RStudio on your device</label></li>
+</ul>
+<p>Using the table on the previous slide, run the following math operations directly in the <strong>Console</strong> of RStudio.</p>
+<ul class="task-list">
+<li><label><input type="checkbox"><code>12+17</code></label></li>
+<li><label><input type="checkbox"><code>218/3</code></label></li>
+<li><label><input type="checkbox"><code>357^2</code></label></li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Let’s use the Console!</strong></p>
+</div>
+<div class="callout-content">
+<p>You can run code from the Console by typing in the Console and then pressing Enter on your keyboard.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: We have now reached our first short hands-on exercise.<br>
+Using the Console in RStudio — that’s the bottom left pane — try running the following mathematical operations. Simply type them in and press Enter.<br>
+Note that for division in R, we use the forward slash. So instead of writing it as a fraction, you would type 218 divided by 3 using the slash.<br>
+Take a minute to try these out.</p>
+<p><strong>Instructor Notes</strong>: Give students 1–2 minutes to complete the exercise. Clarify the correct syntax for division if needed (<code>218/3</code>). Optionally demonstrate one example live in the Console. Walk around to assist students who may be unfamiliar with typing commands. Solution for this exercise is found at the end.</p>
+<p><strong>Accessibility Tips</strong>: Read out each command clearly and explain symbols (e.g., “slash for division”). Allow students to follow along at their own pace and provide support for those who may need help with keyboard input.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-r-script" class="slide level2">
+<h2>The R script</h2>
+<p>An R script is a <strong>text file</strong> containing your <strong>R commands</strong>.</p>
+<ul>
+<li><p>It is an easy way to save and share code</p></li>
+<li><p>You can run code from an R script by:</p>
+<ul>
+<li>Pressing <strong>Ctrl + Enter</strong> (Windows) OR <strong>Command + Enter</strong> on a (Mac) on the keyboard<br>
+</li>
+<li>click on <strong>Run</strong></li>
+</ul></li>
+<li><p>You can also add <strong>comments</strong> or <strong>notes</strong> to your code by using <code>#</code></p></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># Here is an example of using a comment </span></span>
+<span id="cb1-2"><a></a><span class="co"># sum up two numbers </span></span>
+<span id="cb1-3"><a></a><span class="dv">4</span><span class="sc">+</span><span class="dv">5</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 9</code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: In the previous exercise we only worked in the Console. But there’s one important limitation: anything you type there is not saved once you close RStudio.<br>
+That’s why we use R scripts. An R script is simply a file where you can write, save, and organize your code so you can come back to it later or share it with others.<br>
+To run code from a script, you place your cursor on a line,or highlight multiple lines, and then press Ctrl + Enter on Windows or Command + Enter on a Mac. You can also click the ‘Run’ button.<br>
+Another useful feature is comments. If you want to add notes or explanations that R should not execute as code, you use the hash symbol. Everything after that on the line is treated as a comment.<br>
+This helps make your code more readable and easier to understand — both for others and for your future self.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="creating-a-new-r-script" class="slide level2">
+<h2>Creating a new R script</h2>
+<div style="text-align: center;">
+<p><img src="images/R_screen2.png" style="width:70%;"></p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Now let’s look at how to create a new R script from scratch.<br>
+To do this, go to the File menu, then choose New File, and then select R Script. Alternatively, you can use the shortcut Ctrl + Shift + N.<br>
+Once the script opens, you can immediately start writing your code or notes.<br>
+It’s important to save your script early and in an organised folder, so you don’t lose your work. To save it, go to File and click Save, or use Ctrl + S.</p>
+<p><strong>Instructor Notes</strong>: Guide students step-by-step while they follow along. Ensure everyone successfully creates and saves a script before moving on. If needed, pause and repeat navigation steps slowly.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="saving-an-r-script" class="slide level2">
+<h2>Saving an R script</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Step 1</strong>: On your device</p>
+<ul>
+<li>Decide where this R script should go</li>
+<li>Create a <em>new folder</em></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/file_explorer.png" style="width:30.0%"></p>
+</div></div>
+<p><strong>Step 2</strong>: In RStudio</p>
+<ul>
+<li>After making a new R script, click on <code>File</code> → then click <code>Save As...</code></li>
+<li>→ Name the file → then choose the designated folder</li>
+<li>→ Click <code>Save</code></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: It is very important to be organised with how you save and store your work. We want to make sure we know where things are so we can retrieve it later, so here’s a quick run-through of some good practices when saving our R Script. First, go to where you want to store this R Script on your device- it can be on your desktop, a folder you already have, or even one you made specifically for this session. Create a new folder there and let’s name it “R Lesson”. Back in RStudio, after creating a new R Script, we want to save it before we even start adding any code. We do this by clicking on “File” at the top-left corner. In the drop down menu, we click “Save As…” since this is the first time saving the document, give it a name such as “R Script 1”, navigate to the folder we just created for this R Script, and then click “Save”. Great! Now you know exactly where your R Script is. You can now use “Save” (as opposed to Save As…) to save all the changes you will make to the file.</p>
+<p><strong>Instructor Notes</strong>: It may seem like a basic computer skill, but do NOT assume that everyone knows folder management and how to properly store + save Files to their device. This is an important section and can assist learners in how they manage their files beyond this lesson as well.</p>
+<p><strong>Accessibility Tips</strong>: Keep in mind that actions like “creating a folder” and “renaming” are all, in fact, learned skills that not everyone may have as yet. Always verbalize or demonstrate the instructions for even these seemingly basic tasks. Or, allow learners to work together with others who perform these actions regularly and can help out.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-2" class="slide level2">
+<h2>Practical exercise 2</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Create a new R script in RStudio</label></li>
+<li><label><input type="checkbox">Copy the comment below and add it to your empty R script</label></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="co"># This is my practice R Script</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul class="task-list">
+<li><label><input type="checkbox">Save it to the folder on your device</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: If you haven’t already, complete this practical exercise: create a new R script, write a comment in the first line using the hash symbol, and save it in a new folder dedicated to this course. If you already created and saved your R Script, add the comment and hit “Save”.</p>
+<p><strong>Instructor Notes</strong>: Clear up that the instructions in this exercise say to “Save” the RScript but since this is the first time we are saving it to our device, we do so by clicking “Save As…” not just “Save”. “Save” comes afterward- to save changes to the existing file already saved and stored somewhere on your device.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="logical-comparisons" class="slide level2">
+<h2>Logical comparisons</h2>
+<p>With <strong>R</strong>, you can also:</p>
+<ul>
+<li><p>Check if two numbers are <strong>equal or unequal</strong></p></li>
+<li><p>Check if a number is <strong>larger or smaller</strong> than another number</p></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="co"># Example 1:</span></span>
+<span id="cb4-2"><a></a><span class="dv">49</span> <span class="sc">==</span> <span class="dv">50</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="co"># Example 2:</span></span>
+<span id="cb6-2"><a></a><span class="dv">49</span> <span class="sc">&lt;</span> <span class="dv">50</span> </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
+<ul>
+<li><p>R returns a <strong>logical value</strong>:</p>
+<ul>
+<li><code>TRUE</code> or <code>FALSE</code></li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: R can do more than just calculations; it can also help us make decisions by comparing values. These are called logical comparisons. For example, we can ask R whether two numbers are equal, or whether one number is larger or smaller than another.<br>
+On the slide, you can see two simple examples: checking whether 49 is equal to 50, and whether 49 is less than 50.<br>
+When we run these commands, R doesn’t return a number — instead, it gives us a logical value: either TRUE or FALSE.<br>
+So, TRUE means the statement is correct, and FALSE means it is not.<br>
+These kinds of comparisons are very important, because they form the basis for more complex operations later on, like filtering data or writing conditions in code.</p>
+<p><strong>Instructor Notes</strong>: Keep the explanation intuitive and avoid introducing too many operators at once. Focus on understanding TRUE/FALSE outputs. Optionally demonstrate one example live. You may briefly mention combining conditions (AND, OR, NOT) but do not go into detail yet.</p>
+<p><strong>Accessibility Tips</strong>: Read the code examples aloud and explain symbols clearly (e.g., “double equals means ‘is equal to’”).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="logical-comparisons---operators" class="slide level2">
+<h2>Logical comparisons - operators</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Operation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>==</code></td>
+<td>Equals</td>
+</tr>
+<tr class="even">
+<td><code>!=</code></td>
+<td>Not Equal</td>
+</tr>
+<tr class="odd">
+<td><code>&gt;</code> and <code>&lt;</code></td>
+<td>Greater and Lesser Than</td>
+</tr>
+<tr class="even">
+<td><code>&gt;=</code> and <code>&lt;=</code></td>
+<td>Greater Than or Equal / Less Than or Equal</td>
+</tr>
+<tr class="odd">
+<td><code>&amp;</code></td>
+<td>logical AND</td>
+</tr>
+<tr class="even">
+<td><code>|</code></td>
+<td>logical OR</td>
+</tr>
+<tr class="odd">
+<td><code>!</code></td>
+<td>logical NOT</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Here you can see an overview of the most common logical operators in R.<br>
+These symbols allow us to compare values — for example, checking whether two numbers are equal, not equal, greater than, or less than each other.<br>
+In addition to simple comparisons, we can also combine multiple conditions.<br>
+For example, using AND means that both conditions need to be true, OR means that at least one condition needs to be true, and NOT reverses a condition.<br>
+You don’t need to memorise all of these right now — this is just to familiarise you with what’s possible. You’ll get more comfortable with them as you start using them in practice.”</p>
+<p><strong>Instructor Notes</strong>: Present this as a reference slide rather than content to be learned immediately. Focus on recognition, not recall. Avoid demonstrating all operators; one simple example (e.g., <code>49 &lt; 50 &amp; 50 &lt; 60</code>) is sufficient if needed.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-3" class="slide level2">
+<h2>Practical exercise 3</h2>
+<p><em><code>TRUE</code> or <code>FALSE</code>?</em></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Express the following statements in words and evaluate whether they are <code>TRUE</code> or <code>FALSE</code>.</label></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a>(<span class="dv">36</span> <span class="sc">+</span> <span class="dv">5</span>)<span class="sc">&gt;</span> <span class="dv">40</span></span>
+<span id="cb8-2"><a></a></span>
+<span id="cb8-3"><a></a>(<span class="dv">4</span> <span class="sc">==</span> <span class="dv">5</span>) <span class="sc">|</span> (<span class="dv">25</span> <span class="sc">&gt;</span> <span class="dv">17</span>)</span>
+<span id="cb8-4"><a></a></span>
+<span id="cb8-5"><a></a>(<span class="dv">5</span> <span class="sc">==</span> (<span class="dv">2</span> <span class="sc">+</span> <span class="dv">3</span>)) <span class="sc">&amp;</span> (<span class="dv">7</span> <span class="sc">&gt;=</span> <span class="dv">8</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul class="task-list">
+<li><label><input type="checkbox">Check your answers by copying and running the statements in <strong>your R Script</strong>.</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s try another short exercise.<br>
+Here, you’ll see a few logical statements written in R. Your task is to do two things:<br>
+First, translate each statement into plain words — what is it actually asking?<br>
+And second, decide whether the statement is TRUE or FALSE.<br>
+Take a moment to think through them, and then you can check your answers by running them in your R Script. The results will be shown in the Console.<br>
+For example, the first one is asking whether 36 plus 5 is greater than 40.<br>
+Take about one to two minutes to go through all three, and then we’ll quickly review them together.</p>
+<p><strong>Instructor Notes</strong>: Give students 1–2 minutes to attempt the exercise individually or in pairs. Encourage them to verbalise the statements in plain language before running them in R. Afterward, quickly confirm answers and clarify any confusion, especially around logical OR (<code>|</code>) and AND (<code>&amp;</code>).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="data-types" class="slide level2">
+<h2>Data types</h2>
+<p>Data types define what <strong>kind</strong> of values you are working with</p>
+<div style="text-align: center;">
+<p><img src="images/data_types_3.png" style="width:100%;"></p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Data types are essentially categories of data. They tell R what kind of value something is and it affects what processes and operations you carry out. We have already seen one type: logical values, which are simply TRUE or FALSE.<br>
+Numbers in R can be of different kinds. Most commonly, you’ll work with numeric values, including decimals. There are also integers, which are whole numbers without decimals.<br>
+Then we have text data, which are called characters. These always need to be written in quotation marks ” “.<br>
+Another important type is factors. These are used for categorical data with predefined levels. The difference between factor and character is a character is just text, but a factor is text that represents a category or group. For example, categories like hair color, such as brown, blonde, or black.</p>
+<p><strong>Instructor Notes</strong>: Keep the explanation conceptual. The goal is recognition, not mastery. Avoid going into technical distinctions unless learners ask. You may briefly point to examples in the image to anchor understanding.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="data-types-1" class="slide level2">
+<h2>Data types</h2>
+<ul>
+<li>These determine <strong>how R stores</strong> and <strong>processes</strong> data</li>
+<li>Data types can show different behavior across different operations</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>Examples<span class="sc">:</span></span>
+<span id="cb9-2"><a></a>  </span>
+<span id="cb9-3"><a></a><span class="dv">5</span>        <span class="co"># number (integer)</span></span>
+<span id="cb9-4"><a></a><span class="fl">3.14</span>     <span class="co"># number (numeric)</span></span>
+<span id="cb9-5"><a></a></span>
+<span id="cb9-6"><a></a><span class="st">"hello"</span>  <span class="co"># character</span></span>
+<span id="cb9-7"><a></a><span class="fu">factor</span>(<span class="st">"brown"</span>)  <span class="co"># factor</span></span>
+<span id="cb9-8"><a></a></span>
+<span id="cb9-9"><a></a><span class="cn">TRUE</span>     <span class="co"># logical</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter notes</strong>: It is important to note that R treats each data type differently, therefore, this affects your operations. In the following examples, we see that 5 without quotation marks is a number. This means you can use it for mathematical operations and R will give you the appropriate result. So, storing data as the correct data type is important, because it determines what operations you can perform on what. Let’s look at this example closer on the next slide.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="data-types-operations" class="slide level2">
+<h2>Data types: Operations</h2>
+<p><strong>Can R perform the same operation on different data types?</strong></p>
+<ul>
+<li>Two numeric variables can be summed up:</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="dv">4</span> <span class="sc">+</span> <span class="dv">5</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 9</code></pre>
+</div>
+</div>
+<ul>
+<li>A numeric and a character variable <em>cannot</em> be summed up:</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="dv">4</span> <span class="sc">+</span> <span class="st">"5"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-error">
+<pre><code>Error in `4 + "5"`:
+! non-numeric argument to binary operator</code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s look at how these different data types behave when we try to use them in operations.<br>
+If we take two numeric values, like 4 and 5, we can easily add them together, and R will return the result as expected.<br>
+However, if we try to mix data types — for example, adding number and character values — R won’t know how to handle that.<br>
+In the second example, we’re trying to add the number 4 and “5” wrapped in quotation marks. Since R now reads <code>5</code> as a character and not a number, R returns an error.<br>
+This shows why it’s important to be aware of the data types you’re working with — because not all operations are possible with all types.</p>
+<p><strong>Instructor Notes</strong>: Use this slide to reinforce the practical importance of data types. Optionally demonstrate the error live to show how R responds. Emphasize that error messages are normal and informative, not something to be avoided.</p>
+<p>ADDITIONAL EXAMPLE: Another example would be if you use the greater than sign , &gt;. You could run a line of code saying 5 &gt; 2, which would give you TRUE as a result. But, you can also use greater than with character data or text, e.g., “pineapple” &gt; “banana”. What do you think it would give us? It would give us TRUE, but not because a pineapple could be larger in size than a banana, but because R performs a lexicographic rather than a numeric comparison: It checks whether alphabetically pineapple comes after banana in the alphabet, which is TRUE.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section>
+<section>
+<section id="objects-and-assignment" class="title-slide slide level1 center">
+<h1>Objects and assignment</h1>
+
+</section>
+<section id="objects-and-assignment-1" class="slide level2">
+<h2>Objects and assignment</h2>
+<p>Everything in R is an <strong>object</strong>, and oftentimes, we want to work with an object repeatedly.</p>
+<ul>
+<li><strong>Assign a value</strong> to an object using the assignment arrow <strong><code>&lt;-</code></strong></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a>x <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb14-2"><a></a>y <span class="ot">&lt;-</span> <span class="dv">2</span></span>
+<span id="cb14-3"><a></a></span>
+<span id="cb14-4"><a></a><span class="co"># The example assigns the value 1 to the object "x" </span></span>
+<span id="cb14-5"><a></a><span class="co"># and the value 2 to the object "y"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>The assignment arrow points to the object</strong></p>
+</div>
+<div class="callout-content">
+<p>Take note of the <strong>order</strong>: we put the variable or object name first, then the assignment arrow <code>&lt;-</code>, and lastly the number or value. The arrow should be pointing the object- it would not work if you put <code>1 &lt;- x</code></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: In R, almost everything we work with is treated as an object. That could be a number, a dataset, a result of a calculation, or even the outcome of a logical comparison.<br>
+Often, we don’t just want to calculate something once — we want to store it and use it again later. For that, we create objects and give them names.<br>
+We do this using the assignment arrow, written as <code>&lt;-</code>.<br>
+For example, if we write <code>x &lt;- 1</code>, we are telling R: store the value 1 inside an object called “x” and the value 2 inside “y”.<br>
+Once we run this line, the object is saved in the Environment pane in RStudio, where we can see and reuse it anytime. Also, take note of the placement: the variable name goes in-front of the assignment arrow and the value or number goes behind. This is important for R to assign the value to the variable successfully.</p>
+<p><strong>Instructor Notes</strong>: Make sure students understand the idea of “storage” rather than just calculation. If possible, demonstrate live how the object appears in the Environment pane. Reinforce that naming objects clearly is important for readability and later use.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="objects-and-assignment-2" class="slide level2">
+<h2>Objects and assignment</h2>
+<p>The object then appears in the <strong>Environment</strong> pane <em>(top right pane)</em>.</p>
+
+<img data-src="images/R_screen4.png" alt="Environment Pane Screenshot with x and y as objects" class="r-stretch"><aside class="notes">
+<p><strong>Presenter Notes</strong>: Here you can see an example of how an object appears in the Environment pane in RStudio.<br>
+Whenever you create an object using the assignment arrow, R stores it here. In this example, you can see the object name, along with its value and type.<br>
+This is very useful because it allows you to keep track of everything you have created during your session. Instead of recalculating something again, you can simply reuse the object from the Environment.<br>
+As you start working more with R, this pane will become your overview of what is currently stored in memory.</p>
+<p><strong>Instructor Notes</strong>: Point students’ attention directly to the Environment pane on their own screens if available. Briefly explain how objects may change or accumulate as they run more code. Avoid going into memory management details at this stage.</p>
+<p><strong>Accessibility Tips</strong>: Verbally describe what is visible in the screenshot for students who cannot see it clearly. Allow extra time for learners to locate the Environment pane on their own interface.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-4" class="slide level2">
+<h2>Practical exercise 4</h2>
+<p>Try following the example and create your objects!</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Assign the value 4 to <code>x</code>.</label></li>
+<li><label><input type="checkbox">Assign the value 5 to <code>y</code>.</label></li>
+<li><label><input type="checkbox">Run the line(s) and check out your new objects in the Environment pane.</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s assign some values to objects. Remember the placement matters: the variable goes in-front of the arrow and the value goes behind. Run this line to see how the object appears in your Environment- this also helps you keep track of all the objects you create.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="objects-and-assignments" class="slide level2">
+<h2>Objects and assignments</h2>
+<p><strong>Okay, I made objects… what now?</strong></p>
+<ul>
+<li>Assigning objects helps organize your values</li>
+<li>Call on them and use specific objects in new operations</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>x <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb15-2"><a></a>y <span class="ot">&lt;-</span> <span class="dv">2</span></span>
+<span id="cb15-3"><a></a></span>
+<span id="cb15-4"><a></a><span class="co"># In a previous slide, we assigned values to the objects</span></span>
+<span id="cb15-5"><a></a></span>
+<span id="cb15-6"><a></a><span class="co"># Now, let's call on the objects and add them together</span></span>
+<span id="cb15-7"><a></a>x <span class="sc">+</span> y</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter notes</strong>: Once you assign a value to an object, you don’t have to keep remembering or retyping that value every time. You can just call the object name and use it in your calculations, which makes your code cleaner and much easier to work with. In the example, we see that we can call on and perform operations with x and y since we previously assigned values to those objects.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-5" class="slide level2">
+<h2>Practical exercise 5</h2>
+<p>Let’s use the objects in a new operation:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Re-assign the <code>x</code> object with the value <code>6</code>.</label></li>
+<li><label><input type="checkbox">Copy the following to your R Script:</label></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a>x <span class="sc">+</span> y</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul class="task-list">
+<li><label><input type="checkbox">Run the line and see what happens.</label></li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Object reassignment</strong></p>
+</div>
+<div class="callout-content">
+<p>When you reuse an object name and assign it a new value, R overwrites the previous value.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s put this to practice by using our objects in an operation. But first, we will reassign object <code>x</code>. We will see that if you assign a new value to the same object name, it simply overwrites the old one. So if x was 4 and is now re-assigned as <code>x &lt;- 6</code>, the value is now 6. R always uses the most recent assignment. When we complete this practical exercise what do we observe about object <code>x</code>?</p>
+<p><strong>Instructor Notes</strong>: It is an important point to make that you can re-assign objects with new values. Suggestion: Propose the question “<em>Why would we want to overwrite objects with new values?</em>”.</p>
+<p>Possible answer: This is a useful feature to avoid cluttering of objects- knowing that you can simply swap out the value of an object instead of creating a new object altogether.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="functions" class="title-slide slide level1 center">
+<h1>Functions</h1>
+
+</section>
+<section id="what-is-a-function" class="slide level2">
+<h2>What is a function?</h2>
+<ul>
+<li class="fragment">A <strong>function</strong> is a reusable block of code that performs a specific task.</li>
+<li class="fragment">You provide input values (<strong>arguments</strong>), and R returns an <strong>output</strong> based on internal operations.</li>
+<li class="fragment">Analogous to a mathematical function:
+<ul>
+<li class="fragment">If <code>f(x) = 2 * x</code>, then inputting <code>x = 3</code> returns <code>6</code>.</li>
+</ul></li>
+<li class="fragment">Every function has a unique name, followed by parentheses <code>()</code>, such as <code>sum()</code>.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a></a><span class="co"># Example of a function taking multiple inputs</span></span>
+<span id="cb18-2"><a></a><span class="fu">sum</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Now that we know how to store data in our working directory, let’s talk about how to manipulate it. A function is basically a recipe. You put ingredients in—these are called arguments—and the function gives you a finished dish as output. It saves us from writing complex mathematical formulas from scratch.</p>
+<p><strong>Instructor Notes</strong>: Emphasize the syntax: the function name is always immediately followed by parentheses. This is how R distinguishes a function from an object.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-c-function" class="slide level2">
+<h2>The <code>c()</code> function</h2>
+<ul>
+<li><strong>Group items with the <code>c()</code> function</strong> to manipulate multiple items at once.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a><span class="co"># Example 1: Combine four numbers into one object</span></span>
+<span id="cb19-2"><a></a>age <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">19</span>, <span class="dv">20</span>, <span class="dv">21</span>)</span>
+<span id="cb19-3"><a></a></span>
+<span id="cb19-4"><a></a><span class="co"># Now we can apply a function to the entire group</span></span>
+<span id="cb19-5"><a></a><span class="fu">sum</span>(age)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 60</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a><span class="co"># Example 2: Combine four character values into one object</span></span>
+<span id="cb21-2"><a></a>food <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Pizza"</span>, <span class="st">"Pasta"</span>, <span class="st">"Burger"</span>, <span class="st">"Pasta"</span>)</span>
+<span id="cb21-3"><a></a></span>
+<span id="cb21-4"><a></a><span class="co"># Now we can organize all the items in this object in a frequency table</span></span>
+<span id="cb21-5"><a></a><span class="fu">table</span>(food)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>food
+Burger  Pasta  Pizza 
+     1      2      1 </code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Before we look at more functions, we need to know one very useful function: the letter ‘c’. It stands for combine. Grouping items together allows us to work with groups of information at a time.</p>
+<p>Let’s look at the first example. First we will group a series of numbers and assign it to the object “age”. Now, whenever we call on “age”, we are calling on this group of numbers instead of just one number. So, if we want to calculate the sum of all the numbers, instead of writing out each number, we just run the <code>sum</code> operation on the “age” object.</p>
+<p>In the second example, we first use the c() function to group several text values together into a vector. Because these are character values, mathematical operations such as <code>sum(food)</code> do not make sense and will return an error. However, we can use functions such as <code>table()</code> to count how often each item appears in the object “food”.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="common-built-in-functions-numeric" class="slide level2">
+<h2>Common built-in functions: Numeric</h2>
+<p>R comes with many built-in <strong>numeric</strong> functions:</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Function</th>
+<th style="text-align: left;">What it does</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>sum()</code></td>
+<td style="text-align: left;">Adds all values together</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>mean()</code></td>
+<td style="text-align: left;">Calculates the arithmetic mean (average)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>sd()</code></td>
+<td style="text-align: left;">Calculates the standard deviation</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>exp()</code></td>
+<td style="text-align: left;">Calculates the exponential function (<span class="math inline">\(e^x\)</span>)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>round()</code></td>
+<td style="text-align: left;">Rounds a number</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Here are some of the most common mathematical and statistical functions you will use in R when working with numerical values. They do exactly what their names suggest. For example, <code>sd()</code> calculates the standard deviation, and <code>exp()</code> calculates the exponential.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-6" class="slide level2">
+<h2>Practical exercise 6</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Combine the numbers <code>4.4</code>, <code>14</code>, <code>5.26</code>, and <code>26</code> and assign it to an object named “<code>numbers</code>”</label></li>
+<li><label><input type="checkbox">Try out the functions <code>sum()</code>, <code>mean()</code>, and <code>sd()</code> using the object “<code>numbers</code>” as the argument and inspect the output</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s test out the <code>c()</code> function to group some values into an object and then run some numerical operations. First we will group a series of numbers and assign it to the object “numbers”. Then we can call on this object and run some numerical functions.</p>
+<p><strong>Instructor Notes</strong>: Give learners about 5-7 minutes. Walk around to ensure they are properly using the <code>c()</code> function to create the vector. A common beginner mistake is typing <code>mean(4.4, 14, 5.26, 26)</code> directly, which will not work as expected because <code>mean()</code> only calculates the mean of the first argument if they aren’t combined into a vector first.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="common-built-in-functions-character" class="slide level2">
+<h2>Common built-in functions: Character</h2>
+<p>R also comes with many built-in <strong>character</strong> functions:</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Function</th>
+<th style="text-align: left;">What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>sort()</code></td>
+<td style="text-align: left;">Sort values in alphabetical order</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>unique()</code></td>
+<td style="text-align: left;">Shows the unique values in the set</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>table()</code></td>
+<td style="text-align: left;">Counts the values in a table</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>toupper()</code></td>
+<td style="text-align: left;">Transforms all the letters to uppercase</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>tolower()</code></td>
+<td style="text-align: left;">Transforms all the letters to lowercase</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: As we saw in the example, we can group and work with multiple character values as well. Here are some of the built-in functions that allow us to work with these.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="function-arguments" class="slide level2">
+<h2>Function arguments</h2>
+<p>Most functions take multiple arguments (<strong>inputs</strong>).</p>
+<ul>
+<li class="fragment">Arguments are the pieces of information a function needs to <strong>carry out an operation</strong>.</li>
+<li class="fragment">Different functions expect different types and numbers of arguments, and the <strong>output</strong> of a function often <strong>depends on the arguments</strong> that are supplied.</li>
+<li class="fragment">It might look something like this: <br> <code>function_name(argument1 = x, argument2 = y)</code></li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Do all functions need multiple arguments?</strong></p>
+</div>
+<div class="callout-content">
+<p>No, not all functions need multiple arguments, but for some, it is required.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Functions often need information to work with, and that information is provided through arguments, or inputs. Think of a function as having two parts: outside the parentheses is <em>what you want R to do</em>, while inside the parentheses is <em>what you want R to do it with</em>. For example, in <code>mean(x)</code>, mean tells R to calculate an average, and <code>x</code> tells it which data to calculate the average from. Some functions only need one argument, while others can take several depending on the task.</p>
+<p><strong>Instructor Notes</strong>: Some functions need more than one piece of information. Up to this point, learners have seen functions being used, but may not have thought about what goes inside the parentheses. Emphasize that the values inside the parentheses are called arguments and that they provide the information the function needs to work. Different functions need different information, so the arguments will vary depending on the task.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="function-arguments-1" class="slide level2">
+<h2>Function arguments</h2>
+<p>Example: The <code>round()</code> function</p>
+<ul>
+<li>This function uses two arguments: It approximates a number (<strong>x</strong>) to a specified amount of decimal places (<strong>digits</strong>).</li>
+<li>You can provide arguments by position or by name.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a></a><span class="co"># By position (R assumes the first number is x, the second is digits)</span></span>
+<span id="cb23-2"><a></a><span class="fu">round</span>(<span class="fl">3.14159</span>, <span class="dv">2</span>)</span>
+<span id="cb23-3"><a></a></span>
+<span id="cb23-4"><a></a><span class="co"># By name (explicitly telling R which argument is which)</span></span>
+<span id="cb23-5"><a></a><span class="fu">round</span>(<span class="at">x =</span> <span class="fl">3.14159</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Naming your arguments makes your code easier to read!</strong></p>
+</div>
+<div class="callout-content">
+<p>If you name the arguments (using the names “x” and “digits”), the order does not matter: <code>round(digits = 2, x = 3.14159)</code> works identically.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: For instance, to round a number, R needs to know two things: what number to round and how many decimals to keep. You can just type the numbers in the right order, but explicitly naming the arguments, like writing <code>digits = 2</code>, is highly recommended because it makes your script much easier to understand when you read it a month later.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-7" class="slide level2">
+<h2>Practical exercise 7</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Assign a “<code>my_number</code>” object using <code>2.4637</code></label></li>
+<li><label><input type="checkbox">Try out the function <code>round()</code> using “<code>my_number</code>” and approximating to 3 decimal places.</label></li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Ignoring the <strong>digits</strong> argument</strong></p>
+</div>
+<div class="callout-content">
+<p>If you are curious, try running the <code>round()</code> function without specifying the <code>digits =</code> argument. What happens? Why might that be?</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Next, let’s practice specifying arguments using the <code>round()</code> function. We can reuse the “my_number” object name, simply re-assign it with a new number. Then, follow the order from the previous slide on how to specify the arguments.</p>
+<p><strong>Instructor Notes</strong>: It may be confusing to remember the order and to know what goes where.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="pre-break-quiz" class="slide level2">
+<h2>Pre-break quiz</h2>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Before we head into the break, let’s do a quick check-in to see how things are going so far. The questions are designed to help you reflect on your current understanding of R, RStudio, and the key ideas we’ve covered in this first part of the session.</p>
+<p><strong>Instructor Notes</strong>: Use this pre-break survey to gauge learners’ understanding of the submodule’s core concepts.</p>
+<ul>
+<li><p>If more than 80% of learners select the correct answer, briefly confirm the correct response and continue.</p></li>
+<li><p>If fewer than 80% answer correctly, give learners 1–2 minutes to discuss their reasoning with a partner before re-running the question. If results improve above 80%, continue; otherwise, explain the correct answer and address common misunderstandings.</p></li>
+<li><p>If a large portion of learners select the same distractor answer, pause to discuss why that option may seem plausible and clarify the misconception.</p></li>
+</ul>
+<p><strong>Accessibility Tip</strong>: This activity is designed for synchronous teaching settings and may be skipped or adapted if needed.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>1. What does the <code>#</code> symbol do in R?</strong></p>
+<ol type="a">
+<li>Runs the code<br>
+</li>
+<li>Creates a variable<br>
+</li>
+<li>Starts a comment<br>
+</li>
+<li>Multiplies numbers</li>
+</ol>
+<aside class="notes">
+<p><strong>Instructor notes</strong>: The answer for this question is c</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>2. What happens when you “run” code in R?</strong></p>
+<ol type="a">
+<li>The code is deleted<br>
+</li>
+<li>R executes the command<br>
+</li>
+<li>The code becomes a comment<br>
+</li>
+<li>RStudio closes automatically</li>
+</ol>
+<aside class="notes">
+<p><strong>Instructor notes</strong>: The answer for this question is b</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>3. What will R return for this comparison?</strong></p>
+<p><code>49 &lt; 50</code></p>
+<ol type="a">
+<li>TRUE</li>
+<li>FALSE</li>
+<li>49</li>
+<li>ERROR</li>
+</ol>
+<aside class="notes">
+<p><strong>Instructor notes</strong>: The answer for this question is a</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>4. Which of the following is a character value in R?</strong></p>
+<ol type="a">
+<li>TRUE</li>
+<li>5</li>
+<li>“hello”</li>
+<li>4.2</li>
+</ol>
+<aside class="notes">
+<p><strong>Instructor notes</strong>: The answer for this question is c</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>5. Why does the following produce an error?</strong></p>
+<p><code>4 + "five"</code></p>
+<ol type="a">
+<li>“five” is a logical value</li>
+<li>The quotation marks are incorrect</li>
+<li>4 is not numeric</li>
+<li>R cannot numerically add different data types together</li>
+</ol>
+<aside class="notes">
+<p><strong>Instructor notes</strong>: The answer for this question is d</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="break-15-minutes" class="title-slide slide level1 center">
+<h1>Break! 15 minutes</h1>
+
+</section>
+<section id="post-break-quiz-discussion" class="slide level2">
+<h2>Post-break quiz discussion</h2>
+<p><br></p>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+<p>What do we see in the results?</p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let us have a look at these results.</p>
+<p><strong>Instructor Notes</strong>: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers. Serves to clarify concepts and aspects that are not yet understood. Highlight specific answers given during the survey.</p>
+<p><strong>Accessibility Tip</strong>: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-help-function" class="slide level2">
+<h2>The Help function</h2>
+<p><strong>Do I have to memorize all of the functions and arguments?</strong></p>
+<ul>
+<li class="fragment"><strong>No!</strong>
+<ul>
+<li class="fragment">There is no need to memorize functions and their arguments.</li>
+<li class="fragment">You will <strong>remember</strong> the ones you use frequently <strong>through practice</strong>.</li>
+</ul></li>
+<li class="fragment">When you need to understand how a function works, what inputs it needs, or what its defaults are, you can consult the <strong>Help Function</strong>.</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: A common worry when learning a programming language is feeling like you have to memorize a dictionary of functions. Please don’t! Even advanced programmers look up functions every single day. The more you use certain functions, the more naturally they will come to you. For everything else, R has a built-in manual called the Help Function.</p>
+<p><strong>Instructor Notes</strong>: Normalize the act of looking things up. You can mention that googling errors or looking at documentation is 80% of programming.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="how-to-access-help-in-r" class="slide level2">
+<h2>How to access Help in R</h2>
+<p>There are two main ways to look up a function.</p>
+<p><strong>Method 1: Using the Console</strong></p>
+<ul>
+<li>Type a question mark <code>?</code> into the console immediately followed by the function name and press Enter.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a></a><span class="co"># Example: Getting help with using the round() function</span></span>
+<span id="cb24-2"><a></a>?round</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: There are two simple ways to access help for a function in R. The first is by using a shortcut in the Console. Simply type a question mark (?) immediately before the function name without parentheses and press Enter. For example, typing <code>?round</code> opens the help page for the <code>round()</code> function, where you can find information about what it does, its arguments, and examples of how to use it.</p>
+<p><strong>Instructor Notes</strong>: Emphasize that the syntax matters. The question mark (?) must come before the function name, and parentheses should not be included. For example, <code>?round</code> is correct, whereas <code>?round()</code> is not. Encourage students to use this frequently whenever they are unsure how a function works.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="how-to-access-help-in-r-1" class="slide level2">
+<h2>How to access Help in R</h2>
+<p><strong>Method 2: Using the Help Tab</strong></p>
+<ul>
+<li>Navigate to the <strong>Help</strong> tab in the bottom right pane of RStudio and type the function name into the search bar.</li>
+</ul>
+<div style="text-align: center;">
+<p><img data-src="images/help_search_bar.png" style="width:65%;"></p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Alternatively, you can use the search bar in the Help tab located in the bottom right pane of RStudio. Here, you can type directly in the <em>search bar</em> to look up the name of the function.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="reading-the-documentation" class="slide level2">
+<h2>Reading the documentation</h2>
+<p>Help pages can look intimidating, but you only need to focus on a few key sections:</p>
+<ul>
+<li class="fragment"><strong>Description:</strong> A brief summary of what the function does.</li>
+<li class="fragment"><strong>Usage:</strong> Shows the function with all arguments. This is where you see <em>default values</em>.</li>
+<li class="fragment"><strong>Arguments:</strong> Detailed explanations of what each input to the function should look like.</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: The documentation might look overwhelming at first because it uses technical terms. As a start, focus on the “Usage” and “Arguments” sections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="reading-the-documentation-1" class="slide level2">
+<h2>Reading the documentation</h2>
+<p>Example: For the <code>sort()</code> function we can see that it can also use character vectors or values as input and orders them.</p>
+<div style="text-align: center;">
+<p><img data-src="images/help_sort_docs.png" style="width:70%;"></p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: In this example, we use the documentation for <code>sort()</code> to see that the function can work not only with numbers, but also with character values. By looking at the <em>Usage</em> and <em>Arguments</em> sections, we can identify that the first argument, <code>x</code>, is the object(s) we want to sort. We can also see that the argument <code>decreasing = FALSE</code> means that, by default, the values are sorted in ascending order (A to Z for text). This illustrates how the documentation can help us understand both what a function does and how we can customize its behavior.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-8" class="slide level2">
+<h2>Practical exercise 8</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Type <code>?sort</code> in the <strong>Console</strong> and press Enter.</label></li>
+<li><label><input type="checkbox">Look at the <strong>Usage</strong> and <strong>Arguments</strong> sections in the documentation that opens in the bottom right pane to see which inputs the function accepts.</label></li>
+<li><label><input type="checkbox">Put the following as the input for the function:</label></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb25-1"><a></a>c("Tim", "Tom", "Anna", "Pizza", "Burger", "Pasta")</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul class="task-list">
+<li><label><input type="checkbox">Read the <strong>Arguments</strong> to figure out what must be included to put the words in <em>reverse alphabetical</em> order</label></li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Is reverse alphabetical order increasing or decreasing?</strong></p>
+</div>
+<div class="callout-content">
+<p>Reverse alphabetical order means arranging items from <strong>Z to A</strong>. This means that the order is <em>decreasing</em>.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s try this exercise to become more comfortable navigating R’s documentation. Don’t worry if some of the terminology seems unfamiliar. Focus on identifying the important information: what the function does, what inputs it accepts, and how to change its behavior.</p>
+<p><strong>Instructor Notes</strong>: This exercise can be tricky since the Help documentation has a lot of information that can be confusing to learners. It’s important to let them know that not every piece of information is relevant and just to focus on the pieces they need to complete the exercise.</p>
+<p>Some issues you might encounter: - Missing parentheses () around ALL the arguments. - Missing comma , after the parentheses that hold the character values. - Must use the <code>decreasing = TRUE/FALSE</code> argument (in this case, it must be <code>decreasing = TRUE</code>). Using <code>increasing = FALSE</code> would NOT work. - They may feel the need to include the other arguments they see in the document but this is unnecessary.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="vectors-lists-and-data-frames" class="title-slide slide level1 center">
+<h1>Vectors, lists, and data frames</h1>
+
+</section>
+<section id="data-structures-in-r" class="slide level2">
+<h2>Data structures in R</h2>
+<ul>
+<li><p>Collections of values are called <strong>data</strong></p></li>
+<li><p>R provides ways to store data in different <strong>data structures</strong>:</p>
+<ul>
+<li><strong>Vectors</strong></li>
+<li><strong>Lists</strong></li>
+<li><strong>Dataframes</strong></li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: So far, we have mostly worked with single values. Most of the time, we are interested in a collection of values rather than a single value, allowing us to work with many observations at once. R provides different data structures to help us organize and work with collections of data.</p>
+<p><strong>Instructor Notes</strong>: This next section introduce several new technical concepts that beginners often confuse. Regularly remind students what vectors, lists, and data frames are as they appear, and briefly recap the differences before introducing the next concept.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="vectors" class="slide level2">
+<h2>Vectors</h2>
+<p><strong>What does a vector do?</strong> Stores multiple values in an object.</p>
+<ul>
+<li>It is a one-dimensional collection of data</li>
+<li>Useful for storing scores, ages, measurements, names, and more</li>
+</ul>
+<p>Example:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a></a>scores <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">75</span>, <span class="dv">82</span>, <span class="dv">91</span>, <span class="dv">68</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Vectors and data type</strong></p>
+</div>
+<div class="callout-content">
+<p>What do you notice about the values in the vector stored in <code>scores</code>? All values in a vector should be of the same data type.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: A vector is one of the most common data structures in R. Think of it as a container that stores many related values under a single name. Instead of creating separate objects for each score, we can store them together in one vector. Important to note is that vectors only contain one data type, e.g., all values in a vector are numeric, or all values are character type.</p>
+<p><strong>Instructor Notes</strong>: For added clarity, you can emphasize that, in the example, “<code>c(75,82, 91, 68)</code>” is the vector and “scores” is just the object name in which the vector is stored.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-9" class="slide level2">
+<h2>Practical exercise 9</h2>
+<ul class="task-list">
+<li><p><label><input type="checkbox">Create a vector containing the numbers <code>19</code>, <code>20</code>, and <code>21</code> and assign it to an object called “<code>age</code>”.</label></p></li>
+<li><p><label><input type="checkbox">Create a vector containing the names <code>Tim</code>, <code>Tom</code>, and <code>Anna</code> and assign it to an object called “<code>name</code>”.</label></p></li>
+<li><p><label><input type="checkbox">Create a vector containing the foods <code>Pizza</code>, <code>Burger</code>, and <code>Pasta</code> and assign it to an object called “<code>food</code>”.</label></p></li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Character data type</strong></p>
+</div>
+<div class="callout-content">
+<p>Reminder: character data types need to be wrapped in quotation marks <code>" "</code>.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s try making some vectors of our own using both numerical and word data types. But remember, for each vector, just use one datatype. At the end of this exercise, you should have two separate vectors each assigned to a different object.</p>
+<p><strong>Instructor Notes</strong>: Here are the solutions:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a></a>age <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">19</span>, <span class="dv">20</span>, <span class="dv">21</span>)</span>
+<span id="cb27-2"><a></a>name <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Tim"</span>, <span class="st">"Tom"</span>, <span class="st">"Anna"</span>)</span>
+<span id="cb27-3"><a></a>food <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Pizza"</span>, <span class="st">"Burger"</span>, <span class="st">"Pasta"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Though it is added as a callout-tip, still be mindful that a common mistake is forgetting to wrap the character and word data in quotation marks. This will lead to an error.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="lists" class="slide level2">
+<h2>Lists</h2>
+<p><strong>What does a list do?</strong> Stores different types of data together.</p>
+<ul>
+<li>It is also one-dimensional</li>
+<li><em>But</em>, unlike vectors, it can contain <strong>different data types</strong> (e.g., numeric, character…)</li>
+</ul>
+<p>Example for a list:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a></a>student <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="st">"Alex"</span>, <span class="dv">21</span>, <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Unlike vectors, lists can contain different types of information. For example, text, numbers, and logical values can all be stored together. We won’t use lists much in this introductory session, but it’s useful to know they exist.</p>
+<p><strong>Instructor Notes</strong>: Since they are quite similar, it can be useful here to note that both lists and vectors group together pieces of information but the difference is that lists can contain different datatypes.</p>
+<p>Also, for added clarity, you can mention that, in this example, “<code>list("Alex", 21, TRUE)</code>” is the list and “student” is simply the object name in which the list is stored or assigned to.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="dataframes" class="slide level2">
+<h2>Dataframes</h2>
+<p><strong>What does a dataframe do?</strong> Stores data in rows and columns. - It is <strong>two</strong>-dimensional - <strong>Rows</strong> represent observations, <strong>columns</strong> represent variables</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Age</th>
+<th>Food</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tim</td>
+<td>19</td>
+<td>Pizza</td>
+</tr>
+<tr class="even">
+<td>Tom</td>
+<td>20</td>
+<td>Pizza</td>
+</tr>
+<tr class="odd">
+<td>Anna</td>
+<td>21</td>
+<td>Pasta</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Look familiar?</strong></p>
+</div>
+<div class="callout-content">
+<p>Think of a dataframe like a spreadsheet. The top row is like the heading and the information below (within each column) is the observation corresponding to the heading.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Dataframes are one of the most important data structures in R because most datasets are stored this way. If you’ve used Excel or any type of spreadsheets before, think of a dataframe as a table where rows contain observations and columns contain variables.</p>
+<p><strong>Intructor Notes</strong>: To avoid confusion, use the example to explain further the breakdown of a dataframe: <code>Name</code> is the observation- it’s what we are interested in finding out. Then each name under it (<code>Tim, Tom, Anna</code>) are the variables within this specific observation.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-10" class="slide level2">
+<h2>Practical exercise 10</h2>
+<p>Create a dataframe with the <code>data.frame()</code> function</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Copy the following to combine the vectors you created before into the <strong>dataframe</strong> named “<code>people_data</code>”</label></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a></a>people_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(name, age, food)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p><br></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Call on the dataframe and observe what happens</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Here we’re are using the three separate vectors we created in the previous exercise and combine them them into a dataframe with the <code>data.frame()</code> function. Notice how each vector becomes a column in the final table.</p>
+<p><strong>Instructor Notes</strong>: A concern that you can clear up here is confusing the observations in the dataframe with character data types- when using them in <code>data.frame()</code>, the observations do NOT need to be wrapped in quotations.</p>
+<p>Calling on the dataframe is done by simply typing the object name of the dataframe (“<code>people_data</code>” in this case) in the script (or Console) and running it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="indexing" class="slide level2">
+<h2>Indexing</h2>
+<p><strong>What does indexing do?</strong> Allows us to access specific parts of our data, such as:</p>
+<ul>
+<li><strong>Select</strong> individual or multiple values</li>
+<li><strong>Access</strong> rows and columns in a dataframe</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Indexing means selecting a specific part of an object. Instead of viewing all values at once, we can ask R to return only the piece we need.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="indexing-vectors" class="slide level2">
+<h2>Indexing vectors</h2>
+<p>Each element in a vector has a position.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a></a>age <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">19</span>, <span class="dv">20</span>, <span class="dv">21</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Position</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Value</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s first look at this vector to understand that each element within that vector has a position. The values are stored sequentially, so the first value is in position 1, the second in position 2, and so on.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="indexing-vectors-1" class="slide level2">
+<h2>Indexing vectors</h2>
+<p><strong>Selecting individual values</strong></p>
+<ul>
+<li>Use <code>[ ]</code> to call on a value by its position</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a></a><span class="co"># Example 1: Calling on the value in position 1 </span></span>
+<span id="cb31-2"><a></a>age[<span class="dv">1</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 19</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a></a><span class="co"># Example 2: Calling on the value in position 3</span></span>
+<span id="cb33-2"><a></a>age[<span class="dv">3</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 21</code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Now that we know each value has a position within the vector, we can use this to call on it. The first possible position that R assigns is 1, so calling on the item in position “<code>1</code>”, is calling on the first item in the vector. We specify the position by using the square brackets [ ] where number inside the square brackets refers to the position of the value we want to retrieve. Let’s see this in action with the examples: we first specify the object (“<code>age</code>”) and then we use the square brackets to indicate which is position of the items we want (“<code>[1]</code>” or “<code>[3]</code>”).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="indexing-vectors-2" class="slide level2">
+<h2>Indexing vectors</h2>
+<p><strong>Selecting multiple values</strong></p>
+<p>You can retrieve <strong>more than one</strong> value at once.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a></a>age[<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">3</span>)]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 19 21</code></pre>
+</div>
+</div>
+<p>You can also select a <strong>range</strong>:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a></a>age[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 19 20 21</code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: We can also use indexing to select several positions at the same time. For this, we utilize a comma between the positions. Additionally, we can use the colon operator to call on a sequence of positions.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="indexing-dataframes" class="slide level2">
+<h2>Indexing dataframes</h2>
+<p><strong>Accessing rows and columns in a dataframe</strong></p>
+<ul>
+<li><p>You can call on values directly from the row and column of data frames.</p></li>
+<li><p>To use indexing, use <code>[ ]</code> and follow this general format:</p>
+<ul>
+<li><code>dataframe[row,column]</code></li>
+</ul></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a></a><span class="co"># Example 1: Calling the value in row 1, column 1</span></span>
+<span id="cb39-2"><a></a>people_data[<span class="dv">1</span>, <span class="dv">1</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Tim"</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a></a><span class="co"># Example 2: Calling the value in row 3, column 2</span></span>
+<span id="cb41-2"><a></a>people_data[<span class="dv">3</span>, <span class="dv">2</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 21</code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Unlike vectors, dataframes are two-dimensional because they contain both observations (rows) and variables (columns). This means that when indexing a data frame, we need to specify two positions: the row position and the column position. Just like vectors, R assigns positions starting at 1. The columns are numbered from left to right, so the first column is in position 1, the second column is in position 2, and so on. Likewise, the rows are numbered from top to bottom, starting with the first observation <strong>below the column headings</strong>. To access a value, we first specify the row (observation) and then the column (variable).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="accessing-columns-by-name" class="slide level2">
+<h2>Accessing columns by name</h2>
+<p>Calling values by using just numbers can get confusing.</p>
+<p>Luckily, there is a way to call on the values by <strong>column name</strong> using the <code>$</code> operator: <code>dataframe$column_name</code></p>
+<ul>
+<li>Use it to retrieve all values from that specific column</li>
+<li>It is easier to read than using column numbers</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb43"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a></a><span class="co"># Example: Calling on the "name" column within the "people_data" data frame</span></span>
+<span id="cb43-2"><a></a></span>
+<span id="cb43-3"><a></a>people_data<span class="sc">$</span>name</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Tim"  "Tom"  "Anna"</code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: The dollar sign (<code>$</code>) is a convenient way to access a column in a data frame. Instead of remembering which column number contains the information we want, we can simply use the column’s name or header. This makes code easier to read and understand.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="combining-and" class="slide level2">
+<h2>Combining <code>$</code> and <code>[]</code></h2>
+<p>Look at the following example to see how <code>$</code> and <code>[ ]</code> can be used together:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a></a>people_data<span class="sc">$</span>food[<span class="dv">3</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Pasta"</code></pre>
+</div>
+</div>
+<p>What does this do?</p>
+<ol type="1">
+<li><code>$</code> selects the <strong>food</strong> column in the <code>people_data</code> data frame</li>
+<li><code>[]</code> gives you the <strong>third</strong> value</li>
+</ol>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: This is a very common pattern in R. We first select a column and then use indexing to retrieve a specific value from that column. Looking at the example, we first state <code>people_data</code> then we use <code>$</code> to let R know we will be selecting specific information from this dataframe. Then we specify the information we want: using the column name, we want to look into the “food” column and then, using the square brackets [ ], we specify we want the third variable in this column.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-11" class="slide level2">
+<h2>Practical exercise 11</h2>
+<p>Use <code>$</code> and <code>[]</code> accordingly to retrieve the following information from the the <code>people_data</code> data frame:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">The first name in the “name” column</label></li>
+<li><label><input type="checkbox">The second age in the “age” column</label></li>
+<li><label><input type="checkbox">The third food item in the “food” column</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Now we’ll apply what we’ve learned about indexing data frames using column names. For this exercise, the names of the columns have already been provided for you, so your task is to retrieve the correct value by combining the appropriate column name with the correct row position. Remember that you can use either <code>$</code> or <code>[]</code> notation where appropriate.</p>
+<p><strong>Instructor Notes</strong>: Students commonly make a few mistakes here. Remind them that column names should not be enclosed in quotation marks when using the <code>$</code> operator (e.g., <code>people_data$name</code>, not <code>people_data$"name"</code>). Also watch for students reversing the indexing order- the correct syntax is always column name first, then position within the column: dataframe$column_name[column_position]</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="wrapping-up" class="title-slide slide level1 center">
+<h1>Wrapping Up</h1>
+
+</section>
+<section id="looking-into-the-future" class="slide level2">
+<h2>Looking into the future</h2>
+<ol type="1">
+<li><strong>Take a minute to think about the following questions, first for yourself, then in a pair:</strong></li>
+</ol>
+<ul>
+<li><p>Can you identify some <strong>practical benefits</strong> of using R/RStudio?</p></li>
+<li><p>What <strong>obstacles</strong> do you anticipate in using it consistently?</p></li>
+<li><p>How can R/RStudio support you in your <strong>upcoming projects</strong>?</p></li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Share your thoughts with the group.</strong></li>
+</ol>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: To wrap up, let’s take a moment to bring everything together and think about how this connects to your own work going forward.First, take about one minute to reflect individually on these questions. Then discuss them with a partner.Think about where R/RStudio could realistically support you, for example, in upcoming essays, group projects, or your thesis work. What benefits do you see in using it? What might make it difficult to use it consistently? And how could it fit into your current workflow?<br>
+After that, we’ll briefly share some of your thoughts with the group.</p>
+<p><strong>Instructor Notes</strong>: Facilitate an open discussion focusing on application rather than theory. Encourage concrete examples from learners’ own academic context. Actively prompt for both benefits and barriers. Keep the discussion time-bound to avoid overextension at the end of the session.</p>
+<p><strong>Accessibility Tip</strong>: Allow silent reflection time before discussion. Summarise key contributions aloud for clarity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="assignment-consolidating-what-you-learned" class="slide level2">
+<h2>Assignment: Consolidating what you learned</h2>
+<p><strong>Create a short R script that builds on what was covered today</strong></p>
+<ol type="1">
+<li>Assign at least two objects, for example numbers or words.</li>
+<li>Create at least one vector using c() and assign it to an object.</li>
+<li>Perform at least one mathematical operation using an object with numerical values. Use at least one built-in function, such as <code>sum(), mean(), length(), sort(),</code> or <code>table()</code>.</li>
+<li>Use at least one logical comparison to check a condition.</li>
+<li>Practice indexing by retrieving one specific value from a vector using <code>[]</code>.</li>
+<li>Include clear comments using # to explain each step.</li>
+</ol>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Self-Assessment</strong></p>
+</div>
+<div class="callout-content">
+<p>Use this assignment to assess your learning of, and progress with, R/RStudio; reflect on any challenges you faced and how you overcame them.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: To finish, you have a short home assignment that brings together everything we’ve covered so far in R and RStudio.<br>
+You’ll create a small R script where you first define at least two objects, for example, numbers. Then you’ll use those objects in at least one mathematical operation, such as addition or multiplication.<br>
+Next, include at least one logical comparison, where you check a condition and get a TRUE or FALSE result.<br>
+Finally, make sure to add comments throughout your script using the hash symbol, so it is clear what each step is doing.<br>
+This is not about getting everything perfect, it’s about practicing how to structure a script and combine the basic elements we’ve learned.</p>
+<p><strong>Instructor Notes</strong>:<br>
+Clarify that this is a practice exercise rather than an assessment of correctness. Encourage experimentation and reassure students that errors are expected and useful for learning.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="take-home-messages" class="slide level2">
+<h2>Take-home messages</h2>
+<ul>
+<li>R → <strong>your go-to tool</strong> for data analysis and quantitative research.</li>
+<li>RStudio interface → helps you <strong>organize code, outputs, and data</strong> efficiently.</li>
+<li>Writing and saving R scripts ensures your work is <strong>reproducible and well-documented</strong>.</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>:<br>
+To conclude this part, there are three key ideas to remember.<br>
+First, R is your main tool for data analysis and quantitative research. It’s what you will use to run calculations, manage data, and perform statistical analyses.<br>
+Second, RStudio is the environment that makes working with R much more structured. It helps you keep your code, outputs, and data organised in one place so you don’t lose track of your work.<br>
+And third, using R scripts is essential because it ensures your work is reproducible. That means you can go back to your analysis later, or share it with others, and everything can be followed step by step.</p>
+<p><strong>Instructor Notes</strong>:<br>
+Keep this slide concise and use it as a clear closure of the R part 1 section.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="learning-goals-check-in" class="slide level2">
+<h2>Learning goals: Check-In</h2>
+<p><strong>Where are we at?</strong></p>
+<ul>
+<li class="fragment">To <strong>navigate</strong> the RStudio interface (Console, Environment, Script, and Output panes) ✅</li>
+<li class="fragment">To <strong>differentiate</strong> between basic data types in R (numeric, character, logical, integer) and how they are used ✅</li>
+<li class="fragment">To <strong>execute</strong> operations in the R using appropriate operators ✅</li>
+<li class="fragment">To <strong>assign</strong> and <strong>re-assign</strong> values, vectors, and lists to objects ✅</li>
+<li class="fragment">To <strong>specify arguments</strong> within functions to modify how the function produces its output ✅</li>
+<li class="fragment">To <strong>index</strong> dataframes to access and retrieve specific information ✅</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let us pause for a quick check-in. Take a moment to look back at the learning goals and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.</p>
+<p><strong>Instructor Notes</strong>: Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all goals at this stage. Keep the discussion supportive and brief,nfocusing on clarifying concepts rather than introducing new material.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="to-conclude-survey-time" class="slide level2">
+<h2>To conclude: Survey time!</h2>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge after completing the submodule. Please answer honestly based on how confident you feel now.</p>
+<p><strong>Instructor Notes</strong>: The purpose is to compare pre- and post-submodule responses to evaluate learning progress. Encourage the learnrs to share in class. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in any areas.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><strong>1. On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio) after completing this session?</strong> (1 = Not intimidated at all, 5 = Very intimidated)</p>
+<ol type="a">
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>2. How confident do you feel using the RStudio environment after this session?</strong></p>
+<ol type="a">
+<li>Not confident at all<br>
+</li>
+<li>Slightly confident<br>
+</li>
+<li>Moderately confident<br>
+</li>
+<li>Very confident<br>
+</li>
+<li>Extremely confident</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>3. How comfortable do you feel about using R and RStudio for mathematical operations?</strong></p>
+<ol type="a">
+<li>Not comfortable at all<br>
+</li>
+<li>Slightly comfortable<br>
+</li>
+<li>Moderately comfortable<br>
+</li>
+<li>Very comfortable<br>
+</li>
+<li>Extremely comfortable</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>3. How comfortable do you feel using R objects (e.g., vectors and data frames) to organize and manipulate your research data?</strong></p>
+<ol type="a">
+<li>Not comfortable at all<br>
+</li>
+<li>Slightly comfortable<br>
+</li>
+<li>Moderately comfortable<br>
+</li>
+<li>Very comfortable<br>
+</li>
+<li>Extremely comfortable</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>3. What part of the lesson, if any, still feels confusing or unclear?</strong></p>
+</section>
+<section class="slide level2">
+
+<p><strong>4. Was there a practical exercise or example that helped your understanding the most? Why?</strong></p>
+</section>
+<section id="discussion-of-survey-results-1" class="slide level2">
+<h2>Discussion of survey results</h2>
+<p><br></p>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+<p>What do we see in the results?</p>
+</div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="thanks" class="title-slide slide level1 center">
+<h1>Thanks!</h1>
+<p>See you next time!</p>
+</section>
+<section id="practical-exercise-1-solutions" class="slide level2">
+<h2>Practical exercise 1: Solutions</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb47"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a></a><span class="dv">12</span><span class="sc">+</span><span class="dv">17</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 29</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb49"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a></a><span class="dv">218</span><span class="sc">/</span><span class="dv">3</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 72.66667</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb51"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a></a><span class="dv">357</span><span class="sc">^</span><span class="dv">2</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 127449</code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Instructor notes</strong>: Here is the solution to Practical exercise 1</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-2-solutions" class="slide level2">
+<h2>Practical exercise 2: Solutions</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb53"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a></a>(<span class="dv">36</span> <span class="sc">+</span> <span class="dv">5</span>)<span class="sc">&gt;</span> <span class="dv">40</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb55"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a></a>(<span class="dv">4</span> <span class="sc">==</span> <span class="dv">5</span>) <span class="sc">|</span> (<span class="dv">25</span> <span class="sc">&gt;</span> <span class="dv">17</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb57"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb57-1"><a></a>(<span class="dv">5</span> <span class="sc">==</span> (<span class="dv">2</span> <span class="sc">+</span> <span class="dv">3</span>)) <span class="sc">&amp;</span> (<span class="dv">7</span> <span class="sc">&gt;=</span> <span class="dv">8</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Here are the final results. Understanding how these operators combine conditions is a core skill for filtering data later on.</p>
+<p><strong>Instructor notes</strong>: Here is the solution to Practical exercise 2</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-6-7-solutions" class="slide level2">
+<h2>Practical exercise 6 &amp; 7: Solutions</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb59"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb59-1"><a></a><span class="co"># Create a vector and assign it to "numbers"</span></span>
+<span id="cb59-2"><a></a>numbers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">4.4</span>, <span class="dv">14</span>, <span class="fl">5.26</span>, <span class="dv">26</span>)</span>
+<span id="cb59-3"><a></a></span>
+<span id="cb59-4"><a></a><span class="co"># Try out sum(), mean(), and sd()</span></span>
+<span id="cb59-5"><a></a><span class="fu">sum</span>(numbers)</span>
+<span id="cb59-6"><a></a><span class="fu">mean</span>(numbers)</span>
+<span id="cb59-7"><a></a><span class="fu">sd</span>(numbers)</span>
+<span id="cb59-8"><a></a></span>
+<span id="cb59-9"><a></a><span class="co"># Assign the number to "my_number"</span></span>
+<span id="cb59-10"><a></a>my_number <span class="ot">&lt;-</span> <span class="fl">2.4637</span></span>
+<span id="cb59-11"><a></a></span>
+<span id="cb59-12"><a></a><span class="co"># Try out exp() and round()</span></span>
+<span id="cb59-13"><a></a><span class="fu">round</span>(my_number)</span>
+<span id="cb59-14"><a></a><span class="fu">round</span>(<span class="at">x =</span> my_number, <span class="at">digits =</span> <span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="practical-exercise-8-solutions" class="slide level2">
+<h2>Practical exercise 8: Solutions</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb60"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a></a><span class="fu">sort</span>(<span class="fu">c</span>(<span class="st">"Tim"</span>, <span class="st">"Tom"</span>, <span class="st">"Anna"</span>, <span class="st">"Pizza"</span>, <span class="st">"Burger"</span>, <span class="st">"Pasta"</span>), <span class="at">decreasing =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Tom"    "Tim"    "Pizza"  "Pasta"  "Burger" "Anna"  </code></pre>
+</div>
+</div>
+</section>
+<section id="practical-exercise-9-solutions" class="slide level2">
+<h2>Practical exercise 9: Solutions</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb62"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a></a>age <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">19</span>, <span class="dv">20</span>, <span class="dv">21</span>)</span>
+<span id="cb62-2"><a></a></span>
+<span id="cb62-3"><a></a>name <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Tim"</span>, <span class="st">"Tom"</span>, <span class="st">"Anna"</span>)</span>
+<span id="cb62-4"><a></a></span>
+<span id="cb62-5"><a></a>food <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Pizza"</span>, <span class="st">"Burger"</span>, <span class="st">"Pasta"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="practical-exercise-10-solutions" class="slide level2">
+<h2>Practical exercise 10: Solutions</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb63"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb63-1"><a></a>people_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(name, age, food)</span>
+<span id="cb63-2"><a></a></span>
+<span id="cb63-3"><a></a>people_data</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  name age   food
+1  Tim  19  Pizza
+2  Tom  20 Burger
+3 Anna  21  Pasta</code></pre>
+</div>
+</div>
+</section>
+<section id="practical-exercise-11-solutions" class="slide level2">
+<h2>Practical exercise 11: Solutions</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb65"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb65-1"><a></a>people_data<span class="sc">$</span>name[<span class="dv">1</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Tim"</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb67"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb67-1"><a></a>people_data<span class="sc">$</span>age[<span class="dv">2</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 20</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb69"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb69-1"><a></a>people_data<span class="sc">$</span>food[<span class="dv">3</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Pasta"</code></pre>
+</div>
+</div>
+</section>
+<section id="additional-resources" class="slide level2">
+<h2>Additional resources</h2>
+<ul>
+<li>Datacamp offers a free, interactive course on R online: <a href="https://www.datacamp.com/courses/free-introduction-to-r">link to the course</a>.</li>
+<li>Here is a free-to-use RSdtudio user guide: <a href="https://docs.posit.co/ide/user/" class="uri">https://docs.posit.co/ide/user/</a></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>:<br>
+If you’d like to continue practicing R after this session, there is an optional additional resource available.<br>
+Datacamp offers a free, interactive introduction to R, where you can practice directly in your browser. It’s a useful way to reinforce what we covered today and get more comfortable with writing code at your own pace.<br>
+You are not required to complete it, but it can be helpful if you want extra practice or a more structured introduction to R outside of class. Included is also a link to an RStudio user guide to become more aquanted with the layout and navigating using RStudio and R.</p>
+<p><strong>Instructor Notes</strong>: Present this as an optional extension, not part of the core learning requirements. Avoid suggesting it as mandatory. Emphasise self-paced learning and reinforcement of basic R skills.</p>
+<p><strong>Accessibility Tips:</strong><br>
+Ensure the link is accessible through the course platform or slide deck.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="../../../OSC_Logo.jpg" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>LMU Open Science Center</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/lmu-osc\.github\.io\/train-the-trainer-student-track-OS\/");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
