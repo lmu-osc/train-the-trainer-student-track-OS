@@ -1,0 +1,100 @@
+---
+title: "3.2. Introduction to R - Part I"
+---
+
+> Welcome to the R side.
+
+# About these materials
+
+**Welcome!** This workshop is intended to provide learners with an introduction to R and RStudio. Through hands-on exercices, we will learn how to navigate the RStudio interface and use core R programming concepts to work efficiently with data. We will also learn how to create and manipulate objects, execute code, use functions with arguments, and access information stored in data frames.
+
+## Who are these materials for?
+
+The target audience of this workshop is twofold:
+
+- **Self-learners** with no prior experience with R or RStudio, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Presenter notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting.
+
+- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint slides corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors.
+
+## Prerequisites
+
+::: {style="font-size: 0.8em;"}
+| Prerequisite   |  Description  | Where to find it   |
+|------------|------------|------------|
+| RStudio installed | Version 2026.04.0+526 or higher | [Download](https://posit.co/download/rstudio-desktop/) |
+| R installed | Version 4.5.2 or higher | [Download](https://www.r-project.org/) |
+| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/Accessibility_sheet_for_computers_OSSS26.pdf)
+:::
+
+## Learning goals
+
+- To **navigate** the RStudio interface (Console, Environment, Script, and Output panes).
+- To **differentiate** between basic data types in R (numeric, character, logical, integer) and how they are used.
+- To **execute** operations in the Console and R Script using appropriate operators.
+- To **assign** and **re-assign** values, vectors, and lists to objects. 
+- To **specify** arguments within functions to modify how the function produces its output.
+- To **index** dataframes to access and retrieve specific information.
+
+# Materials
+
+
+[Click here to see the materials in full screen](OS-M3-S2-R-Part-I-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="OS-M3-S2-R-Part-I-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## Supplementary files - TO DO
+
+### Practical exercises - solutions
+
+Download the solutions for the practical exercises here:
+
+{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
+
+### Helpfiles
+
+Download the csv file for the example data:
+
+{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
+
+<!-- https://github.com/shafayetShafee/downloadthis --> <!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
+
+# Export slides
+
+You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export.
+
+{{< downloadthis OS-M3-S2-R-Part-I-slides.pptx dname="OS-M3-S2-R-Part-I-slides" label="Download slides as PPTX">}}
+
+{{< downloadthis OS-M3-S2-R-Part-I-slides.pdf dname="OS-M3-S2-R-Part-I-slides" label="Download slides as PDF">}}
+
+<!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
+
+# Contributors and licence details
+
+**Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
+
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/my-orcid?orcid=0000-0000-0000-0000)) CHANGE
+
+**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
+
+**Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
+
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+<br>
+
+<p style="text-align:center;">
+
+<img src="images/cc-by-sa.png" alt="CC BY 4.0" style="height:50px;"/>
+
+</p>
+
+::: {style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;"}
+This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/).
+
+His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), Tejaswini Sharma, [David Rieger](https://orcid.org/0009-0004-3701-3101), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895).
+:::
