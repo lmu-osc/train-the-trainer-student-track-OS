@@ -1164,35 +1164,60 @@
     "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html",
     "title": "3.2. Introduction to R - Part I",
     "section": "",
-    "text": "Welcome to the R side."
+    "text": "Welcome to the R side.",
+    "crumbs": [
+      "Home",
+      "Module 3: Open Research Software Tools",
+      "3.2. Introduction to R - Part I"
+    ]
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html#who-are-these-materials-for",
     "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html#who-are-these-materials-for",
     "title": "3.2. Introduction to R - Part I",
     "section": "Who are these materials for?",
-    "text": "Who are these materials for?\nThe target audience of this workshop is twofold:\n\nSelf-learners with no prior experience with R or RStudio, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. Presenter notes will help you to understand and reflect on the content of the materials. Note: Group exercises are not possible in this asynchronous setting.\nInstructors in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint slides corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors."
+    "text": "Who are these materials for?\nThe target audience of this workshop is twofold:\n\nSelf-learners with no prior experience with R or RStudio, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. Presenter notes will help you to understand and reflect on the content of the materials. Note: Group exercises are not possible in this asynchronous setting.\nInstructors in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint slides corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors.",
+    "crumbs": [
+      "Home",
+      "Module 3: Open Research Software Tools",
+      "3.2. Introduction to R - Part I"
+    ]
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html#prerequisites",
     "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html#prerequisites",
     "title": "3.2. Introduction to R - Part I",
     "section": "Prerequisites",
-    "text": "Prerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nRStudio installed\nVersion 2026.04.0+526 or higher\nDownload\n\n\nR installed\nVersion 4.5.2 or higher\nDownload\n\n\nAccessibility sheet for computers\nFundamentals of computer literacy\nDownload"
+    "text": "Prerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nRStudio installed\nVersion 2026.04.0+526 or higher\nDownload\n\n\nR installed\nVersion 4.5.2 or higher\nDownload\n\n\nAccessibility sheet for computers\nFundamentals of computer literacy\nDownload",
+    "crumbs": [
+      "Home",
+      "Module 3: Open Research Software Tools",
+      "3.2. Introduction to R - Part I"
+    ]
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html#learning-goals",
     "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html#learning-goals",
     "title": "3.2. Introduction to R - Part I",
     "section": "Learning goals",
-    "text": "Learning goals\n\nTo navigate the RStudio interface (Console, Environment, Script, and Output panes).\nTo differentiate between basic data types in R (numeric, character, logical, integer) and how they are used.\nTo execute operations in the Console and R Script using appropriate operators.\nTo assign and re-assign values, vectors, and lists to objects.\nTo specify arguments within functions to modify how the function produces its output.\nTo index dataframes to access and retrieve specific information."
+    "text": "Learning goals\n\nTo navigate the RStudio interface (Console, Environment, Script, and Output panes).\nTo differentiate between basic data types in R (numeric, character, logical, integer) and how they are used.\nTo execute operations in the Console and R Script using appropriate operators.\nTo assign and re-assign values, vectors, and lists to objects.\nTo specify arguments within functions to modify how the function produces its output.\nTo index dataframes to access and retrieve specific information.",
+    "crumbs": [
+      "Home",
+      "Module 3: Open Research Software Tools",
+      "3.2. Introduction to R - Part I"
+    ]
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html#supplementary-files---to-do",
     "href": "materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html#supplementary-files---to-do",
     "title": "3.2. Introduction to R - Part I",
     "section": "Supplementary files - TO DO",
-    "text": "Supplementary files - TO DO\n\nPractical exercises - solutions\nDownload the solutions for the practical exercises here:\n\n\nHelpfiles\nDownload the csv file for the example data:"
+    "text": "Supplementary files - TO DO\n\nPractical exercises - solutions\nDownload the solutions for the practical exercises here:\n\n\nHelpfiles\nDownload the csv file for the example data:",
+    "crumbs": [
+      "Home",
+      "Module 3: Open Research Software Tools",
+      "3.2. Introduction to R - Part I"
+    ]
   },
   {
     "objectID": "materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html#licence",
