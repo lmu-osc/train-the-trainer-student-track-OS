@@ -1286,9 +1286,15 @@ Also, for added clarity, you can mention that, in this example, "`list("Alex", 2
 ## Dataframes
 
 **What does a dataframe do?** Stores data in rows and columns.
+
+:::::: columns
+::: column
+
   - It is **two**-dimensional
   - **Rows** represent observations, **columns** represent variables
   
+:::
+::: column
 
 | Name | Age | Food |
 |------|-----|------|
@@ -1296,13 +1302,16 @@ Also, for added clarity, you can mention that, in this example, "`list("Alex", 2
 | Tom | 20 | Pizza |
 | Anna | 21 | Pasta |
 
+:::
+::::::
+
 ::: callout-note
 # Look familiar?
-Think of a dataframe like a spreadsheet. The top row is like the heading and the information below (within each column) is the observation corresponding to the heading. 
+Think of a dataframe like a spreadsheet. The top row is the heading and the information below (within each column) is the observation corresponding to the heading. 
 :::
 
 ::: {.notes}
-**Presenter Notes**: Dataframes are one of the most important data structures in R because most datasets are stored this way. If you've used Excel or any type of spreadsheets before, think of a dataframe as a table where rows contain observations and columns contain variables.
+**Presenter Notes**: Dataframes are one of the most important data structures in R because most datasets are stored this way. If you've used Excel or any type of spreadsheets before, think of a dataframe as a table where rows contain observations and columns contain variables. See here in the example, this is how the information would be stored in a dataframe.
 
 **Intructor Notes**: To avoid confusion, use the example to explain further the breakdown of a dataframe: `Name` is the observation- it's what we are interested in finding out. Then each name under it (`Tim, Tom, Anna`) are the variables within this specific observation.
 :::
