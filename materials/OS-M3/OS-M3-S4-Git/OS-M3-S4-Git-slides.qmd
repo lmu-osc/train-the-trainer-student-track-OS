@@ -1,6 +1,6 @@
 ---
 title: "Introduction to version control with Git in RStudio"
-author: "LMU Open Science Center"
+author: "Sarah von Grebmer"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
@@ -8,7 +8,7 @@ format:
     css: ../../../slides-custom.css
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../OSC_Logo.jpg
+    logo: ../../../assets/logos/OSC_Logo.jpg
   pdf:
     geometry: 
       - top=30mm
