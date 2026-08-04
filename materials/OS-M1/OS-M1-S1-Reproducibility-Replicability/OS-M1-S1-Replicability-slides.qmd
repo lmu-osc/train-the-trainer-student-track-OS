@@ -8,13 +8,16 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
   #pdf:
   #  geometry: 
    #   - top=30mm
    #   - left=30mm
   pptx: 
     css: ../../../slides-custom.css # looks for css file in root
+
+revealjs-plugins:
+  - tabset
 
 bibliography: ../../../assets/references.bib
 csl: ../../../assets/apa.csl
@@ -28,8 +31,7 @@ filters:
   - timer
 ---
 
-
-<!-- Timings: SvG: thank you!
+<!-- Timings:
 
 - Up to the "used car exercise": 30 min
 - "used car exercise": 20 min overall
@@ -56,6 +58,7 @@ This work was originally created by [Felix Schönbrodt](https://www.nicebread.de
 **Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
 :::
 
+---
 
 ## Contribution statement
 
@@ -76,13 +79,13 @@ This work was originally created by [Felix Schönbrodt](https://www.nicebread.de
 **Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
 :::
 
+---
 
 ## Prerequisites
 
 ::: {.callout-important}
 Before completing this submodule, please carefully read about the prerequisites.
 :::
-
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
@@ -96,61 +99,49 @@ Before completing this submodule, please carefully read about the prerequisites.
 **Instructor Notes**: Since this is the introductory submodule of this module, there are no formal prerequisites. However, to get a small kick-start into the topic, learners are advised to have skimmed the UNESCO Recommendations on Open Science, particularly pages 6-19. 
 :::
 
-
+---
 
 ## Threats to credible research - Intro Survey
 
-
 ::: {.notes}
-**Presenter Notes**: Before we get started, I would like to  explore your previous knowledge around Open Research. Perhaps some of you have read the recommedations by UNESCO, perhaps some have never heard of the term Open Research before. On the following slides you will find some questions which aim to capture how much you know already. You can scan the QR code, which will take you to a survey tool where you can click your way through the questions. We will then briefly discuss the questions in the plenum. Some of these questions I will ask again towards the end of this session, to get an understanding of whether anything has changed in terms of your knowledge or understanding during this session. 
+**Presenter Notes**: Before we get started, I would like to  explore your previous knowledge around Open Research. Perhaps some of you have read the recommendations by UNESCO, perhaps some have never heard of the term Open Research before. On the following slides you will find some questions which aim to capture how much you know already. You can scan the QR code, which will take you to a survey tool where you can click your way through the questions. We will then briefly discuss the questions in the plenum. Some of these questions I will ask again towards the end of this session, to get an understanding of whether anything has changed in terms of your knowledge or understanding during this session. 
 
-**Instructor Notes**:
-
-- **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
-
-- Use free survey software such as Particify to establish the following questions (shown on separate slides).
-
-- *Note*: This survey component does not work in an asynchronous setting.
+**Instructor Notes**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic. Use free survey software such as Particify to establish the following questions (shown on separate slides). *Note*: This survey component does not work in an asynchronous setting.
 :::
 
-## Survey
+::: {.panel-tabset}
 
-**Based on your experience so far, how would you currently rate your trust in published scientific findings on a scale from 1 - 5?**
+### Trust levels
 
-- 1 = trusting virtually **none** of the findings
-- 2 = trusting only **some** findings
-- 3 = trusting about **half** of the findings
-- 4 = trusting the **majority** of the findings
-- 5 = trusting virtually **all** findings
+- **Based on your experience so far, how would you currently rate your trust in published scientific findings on a scale from 1 - 5?**
+
+  - 1 = trusting virtually **none** of the findings
+  - 2 = trusting only **some** findings
+  - 3 = trusting about **half** of the findings
+  - 4 = trusting the **majority** of the findings
+  - 5 = trusting virtually **all** findings
+
+### Challenges to research trust
+
+- **Based on your experience so far, which challenges to research trustworthiness do you see? Name a few keywords.**
+
+  - Display Wordcloud answer. 
+
+### Open Research
+
+- **What is your level of familiarity with Open Research practices in general (e.g., basic concepts, terminology, or tools)?**
+
+  a. I am unfamiliar with the concept of Open Research practices.
   
-## Survey
+  b. I have heard of them but I would not know how they apply to my work.
+  
+  c. I have basic understanding and experience with Open Research practices in my own work/research/studies. 
+  
+  d. I am very familiar with Open Research practices and routinely apply them in my daily work/research/study routines.
 
-**Based on your experience so far, which challenges to research trustworthiness do you see? Name a few keywords.**
+:::
 
-Display Wordcloud answer. 
-
-<!-- ## Survey
-
-
-Note Felix: Diese Frage finde ich zu allgemein gestellt
-
-**Based on your experience so far, which concepts do you connect to research more broadly?**
-
-Display Wordcloud answer.  -->
-
-## Survey
-
-**What is your level of familiarity with Open Research practices in general (e.g., basic concepts, terminology, or tools)?**
-
-a. I am unfamiliar with the concept of Open Research practices.
-
-b. I have heard of them but I would not know how they apply to my work.
-
-c. I have basic understanding and experience with Open Research practices in my own work/research/studies. 
-
-d. I am very familiar with Open Research practices and routinely apply them in my daily work/research/study routines.
-
-
+---
 
 ## Discussion of survey results
 
@@ -161,13 +152,9 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Presenter Notes**: Script for the slide here.
+**Presenter Notes**: Let us have a brief look at where we are at.
 
-**Instructor Notes**:
-
-- **Aim"**: Briefly examine the answers given to each question interactively with the group.
-
-- Use visuals from the survey to highlight specific answers.
+**Instructor Notes**: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers.
 :::
 
 
@@ -202,75 +189,81 @@ NOTE Felix: Unnecessary filler slide.
  -->
 
 ## Your current understanding of key terms (6 min)
-### Think - Pair - Share
 
-- **Think** (2 min): For yourself: Write down a definition for those key terms: *Replicability*, *Replication*, *Reproduction*, *p-hacking*<br>[(without internet search - your current understanding)]{.smallnote}
-- **Pair** (2 min): Discuss your definitions with your neighbour
-- **Share** (2 min): Share your definitions with the larger group
+::: {.columns}
 
-::::: {.columns}
-:::: {.column width="33%"}
-:::{.timer #think1 seconds=120 starton=interaction size=67% sound=true}
+::: {.column width="45%"}
+
+### Think (2 min)
+- For yourself: Write down a definition for those terms: *Replicability*, *Replication*, *Reproduction*, *p-hacking* <br>[(without internet search - your current understanding)]{.smallnote}
+
+:::{.timer #think1 seconds=120 starton=interaction size=50% sound=true}
 ::: 
-::::
-:::: {.column width="33%"}
-:::{.timer #pair1 seconds=120 starton=interaction size=67% sound=true}
+
 :::
-::::
-:::: {.column width="33%"}
-:::{.timer #share1 seconds=120 starton=interaction size=67% sound=true}
+
+::: {.column width="27%"}
+
+### Pair (2 min)
+- Discuss your definitions with your neighbour
+
+<br>
+
+:::{.timer #pair1 seconds=120 starton=interaction size=50% sound=true}
 :::
+
+:::
+
+::: {.column width="27%"}
+
+### Share (2 min)
+- Share your definitions with the larger group
+
+<br>
+
+:::{.timer #share1 seconds=120 starton=interaction size=50% sound=true}
+:::
+
+:::
+
 ::::
-:::::
 
 ::: {.callout-note title="Note - this is not a test!"}
 These terms probably have not been covered in your courses yet. We just want to see what your current understanding of these terms is.
 :::
 
+---
+
 ## Covered in this session
 
 - **Do** people **trust** in science?
-- **Should** people **trust** in science? Replicability and reproducibilty
+- **Should** people **trust** in science? --> Replicability and reproducibilty
 - Threats to replicability: **p-hacking, errors, and biases** in research
-
 
 ::: {.notes}
 **Presenter Notes**: This slide provides an overview of the main topics we will cover in this session. Do not worry if some of these concepts make no sense to you at this point, we will get to all of them by the end of this session. We will begin by looking at research and the research cycle. We will look at how knowledge is produced, from forming a research question, through data collection and analysis, to publication and dissemination. Next, we will discuss trust in research and what it means. Trust is fundamental to science and research because it shapes how researchers trust each other’s work, how institutions make decisions based on evidence, and how society at large engages with scientific findings. We will then move on to replicability and reproducibility, two key concepts for assessing the robustness of research. We will clarify the difference between them and examine why the inability to replicate or reproduce results has become a major concern across many disciplines. Following that, we will learn about biases, inconsistencies, and mistakes in research. These issues are often unintentional but can arise from methodological choices, data handling, publication pressures, or systemic incentives. Recognizing these challenges helps us better understand where and why research can go wrong.
-
-**Instructor Notes**: Add.
 :::
 
-
+---
 
 ## Learning goals
 
+By the end of this session, you will be able to: 
 
-By the end of this session, learners will be able to: 
-
-- **Define** and **distinguish** key terms related to research, including research cycle, trust in research, replicability, reproducibility, and open research
+<!--- UNCOMMENT IF INTRO TO RESEARCH IS INCLUDED **Define** and **distinguish** key terms related to (open) research, including research cycle, trust in research, replicability, reproducibility -->
+- **Reflect** on the role of trust in scientific research
 - **Recognize** different types of challenges in research: research biases, statistical insecurities, errors and where they can arise from
 - **Analyze** research scenarios to identify potential research biases and questionable research practices
 - **Reflect** on the current threats for research and on the need for alternative approaches to conducting research
   
 ::: {.notes}
-**Presenter Notes**: Script for the slide here.
+**Presenter Notes**: These are the learning objectives for today's session. By the end of the session, you should be able to define and distinguish key concepts related to research and open research, including the research cycle, trust in research, replicability, and reproducibility. You should also be able to recognize common challenges in research, such as biases, statistical issues, and errors, and understand where they can arise. In addition, you will analyze research scenarios to identify potential biases and questionable research practices. Finally, you will reflect on current challenges facing research and consider why alternative approaches to conducting research have been proposed.
 
-**Instructor Notes**:
-
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy [@andersonTaxonomyLearningTeaching2001; @bloom1955NormativeStudy1956]
-
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
-- Examples: 
-  - Students will **describe** the process of photosynthesis or
-  - Students will **construct** a diagram illustrating the process of photosynthesis
 :::
 
+---
 
-
-<!-- ## Key terms and definitions - TO DO
-
-- **Aim**: Introduce key terms and definitions that students will come across throughout the session.
-<br>
+<!-- ## Key terms and definitions
 
 - **Key Term 1**: Definition
 - **Key Term 2**: Definition
@@ -279,19 +272,27 @@ By the end of this session, learners will be able to:
 ::: {.notes}
 **Presenter Notes**: Add script for slide here.
 
-**Instructor  Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
+**Instructor  Notes**: Introduce key terms and definitions that learners will come across throughout the session. Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
 ::: 
 
-
+---
 
 -->
 
 <!-- 
 
-NOTE Felix: I think this very general introduction to "What is research / research cycle" can be safely skipped. Students typically know this already.
+---
+
+# General introduction to research
+
+Note to instructors: The following section is designed to familiarize learners with key concept in research, such as the research cycle, basic methodology and thought experiments leading to the generation of a hypothesis. The section also includes hands-on exercises to facilitate the learning process.
+
+PLEASE SKIP if your learners already have a good grasp of the topic. 
+Else, UNCOMMENT the following slides. 
+
+---
 
 ## Practical exercise 1
-
 
 **Task**: Collect your thoughts with your neighbor.
 
@@ -306,7 +307,7 @@ NOTE Felix: I think this very general introduction to "What is research / resear
 **Instructor  Notes**: Use the think-pair-share method: Students write down for themselves for a minute what a definition of research could be, then pair with a neighbor to compare answers. Final answers are then discussed in the plenum. 
 :::
 
-
+---
 
 ## What is "research"?
 
@@ -324,16 +325,14 @@ Deb, D., Dey, R., & Balas, V. E. (2018). Introduction: What is research? In *Eng
 :::
 
 ::: {.notes}
-**Presenter Notes**: As was also evident from our discussions from the previous exercise, research can take many forms, therefore finding an all-encompassing description can be tricky. The work by Deb and colleauges (2018) describes research in the following way: Research is a careful, well-defined, objective, and systematic process rather than a random or unstructured activity. It involves a deliberate search for knowledge or the formulation of theories that aim to explain aspects of reality that are not yet fully understood. This process is driven by inquisitiveness and a desire to explore what is unknown, unresolved, or potentially useful, with the ultimate goal of making an original contribution that expands the existing body of knowledge. Research does not simply repeat what is already known; instead, it seeks to refine, extend, or generate new understanding.
+**Presenter Notes**: As was also evident from our discussions from the previous exercise, research can take many forms, therefore finding an all-encompassing description can be tricky. The work by Deb and colleagues (2018) describes research in the following way: Research is a careful, well-defined, objective, and systematic process rather than a random or unstructured activity. It involves a deliberate search for knowledge or the formulation of theories that aim to explain aspects of reality that are not yet fully understood. This process is driven by inquisitiveness and a desire to explore what is unknown, unresolved, or potentially useful, with the ultimate goal of making an original contribution that expands the existing body of knowledge. Research does not simply repeat what is already known; instead, it seeks to refine, extend, or generate new understanding.
 
 Central to the research process is the formulation of hypotheses or the proposition of possible solutions to identified problems. These guide the direction of inquiry and determine the type of data that must be collected. Through systematic data analysis and logical deduction, researchers evaluate evidence to determine whether their conclusions support or contradict the initial hypotheses. This evaluative step is essential, as it ensures that findings are grounded in evidence and coherent reasoning. Ultimately, research is a creative and constructive endeavor that results in the creation or formulation of knowledge that did not previously exist, thereby contributing meaningfully to scholarly and scientific advancement. 
 
 **Instructor  Notes**: Since this is a long block of text, take your time to integrate previous knowledge and ideas of learners with the defintion they are presented with. Acknowledge there is no "universal definition" of research, but rather an approach to generating new knowledge that can take many different shapes and forms.
 :::
 
-
-
-
+---
 
 ## The research cycle
 
@@ -356,10 +355,11 @@ After the experiment, we analyze the data. We look for patterns, compare results
 
 Finally, we report our fundings and conclusions, together with our approach. This could be through a written paper, a presentation, or sharing findings with a research team. Importantly, these conclusions often lead to new questions, sending us back to the first stage and continuing the cycle of discovery.
 
-**Instructor  Notes**: Beware that this diagram does not yet highlight the cyclical nature of research. It also focuses only on the inductive steps, not the deductive ones. If asked about this, acknowledge the contribution and refer to the following slide. 
+**Instructor Notes**: Beware that this diagram does not yet highlight the cyclical nature of research. It also focuses only on the inductive steps, not the deductive ones. If asked about this, acknowledge the contribution and refer to the following slide. 
+
 :::
 
-
+---
 
 ## The research cycle
 
@@ -376,45 +376,42 @@ DBR English greyscaler (Design-based research cycle)” by Sarah Zloklikovits, l
 **Instructor  Notes**: The diagram may imply that the stages are inherently following one another. When asked, add that the stages can overlap and that a research project can exist in multiple stages at once. For example, one can already start with writing up the methods in the final research report or publication, but the data analysis is not get concluded (this is acutally advised, but a topic for a later discussion).
 :::
 
-
+---
 
 ## Practical exercise 2
 
-```{r}
-# NOTE Felix: I would introduce the concept of phenomena here - first establish phenomena, then try to build theories that explain them.
-```
+The battery life of phones gradually decreases during the day (= **the phenomenon**). You have noticed that in winter, you need to charge your phone more often compared to the summer (= **the observation**). You now wonder if the battery life of your phone is somehow connected to the surrounding temperatures.
 
-**Task**: For the following "observation", map out the individual steps of the research cycle: <br>
+<br>
 
-<br> 
-**"I wonder what happens to pasta when I cook it in *unsalted* water?"**
-
+**Task**: For the this **observation**, map out the individual steps of the research cycle.
 
 ::: {.notes}
-**Presenter Notes**: I want you to think about these different stages and steps of the research cycle with reference to a concrete example. Let us imagine that you had the impression that on some days, your pasta cooks much faster compared to other days. You wonder why this is. You believe that the most likely explanation for this observation could be the quantity of salt. You formulate your observation in the following way: I wonder what happens to my pasta when I cook it in unsalted water? Your task is to map out the individual steps of a hypothetical approach where you try to answer this question in a systematic way. Use the research cycle as your framework of reference.
+**Presenter Notes**: To make the research cycle more concrete, we will apply it to a simple everyday example. The **phenomenon** is that phone batteries gradually lose charge over time during normal use. From this broader phenomenon, you make a specific **observation**: your phone seems to require charging more often in the winter than in the summer.
+
+This observation leads you to ask whether the surrounding temperature affects your phone's battery life. Rather than relying on your impression alone, you want to investigate this question systematically.
+
+Your task is to use the research cycle as a framework to map out the steps you would take to answer this question. Think about how you would move from the initial observation, to formulating a research question and hypothesis, designing a study, collecting and analyzing data, interpreting the results, and communicating your findings.
 
 **Instructor  Notes**: Allow 7-10 minutes for this task. A plausible working example:
-  - Observation: I notice that pasta seems to cook faster when the water is salted. 
-  
-- Define the question: Does pasta cook faster in salted water?
-  
-- Research the topic area: What has been done before?
-  
-- Define hypothesis: Pasta will cook faster in salted water than in unsalted water. My outcome variable is cooking time in seconds.
-  
-- Test with experiment: Define the amount of pasta, amount of water, amount of salt, average heat and the pot to cook the pasta in. Measure cooking time with a watch. Repeat the experiment many times.
-  
-- Analyze data: Examine the data you collected and compare the cooking times between pasta cooked in salted vs. unsalted water. Define potential confounding factors. 
-  
-- Write up your statistical conclusion and answer your original question.
-  
+
+- Phenomenon: Phone batteries gradually lose charge over time during normal use.
+- Observation: I notice that I need to charge my phone more often in the winter than in the summer.
+- Define the question: Does the surrounding temperature affect my phone's battery life?
+- Research the topic area: What is already known about the effect of temperature on lithium-ion batteries and smartphone battery performance?
+- Define hypothesis: My phone's battery life will be shorter at lower ambient temperatures than at higher ambient temperatures. My outcome variable is battery life, measured as the time (in hours) or battery percentage lost over a fixed period of use.
+- Test with experiment: Use the same phone with the same battery health and software version. Expose the phone to different ambient temperatures (e.g., 5°C and 20°C). Perform the same standardized set of tasks (e.g., video playback or web browsing) with the same screen brightness and settings. Record the battery percentage at regular intervals. Repeat the experiment multiple times.
+- Analyze data: Compare battery life across the different temperature conditions. Calculate average battery life and assess whether any observed differences are consistent. Consider potential confounding factors, such as battery age, background applications, network signal strength, screen brightness, and differences in phone usage.
+
 :::
 
+---
 
 -->
 
-
 # Do people trust in research?
+
+---
 
 ## What is public "trust" in research?
 
@@ -434,7 +431,7 @@ Resnik, D. B. (2011). Scientific research and the public trust. *Science and eng
 **Instructor  Notes**: Beware that depending on the background of your learners, trust can have many facets. At its core, trust refers to the confidence that research processes, findings, and actors are reliable, ethical, and credible. However, how this trust is understood and emphasized can vary by discipline and fields. One important dimension of trust relates to research methods. Across scientific disciplines, trust is built when appropriate methods are chosen, data are collected and analyzed rigorously, and decisions are clearly justified. In **experimental and quantitative fields**, this often involves standardized procedures, controls, and statistical robustness. In qualitative and interpretive disciplines, trust may instead be grounded in transparency, reflexivity, and the coherence of the research design. Another dimension is trust in researchers and research communities. This includes expectations of integrity, honesty, and adherence to ethical standards, as well as openness about limitations and potential conflicts of interest. In **research involving human participants or sensitive topics**, trust is closely linked to ethical responsibility and respect for participants. Trust also concerns research results and findings. This involves confidence that conclusions are supported by evidence and have not been distorted through selective reporting or questionable practices. Concepts such as replicability and reproducibility play a key role here, particularly in fields where results are expected to be independently verified. In **applied research areas such as medicine, engineering, or economics**, trust in findings is especially critical because research outcomes directly influence decisions, policies, and interventions. These dimensions are good to keep in mind when interacting with your learners.
 :::
 
-
+---
 
 ## Measuring trust in research
 
@@ -442,7 +439,7 @@ Resnik, D. B. (2011). Scientific research and the public trust. *Science and eng
 {{< fa chart-bar size=1x >}} Probe your prejudices: In which profession do you have the highest trust to tell the truth? And the lowest?
 :::
 ::: {.content-visible when-format="pdf"}
-![](images/chart-bar.png){width=1em} Probe your prejudices: In which profession do you have the highest trust to tell the truth? And the lowest?
+![](images/chart-bar.png){width=0.9em} Probe your prejudices: In which profession do you have the highest trust to tell the truth? And the lowest?
 :::
 
 . . . 
@@ -463,6 +460,8 @@ These top professions share a common theme: they are generally seen as skilled, 
 Moving to the middle of the chart, we see professions like police, judges, and business leaders, where trust is more moderate and mixed. At the lower end, journalists and advertising executives have relatively low trust levels.
 Finally, politicians and government ministers are the least trusted, with a significant gap between them and the top-ranked professions.
 :::
+
+---
 
 ## Public trust in research
 ### German survey "Wissenschaftsbarometer"
@@ -492,16 +491,20 @@ As an additional good to know from *Seyd (2025)* to show that the percentages in
 Share the website of the Science Barometer with this report if asked by your learners: [https://wissenschaft-im-dialog.de/documents/528/WIBA_2025_en_Web.pdf](https://wissenschaft-im-dialog.de/documents/528/WIBA_2025_en_Web.pdf)
 :::
 
+---
+
 ## Take aways from multiple international studies
 
 - Trust in scientists remains **relatively high** in many countries
 - Overall trust levels in research **remain stable**
-- **But**: public **skepticism** about scientists' integrity and **transparency**
+- **But**: public **skepticism** about scientists' **integrity** and **transparency**
 
 
 ::: footer
 Seyd, B. (2025). What is trust (in science and scientists) and is it in crisis?. *Current Opinion in Psychology, 67*. [https://doi.org/10.1016/j.copsyc.2025.102201](https://doi.org/10.1016/j.copsyc.2025.102201)
 :::
+
+---
 
 <!-- 
 
@@ -519,8 +522,6 @@ This slide is a bit tangential - maybe move to a later stage?
 Resnik, D. B. (2011). Scientific research and the public trust. *Science and engineering ethics, 17*(3), 399-409.
 :::
 
-
-
 ::: {.notes}
 **Presenter Notes**: When discussing the importance of trust in research by society, Resink highlights that trust is absolutely essential for effective collaboration in science. Researchers rely on one another in so many ways, e.g., co-authoring papers, reviewing each other’s work, sharing data, attempting replications, and even in day-to-day activities like teaching and mentoring. None of these collaborative practices would function smoothly without a basic level of confidence that everyone is acting with integrity.
 
@@ -528,9 +529,10 @@ Likewise, when scientists read published research, they trust that the study was
 
 **Instructor  Notes**: Emphasis that trust in research operates at multiple levels and that it may not be a yes/no issue but more of a multidimensional concept along different continuum. Trust is not automatic, and can be gradually lost, as we have for example seen during the COVID-19 pandemic or the Tuskegee Syphilis Study in the United States. In the latter, researchers did not ask participants for consent in the study and withheld treatment for participants. The case went to court, and study participants received a court settlement in 1974.
 :::
+
+---
+
 -->
-
-
 
 ::: {.content-hidden when-format="pdf"}
 ## {{< fa people-group size=1x >}} The used car dealer (10 min)
@@ -565,9 +567,16 @@ Inspired by Vazire, S. (2017). Quality Uncertainty Erodes Trust in Science. *Col
 :::
 
 ::: {.notes}
-**Presenter Notes**: Imagine you want to buy a used car from a salesman.
+**Presenter Notes**: Imagine you want to buy a used car from a car dealier. The dealer knows much more about the history and condition of the car than you do. As a buyer, you have to make a decision based on limited information, and you need ways to determine whether you can trust the seller and the product.
+
+We will split into two groups: buyers and dealers. If you are in the buyer group, think about this question: Given the negative reputation that car dealers sometimes have, what strategies could you use to reduce uncertainty and make sure you are making a trustworthy purchase? If you are in the dealer group, think about the opposite perspective: How could you demonstrate that you are a trustworthy dealer and that your car is genuinely high quality? What evidence, guarantees, or practices could convince buyers that you are not one of the bad examples?
+
+Discuss your ideas within your groups and then share your strategies with the rest of the class.
+
+Afterwards, we will connect these ideas to research. Just as buyers need ways to evaluate the quality of a car when they cannot directly observe everything about it, researchers and the public need ways to assess the reliability and credibility of research findings.
 :::
 
+---
 
 ## Used cars vs. science
 
@@ -585,9 +594,22 @@ Inspired by Vazire, S. (2017). Quality Uncertainty Erodes Trust in Science. *Col
 Quotes from Vazire, S. ([2017](https://doi.org/10.1525/collabra.74)).
 :::
 
+::: {.notes}
+**Presenter Notes**: The used car example can be directly connected to how trust works in science. The same problem of asymmetric information can occur when research findings are communicated.
+
+In this analogy, the product is the research manuscript, the seller is the author or researcher, and the buyer is the reader, such as other researchers, policymakers, or the public.
+
+The author has access to much more information about how the study was conducted than the reader does. They know the details of the research process: the original research question, the study design, the data collected, the analyses that were considered, and the decisions made along the way. The reader, however, often only sees the final published manuscript.
+
+When important information is not shared, such as the raw data, the original analysis plan, or alternative analyses that were explored, it becomes difficult for readers to fully evaluate the quality and reliability of the research. In the same way that a used car buyer cannot be certain about the quality of a car if important information about its history is hidden, research consumers cannot be fully certain about the quality of findings if key parts of the research process remain invisible.
+
+For many people outside of science, it may be surprising that transparency is not always the default in research. Given the role that scientific findings play in decision-making, one could argue that scientists should be held to an even higher standard of transparency and accountability than used car sellers.
+
+:::
+
+---
 
 ## A stark contrast?
-
 
 :::: {.columns}
 ::: {.column width='50%'}
@@ -613,6 +635,7 @@ Quotes from Vazire, S. ([2017](https://doi.org/10.1525/collabra.74)).
 Royal Society logo by <a href="//commons.wikimedia.org/wiki/User:MostEpic" title="User:MostEpic">MostEpic</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=116754312">Link</a>; Car dealer by ChatGPT.
 :::
 
+---
 
 <!-- 
 Analogy too juicy?
@@ -649,14 +672,14 @@ Inspired by a Tweet from Daniel Lakens; Image from ChatGPT
 ## Practical exercise 3
 
 
-As a researcher, what can *you* do to make your pasta experiment **trustworthy**?
+As a researcher, what can *you* do to make your phone experiment **trustworthy**?
 
 ::: {.callout-tip}
 Think about your approach when **formulating your hypothesis**, when **conducting** your experiment, when **analyzing your data**, when **writing up** your findings; but also about potential **confounding variables** or hurdles you could encounter during the research process. 
 :::
 
 ::: {.notes}
-**Presenter Notes**: Think about the discussions we just had about trust. Then connect it to the experiment that you just planned in the previous excercise. What steps do you think you can already take to make your own experiment more trustworthy?
+**Presenter Notes**: Think about the discussions we just had about trust. Then connect it to the experiment that you just planned in the previous excersise. What steps do you think you can already take to make your own experiment more trustworthy?
 
 **Instructor  Notes**: There are several possible answers, depending on the exact approach. Since Open Research practices are new to many at this stage, broader answers are completely acceptable for the purpose of this exercise. Some example answers could be:
 
@@ -669,11 +692,22 @@ Think about your approach when **formulating your hypothesis**, when **conductin
 - Get help and support
 :::
 
+---
+
 -->
 
-# Should we trust in science?
+# *Should* we trust in science?
 
-## Definitions of key terms
+---
+
+conitnune from hereeee
+
+---
+
+## Definition of key terms
+
+::: {.panel-tabset}
+
 ### Replicability and reproducibility
 
 ::: {.smaller}
@@ -702,8 +736,6 @@ The **key distinction** is that replicability tests the experiment itself, while
 :::
 
 
-
-## Definitions of key terms
 ### Prototypes of replication studies
 
 - **exact/direct replication**: (Virtually) Everything is inherited from the original study except the sample itself
@@ -711,12 +743,11 @@ The **key distinction** is that replicability tests the experiment itself, while
 - **conceptual replication**: The same substantive research question is tested, but with different operationalizations
 - **replication and extension**: Doing a direct replication and adding new elements (also called "direct+" replication)
 
-::: {.smallest}
+:::footer
 Note: The terminology around replication varies between fields, and the boundaries between these types are blurry.
 :::
 
 
-## Definitions of key terms
 ### Better approach: Define exactly what changed/stayed identical
 
 A prototypical direct replication: 
@@ -734,7 +765,6 @@ A realistic example:
 The qualifiers "direct", "conceptual", "close" etc. replications are prototypical configurations of this matrix.
 
 
-## Definitions of key terms
 ### p-hacking and QRPs
 
 
@@ -745,7 +775,9 @@ The qualifiers "direct", "conceptual", "close" etc. replications are prototypica
 So, p-hacking is basically “data fishing” or “cherry-picking” results to make the research seem more impressive than it really is. It is important to highlight here at this point that p-hacking are considered questionable research practises, aka approaches which are not yet considered fraud by the scientific community, but are not considered "clean" either. 
 :::
 
+:::
 
+---
 
 
 ## Replicability and reproducibility
@@ -760,6 +792,7 @@ Want to practice how to distinguish the two? Skip to the end of the slides for a
 **Instructor  Notes**: Use the extra excercises as a way to challenge learners which may already have some prior knowledge about these two concepts. 
 :::
 
+---
 
 ## Reproducibility Project:Psychology (RP:P, 2015)
 ### The first large-scale replication project in the field
@@ -2340,4 +2373,29 @@ Decide whether each scenario in the following slides is an example of **reproduc
 
 **Ideal scenario: Balancing the desire to stay truthful to research with the necessity to publish?**
 
+---
+
+## Your current understanding of key terms (6 min)
+### Think - Pair - Share
+
+::::: {.columns}
+:::: {.column width="33%"}
+:::{.timer #think1 seconds=120 starton=interaction size=67% sound=true}
+::: 
+::::
+:::: {.column width="33%"}
+:::{.timer #pair1 seconds=120 starton=interaction size=67% sound=true}
+:::
+::::
+:::: {.column width="33%"}
+:::{.timer #share1 seconds=120 starton=interaction size=67% sound=true}
+:::
+::::
+:::::
+
+::: {.callout-note title="Note - this is not a test!"}
+These terms probably have not been covered in your courses yet. We just want to see what your current understanding of these terms is.
+:::
+
+---
 
