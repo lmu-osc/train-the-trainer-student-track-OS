@@ -499,40 +499,11 @@ Share the website of the Science Barometer with this report if asked by your lea
 - Overall trust levels in research **remain stable**
 - **But**: public **skepticism** about scientists' **integrity** and **transparency**
 
-
 ::: footer
 Seyd, B. (2025). What is trust (in science and scientists) and is it in crisis?. *Current Opinion in Psychology, 67*. [https://doi.org/10.1016/j.copsyc.2025.102201](https://doi.org/10.1016/j.copsyc.2025.102201)
 :::
 
 ---
-
-<!-- 
-
-This slide is a bit tangential - maybe move to a later stage?
-
-## What is (academic) "trust" in research?
-
-::: incremental
-- Trust is **essential for effective collaboration** among researchers (includes co-authorship, peer review, data sharing, replication, teaching, mentoring, etc.). We operate under the assumption of good faith.
-
-- Scientists reading published research trust that the **work was conducted as described**, that **all relevant methodological details** are **disclosed**, and that the data have **not been fabricated or falsified**.
-:::
-
-::: footer
-Resnik, D. B. (2011). Scientific research and the public trust. *Science and engineering ethics, 17*(3), 399-409.
-:::
-
-::: {.notes}
-**Presenter Notes**: When discussing the importance of trust in research by society, Resink highlights that trust is absolutely essential for effective collaboration in science. Researchers rely on one another in so many ways, e.g., co-authoring papers, reviewing each other’s work, sharing data, attempting replications, and even in day-to-day activities like teaching and mentoring. None of these collaborative practices would function smoothly without a basic level of confidence that everyone is acting with integrity.
-
-Likewise, when scientists read published research, they trust that the study was carried out as the authors describe. They expect that all the important methodological details are reported transparently, so the work can be evaluated or repeated. And they assume that the data are genuine, or in other words that nothing has been fabricated, falsified, or manipulated; intentionally or unintentionally. Without this trust in the accuracy and honesty of the research record, the entire scientific research process becomes unstable and no longer credible.
-
-**Instructor  Notes**: Emphasis that trust in research operates at multiple levels and that it may not be a yes/no issue but more of a multidimensional concept along different continuum. Trust is not automatic, and can be gradually lost, as we have for example seen during the COVID-19 pandemic or the Tuskegee Syphilis Study in the United States. In the latter, researchers did not ask participants for consent in the study and withheld treatment for participants. The case went to court, and study participants received a court settlement in 1974.
-:::
-
----
-
--->
 
 ::: {.content-hidden when-format="pdf"}
 ## {{< fa people-group size=1x >}} The used car dealer (10 min)
@@ -540,7 +511,7 @@ Likewise, when scientists read published research, they trust that the study was
 ::: {.content-visible when-format="pdf"}
 ## ![](images/people-group.png){width=1em} The used car dealer (10 min)
 :::
-### aka. "Trust in a situation with asymmetric information"
+### a.k.a. "Trust in a situation with asymmetric information"
 
 :::: {.columns}
 ::: {.column width='60%'}
@@ -567,7 +538,7 @@ Inspired by Vazire, S. (2017). Quality Uncertainty Erodes Trust in Science. *Col
 :::
 
 ::: {.notes}
-**Presenter Notes**: Imagine you want to buy a used car from a car dealier. The dealer knows much more about the history and condition of the car than you do. As a buyer, you have to make a decision based on limited information, and you need ways to determine whether you can trust the seller and the product.
+**Presenter Notes**: Imagine you want to buy a used car from a car dealer. The dealer knows much more about the history and condition of the car than you do. As a buyer, you have to make a decision based on limited information, and you need ways to determine whether you can trust the seller and the product.
 
 We will split into two groups: buyers and dealers. If you are in the buyer group, think about this question: Given the negative reputation that car dealers sometimes have, what strategies could you use to reduce uncertainty and make sure you are making a trustworthy purchase? If you are in the dealer group, think about the opposite perspective: How could you demonstrate that you are a trustworthy dealer and that your car is genuinely high quality? What evidence, guarantees, or practices could convince buyers that you are not one of the bad examples?
 
@@ -629,8 +600,6 @@ For many people outside of science, it may be surprising that transparency is no
 ::: 
 ::::
 
-
-
 ::: footer
 Royal Society logo by <a href="//commons.wikimedia.org/wiki/User:MostEpic" title="User:MostEpic">MostEpic</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=116754312">Link</a>; Car dealer by ChatGPT.
 :::
@@ -679,7 +648,7 @@ Think about your approach when **formulating your hypothesis**, when **conductin
 :::
 
 ::: {.notes}
-**Presenter Notes**: Think about the discussions we just had about trust. Then connect it to the experiment that you just planned in the previous excersise. What steps do you think you can already take to make your own experiment more trustworthy?
+**Presenter Notes**: Think about the discussions we just had about trust. Then connect it to the experiment that you just planned in the previous exercise. What steps do you think you can already take to make your own experiment more trustworthy?
 
 **Instructor  Notes**: There are several possible answers, depending on the exact approach. Since Open Research practices are new to many at this stage, broader answers are completely acceptable for the purpose of this exercise. Some example answers could be:
 
@@ -700,23 +669,19 @@ Think about your approach when **formulating your hypothesis**, when **conductin
 
 ---
 
-conitnune from hereeee
-
----
-
 ## Definition of key terms
-
-::: {.panel-tabset}
-
 ### Replicability and reproducibility
 
 ::: {.smaller}
+:::incremental
 - **Replicability**: The extent to which design, implementation, analysis, and reporting of a study enable a third party to repeat the study and assess its findings.
   - [Replicability is a property of the original study - it makes no statement about whether a replication has been attempted yet or whether that was successful or not.]{.note}
   - [Conceived as a continuum (hence the *extent* of replicability)]{.note}
 - **Replication**: A study that repeats all or part of another study *including new data collection* and allows researchers to compare their findings. Can be successful or not successful.
-- **Reproduction**: The act of re-computing some numerical results using the *original data* (with or without the original code)
-- **Reproducibility**: The extent to which the results of an original study agree with those of replication or reproductionstudies.
+- **Reproduction**: The act of re-computing some numerical results using the *original data* (with or without the original code).
+- **Reproducibility**: The extent to which the results of an original study agree with those of replication or reproduction studies.
+
+:::
 :::
 
 ::: footer
@@ -735,50 +700,74 @@ The **key distinction** is that replicability tests the experiment itself, while
 **Instructor  Notes**: Make sure to spend enough time on this slide and provide an example scenario from the extra assignment at the end of the slide deck if you notice that the distinction between the terms remains too vague and/or abstract.
 :::
 
+---
 
 ### Prototypes of replication studies
 
-- **exact/direct replication**: (Virtually) Everything is inherited from the original study except the sample itself
-- **close replication**: Similar to direct replication, but with some (necessary) modifications to the methods or procedures; e.g. translations
-- **conceptual replication**: The same substantive research question is tested, but with different operationalizations
-- **replication and extension**: Doing a direct replication and adding new elements (also called "direct+" replication)
+:::incremental
+- **Exact/direct replication**: (Virtually) Everything is inherited from the original study except the sample itself
+- **Close replication**: Similar to direct replication, but with some (necessary) modifications to the methods or procedures; e.g. translations
+- **Conceptual replication**: The same substantive research question is tested, but with different operationalizations
+- **Replication and extension**: Doing a direct replication and adding new elements (also called "direct+" replication)
+:::
 
 :::footer
 Note: The terminology around replication varies between fields, and the boundaries between these types are blurry.
 :::
 
-
-### Better approach: Define exactly what changed/stayed identical
-
-A prototypical direct replication: 
-
-![](images/replication_types_matrix1.png){.img-full}
-
-
-## Definitions of key terms
-### Better approach: Define exactly what changed/stayed identical
-
-A realistic example:
-
-![](images/replication_types_matrix2.png){.img-full}
-
-The qualifiers "direct", "conceptual", "close" etc. replications are prototypical configurations of this matrix.
-
-
-### p-hacking and QRPs
-
-
-![](images/04_QRPs.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
-
 ::: {.notes}
-**Presenter Notes**: We will move to another factor which contributes to the low reproducibility and replicability rates across fields: accidental p-hacking.  P-hacking is when researchers manipulate their data or analyses, intentionally or not, to get a statistically significant result (usually p < 0.05). In simple terms, it’s like trying many different tests, methods, or subsets of data until something looks significant, and then reporting only that “lucky” finding.
-So, p-hacking is basically “data fishing” or “cherry-picking” results to make the research seem more impressive than it really is. It is important to highlight here at this point that p-hacking are considered questionable research practises, aka approaches which are not yet considered fraud by the scientific community, but are not considered "clean" either. 
-:::
+**Presenter Notes**: There are different types of replication studies. 
+
+- **Exact/direct replication**: The goal is to reproduce the original study as closely as possible. The main thing that changes is the sample, for example, recruiting participants from a different population or location.
+
+- **Close replication**: We still try to follow the original study closely, but make practical or necessary adjustments. An example is translating the materials into another language while keeping the underlying procedure the same.
+
+- **Conceptual replication**: Here, we are testing the same underlying research question, but we approach it differently, for example, by using different measures, tasks, or manipulations.
+
+- **Replication and extension**: This combines replication with something new. We first reproduce the original study and then add an additional element, such as a new condition, measure, or research question.
+
+- **Terminology more generally**: These categories are useful as a guide, but different fields use different terms and sometimes the lines between the different concepts are blurry.
 
 :::
 
 ---
 
+### Better approach: Define exactly what changed/stayed identical
+
+A prototypical **exact/direct replication**: 
+
+![](images/replication_types_matrix1.png){.img-full}
+
+::: {.notes}
+**Presenter Notes**: This table here visualizes an exact or direct replication. Since we would collect new data for a replication study, there would be at least one change in the empirical data. The rest would all be the same: design, stimuli, materials, analysis procedures, participant pool, research questions, hypotheses etc., except for scripts and analysis code.
+:::
+
+---
+
+### Better approach: Define exactly what changed/stayed identical
+
+A **realistic example**:
+
+![](images/replication_types_matrix2.png){.img-full}
+
+The qualifiers "direct", "conceptual", "close" etc. replications are prototypical configurations of this matrix.
+
+::: {.notes}
+**Presenter Notes**: In reality, this is what a more realistic table could look like for a replication study: You may additionally also have to change the independent variables or the intervention you are giving to participants, and your procedure may be predefined by setting in which the study is taking place. Your intervention or independent variables may change because in the original study they depended on a specific software, or an intervention that is no longer available. 
+:::
+
+---
+
+### p-hacking and QRPs
+
+![](images/04_QRPs.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
+
+::: {.notes}
+**Presenter Notes**: We will move to another factor which contributes to the low reproducibility and replicability rates across fields: accidental p-hacking. P-hacking is when researchers manipulate their data or analyses, intentionally or not, to get a statistically significant result (usually p < 0.05). In simple terms, it’s like trying many different tests, methods, or subsets of data until something looks significant, and then reporting only that “lucky” finding.
+So, p-hacking is basically “data fishing” or “cherry-picking” results to make the research seem more impressive than it really is. It is important to highlight here at this point that p-hacking are considered questionable research practices, a.k.a. approaches which are not yet considered fraud by the scientific community, but are not considered "clean" either. 
+:::
+
+---
 
 ## Replicability and reproducibility
 
@@ -794,40 +783,50 @@ Want to practice how to distinguish the two? Skip to the end of the slides for a
 
 ---
 
-## Reproducibility Project:Psychology (RP:P, 2015)
+## Reproducibility Project: Psychology (RP:P, 2015)
 ### The first large-scale replication project in the field
 
 :::incremental
-- **Close/exact replications** of 100 studies from 3 top journals from psychology; aiming for high power (larger sample sizes than original studies)
+- **Exact and close replications** of 100 studies from 3 top journals from psychology; aiming for high power (larger sample sizes than original studies)
 - Different ways to judge **replication success**: evaluated based on effect sizes, *p*-values, subjective assessment of replication teams
 - Contacted original study authors when necessary
 - [Note: With today's understanding of the terms, the project should have been called "Replicability Project:Psychology"]{.note}
 :::
 
-TODO: Add new slide with results. Remove the callout box.
-
-::: {.callout-important}
-## What did they find?
-
-*Large portion of replications produced weaker evidence for the original findings despite using materials provided by the original authors.*
-:::
-
 ::: {.notes}
 **Presenter Notes**: The Reproducibility Project by the Open Science Collaboration (2015) involved a large-scale, collaborative effort by over 270 researchers. They selected 100 experimental studies published between 2008 and 2012 in three top psychology journals: Psychological Science, Journal of Personality and Social Psychology, and Journal of Experimental Psychology: Learning, Memory, and Cognition.
 
-For each study, they carefully reviewed the original materials, methods, and analyses, and often contacted the original authors for clarification or access to materials and protocols. Each replication aimed to match the original study’s sample size, experimental design, and analysis plan as closely as possible, while making only minimal changes when exact materials were unavailable. The replications were preregistered to specify hypotheses, design, and analysis before data collection, reducing bias and “researcher degrees of freedom." Data collection was conducted independently from the original research teams, often in multiple labs to ensure rigor. After data collection, they analyzed the results using the same statistical methods as the original studies to determine whether the findings could be reproduced. The project also evaluated effect sizes, not just statistical significance, to compare the magnitude of the original and replicated effects. **Only 39% of the replications produced statistically significant results, and the median effect size in replications was about half that of the original studies, highlighting the reproducibility challenges in psychology**.
+For each study, they carefully reviewed the original materials, methods, and analyses, and often contacted the original authors for clarification or access to materials and protocols. Each replication aimed to match the original study’s sample size, experimental design, and analysis plan as closely as possible, while making only minimal changes when exact materials were unavailable. The replications were preregistered to specify hypotheses, design, and analysis before data collection, reducing bias and “researcher degrees of freedom." Data collection was conducted independently from the original research teams, often in multiple labs to ensure rigor. After data collection, they analyzed the results using the same statistical methods as the original studies to determine whether the findings could be reproduced. The project also evaluated effect sizes, not just statistical significance, to compare the magnitude of the original and replicated effects.
 :::
 
 ::: footer
 Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science, 349*(6251), aac4716.
 :::
 
+---
 
-## Reproducibility Project:Psychology (RP:P, 2015)
+## Reproducibility Project: Psychology (RP:P, 2015)
 ### Results
 
+- Only **36%** of the replications produced **statistically significant** results compared to 97% of original studies
 
+- **39% of effects** were considered to have **replicated** the original results
 
+- The mean **effect size** in replications was approx. **half** compared to the original results
+
+> *"More work to do to verify whether we know what we think we know".*
+
+:::footer
+Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science, 349*(6251), aac4716.
+:::
+
+::: {.notes}
+**Presenter Notes**: Only 36% of the replications produced statistically significant results compared to the original 97%. Only 39% of effects were considered to have replicated the original results. The mean effect size in replications was about half that of the original studies, highlighting the reproducibility challenges in psychology. However, it is still important to remember that replication is a continuum, hence the "extent of" replication. A failed replication does not automatically mean that the original finding was false.
+
+In sum, many replication studies produced weaker evidence for the original findings despite using materials provided by the original authors. This project provides accumulating evidence for many findings in psychological research and suggests that there is still more work to do to verify whether we know what we think we know.
+:::
+
+---
 
 ## Replication rates across disciplines
 ### Up to 2018
@@ -906,7 +905,7 @@ As you can see here, the dark red bars represents the percentage of studies whic
 **Instructor  Notes**:  Keep in mind that a lot of aspects of these studies can be discussed in a critical light. Learners might point this out. For example: Were the studies selected randomly (or did they only select the studies that looked fishy from the start?). How do you even measure the "replicability“? Is simply looking for significance in the replications study sufficient or even useful? All of these are good points, and there is a whole emerging field that tackles these questions. It is called meta-science, and it takes a scientific view onto the scientific enterprise itself.
 :::
 
-
+---
 
 ## Replication rates in the social and behavioural sciences
 
@@ -950,13 +949,11 @@ Tyner, S. K., Abatayo, A. L., Dayley, M., et al. (2026). Investigating the repli
 - The left column shows the number of successful replications out of total papers with replication attempts.
 :::
 
-
-
+---
 
 ## Not a recent issue
 
 <img src="images/reproducibility_literature.png" alt="An image with te titles of journal articles reporting about the replicability and reproducibility crisis across difference disciplines." style="display:block; margin:0 auto; width:100%; height:100%;">
-
 
 ::: footer
 Adapted from Dr. Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx)
@@ -966,12 +963,12 @@ Adapted from Dr. Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx
 **Presenter Notes**: Replication issues are not a new problem in research; they have existed across disciplines for decades. Historically, scientists have encountered difficulties when trying to repeat experiments, even when methods were clearly described. This has been seen in fields ranging from psychology and biology to medicine and economics. What is more recent is the systematic awareness and large-scale study of replication problems, often referred to as the “replication crisis.” Researchers today are documenting and quantifying these issues, but the underlying challenges, e.g., methodological complexity, variability, and human error, have been part of the research landscape for a long time.
 :::
 
-
+---
 
 ## Why did not more studies replicate?
 
 <style>
-/* Scope all styles to this slide only */
+/* Configure bubble slide */
 .bubble-slide {
   position: relative;
   min-height: 100%;
@@ -1015,9 +1012,9 @@ Adapted from Dr. Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx
 **Instructor  Notes**: Clearly state the switch into the origin for the replication challenges and get learners curious as to why not more studies replicated. 
 :::
 
+---
 
-# Low power and low p(H1)
-
+## Low power and low p(H1)
 
 ::: {.content-hidden when-format="pdf"}
 ## {{< fa chart-bar size=1x >}} Live Poll
@@ -1030,6 +1027,13 @@ Adapted from Dr. Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx
 Given that in a given study $p < .05$: What is the probability that a real effect exists in the population ➙ $p(H_1|D)$?
 :::
 
+::: {.notes}
+**Presenter Notes**: Time for a quick poll! Given that in a given study $p < .05$: What is the probability that a real effect exists in the population ➙ $p(H_1|D)$?
+
+**Instructor Notes**: Prepare the poll in advance using software such as Particify.
+:::
+
+---
 
 ## False Discovery Rate 1
 
@@ -1040,12 +1044,34 @@ Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investiga
 ::: 
 
 
+::: {.notes}
+**Presenter Notes**: This figure illustrates an important problem with interpreting a p-value of 0.05 as proof that a finding is real.
+
+Let’s imagine that we perform 1,000 statistical tests. In this example, we assume that 30% of the tests (so 300 of these tests) are investigating effects that are actually real, while the remaining 70% have no real effect.
+
+The key issue is statistical power. Here, the power is only 35%, meaning that when a real effect exists, the test detects it only about 35% of the time. This is an example of an underpowered study, which Nuzzo highlights as an important source of statistical error. 
+
+:::
+
+---
+
+
 ## False Discovery Rate 2
 ![](images/FDR_graph2.png)
 
 ::: {.footer}
 Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. [http://doi.org/10.1073/pnas.1313476110](http://doi.org/10.1073/pnas.1313476110)
 ::: 
+
+::: {.notes}
+**Presenter Notes**: Recapping what we discussed before: Out of the 1,000 tests, 300 are testing real effects, and 700 are testing effects where there is actually no effect.
+
+On the left-hand side, we have the 300 tests where a real effect exists. The statistical power of the test is 35%. Power is the probability of detecting an effect when that effect is genuinely present. So, with 35% power, we detect the real effect in 35% of those 300 tests. That gives us 105 true positives. These are findings where the test is statistically significant, p is less than alpha of 0.05, and there really is an underlying effect.
+
+However, the remaining 65% of the 300 tests, or 195 tests, fail to detect the real effect. These are false negatives. The effect is genuinely there, but the statistical test does not identify it as significant. This illustrates one of the problems associated with low statistical power, which Nuzzo (2014) discusses: underpowered studies have a greater risk of missing genuine effects.
+:::
+
+---
 
 
 ## False Discovery Rate 3
@@ -1054,7 +1080,23 @@ Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investiga
 
 ::: {.footer}
 Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. [http://doi.org/10.1073/pnas.1313476110](http://doi.org/10.1073/pnas.1313476110)
-::: 
+:::
+
+
+::: {.notes}
+**Presenter Notes**: With an alpha level of 5%, we expect 5% of these tests to be statistically significant just by chance. That gives us 35 significant results that are actually false positives. The remaining 665 are true negatives.
+
+Now we can focus specifically on the results that are statistically significant. There are 105 true positives plus 35 false positives, giving us a total of 140 significant p-values.
+
+The important question is: How many of these 140 significant results actually represent a real effect? We know that 105 of them do, while 35 do not. Therefore, the false discovery rate, or FDR, is: 35 ÷ 140 = 25%. So, despite using the conventional 5% significance threshold, 25% of the statistically significant findings in this example are false discoveries.
+
+Another way to express the same idea is through the positive predictive value, or PPV. This tells us the probability that a statistically significant result actually corresponds to a real effect. Here, the PPV is: 105 ÷ 140 = 75%. So, when we obtain a statistically significant result in this particular scenario, there is a 75% probability that it represents a real effect, meaning there is still a 25% probability that it is a false positive.
+
+So, the key takeaway from this example is that ‘p < 0.05’ should not be interpreted as ‘there is only a 5% chance that this result is false.’ In this scenario, the actual false discovery rate among significant results is 25%. 
+
+:::
+
+---
 
 
 ## Applied to neuroscience
@@ -1068,7 +1110,11 @@ Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investiga
 Button, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size  undermines the reliability of neuroscience. Nat Rev Neurosci, 14(5), 365–376. doi:10.1038/nrn3475
 ::: 
 
+::: {.notes}
+**Presenter Notes**: In the example of neuroscience, where studies are often underpowered, typical study may fail to reach statistical significance in around 90% of cases. When we get a non-significant result, or p > α, we cannot tell whether there is genuinely no effect or whether the study simply lacked enough power to detect the effect.
+:::
 
+---
 
 ## The evidential strength of underpowered studies
 
@@ -1078,15 +1124,18 @@ Button, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robins
 
 ::: footer
 Schönbrodt, F. D. & Wagenmakers, E.-J. (2018). Bayes Factor Design Analysis: Planning for compelling evidence. *Psychonomic Bulletin & Review, 25*, 128-142. doi:10.3758/s13423-017-1230-y. [Open Access](https://osf.io/d4dcu/)
-::: 
+:::
 
+::: {.notes}
+**Presenter Notes**: 
 
+:::
+
+---
 
 ## Conclusion
 
 Given that in a given study $p < .05$: What is the probability that a real effect exists in the population ➙ $p(H_1|D)$?
-
-
 
 :::: {.columns}
 ::: {.column}
@@ -1099,14 +1148,20 @@ Given that in a given study $p < .05$: What is the probability that a real effec
 :::
 ::::
 
-
+---
 
 # Career incentives in science
+
+::: {.notes}
+**Presenter Notes**: This goes back to the question: why is replicability and reproducibility such a big theme across all disciplines?
+:::
+
+---
 
 ## How to become a professor?
 
 ::: {.incremental}
-- What is the single most important thing you need to become a professor?
+- What is the single most important **thing you need** to become a **professor**?
 - Survey among N = 1453 psychology researchers, 66% were actually members of a professorship hiring committee
 :::
 
@@ -1138,6 +1193,8 @@ The take-home from this study was that among the top six criteria based on which
 :::
 
 
+---
+
 ## How to become a professor?
 
 ::: {.callout-important title="Publication Pressure"}
@@ -1154,7 +1211,6 @@ Researchers try to **publish as much as they can** and to outperform their peers
 Nelson, Simmons, & Simonsohn (2012); Nosek, Spies, Motyl (2012); Munafo (2016)
 :::
 
-
 ::: {.notes}
 **Presenter Notes**: First, we have the issue of publication pressure. Publications are currently *the* go-to measure of academic success. Papers help researchers being considered for permanent positions, for grants, and for becoming and remaining visible in the respective research fields. However, a consequence of published papers being so important is that researchers try to publish as much as they can. 
 
@@ -1164,23 +1220,21 @@ Why published papers are useful:
 - Being awarded **grant money** for your research
 - Being **visible** in the respective research field
 
-
 **Instructor  Notes**: Check if learners are aware of the publication process in broad terms and check if they understand what *grants* means in this context.
 :::
 
-
+---
 
 ## OK, I need a lot of publications ...
 ### 🤔 How do I get lots of publications?
 
 ::: {.fragment}
-![](images/02_significant_results_discipline_92.png){fig-align=center fig-alt="significant results" style="display:block; margin:auto; max-width:100%; max-height:50vh; width:auto; object-fit:contain;"}
+![](images/02_significant_results_discipline_92.png){fig-align=center fig-alt="significant results" style="display:block; margin:auto; max-width:120%; max-height:50vh; width:auto; object-fit:contain;"}
 :::
 
 ::: footer
 Fanelli, D. (2010). “Positive” results increase down the hierarchy of the sciences. *PLOS ONE, 5*, e10068. [https://doi.org/10.1371/journal.pone.0010068](https://doi.org/10.1371/journal.pone.0010068)
 :::
-
 
 ::: {.notes}
 **Presenter Notes**: Following this logic, the next question immediately becomes: *well, if I need papers, how do I get papers published?* Turns out that journals love positive results. In other words, significant results. This study looked at published work across all these different fields, and found that in space science, about 75% of published papers had significant results. In other words, 75% of papers were able to confirm their tested hypothesis. Great right? Then we have statistics for many other research field, e.g., the field of psychology or psychiatry, which can be found all the way at he bottom of this graph. Psychology doing even better than space science, because in their papers, 92% of results are significant. Is that not great? 92% of their papers support the hypothesis researchers had generated. And clearly what this also means is that, if I want to get published in a psychological journal, all I need to do is bring significant, positive results. Seems easy enough, but how do we do that? 
@@ -1188,7 +1242,7 @@ Fanelli, D. (2010). “Positive” results increase down the hierarchy of the sc
 **Instructor  Notes**: Depending on your learners, highlight the relevant field or a related field.  
 :::
 
-
+---
 
 ## Publication bias
 
@@ -1220,7 +1274,7 @@ Song, F., Hooper, L., & Loke, Y. K. (2013). Publication bias: what is it? How do
 **Presenter Notes**: The simplest way to obtain many papers with positive results is to, well, publish the papers with positive results. The logic behind it is: If my study works and the results are good (=positive) I can publish. If not, let's pretend the study never happened. This can be captured under the term *publication bias*. Publication bias happens when studies with positive or significant results are much more likely to be published than studies with negative or non-significant results.
 :::
 
-
+---
 
 ## Example publication bias
 
@@ -1246,7 +1300,7 @@ Turner, E. H., Matthews, A. M., Linardatos, E., Tell, R. A., & Rosenthal, R. (20
 37 of the 38 trials that showed positive effects were published in the literature, basically all of them except 1 trial. However, of the 36 trials that showed negative or no effects of antidepressant drugs, only 3 were published that included those exact findings. 22 of the 36 trials were not published at all, and the remaining 11 trials were published with the outcomes reframed in a more positive way. In the literature, in the end, we ended up with a total of 51 trials being published, 48 of which showed positive effects of antidepressant drugs on depression. That is 94% of this sample of papers. Only 6% (3 papers) showed a negative effect of antidepressant drugs on depression. As a consequence, those of us searching the literature for these papers, will get a distorted via of the effectiveness of antidepressants. Therefore, the authors were able to show a substantial publication bias in the antidepressant trial literature.
 :::
 
-
+---
 
 ## More than just publication bias
 
@@ -1299,7 +1353,7 @@ The authors also note that positive trials were published in journals with highe
 **Instructor Notes**: This is a complex figure, take your time with walking learners through this step-by-step. 
 :::
 
-
+---
 
 ## Confirmation Bias
 ### a.k.a. "Thought so already" bias
@@ -1310,21 +1364,22 @@ The authors also note that positive trials were published in journals with highe
 **Presenter Notes**: We are humans. And as humans, we often fall victims to our own inherent biases, sometimes or quite often without us noticing. Sometimes we cannot help but to feel like we just unlocked evidence or proof for something that we suspected all along. And it can be that it is true, or just that we stopped looking for more evidence and arguments as soon as we found the evidence that corresponded to our way of thinking. This is called the **confirmation bias**. Confirmation bias refers to the tendency to look for, interpret, or remember information in a way that confirms your pre-existing beliefs or expectations, while ignoring or downplaying evidence that contradicts them. In research, this can lead to selective attention to data, skewed analyses, or overconfident conclusions. For example; imagine a researcher believes that a new study technique helps students perform better. While analyzing results, they might focus on the small group of students who improved and overlook those whose performance stayed the same or worsened. Even unintentionally, this bias can make the findings seem stronger or more conclusive than they really are.
 :::
 
+---
 
-## Hinsight Bias
+## Hindsight Bias
 ### a.k.a. "I knew it" bias
 
 ![](images/hindsight-bias.png){fig-align=center width=700% fig-alt="confirming your own beliefs"}
 
-- The tendency to believe, after seeing the results of a study, that the outcome was obvious or predictable all along, even if it was not.
+- The **tendency to believe**, after seeing the results of a study, that the **outcome was obvious** or predictable all along, even if it was not.
 
 ::: {.notes}
 **Presenter Notes**: Another bias we are unconsciously struggling with in the research process is this **hindsight bias**.  It is the tendency to believe, after seeing the results of a study, that the outcome was obvious or predictable all along, even if it was not. For example: Imagine a study finds that people who exercise regularly have lower stress levels. After seeing the results, a researcher might think, “Of course, I knew exercise would reduce stress!” Even though before the study, this connection was not at all certain. Hindsight bias can make results seem more predictable than they really were, which can lead researchers or readers to overestimate the certainty of findings or ignore alternative explanations.
 :::
 
+---
 
-
-## Practical exercise 4
+## Practical exercise
 
 **Task**: Match the bias to its description.
 
@@ -1348,23 +1403,13 @@ The authors also note that positive trials were published in journals with highe
 **Instructor  Notes**: Solutions: 1E, 2F, 3D, 4C, 5A, 6B. Give about 5 minutes for this exercise and 2 minutes for discussing the correct results. 
 :::
 
-
-
-
-# Pre-break survey
-
-::: {.notes}
-**Presenter Notes**: Before we head into a short break, let us revise some concepts again and see where we are at.
-
-**Instructor Notes**:
-
-- **Aim**: This pre-break survey serves to examine students' current understanding of key concepts of the submodule
-
-- Use free survey software such as particify or formR to establish the following questions (shown on separate slides)
-:::
-
+---
 
 ## Pre-break survey
+
+::: {.panel-tabset}
+
+### Trust levels
 
 **Based on what you learnt so far, how would you *now* rate your trust in published scientific findings on a scale from 1 - 5? (1 = not trusting any of the findings, 2 = trusting only some findings, 3 = trusting about half of the findings, 4 = trusting the majority of the findings, 5 = trusting all findings)**
 
@@ -1382,9 +1427,7 @@ e. 5
 **Presenter Notes**: Coming back to the question from the beginning, what is your current trust in research with this information from the slides?
 :::
 
-
-
-## Pre-break survey
+### Term: Replicability
 
 **What does *replicability* in research mean?**
 
@@ -1400,8 +1443,7 @@ d. Repeating the statistical analysis multiple times
 **Instructor Notes**: The correct answer is b. 
 :::
 
-
-## Pre-break survey
+### Term: Publication bias
 
 **What is *publication bias* in research?**
 
@@ -1417,11 +1459,13 @@ d. The tendency for studies with positive results to be published more often tha
 **Instructor Notes**: The correct answer is d. 
 :::
 
+:::
 
+---
 
 # Break! 15 minutes
 
-
+---
 
 ## Post-break survey discussion
 
@@ -1434,21 +1478,14 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Presenter Notes**:  Add.
-
-**Instructor Notes**:
-
-- **Aim**: To clarify concepts and aspects that are not yet understood
-
-- Highlight specific answers given during the survey
+**Instructor Notes**: Compare between the answers given before the session, particularly for trust levels. 
 :::
 
-
+---
 
 
 <!-- 
-Note Felix: At least for psych students, this excursus is not necessary.
-
+This following section is about NHST: uncomment if your learners are unfamiliar with this term.
 
 ## Excursus: Null-Hypothesis-Significance Testing
 
@@ -1501,7 +1538,6 @@ Do **not** try the following at home.
 -->
 
 
-
 # p-hacking and other problems ...
 
 ::: {.callout-warning}
@@ -1528,7 +1564,7 @@ In simple terms, the more outcomes you test, the greater your risk of finding a 
 **Instructor  Notes**: Additional information for students: To reduce the false-positive rate, researchers often apply corrections, such as the Bonferroni adjustment, to keep the overall false positive rate close to the intended 5%.  
 :::
 
-
+---
 
 ## "Hack" 2: Run as many comparisons as possible
 
@@ -1559,24 +1595,20 @@ In simple terms, the more outcomes you test, the greater your risk of finding a 
 O’Boyle, E. H., Banks, G. C., & Gonzalez-Mulé, E. (2017). The Chrysalis Effect: How ugly initial results metamorphosize into beautiful articles. *Journal of Management, 43*(2), 376–399. [https://doi.org/10.1177/0149206314527133](https://doi.org/10.1177/0149206314527133)
 :::
 
-
 ::: {.notes}
 **Presenter Notes**: When you have more outcome variables, this often also means that you can run more statistical tests.
 Each time you try another independent test at α = 0.05 you have a 5% chance of a Type I error for that test. If you perform many uncorrected tests, the chance that at least one will be (falsely) significant rises quickly. For example, doing 20 independent tests at α = 0.05 gives a probability of at least one false positive of1 − (1 − 0.05)²⁰ = 1 − 0.95²⁰ ≈ 0.6415 (≈64%). Therefore, the trick here is to just run as many comparisons as possible on different groups, different time windows, different subsections of your data, you will be guaranteed to find significant results. Then, of course, only report those comparisons that produced the significant result. Just run many more statistical tests and report only the ones you like. Easy, right? 
 
 :::
 
-
-
+---
 
 ## "Hack" 2: Run as many comparisons as possible
 ### Example: Subgroup Analyses
 
-Research question: Do aggressive primes trigger aggressive behavior?
+Research question: *Do aggressive primes trigger aggressive behavior?*
 
-> "A second study in Turner, Layton, and Simons (1975) collects a larger sample of men
-and women driving vehicles of all years. The design was a 2 (Rifle: present, absent) ×
-2 (Bumper Sticker: "Vengeance", absent) design with 200 subjects."
+> "A study in Turner, Layton, and Simons (1975) collects a larger sample of men and women driving vehicles of all years. The design was a 2 (Rifle: present, absent) × 2 (Bumper Sticker: "Vengeance", absent) design with 200 subjects."
 
 ➙ presumably, no effect … (yet! Do not give up so easily)
 
@@ -1584,20 +1616,28 @@ and women driving vehicles of all years. The design was a 2 (Rifle: present, abs
 Cited from Joe Hilgard’s excellent [blog post](http://crystalprisonzone.blogspot.com/2016/03/the-weapons-priming-effect.html) on the Weapon Priming Effect; Turner et al. (1975). Naturalistic studies of aggressive behavior: aggressive stimuli, victim visibility, and horn honking. JPSP, 31(6), 1098–1107.
 :::
 
+::: {.notes}
+**Presenter Notes**: In thr 1960ties, there was a study by Berkowitz and LePage  who recruited 100 male university students to answer the question whether exposure to an aggressive stimulus, such as a weapon, make an already angry person behave more aggressively? Participants first received either one electric shock or seven electric shocks, supposedly from another student. Receiving seven shocks was intended to make participants more angry or aroused. The participant was then given an opportunity to administer electric shocks to that same person. Depending on the condition, there was either: a rifle and revolver near the shock apparatus,
+badminton racquets, or nothing nearby. The number of shocks the participant subsequently administered served as the measure of aggressive behavior. 
+
+A subsequent study from Turner, Layton, and Simons in 1975. The asked the question whether aggressive cues in the environment would make drives behave more aggressively. Their sample was 200 participants,  including both men and women and drivers of different vehicle ages. The researchers used a 2 × 2 design. One factor was whether a rifle was present or absent in the vehicle. The other was whether the vehicle displayed a “Vengeance” bumper sticker or no bumper sticker. The researchers used horn honking as their measure of aggression.
+
+A participant was stopped in traffic behind a car that had ither the rifle visible or not or the vengeance sticker visible or not. The car did not immediately move when the light went green. The researchers then recorded whether and how quickly the driver honked. They found no effect. Neither the rifle nor the sticker were linked to honking. But, not so fast!
+:::
+
+---
+
 
 ## "Hack" 2: Run as many comparisons as possible
 ### Example: Subgroup Analyses
 
-> "They divide this further by driver's sex and by a median split on vehicle year. They
-find that the Rifle/Vengeance condition increased honking relative to the other three, **but
-only among newer-vehicle male drivers**, F(1, 129) = 4.03, [*p* = .047]{.hl}. But then they report
-that the Rifle/Vengeance condition decreased honking among older-vehicle male
-drivers, F(1, 129) = 5.23, [*p* = .024]{.hl}! No results were found among female drivers."
+> "They divide this further by driver's sex and by a median split on vehicle year. They find that the Rifle/Vengeance condition increased honking relative to the other three, **but only among newer-vehicle male drivers**, F(1, 129) = 4.03, [*p* = .047]{.hl}. But then they report that the Rifle/Vengeance condition decreased honking among older-vehicle male drivers, F(1, 129) = 5.23, [*p* = .024]{.hl}! No results were found among female drivers."
 
 ::: footer
 Cited from Joe Hilgard’s excellent [blog post](http://crystalprisonzone.blogspot.com/2016/03/the-weapons-priming-effect.html) on the Weapon Priming Effect; Turner et al. (1975). Naturalistic studies of aggressive behavior: aggressive stimuli, victim visibility, and horn honking. JPSP, 31(6), 1098–1107.
 :::
 
+---
 
 ## "Hack" 3: Optional stopping
 
@@ -1618,6 +1658,7 @@ So, the moral of the story here is that you need to just do as many interim anal
 **Instructor  Notes**: Explicitly highlight the sarcastic aspect of this slide, since there are large cultural differences in whether and how sarcasm is perceived as a linguistic cue and processed. Reframe this slide if you have the impression that the audience will not benefit from sarcasm.   
 :::
 
+---
 
 ## "Hack" 3: Optional stopping
 
@@ -1635,9 +1676,9 @@ So, the moral of the story here is that you need to just do as many interim anal
 Armitage, P., McPherson, C. K., & Rowe, B. C. (1969). Repeated significance tests on accumulating data. *Journal of the Royal Statistical Society. Series A (General), 132*, 235–244.
 :::
 
+---
 
 ## "Hack" 4: Drop participants you do not like
-
 
 ```{=html}
 
@@ -1653,7 +1694,7 @@ Armitage, P., McPherson, C. K., & Rowe, B. C. (1969). Repeated significance test
   <!-- Right side: bullet points -->
   <div style="flex: 1;">
 
-  - Selectively **exclude data/ outliers** after seeing the results until the results are satisfying (*aka until significance has been reached*)
+  - Selectively **exclude data/ outliers** after seeing the results until the results are satisfying (*a.k.a. until significance has been reached*)
 
 
   </div>
@@ -1667,6 +1708,7 @@ But in order to obtain significant results, you can also perform a first analysi
 **Instructor  Notes**: More information about Simmons et al. (2011): According to Simmons, Nelson, and Simonsohn (2011) in their paper “False-Positive Psychology” published in Psychological Science, even small and seemingly reasonable choices about including certain data from selected participants can dramatically increase the likelihood of finding a false positive result. In their experiments, they showed that flexible data analysis decisions, including dropping outliers, could make almost any hypothesis appear statistically significant.   
 :::
 
+---
 
 
 ## "Hack" 5: HARK-ing
@@ -1677,20 +1719,19 @@ But in order to obtain significant results, you can also perform a first analysi
 <img src="images/TexasSharpShooter.png" alt="p-hacking and questionable research practises" style="display:block; margin:0 auto; width:100%;">
 
 ::: {.notes}
-**Presenter Notes**: Let's talk about another so-called "hack". Note that once again, what I will say next is meant purely in a sarcastic way. This tip to obtain positive results is probably one of my favourites. What you do is the following: you look at your results first, and then come up with a hypothesis afterward. Just forget about the original hypothesis you had and that you tested for. For example: imagine a study testing several relationships between variables. Only one of them turns out significant. Instead of reporting that this was an unexpected result, the researcher rewrites the introduction to make it look like that was their original prediction.
+**Presenter Notes**: Let's talk about another so-called "hack". Note that once again, what I will say next is meant purely in a sarcastic way. This tip to obtain positive results is probably one of my favorites. What you do is the following: you look at your results first, and then come up with a hypothesis afterward. Just forget about the original hypothesis you had and that you tested for. For example: imagine a study testing several relationships between variables. Only one of them turns out significant. Instead of reporting that this was an unexpected result, the researcher rewrites the introduction to make it look like that was their original prediction.
 
 Of course, this practice undermines the credibility of scientific findings because it blurs the line between prediction and explanation. It makes results seem more confirmatory than they really are and increases the risk of false theories being accepted. But, what is important is that at the end you have a positive result and a good story that you can tell to the journal, so I am sure that you will get accepted.
 :::
 
-
+---
 
 ## Combining these "hacks"
 
 ![](images/combining_hacks.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
 
-- Combining some of these hacks (*aka questionable research practices*) can **raise false positive rates** from 5% to > 50%!
+- Combining some of these hacks (*a.k.a. questionable research practices*) can **raise false positive rates** from 5% to > 50%!
 - With *p*-hacking, the logic of the p-value is **corrupted** and “*renders the reported p-values essentially uninterpretable.*”
-
 
 ::: footer
 Stefan, A. M., & Schönbrodt, F. D. ([2023](https://doi.org/10.1098/rsos.220346)). Big little lies: A compendium and simulation of p-hacking strategies. *Royal Society Open Science, 10*(2), 220346. Wasserstein et al. ([2016](http://doi.org/10.1080/00031305.2016.1154108)). The ASA's statement on p-values: context, process, and purpose. American Statistician.
@@ -1700,10 +1741,10 @@ Stefan, A. M., & Schönbrodt, F. D. ([2023](https://doi.org/10.1098/rsos.220346)
 **Presenter Notes**: Even seemingly minor practices, e.g.,  selectively reporting results, stopping data collection once a significant result appears, or testing multiple hypotheses without proper correction, can have a huge effect. When these practices are combined, they can inflate false positive rates dramatically, taking them from the expected 5% under proper statistical testing to over 50%. This means that more than half of the reported significant findings could be false alarms.
 
 As a result, the logic of the p-value itself becomes corrupted. P-values are supposed to indicate the probability of observing the data if the null hypothesis is true. When questionable practices are used, this interpretation no longer holds. In other words, it renders reported p-values essentially uninterpretable, because they no longer reflect the true probability of the observed effect under rigorous, unbiased conditions.
-
-**Instructor  Notes**: Add.  
 :::
 
+
+---
 
 ## A shocking report from an experienced researcher
 
@@ -1711,7 +1752,7 @@ As a result, the logic of the p-value itself becomes corrupted. P-values are sup
   <source src="images/Researcher_p-hacking.mp4" type="video/mp4">
 </video>
 
-
+---
 
 ## A note to remember
 
@@ -1725,6 +1766,7 @@ The so-called "hacks" on the past few slides represent **questionable research p
 **Instructor  Notes**: Stress this point again to potential cultural differences in terms of processing sarcasm. 
 :::
 
+---
 
 ## Practice *p*-hacking yourself
 ### with the P-Hacker App
@@ -1733,12 +1775,11 @@ The so-called "hacks" on the past few slides represent **questionable research p
 
 ![](images/p-hacker-app.png){.ds .img-full}
 
+---
 
-
-## Practical exercise 5
+## Practical exercise
 
 :::incremental
-
 **Scenario**: You are reviewing a study examining whether drinking white tea improves short-term memory, where the researchers report:
 
   - Hypothesis: *White tea improves memory test scores.*
@@ -1758,21 +1799,11 @@ The so-called "hacks" on the past few slides represent **questionable research p
 
 ::: {.notes}
 **Presenter Notes**: Let us get to work! I now have a task for you to reflect on different biases and/ or questionable research practises. Imagine that you are reviewing a study examining whether drinking white tea improves short-term memory. In the report, you read the information provided here. Which potential p-hacking strategies can you identify?
-
-**Instructor  Notes**: Possible answers can include:
-
-- Large number of uncorrected comparisons with selective reporting
-- The conclusion variable does not match the original hypothesis
-- Research question too vague and non-directional given the analysis
-- Results report comparisons that are not specified in the research question
-- Many p values bunching just below 0.05
-- Lack of pre registration or analysis plan when claims are confirmatory
-- Outcome variables added that were not specified in the hypothesis: e.g., reaction time
 :::
 
+---
 
-
-## Practical exercise 5
+## Practical exercise - solutions
 
 **Scenario**: You are reviewing a study examining whether drinking white tea improves short-term memory, where the researchers report:
 
@@ -1788,32 +1819,20 @@ The so-called "hacks" on the past few slides represent **questionable research p
   
 - Conclusion: The results show that white tea reliably improves **cognitive performance**.
 
-<!-- 
-
-NOTE Felix: Nice image, but I think it does not connect 100% to the content deliver before, because it focuses more on theory/HARKing, and not modification of data.
-
-## The "real" scientific method
-
-![](images/00_real_scientific_method.png){fig-align=center width=10% fig-alt="diagram of the real scientific method by phdcomics.com to illustrate the QRPs and biased nature inherent to the research cycle."}
-
-
 ::: {.notes}
-**Presenter Notes**: Pulling all the information and insights together, what are we left with? Remember the research process diagram I showed you at the beginning. What if research in reality was more like what is shown at the bottom of this figure? This part of the diagram humorously depicts a cynical view of how research can sometimes be done in reality. 
+**Instructor Notes**: Possible answers can include:
 
-It starts with making up a theory based on what the funding agency or manager wants to be true. This means that instead of following where the evidence leads, the researcher might tailor their ideas to fit what others want to hear.
+- Large number of uncorrected comparisons with selective reporting
+- The conclusion variable does not match the original hypothesis
+- Research question too vague and non-directional given the analysis
+- Results report comparisons that are not specified in the research question
+- Many p values bunching just below 0.05
+- Lack of pre registration or analysis plan when claims are confirmatory
+- Outcome variables added that were not specified in the hypothesis: e.g., reaction time
 
-Next, they design the minimum experiments necessary to show or suggest that their theory is true. This step is about doing just enough to get results that support the theory, rather than rigorously testing it.
-
-Then comes publishing the paper, but with a twist: the researcher renames their theory as a "hypothesis" to give the appearance that they followed the scientific method properly, when in fact they did not.
-
-Finally, the researcher defends the theory despite all evidence to the contrary. This means they might ignore or dismiss results that contradict their idea, holding on to the theory because of personal or professional investment.
-
-What are your thoughts on this?
-
-**Instructor  Notes**: Use the previous research scenario example to highlight how the analyses can deviate from an original hypothesis and how different biases can be at play. 
 :::
- -->
 
+---
 
 ## Does this *actually* happen?
 
@@ -1837,7 +1856,7 @@ In their paper, they also used some estimation methods I won’t go into detail 
 **Instructor  Notes**: Quoting the relevant part of the paper: "The impact of truth-telling incentives on self-admissions of questionable research practices was positive, and this impact was greater for practices that respondents judged to be less defensible. Combining three different estimation methods, we found that the percentage of respondents who have engaged in questionable practices was surprisingly high. This finding suggests that some questionable practices may constitute the prevailing research norm."
 :::
 
- 
+---
 
 ## .. and across fields?
 
@@ -1852,10 +1871,10 @@ Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter,
 ::: {.notes}
 **Presenter Notes**: So far, we focused on questionable research practices. Of course, there is also the next level, namely fabrication and falsification, which both constitute outright scientific misconduct. The authors conducted a large‑scale cross‑sectional survey (the National Survey on Research Integrity) targeting academic researchers across all disciplines and ranks in the Netherlands. Its aim was to estimate the prevalence of fabrication and falsification and a range of questionable research practices (QRPs) over the preceding three‑year period, and to examine factors potentially associated with higher or lower engagement in these behaviors. Over 6,800 researchers completed the survey. What are your guesses here on the percentages they found?
 
-**Instructor  Notes**: Collect some guesses before moving on to showing the solution.   
+**Instructor  Notes**: Collect some guesses before moving on to showing the solution. 
 :::
 
-
+---
 
 ## .. and across fields?
 
@@ -1869,14 +1888,16 @@ Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter,
 :::
 
 ::: {.notes}
-**Presenter Notes**: The key findings from their study were quite shocking. The prevalence of **fabrication**, aka making up data, stands at about 4.3% (with a 95% confidence interval of 2.9 to 5.7%), while **falsification**, aka outright manipulating data, occurs at roughly 4.2% (95% CI 2.8 to 5.6%). These rates vary across disciplines: for example, medical fields tend to report higher rates, whereas arts and humanities report lower. Psychology shows a self-reported fabrication rate of nearly 5% and falsification around 2%, indicating it is somewhat in the middle range.
+**Presenter Notes**: The key findings from their study were quite shocking. The prevalence of **fabrication**, a.k.a. making up data, stands at about 4.3% (with a 95% confidence interval of 2.9 to 5.7%), while **falsification**, a.k.a. outright manipulating data, occurs at roughly 4.2% (95% CI 2.8 to 5.6%). These rates vary across disciplines: for example, medical fields tend to report higher rates, whereas arts and humanities report lower. Psychology shows a self-reported fabrication rate of nearly 5% and falsification around 2%, indicating it is somewhat in the middle range.
 
 When it comes to questionable research practices, which include 11 types of behaviors assessed, the prevalence ranges widely. The least frequent QRPs occur in about 0.6% of respondents, while the most common QRP is reported by as many as 17.5% (95% CI 16.4 to 18.7%). Notably, over half of the respondents (51.3%) admitted to frequently engaging in at least one QRP in the past three years.
 
-Further analysis reveals that junior researchers, such as PhD candidates, and male researchers have higher odds of frequently reporting at least one QRP. On the other hand, individuals who strongly subscribe to scientific norms, aka those that value honest research, and those who believe that peer reviewers are likely to detect misconduct show lower odds of engaging in misconduct or QRPs. Conversely, researchers who experience higher publication pressure are more likely to frequently engage in QRPs, with a 22% increase in odds (OR ~1.22, 95% CI 1.14 to 1.30).
+Further analysis reveals that junior researchers, such as PhD candidates, and male researchers have higher odds of frequently reporting at least one QRP. On the other hand, individuals who strongly subscribe to scientific norms, a.k.a. those that value honest research, and those who believe that peer reviewers are likely to detect misconduct show lower odds of engaging in misconduct or QRPs. Conversely, researchers who experience higher publication pressure are more likely to frequently engage in QRPs, with a 22% increase in odds (OR ~1.22, 95% CI 1.14 to 1.30).
+
+**Instructor Notes**: Ask for the thoughts of your learners.
 :::
 
-
+---
 
 ## (Un)Intentional? 
 
@@ -1885,9 +1906,9 @@ Further analysis reveals that junior researchers, such as PhD candidates, and ma
   - „*We urge the social science community to redefine p-hacking as a series of deceptive research practices rather than ones that are merely questionable.*“ [@craigUsingRetractedJournal2020]
 
 - Unintentional?
-  - Lack of education/knowledge?
-  - Wrong/uncritical standards of the field?
-  - Pushed by supervisors, reviewers, or editors? ➙ [http://bulliedintobadscience.org/](http://bulliedintobadscience.org/)
+  - **Lack of education/knowledge**?
+  - Wrong/uncritical **standards of the field**?
+  - **Pushed** by supervisors, reviewers, or editors? ➙ [http://bulliedintobadscience.org/](http://bulliedintobadscience.org/)
   - **Simply being human?**
  - Distorting effects on the published record are probably comparable, but the ethical evaluations differs strongly.
 
@@ -1897,9 +1918,11 @@ Further analysis reveals that junior researchers, such as PhD candidates, and ma
 Or maybe this is all **unintentional**? Perhaps we did not fully know that some of things we learnt from our PIs or supervisors are considered bad practice? Maybe we are being convinced by supervisors? Maybe there are just unclear standards of what is considered “good quality research” in the field? Or maybe we are also just humans? We already talked about inherent biases, but perhaps we also just make mistakes or are unaware of our own weaknesses?
 :::
 
+---
 
+# (Honest) errors and mistakes
 
-# Honest Errors
+---
 
 ## Human errors and honest mistakes
 ### "90% Excel-Gate"
@@ -1946,16 +1969,15 @@ Or maybe this is all **unintentional**? Perhaps we did not fully know that some 
   <img src="images/excel-mistake.png" class="img3">
 </div>
 
-
 ::: {.notes}
 **Presenter Notes**: In their 2010 paper Growth in a Time of Debt, economists Carmen Reinhart and Kenneth Rogoff claimed that when government debt exceeds 90% of GDP, economic growth falls sharply. Their findings strongly influenced debates about austerity policies. However, in 2013, Thomas Herndon, Michael Ash, and Robert Pollin from the University of Massachusetts–Amherst re-examined the data and found serious flaws: an Excel coding error that excluded several countries. In essence, what had happened was that when using a formula, the authors had made a mistake when selecting the range of cells where to apply the formula too. In this, they  accidentally omitted some countries from the calculations. The conclusion was that for advanced economies, when the government gross debt exceeds about 90% of GDP, annual real GDP growth falls sharply. This conclusion informed policies in the respective countries.
 
-**Instructor  Notes**: Details about the error: 
+**Instructor  Notes**: Additional details about the error: 
 The omitted rows related to countries with high debt and growth (for example Belgium) that should have been part of the calculation.
 Because of this omission, the reported average for the >90% debt category was around –0.1% growth. Once corrected, the average growth rate for high-debt countries rose from –0.1% to about +2.2%, showing no clear “90% tipping point.” The original authors later acknowledged the spreadsheet error and issued a correction.
 :::
 
-
+---
 
 ## Human errors and honest mistakes
 ### "90% Excel-Gate" - Lessons learned
@@ -1968,7 +1990,7 @@ The most important point of the story: The original authors **shared their raw d
 **Presenter Notes**: The case became a landmark example of how data errors, selective reporting, and methodological choices can mislead economic policy, and of why transparency and replication are essential in research. Only because the data were available, the mistake could be found and corrected! 
 :::
 
-
+---
 
 ## Statistical errors
 
@@ -1997,6 +2019,7 @@ Based on these experiences, this article presents a set of guidelines for author
 
 ![](images/Statistical_inconsistency.png){.img-full}
 
+---
 
 ## Statistical inconsistencies
 
@@ -2015,6 +2038,7 @@ Based on these experiences, this article presents a set of guidelines for author
 - Other fields (e.g. Sociology):
   - Not even (automatically) checkable, due to unstandardized reporting practices.
 - … and these are only the [detected]{.hl} errors of [one]{.hl} type (stat. inconsistency)!
+
 :::
 
 ::: footer
@@ -2029,13 +2053,13 @@ More recent work by Crüwell et al. (2022) found that the numerical results in f
 I want to point out here that these are only errors of the statistical type, other types of errors were not examined here. I think you see the picture that I am painting here and I am hoping to get across that these are some serious challenges to research. 
 :::
 
+---
 
-## Reproducibility Success
+## Reproducibility success
 
-
-- Crüwell et al. (2022), Psychology: Numerical results of less than 30% of papers can be **reproduced** [@cruwellWhatsBadgeComputational2022]
+- Crüwell et al. (2022), Psychology: Numerical results of **less than 30% of papers** can be **reproduced** [@cruwellWhatsBadgeComputational2022]
 - Krähmer et al. (2026), Sociology:
-  - Only 3% of authors share analysis code proactively
+  - Only ***3% of authors** share analysis **code proactively**
   - Upon request, 34% shared their code.
     - Of these, 51% were perfectly reproducible.
   - If non-shared cases are classified as non-reproducible, 18% of results reproduced.
@@ -2045,12 +2069,17 @@ Krähmer, D., Schächtele, L., & Auspurg, K. ([2026](https://doi.org/10.1098/rso
 Crüwell et al. ([2023](https://doi.org/10.1177/09567976221140828)).
 :::
 
+::: {.notes}
+**Presenter Notes**: Crüwell and colleagues found that fewer than 30% of psychology papers they examined could have their numerical results reproduced. A recent study in sociology by Krähmer et al. paints a similar picture. Only 3% of authors proactively shared their analysis code. When researchers contacted authors, 34% shared their code, and only about half of those cases were perfectly reproducible. If we treat cases where code was not shared as non-reproducible, only 18% of results could be reproduced.
+:::
+
+---
+
 ## What does this all mean?
 
 <div style="background-color: #fff9c4; padding: 1em; border-radius: 10px; text-align: center; font-size: 1.2em;">
   **Bias + (maybe unintentional) *p*-hacking + human (honest) mistakes = untrustworthy research findings?**
 </div>
-
 
 ::: {.callout-note}
 - Published findings across fields to be viewed with **caution**?
@@ -2066,7 +2095,7 @@ Perhaps there should be more caution around published papers across fields and w
 **Instructor  Notes**: This is a critical reflection moment, give enough time between this slide and the next slide for learners to digest and integrate what they learned.   
 :::
 
-
+---
 
 ## A romanticized idea of research?
 
@@ -2078,7 +2107,7 @@ Perhaps there should be more caution around published papers across fields and w
 **Instructor  Notes**: Encourage a mental shift by contrasting how we used to think about research and the current status quo discussed over the past slides. Prepare the "stage" for a new approach to research and guide your learners towards the question of "but then how can we do research differently"?
 :::
 
-
+---
 
 ## Going even further: The perpetuating role of AI
 
@@ -2129,11 +2158,12 @@ Emsley, R. (2023). ChatGPT: These are not hallucinations - they’re fabrication
 :::
 
 ::: {.notes}
-**Presenter Notes**: Thinking about how mistakes happen, how accidental p-hacking happens, how there is pressure to publish positive results, how we are, to some extent, victims of our own biases without noticing, I think you get an image of the low credibility of research that is currently out there. Now we are also facing a new challenge in the wake of artificial intelligence. We know that ChatGPT and other large language models are routinely used by people to, for example, obtain medical advice. Given what we heard before, how accurate do you believe this information provided by the chatbots is? Papers demonstrate by now that the accuracy is low, yet people turn to ChatGPT for medical advice. We also know about so-called hallucinations of ChatGPT. Some researchers view this as the "modern" form of falsification and fabrication, just like we discussed in the context of scientific misconduct. But what if the research feeding into this advice that chatbots provide and the "papers" they are suggesting to you for your essay are already of low quality? Is AI then not simply distributing non-credible and flawed research, without the warning message that this might be the case?
+**Presenter Notes**: Thinking about how mistakes happen, how accidental p-hacking happens, how there is pressure to publish positive results, how we are, to some extent, victims of our own biases without noticing, I think you get an image of the low credibility of research that is currently out there. Now we are also facing a new challenge in the wake of artificial intelligence. We know that ChatGPT and other large language models are routinely used by people to, for example, obtain medical advice. Given what we heard before, how accurate do you believe this information provided by the chatbots is? Papers demonstrate by now that the accuracy is low, yet people turn to ChatGPT for medical advice. We also know about so-called hallucinations of ChatGPT. Some researchers view this as the "modern form of falsification and fabrication", just like we discussed in the context of scientific misconduct. But what if the research feeding into this advice that chatbots provide and the "papers" they are suggesting to you for your essay are already of low quality? Is AI then not simply distributing non-credible and flawed research, without the warning message that this might be the case?
 
 **Instructor  Notes**: Bonus slide depending on the interest of your learners. 
 :::
 
+---
 
 ## 
 
@@ -2162,7 +2192,7 @@ Emsley, R. (2023). ChatGPT: These are not hallucinations - they’re fabrication
 ::::
 
 
-
+---
 
 ## Now what?
 
@@ -2176,7 +2206,7 @@ This image was taken from the [Geograph project collection](https://www.geograph
 **Presenter Notes**: At this point, you might think that research is doomed. That perhaps humanity is doomed along with it.  Despite everything we talked about today, this could not be further from the truth. There are different approaches to research, which mitigate many of these challenges we discussed today. These approaches have the aim to raise scientific standards and the quality of research, so that society and researchers can trust the published work. 
 :::
 
-
+---
 
 ## A new way of doing research
 
@@ -2184,7 +2214,7 @@ This image was taken from the [Geograph project collection](https://www.geograph
 
 <p style="text-align: center; font-size: 1.5em;">
 **Open Research** <br>
-*aka* <br>
+*a.k.a.* <br>
 **A scientific framework for the 21. century**
 </p>
 
@@ -2194,17 +2224,17 @@ This image was taken from the [Geograph project collection](https://www.geograph
 **Instructor  Notes**: Make the shift from describing the problem, threats and challenges of research to a more solution-focused framework of reference. 
 :::
 
-
+---
 
 # To be continued ...
 
 ::: {.notes}
-**Presenter Notes**: What exactly Open Research entails will be the focus of the following session. 
+**Presenter Notes**: What exactly Open Research entails will be the focus of the following session.
 **Instructor Notes**: Emphasize that Open Research will be discussed in great detail in the upcoming session and that today's focus were on understanding the current problems in research. 
 
 :::
 
-
+---
 
 ## Reflection activity
 
@@ -2215,20 +2245,13 @@ This image was taken from the [Geograph project collection](https://www.geograph
 **One-minute paper**: Imagine you would have to explain the current challenges in research you heard about today to a friend. Write down what you would say to them.
 </div>
 
-
 ::: {.notes}
 **Presenter Notes**: Wrapping things up: Imagine you would have to explain the current challenges in research you heard about today to a friend. Write down what you would say to them.
 
 **Instructor Notes**: Ask for 2-3 volunteers willing to share their papers in class. Alternatively, have your learners either hand you in the pieces of paper they wrote this on, or ask your learners to send you their one-minute-papers by email. 
 :::
 
-
-
-## Take-home message
-
-**What are you taking away from today?**
-
-
+---
 
 ## Take-home message
 
@@ -2239,25 +2262,26 @@ This image was taken from the [Geograph project collection](https://www.geograph
 Research is **not "doomed" - on the contrary**. More on this in the *next* session!
 :::
 
+---
 
+## References {.smaller}
+
+::: {#refs}
+:::
+
+---
 
 # Thanks! <br>
-See you next class :)
 
-
+---
 
 ## Additional exercises: Replicability and reproducibility
 
 Decide whether each scenario in the following slides is an example of **reproducibility** or **replicability**. 
 
-::: {.notes}
-**Presenter Notes**: Add script for slide here. 
-**Instructor  Notes**: Think pair share. 
-:::
+::: {.panel-tabset}
 
-
-
-## Scenario 1
+### Scenario 1
 
 <br>
 <br>
@@ -2265,13 +2289,10 @@ Decide whether each scenario in the following slides is an example of **reproduc
 **A computational neuroscientist reruns a published fMRI analysis using the original dataset and Python scripts to verify the reported brain activation patterns.**
 
 ::: {.notes}
-**Presenter Notes**: Add script for slide here. 
 **Instructor  Notes**: Correct answer: Reproducibility
 :::
 
-
-
-## Scenario 2
+### Scenario 2
 
 <br>
 <br>
@@ -2279,13 +2300,10 @@ Decide whether each scenario in the following slides is an example of **reproduc
 **An environmental scientist repeats a field experiment on soil nutrient levels using the same sampling protocol at a different site.**
 
 ::: {.notes}
-**Presenter Notes**: Add script for slide here. 
 **Instructor  Notes**: Correct answer: Replicability
 :::
 
-
-
-## Scenario 3
+### Scenario 3
 
 <br>
 <br>
@@ -2293,25 +2311,47 @@ Decide whether each scenario in the following slides is an example of **reproduc
 **A linguist reanalyzes a corpus of historical texts using the same annotation guidelines and code to verify reported patterns of syntactic structures.**
 
 ::: {.notes}
-**Presenter Notes**: Add script for slide here. 
 **Instructor  Notes**: Correct answer: Reproducibility
 :::
 
-
-
-## Scenario 4
+### Scenario 4
 
 <br>
 <br>
 
 **A psychology lab replicates a social behavior experiment using new participants from a different cultural background.**
 
-
 ::: {.notes}
-**Presenter Notes**: Add script for slide here. 
 **Instructor  Notes**: Correct answer: Replicability
 :::
 
+:::
+
+---
+
+## What is (academic) "trust" in research?
+
+<!-- This slide is a bit tangential - maybe move to a different stage? -->
+
+::: incremental
+- Trust is **essential for effective collaboration** among researchers (includes co-authorship, peer review, data sharing, replication, teaching, mentoring, etc.). We operate under the assumption of good faith.
+
+- Scientists reading published research trust that the **work was conducted as described**, that **all relevant methodological details** are **disclosed**, and that the data have **not been fabricated or falsified**.
+:::
+
+::: footer
+Resnik, D. B. (2011). Scientific research and the public trust. *Science and engineering ethics, 17*(3), 399-409.
+:::
+
+::: {.notes}
+**Presenter Notes**: When discussing the importance of trust in research by society, Resink highlights that trust is absolutely essential for effective collaboration in science. Researchers rely on one another in so many ways, e.g., co-authoring papers, reviewing each other’s work, sharing data, attempting replications, and even in day-to-day activities like teaching and mentoring. None of these collaborative practices would function smoothly without a basic level of confidence that everyone is acting with integrity.
+
+Likewise, when scientists read published research, they trust that the study was carried out as the authors describe. They expect that all the important methodological details are reported transparently, so the work can be evaluated or repeated. And they assume that the data are genuine, or in other words that nothing has been fabricated, falsified, or manipulated; intentionally or unintentionally. Without this trust in the accuracy and honesty of the research record, the entire scientific research process becomes unstable and no longer credible.
+
+**Instructor  Notes**: Emphasis that trust in research operates at multiple levels and that it may not be a yes/no issue but more of a multidimensional concept along different continuum. Trust is not automatic, and can be gradually lost, as we have for example seen during the COVID-19 pandemic or the Tuskegee Syphilis Study in the United States. In the latter, researchers did not ask participants for consent in the study and withheld treatment for participants. The case went to court, and study participants received a court settlement in 1974.
+:::
+
+---
 
 
 ## Psychology: The Replication Database by FORRT
@@ -2326,36 +2366,7 @@ Decide whether each scenario in the following slides is an example of **reproduc
 **FORRT Replication Database** ([https://forrt-replications.shinyapps.io/fred_explorer/](https://forrt-replications.shinyapps.io/fred_explorer/))
 :::
 
-
-
-
-## References {.smaller}
-
-::: {#refs}
-:::
-
-
-
-# Additional slides TO REMOVE?
-
-
-
-## What published research can be replicated/reproduced? REMOVE
-
-<div style="font-size: 0.5em;">
-| Field                          | Success | Failure |
-|--------------------------------|---------|---------|
-| OSC (2015) – Psychology         | 36%     | 64%     |
-| Chang & Li (2015) – Economics (67 papers, 29 papers replicated)        | 43%     | 57%     |
-| Camerer 2016 – Econ laboratory        | 61%     | 39%     |
-| Camerer combined Social Sci     | 62%     | 38%     |
-| Begley & Ellis (2012) – Cancer Research | 11%     | 89%     |
-| Prinz et al. (2011) – Pharmaceutical research      | 35%     | 65%     |
-| Cova et al. (2018) – x-philosophy       | 70%     | 30%     |
-| Protzko et al. (2023) – Social   | 86%     | 14%     |
-</div>
-
-
+---
 
 ## Why should we trust researchers?
 
@@ -2398,4 +2409,30 @@ These terms probably have not been covered in your courses yet. We just want to 
 :::
 
 ---
+
+<!-- 
+
+NOTE Felix: Nice image, but I think it does not connect 100% to the content deliver before, because it focuses more on theory/HARKing, and not modification of data.
+
+## The "real" scientific method
+
+![](images/00_real_scientific_method.png){fig-align=center width=10% fig-alt="diagram of the real scientific method by phdcomics.com to illustrate the QRPs and biased nature inherent to the research cycle."}
+
+
+::: {.notes}
+**Presenter Notes**: Pulling all the information and insights together, what are we left with? Remember the research process diagram I showed you at the beginning. What if research in reality was more like what is shown at the bottom of this figure? This part of the diagram humorously depicts a cynical view of how research can sometimes be done in reality. 
+
+It starts with making up a theory based on what the funding agency or manager wants to be true. This means that instead of following where the evidence leads, the researcher might tailor their ideas to fit what others want to hear.
+
+Next, they design the minimum experiments necessary to show or suggest that their theory is true. This step is about doing just enough to get results that support the theory, rather than rigorously testing it.
+
+Then comes publishing the paper, but with a twist: the researcher renames their theory as a "hypothesis" to give the appearance that they followed the scientific method properly, when in fact they did not.
+
+Finally, the researcher defends the theory despite all evidence to the contrary. This means they might ignore or dismiss results that contradict their idea, holding on to the theory because of personal or professional investment.
+
+What are your thoughts on this?
+
+**Instructor  Notes**: Use the previous research scenario example to highlight how the analyses can deviate from an original hypothesis and how different biases can be at play. 
+:::
+ -->
 
