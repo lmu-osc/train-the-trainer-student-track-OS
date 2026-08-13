@@ -14,8 +14,7 @@ format:
     geometry: 
       - top=30mm
       - left=30mm
-  #pptx: 
-    #css: ../../slides-custom.css # looks for css file in root
+  pptx: default 
 
 bibliography: ../../../assets/references.bib
 csl: ../../../assets/apa.csl
@@ -33,8 +32,7 @@ filters:
 
 ![](images/cc-by-sa.png){width="10%" fig-align="center"}
 
-<small>This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html). This current work by Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.</small>
+<small>This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) and subsequently adapted by Sarah von Grebmer zu Wolfsthurn and Malika Ihle. This current work licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</small>
 
 ::: {.notes}
 **Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
@@ -67,10 +65,12 @@ Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [C
 Before completing this submodule, please carefully read about the prerequisites.
 :::
 
+<div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| Topic Name | Basic intro to X | Module + Submodule |
-| Software Name | Configuring the environment | [Download Link](https://quarto.org) |
+| UNESCO Recommendations on Open Science | Recommended reading: pp 6-19 | [Download Link](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+| Introduction to the reproducibility and replicability | Basic familiarity with current challenges in research and the effects on research quality | **ADD Link to slide deck** |
+</div>
 
 ::: {.notes}
 **Presenter Notes**: Script for the slide here. 
