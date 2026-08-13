@@ -80,19 +80,12 @@ Before completing this submodule, please carefully read about the prerequisites.
 
 ---
 
-## Questions from previous submodule
-
-- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
-- Additional slides may need to be added depending on the nature of the homework assignments. 
-- Critical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop. 
-- Not applicable if this set of slides corresponds to the first submodule of a new module. 
+## Questions from the previous session?
 
 ::: {.notes}
-**Presenter Notes**: Script for the slide here.  
-
 **Instructor Notes**:  
 
-- **Aim**:  This first slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
+- **Aim**:  This slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
 - Additional slides may need to be added depending on the nature of the homework assignments. 
 - Critical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop. 
 - Not applicable if this set of slides corresponds to the first submodule of a new module. 
@@ -259,23 +252,38 @@ What do we see in the results?
 
 ---
 
-## Covered in this session - EDIT
+## Covered in this session
 
-- Topic 1
-- Topic 2
-- Topic 3
+- **Introduction to the framework of Open Research**: Values, principles, pillars, integration into the research life cycle
+- **Increasing reliability of our work**: preregistration, registered reports, data simulation and power analysis
+- **Increasing reproducibility of our work**: computational reproducibility, including data sharing, portable projects, automated workflows, dynamic reports and version control
 
 ::: {.notes}
 **Presenter Notes**: This slides serves as an overview of the topics that are discussed, presented as bullet points.
+
+We will start off by recapping current challenges in research and how they affect the replicability of research.
+
+We will then explore Open Research as a framework for making research more open, transparent, and trustworthy. We will first at its values, principles, and different pillars, and how these practices can be integrated throughout the research life cycle.
+
+We will then focus on reliability as a key component for replicability more generally: how preregistration, Registered Reports, and data simulation and power analysis can help us make better decisions before seeing the results.
+
+Finally, we will look at reproducibility, the second key component of replicability, focusing on computational workflows: sharing data, organizing portable projects, automating analyses, creating dynamic reports, and using version control.
 :::
 
 ---
 
-## Learning goals - EDIT
+## Learning goals
 
 After this session, learners will be able to:
 
-- **Verb**
+- **Explain** how common research practices and biases, such as p-hacking, HARKing, and researcher degrees of freedom, can threaten the credibility and replicability of research
+
+- **Define** key concepts related to credible and open research, including Open Research, preregistration, registered reports, FAIR data, and computational reproducibility.
+
+- **Describe** how open research practices, such as preregistration, registered reports, simulations, data sharing, and reproducible workflows, can help address threats to research credibility.
+
+- **Identify** key components of a computationally reproducible workflow, including data, code and documentation, and the computational environment, and matching them to appropriate practices and tools.
+
   
 ::: {.notes}
 **Presenter Notes**:
@@ -287,16 +295,17 @@ After this session, learners will be able to:
 
 ## Key terms and definitions - EDIT
 
-- **Aim**: Introduce key terms and definitions that learners will come across throughout the session.
-  
+
 - **Open Research**: Definition
 - **Preregistration**: Definition
 - **Registered report**: Definition
 - **Data simulation**: Definition
 - **Computational reproducibility**: Definition
+- **Literate programming**: Definition
+- **Version control**: Definition
 
 ::: {.notes}
-**Presenter Notes**: Add script for slide here.
+**Presenter Notes**: ADD
 
 **Instructor Notes**: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
 :::
@@ -1749,21 +1758,49 @@ Correct answer: b
 
 ---
 
-## Take-home message(s) - EDIT
+## Take-home message(s)
+
+**What are you taking away from today?**
 
 
-::: {.callout-tip}
-## Tip with Title
-Add one practical tips or take-home message.
+:::incremental
+- **Plan before you carry out your study**: Highly effective way to make research decisions *a priori* while reducing bias and increasing reliability of your work
+
+- **Automate and document your research steps**: Well-organized projects, machine-readable data, scripted and commented workflows, dynamic reports, and version control (Git) reduce errors and make your work reproducible and transparent
+
+- **Make your research workflow transparent**: Share data, code, documentation, and computational environments whenever possible to allows others (and your future self) to understand, reproduce, reuse and build on your work.
+
+- **Reliability + reproducibility → greater replicability and credibility**
 :::
+
 
 ::: {.notes}
-**Presenter Notes**: Script for the slide here. 
+**Presenter Notes**: Bringing it all into perspective - what are the key take home messages from this session? 
 
-**Instructor Notes**:
+First, plan before you carry out your study. Preregistration, Registered Reports, and simulation can help us make important research decisions a priori, before we see the results. This reduces opportunities for bias and increases the reliability of our findings.
 
-- **Aim**: End lesson on clear take-home message that are interactively compiled by learners.
+Second, automate and document your research steps. Organizing your project, keeping data machine-readable, using scripted and commented workflows, dynamic reports, and version control such as Git helps reduce errors and makes our analyses easier to reproduce.
+
+Third, make your research workflow transparent. Whenever possible and ethically appropriate, share your data, code, documentation, and information about the computational environment. This allows others—and your future self—to understand what you did, reproduce your analyses, and build on your work.
+
+And finally, these two aspects come together: reliability plus reproducibility contributes to greater replicability and credibility. The goal is not simply to make research open, but to make the research process more rigorous, transparent, and trustworthy.
+
+**Instructor Notes**: Idea for activity: End session on clear take-home message that are interactively compiled by learners.
 :::
+
+---
+
+## Check in: Learning goals
+
+After this session, learners will be able to:
+
+- **Explain** how common research practices and biases, such as p-hacking, HARKing, and researcher degrees of freedom, can threaten the credibility and replicability of research. ✅
+
+- **Define** key concepts related to credible and open research, including Open Research, preregistration, registered reports, FAIR data, and computational reproducibility.✅
+
+- **Describe** how open research practices, such as preregistration, registered reports, simulations, data sharing, and reproducible workflows, can help address threats to research credibility. ✅
+
+- **Identify** key components of a computationally reproducible workflow, including data, code and documentation, and the computational environment, and matching them to appropriate practices and tools. ✅
 
 ---
 
@@ -1824,9 +1861,12 @@ g. None of the above
 ## TO DO  Sarah
 
 - [ ] Edit prerequisites
-- [ ] Edit learning goals
-- [ ] Sort out flow
-- [ ] Sort out speaker notes
+- [ ] Edit key terms and definitions
+- [ ] Edit alt text for all figures
+- [ ] Sort out content flow
+- [ ] Sort out speaker notes and make more accessible
+- [ ] Sort out references
+
 
 ---
 
