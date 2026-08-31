@@ -5,7 +5,7 @@ title: "3.5. Collaborative coding with GitHub"
 
 > Building reproducible research projects.
 
-# About these materials
+## About these materials
 
 **Welcome!** This workshop is intended to introduce learners to  the essential skills for collaborating on shared projects using GitHub and RStudio. It will guide learners step‑by‑step through the core parts of a collaborative GitHub workflow, including how to navigate GitHub’s interface, fork and clone repositories to work locally, and use Git commands to commit, push, and pull changes. Simultaneously, this workshop prepares learners to actively use reproducible research practices and how to design a simple collaborative workflow that keeps everyone’s work synchronized and traceable.
 
@@ -20,7 +20,7 @@ The target audience of this workshop is twofold:
 
 
 
-## Prerequisites
+### Prerequisites
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Where to find it   |
@@ -35,7 +35,7 @@ The target audience of this workshop is twofold:
 </div>
 
 
-## Learning objectives
+### Learning objectives
 
 - **Navigate** GitHub to collaborate on shared projects.
 - **Fork** and **clone** repositories to work locally without altering the main branch.
@@ -43,7 +43,7 @@ The target audience of this workshop is twofold:
 - **Design** a collaborative workflow that enhances the openness and reproducibility of your own projects.
 
 
-# Materials
+## Materials
 
 [Click here to see the materials in full Screen](os-m3-s5-github-slides.qmd)
 
@@ -52,22 +52,22 @@ The target audience of this workshop is twofold:
 ```
 
 
-## Download files
+### Download files
 
-### Practical exercises - solutions
+#### Practical exercises - solutions
 
 Download the solutions for the practical exercises here: 
 
 {{< downloadthis assets/example-data.csv dname="example-data.csv" label="Download">}}
 
-### Helpfiles
+#### Helpfiles
 
 Download the csv file for the example data: 
 
 {{< downloadthis assets/example-data.csv dname="example-data.csv" label="Download">}}
 
 
-# Export slides
+## Export slides
 
 You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
 
@@ -77,7 +77,7 @@ You can export these slides as PowerPoint by pressing the button below. Note tha
 
  <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
  
-# Contributors and licence details
+## Contributors and licence details
 
 **Creator**: Waterfield, Elizabeth (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
 

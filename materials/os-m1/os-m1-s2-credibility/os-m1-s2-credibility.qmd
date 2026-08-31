@@ -5,12 +5,12 @@ title: "1.2. Credible research"
 
 > Doing research you can believe in
 
-# About these materials
+## About these materials
 
 **Welcome!** This workshop is intended to provide learners with an introduction to open research, its core values, principles and key open open research practises with the ultimate goal to boost replicability of research outputs. More specifically, it explores how replicability can be increased by fostering reliability on the one hand, and reproducibility on the other hand. Through *a priori* study planning and tools such as preregistration, registered reports and data simulation methods researchers can reduce their inherent biases and produce more reliable studies. Through data sharing and increasing computational reproducibility, for example through RStudio projects, living Quarto documents and meticulous documentation of code and all research steps involved, researchers can foster reproducibility of their work. This workshop presents concrete alternative tools to produce replicable and credible research.
 
 
-## Who are these materials for?
+### Who are these materials for?
 
 The target audience of this workshop is twofold:
 
@@ -18,7 +18,7 @@ The target audience of this workshop is twofold:
 
 - **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
 
-## Prerequisites
+### Prerequisites
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
@@ -28,10 +28,10 @@ The target audience of this workshop is twofold:
 </div>
 
 
-## Learning goals - ADD
+### Learning goals - ADD
 
 
-# Materials
+## Materials
 
 [Click here to see the materials in full screen](os-m1-s2-credibility-slides.qmd)
 
@@ -39,7 +39,7 @@ The target audience of this workshop is twofold:
 <iframe class="slide-deck" src="os-m1-s2-credibility-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
-## Export slides
+### Export slides
 
 You can export these slides as MS PowerPoint (.pptx) or pdf by pressing the button below. Note that basic formatting will be applied for the PowerPoint. MAKE powerpoint template to use for export. 
 
@@ -52,7 +52,7 @@ You can export these slides as MS PowerPoint (.pptx) or pdf by pressing the butt
 
  <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
  
-# Contributors and licence details
+## Contributors and licence details
 
 **Creator**: Ihle, Malika (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 

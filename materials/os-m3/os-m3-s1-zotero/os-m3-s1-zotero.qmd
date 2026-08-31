@@ -6,7 +6,7 @@ title: "3.7. Introduction to Zotero"
 > Citing like a pro and more time for your writing.
 
 
-# About these materials
+## About these materials
 
 **Welcome!** This workshop is intended to provide learners with the theoretical background and the hands-on experience with using citation and the free citation tool Zotero to organize research materials, add and manage references, and create formatted bibliographies and citations in different writing environments. They will also learn how Zotero integrates with tools like Quarto and RStudio to support reproducible workflows and streamline the process of adding and formatting citations in academic documents.
 
@@ -19,7 +19,7 @@ The target audience of this workshop is twofold:
 
 - **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
 
-## Prerequisites
+### Prerequisites
 
 <div style="font-size: 1em;">
 | Prerequisite   |  Description  | Link   |
@@ -30,7 +30,7 @@ The target audience of this workshop is twofold:
 </div>
 
 
-## Learning objectives
+### Learning objectives
 
 - **Explain** the importance of citing scientific literature and citation tools
 - **Familiarize yourself** with different citation formats (CSL)
@@ -39,7 +39,7 @@ The target audience of this workshop is twofold:
 - **Apply and develop** a referencing workflow in MS Word
 
 
-# Materials
+## Materials
 
 [Click here to see the materials in full Screen](os-m3-s1-zotero-slides.qmd)
 
@@ -48,15 +48,15 @@ The target audience of this workshop is twofold:
 ```
 
 
-## Download files
+### Download files
 
-### Practical exercises - solutions
+#### Practical exercises - solutions
 
 Download the solutions for the practical exercises here: 
 
 {{< downloadthis assets/example-data.csv dname="example-data.csv" label="Download">}}
 
-### Helpfiles
+#### Helpfiles
 
 Download the csv file for the example data: 
 
@@ -65,7 +65,7 @@ Download the csv file for the example data:
  <!-- https://github.com/shafayetShafee/downloadthis -->
 <!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
 
-# Export slides
+## Export slides
 
 You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
 
@@ -76,7 +76,7 @@ You can export these slides as PowerPoint by pressing the button below. Note tha
 
  <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
  
-# Contributors and licence details
+## Contributors and licence details
 
 
 **Creator**: Sharma, Tejaswini (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}

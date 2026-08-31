@@ -5,7 +5,7 @@ title: "3.4. Introduction to version control with Git in RStudio"
 
 > Git it together.
 
-# About these materials
+## About these materials
 
 **Welcome!** This workshop is intended to provide learners with a deeper understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps  and decision making process. We will also learn how to use tools to facilitate collaboration across different groups and people. 
 
@@ -20,7 +20,7 @@ The target audience of this workshop is twofold:
 
 
 
-## Prerequisites
+### Prerequisites
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
@@ -33,7 +33,7 @@ The target audience of this workshop is twofold:
 </div>
 
 
-## Learning goals
+### Learning goals
 
 - **Understand** the problem(s) that can be solved by version control
 - **Install** and **configure** Git 
@@ -43,7 +43,7 @@ The target audience of this workshop is twofold:
 - **Connect** local and remote repositories for your work
 
 
-# Materials
+## Materials
 
 ::: {.callout-note}
 In contrast to other materials, the estimate delivery time for these materials are approximately 3 hours. If you have a shorter lesson slot, you can find a proposed lesson plan in the instructor notes in the slides.
@@ -56,15 +56,15 @@ In contrast to other materials, the estimate delivery time for these materials a
 ```
 
 
-## Supplementary files - TO DO
+### Supplementary files - TO DO
 
-### Practical exercises - solutions
+#### Practical exercises - solutions
 
 Download the solutions for the practical exercises here: 
 
 {{< downloadthis assets/example-data.csv dname="example-data.csv" label="Download">}}
 
-### Helpfiles
+#### Helpfiles
 
 Download the csv file for the example data: 
 
@@ -73,7 +73,7 @@ Download the csv file for the example data:
  <!-- https://github.com/shafayetShafee/downloadthis -->
 <!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
 
-# Export slides
+## Export slides
 
 You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
 
@@ -83,7 +83,7 @@ You can export these slides as PowerPoint by pressing the button below. Note tha
 
  <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
  
-# Contributors and licence details
+## Contributors and licence details
 
 **Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
