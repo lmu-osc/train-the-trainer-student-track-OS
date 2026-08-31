@@ -54,8 +54,18 @@ _site/
 _freeze/
 **_files/
 
-# .DS_Store
+# Future-proofing: ignore commonly included files that should not be tracked
+# Inspired by usethis::git_vaccinate() options
+.DS_Store
 **/.DS_Store
+.Rproj.user
+.httr-oauth
+.quarto
 
 **/*.quarto_ipynb
+
+# ignore posi assistant settings
+.posit/assistant
 .positai
+
+/.luarc.json
