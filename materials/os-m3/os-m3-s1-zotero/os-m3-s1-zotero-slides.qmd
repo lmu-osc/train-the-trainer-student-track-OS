@@ -1,4 +1,5 @@
 ---
+aliases: [materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero-slides.html]
 title: "Citing made simple: A practical guide for Zotero"
 author: "Tejaswini Sharma"
 date: "today"
@@ -8,7 +9,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../../assets/logos/osc-logo.jpg  # Inserts logo in the bottom right corner (default)
   #pdf:
    # geometry: 
     #  - top=30mm
@@ -49,10 +50,10 @@ This work was originally created by Pat Callahan and Dejana Damjanovic under a C
 
 <br>
 
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Creator**: Sharma, Tejaswini (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [00009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
 
-**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
 ---
@@ -86,7 +87,7 @@ Before completing this submodule, please carefully read the following prerequisi
 - [ ] Familiarity with the concept of **literature review**; how and where to access scientific papers, such as *Google Scholar*. 
   
 <div style="text-align:center;">
-  <img src="images/GoogleScholar.png" style="width:70%;">
+  <img src="images/googlescholar.png" style="width:70%;">
 </div>
 
 ::: {.notes}
@@ -235,7 +236,7 @@ Imagine reading various scientific papers to collect knowledge (*= reviewing the
 :::
 
 <div class="fragment" style="text-align: center; margin-top: 1em;">
-  <img src="images/01_source_meme.png" style="width:20%;" />
+  <img src="images/01-source-meme.png" style="width:20%;" />
   <div style="font-size: 0.3em; margin-top: 0.5em;"><em>Copyright: © FastArcher.</em></div>
 </div>
 
@@ -262,7 +263,7 @@ This is why we cite sources: to show the origin of our knowledge and allow other
 - **Citations** are the **in‑text pointers** to sources you use (e.g., Sharma, 2025). 
 
 <div style="text-align: center; margin-top: 1em;">
-  <img src="images/02_citation_example.jpg" style="width:40%;" />
+  <img src="images/02-citation-example.jpg" style="width:40%;" />
   <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a (fictional) citation.</em></div>
 </div>
 
@@ -280,14 +281,14 @@ Verbally describe what is shown in the image for learners who may not be able to
 - **Citations** are the **in‑text pointers** to sources you use (e.g., Sharma, 2025). 
 
 <div style="text-align: center; margin-top: 1em;">
-  <img src="images/02_citation_example.jpg" style="width:40%;" />
+  <img src="images/02-citation-example.jpg" style="width:40%;" />
   <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a (fictional) citation.</em></div>
 </div>
 
 - Whereas, **references** are the **full bibliographic details** listed at the end of a paper [@aksnes_citations_2019].
 
 <div style="text-align: center; margin-top: 1em;">
-  <img src="images/03_reference_example.jpg" style="width:40%;" />
+  <img src="images/03-reference-example.jpg" style="width:40%;" />
   <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Example of a (fictional) reference (list).</em></div>
 </div>
 
@@ -563,7 +564,7 @@ Zotero also connects directly to tools like Word, Quarto, and Google Docs, where
 ## How does Zotero work?
 
 <div style="text-align: center;">
-  <img src="images/04_zotero_interface.png" style="width:90%;" />
+  <img src="images/04-zotero-interface.png" style="width:90%;" />
   <div style="font-size: 0.6em; margin-top: 0.5em;"><em>Zotero Interface.</em></div>
 </div>
 

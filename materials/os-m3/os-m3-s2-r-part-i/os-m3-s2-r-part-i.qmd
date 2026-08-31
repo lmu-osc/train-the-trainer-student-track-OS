@@ -1,4 +1,5 @@
 ---
+aliases: [materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.html]
 title: "3.2. Introduction to R - Part I"
 ---
 
@@ -23,7 +24,7 @@ The target audience of this workshop is twofold:
 |------------|------------|------------|
 | RStudio installed | Version 2026.04.0+526 or higher | [Download](https://posit.co/download/rstudio-desktop/) |
 | R installed | Version 4.5.2 or higher | [Download](https://www.r-project.org/) |
-| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/Accessibility_sheet_for_computers_OSSS26.pdf)
+| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/accessibility-sheet-for-computers-osss26.pdf)
 :::
 
 ## Learning goals
@@ -38,10 +39,10 @@ The target audience of this workshop is twofold:
 # Materials
 
 
-[Click here to see the materials in full screen](OS-M3-S2-R-Part-I-slides.qmd)
+[Click here to see the materials in full screen](os-m3-s2-r-part-i-slides.qmd)
 
 ```{=html}
-<iframe class="slide-deck" src="OS-M3-S2-R-Part-I-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="os-m3-s2-r-part-i-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
 ## Supplementary files - TO DO
@@ -50,13 +51,13 @@ The target audience of this workshop is twofold:
 
 Download the solutions for the practical exercises here:
 
-{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
+{{< downloadthis assets/example-data.csv dname="example-data.csv" label="Download">}}
 
 ### Helpfiles
 
 Download the csv file for the example data:
 
-{{< downloadthis assets/example_data.csv dname="example_data.csv" label="Download">}}
+{{< downloadthis assets/example-data.csv dname="example-data.csv" label="Download">}}
 
 <!-- https://github.com/shafayetShafee/downloadthis --> <!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
 
@@ -64,25 +65,25 @@ Download the csv file for the example data:
 
 You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export.
 
-{{< downloadthis OS-M3-S2-R-Part-I-slides.pptx dname="OS-M3-S2-R-Part-I-slides" label="Download slides as PPTX">}}
+{{< downloadthis os-m3-s2-r-part-i-slides.pptx dname="os-m3-s2-r-part-i-slides" label="Download slides as PPTX">}}
 
-{{< downloadthis OS-M3-S2-R-Part-I-slides.pdf dname="OS-M3-S2-R-Part-I-slides" label="Download slides as PDF">}}
+{{< downloadthis os-m3-s2-r-part-i-slides.pdf dname="os-m3-s2-r-part-i-slides" label="Download slides as PDF">}}
 
 <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
 
 # Contributors and licence details
 
-**Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Creator**: Sanchez Steinhagen, Caterina Luz (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
 
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/my-orcid?orcid=0000-0000-0000-0000)) CHANGE
+**Creator**: Sharma, Tejaswini (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/my-orcid?orcid=0000-0000-0000-0000)) CHANGE
 
-**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
+**Creator**: Waterfield, Elizabeth (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
 
-**Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Creator**: Rieger, David (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
 
-**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
 <br>

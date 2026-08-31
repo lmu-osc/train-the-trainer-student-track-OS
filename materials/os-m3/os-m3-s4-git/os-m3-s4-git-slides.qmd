@@ -1,4 +1,5 @@
 ---
+aliases: [materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git-slides.html]
 title: "Introduction to version control with Git in RStudio"
 author: "Sarah von Grebmer"
 date: "today"
@@ -8,7 +9,7 @@ format:
     css: ../../../slides-custom.css
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg
+    logo: ../../../assets/logos/osc-logo.jpg
   pdf:
     geometry: 
       - top=30mm
@@ -62,13 +63,13 @@ Code snippets are dedicated to the public domain and licenced under a CC0 1.0 li
 
 <br>
 
-**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+**Reviewer**: Schönbrodt, Felix (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
-**Consultant**: Edelsbrunner, Peter (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
+**Consultant**: Edelsbrunner, Peter (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
 
-**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Consultant**: Ihle, Malika (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 ::: {.notes}
 **Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
@@ -270,7 +271,7 @@ Compare the descriptions provided by the learners: Are there any visible diverge
 
   <!-- Left side: single image -->
   <div style="flex: 1; text-align: center;">
-    <img src="images/09_manuscript_version_mess.png" style="width: 70%;" />
+    <img src="images/09-manuscript-version-mess.png" style="width: 70%;" />
   </div>
   
 ```
@@ -307,7 +308,7 @@ What is your current **document naming and management** strategy?
 
 Laptop dies, files are accidentally deleted.
 
-![](images/10_Coffee_Spill_gender_neutral.png){fig-align=center width=30% fig-alt="hardware fails"}
+![](images/10-coffee-spill-gender-neutral.png){fig-align=center width=30% fig-alt="hardware fails"}
 
 ::: {.callout-note}
 Mentally raise your hand if this happened to you before.
@@ -329,7 +330,7 @@ Image created with generative AI.
 
 Projects evolve, it is easy to **forget** what we last changed or did on the project. 
 
-![](images/11_Confused.png){fig-align=center width=20% fig-alt="hardware fails"}
+![](images/11-confused.png){fig-align=center width=20% fig-alt="hardware fails"}
 
 <div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
 Image created with generative AI.
@@ -347,7 +348,7 @@ Image created with generative AI.
 
 Especially with coding, trying new ideas can **break** your code.
 
-![](images/12_crashed_PC.png){fig-align=center width=30% fig-alt="burning PC"}
+![](images/12-crashed-pc.png){fig-align=center width=30% fig-alt="burning PC"}
 
 <div style="display: flex; font-size: 0.55em; color: #777; justify-content: center;">
 Image created with generative AI.
@@ -506,7 +507,7 @@ What do we see in the results?
 :::
 
 
-![](images/06_Git_logo.png){fig-align=center width=10% fig-alt="git logo"}
+![](images/06-git-logo.png){fig-align=center width=10% fig-alt="git logo"}
 
 ::: {.notes}
 **Presenter Notes**: Diving into the solution to some of the chalenges with discussed earlier, Git is a popular version control system that helps you track and manage changes to your files and code. With Git, you can create commits, which are snapshots of your project at specific points in time. This makes it easy to monitor your progress, roll back changes if needed, and collaborate effectively with others. Git also supports branching, allowing you to work on new features or experiments without affecting the main project. Git’s decentralized nature means that each contributor has a full copy of the project’s history, ensuring robust tracking and flexibility.
@@ -528,7 +529,7 @@ What do we see in the results?
 
 ::::: columns
 ::: {.column width="30%"}
-![](images/05_GitHub_logo.png){fig-align=center width=60% fig-alt="github logo"}
+![](images/05-github-logo.png){fig-align=center width=60% fig-alt="github logo"}
 :::
 ::: {.column width="70%"}
 ::: {.fragment}
@@ -549,7 +550,7 @@ GitHub is a free but commercial platform owned by Microsoft. A similar functiona
 
 ## The Git - GitHub workflow
 
-![](images/07_Git_GitHub_workflow.jpg){fig-align="center" width=600 fig-alt="Git - GitHub workflow"}
+![](images/07-git-github-workflow.jpg){fig-align="center" width=600 fig-alt="Git - GitHub workflow"}
 
 ::: {.notes}
 **Presenter Notes**: Let's break down the basic steps of how Git and GitHub work together:
@@ -1300,7 +1301,7 @@ What do we see in the results?
 
 **Step 1**: Create a new project in RStudio as follows: `File`> `New Project` > `New Directory`
 
-![](images/project_screen1.png){fig-align="center" width=600 fig-alt="Create RStudio Project"}
+![](images/project-screen1.png){fig-align="center" width=600 fig-alt="Create RStudio Project"}
 
 ::: {.notes}
 **Presenter Notes**: As a first step, we want to create a new project in RStudio as follows: `File` > `New Project` > `New Directory`.
@@ -1315,7 +1316,7 @@ What do we see in the results?
 **Step 2**: In the New Project Wizard screen, click on `New project`:
 
 
-![](images/04_create_new_Rproject.png){fig-align="center" fig-alt="new R project"}
+![](images/04-create-new-rproject.png){fig-align="center" fig-alt="new R project"}
 
 ::: {.notes}
 **Presenter Notes**: As a second step, in the New Project Wizard screen, click on `New project`. 
@@ -1327,7 +1328,7 @@ What do we see in the results?
 
 **Step 3**: Give your project a name (e.g.’my_first_test_repo’) and ensure that `Create a git repository` is ticked. Next, click on `Create Project`.
 
-![](images/project_screen3.png){fig-align="center" width=700 fig-alt="Create new repo"}
+![](images/project-screen3.png){fig-align="center" width=700 fig-alt="Create new repo"}
 
 ::: {.callout-note}
 RStudio will create a new folder containing an empty project and set it as the new R working directory.
@@ -1347,7 +1348,7 @@ Two files are created in the otherwise empty project:
 - **.gitignore**: Specifies files that should be ignored by the version control system (e.g. sensible data files that should not be made public, or documentation that you don’t need version controlled).
 - **my_first_test_repo.Rproj**:  Configuration information for the RStudio project.
 
-![](images/project_files.png){fig-align="center" width=600 fig-alt="Project files"}
+![](images/project-files.png){fig-align="center" width=600 fig-alt="Project files"}
 
 ::: {.notes}
 **Presenter Notes**: When you create a new project, two important files are automatically created. The first is the .gitignore file, which tells Git to ignore certain files, such as sensitive data or documents that do not need to be tracked by version control. This helps keep your project clean and secure. The second file is my_first_test_repo.Rproj (depending on how you named your porject file), which contains configuration information for your RStudio project. This file helps RStudio remember your project settings and keeps everything organized, making it easier to work on your project.
@@ -1364,7 +1365,7 @@ We will now generate a small project to practice version control on.
 **Step 1**: Download dataset to practice analyses on.
 
 <div style="text-align:center;">
-  <a href="assets/example_data.csv" download>
+  <a href="assets/example-data.csv" download>
     <button style="padding:10px 20px; border:none; border-radius:8px; background:#007ACC; color:white; font-size:20px; cursor:pointer;">
       ⬇️ Download dataset (.csv)
     </button>
@@ -1385,7 +1386,7 @@ The first thing we will do is download a dataset that we can use for practicing 
 **Step 2**: Create a new R script `File` > `New File` > `R script` and save it as *myscript.R*. Then add the code below to your R script.
 
 ```{.R filename="myscript.R"}
-mydata = read.csv("example_data.csv")
+mydata = read.csv("example-data.csv")
 plot(mydata$xdata,mydata$ydata)
 ```
 
@@ -1401,7 +1402,7 @@ plot(mydata$xdata,mydata$ydata)
 
 **Step 3**: Run the code and check your directory. It should now contain four files: 
 
-![](images/file_list.png){fig-align="center" width=600 fig-alt="Directory files"}
+![](images/file-list.png){fig-align="center" width=600 fig-alt="Directory files"}
 
 ::: {.notes}
 **Presenter Notes**: Run the code and check your directory in the bottom right panel. It should now contain four files: the .gitignore fle, the RStudio Project file, the example data .csv file and your R script. 
@@ -1428,7 +1429,7 @@ Before we do the first action, one orientation point:
 
 **Step 1**: Find the git version control pane in the top right corner of RStudio in the `Git` tab. 
 
-![](images/git_pane.png){fig-align="center" width=600 fig-alt="Git pane"}
+![](images/git-pane.png){fig-align="center" width=600 fig-alt="Git pane"}
 
 ::: {.notes}
 **Presenter Notes**: Find the git version control pane in the top right corner of RStudio in the `Git` tab and click on it. 
@@ -1460,7 +1461,7 @@ Before we click anything, two terms matter:
 
 **Step 2**: Hover the mouse pointer over the yellow `?` marks in the Git tab, you’ll see a tooltip telling us that the file is **untracked**. This means that Git is not tracking versions of this file yet. Tick `staged` for each file. 
 
-![](images/git_pane_added.png){fig-align="center" width=600 fig-alt="Git staging"}
+![](images/git-pane-added.png){fig-align="center" width=600 fig-alt="Git staging"}
 
 ::: {.notes}
 **Presenter Notes**: We now what to perform what is called *staging* our files. Staging is like preparing your changes before saving them. When you make changes to a file (like adding new code), Git doesn't automatically track those changes. To tell Git which changes you want to save, you "stage" them. In RStudio, you can do this by selecting the changes you want to keep and clicking "Stage" in the Git tab. In this step, hover the mouse pointer over the yellow *?* marks in GitHub, you’ll see a tooltip telling us that the file is **untracked**. This means that git is not tracking versions of this file. Tick **staged** for each file.  
@@ -1484,7 +1485,7 @@ Now the next key idea:
 
 **Step 3**: Our staged files are now ready for the first **commit**. Click on the `commit button`. 
 
-![](images/08_Commit_RStudio.png){fig-align="center" width=500 fig-alt="Git commit"}
+![](images/08-commit-rstudio.png){fig-align="center" width=500 fig-alt="Git commit"}
 
 
 ::: {.notes}
@@ -1511,7 +1512,7 @@ Every commit needs a message:
 
 **Step 4**: Specify a **commit message**, which is a brief description of the changes you made. For now, we will add the commit message  *First commit*. Then click on `Commit`. 
 
-![](images/first_commit.png){fig-align="center" width=600 fig-alt="First git commit"}
+![](images/first-commit.png){fig-align="center" width=600 fig-alt="First git commit"}
 
 ::: {.notes}
 **Presenter Notes**: You want to specify what changes exactly you have made. This can be done via a *commit message*. Writing a good commit message is essential for keeping track of the changes you make to your project. Clear and concise commit messages help you and others understand the purpose of each change, making it easier to review or roll back changes later.
@@ -1536,7 +1537,7 @@ Every commit needs a message:
 
 **Step 5**: Check the message from git. If no errors appear, everything is fine. Click on close - finished! 
 
-![](images/git_commit_message.png){fig-align="center" width=600 fig-alt="Git feedback"}
+![](images/git-commit-message.png){fig-align="center" width=600 fig-alt="Git feedback"}
 
 ---
 
@@ -1624,7 +1625,7 @@ Click on the `git` tab in the top right corner. Two files appeared, the script w
 **Step 1**: Click on the `staged` box to stage changes for the *first* script.
 
 
-![](images/git_changed.png){fig-align="center" width=600 fig-alt="git staging"}
+![](images/git-changed.png){fig-align="center" width=600 fig-alt="git staging"}
 
 ::: {.notes}
 **Presenter Notes**: Now that you have clicked on the Git tab in the top right corner of RStudio, you should see two files listed: the script you just modified (e.g., myscript.R) and any new scripts that were added if you completed the optional exercise. For the script you modified first, click on the staged box next to it. This marks your changes as ready for the next step, which is committing the changes to your Git history. Do not stage the second script for now. Once you have staged your changes, you're all set to commit them and save a snapshot of your progress.
@@ -1638,7 +1639,7 @@ Click on the `git` tab in the top right corner. Two files appeared, the script w
 
 **Step 2**: Click on `Diff` for a reminder summary of what changed. Then add a commit message and click `commit`. 
 
-![](images/git_diff.png){fig-align="center" width=600 fig-alt="git difference"}
+![](images/git-diff.png){fig-align="center" width=600 fig-alt="git difference"}
 
 ::: {.callout-important}
 Remember that Git track *differences* between two files. Lines that have been added are green. Lines that have been removed are red.
@@ -1681,7 +1682,7 @@ The project is now under version control. Time to create a **new GitHub reposito
 
 **Step 1**: Log into GitHub and go to your profile page. On the `repositories` tab, click `New`. 
 
-![](images/new_repo.png){fig-align="center" width=600 fig-alt="new GitHub repository"}
+![](images/new-repo.png){fig-align="center" width=600 fig-alt="new GitHub repository"}
 
 ::: {.notes}
 **Presenter Notes**: Now that your project is under version control in RStudio, the next step is to connect it to your GitHub account so that you can upload your project and access it online. First, log into your GitHub account and go to your profile page. Once you are there, click on the `Repositories` tab. From this page, click the `New` button to create a new GitHub repository.
@@ -1696,7 +1697,7 @@ Creating this new repository on GitHub will allow you to upload your local proje
 
 **Step 2**: Give the repository a name and click `Create Repository`. 
 
-![](images/new_repo_name.png){fig-align="center" width=200 fig-alt="new GitHub repository"}
+![](images/new-repo-name.png){fig-align="center" width=200 fig-alt="new GitHub repository"}
 
 ::: {.notes}
 **Presenter Notes**: Give the repository a name and click `Create Repository`. 
@@ -1727,7 +1728,7 @@ Select the `SSH` tab and make sure the  url shown in the blue box should start w
 
 **Step 4**: Copy the commands from the `or push an existing repository from the command line` to your clipboard with the GitHub copy button. 
 
-![](images/github_git_commands.png){fig-align="center" width=200 fig-alt="quick setup GitHub"}
+![](images/github-git-commands.png){fig-align="center" width=200 fig-alt="quick setup GitHub"}
 
 ::: {.notes}
 **Presenter Notes**: After selecting the SSH tab and confirming the URL, you’ll see a section titled `... or push an existing repository from the command line`. This section provides the commands you need to connect your local project to the newly created GitHub repository. Click the `copy`button next to the commands to copy them to your clipboard. These commands will be used in your terminal to link your local repository to GitHub and push your changes.
@@ -1743,7 +1744,7 @@ Once you have copied the commands, you can paste them into your terminal to comp
 
 **Step 5**: Go to RStudio, navigate to the `git` tab and Click on `More` > `New Terminal`. 
 
-![](images/git_more_shell.png){fig-align="center" width=200 fig-alt="RStudio new terminal"}
+![](images/git-more-shell.png){fig-align="center" width=200 fig-alt="RStudio new terminal"}
 
 ::: {.notes}
 **Presenter Notes**: Now, go to RStudio. In the Git tab, click on `More` > `New Terminal`. This will open a new terminal window within RStudio, where you can paste the commands you copied from GitHub.
@@ -1763,7 +1764,7 @@ yes
 
 when a sentence about continuing to connect appears in the terminal.
 
-![](images/first_push_confirm_identity.png){fig-align="center" width=200 fig-alt="Confirm connection with GitHub"}
+![](images/first-push-confirm-identity.png){fig-align="center" width=200 fig-alt="Confirm connection with GitHub"}
 
 ::: {.notes}
 **Presenter Notes**: The terminal is where you will paste and then run the Git commands to link your local repository to GitHub and push your changes. Paste the git commands from your clipboard into the terminal and press enter to execute them. Insert your SSH passphrase if prompted or type yes when a sentence about continuing appears.  
@@ -1828,7 +1829,7 @@ Next, add the given text to the file and save the file as README (in capital let
 **Step 2**: In the **git** tab, you should see the new **Readme.md** file (and only that one!). Stage the file and press **commit**. 
 
 
-![](images/staged_readme.png){fig-align="center" width=200 fig-alt="Stage README file"}
+![](images/staged-readme.png){fig-align="center" width=200 fig-alt="Stage README file"}
 
 ::: {.notes}
 **Presenter Notes**: In the **git** tab, you should see the new **Readme.md** file (and only that one!). Stage the file and press **commit**. 
@@ -1843,7 +1844,7 @@ Next, add the given text to the file and save the file as README (in capital let
 **Step 3**: Add a new commit message and press `Commit` in the bottom right corner.
 
 
-![](images/readme_commit.png){fig-align="center" width=200 fig-alt="Commit README file"}
+![](images/readme-commit.png){fig-align="center" width=200 fig-alt="Commit README file"}
 
 ::: {.callout-note}
 Note that the window might disappear after pressing `Commit`. This is nothing unusual, but in that case, please re-open it for Step 4 on the next slide.
@@ -1862,7 +1863,7 @@ Note that the window might disappear after pressing `Commit`. This is nothing un
 **Step 4**: **Push** the changes to upload to GitHub by pressing the button in the top right corner with the green arrow pointing upwards.
 
 
-![](images/git_push.png){fig-align="center" width=200 fig-alt="Push README file"}
+![](images/git-push.png){fig-align="center" width=200 fig-alt="Push README file"}
 
 ::: {.notes}
 **Presenter Notes**: **Push** the changes to upload to GitHub by pressing the button in the top right corner with the green arrow pointing upwards.
@@ -2030,10 +2031,10 @@ Take 10 minutes now to reflect upon where in your **own current or future resear
 - [ ]  In a new local folder, create a new RStudio Project named **git_practice**.
 
 
-- [ ]  Download the practise_data.csv file and save it in your project folder
+- [ ]  Download the practise-data.csv file and save it in your project folder
 
 <div style="text-align:center;">
-  <a href="assets/practise_data.csv" download>
+  <a href="assets/practise-data.csv" download>
     <button style="padding:10px 20px; border:none; border-radius:8px; background:#007ACC; color:white; font-size:20px; cursor:pointer;">
       ⬇️ Download dataset for the assignment
     </button>
@@ -2047,7 +2048,7 @@ When creating the new RStudio project, make sure to check `Create a git reposito
 :::
 
 ::: {.notes}
-**Presenter Notes**: To consolidate what we have discussed and explored today, here is the homework assignment. In a new local folder, create a new RStudio Project named **git_practice**. Download the practise_data.csv file and save it in your project folder. This is a dataset containing the number of athletes that participated in the Summer Olympics over the years. Next, create a new R script and write code to read in data, inspect the data and plot the number of athletes over time. Stage and commit changes. Create a new repository on GitHub and connect it with your new local repository. Push your changes to GitHub and check your work. 
+**Presenter Notes**: To consolidate what we have discussed and explored today, here is the homework assignment. In a new local folder, create a new RStudio Project named **git_practice**. Download the practise-data.csv file and save it in your project folder. This is a dataset containing the number of athletes that participated in the Summer Olympics over the years. Next, create a new R script and write code to read in data, inspect the data and plot the number of athletes over time. Stage and commit changes. Create a new repository on GitHub and connect it with your new local repository. Push your changes to GitHub and check your work. 
 
 **Instructor Notes**:
 
@@ -2212,7 +2213,7 @@ What do we see in the results and how do they compare to the previous ratings?
 
 ## Always remember ...
 
-![](images/13_Git_in_case_of_fire.png){fig-align=center}
+![](images/13-git-in-case-of-fire.png){fig-align=center}
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+aliases: [materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto-slides.html]
 title: "Introduction to literate programming with Quarto"
 author: "Elizabeth Waterfield"
 date: "today"
@@ -8,7 +9,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../../assets/logos/osc-logo.jpg  # Inserts logo in the bottom right corner (default)
   #pdf:
     #geometry: 
      # - top=30mm
@@ -46,13 +47,13 @@ Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [C
 
 ## Contribution statement
 
-**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730))
+**Creator**: Waterfield, Elizabeth (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730))
 
-**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
 
-**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+**Consultant**: Schönbrodt, Felix (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
-**Acknowledgments**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Acknowledgments**: Ihle, Malika (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 
 ::: {.notes}
@@ -449,7 +450,7 @@ What is **rendering**? The process where Quarto runs the code, combines it with 
 
 :::
 
-![You can find both *Render on Save* and *Manual Rendering* at the top of your workspace.](images/01_Render.png){fig-alt="A screenshot of a menu bar in an RStudio workspace with red rectangles highlighting the 'Render on Save' checkbox and 'Render' button."}
+![You can find both *Render on Save* and *Manual Rendering* at the top of your workspace.](images/01-render.png){fig-alt="A screenshot of a menu bar in an RStudio workspace with red rectangles highlighting the 'Render on Save' checkbox and 'Render' button."}
 
 
 
@@ -502,7 +503,7 @@ These are the steps to **create a Quarto Document** in RStudio:
 
 :::::: columns
 ::: column
-![](images/02_Quarto_Setup.png){fig-alt="An image of the drop-down menu in RStudio's File tab highlighting the 'New File' option and then the selection of the 'Quarto Document' option."}
+![](images/02-quarto-setup.png){fig-alt="An image of the drop-down menu in RStudio's File tab highlighting the 'New File' option and then the selection of the 'Quarto Document' option."}
 
 :::
 ::: column
@@ -528,7 +529,7 @@ These are the steps to **create a Quarto Document** in RStudio:
 
 :::::: columns
 ::: column
-![](images/03_Quarto_Setup.png){fig-alt="This image shows the setup screen when creating a New Quarto Document for actions such as setting the title, author, and output format."}
+![](images/03-quarto-setup.png){fig-alt="This image shows the setup screen when creating a New Quarto Document for actions such as setting the title, author, and output format."}
 
 :::
 ::: column
@@ -816,7 +817,7 @@ The ChickWeight dataset in R is based on real experimental data.
 
 - There are multiple ways to insert **code chunks**:
 
-  - Simply click the green *Insert Code Chunk* button on the toolbar ![](images/Code_Chunk.png){fig-alt="A screenshot of an RStudio toolbar with a red rectangle highlighting the 'Insert a new code chunk' action button which is a green square with a the letter C in its center and a green plus icon to its top-left."} 
+  - Simply click the green *Insert Code Chunk* button on the toolbar ![](images/code-chunk.png){fig-alt="A screenshot of an RStudio toolbar with a red rectangle highlighting the 'Insert a new code chunk' action button which is a green square with a the letter C in its center and a green plus icon to its top-left."} 
 
   - You can manually type 3 back ticks \`\`\` then {r} to start a coding chunk, enter your code, then end the chunk with 3 back ticks
 
@@ -900,7 +901,7 @@ Adjust how the code is portrayed by **editing the YAML header**:
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 1;"}
 
-![](images/04_Code_Display.png){fig-alt="A screenshot of a summary table displaying the weight, time, and diet information for chicks. Below the table is a line graph with multiple colorful lines. Red rectangles highlight the R code for both the summary table and graph."}
+![](images/04-code-display.png){fig-alt="A screenshot of a summary table displaying the weight, time, and diet information for chicks. Below the table is a line graph with multiple colorful lines. Red rectangles highlight the R code for both the summary table and graph."}
 
 :::
 ::: {style="flex: 1;"}
@@ -1101,11 +1102,11 @@ Link without title: `<https://link>`
 
 -   Image by itself with no caption: ```![](path/image.png)```
 
-![](images/05_Chick_Pic.png){width="20%" fig-align="left" fig-alt="An image of 3 yellow chicks sitting in the grass."}
+![](images/05-chick-pic.png){width="20%" fig-align="left" fig-alt="An image of 3 yellow chicks sitting in the grass."}
 
 -   Image with a caption below it: ```![caption](path/image.png)```
 
-![This is a caption about three yellow chicks in the grass.](images/05_Chick_Pic.png){width="20%" fig-align="left" fig-alt="An image of 3 yellow chicks sitting in the grass."}
+![This is a caption about three yellow chicks in the grass.](images/05-chick-pic.png){width="20%" fig-align="left" fig-alt="An image of 3 yellow chicks sitting in the grass."}
 
 ::: {.notes}
 **Presenter Notes**: A benefit of using Quarto is the ability to easily add media, such as images, to your documents. You can add the image by itself with no additional text by entering `![](path to the image/name of the image.file)`. The *path* tells Quarto where to find the image on your device. If the image is stored in the same folder as your .qmd file, you only need to use the image’s file name. If the image is inside a subfolder (for example, a folder within the folder labelled "Images"), then you just include the folder name in the path, for example *images/picture.png*. <br>
@@ -1120,7 +1121,7 @@ You can even add a link to an image so that when you click anywhere on the image
 
 -   Image with link: ```[![caption](path/image.png)](link)```
 
-[![Click on the image to access a published study on broiler chicks.](images/05_Chick_Pic.png){width="40%" fig-align="left" fig-alt="An image of 3 yellow chicks sitting in the grass."}](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819)
+[![Click on the image to access a published study on broiler chicks.](images/05-chick-pic.png){width="40%" fig-align="left" fig-alt="An image of 3 yellow chicks sitting in the grass."}](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127819)
 
 ::: {.notes}
 **Presenter Notes**: Images can also be inserted with links embedded in them. This allows readers to click and explore more details (for example, linking a screenshot to a website or dataset). This helps keep documents concise while still offering extra resources for those who want them. Having a caption in this case is not necessary but recommended to provide context for what link is attached to the image. 
@@ -1130,14 +1131,14 @@ You can even add a link to an image so that when you click anywhere on the image
 
 ## Practical exercise 7
 
--   [ ] <a href="images/05_Chick_Pic.png" download>Click this link to download the image</a>
+-   [ ] <a href="images/05-chick-pic.png" download>Click this link to download the image</a>
 -   [ ] Save the image to your main folder with the Quarto document files
 -   [ ] Copy and paste the markdown text below to insert an image with a caption (edit path if needed):
 
 <br>
 
 ```{.textbox}
-![No chicks were harmed in the making of this website.](images/05_Chick_Pic.png)
+![No chicks were harmed in the making of this website.](images/05-chick-pic.png)
 ```
 
 ::: {.notes}
@@ -1153,7 +1154,7 @@ You can even add a link to an image so that when you click anywhere on the image
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 0.5;"}
 
-![](images/06_Zotero_Logo.png){width="80%" fig-alt="An image of Zotero's logo. The letter Z in the color red is placed in the center of a white square with rounded edges. The lower-right corner is lifted to reveal written words underneath and four colored tabs are placed around the square."}
+![](images/06-zotero-logo.png){width="80%" fig-alt="An image of Zotero's logo. The letter Z in the color red is placed in the center of a white square with rounded edges. The lower-right corner is lifted to reveal written words underneath and four colored tabs are placed around the square."}
 
 :::
 ::: {style="flex: 1.5;"}
@@ -1177,7 +1178,7 @@ What is **Zotero**? A free **reference management tool** to collect, organize, c
 
 To insert a citation:
 
-![](images/07_Zotero_Toolbar.png){fig-alt="A screenshot of an RStudio toolbar with red rectangles highlighting the 'Source/Visual' mode options and the 'Insert' function."}
+![](images/07-zotero-toolbar.png){fig-alt="A screenshot of an RStudio toolbar with red rectangles highlighting the 'Source/Visual' mode options and the 'Insert' function."}
 
 -   Switch to the "`Visual Editor`" mode
 
@@ -1201,7 +1202,7 @@ What you will notice:
 
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 0.5;"}
-![](images/08_Zotero_Library.png){fig-alt="A screenshot of the dropdown menu under 'Insert' with a red rectangle around the 'Zotero/My Library' option."}
+![](images/08-zotero-library.png){fig-alt="A screenshot of the dropdown menu under 'Insert' with a red rectangle around the 'Zotero/My Library' option."}
 
 :::
 ::: {style="flex: 1;"}
@@ -1274,7 +1275,7 @@ bibliography: references.bib
 - [ ] Find the article you just added to the Zotero library and select it
 - [ ] Click "`Insert`" to add the citation
 
-![](images/09_Zotero_Insert.png){fig-alt="An image showing the citation key 'pauwels2015' and a red rectangle highlighting the 'Insert' option."}
+![](images/09-zotero-insert.png){fig-alt="An image showing the citation key 'pauwels2015' and a red rectangle highlighting the 'Insert' option."}
 
 ::: {.notes}
 **Presenter Notes**: Follow these steps to add the citation to the end of the text. It is possible to add citations in Source mode, but it is easier and more efficient to do it in Visual mode. This is also a good opportunity to see all the work you've done so far in the Quarto document but now in Visual mode. Cick "Insert" and then "Citations". You will see your Zotero library in the side panel. Here, you can select the citation you want to add and then click "Insert" 
@@ -1309,7 +1310,7 @@ Now, let's practice adding **in-text** citations!
 - [ ] Click "`Insert`" and find this new article in the Zotero Library
 - [ ] Check the box next to "`In-text`"
 
-![](images/10_Zotero_InText.png){fig-alt="An image showing the citation key 'li2016' and a red rectangle highlighting the ticked In-text checkbox."}
+![](images/10-zotero-intext.png){fig-alt="An image showing the citation key 'li2016' and a red rectangle highlighting the ticked In-text checkbox."}
 
 - [ ] Click "`Insert`" to add an in-text citation
 
@@ -1331,7 +1332,7 @@ In your output, you should now have:
 - A reference list (bibliography)
 :::
 ::: column
-![](images/11_Zotero_Review.png){fig-alt="A screenshot showing two sentences about chick body weight including citations and a bibliography below."}
+![](images/11-zotero-review.png){fig-alt="A screenshot showing two sentences about chick body weight including citations and a bibliography below."}
 
 :::
 ::::::
@@ -1474,11 +1475,11 @@ Work directly from the **Terminal** in RStudio.
 
 :::::: columns
 ::: column
-![](images/12_GitBash_Terminal.png){fig-alt="The 'Terminal Options...' selection is highlighted with a red rectangle under the options in Terminal within RStudio."}
+![](images/12-gitbash-terminal.png){fig-alt="The 'Terminal Options...' selection is highlighted with a red rectangle under the options in Terminal within RStudio."}
 
 :::
 ::: column
-![](images/13_GitBash_Terminal.png){fig-alt="A screenshot displaying the 'Git Bash' option being selected from the dropdown menu under 'New terminals open with:'."}
+![](images/13-gitbash-terminal.png){fig-alt="A screenshot displaying the 'Git Bash' option being selected from the dropdown menu under 'New terminals open with:'."}
 
 :::
 ::::::
@@ -1506,7 +1507,7 @@ project:
 - [ ] Change the working directory of the Terminal to the folder containing your Quarto files: do this by entering `cd` followed by the file path on your device wrapped in quotations
 
 Here is an example of setting the directory using `cd`: 
-![](images/14_Terminal_cd_Command.png){width="50%" fig-alt="Screenshot of the Terminal with the 'cd' command setting the directory to 'Quarto'."}
+![](images/14-terminal-cd-command.png){width="50%" fig-alt="Screenshot of the Terminal with the 'cd' command setting the directory to 'Quarto'."}
 
 
 ::: {.notes}
@@ -1633,7 +1634,7 @@ git push -u origin main
 
 :::
 ::: {style="flex: .65;"}
-![](images/15_GitPages_Settings.png){fig-alt="A screenshot of the settings on a GitHub repository where the action of changing 'None' to 'main' branch is highlighted with red rectangles."}
+![](images/15-gitpages-settings.png){fig-alt="A screenshot of the settings on a GitHub repository where the action of changing 'None' to 'main' branch is highlighted with red rectangles."}
 
 :::
 ::::::
@@ -1644,7 +1645,7 @@ git push -u origin main
 - [ ] Click "`Save`"
 :::
 ::: {style="flex: .65;"}
-![](images/16_GitPages_Settings.png){fig-alt="A screenshot of the settings on a GitHub repository where the action of changing '/root' to '/docs' is highlighted with red rectangles."}
+![](images/16-gitpages-settings.png){fig-alt="A screenshot of the settings on a GitHub repository where the action of changing '/root' to '/docs' is highlighted with red rectangles."}
 
 :::
 ::::::
@@ -1673,7 +1674,7 @@ git push -u origin main
 :::
 
 <div style="text-align: center;">
-  <a href="assets/OS-M3-S6-Quarto-Cheatsheet.pdf" download 
+  <a href="assets/os-m3-s6-quarto-cheatsheet.pdf" download 
      style="background-color:#007ACC; color:white; padding:8px 14px; border-radius:4px; 
             text-decoration:none; font-weight:500;">
     Download the Quarto cheatsheet
@@ -1737,7 +1738,7 @@ After learning about Quarto in today's lesson, use this homework assignment to:
 - **Build confidence** in editing YAML header, adding code chunks, and customizing the layout
 
 <div style="text-align: center;">
-  <a href="assets/OS-M3-S6-Quarto-Activity_Sheet.pdf" download 
+  <a href="assets/os-m3-s6-quarto-activity-sheet.pdf" download 
      style="background-color:#007ACC; color:white; padding:8px 14px; border-radius:4px; 
             text-decoration:none; font-weight:500;">
     Download the Quarto Activity Sheet
@@ -1891,8 +1892,8 @@ See you next class :)
 ## Pedagogical add-on tools for instructors
 
 - Relevant practical exercises follow each section to encourage students to learn-by-doing
-- <a href="assets/OS-M3-S6-Quarto-Cheatsheet.pdf" download>Downloadable cheatsheet as a PDF</a> for a compact summary of all the topics covered in the session 
-- <a href="assets/OS-M3-S6-Quarto-Activity_Sheet.pdf" download>Downloadable activity sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently. 
+- <a href="assets/os-m3-s6-quarto-cheatsheet.pdf" download>Downloadable cheatsheet as a PDF</a> for a compact summary of all the topics covered in the session 
+- <a href="assets/os-m3-s6-quarto-activity-sheet.pdf" download>Downloadable activity sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently. 
 - [Link to advanced Quarto activities](https://lmu-osc.github.io/introduction-to-Quarto/quarto_exercises.html) for faster learners who want to gain deeper knowledge on Quarto and its possibilities
 
 ---

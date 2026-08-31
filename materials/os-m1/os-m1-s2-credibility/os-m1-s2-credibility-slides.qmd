@@ -1,4 +1,5 @@
 ---
+aliases: [materials/OS-M1/OS-M1-S2-Credibility/OS-M1-S2-Credibility-slides.html]
 title: "About credible and open research"
 author: "Malika Ihle & Sarah von Grebmer"
 date: "today"
@@ -9,7 +10,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../../assets/logos/osc-logo.jpg  # Inserts logo in the bottom right corner (default)
   pdf:
     geometry: 
       - top=30mm
@@ -42,12 +43,12 @@ filters:
 
 ## Contribution statement
 
-**Creator**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Creator**: Ihle, Malika (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
-**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+**Consultant**: Schönbrodt, Felix (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
 ::: {.notes}
 **Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
@@ -161,7 +162,7 @@ d. Using flexibility in data collection, analysis, or reporting to find and repo
 
 ## Reminder: (Idealized) Research life cycle
 
-![](images/research-cycle-COS.png){fig-align=center width=70% fig-alt="Figure by the Center for Open Science depciting the traditional research cycle"}
+![](images/research-cycle-cos.png){fig-align=center width=70% fig-alt="Figure by the Center for Open Science depciting the traditional research cycle"}
 
 :::footer
 The Research Life Cycle from the [Open Science Framework](https://osf.io/).
@@ -314,7 +315,7 @@ After this session, learners will be able to:
 
 ## Remember the replicability crisis?
 
-![](images/reproducibility_literature.png){fig-align=center width=100% fig-alt="articles discussing the reproducibility crisis"}
+![](images/reproducibility-literature.png){fig-align=center width=100% fig-alt="articles discussing the reproducibility crisis"}
 
 ::: footer
 Adapted from Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx)
@@ -331,7 +332,7 @@ Adapted from Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx)
 
 ![](images/hindsight-bias.png){fig-align=center width=40% fig-alt="ADD"}
 
-![](images/14_cognitive_bias.png){fig-align=center width=60% fig-alt="ADD"}
+![](images/14-cognitive-bias.png){fig-align=center width=60% fig-alt="ADD"}
 
 ::: {.notes}
 **Presenter Notes**: In the context of replication difficulties, we also talked about these two biases: the hindsight bias and the cognitive bias. Hindsight bias is the tendency to believe, after seeing the results, that the outcome was more predictable or expected than it actually was beforehand. It is the "I knew this would happen" feeling. The cognitive bias, on the other hand, is a systematic tendency in the way people think or make judgments that can lead to errors or distortions when collecting, analyzing or interpreting results.
@@ -532,11 +533,11 @@ Let us look at what this would mean concretely.
 
 ### Values and principles
 
-![](images/values_principles_Open_Science_UNESCO.png){fig-align=center width=100% fig-alt="Figure from the UNESCO Recommendations on Open Science depicting the guiding values and principles of Open Science"}
+![](images/values-principles-open-science-unesco.png){fig-align=center width=100% fig-alt="Figure from the UNESCO Recommendations on Open Science depicting the guiding values and principles of Open Science"}
 
 ### Pillars of Open Research
 
-![](images/pillars_open_research.png){fig-align=center width=100% fig-alt="Figure from CyVerse 2025 depicting the six pillars of Open Science: open access publications, open data, open educational resources, open methodology, open peer review, and open source software"}
+![](images/pillars-open-research.png){fig-align=center width=100% fig-alt="Figure from CyVerse 2025 depicting the six pillars of Open Science: open access publications, open data, open educational resources, open methodology, open peer review, and open source software"}
 
 
 ::: {.callout-note}
@@ -571,7 +572,7 @@ Also note that the exact pillars and terminology vary between frameworks and dis
 
 ::: {.column width="70%"}
 
-![](images/open_research_umbrella.png){width=100% fig-alt="Figure depicting the umbrella term Open Research and connected research practices"}
+![](images/open-research-umbrella.png){width=100% fig-alt="Figure depicting the umbrella term Open Research and connected research practices"}
 
 :::
 
@@ -587,7 +588,7 @@ Adapted from Danielle Robinson and Robin Champieux (Robinson, 2018)
 
 ### Open Research in the research cycle
 
-![](images/open_research_in_research_cycle.png){fig-align=center width=100% fig-alt="Figure by the Center for Open Science depciting the traditional research cycle"}
+![](images/open-research-in-research-cycle.png){fig-align=center width=100% fig-alt="Figure by the Center for Open Science depciting the traditional research cycle"}
 
 ::: {.small}
 Adapted from [Christina Bergmann' slides.](https://docs.google.com/presentation/d/1bdICPzPOFs7V5aOZA2OdQgSAvgoB6WQweI21kVpk9Gg/edit?slide=id.g43f5346e6d_0_1113#slide=id.g43f5346e6d_0_1113)
@@ -971,7 +972,7 @@ What remains **unclear** this far? What questions do you have?
 
 ## Our path to replicability
 
-![](images/improving-credibility-II.png){fig-align=center width=100% fig-alt="ADD"}
+![](images/improving-credibility-ii.png){fig-align=center width=100% fig-alt="ADD"}
 
 ::: {.notes}
 **Presenter Notes**: Going back to our path to replicability. We previously talked about three strategies to increase reliability, the first half of this equation. These three strategies, preregistration registered report and simulations and power analysis were all focused on reducing implicit biases and to make an a priori plan of our research.
@@ -1884,7 +1885,7 @@ g. None of the above
 
 ## Snake oil salesman vs. researcher
 
-![](images/01_snakesman_researcher.png){fig-align=center width=100% fig-alt="snakesman analogy"}
+![](images/01-snakesman-researcher.png){fig-align=center width=100% fig-alt="snakesman analogy"}
 
 ::: {.notes}
 **Presenter Notes**: First let me state an important distinction we probably all agree on: The difference between a researcher and a snake oil salesman.

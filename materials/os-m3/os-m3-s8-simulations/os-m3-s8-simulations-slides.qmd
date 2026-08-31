@@ -1,4 +1,5 @@
 ---
+aliases: [materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations-slides.html]
 title: "Running simulations and power analysis in R"
 author: "Tejaswini Sharma"
 date: "today"
@@ -8,7 +9,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../../assets/logos/osc-logo.jpg  # Inserts logo in the bottom right corner (default)
  # pdf:
   #  geometry: 
   #    - top=30mm
@@ -51,11 +52,11 @@ This current work by Tejaswini Sharma, Sarah von Grebmer zu Wolfsthurn and Malik
 
 <br>
 
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
+**Creator**: Sharma, Tejaswini (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
 
-**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Consultant**: Ihle, Malika (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 
 ::: {.notes}
@@ -80,7 +81,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 |------------|------------|------------|
 | R and RStudio installed | Latest R version: '4.4.0+' and RStudio version: '2026.01.0+392' | [Installation Link](https://posit.co/download/rstudio-desktop/) | 
 | R basics | e.g., how to select a value in a data frame, how to create a vector | [Tutorial Link](https://lmu-osc.github.io/introduction-to-R/) |
-| Familiarity with basic statistical concepts | e.g., hypothesis testing, descriptive statistics, data analysis | [Cheatsheet Link](assets/Cheatsheet.pdf) |
+| Familiarity with basic statistical concepts | e.g., hypothesis testing, descriptive statistics, data analysis | [Cheatsheet Link](assets/cheatsheet.pdf) |
 </div>
 
 ::: {.notes}
@@ -390,7 +391,7 @@ Finally, allow the learners to soak in the knowledge and reasoning, before worry
 ## Basic simulation process
 
 <div style="text-align: center;">
-  <img src="images/SimulationProcess.png" style="width:85%;" />
+  <img src="images/simulationprocess.png" style="width:85%;" />
 </div>
 
 <div style="font-size: 0.8em;">
@@ -567,7 +568,7 @@ This simulation approach is especially useful when experiments are more complex,
 ## Basic simulation process
 
 <div style="text-align: center;">
-  <img src="images/PowerAnalysisProcess.png" style="width:85%;" />
+  <img src="images/poweranalysisprocess.png" style="width:85%;" />
 </div>
 
 <div style="font-size: 0.8em;">

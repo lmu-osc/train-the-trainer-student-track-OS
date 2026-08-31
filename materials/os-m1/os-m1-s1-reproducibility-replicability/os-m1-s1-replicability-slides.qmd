@@ -1,4 +1,5 @@
 ---
+aliases: [materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability-slides.html]
 title: "Threats to credible research: Where are we at?"
 author: "Sarah von Grebmer zu Wolfsthurn"
 date: "today"
@@ -8,7 +9,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../../assets/logos/osc-logo.jpg  # Inserts logo in the bottom right corner (default)
   #pdf:
   #  geometry: 
    #   - top=30mm
@@ -64,12 +65,12 @@ This work was originally created by [Felix Schönbrodt](https://www.nicebread.de
 
 <br>
 
-**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+**Reviewer**: Schönbrodt, Felix (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
-**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Consultant**: Ihle, Malika (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 ::: {.notes}
 **Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
@@ -336,7 +337,7 @@ Central to the research process is the formulation of hypotheses or the proposit
 
 ## The research cycle
 
-<img src="images/00_scientific_method.png" alt="A  diagram illustrating the scientific, with six stages arranged clockwise: Observation/Question, Research topic area, Hypothesis, Test with experiment, Analyze data, and Report Conclusions connected by arrows to show the ongoing, iterative research process." style="display:block; margin:0 auto; width:100%; height:100%;">
+<img src="images/00-scientific-method.png" alt="A  diagram illustrating the scientific, with six stages arranged clockwise: Observation/Question, Research topic area, Hypothesis, Test with experiment, Analyze data, and Report Conclusions connected by arrows to show the ongoing, iterative research process." style="display:block; margin:0 auto; width:100%; height:100%;">
 
 
 ::: footer
@@ -363,7 +364,7 @@ Finally, we report our fundings and conclusions, together with our approach. Thi
 
 ## The research cycle
 
-<img src="images/00_research_cycle.png" alt="A circular diagram illustrating the design-based research cycle, with four stages arranged horizontally: Observation, formulation hypothesis, test hypothesis with experiment, establish theory based on repeated validation of results connected by arrows to show the ongoing, iterative research process." style="display:block; margin:0 auto; width:50%; height:50%;">
+<img src="images/00-research-cycle.png" alt="A circular diagram illustrating the design-based research cycle, with four stages arranged horizontally: Observation, formulation hypothesis, test hypothesis with experiment, establish theory based on repeated validation of results connected by arrows to show the ongoing, iterative research process." style="display:block; margin:0 auto; width:50%; height:50%;">
 
 
 ::: footer
@@ -468,7 +469,7 @@ Finally, politicians and government ministers are the least trusted, with a sign
 
 "Wie sehr vertrauen Sie in Wissenschaft und Forschung?"
 
-![](images/public_trust_in_science.png){.img-full}
+![](images/public-trust-in-science.png){.img-full}
 
 ::: footer
 Source: *Wissenschaft im
@@ -527,8 +528,8 @@ Seyd, B. (2025). What is trust (in science and scientists) and is it in crisis?.
 
 ::: {.column width='40%'}
 ::: {style="height:64vh; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; gap:0.3rem; overflow:hidden;"}
-![](images/car_salesman_closed.png){style="max-height:26vh; width:100%; object-fit:contain;"}
-![](images/car_salesman_open.png){style="max-height:26vh; width:100%; object-fit:contain;"}
+![](images/car-salesman-closed.png){style="max-height:26vh; width:100%; object-fit:contain;"}
+![](images/car-salesman-open.png){style="max-height:26vh; width:100%; object-fit:contain;"}
 :::
 :::
 ::::
@@ -585,7 +586,7 @@ For many people outside of science, it may be surprising that transparency is no
 :::: {.columns}
 ::: {.column width='50%'}
 ::: {.img-vcenter}
-![](images/Used_car_dealer.png){style="max-height:52vh; width:100%; object-fit:contain;"}
+![](images/used-car-dealer.png){style="max-height:52vh; width:100%; object-fit:contain;"}
 :::
 :::
 
@@ -593,7 +594,7 @@ For many people outside of science, it may be surprising that transparency is no
 ::: {.img-vcenter}
 **Nullius in verba** ("take nobody's word for it")
 
-![](images/Coat_of_arms_of_the_Royal_Society.png){style="max-height:44vh; width:100%; object-fit:contain;"}
+![](images/coat-of-arms-of-the-royal-society.png){style="max-height:44vh; width:100%; object-fit:contain;"}
 
 [*The motto of the Royal Society, the oldest scientific society in the world*]{.smaller}
 :::
@@ -629,7 +630,7 @@ Real research : Journal Papers <br>
 Real sex : Pornography
 :::
 
-![](images/Publication_Pinup.png){.img-full}
+![](images/publication-pinup.png){.img-full}
 
 ::: footer
 Inspired by a Tweet from Daniel Lakens; Image from ChatGPT
@@ -736,7 +737,7 @@ Note: The terminology around replication varies between fields, and the boundari
 
 A prototypical **exact/direct replication**: 
 
-![](images/replication_types_matrix1.png){.img-full}
+![](images/replication-types-matrix1.png){.img-full}
 
 ::: {.notes}
 **Presenter Notes**: This table here visualizes an exact or direct replication. Since we would collect new data for a replication study, there would be at least one change in the empirical data. The rest would all be the same: design, stimuli, materials, analysis procedures, participant pool, research questions, hypotheses etc., except for scripts and analysis code.
@@ -748,7 +749,7 @@ A prototypical **exact/direct replication**:
 
 A **realistic example**:
 
-![](images/replication_types_matrix2.png){.img-full}
+![](images/replication-types-matrix2.png){.img-full}
 
 The qualifiers "direct", "conceptual", "close" etc. replications are prototypical configurations of this matrix.
 
@@ -760,7 +761,7 @@ The qualifiers "direct", "conceptual", "close" etc. replications are prototypica
 
 ### p-hacking and QRPs
 
-![](images/04_QRPs.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
+![](images/04-qrps.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
 
 ::: {.notes}
 **Presenter Notes**: We will move to another factor which contributes to the low reproducibility and replicability rates across fields: accidental p-hacking. P-hacking is when researchers manipulate their data or analyses, intentionally or not, to get a statistically significant result (usually p < 0.05). In simple terms, it’s like trying many different tests, methods, or subsets of data until something looks significant, and then reporting only that “lucky” finding.
@@ -953,7 +954,7 @@ Tyner, S. K., Abatayo, A. L., Dayley, M., et al. (2026). Investigating the repli
 
 ## Not a recent issue
 
-<img src="images/reproducibility_literature.png" alt="An image with te titles of journal articles reporting about the replicability and reproducibility crisis across difference disciplines." style="display:block; margin:0 auto; width:100%; height:100%;">
+<img src="images/reproducibility-literature.png" alt="An image with te titles of journal articles reporting about the replicability and reproducibility crisis across difference disciplines." style="display:block; margin:0 auto; width:100%; height:100%;">
 
 ::: footer
 Adapted from Dr. Malika Ihle: [https: https://osf.io/u3znx](https://osf.io/u3znx)
@@ -1037,7 +1038,7 @@ Given that in a given study $p < .05$: What is the probability that a real effec
 
 ## False Discovery Rate 1
 
-![](images/FDR_graph1.png)
+![](images/fdr-graph1.png)
 
 ::: {.footer}
 Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. [http://doi.org/10.1073/pnas.1313476110](http://doi.org/10.1073/pnas.1313476110)
@@ -1057,7 +1058,7 @@ The key issue is statistical power. Here, the power is only 35%, meaning that wh
 
 
 ## False Discovery Rate 2
-![](images/FDR_graph2.png)
+![](images/fdr-graph2.png)
 
 ::: {.footer}
 Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. [http://doi.org/10.1073/pnas.1313476110](http://doi.org/10.1073/pnas.1313476110)
@@ -1075,7 +1076,7 @@ However, the remaining 65% of the 300 tests, or 195 tests, fail to detect the re
 
 
 ## False Discovery Rate 3
-![](images/FDR_graph3.png)
+![](images/fdr-graph3.png)
 
 
 ::: {.footer}
@@ -1100,7 +1101,7 @@ So, the key takeaway from this example is that ‘p < 0.05’ should not be inte
 
 
 ## Applied to neuroscience
-![](images/FDR_article1.png)
+![](images/fdr-article1.png)
 
 - Assumed that our tested hypothesis are true in 30% of all cases (which is a not too risky research scenario):
   - A typical neuroscience study must "fail" ($p > \alpha$) in 90% of all cases
@@ -1144,7 +1145,7 @@ Given that in a given study $p < .05$: What is the probability that a real effec
 :::
 
 ::: {.column}
-![](images/PPV_app.png)
+![](images/ppv-app.png)
 :::
 ::::
 
@@ -1229,7 +1230,7 @@ Why published papers are useful:
 ### 🤔 How do I get lots of publications?
 
 ::: {.fragment}
-![](images/02_significant_results_discipline_92.png){fig-align=center fig-alt="significant results" style="display:block; margin:auto; max-width:120%; max-height:50vh; width:auto; object-fit:contain;"}
+![](images/02-significant-results-discipline-92.png){fig-align=center fig-alt="significant results" style="display:block; margin:auto; max-width:120%; max-height:50vh; width:auto; object-fit:contain;"}
 :::
 
 ::: footer
@@ -1280,11 +1281,11 @@ Song, F., Hooper, L., & Loke, Y. K. (2013). Publication bias: what is it? How do
 
 :::: {.columns}
 ::: {.column}
-![](images/Turner_Study_Publication_Bias_1.png){fig-align=center width=100%}
+![](images/turner-study-publication-bias-1.png){fig-align=center width=100%}
 :::
 
 ::: {.column .fragment}
-![](images/Turner_Study_Publication_Bias_2.png){fig-align=center width=100%}
+![](images/turner-study-publication-bias-2.png){fig-align=center width=100%}
 :::
 ::::
 
@@ -1312,7 +1313,7 @@ Turner, E. H., Matthews, A. M., Linardatos, E., Tell, R. A., & Rosenthal, R. (20
 
   <!-- Left side: single image -->
   <div style="flex: 1; text-align: center;">
-    <img src="images/12_Publication-bias.png" style="width: 100%;" />
+    <img src="images/12-publication-bias.png" style="width: 100%;" />
   </div>
   
 ```
@@ -1358,7 +1359,7 @@ The authors also note that positive trials were published in journals with highe
 ## Confirmation Bias
 ### a.k.a. "Thought so already" bias
 
-![](images/14_cognitive_bias.png){fig-align=center width=100% fig-alt="confirming your own beliefs"}
+![](images/14-cognitive-bias.png){fig-align=center width=100% fig-alt="confirming your own beliefs"}
 
 ::: {.notes}
 **Presenter Notes**: We are humans. And as humans, we often fall victims to our own inherent biases, sometimes or quite often without us noticing. Sometimes we cannot help but to feel like we just unlocked evidence or proof for something that we suspected all along. And it can be that it is true, or just that we stopped looking for more evidence and arguments as soon as we found the evidence that corresponded to our way of thinking. This is called the **confirmation bias**. Confirmation bias refers to the tendency to look for, interpret, or remember information in a way that confirms your pre-existing beliefs or expectations, while ignoring or downplaying evidence that contradicts them. In research, this can lead to selective attention to data, skewed analyses, or overconfident conclusions. For example; imagine a researcher believes that a new study technique helps students perform better. While analyzing results, they might focus on the small group of students who improved and overlook those whose performance stayed the same or worsened. Even unintentionally, this bias can make the findings seem stronger or more conclusive than they really are.
@@ -1551,7 +1552,7 @@ Do **not** try the following at home.
 - For **five outcome variables** (and one-sided testing): False positive rate increases from 5% to **41%**
 
 
-![](images/05_Outcome_Switching.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
+![](images/05-outcome-switching.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
 
 ::: {.notes}
 **Presenter Notes**: Let us say you designed an experiment, generated a hypothesis  and collected some data. Now you are analysising your data and are running a statistical test. When you run a statistical test, you’re checking whether your data could have happened just by random chance. If the p-value, which is the probability of getting your result if there’s really no effect, is less than 0.05, you say the result is “statistically significant.” That means there’s less than a 5% chance that the result happened by luck, assuming the null hypothesis is true. With a p-value below 0.05, you are saying, “I’m fairly confident this effect is real. There’s only about a 5% or a 1 in 20 chance that I incorrectly conclude that an effect or a difference between two conditions exists". In other words, it is the probability that I find a false positive. 
@@ -1574,7 +1575,7 @@ In simple terms, the more outcomes you test, the greater your risk of finding a 
 
   <!-- Left side: single image -->
   <div style="flex: 1; text-align: center;">
-    <img src="images/06_Reporting_Conditions.png" style="width: 100%;" />
+    <img src="images/06-reporting-conditions.png" style="width: 100%;" />
   </div>
   
 ```
@@ -1686,7 +1687,7 @@ Armitage, P., McPherson, C. K., & Rowe, B. C. (1969). Repeated significance test
 
   <!-- Left side: single image -->
   <div style="flex: 1; text-align: center;">
-    <img src="images/08_Selective_Exclusion.png" style="width: 70%;" />
+    <img src="images/08-selective-exclusion.png" style="width: 70%;" />
   </div>
   
 ```
@@ -1716,7 +1717,7 @@ But in order to obtain significant results, you can also perform a first analysi
 - **H**ypothesizing **A**fter **R**esults are **K**nown = presenting an exploratory finding to match a hypothesis that was created only after analysing the results
 - a.k.a. "The Texas sharpshooter fallacy"
 
-<img src="images/TexasSharpShooter.png" alt="p-hacking and questionable research practises" style="display:block; margin:0 auto; width:100%;">
+<img src="images/texassharpshooter.png" alt="p-hacking and questionable research practises" style="display:block; margin:0 auto; width:100%;">
 
 ::: {.notes}
 **Presenter Notes**: Let's talk about another so-called "hack". Note that once again, what I will say next is meant purely in a sarcastic way. This tip to obtain positive results is probably one of my favorites. What you do is the following: you look at your results first, and then come up with a hypothesis afterward. Just forget about the original hypothesis you had and that you tested for. For example: imagine a study testing several relationships between variables. Only one of them turns out significant. Instead of reporting that this was an unexpected result, the researcher rewrites the introduction to make it look like that was their original prediction.
@@ -1728,7 +1729,7 @@ Of course, this practice undermines the credibility of scientific findings becau
 
 ## Combining these "hacks"
 
-![](images/combining_hacks.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
+![](images/combining-hacks.png){fig-align=center width=100% fig-alt="p-hacking and questionble research practises"}
 
 - Combining some of these hacks (*a.k.a. questionable research practices*) can **raise false positive rates** from 5% to > 50%!
 - With *p*-hacking, the logic of the p-value is **corrupted** and “*renders the reported p-values essentially uninterpretable.*”
@@ -1749,7 +1750,7 @@ As a result, the logic of the p-value itself becomes corrupted. P-values are sup
 ## A shocking report from an experienced researcher
 
 <video controls playsinline width="1000">
-  <source src="images/Researcher_p-hacking.mp4" type="video/mp4">
+  <source src="images/researcher-p-hacking.mp4" type="video/mp4">
 </video>
 
 ---
@@ -1839,7 +1840,7 @@ The so-called "hacks" on the past few slides represent **questionable research p
 Come on. Surely not..? 😳
 
 ::: {.fragment}
-![](images/09_QRPs_Psychology.png){fig-alt="p-hacking and questionable research practices" height=400px fig-align="center"}
+![](images/09-qrps-psychology.png){fig-alt="p-hacking and questionable research practices" height=400px fig-align="center"}
 :::
 
 ::: footer
@@ -1862,7 +1863,7 @@ In their paper, they also used some estimation methods I won’t go into detail 
 
 - Survey among 6,813 academic researchers in The Netherlands: **Self-reported prevalence of fabrication and falsification in the last 3 years**
 
-![](images/10_Self_Reported_blank.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
+![](images/10-self-reported-blank.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
 
 ::: footer
 Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter, L. M. (2022). Prevalence of questionable research practices, research misconduct and their potential explanatory factors: A survey among academic researchers in The Netherlands. *PLOS ONE, 17*(2), e0263023. [https://doi.org/10.1371/journal.pone.0263023](https://doi.org/10.1371/journal.pone.0263023)
@@ -1881,7 +1882,7 @@ Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter,
 - Survey among 6,813 academic researchers in The Netherlands: **Self-reported prevalence of fabrication and falsification in the last 3 years**
 
 
-![](images/11_Self_Reported_QRP.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
+![](images/11-self-reported-qrp.png){fig-align=center width=50% fig-alt="QRPs in psychology"}
 
 ::: footer
 Gopalakrishna, G., ter Riet, G., Vink, G., Stoop, I., Wicherts, J. M., & Bouter, L. M. (2022). Prevalence of questionable research practices, research misconduct and their potential explanatory factors: A survey among academic researchers in The Netherlands. *PLOS ONE, 17*(2), e0263023. [https://doi.org/10.1371/journal.pone.0263023](https://doi.org/10.1371/journal.pone.0263023)
@@ -1994,7 +1995,7 @@ The most important point of the story: The original authors **shared their raw d
 
 ## Statistical errors
 
-![](images/QuartelJournal_stat_analysis.png){fig-align=center width=100% fig-alt="QRPs in psychology"}
+![](images/quarteljournal-stat-analysis.png){fig-align=center width=100% fig-alt="QRPs in psychology"}
 
 ::: {.incremental}
 - Reproducible analysis **code and open data required** at submission - “in-house checking” in review process
@@ -2017,7 +2018,7 @@ Based on these experiences, this article presents a set of guidelines for author
 
 ## Statistical inconsistencies
 
-![](images/Statistical_inconsistency.png){.img-full}
+![](images/statistical-inconsistency.png){.img-full}
 
 ---
 
@@ -2148,9 +2149,9 @@ Perhaps there should be more caution around published papers across fields and w
 </style>
 
 <div class="overlap-slide">
-  <img src="images/AI-advice.png" class="img1">
-  <img src="images/AI-hallucinations.png" class="img2">
-  <img src="images/overtrusting_AI.png" class="img3">
+  <img src="images/ai-advice.png" class="img1">
+  <img src="images/ai-hallucinations.png" class="img2">
+  <img src="images/overtrusting-ai.png" class="img3">
 </div>
 
 ::: footer
@@ -2359,7 +2360,7 @@ Likewise, when scientists read published research, they trust that the study was
 - Collects replication results across different psychological fields
 - Provide detailed overview of the original findings and the replication outcomes
 
-![](images/FORRT_Replication_Database.png){fig-align=center width=100% fig-alt="An image of the landing page of the FORRT Replication database"}
+![](images/forrt-replication-database.png){fig-align=center width=100% fig-alt="An image of the landing page of the FORRT Replication database"}
 
 
 ::: footer
@@ -2370,13 +2371,13 @@ Likewise, when scientists read published research, they trust that the study was
 
 ## Why should we trust researchers?
 
-![](images/01_snakesman_researcher.png){fig-align=center width=100% fig-alt="snakesman analogy"}
+![](images/01-snakesman-researcher.png){fig-align=center width=100% fig-alt="snakesman analogy"}
 
 
 
 ## ...right? MOVE
 
-![](images/07_holy_grail.png){fig-align=center width=50% fig-alt="chasing significance"}
+![](images/07-holy-grail.png){fig-align=center width=50% fig-alt="chasing significance"}
 
 
 
@@ -2416,7 +2417,7 @@ NOTE Felix: Nice image, but I think it does not connect 100% to the content deli
 
 ## The "real" scientific method
 
-![](images/00_real_scientific_method.png){fig-align=center width=10% fig-alt="diagram of the real scientific method by phdcomics.com to illustrate the QRPs and biased nature inherent to the research cycle."}
+![](images/00-real-scientific-method.png){fig-align=center width=10% fig-alt="diagram of the real scientific method by phdcomics.com to illustrate the QRPs and biased nature inherent to the research cycle."}
 
 
 ::: {.notes}

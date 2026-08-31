@@ -1,4 +1,5 @@
 ---
+aliases: [materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I-slides.html]
 title: "Introduction to R: Part I"
 author: "LMU Open Science Center"
 date: "today"
@@ -9,7 +10,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../../assets/logos/osc-logo.jpg  # Inserts logo in the bottom right corner (default)
   pdf:
     geometry: 
       - top=30mm
@@ -49,20 +50,20 @@ Please cite as ADD ZENODO REPO.
 
 ## Contribution statement
   
-**Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Creator**: Sanchez Steinhagen, Caterina Luz (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
 
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/0009-0000-0305 9751))
+**Creator**: Sharma, Tejaswini (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/0009-0000-0305 9751))
 
-**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
+**Creator**: Waterfield, Elizabeth (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
 
-**Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Creator**: Rieger, David (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
 
-**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Middleton, Sara Lil (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Reviewer**: Middleton, Sara Lil (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0001-5307-8029))
 
 ::: {.notes}
@@ -86,7 +87,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 |------------|------------|------------|
 | RStudio installed | Version Version 2026.04.0+526 or higher | [Download](https://posit.co/download/rstudio-desktop/) |
 | R installed | Version 4.5.2 or higher | [Download](https://www.r-project.org/) |
-| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/Accessibility_sheet_for_computers_OSSS26.pdf)
+| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/accessibility-sheet-for-computers-osss26.pdf)
 </div>
 
 ::: {.notes}
@@ -284,7 +285,7 @@ Keep this introduction brief and motivational. The goal is not to teach R, but t
 ::: {.column width="80%"}
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen1.png"/>
+<img src="images/r-screen1.png"/>
 :::
 
 :::
@@ -404,7 +405,7 @@ This helps make your code more readable and easier to understand — both for ot
 ## Creating a new R script
 
 ::: {style="text-align: center;"}
-<img src="images/R_screen2.png" style="width:70%;"/>
+<img src="images/r-screen2.png" style="width:70%;"/>
 :::
 
 ::: {.notes}
@@ -431,7 +432,7 @@ It’s important to save your script early and in an organised folder, so you do
 :::
 ::: {.column width="40%"}
 
-![](images/file_explorer.png){width="30%"}
+![](images/file-explorer.png){width="30%"}
 
 :::
 ::::::
@@ -566,7 +567,7 @@ Take about one to two minutes to go through all three, and then we’ll quickly 
 Data types define what **kind** of values you are working with
 
 ::: {style="text-align: center;"}
-<img src="images/data_types_3.png" style="width:100%;"/>
+<img src="images/data-types-3.png" style="width:100%;"/>
 :::
 
 ::: {.notes}
@@ -680,7 +681,7 @@ Also, take note of the placement: the variable name goes in-front of the assignm
 
 The object then appears in the **Environment** pane *(top right pane)*.
 
-![](images/R_screen4.png){fig-alt="Environment Pane Screenshot with x and y as objects"}
+![](images/r-screen4.png){fig-alt="Environment Pane Screenshot with x and y as objects"}
 
 ::: {.notes}
 **Presenter Notes**: Here you can see an example of how an object appears in the Environment pane in RStudio.  
@@ -1113,7 +1114,7 @@ There are two main ways to look up a function.
 - Navigate to the **Help** tab in the bottom right pane of RStudio and type the function name into the search bar.
 
 ::: {style="text-align: center;"}
-![](images/help_search_bar.png){style="width:65%;"}
+![](images/help-search-bar.png){style="width:65%;"}
 :::
 
 ::: {.notes}
@@ -1144,7 +1145,7 @@ Help pages can look intimidating, but you only need to focus on a few key sectio
 Example: For the `sort()` function we can see that it can also use character vectors or values as input and orders them.
 
 ::: {style="text-align: center;"}
-![](images/help_sort_docs.png){style="width:70%;"}
+![](images/help-sort-docs.png){style="width:70%;"}
 :::
 
 ::: {.notes}

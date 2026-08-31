@@ -1,4 +1,5 @@
 ---
+aliases: [materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub-slides.html]
 title: "Introduction to Collaborative Coding with GitHub"
 author: "Elizabeth Waterfield"
 date: "today"
@@ -8,7 +9,7 @@ format:
     css: ../../../slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../../assets/logos/osc-logo.jpg  # Inserts logo in the bottom right corner (default)
  # pdf:
    # geometry:
     #  - top=30mm
@@ -44,11 +45,11 @@ This work was originally created by [Anna Krystalli](https://github.com/annakrys
 
 ## Contribution statement
 
-**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
+**Creator**: Waterfield, Elizabeth (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
 
-**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Consultant**: Ihle, Malika (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 ::: {.notes}
 **Presenter Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
@@ -139,7 +140,7 @@ Any remaining questions about the most recent content and/or practical exercises
 
 ## Before we start: Survey time!
 
-![](images/00_Particify_Survey_Rooms.png){fig-align="center" fig-alt="An image of a QR code that leads to a survey."}
+![](images/00-particify-survey-rooms.png){fig-align="center" fig-alt="An image of a QR code that leads to a survey."}
 
 ::: callout-note
 ## Starting Survey
@@ -386,7 +387,7 @@ Think about your past experience working collaboratively in a team. Did you face
 :::::: {style="display: flex; gap: 1em;"}
 ::: {style="flex: 0.3;"}
 
-![](images/01_GitHub_Logo.png){fig-alt="black and white image of GitHub's logo which resembles a cat with a tail on the left."}
+![](images/01-github-logo.png){fig-alt="black and white image of GitHub's logo which resembles a cat with a tail on the left."}
 
 :::
 ::: {style="flex: 1.7;"}
@@ -414,7 +415,7 @@ Think about your past experience working collaboratively in a team. Did you face
 :::::: {style="display: flex; gap: 0.5em;"}
 ::: {style="flex: 0.5;"}
 
-![](images/02_Collab_Code.png){fig-alt="A drawing with lines connecting several persons to indicate collaboration."}
+![](images/02-collab-code.png){fig-alt="A drawing with lines connecting several persons to indicate collaboration."}
 
 :::
 ::: {style="flex: 2.5;"}
@@ -448,7 +449,7 @@ Collaborative coding is only **one way** a team or a research group can work tog
 
 What a *workflow* using **GitHub** can look like:
 
-![](images/03_GitHub_Workflow.png){fig-align="center" fig-alt="A diagram showing a collaborative workflow using GitHub including actions like fork, clone, commit changes, push changes, and pull request."}
+![](images/03-github-workflow.png){fig-align="center" fig-alt="A diagram showing a collaborative workflow using GitHub including actions like fork, clone, commit changes, push changes, and pull request."}
 
 
 ::: {.notes}
@@ -881,7 +882,7 @@ Refresh the page of your forked repository on GitHub and you should see your new
 
 ## Pre-break quiz
 
-![](images/00_Particify_Survey_Rooms.png){fig-align="center" fig-alt="An image of a QR code that leads to a survey."}
+![](images/00-particify-survey-rooms.png){fig-align="center" fig-alt="An image of a QR code that leads to a survey."}
 
 ::: callout-note
 ## Pre-break quiz
@@ -1371,7 +1372,7 @@ git push
 
 Remember this illustration?
 
-![](images/04_Recap_Activity.png){fig-align="center"}
+![](images/04-recap-activity.png){fig-align="center"}
 
 *Fill in the missing words with the actions we learned today!*
 
@@ -1388,7 +1389,7 @@ Remember this illustration?
 <br>
 
 <div style="text-align: center;">
-  <a href="images/03_GitHub_Workflow.png" download 
+  <a href="images/03-github-workflow.png" download 
      style="background-color:#007ACC; color:white; padding:10px 16px; border-radius:6px; 
             text-decoration:none; font-weight:600;">
     Download the completed diagram
@@ -1477,7 +1478,7 @@ Here is an activity sheet to learn and practice Git commands **in the terminal**
 <br>
 
 <div style="text-align: center;">
-  <a href="assets/OS-M3-S5-GitHub-activity_sheet.pdf" download 
+  <a href="assets/os-m3-s5-github-activity-sheet.pdf" download 
      style="background-color:#007ACC; color:white; padding:10px 16px; border-radius:6px; 
             text-decoration:none; font-weight:600;">
     Download the GitHub activity sheet
@@ -1497,7 +1498,7 @@ A suggestion is to design an assignment giving learners the opportunity to learn
 
 ## To conclude: Survey time!
 
-![](images/00_Particify_Survey_Rooms.png){fig-align="center" fig-alt="An image of a QR code that leads to a survey."}
+![](images/00-particify-survey-rooms.png){fig-align="center" fig-alt="An image of a QR code that leads to a survey."}
 
 ::: callout-note
 ## Final survey
