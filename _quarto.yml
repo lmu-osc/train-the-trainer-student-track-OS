@@ -1,10 +1,18 @@
+# Begin Project
 project:
-  type: website
-  output-dir: docs
+  type: tutorial-template
+  # FYI: the tutorial-template project type is defined in the lmu-osc/tutorial-template extension
+# End Project
 
+# Begin Website
+repo-url: https://github.com/lmu-osc/train-the-trainer-student-track-OS
 website:
-  title: "Educational resources for teaching Open Research to novices"
-  page-navigation: true
+  title: "Educational Resources for Teaching Open Research to Novices"
+  page-footer:
+    border: false
+    center: © 2026 Sarah von Grebmer zu Wolfsthurn, Sara Middleton, Malika Ihle, Felix Schönbrodt. Published by LMU Open Science Center. Licensed under CC BY-SA 4.0.
+  repo-url: https://github.com/lmu-osc/train-the-trainer-student-track-OS
+
   navbar:
     right:
       - about.qmd
@@ -13,41 +21,49 @@ website:
         text: Home
       - href: help.qmd
         text: Help
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/lmu-osc/train-the-trainer-student-track-OS
+          - text: Report a Bug
+            href: https://github.com/lmu-osc/train-the-trainer-student-track-OS/issues
+      - icon: house-heart
+        url: https://www.osc.lmu.de/
+
   sidebar:
     style: "docked"
-    collapse-level: 1
     contents:
-      - section: "Template Module"
-        contents:
-          #- href: materials/OS-template-module/OS-template.qmd
+      - text: "Overview"
+        href: index.qmd
       - section: "Module 1: Open Research Principles"
         contents:
-          # - href: materials/OS-M1/OS-M1-S0-Module-Intro/OS-M1-S0-Module-Intro.qmd
-          - href: materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability.qmd
-          - href: materials/OS-M1/OS-M1-S2-Credibility/OS-M1-S2-Credibility.qmd
-      - section: "Module 2: Open Research Methodological Foundations"
-        contents:
-          # - href: materials/OS-M2/OS-M2-S0-Module-Intro/OS-M2-S0_Module-Intro.qmd
+          - href: materials/os-m1/os-m1-s1-reproducibility-replicability/os-m1-s1-replicability.qmd
+          - href: materials/os-m1/os-m1-s2-credibility/os-m1-s2-credibility.qmd
       - section: "Module 3: Open Research Software Tools"
         contents:
-           - href: materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.qmd
-           #- href: materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S3-R-Part-II.qmd
-           - href: materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.qmd
-           - href: materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub.qmd
-           - href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd
-           - href: materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.qmd # moved from 1 to this spot
-           - href: materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.qmd
-      - section: "Module 4: Open Code and Open Data"
-        contents:
-      - section: "Module 5: Open Results"
-        contents:
+          - href: materials/os-m3/os-m3-s2-r-part-i/os-m3-s2-r-part-i.qmd
+          - href: materials/os-m3/os-m3-s4-git/os-m3-s4-git.qmd
+          - href: materials/os-m3/os-m3-s5-github/os-m3-s5-github.qmd
+          - href: materials/os-m3/os-m3-s6-quarto/os-m3-s6-quarto.qmd
+          - href: materials/os-m3/os-m3-s1-zotero/os-m3-s1-zotero.qmd
+          - href: materials/os-m3/os-m3-s8-simulations/os-m3-s8-simulations.qmd
+# End Website
 
+# Begin Format
+# use only if needed. the default format for `tutorial-template` projects is tutorial-template-html+tutorial
 format:
-  html:
-    theme:
-      - cosmo
-      - brand
-    css: website-custom.css
-    toc: true
+  tutorial-template-html+tutorial:
+    css:
+      - footer/footer-style.css
     include-in-header:
       - file: matomo-analytics.html
+    include-after-body:
+      - file: footer/footer.html
+# End Format
+
+# Begin Editor
+editor: source
+# End Editor
+
+bibliography: references.bib

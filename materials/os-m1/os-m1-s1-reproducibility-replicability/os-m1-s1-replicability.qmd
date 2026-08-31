@@ -1,0 +1,76 @@
+---
+aliases: [materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability.html]
+title: "1.1. Reproducibility and replicability"
+---
+
+> Scientific research practices under the microscope
+
+## About these materials
+
+**Welcome!** This workshop is intended to provide learners with an introduction to key challenges and threats in scientific research. It explores different forms of research bias, statistical uncertainties, and common sources of errors that can affect the reliability and reproducibility of research findings. Through practical examples and research scenarios, the presentation encourages critical analysis of questionable research practices and their impact on scientific integrity. It also reflects on current systemic challenges in research culture and discusses the importance of developing more transparent, robust, and alternative approaches to conducting and evaluating research.
+
+### Who are these materials for?
+
+The target audience of this workshop is twofold:
+
+- **Self-learners** with no prior experience with Open Science and/or issues around reproducibility and replicability, who are interested in diving deeper into these topics through a combination of real-world scenarios and practical exercises. You can follow these materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Presenter notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
+
+- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
+### Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| UNESCO Recommendations on Open Science | Recommended reading: pp 6-19 | [Download Link](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+</div>
+
+
+### Learning goals
+
+- **Recognize** different types of challenges in research: research biases, statistical insecurities, errors and where they can arise from
+- **Analyze** research scenarios to identify potential research biases and questionable research practices
+- **Reflect** on the current threats for research and on the need for alternative approaches to conducting research
+
+
+## Materials
+
+[Click here to see the materials in full screen](os-m1-s1-replicability-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="os-m1-s1-replicability-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx) or pdf by pressing the button below. Note that basic formatting will be applied for the PowerPoint. MAKE powerpoint template to use for export. 
+
+<!-- download as pdf -->
+<a href="../../../docs/materials/os-m1/os-m1-s1-reproducibility-replicability/os-m1-s1-reproducibility-replicability-slides.pdf"
+   download="os-m1-s1-reproducibility-replicability-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+ <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
+ 
+## Contributors and licence details
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Reviewer**: Schönbrodt, Felix (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+**Consultant**: Ihle, Malika (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Felix Schönbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+</div>

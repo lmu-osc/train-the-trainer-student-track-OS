@@ -1,0 +1,99 @@
+---
+aliases: [materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.html]
+title: "3.7. Introduction to Zotero"
+---
+
+> Citing like a pro and more time for your writing.
+
+
+## About these materials
+
+**Welcome!** This workshop is intended to provide learners with the theoretical background and the hands-on experience with using citation and the free citation tool Zotero to organize research materials, add and manage references, and create formatted bibliographies and citations in different writing environments. They will also learn how Zotero integrates with tools like Quarto and RStudio to support reproducible workflows and streamline the process of adding and formatting citations in academic documents.
+
+ 
+### Who are these materials for?
+
+The target audience of this workshop is twofold:
+
+- **Self-learners** with no prior experience with citation tools, who are interested in developing their skills on the topic. You can follow the materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Presenter notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
+
+- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
+
+### Prerequisites
+
+<div style="font-size: 1em;">
+| Prerequisite   |  Description  | Link   |
+|------------|------------|------------|
+| Zotero and Zotero Connector | Citation tool and extension | Download [Link](https://www.zotero.org/download/) |
+| R | Version 4.5. or higher | [Download Link](https://cran.rstudio.com/) |
+| RStudio | Version 2026.01.1+403 or higher | [Download Link](https://posit.co/download/rstudio-desktop/) |
+</div>
+
+
+### Learning objectives
+
+- **Explain** the importance of citing scientific literature and citation tools
+- **Familiarize yourself** with different citation formats (CSL)
+- **Set up and organize** a personal Zotero library
+- **Apply and develop** a referencing workflow in Quarto and RStudio
+- **Apply and develop** a referencing workflow in MS Word
+
+
+## Materials
+
+[Click here to see the materials in full Screen](os-m3-s1-zotero-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="os-m3-s1-zotero-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
+### Download files
+
+#### Practical exercises - solutions
+
+Download the solutions for the practical exercises here: 
+
+{{< downloadthis assets/example-data.csv dname="example-data.csv" label="Download">}}
+
+#### Helpfiles
+
+Download the csv file for the example data: 
+
+{{< downloadthis assets/example-data.csv dname="example-data.csv" label="Download">}}
+
+ <!-- https://github.com/shafayetShafee/downloadthis -->
+<!--  https://cran.r-project.org/web/packages/downloadthis/vignettes/downloadthis.html -->
+
+## Export slides
+
+You can export these slides as PowerPoint by pressing the button below. Note that basic formatting will be applied. MAKE powerpoint template to use for export. 
+
+
+{{< downloadthis os-m3-s1-zotero-slides.pptx dname="os-m3-s1-zotero-slides" label="Download slides as PPTX">}}
+
+{{< downloadthis os-m3-s1-zotero-slides.pdf dname="os-m3-s1-zotero-slides" label="Download slides as PDF">}}
+
+ <!-- https://quarto.org/docs/presentations/powerpoint.html#powerpoint-templates -->
+ 
+## Contributors and licence details
+
+
+**Creator**: Sharma, Tejaswini (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
+[0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
+
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/orcid-id-icon-16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png"
+       alt="CC BY 4.0 SA"
+       style="height:50px;">
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
+This work was originally created by Pat Callahan and Dejana Damjanovic under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) and a CC0 1.0 [Creative Commons Universal](https://creativecommons.org/publicdomain/zero/1.0/) licence for code snippets. It was subsequently adapted and revised by [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895). This current work by [Tejaswini Sharma](https://orcid.org/0009-0000-0305-9751) and Sarah von Grebmer zu Wolfsthurn is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+</div>
